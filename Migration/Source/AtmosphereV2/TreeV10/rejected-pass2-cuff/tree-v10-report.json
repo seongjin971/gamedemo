@@ -1,0 +1,85 @@
+{
+  "source_sha256": "2c42381b49062e50b98c4dda6c5b1670db57be54fa8dddde12d21444a6ce0aeb",
+  "source_unchanged": true,
+  "triangles": 90816,
+  "export_vertices": 52633,
+  "raw_major_triangles": 249564,
+  "authored_major_crown_systems": 8,
+  "unequal_forks": 48,
+  "secondary_forks": 80,
+  "buttresses": 4,
+  "small_feeders": 4,
+  "bark_plates": 364,
+  "preserved_lower_trunk_source_vertices": 1075,
+  "bounds_blender_min": [
+    -3.3605875968933105,
+    -1.133099913597107,
+    -0.16543224453926086
+  ],
+  "bounds_blender_max": [
+    2.9898698329925537,
+    1.0898516178131104,
+    6.394671440124512
+  ],
+  "matrix_local": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "source_matrix_local": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "coordinates": "(-x,z,-y); triangle winding [0,2,1] once",
+  "finite": true,
+  "connected_major_component_vertices": [
+    17900
+  ],
+  "revision": "pass2-native-review",
+  "pass1_sha256": "4aeb4d0dc3e0cf13beaf2a33fd0a90dcc5736761b1163238b977d0fcd28e6674",
+  "discarded_zero_area_export_triangles": 0,
+  "tiny_cap_flat_normal_fallbacks": 9
+}

@@ -1,0 +1,66 @@
+{
+  "source_sha256": "00ee641f13bdc841a4d0fd531379380a33952ee8f952133e750380e9e4be5c59",
+  "mesh_sha256": "630a8d5fcc54f38825fcdbf7fb401cd9768894d67b1b7d3e8b4f91cf329242ce",
+  "triangles": 104872,
+  "vertices": 161710,
+  "unchanged_arrays": {
+    "uv": true,
+    "indices": true,
+    "colors": true,
+    "normals": true
+  },
+  "all_xz_unchanged": true,
+  "outside_vertices_unchanged": true,
+  "bounds_before": [
+    [
+      -8.936228752,
+      -0.115000002,
+      -11.101970673
+    ],
+    [
+      9.040660858,
+      0.010417859,
+      21.067903519
+    ]
+  ],
+  "bounds_after": [
+    [
+      -8.936228752,
+      -0.126000002,
+      -11.101970673
+    ],
+    [
+      9.040660858,
+      0.010417859,
+      21.067903519
+    ]
+  ],
+  "modified_body": "HeroScanSlab_280_bottom_left_large",
+  "modified_body_index_range": [
+    231480,
+    231888
+  ],
+  "modified_vertices": 286,
+  "max_down_m": 0.011000000000000003,
+  "body_bounds_after": [
+    [
+      0.07018248,
+      -0.126000002,
+      0.594881296
+    ],
+    [
+      1.035349369,
+      -0.0059495,
+      1.138462782
+    ]
+  ],
+  "strict_positive_triangle_normals": 104872,
+  "nonpositive_triangle_normals": 0,
+  "degenerate_triangles": 0,
+  "closed_bodies": 493,
+  "bad_bodies": [],
+  "max_unit_normal_error": 1.6921215884035945e-07,
+  "bounds_note": "Exact X/Z preserved; buried min Y extends 11mm by explicit authorization. No normalization.",
+  "rigid_translation_error": 3.469446951953614e-18,
+  "passed": true
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Flagstone_Split",
+    "vertices": 1213,
+    "triangles": 718
+  },
+  {
+    "name": "Flagstone_Spalled",
+    "vertices": 1380,
+    "triangles": 814
+  },
+  {
+    "name": "Flagstone_Laminated",
+    "vertices": 1218,
+    "triangles": 700
+  },
+  {
+    "name": "Flagstone_Weathered",
+    "vertices": 1212,
+    "triangles": 708
+  },
+  {
+    "name": "Flagstone_Cleft",
+    "vertices": 1412,
+    "triangles": 844
+  },
+  {
+    "name": "Flagstone_Granular",
+    "vertices": 1220,
+    "triangles": 712
+  },
+  {
+    "name": "Flagstone_Worn",
+    "vertices": 1196,
+    "triangles": 702
+  },
+  {
+    "name": "Flagstone_Branched",
+    "vertices": 1394,
+    "triangles": 826
+  },
+  {
+    "name": "Masonry_Broken",
+    "vertices": 376,
+    "triangles": 500
+  },
+  {
+    "name": "Masonry_Quarried",
+    "vertices": 380,
+    "triangles": 500
+  }
+]

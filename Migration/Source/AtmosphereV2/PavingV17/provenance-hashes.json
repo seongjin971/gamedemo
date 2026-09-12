@@ -1,0 +1,19 @@
+{
+  "build_fracture_graph.py": "b614e3ed1cfc27c204ae182ab1e18bb9a4a7569e00cb4de63c4eac8e360de55f",
+  "trace_graph.json": "66b2ed9f171b512d29b85218d8e94a02bbc53cd33fb6306b804a15821696c6e9",
+  "validate_fracture_graph.py": "ef7deeec56b728f213aa5f7c6503acd9f350e82cf232de1f1e7db7c186be96c8",
+  "render_previews.py": "6941d1c1bd048eadec9dfa7670680d4e2f93721ff8eb2436f6cda5bd660757fc",
+  "paving-v17-mesh.json": "64ff97f22ef1995723ce5a8883f6f41610354b93ab112911eec169f00cc23b44",
+  "paving-v17.blend": "369475c7b3f39644d1dc098990ddb2d888f845f9b8346d28bc87209184f49a7d",
+  "fracture-metadata.json": "80d45daac9faf9a308e403171d6c371960d9851f4b1056febd99c17a10d7858b",
+  "export-qa.json": "59c2c85207303a2632f58e5a457b679d241a924b35e9e50ea709d6e55ad07cfc",
+  "preview-projection-qa.json": "268d74716eb95c512d3c480a029e35dd5645103e26fb297a9c4147ec6b74769a",
+  "BUILD_REPORT.md": "24b11283a0f70867c4c07d894462e9e006ad9cf7545bd56aa9a4f9af08197e84",
+  "previews\\after-v17-neutral-patch.png": "63eee17e567e469a1bedaa6cc1b40eff23606a16560cc3d67b4e552e5eb3931b",
+  "previews\\after-v17-textured-full.png": "f0fc5de5933bb84f01087720da7ba898a72198a38c41ba8014f123bd6d765ef0",
+  "previews\\after-v17-textured-patch.png": "3ef2112685389c06096da367fcc2487dbb142e372a88425dd3dc8a4943953c69",
+  "previews\\before-v16-neutral-patch.png": "8d8238d1aed09ff162d8d6ef1fb6f031979d48b1d685d9cac6933a1f3c4eb250",
+  "previews\\before-v16-textured-full.png": "4b7ea7f792256026ea92a01bc1c09630f10db98d2229b4bb8afbb47fbbace8de",
+  "previews\\before-v16-textured-patch.png": "0ae2b060da6638049247a99e0f2981d0e9c8e7f8c149a05d423e2c9492316200",
+  "../PavingV16/paving-v16-mesh.json": "f812feed57a6b6e2fa3c7378caada08243c650883b5e1f33d630640dd828b7b6"
+}

@@ -1,0 +1,609 @@
+{
+  "source": "Migration/Source/AtmosphereV2/Stone/stone-v6.blend",
+  "method": "Edit inherited sculpt topology; subdivide once; flatten top relief 70%; compact angular spall brushes; original fissures retained",
+  "export_basis": "alreadyUnity: Blender (x,y,z) to (-x,z,-y), normals same, triangles (0,2,1). Matches v6 exactly. No object transforms baked.",
+  "source_sha256": {
+    "ArtSource\\stone-v5.blend": "ed89ec8342ebd04e152889eb1ba6c6685cf46ac92b349b4f0d4087e89091c0c1",
+    "public\\models\\stone-v5.glb": "2d190893fa70835e7a6aed197e9f3c9dfc235dce151a044beafacfbe91786565",
+    "Migration\\Source\\AtmosphereV2\\Stone\\30387f49-1a6e-42e9-80e4-01b8c8c559c1.json": "ae61fe6aa8184df440a9824cc3f7a1c15af605d3d159dcb5a57204b4121459eb",
+    "Migration\\Source\\AtmosphereV2\\Stone\\4bbd6673-eca6-49ea-bb85-529da237542a.json": "ab701d0a21c0ea113396d970345bff0e4a344467faab3a000e6be5a4f99375db",
+    "Migration\\Source\\AtmosphereV2\\Stone\\4bf543ce-10f0-4018-88ca-18754deeeb53.json": "4f526a48021678117f954395468c02a86be496eed33a41e7c33bebfd5b6c22b6",
+    "Migration\\Source\\AtmosphereV2\\Stone\\639f340b-3b93-4211-a7ff-cd35c89a1f9f.json": "51017af35b25cc81d8206f2871f638c350f929d3d1503eadb33c5b6649d5f22f",
+    "Migration\\Source\\AtmosphereV2\\Stone\\740f8589-aea6-4e9f-831f-6adbdb49ada3.json": "f534e4aaea54b6b90b8c9f61bdb1f41daa51cef0b5f7498b21728d905af60d73",
+    "Migration\\Source\\AtmosphereV2\\Stone\\7a2d80e2-5804-4629-8fcd-a6045025c7c6.json": "acb413f0397888ad0cdab6f858825d082250054026b3c6e31d749e7642c857b3",
+    "Migration\\Source\\AtmosphereV2\\Stone\\7b9ce760-2f47-40f1-98d7-6b4e0aadc2e5.json": "12d8a24e067c45f08c42cc9674aa46c11909569017d4cb1cb16ee40e1b90ad20",
+    "Migration\\Source\\AtmosphereV2\\Stone\\b761423f-facb-4ef9-9d08-71d49f2eb0d8.json": "e5941d9f6bee8d5028efd126dc5316b1ceea88181424f3d735d21ba5cb07c594",
+    "Migration\\Source\\AtmosphereV2\\Stone\\build_stone_v6.py": "08c41333f850dc983d79af6f5f3c2a6e6a477729b45714774b28ff6c8cda904f",
+    "Migration\\Source\\AtmosphereV2\\Stone\\c9afbeaf-3585-4c29-a0e1-fcd500940346.json": "9a305863afe10be114339e4ed7fd95fcf0f16032277d226e3461e53a7a16019e",
+    "Migration\\Source\\AtmosphereV2\\Stone\\f01cf337-cea7-42b3-b142-24f2fc145766.json": "dda063e4c84992476c9e5b14e8abb2391bc13df595c03ef9c4583fe7f3a45e92",
+    "Migration\\Source\\AtmosphereV2\\Stone\\stone-v6-report.json": "44db15fa37c175e8b2bcea86b0f6495a78915ef70aeccb93295cd130ccc039e3",
+    "Migration\\Source\\AtmosphereV2\\Stone\\stone-v6.blend": "7541403fcb669dd1b0cade10f2419584878f8ac07a693f6ad785609559eaa7ed"
+  },
+  "source_preserved": {
+    "ArtSource\\stone-v5.blend": true,
+    "public\\models\\stone-v5.glb": true,
+    "Migration\\Source\\AtmosphereV2\\Stone\\30387f49-1a6e-42e9-80e4-01b8c8c559c1.json": true,
+    "Migration\\Source\\AtmosphereV2\\Stone\\4bbd6673-eca6-49ea-bb85-529da237542a.json": true,
+    "Migration\\Source\\AtmosphereV2\\Stone\\4bf543ce-10f0-4018-88ca-18754deeeb53.json": true,
+    "Migration\\Source\\AtmosphereV2\\Stone\\639f340b-3b93-4211-a7ff-cd35c89a1f9f.json": true,
+    "Migration\\Source\\AtmosphereV2\\Stone\\740f8589-aea6-4e9f-831f-6adbdb49ada3.json": true,
+    "Migration\\Source\\AtmosphereV2\\Stone\\7a2d80e2-5804-4629-8fcd-a6045025c7c6.json": true,
+    "Migration\\Source\\AtmosphereV2\\Stone\\7b9ce760-2f47-40f1-98d7-6b4e0aadc2e5.json": true,
+    "Migration\\Source\\AtmosphereV2\\Stone\\b761423f-facb-4ef9-9d08-71d49f2eb0d8.json": true,
+    "Migration\\Source\\AtmosphereV2\\Stone\\build_stone_v6.py": true,
+    "Migration\\Source\\AtmosphereV2\\Stone\\c9afbeaf-3585-4c29-a0e1-fcd500940346.json": true,
+    "Migration\\Source\\AtmosphereV2\\Stone\\f01cf337-cea7-42b3-b142-24f2fc145766.json": true,
+    "Migration\\Source\\AtmosphereV2\\Stone\\stone-v6-report.json": true,
+    "Migration\\Source\\AtmosphereV2\\Stone\\stone-v6.blend": true
+  },
+  "all_sources_preserved": true,
+  "mesh_count": 10,
+  "total_triangles": 25554,
+  "meshes": [
+    {
+      "id": "740f8589-aea6-4e9f-831f-6adbdb49ada3",
+      "name": "Flagstone_Split",
+      "source_vertices": 572,
+      "sculpt_vertices": 1714,
+      "export_vertices": 1740,
+      "triangles": 2602,
+      "source_blender_bounds": [
+        [
+          -0.49784260988235474,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.46779516339302063
+        ]
+      ],
+      "blender_bounds": [
+        [
+          -0.49784260988235474,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.46779516339302063
+        ]
+      ],
+      "unity_bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.49784260988235474,
+          0.46779516339302063,
+          0.5
+        ]
+      ],
+      "bounds_exact": true,
+      "transform_unchanged": true,
+      "modified_vertices": 996,
+      "maximum_vertex_delta": 0.05299335702544472,
+      "nonmanifold_edges_welded": 0,
+      "finite": true,
+      "indices_valid": true,
+      "edge_chip_support_fraction": 0.0925,
+      "chip_depth_unit_range": [
+        0.012,
+        0.024
+      ]
+    },
+    {
+      "id": "f01cf337-cea7-42b3-b142-24f2fc145766",
+      "name": "Flagstone_Spalled",
+      "source_vertices": 705,
+      "sculpt_vertices": 2003,
+      "export_vertices": 2022,
+      "triangles": 2870,
+      "source_blender_bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.46939998865127563
+        ]
+      ],
+      "blender_bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.46939998865127563
+        ]
+      ],
+      "unity_bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.46939998865127563,
+          0.5
+        ]
+      ],
+      "bounds_exact": true,
+      "transform_unchanged": true,
+      "modified_vertices": 1192,
+      "maximum_vertex_delta": 0.05510774358830906,
+      "nonmanifold_edges_welded": 0,
+      "finite": true,
+      "indices_valid": true,
+      "edge_chip_support_fraction": 0.0925,
+      "chip_depth_unit_range": [
+        0.016,
+        0.028
+      ]
+    },
+    {
+      "id": "639f340b-3b93-4211-a7ff-cd35c89a1f9f",
+      "name": "Flagstone_Laminated",
+      "source_vertices": 595,
+      "sculpt_vertices": 1739,
+      "export_vertices": 1749,
+      "triangles": 2550,
+      "source_blender_bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.46822938323020935
+        ]
+      ],
+      "blender_bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.46822938323020935
+        ]
+      ],
+      "unity_bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.46822938323020935,
+          0.5
+        ]
+      ],
+      "bounds_exact": true,
+      "transform_unchanged": true,
+      "modified_vertices": 999,
+      "maximum_vertex_delta": 0.05073964496186365,
+      "nonmanifold_edges_welded": 0,
+      "finite": true,
+      "indices_valid": true,
+      "edge_chip_support_fraction": 0.0925,
+      "chip_depth_unit_range": [
+        0.012,
+        0.032
+      ]
+    },
+    {
+      "id": "4bf543ce-10f0-4018-88ca-18754deeeb53",
+      "name": "Flagstone_Weathered",
+      "source_vertices": 601,
+      "sculpt_vertices": 1762,
+      "export_vertices": 1784,
+      "triangles": 2574,
+      "source_blender_bounds": [
+        [
+          -0.5,
+          -0.49528107047080994,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.46939998865127563
+        ]
+      ],
+      "blender_bounds": [
+        [
+          -0.5,
+          -0.49528107047080994,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.46939998865127563
+        ]
+      ],
+      "unity_bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.46939998865127563,
+          0.49528107047080994
+        ]
+      ],
+      "bounds_exact": true,
+      "transform_unchanged": true,
+      "modified_vertices": 985,
+      "maximum_vertex_delta": 0.05309856016306927,
+      "nonmanifold_edges_welded": 0,
+      "finite": true,
+      "indices_valid": true,
+      "edge_chip_support_fraction": 0.0925,
+      "chip_depth_unit_range": [
+        0.016,
+        0.036000000000000004
+      ]
+    },
+    {
+      "id": "b761423f-facb-4ef9-9d08-71d49f2eb0d8",
+      "name": "Flagstone_Cleft",
+      "source_vertices": 719,
+      "sculpt_vertices": 2047,
+      "export_vertices": 2062,
+      "triangles": 2948,
+      "source_blender_bounds": [
+        [
+          -0.4982275068759918,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.46939998865127563
+        ]
+      ],
+      "blender_bounds": [
+        [
+          -0.4982275068759918,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.46939998865127563
+        ]
+      ],
+      "unity_bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.4982275068759918,
+          0.46939998865127563,
+          0.5
+        ]
+      ],
+      "bounds_exact": true,
+      "transform_unchanged": true,
+      "modified_vertices": 1236,
+      "maximum_vertex_delta": 0.05378755826377328,
+      "nonmanifold_edges_welded": 0,
+      "finite": true,
+      "indices_valid": true,
+      "edge_chip_support_fraction": 0.0925,
+      "chip_depth_unit_range": [
+        0.012,
+        0.024
+      ]
+    },
+    {
+      "id": "4bbd6673-eca6-49ea-bb85-529da237542a",
+      "name": "Flagstone_Granular",
+      "source_vertices": 600,
+      "sculpt_vertices": 1763,
+      "export_vertices": 1777,
+      "triangles": 2592,
+      "source_blender_bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.49927425384521484,
+          0.4949105381965637,
+          0.46939998865127563
+        ]
+      ],
+      "blender_bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.49927425384521484,
+          0.4949105381965637,
+          0.46939998865127563
+        ]
+      ],
+      "unity_bounds": [
+        [
+          -0.49927425384521484,
+          -0.5,
+          -0.4949105381965637
+        ],
+        [
+          0.5,
+          0.46939998865127563,
+          0.5
+        ]
+      ],
+      "bounds_exact": true,
+      "transform_unchanged": true,
+      "modified_vertices": 1024,
+      "maximum_vertex_delta": 0.05531531599185419,
+      "nonmanifold_edges_welded": 0,
+      "finite": true,
+      "indices_valid": true,
+      "edge_chip_support_fraction": 0.0925,
+      "chip_depth_unit_range": [
+        0.016,
+        0.028
+      ]
+    },
+    {
+      "id": "7a2d80e2-5804-4629-8fcd-a6045025c7c6",
+      "name": "Flagstone_Worn",
+      "source_vertices": 578,
+      "sculpt_vertices": 1708,
+      "export_vertices": 1711,
+      "triangles": 2550,
+      "source_blender_bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.4669402837753296
+        ]
+      ],
+      "blender_bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.4669402837753296
+        ]
+      ],
+      "unity_bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.4669402837753296,
+          0.5
+        ]
+      ],
+      "bounds_exact": true,
+      "transform_unchanged": true,
+      "modified_vertices": 990,
+      "maximum_vertex_delta": 0.051155328714496594,
+      "nonmanifold_edges_welded": 0,
+      "finite": true,
+      "indices_valid": true,
+      "edge_chip_support_fraction": 0.0925,
+      "chip_depth_unit_range": [
+        0.012,
+        0.032
+      ]
+    },
+    {
+      "id": "c9afbeaf-3585-4c29-a0e1-fcd500940346",
+      "name": "Flagstone_Branched",
+      "source_vertices": 729,
+      "sculpt_vertices": 2050,
+      "export_vertices": 2067,
+      "triangles": 2906,
+      "source_blender_bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.46523118019104004
+        ]
+      ],
+      "blender_bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.46523118019104004
+        ]
+      ],
+      "unity_bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.46523118019104004,
+          0.5
+        ]
+      ],
+      "bounds_exact": true,
+      "transform_unchanged": true,
+      "modified_vertices": 1207,
+      "maximum_vertex_delta": 0.04296731946471237,
+      "nonmanifold_edges_welded": 0,
+      "finite": true,
+      "indices_valid": true,
+      "edge_chip_support_fraction": 0.0925,
+      "chip_depth_unit_range": [
+        0.016,
+        0.036000000000000004
+      ]
+    },
+    {
+      "id": "7b9ce760-2f47-40f1-98d7-6b4e0aadc2e5",
+      "name": "Masonry_Broken",
+      "source_vertices": 372,
+      "sculpt_vertices": 1221,
+      "export_vertices": 1227,
+      "triangles": 1988,
+      "source_blender_bounds": [
+        [
+          -0.49795910716056824,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ],
+      "blender_bounds": [
+        [
+          -0.49795910716056824,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ],
+      "unity_bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.49795910716056824,
+          0.5,
+          0.5
+        ]
+      ],
+      "bounds_exact": true,
+      "transform_unchanged": true,
+      "modified_vertices": 552,
+      "maximum_vertex_delta": 0.03805601644163184,
+      "nonmanifold_edges_welded": 0,
+      "finite": true,
+      "indices_valid": true,
+      "edge_chip_support_fraction": 0.0925,
+      "chip_depth_unit_range": [
+        0.012,
+        0.024
+      ]
+    },
+    {
+      "id": "30387f49-1a6e-42e9-80e4-01b8c8c559c1",
+      "name": "Masonry_Quarried",
+      "source_vertices": 376,
+      "sculpt_vertices": 1222,
+      "export_vertices": 1228,
+      "triangles": 1974,
+      "source_blender_bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ],
+      "blender_bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ],
+      "unity_bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ],
+      "bounds_exact": true,
+      "transform_unchanged": true,
+      "modified_vertices": 564,
+      "maximum_vertex_delta": 0.03078767650101018,
+      "nonmanifold_edges_welded": 0,
+      "finite": true,
+      "indices_valid": true,
+      "edge_chip_support_fraction": 0.0925,
+      "chip_depth_unit_range": [
+        0.016,
+        0.028
+      ]
+    }
+  ],
+  "limitations": [
+    "Long directional texture ridges are a separate material concern; these exports only alter geometry.",
+    "Centimetre chip sizes assume a one-metre normalized asset; existing per-instance scaling changes physical sizes.",
+    "Blender comparison is neutral geometry QA; final Unity visual and FPS review remains required."
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "mesh_sha256": "630a8d5fcc54f38825fcdbf7fb401cd9768894d67b1b7d3e8b4f91cf329242ce",
+  "source_hashes": {
+    "Unity\\Vesper\\Assets\\Vesper\\Textures\\flame-v1.png": "30a85dd788bd6d4bf09aa194ea7f9132595865a7474f7ad0df64a96bfc21ac75",
+    "Unity\\Vesper\\Assets\\Vesper\\AtmosphereV2\\Textures\\courtyard-wet-mask.png": "17381ad2c046421189a74f01c3f02c5c9a2a518de32498fe92a0955b88fd7853",
+    "Unity\\Vesper\\Assets\\Vesper\\Scenes\\VesperAtmosphereV2.unity": "ebf8113339c0e48d98d35c265f328e32f8720db6435170b8c9a556ef24d7a3a6",
+    "Migration\\Source\\AtmosphereV2\\PavingV14\\hybrid-metadata.json": "ab841cff0336d9ce79a2ab8fc0edaaeb876b712c939ba652542184096fb18e13",
+    "Unity\\Vesper\\Assets\\Vesper\\AtmosphereV2\\Materials\\31e82bcf-916c-434c-ba3e-39d42111d21e.mat": "a0c7bf1aeb1e501fe3a690611373717ab48db814cab38b47d04f521443af6f8e",
+    "Unity\\Vesper\\Assets\\Vesper\\Generated\\Meshes\\358ec67e-4682-424f-b50b-39b570140d99.asset": "cc008baf2928e52efbe585b7ac75d4043609a68225427a85b9db4e812a9abb93",
+    "Unity\\Vesper\\Assets\\Vesper\\Shaders\\AtmosphereFlame.shader": "e21364882e17830d34d792ecdf63b09d6fbff788b092996d17275255792acdc8"
+  },
+  "material_base_color": [
+    5.5,
+    5.5,
+    4.5,
+    1.0
+  ],
+  "quad_position_uv_verified": true,
+  "resolution": 128,
+  "sample_count": 2639,
+  "time_seconds": 2.3,
+  "core_definition": "shader core >= .5",
+  "radiance_threshold": 0.02,
+  "views": [
+    {
+      "view": "full",
+      "emitter": "left",
+      "luminance_sum": 4627.497565015836,
+      "core_luminance_sum": 3197.5173946762893,
+      "core_occluded_luminance": 0.0,
+      "occluded_luminance": 0.0,
+      "mask_lost_luminance": 131.57172659921517,
+      "visible_luminance": 4495.925838416628,
+      "core_visible_luminance": 3190.7556296202224,
+      "occluding_bodies": {},
+      "water_bounds_xz": [
+        [
+          -8.473303189233171,
+          -0.3594987654180546
+        ],
+        [
+          -7.508540889402788,
+          1.590032110913611
+        ]
+      ],
+      "occluded_luminance_fraction": 0.0,
+      "mask_lost_luminance_fraction": 0.028432586889705888,
+      "visible_luminance_fraction": 0.9715674131102957,
+      "core_occluded_fraction": 0.0,
+      "core_visible_fraction": 0.9978853078118277
+    },
+    {
+      "view": "full",
+      "emitter": "right",
+      "luminance_sum": 4627.497565015836,
+      "core_luminance_sum": 3197.5173946762893,
+      "core_occluded_luminance": 0.0,
+      "occluded_luminance": 0.0,
+      "mask_lost_luminance": 0.0,
+      "visible_luminance": 4627.497565015836,
+      "core_visible_luminance": 3197.5173946762893,
+      "occluding_bodies": {},
+      "water_bounds_xz": [
+        [
+          0.10591849091766581,
+          -0.2944777332104511
+        ],
+        [
+          1.0131992308339663,
+          1.5345541395708857
+        ]
+      ],
+      "occluded_luminance_fraction": 0.0,
+      "mask_lost_luminance_fraction": 0.0,
+      "visible_luminance_fraction": 1.0,
+      "core_occluded_fraction": 0.0,
+      "core_visible_fraction": 1.0
+    },
+    {
+      "view": "orbit",
+      "emitter": "left",
+      "luminance_sum": 4627.497565015836,
+      "core_luminance_sum": 3197.5173946762893,
+      "core_occluded_luminance": 0.0,
+      "occluded_luminance": 0.0,
+      "mask_lost_luminance": 36.92166453207591,
+      "visible_luminance": 4590.57590048376,
+      "core_visible_luminance": 3197.5173946762893,
+      "occluding_bodies": {},
+      "water_bounds_xz": [
+        [
+          -8.703372773748546,
+          -0.8431737661391607
+        ],
+        [
+          -7.499712249789743,
+          0.6823081747141415
+        ]
+      ],
+      "occluded_luminance_fraction": 0.0,
+      "mask_lost_luminance_fraction": 0.007978753962229164,
+      "visible_luminance_fraction": 0.9920212460377709,
+      "core_occluded_fraction": 0.0,
+      "core_visible_fraction": 1.0
+    },
+    {
+      "view": "orbit",
+      "emitter": "right",
+      "luminance_sum": 4627.497565015836,
+      "core_luminance_sum": 3197.5173946762893,
+      "core_occluded_luminance": 0.0,
+      "occluded_luminance": 0.0,
+      "mask_lost_luminance": 172.1539061710498,
+      "visible_luminance": 4455.343658844784,
+      "core_visible_luminance": 3178.576702241854,
+      "occluding_bodies": {},
+      "water_bounds_xz": [
+        [
+          -0.11690264039420484,
+          -0.7942942491584075
+        ],
+        [
+          1.0114072170319468,
+          0.6392350214801623
+        ]
+      ],
+      "occluded_luminance_fraction": 0.0,
+      "mask_lost_luminance_fraction": 0.03720237639292214,
+      "visible_luminance_fraction": 0.9627976236070774,
+      "core_occluded_fraction": 0.0,
+      "core_visible_fraction": 0.9940764380309641
+    }
+  ],
+  "limitations": [
+    "Actual source RGBA, sRGB-before-bilinear, sequential t=2.3 warp and shader radiance formula; base mip only.",
+    "Exact camera-ray triangle intersection with source paving within 8cm toward camera; excludes other scene geometry.",
+    "View matrix billboard model mirrors source camera right/up, including actual quad X=.5-u.",
+    "Weights are emitted luminance, not tone-mapped screen pixels; no reflection RT bilinear/mips or bloom."
+  ]
+}

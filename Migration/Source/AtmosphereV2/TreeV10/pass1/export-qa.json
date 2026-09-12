@@ -1,0 +1,49 @@
+{
+  "finite": true,
+  "vertices": 48711,
+  "triangles": 83778,
+  "index_bounds": [
+    0,
+    48710
+  ],
+  "normal_length_range": [
+    0.9999998771271161,
+    1.0000001449251428
+  ],
+  "degenerate_triangles": 0,
+  "minimum_triangle_area": 3.673101157301545e-09,
+  "triangles_opposed_to_average_normal": 0,
+  "bounds_unity": {
+    "min": [
+      -2.815997838973999,
+      -0.0869646966457367,
+      -1.4270285367965698
+    ],
+    "max": [
+      3.2034494876861572,
+      6.476828575134277,
+      1.3160955905914307
+    ]
+  },
+  "previous_bounds_unity": {
+    "min": [
+      -2.9500038623809814,
+      -0.1641639918088913,
+      -1.375244379043579
+    ],
+    "max": [
+      3.3400042057037354,
+      6.5100016593933105,
+      1.4600813388824463
+    ]
+  },
+  "source_v9_unchanged": true,
+  "local_transform_identical": true,
+  "coordinate_conversion": "(-x,z,-y); reversed triangle corners [0,2,1] exactly once",
+  "sha256": {
+    "tree-v10-mesh.json": "67bc99ed718d767962708ee9c5e8e0dfa8a8eb60fa168bcc984d4696984b7d58",
+    "tree-v10.blend": "4aeb4d0dc3e0cf13beaf2a33fd0a90dcc5736761b1163238b977d0fcd28e6674",
+    "build_tree_v10.py": "789c39f84ee6ea279ab016dad24f8fc014149705c03788b822137c38b7d161d0",
+    "tree-v9.blend": "2c42381b49062e50b98c4dda6c5b1670db57be54fa8dddde12d21444a6ce0aeb"
+  }
+}

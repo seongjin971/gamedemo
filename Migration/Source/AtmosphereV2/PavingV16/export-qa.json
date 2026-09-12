@@ -1,0 +1,399 @@
+{
+  "mesh_sha256": "f812feed57a6b6e2fa3c7378caada08243c650883b5e1f33d630640dd828b7b6",
+  "source_sha256": "630a8d5fcc54f38825fcdbf7fb401cd9768894d67b1b7d3e8b4f91cf329242ce",
+  "vertex_prefix_exact": true,
+  "unchanged_parts_exact": true,
+  "new_parts": [
+    {
+      "name": "V16_HeroScanSlab_96_middle_far_right_lower",
+      "closed_oriented": true,
+      "signed_volume": 0.06295031131320855,
+      "projected_top_area": 0.6722757669523851,
+      "bounds": [
+        [
+          -3.3845704,
+          -0.115,
+          9.2455082
+        ],
+        [
+          -2.1373048,
+          -0.0070588,
+          9.8630857
+        ]
+      ],
+      "expected_area": 0.6722754859924329,
+      "area_error": 2.8095995219246106e-07
+    },
+    {
+      "name": "V16_joint_fill_96_0",
+      "closed_oriented": true,
+      "signed_volume": 0.000584869737909211,
+      "projected_top_area": 0.019384300002424977,
+      "bounds": [
+        [
+          -3.4471745,
+          -0.085,
+          9.2925091
+        ],
+        [
+          -3.3336539,
+          -0.0272385,
+          9.5661831
+        ]
+      ]
+    },
+    {
+      "name": "V16_HeroScanSlab_97_middle_right_broad",
+      "closed_oriented": true,
+      "signed_volume": 0.07486436548336704,
+      "projected_top_area": 0.7295009615307699,
+      "bounds": [
+        [
+          -2.0767579,
+          -0.115,
+          9.2515621
+        ],
+        [
+          -0.7205078,
+          -0.000854,
+          10.3232422
+        ]
+      ],
+      "expected_area": 0.7295005607604974,
+      "area_error": 4.007702725239426e-07
+    },
+    {
+      "name": "V16_HeroScanSlab_105_lower_far_right_broad",
+      "closed_oriented": true,
+      "signed_volume": 0.15519399363950998,
+      "projected_top_area": 1.417905990638535,
+      "bounds": [
+        [
+          -3.9900391,
+          -0.115,
+          7.4533205
+        ],
+        [
+          -2.827539,
+          0.0095,
+          8.773242
+        ]
+      ],
+      "expected_area": 1.4179061126708898,
+      "area_error": 1.2203235488783548e-07
+    },
+    {
+      "name": "V16_HeroScanSlab_106_lower_far_right_tall",
+      "closed_oriented": true,
+      "signed_volume": 0.13185653197726496,
+      "projected_top_area": 1.2058507893213501,
+      "bounds": [
+        [
+          -2.8214843,
+          -0.115,
+          7.4533205
+        ],
+        [
+          -1.8587891,
+          0.0095,
+          9.1425781
+        ]
+      ],
+      "expected_area": 1.205850734710694,
+      "area_error": 5.4610656219367115e-08
+    },
+    {
+      "name": "V16_joint_fill_106_0",
+      "closed_oriented": true,
+      "signed_volume": 0.0006439697066691933,
+      "projected_top_area": 0.019895635421585046,
+      "bounds": [
+        [
+          -2.8813138,
+          -0.085,
+          8.6573534
+        ],
+        [
+          -2.7546091,
+          -0.0221508,
+          8.9390335
+        ]
+      ]
+    },
+    {
+      "name": "V16_joint_fill_106_4",
+      "closed_oriented": true,
+      "signed_volume": 0.0004548007111330292,
+      "projected_top_area": 0.014144319683529973,
+      "bounds": [
+        [
+          -1.8777658,
+          -0.085,
+          7.4970126
+        ],
+        [
+          -1.7911466,
+          -0.0010161,
+          7.6954794
+        ]
+      ]
+    },
+    {
+      "name": "V16_HeroScanSlab_107_lower_right_edge",
+      "closed_oriented": true,
+      "signed_volume": 0.18688845632307963,
+      "projected_top_area": 1.8332370285383097,
+      "bounds": [
+        [
+          -1.9980469,
+          -0.115,
+          7.4533205
+        ],
+        [
+          -0.6902344,
+          0.0095,
+          9.1425781
+        ]
+      ],
+      "expected_area": 1.8332369804382327,
+      "area_error": 4.8100077032486865e-08
+    },
+    {
+      "name": "V16_joint_fill_107_6",
+      "closed_oriented": true,
+      "signed_volume": 0.0008322890917615781,
+      "projected_top_area": 0.021427556833319997,
+      "bounds": [
+        [
+          -0.8796816,
+          -0.085,
+          8.2675686
+        ],
+        [
+          -0.7615687,
+          -0.0132949,
+          8.5689116
+        ]
+      ]
+    },
+    {
+      "name": "V16_joint_fill_107_9",
+      "closed_oriented": true,
+      "signed_volume": 0.0009202212845725493,
+      "projected_top_area": 0.03004875871036502,
+      "bounds": [
+        [
+          -1.5946221,
+          -0.085,
+          9.0916405
+        ],
+        [
+          -1.1777385,
+          -0.0227266,
+          9.2056837
+        ]
+      ]
+    },
+    {
+      "name": "V16_HeroScanSlab_112_bottom_right_tall",
+      "closed_oriented": true,
+      "signed_volume": 0.06414373794296184,
+      "projected_top_area": 0.582717103325005,
+      "bounds": [
+        [
+          -3.2998047,
+          -0.115,
+          6.2363281
+        ],
+        [
+          -2.500586,
+          0.0095,
+          7.2414064
+        ]
+      ],
+      "expected_area": 0.5827169609069802,
+      "area_error": 1.4241802481773647e-07
+    },
+    {
+      "name": "V16_joint_fill_112_6",
+      "closed_oriented": true,
+      "signed_volume": 0.0005984597541800806,
+      "projected_top_area": 0.013850108159235043,
+      "bounds": [
+        [
+          -2.5886009,
+          -0.085,
+          7.0377731
+        ],
+        [
+          -2.4476964,
+          -0.0033791,
+          7.2409611
+        ]
+      ]
+    },
+    {
+      "name": "V16_HeroScanSlab_131_lower_narrow_course_far",
+      "closed_oriented": true,
+      "signed_volume": 0.027789762631382345,
+      "projected_top_area": 0.2598409639358591,
+      "bounds": [
+        [
+          -4.1111326,
+          -0.115,
+          8.827734
+        ],
+        [
+          -3.1666017,
+          -0.0045512,
+          9.1365232
+        ]
+      ],
+      "expected_area": 0.25984069824218636,
+      "area_error": 2.6569367272966105e-07
+    },
+    {
+      "name": "V16_joint_fill_131_3",
+      "closed_oriented": true,
+      "signed_volume": 0.001514263539890403,
+      "projected_top_area": 0.045689244361270046,
+      "bounds": [
+        [
+          -3.9346387,
+          -0.085,
+          9.1228676
+        ],
+        [
+          -3.3077528,
+          -0.0192051,
+          9.2050629
+        ]
+      ]
+    },
+    {
+      "name": "V16_HeroScanSlab_134_bottom_right_mid",
+      "closed_oriented": true,
+      "signed_volume": 0.02059890329807828,
+      "projected_top_area": 0.20492515170408518,
+      "bounds": [
+        [
+          -1.7679688,
+          -0.115,
+          6.8236327
+        ],
+        [
+          -1.1019531,
+          -0.0097327,
+          7.2595701
+        ]
+      ],
+      "expected_area": 0.20492515563964853,
+      "area_error": 3.935563347434723e-09
+    },
+    {
+      "name": "V16_joint_fill_134_4",
+      "closed_oriented": true,
+      "signed_volume": 0.0007116218422251967,
+      "projected_top_area": 0.021678821135885,
+      "bounds": [
+        [
+          -1.8261299,
+          -0.085,
+          6.8844948
+        ],
+        [
+          -1.6904465,
+          -0.0253044,
+          7.1902289
+        ]
+      ]
+    },
+    {
+      "name": "V16_HeroScanSlab_144_lower_right_edge_low",
+      "closed_oriented": true,
+      "signed_volume": 0.009291875014873987,
+      "projected_top_area": 0.10222424842411502,
+      "bounds": [
+        [
+          -0.6962891,
+          -0.115,
+          7.3927736
+        ],
+        [
+          -0.3511719,
+          -0.021351,
+          7.8710938
+        ]
+      ],
+      "expected_area": 0.1022242927551269,
+      "area_error": 4.4331011875287096e-08
+    },
+    {
+      "name": "V16_joint_fill_144_3",
+      "closed_oriented": true,
+      "signed_volume": 0.00027823101852446396,
+      "projected_top_area": 0.007660021421060018,
+      "bounds": [
+        [
+          -0.6568753,
+          -0.085,
+          7.8362308
+        ],
+        [
+          -0.5364333,
+          -0.0353067,
+          7.934268
+        ]
+      ]
+    },
+    {
+      "name": "V16_HeroScanSlab_146_bottom_right_narrow",
+      "closed_oriented": true,
+      "signed_volume": 0.04450900025229159,
+      "projected_top_area": 0.4451165781843153,
+      "bounds": [
+        [
+          -2.4642577,
+          -0.115,
+          6.2363281
+        ],
+        [
+          -1.7861328,
+          -0.0032819,
+          7.132422
+        ]
+      ],
+      "expected_area": 0.4451165008544926,
+      "area_error": 7.732982271191347e-08
+    },
+    {
+      "name": "V16_joint_fill_146_6",
+      "closed_oriented": true,
+      "signed_volume": 0.0007049470774978068,
+      "projected_top_area": 0.018182839192414948,
+      "bounds": [
+        [
+          -2.2828138,
+          -0.085,
+          7.0071592
+        ],
+        [
+          -2.026319,
+          -0.0139777,
+          7.1790776
+        ]
+      ]
+    }
+  ],
+  "triangles": 104058,
+  "nonpositive": 0,
+  "degenerate": 0,
+  "max_normal_error": 1.6921215884035945e-07,
+  "max_new_uv_error": 5.80967742802585e-08,
+  "new_nonfinite": 0,
+  "passed": true,
+  "outline_or_fill_overlap_errors": [],
+  "exact_world_bounds_preserved": true,
+  "valid_indices_and_strides": true,
+  "new_colors_white_finite": true
+}

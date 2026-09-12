@@ -1,0 +1,16 @@
+{
+  "basis": "Tiles130 Color/AO reference 2048x1024, top-left origin; actual maps 4096x2048. World period 12.4x6.2, tile shift [-12.4,6.2].",
+  "method": "Raw photographed corner polygons retained without contour averaging. Lines connect visible boundary fracture/notch landmarks; internal continuation and vertical facet angles are authored interpretation, not measured scan depth or claims of every line being a dark photographed crack.",
+  "stones": [
+    {"number":96,"cuts":[[[1498,463],[1693,505]],[[1570,422],[1570,520]]],"slopes":[0.035,-0.027],"bevel_edges":[1,4],"fill_edges":[0,3],"trace_note":"Lower broken boundary corner at 1498,463 to opposing missing corner 1693,505; second shallow lithic plane is authored."},
+    {"number":97,"cuts":[[[1768,400],[1814,519]],[[1705,470],[1884,404]]],"slopes":[-0.030,0.025],"bevel_edges":[2,6],"fill_edges":[7],"trace_note":"Two planes continue the source's diagonal fractured shoulder and left notch; preserve pointed upper-right outline."},
+    {"number":105,"cuts":[[[1394,674],[1578,720]],[[1490,600],[1490,814]]],"slopes":[0.029,-0.019],"bevel_edges":[1,5],"fill_edges":[0,4],"trace_note":"Large source slab has a broad flat face and damaged upper-right notch; sparse internal cleavage is authored between source edge landmarks."},
+    {"number":106,"cuts":[[[1595,650],[1702,710]],[[1621,538],[1670,814]]],"slopes":[-0.032,0.023],"bevel_edges":[2,6],"fill_edges":[0,4],"trace_note":"Primary facet connects actual left and right shoulder kinks, retaining their different directions."},
+    {"number":107,"cuts":[[[1720,587],[1912,690]],[[1753,763],[1902,627]]],"slopes":[0.026,-0.028],"bevel_edges":[1,5],"fill_edges":[6,9],"trace_note":"Follows opposing multi-stage fractured side silhouettes; two connected internal planes avoid turning each photo fragment into a separate pebble."},
+    {"number":112,"cuts":[[[1529,907],[1606,944]]],"slopes":[0.034],"bevel_edges":[1,4],"fill_edges":[6],"trace_note":"Preserve angular right recess and tapering left source boundary; one cross-cleavage through boundary landmarks."},
+    {"number":131,"cuts":[[[1425,540],[1467,589]]],"slopes":[-0.025],"bevel_edges":[1],"fill_edges":[3],"trace_note":"Narrow course remains a long angular plate, with one authored plane break, not rounded end caps."},
+    {"number":134,"cuts":[[[1756,853],[1866,889]]],"slopes":[0.027],"bevel_edges":[2],"fill_edges":[4],"trace_note":"Shallow fracture plane aligned with the source's triangular missing corner."},
+    {"number":144,"cuts":[[[1937,748],[1957,827]]],"slopes":[-0.025],"bevel_edges":[1],"fill_edges":[3],"trace_note":"Small broken wedge keeps its acute original corner. Single authored lithic plane only."},
+    {"number":146,"cuts":[[[1641,980],[1727,944]]],"slopes":[0.028],"bevel_edges":[1,4],"fill_edges":[6],"trace_note":"Source zigzag right boundary remains sharp; one shallow plane runs to its inward break."}
+  ]
+}

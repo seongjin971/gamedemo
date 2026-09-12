@@ -1,0 +1,117 @@
+{
+  "passed": true,
+  "workingConvention": "Unity Cross(pb-pa,pc-pa) dot (na+nb+nc), strict positive additionally; threshold -1e-10",
+  "protectedOriginalFilesUnchanged": {
+    "creation-started.json": true,
+    "download-manifest.json": true,
+    "meshy_asset.py": true,
+    "preview-back.png": true,
+    "preview-front.png": true,
+    "preview-left.png": true,
+    "preview-right.png": true,
+    "PROMPT.md": true,
+    "reference-tree.png": true,
+    "request-metadata.json": true,
+    "task-created.json": true,
+    "task-status.json": true,
+    "texture-0-base_color.png": true,
+    "texture-0-metallic.png": true,
+    "texture-0-normal.png": true,
+    "texture-0-roughness.png": true,
+    "tree-v11-original.glb": true
+  },
+  "results": [
+    {
+      "file": "tree-v11-base-mesh.json",
+      "sha256": "4d047590483d6b571de7db5cc4db2a17fe662b13e1b06f0f2de51fc7888c8b0e",
+      "vertices": 134566,
+      "triangles": 157999,
+      "finite": true,
+      "indexRangeValid": true,
+      "minimumTriangleArea": 2.302058844849883e-07,
+      "minimumFaceMeanNormalAlignment": 0.00020348919861609195,
+      "strictNonpositiveDotTriangles": 0,
+      "unityNegativeDotOutliers": 0,
+      "maxNormalLengthError": 2.3378108360283534e-07,
+      "boundsUnity": [
+        [
+          -3.1433417797088623,
+          -0.05999999865889549,
+          -0.7099930047988892
+        ],
+        [
+          3.156658411026001,
+          6.340000152587891,
+          0.7099930047988892
+        ]
+      ],
+      "spansUnity": [
+        6.300000190734863,
+        6.400000151246786,
+        1.4199860095977783
+      ],
+      "rootRegionXZCentre": [
+        0.0,
+        0.0
+      ],
+      "uvBounds": [
+        [
+          1.5999999959603883e-05,
+          5.812279414385557e-05
+        ],
+        [
+          0.9999843239784241,
+          0.9999693632125854
+        ]
+      ],
+      "uvUniqueCount": 133193,
+      "whiteVertexColor": true
+    },
+    {
+      "file": "tree-v11-art-directed-mesh.json",
+      "sha256": "0e52186fec37f944a7d269bd8c620dba290796e0ca63d68f2f892946fedcf97d",
+      "vertices": 134657,
+      "triangles": 157999,
+      "finite": true,
+      "indexRangeValid": true,
+      "minimumTriangleArea": 3.7943775643761986e-07,
+      "minimumFaceMeanNormalAlignment": 5.543156848569216e-06,
+      "strictNonpositiveDotTriangles": 0,
+      "unityNegativeDotOutliers": 0,
+      "maxNormalLengthError": 2.053784620148491e-07,
+      "boundsUnity": [
+        [
+          -3.120192050933838,
+          -0.05999999865889549,
+          -1.3115289211273193
+        ],
+        [
+          3.1798081398010254,
+          6.340000152587891,
+          1.3115289211273193
+        ]
+      ],
+      "spansUnity": [
+        6.300000190734863,
+        6.400000151246786,
+        2.6230578422546387
+      ],
+      "rootRegionXZCentre": [
+        0.0,
+        0.0
+      ],
+      "uvBounds": [
+        [
+          1.5999999959603883e-05,
+          5.812279414385557e-05
+        ],
+        [
+          0.9999843239784241,
+          0.9999693632125854
+        ]
+      ],
+      "uvUniqueCount": 133193,
+      "whiteVertexColor": true
+    }
+  ]
+}

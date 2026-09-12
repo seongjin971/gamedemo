@@ -1,0 +1,392 @@
+{
+  "mesh_sha256": "ccf1d4044810e05a9f77ebfaaf6d94a7b03af98ff8a48f616f90267479f4ed79",
+  "source_sha256": "f812feed57a6b6e2fa3c7378caada08243c650883b5e1f33d630640dd828b7b6",
+  "vertex_prefix_exact": true,
+  "unchanged_parts_exact": true,
+  "new_parts": [
+    {
+      "name": "V17_HeroScanSlab_19_upper_right_shoulder",
+      "closed_oriented": true,
+      "signed_volume": 0.11082301377834677,
+      "projected_top_area": 1.172234453850985,
+      "bounds": [
+        [
+          -6.0910158,
+          -0.115,
+          4.5349607
+        ],
+        [
+          -4.7832031,
+          0.0095,
+          6.1939454
+        ]
+      ],
+      "expected_area": 1.1722342109680213,
+      "area_error": 2.428829637413088e-07
+    },
+    {
+      "name": "V17_HeroScanSlab_20_upper_right_tall",
+      "closed_oriented": true,
+      "signed_volume": 0.15094163267138036,
+      "projected_top_area": 1.5003712394678999,
+      "bounds": [
+        [
+          -4.3472657,
+          -0.115,
+          4.5410156
+        ],
+        [
+          -3.390625,
+          0.0086585,
+          6.1939454
+        ]
+      ],
+      "expected_area": 1.5003710746765169,
+      "area_error": 1.647913829838643e-07
+    },
+    {
+      "name": "V17_HeroScanSlab_21_upper_right_wedge",
+      "closed_oriented": true,
+      "signed_volume": 0.0731640354030636,
+      "projected_top_area": 0.7258896408191596,
+      "bounds": [
+        [
+          -3.3361328,
+          -0.115,
+          4.5410156
+        ],
+        [
+          -2.555078,
+          0.0095,
+          6.1939454
+        ]
+      ],
+      "expected_area": 0.7258896255493186,
+      "area_error": 1.5269841058263012e-08
+    },
+    {
+      "name": "V17_HeroScanSlab_22_upper_edge_right",
+      "closed_oriented": true,
+      "signed_volume": 0.19103974530424564,
+      "projected_top_area": 1.8365181300659195,
+      "bounds": [
+        [
+          -1.3259766,
+          -0.115,
+          4.5531249
+        ],
+        [
+          0.0,
+          0.0094325,
+          6.1939454
+        ]
+      ],
+      "expected_area": 1.8365179824829116,
+      "area_error": 1.47583007814589e-07
+    },
+    {
+      "name": "V17_HeroScanSlab_29_middle_right_large",
+      "closed_oriented": true,
+      "signed_volume": 0.11377140019913409,
+      "projected_top_area": 1.0853152734388947,
+      "bounds": [
+        [
+          -4.4199219,
+          -0.115,
+          3.0455079
+        ],
+        [
+          -3.4390626,
+          0.0067585,
+          4.413867
+        ]
+      ],
+      "expected_area": 1.085315151214603,
+      "area_error": 1.222242915766003e-07
+    },
+    {
+      "name": "V17_HeroScanSlab_31_middle_far_right_lower",
+      "closed_oriented": true,
+      "signed_volume": 0.06624333002097478,
+      "projected_top_area": 0.6722753053356951,
+      "bounds": [
+        [
+          -3.3845704,
+          -0.115,
+          3.0455079
+        ],
+        [
+          -2.1373048,
+          -0.0062281,
+          3.6630859
+        ]
+      ],
+      "expected_area": 0.6722754859924325,
+      "area_error": 1.8065673734746213e-07
+    },
+    {
+      "name": "V17_HeroScanSlab_32_middle_right_broad",
+      "closed_oriented": true,
+      "signed_volume": 0.07801630858260707,
+      "projected_top_area": 0.7295007871672149,
+      "bounds": [
+        [
+          -2.0767579,
+          -0.115,
+          3.0515625
+        ],
+        [
+          -0.7205078,
+          0.0060975,
+          4.1232424
+        ]
+      ],
+      "expected_area": 0.7295005607604985,
+      "area_error": 2.2640671637486065e-07
+    },
+    {
+      "name": "V17_HeroScanSlab_38_lower_right_upper",
+      "closed_oriented": true,
+      "signed_volume": 0.06487601268583153,
+      "projected_top_area": 0.6595731847040649,
+      "bounds": [
+        [
+          -5.3341799,
+          -0.115,
+          1.9435546
+        ],
+        [
+          -4.1111326,
+          0.0095,
+          2.5671875
+        ]
+      ],
+      "expected_area": 0.659573059082033,
+      "area_error": 1.2562203188792864e-07
+    },
+    {
+      "name": "V17_HeroScanSlab_40_lower_far_right_broad",
+      "closed_oriented": true,
+      "signed_volume": 0.14716364062288786,
+      "projected_top_area": 1.4179061505528001,
+      "bounds": [
+        [
+          -3.9900391,
+          -0.115,
+          1.2533203
+        ],
+        [
+          -2.827539,
+          0.0086675,
+          2.5732422
+        ]
+      ],
+      "expected_area": 1.4179061126708972,
+      "area_error": 3.788190294784499e-08
+    },
+    {
+      "name": "V17_HeroScanSlab_41_lower_far_right_tall",
+      "closed_oriented": true,
+      "signed_volume": 0.10307556132150705,
+      "projected_top_area": 1.20585084150025,
+      "bounds": [
+        [
+          -2.8214843,
+          -0.115,
+          1.2533203
+        ],
+        [
+          -1.8587891,
+          0.0095,
+          2.9425781
+        ]
+      ],
+      "expected_area": 1.2058507347106937,
+      "area_error": 1.0678955630893938e-07
+    },
+    {
+      "name": "V17_HeroScanSlab_42_lower_right_edge",
+      "closed_oriented": true,
+      "signed_volume": 0.1742822875760246,
+      "projected_top_area": 1.8332369340580548,
+      "bounds": [
+        [
+          -1.9980469,
+          -0.115,
+          1.2533203
+        ],
+        [
+          -0.6902344,
+          -0.0060546,
+          2.9425781
+        ]
+      ],
+      "expected_area": 1.833236980438233,
+      "area_error": 4.638017814251327e-08
+    },
+    {
+      "name": "V17_HeroScanSlab_94_middle_right_large",
+      "closed_oriented": true,
+      "signed_volume": 0.10436292355217448,
+      "projected_top_area": 1.0853150179357096,
+      "bounds": [
+        [
+          -4.4199219,
+          -0.115,
+          9.2455082
+        ],
+        [
+          -3.4390626,
+          0.0095,
+          10.6138668
+        ]
+      ],
+      "expected_area": 1.0853151512146049,
+      "area_error": 1.332788952534969e-07
+    },
+    {
+      "name": "V17_HeroScanSlab_103_lower_right_upper",
+      "closed_oriented": true,
+      "signed_volume": 0.06520154132445075,
+      "projected_top_area": 0.6595732165730249,
+      "bounds": [
+        [
+          -5.3341799,
+          -0.115,
+          8.1435547
+        ],
+        [
+          -4.1111326,
+          -0.008278,
+          8.7671871
+        ]
+      ],
+      "expected_area": 0.6595730590820317,
+      "area_error": 1.5749099324668947e-07
+    },
+    {
+      "name": "V17_HeroScanSlab_104_lower_right_lower",
+      "closed_oriented": true,
+      "signed_volume": 0.08226664024606226,
+      "projected_top_area": 0.7944971950593801,
+      "bounds": [
+        [
+          -5.3886719,
+          -0.115,
+          7.4533205
+        ],
+        [
+          -4.0263672,
+          0.0022518,
+          8.1738281
+        ]
+      ],
+      "expected_area": 0.7944973945617644,
+      "area_error": 1.9950238427934863e-07
+    },
+    {
+      "name": "V17_HeroScanSlab_110_bottom_middle_right",
+      "closed_oriented": true,
+      "signed_volume": 0.12875431021908776,
+      "projected_top_area": 1.2242904219985802,
+      "bounds": [
+        [
+          -5.9214845,
+          -0.115,
+          6.2363281
+        ],
+        [
+          -4.5289063,
+          -0.0009941,
+          7.2837892
+        ]
+      ],
+      "expected_area": 1.2242903327941832,
+      "area_error": 8.920439698023586e-08
+    },
+    {
+      "name": "V17_HeroScanSlab_111_bottom_right_broad",
+      "closed_oriented": true,
+      "signed_volume": 0.14246661082017428,
+      "projected_top_area": 1.2652203228393504,
+      "bounds": [
+        [
+          -4.5591798,
+          -0.115,
+          6.2363281
+        ],
+        [
+          -3.0152345,
+          0.0076636,
+          7.3261719
+        ]
+      ],
+      "expected_area": 1.2652203750610376,
+      "area_error": 5.22216871967629e-08
+    },
+    {
+      "name": "V17_HeroScanSlab_255_upper_left_broad",
+      "closed_oriented": true,
+      "signed_volume": 0.28453696274591106,
+      "projected_top_area": 2.7751407625386197,
+      "bounds": [
+        [
+          0.0,
+          -0.115,
+          4.5410156
+        ],
+        [
+          1.7498047,
+          0.0095,
+          6.1818361
+        ]
+      ],
+      "expected_area": 2.7751411819458003,
+      "area_error": 4.194071805407873e-07
+    },
+    {
+      "name": "V17_HeroScanSlab_343_lower_left_broad",
+      "closed_oriented": true,
+      "signed_volume": 0.1509739598498007,
+      "projected_top_area": 1.705919358571706,
+      "bounds": [
+        [
+          0.3390625,
+          -0.115,
+          8.0890627
+        ],
+        [
+          2.1009765,
+          0.0095,
+          9.1728516
+        ]
+      ],
+      "expected_area": 1.705919437408444,
+      "area_error": 7.883673802666635e-08
+    }
+  ],
+  "triangles": 100816,
+  "nonpositive": 0,
+  "degenerate": 0,
+  "max_normal_error": 1.6921215884035945e-07,
+  "max_new_uv_error": 5.7967741939890516e-08,
+  "new_nonfinite": 0,
+  "passed": false,
+  "outline_or_fill_overlap_errors": [],
+  "exact_world_bounds_preserved": true,
+  "valid_indices_and_strides": true,
+  "new_colors_white_finite": true,
+  "float32_nonpositive": 0,
+  "float32_degenerate": 0,
+  "float32_outline_overlap_errors": [],
+  "protected_v16_parts_exact": true,
+  "new_fill_count": 0,
+  "new_stone_count": 18,
+  "float32_new_body_closed": true,
+  "preserved_fill_overlap_errors": [
+    [
+      "V16_joint_fill_96_0",
+      "HeroScanSlab_94_middle_right_large"
+    ]
+  ]
+}

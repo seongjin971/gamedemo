@@ -1,0 +1,138 @@
+{
+  "mesh_count": 10,
+  "all_bounds_exact": true,
+  "all_transforms_preserved": true,
+  "all_sources_still_preserved": true,
+  "meshes": [
+    {
+      "id": "740f8589-aea6-4e9f-831f-6adbdb49ada3",
+      "name": "Flagstone_Split",
+      "sha256": "6918aab1e506927cff7fa8ec5255e2d8c88950c0ba53f39805e11a00190575a9",
+      "array_lengths_valid": true,
+      "normal_length_range": [
+        0.999999906590395,
+        1.0000000886644853
+      ],
+      "opposed_geometric_normal_triangles": 0,
+      "subprecision_triangles": 0,
+      "matches_v6_identity": true
+    },
+    {
+      "id": "f01cf337-cea7-42b3-b142-24f2fc145766",
+      "name": "Flagstone_Spalled",
+      "sha256": "59d564c5c5649434aefdd547318faf31d4be26af6a602aaaed92c3f697b7295c",
+      "array_lengths_valid": true,
+      "normal_length_range": [
+        0.9999998873187066,
+        1.0000001102163418
+      ],
+      "opposed_geometric_normal_triangles": 0,
+      "subprecision_triangles": 0,
+      "matches_v6_identity": true
+    },
+    {
+      "id": "639f340b-3b93-4211-a7ff-cd35c89a1f9f",
+      "name": "Flagstone_Laminated",
+      "sha256": "1f9cc9f0fc5082579986189a6a74ebd0e7a513e63489cad1d173f997096479d0",
+      "array_lengths_valid": true,
+      "normal_length_range": [
+        0.9999998913279432,
+        1.0000000961014128
+      ],
+      "opposed_geometric_normal_triangles": 0,
+      "subprecision_triangles": 0,
+      "matches_v6_identity": true
+    },
+    {
+      "id": "4bf543ce-10f0-4018-88ca-18754deeeb53",
+      "name": "Flagstone_Weathered",
+      "sha256": "3fbb6c34c43de89ef871f80616e28e2cb2119bb7aa51b6bc7d833f2dc6872dec",
+      "array_lengths_valid": true,
+      "normal_length_range": [
+        0.9999999004570689,
+        1.0000001098371132
+      ],
+      "opposed_geometric_normal_triangles": 0,
+      "subprecision_triangles": 0,
+      "matches_v6_identity": true
+    },
+    {
+      "id": "b761423f-facb-4ef9-9d08-71d49f2eb0d8",
+      "name": "Flagstone_Cleft",
+      "sha256": "985c011cb086796c0c47ed45e7404033cce4bb944290d214de6605f0fef9c994",
+      "array_lengths_valid": true,
+      "normal_length_range": [
+        0.9999999010323898,
+        1.000000108747032
+      ],
+      "opposed_geometric_normal_triangles": 0,
+      "subprecision_triangles": 0,
+      "matches_v6_identity": true
+    },
+    {
+      "id": "4bbd6673-eca6-49ea-bb85-529da237542a",
+      "name": "Flagstone_Granular",
+      "sha256": "8080d07eaccd4435e785fc57e10437644245602cc0c37f9a78666de795b6ab05",
+      "array_lengths_valid": true,
+      "normal_length_range": [
+        0.9999998758956494,
+        1.000000100305382
+      ],
+      "opposed_geometric_normal_triangles": 0,
+      "subprecision_triangles": 0,
+      "matches_v6_identity": true
+    },
+    {
+      "id": "7a2d80e2-5804-4629-8fcd-a6045025c7c6",
+      "name": "Flagstone_Worn",
+      "sha256": "2ef0cc69de50a952fcd020709b713830e1a03eb1990988f3d440da8a903082ed",
+      "array_lengths_valid": true,
+      "normal_length_range": [
+        0.9999998920430593,
+        1.000000101163005
+      ],
+      "opposed_geometric_normal_triangles": 0,
+      "subprecision_triangles": 0,
+      "matches_v6_identity": true
+    },
+    {
+      "id": "c9afbeaf-3585-4c29-a0e1-fcd500940346",
+      "name": "Flagstone_Branched",
+      "sha256": "64bc71e7c22f070cb5f61f79215ecb40f34c9882f1fdfc46d175bc918f34ee88",
+      "array_lengths_valid": true,
+      "normal_length_range": [
+        0.9999999038337037,
+        1.0000001025095409
+      ],
+      "opposed_geometric_normal_triangles": 0,
+      "subprecision_triangles": 0,
+      "matches_v6_identity": true
+    },
+    {
+      "id": "7b9ce760-2f47-40f1-98d7-6b4e0aadc2e5",
+      "name": "Masonry_Broken",
+      "sha256": "fc5fce7690ca69ac310a390771a4c764092e64b8e683478f4df3184560bad135",
+      "array_lengths_valid": true,
+      "normal_length_range": [
+        0.9999999045648058,
+        1.0000001025028742
+      ],
+      "opposed_geometric_normal_triangles": 0,
+      "subprecision_triangles": 0,
+      "matches_v6_identity": true
+    },
+    {
+      "id": "30387f49-1a6e-42e9-80e4-01b8c8c559c1",
+      "name": "Masonry_Quarried",
+      "sha256": "4d7013209937393d30f09e67ece7e67f0d430369e9545233a39919ef53e36916",
+      "array_lengths_valid": true,
+      "normal_length_range": [
+        0.9999998968182939,
+        1.0000000965458349
+      ],
+      "opposed_geometric_normal_triangles": 0,
+      "subprecision_triangles": 0,
+      "matches_v6_identity": true
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "sourceGLBSha256": "48dd5e75d9c022dd77edeefc776f3ac1f209417812048914a8895ec781e0db79",
+  "originalVertices": 1638506,
+  "originalTriangles": 3073248,
+  "originalBlenderBounds": [
+    [
+      -0.9492769837379456,
+      -0.19721999764442444,
+      -0.9191219806671143
+    ],
+    [
+      0.9544429779052734,
+      0.217399001121521,
+      0.9503499865531921
+    ]
+  ],
+  "sourceRootCentreBlender": [
+    0.0045945048332214355,
+    0.010089501738548279,
+    -0.8443434834480286
+  ],
+  "normalization": {
+    "height": 6.4,
+    "width": 6.3,
+    "bottom": -0.06,
+    "rootCentreXZUnity": [
+      0,
+      0
+    ],
+    "heightScale": 3.42342645846889,
+    "widthScale": 3.309310362965542
+  },
+  "normalizedSourceBounds": [
+    [
+      -3.1566569805145264,
+      -0.7097088098526001,
+      -0.05999999865889549
+    ],
+    [
+      3.143343448638916,
+      0.7097088098526001,
+      6.340000152587891
+    ]
+  ],
+  "decimationSeconds": 55.35962224006653,
+  "preRestoreReducedBounds": [
+    [
+      -3.1576147079467773,
+      -0.7086117267608643,
+      -0.06146548315882683
+    ],
+    [
+      3.144411563873291,
+      0.7113742232322693,
+      6.340158939361572
+    ]
+  ],
+  "base": {
+    "file": "tree-v11-base-mesh.json",
+    "triangles": 157999,
+    "vertices": 134566,
+    "zeroAreaDiscarded": 0,
+    "faceNormalFallbacks": 490,
+    "boundsUnity": [
+      [
+        -3.1433417797088623,
+        3.156658411026001
+      ],
+      [
+        -0.05999999865889549,
+        6.340000152587891
+      ],
+      [
+        -0.7099930047988892,
+        0.7099930047988892
+      ]
+    ],
+    "sha256": "4d047590483d6b571de7db5cc4db2a17fe662b13e1b06f0f2de51fc7888c8b0e"
+  },
+  "artDirected": {
+    "file": "tree-v11-art-directed-mesh.json",
+    "triangles": 157999,
+    "vertices": 134657,
+    "zeroAreaDiscarded": 0,
+    "faceNormalFallbacks": 528,
+    "boundsUnity": [
+      [
+        -3.120192050933838,
+        3.1798081398010254
+      ],
+      [
+        -0.05999999865889549,
+        6.340000152587891
+      ],
+      [
+        -1.3115289211273193,
+        1.3115289211273193
+      ]
+    ],
+    "sha256": "0e52186fec37f944a7d269bd8c620dba290796e0ca63d68f2f892946fedcf97d"
+  },
+  "artDirection": {
+    "depthFactor": 1.65,
+    "maximumRootWidthFactor": 1.32,
+    "maximumRootExtraDepthFactor": 1.12,
+    "rootBlendHeight": 1.2
+  },
+  "UV": "Imported glTF UVMap carried through collapse; original embedded base color, normal and packed PBR maps reused",
+  "colors": "Source has no vertex colors; white RGBA preserves texture color",
+  "coordinates": "Blender to Unity (-x,z,-y), reverse triangle [0,2,1] once, identity model transform",
+  "originalInputsUnchanged": true,
+  "status": "DIRECT_REVIEW_COMPLETE_NATIVE_COMPARISON_CANDIDATE_ONLY",
+  "unrestrictedOrbitAccepted": false,
+  "sourceReductionPercent": 94.85889196055768,
+  "normalHandling": "Geometry split normals recomputed after every anisotropic deformation; tangent normal map retained; exceptional JSON face-normal fallbacks reported per variant."
+}

@@ -1,0 +1,83 @@
+{
+  "source_sha256": "2c42381b49062e50b98c4dda6c5b1670db57be54fa8dddde12d21444a6ce0aeb",
+  "source_unchanged": true,
+  "triangles": 83778,
+  "export_vertices": 48711,
+  "raw_major_triangles": 318376,
+  "authored_major_crown_systems": 8,
+  "unequal_forks": 32,
+  "secondary_forks": 16,
+  "buttresses": 4,
+  "small_feeders": 4,
+  "bark_plates": 447,
+  "preserved_lower_trunk_source_vertices": 2096,
+  "bounds_blender_min": [
+    -3.2034494876861572,
+    -1.3160955905914307,
+    -0.0869646966457367
+  ],
+  "bounds_blender_max": [
+    2.815997838973999,
+    1.4270285367965698,
+    6.476828575134277
+  ],
+  "matrix_local": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "source_matrix_local": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "coordinates": "(-x,z,-y); triangle winding [0,2,1] once",
+  "finite": true,
+  "connected_major_component_vertices": [
+    19457
+  ],
+  "discarded_zero_area_export_triangles": 2,
+  "tiny_cap_flat_normal_fallbacks": 6
+}

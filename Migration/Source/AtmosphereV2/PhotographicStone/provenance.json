@@ -1,0 +1,27 @@
+{
+  "asset": "Rock 01",
+  "author": "Rob Tuytel",
+  "source": "https://polyhaven.com/a/rock_01",
+  "license": "CC0",
+  "license_url": "https://polyhaven.com/license",
+  "maps": [
+    {
+      "role": "Diffuse",
+      "file": "rock_01_diff_2k.png",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/rock_01/rock_01_diff_2k.png",
+      "sha256": "834706fb42c87ea5f8eabe9d710b98f0d58f081dd4dbe05d91fe15b9333287ae"
+    },
+    {
+      "role": "nor_gl",
+      "file": "rock_01_nor_gl_2k.png",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/rock_01/rock_01_nor_gl_2k.png",
+      "sha256": "62334aa81d4779fe5a28ebffc36143063d708aa99cc3530896a6e5414c443686"
+    },
+    {
+      "role": "Rough",
+      "file": "rock_01_rough_2k.png",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/rock_01/rock_01_rough_2k.png",
+      "sha256": "dfefe640d2e20036100907dcba766531c75759870bee5a3da956d5ed9a1746e3"
+    }
+  ]
+}

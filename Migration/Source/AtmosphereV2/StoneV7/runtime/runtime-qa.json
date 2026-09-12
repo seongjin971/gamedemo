@@ -1,0 +1,379 @@
+{
+  "export_basis": "alreadyUnity: Blender (x,y,z) to (-x,z,-y), normals same, triangles (0,2,1). Matches v6 exactly. No object transforms baked.",
+  "master_preserved": true,
+  "total_triangles": 8770,
+  "v6_total_triangles": 7024,
+  "all_sources_preserved": true,
+  "meshes": [
+    {
+      "name": "Flagstone_Split",
+      "id": "740f8589-aea6-4e9f-831f-6adbdb49ada3",
+      "triangles": 896,
+      "vertices": 663,
+      "baseline_triangles": 718,
+      "bounds_exact": true,
+      "bounds_max_error": 0.0,
+      "pre_restoration_bounds": [
+        [
+          -0.49769270420074463,
+          -0.5003662705421448,
+          -0.49979275465011597
+        ],
+        [
+          0.5,
+          0.4999176561832428,
+          0.46779516339302063
+        ]
+      ],
+      "blender_bounds": [
+        [
+          -0.49784260988235474,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.46779516339302063
+        ]
+      ],
+      "normal_fallback_corners": 0,
+      "skipped_subprecision_triangles": 0,
+      "nonmanifold_edges_welded": 0,
+      "transform_unchanged": true
+    },
+    {
+      "name": "Flagstone_Spalled",
+      "id": "f01cf337-cea7-42b3-b142-24f2fc145766",
+      "triangles": 1016,
+      "vertices": 769,
+      "baseline_triangles": 814,
+      "bounds_exact": true,
+      "bounds_max_error": 0.0,
+      "pre_restoration_bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.4998672604560852
+        ],
+        [
+          0.49991339445114136,
+          0.5,
+          0.46939998865127563
+        ]
+      ],
+      "blender_bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.46939998865127563
+        ]
+      ],
+      "normal_fallback_corners": 0,
+      "skipped_subprecision_triangles": 0,
+      "nonmanifold_edges_welded": 0,
+      "transform_unchanged": true
+    },
+    {
+      "name": "Flagstone_Laminated",
+      "id": "639f340b-3b93-4211-a7ff-cd35c89a1f9f",
+      "triangles": 874,
+      "vertices": 659,
+      "baseline_triangles": 700,
+      "bounds_exact": true,
+      "bounds_max_error": 0.0,
+      "pre_restoration_bounds": [
+        [
+          -0.4997190833091736,
+          -0.49980977177619934,
+          -0.4999694228172302
+        ],
+        [
+          0.5,
+          0.5,
+          0.4681919813156128
+        ]
+      ],
+      "blender_bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.46822938323020935
+        ]
+      ],
+      "normal_fallback_corners": 0,
+      "skipped_subprecision_triangles": 0,
+      "nonmanifold_edges_welded": 0,
+      "transform_unchanged": true
+    },
+    {
+      "name": "Flagstone_Weathered",
+      "id": "4bf543ce-10f0-4018-88ca-18754deeeb53",
+      "triangles": 884,
+      "vertices": 695,
+      "baseline_triangles": 708,
+      "bounds_exact": true,
+      "bounds_max_error": 0.0,
+      "pre_restoration_bounds": [
+        [
+          -0.5000602006912231,
+          -0.4953917860984802,
+          -0.49990689754486084
+        ],
+        [
+          0.5,
+          0.5,
+          0.469400018453598
+        ]
+      ],
+      "blender_bounds": [
+        [
+          -0.5,
+          -0.49528107047080994,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.46939998865127563
+        ]
+      ],
+      "normal_fallback_corners": 0,
+      "skipped_subprecision_triangles": 0,
+      "nonmanifold_edges_welded": 0,
+      "transform_unchanged": true
+    },
+    {
+      "name": "Flagstone_Cleft",
+      "id": "b761423f-facb-4ef9-9d08-71d49f2eb0d8",
+      "triangles": 1054,
+      "vertices": 798,
+      "baseline_triangles": 844,
+      "bounds_exact": true,
+      "bounds_max_error": 0.0,
+      "pre_restoration_bounds": [
+        [
+          -0.4980132579803467,
+          -0.5,
+          -0.4999794363975525
+        ],
+        [
+          0.5,
+          0.4998714029788971,
+          0.4694695472717285
+        ]
+      ],
+      "blender_bounds": [
+        [
+          -0.4982275068759918,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.46939998865127563
+        ]
+      ],
+      "normal_fallback_corners": 0,
+      "skipped_subprecision_triangles": 0,
+      "nonmanifold_edges_welded": 0,
+      "transform_unchanged": true
+    },
+    {
+      "name": "Flagstone_Granular",
+      "id": "4bbd6673-eca6-49ea-bb85-529da237542a",
+      "triangles": 890,
+      "vertices": 668,
+      "baseline_triangles": 712,
+      "bounds_exact": true,
+      "bounds_max_error": 0.0,
+      "pre_restoration_bounds": [
+        [
+          -0.4998389184474945,
+          -0.49969539046287537,
+          -0.4996694326400757
+        ],
+        [
+          0.49927425384521484,
+          0.49462559819221497,
+          0.4693964123725891
+        ]
+      ],
+      "blender_bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.49927425384521484,
+          0.4949105381965637,
+          0.46939998865127563
+        ]
+      ],
+      "normal_fallback_corners": 0,
+      "skipped_subprecision_triangles": 0,
+      "nonmanifold_edges_welded": 0,
+      "transform_unchanged": true
+    },
+    {
+      "name": "Flagstone_Worn",
+      "id": "7a2d80e2-5804-4629-8fcd-a6045025c7c6",
+      "triangles": 876,
+      "vertices": 645,
+      "baseline_triangles": 702,
+      "bounds_exact": true,
+      "bounds_max_error": 0.0,
+      "pre_restoration_bounds": [
+        [
+          -0.4998255670070648,
+          -0.4998151361942291,
+          -0.5000014901161194
+        ],
+        [
+          0.5000143647193909,
+          0.49986201524734497,
+          0.46698155999183655
+        ]
+      ],
+      "blender_bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.4669402837753296
+        ]
+      ],
+      "normal_fallback_corners": 0,
+      "skipped_subprecision_triangles": 0,
+      "nonmanifold_edges_welded": 0,
+      "transform_unchanged": true
+    },
+    {
+      "name": "Flagstone_Branched",
+      "id": "c9afbeaf-3585-4c29-a0e1-fcd500940346",
+      "triangles": 1032,
+      "vertices": 802,
+      "baseline_triangles": 826,
+      "bounds_exact": true,
+      "bounds_max_error": 0.0,
+      "pre_restoration_bounds": [
+        [
+          -0.499564528465271,
+          -0.5,
+          -0.49948906898498535
+        ],
+        [
+          0.49996742606163025,
+          0.5000360012054443,
+          0.46523118019104004
+        ]
+      ],
+      "blender_bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.46523118019104004
+        ]
+      ],
+      "normal_fallback_corners": 0,
+      "skipped_subprecision_triangles": 0,
+      "nonmanifold_edges_welded": 0,
+      "transform_unchanged": true
+    },
+    {
+      "name": "Masonry_Broken",
+      "id": "7b9ce760-2f47-40f1-98d7-6b4e0aadc2e5",
+      "triangles": 624,
+      "vertices": 468,
+      "baseline_triangles": 500,
+      "bounds_exact": true,
+      "bounds_max_error": 0.0,
+      "pre_restoration_bounds": [
+        [
+          -0.49792224168777466,
+          -0.49942338466644287,
+          -0.49952781200408936
+        ],
+        [
+          0.49971461296081543,
+          0.5,
+          0.4996689260005951
+        ]
+      ],
+      "blender_bounds": [
+        [
+          -0.49795910716056824,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ],
+      "normal_fallback_corners": 0,
+      "skipped_subprecision_triangles": 0,
+      "nonmanifold_edges_welded": 0,
+      "transform_unchanged": true
+    },
+    {
+      "name": "Masonry_Quarried",
+      "id": "30387f49-1a6e-42e9-80e4-01b8c8c559c1",
+      "triangles": 624,
+      "vertices": 462,
+      "baseline_triangles": 500,
+      "bounds_exact": true,
+      "bounds_max_error": 0.0,
+      "pre_restoration_bounds": [
+        [
+          -0.5000870227813721,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.4989681839942932
+        ]
+      ],
+      "blender_bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ],
+      "normal_fallback_corners": 0,
+      "skipped_subprecision_triangles": 0,
+      "nonmanifold_edges_welded": 0,
+      "transform_unchanged": true
+    }
+  ]
+}

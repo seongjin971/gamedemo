@@ -1,0 +1,35 @@
+﻿{
+    "author":  "Rob Tuytel",
+    "license":  "CC0",
+    "source":  "https://polyhaven.com/a/rock_05",
+    "verified":  "2026-09-08",
+    "license_url":  "https://polyhaven.com/license",
+    "asset":  "Rock 05",
+    "maps":  [
+                 {
+                     "sha256":  "c55ad6cf0a7e59280d8879b1b58bf110ee6d8ab7a4e61d7b8f5af7621411ef4a",
+                     "url":  "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/rock_05/rock_05_diff_2k.png",
+                     "file":  "rock_05_diff_2k.png",
+                     "role":  "Diffuse"
+                 },
+                 {
+                     "sha256":  "220fa102371cd18f18daba694aa067e1f98e68e0d0af3d5d174be9f74d6a7caf",
+                     "url":  "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/rock_05/rock_05_nor_gl_2k.png",
+                     "file":  "rock_05_nor_gl_2k.png",
+                     "role":  "nor_gl"
+                 },
+                 {
+                     "sha256":  "5894a7149f8b9d97da09f775c9dbc4e4b1b0d51db6aa2be2175746203a9bb289",
+                     "url":  "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/rock_05/rock_05_rough_2k.png",
+                     "file":  "rock_05_rough_2k.png",
+                     "role":  "Rough"
+                 },
+                 {
+                     "sha256":  "c6d93d1f9615c10ea7f1f72921e45b3cc8cbc4a6e07237242eb6f0cb48e1a347",
+                     "url":  "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/rock_05/rock_05_ao_2k.png",
+                     "file":  "rock_05_ao_2k.png",
+                     "role":  "AO"
+                 }
+             ],
+    "notes":  "Candidate29 used only normal/roughness with Rock01 color; candidate30 compares the coherent Rock05 set with local cool desaturation. Original maps are unmodified."
+}

@@ -1,0 +1,16 @@
+# TreeV11 direct asset review
+
+Status: technically valid native comparison candidate; unrestricted orbit visual gate NOT passed. Final JSON is frozen and parent owns the actual Unity camera/material adoption check.
+
+I directly opened the original textured front/back/left/right/isometric renders, matched reduced views, and all five final art-directed views after the normal correction. I also opened reference-tree.png. These are 1024-pixel local Blender images using the embedded source material and a matched neutral light rig.
+
+- The 3,073,248-triangle source reduced to 157,999 triangles (94.86% reduction). At this review size, the long fork tips, irregular bends and large bark channels retain their visual arrangement. Tiny bark projections soften locally; this is not a lossless geometry claim. UVs stay attached without visible major displaced texture seams in the inspected views.
+- The result has much more irregular large-scale bark and branching than the procedural V10 tubes. The generated front and back surfaces have different volume and furrows. The 1.65 depth alternative gives more trunk volume in the oblique view, and the lowest 1.2m root expansion improves the small original footprint. I did not observe a conspicuous transition band or texture stretching band at that taper.
+- Both strict side views remain poor hero views: the branching hierarchy collapses into a narrow vertical column. Depth scaling does not supply the missing radial branch distribution. The asset retains a strong 2.5D bias. No unrestricted 360-degree claim is made.
+- Roots remain shorter and more abruptly cut off than the supplied reference, even after the bounded flare. Broadening this source cannot reconstruct the long independent roots in that reference. No further root construction was authorized or performed.
+- The final isometric view is materially useful for a native comparison, but does not by itself prove the whole permitted VESPER camera range. Parent must face the source toward that range and inspect the actual native home and end angles.
+- Geometry normals are recomputed after anisotropic deformation. The exporter additionally sanitizes exceptional folded/sliver face-average disagreements using local face normals; the per-variant count is in build-report.json. These exceptions affect only a fraction of one percent of triangles. Blender previews use the smooth recomputed surface rather than separately rendering those exceptional export overrides.
+
+Independent export-qa.json passes every finite/index/normal/bounds/UV/source-preservation check. Both variants have strict positive face/average-normal dots for every triangle; Unity threshold outliers are zero. Local height span is 6.4, width 6.3 and base Y is -0.06. Lowest-eight-percent region XZ center is zero. Existing parent scale1.73 yields world height span11.072 versus V10 span11.34898. Art-directed total local depth2.62306 includes the extra root flare; baseline depth1.419986.
+
+Protected original GLB, four downloaded preview images, all downloaded textures, reference, prompt, metadata and client script are hash-identical (17 files). No Meshy API calls or Unity edits were made. Final blend, JSON and script hashes are in derivative/final-manifest.json; source preservation hashes are separately recorded.

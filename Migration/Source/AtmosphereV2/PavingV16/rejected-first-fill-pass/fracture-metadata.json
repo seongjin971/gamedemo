@@ -1,0 +1,3742 @@
+{
+  "mesh_sha256": "2615d88470252f741f3204d1bbe097fe043a566c98f92ba8e5bef016ba4dfc72",
+  "source_sha256": "630a8d5fcc54f38825fcdbf7fb401cd9768894d67b1b7d3e8b4f91cf329242ce",
+  "selected_records": [
+    {
+      "name": "HeroScanSlab_96_middle_far_right_lower",
+      "number": 96,
+      "source_id": "middle_far_right_lower",
+      "raw_polygon_world_xz": [
+        [
+          -3.330078125,
+          9.5966796875
+        ],
+        [
+          -3.3845703124999993,
+          9.2515625
+        ],
+        [
+          -2.3794921875000004,
+          9.2455078125
+        ],
+        [
+          -2.1494140625,
+          9.3423828125
+        ],
+        [
+          -2.1373046875000004,
+          9.8630859375
+        ],
+        [
+          -3.0212890624999993,
+          9.8388671875
+        ]
+      ],
+      "cuts_source_pixels": [
+        [
+          [
+            1498,
+            463
+          ],
+          [
+            1693,
+            505
+          ]
+        ],
+        [
+          [
+            1570,
+            422
+          ],
+          [
+            1570,
+            520
+          ]
+        ]
+      ],
+      "hinge_slopes": [
+        0.035,
+        -0.027
+      ],
+      "cap_offset": -0.01793888092954615,
+      "cap_base_tilt": [
+        -0.0011602737721605645,
+        0.00023497496484358848
+      ],
+      "selective_bevel_source_edges": [
+        1,
+        4
+      ],
+      "fill_count": 2,
+      "trace_note": "Lower broken boundary corner at 1498,463 to opposing missing corner 1693,505; second shallow lithic plane is authored."
+    },
+    {
+      "name": "HeroScanSlab_97_middle_right_broad",
+      "number": 97,
+      "source_id": "middle_right_broad",
+      "raw_polygon_world_xz": [
+        [
+          -2.0767578125000004,
+          9.554296875
+        ],
+        [
+          -2.0464843750000004,
+          9.2515625
+        ],
+        [
+          -1.4167968749999993,
+          9.2576171875
+        ],
+        [
+          -1.1867187500000007,
+          9.626953125
+        ],
+        [
+          -0.9929687499999993,
+          9.95390625
+        ],
+        [
+          -0.7205078124999993,
+          10.1658203125
+        ],
+        [
+          -0.8839843750000007,
+          10.3232421875
+        ],
+        [
+          -1.2351562499999993,
+          10.214257812500001
+        ],
+        [
+          -1.6953125,
+          9.978125
+        ]
+      ],
+      "cuts_source_pixels": [
+        [
+          [
+            1768,
+            400
+          ],
+          [
+            1814,
+            519
+          ]
+        ],
+        [
+          [
+            1705,
+            470
+          ],
+          [
+            1884,
+            404
+          ]
+        ]
+      ],
+      "hinge_slopes": [
+        -0.03,
+        0.025
+      ],
+      "cap_offset": -0.007661982727192684,
+      "cap_base_tilt": [
+        -0.0013618452175365933,
+        -0.0017597179646565266
+      ],
+      "selective_bevel_source_edges": [
+        2,
+        6
+      ],
+      "fill_count": 1,
+      "trace_note": "Two planes continue the source's diagonal fractured shoulder and left notch; preserve pointed upper-right outline."
+    },
+    {
+      "name": "HeroScanSlab_105_lower_far_right_broad",
+      "number": 105,
+      "source_id": "lower_far_right_broad",
+      "raw_polygon_world_xz": [
+        [
+          -3.9597656249999993,
+          8.319140625
+        ],
+        [
+          -3.9900390624999993,
+          7.604687500000001
+        ],
+        [
+          -3.9052734375,
+          7.453320312500001
+        ],
+        [
+          -2.845703125,
+          7.483593750000001
+        ],
+        [
+          -2.8275390624999996,
+          8.5310546875
+        ],
+        [
+          -2.9244140625000004,
+          8.512890625
+        ],
+        [
+          -3.0031250000000007,
+          8.7671875
+        ],
+        [
+          -3.8628906250000004,
+          8.7732421875
+        ]
+      ],
+      "cuts_source_pixels": [
+        [
+          [
+            1394,
+            674
+          ],
+          [
+            1578,
+            720
+          ]
+        ],
+        [
+          [
+            1490,
+            600
+          ],
+          [
+            1490,
+            814
+          ]
+        ]
+      ],
+      "hinge_slopes": [
+        0.029,
+        -0.019
+      ],
+      "cap_offset": -0.006705307247285465,
+      "cap_base_tilt": [
+        0.0023846651444343475,
+        -0.001102083585843054
+      ],
+      "selective_bevel_source_edges": [
+        1,
+        5
+      ],
+      "fill_count": 0,
+      "trace_note": "Large source slab has a broad flat face and damaged upper-right notch; sparse internal cleavage is authored between source edge landmarks."
+    },
+    {
+      "name": "HeroScanSlab_106_lower_far_right_tall",
+      "number": 106,
+      "source_id": "lower_far_right_tall",
+      "raw_polygon_world_xz": [
+        [
+          -2.7488281249999993,
+          8.9669921875
+        ],
+        [
+          -2.8214843750000007,
+          8.6158203125
+        ],
+        [
+          -2.7427734375000004,
+          8.464453125
+        ],
+        [
+          -2.7730468750000004,
+          7.453320312500001
+        ],
+        [
+          -1.876953125,
+          7.471484375
+        ],
+        [
+          -1.8587890624999996,
+          7.725781250000001
+        ],
+        [
+          -2.0949218750000007,
+          8.101171875
+        ],
+        [
+          -2.1070312500000004,
+          9.13046875
+        ],
+        [
+          -2.5853515624999996,
+          9.142578125
+        ]
+      ],
+      "cuts_source_pixels": [
+        [
+          [
+            1595,
+            650
+          ],
+          [
+            1702,
+            710
+          ]
+        ],
+        [
+          [
+            1621,
+            538
+          ],
+          [
+            1670,
+            814
+          ]
+        ]
+      ],
+      "hinge_slopes": [
+        -0.032,
+        0.023
+      ],
+      "cap_offset": -0.0026670249157341556,
+      "cap_base_tilt": [
+        0.0007464565754854158,
+        -0.0016323466928208985
+      ],
+      "selective_bevel_source_edges": [
+        2,
+        6
+      ],
+      "fill_count": 2,
+      "trace_note": "Primary facet connects actual left and right shoulder kinks, retaining their different directions."
+    },
+    {
+      "name": "HeroScanSlab_107_lower_right_edge",
+      "number": 107,
+      "source_id": "lower_right_edge",
+      "raw_polygon_world_xz": [
+        [
+          -1.9859375000000004,
+          8.8458984375
+        ],
+        [
+          -1.998046875,
+          8.11328125
+        ],
+        [
+          -1.7861328125,
+          7.7802734375
+        ],
+        [
+          -1.7921875000000007,
+          7.453320312500001
+        ],
+        [
+          -0.8113281249999993,
+          7.453320312500001
+        ],
+        [
+          -0.6902343749999993,
+          8.0345703125
+        ],
+        [
+          -0.8234375000000007,
+          8.222265625
+        ],
+        [
+          -0.8839843750000007,
+          8.6037109375
+        ],
+        [
+          -0.7023437500000007,
+          8.93671875
+        ],
+        [
+          -1.1201171875,
+          9.0880859375
+        ],
+        [
+          -1.6589843749999993,
+          9.142578125
+        ]
+      ],
+      "cuts_source_pixels": [
+        [
+          [
+            1720,
+            587
+          ],
+          [
+            1912,
+            690
+          ]
+        ],
+        [
+          [
+            1753,
+            763
+          ],
+          [
+            1902,
+            627
+          ]
+        ]
+      ],
+      "hinge_slopes": [
+        0.026,
+        -0.028
+      ],
+      "cap_offset": -0.008801041259618518,
+      "cap_base_tilt": [
+        0.0027379440677253505,
+        0.003778048445675173
+      ],
+      "selective_bevel_source_edges": [
+        1,
+        5
+      ],
+      "fill_count": 2,
+      "trace_note": "Follows opposing multi-stage fractured side silhouettes; two connected internal planes avoid turning each photo fragment into a separate pebble."
+    },
+    {
+      "name": "HeroScanSlab_112_bottom_right_tall",
+      "number": 112,
+      "source_id": "bottom_right_tall",
+      "raw_polygon_world_xz": [
+        [
+          -3.1423828124999993,
+          6.9083984375
+        ],
+        [
+          -3.2332031249999993,
+          6.6117187500000005
+        ],
+        [
+          -3.2998046875,
+          6.236328125
+        ],
+        [
+          -2.5671874999999993,
+          6.236328125
+        ],
+        [
+          -2.5732421875,
+          6.478515625
+        ],
+        [
+          -2.6761718749999996,
+          6.684375
+        ],
+        [
+          -2.5005859375000004,
+          7.011328125
+        ],
+        [
+          -2.5974609374999993,
+          7.241406250000001
+        ],
+        [
+          -2.9607421874999993,
+          7.205078125
+        ]
+      ],
+      "cuts_source_pixels": [
+        [
+          [
+            1529,
+            907
+          ],
+          [
+            1606,
+            944
+          ]
+        ]
+      ],
+      "hinge_slopes": [
+        0.034
+      ],
+      "cap_offset": -0.00767066659996231,
+      "cap_base_tilt": [
+        -0.0029764758620619484,
+        -0.0006713653730320715
+      ],
+      "selective_bevel_source_edges": [
+        1,
+        4
+      ],
+      "fill_count": 1,
+      "trace_note": "Preserve angular right recess and tapering left source boundary; one cross-cleavage through boundary landmarks."
+    },
+    {
+      "name": "HeroScanSlab_131_lower_narrow_course_far",
+      "number": 131,
+      "source_id": "lower_narrow_course_far",
+      "raw_polygon_world_xz": [
+        [
+          -4.111132812499999,
+          8.827734375
+        ],
+        [
+          -3.1968750000000004,
+          8.8458984375
+        ],
+        [
+          -3.1666015625000004,
+          8.9791015625
+        ],
+        [
+          -3.208984375,
+          9.1365234375
+        ],
+        [
+          -4.032421875000001,
+          9.1244140625
+        ]
+      ],
+      "cuts_source_pixels": [
+        [
+          [
+            1425,
+            540
+          ],
+          [
+            1467,
+            589
+          ]
+        ]
+      ],
+      "hinge_slopes": [
+        -0.025
+      ],
+      "cap_offset": -0.005325773580151073,
+      "cap_base_tilt": [
+        0.0036917302240335823,
+        -0.004874288586734071
+      ],
+      "selective_bevel_source_edges": [
+        1
+      ],
+      "fill_count": 1,
+      "trace_note": "Narrow course remains a long angular plate, with one authored plane break, not rounded end caps."
+    },
+    {
+      "name": "HeroScanSlab_134_bottom_right_mid",
+      "number": 134,
+      "source_id": "bottom_right_mid",
+      "raw_polygon_world_xz": [
+        [
+          -1.6832031250000004,
+          6.8539062500000005
+        ],
+        [
+          -1.453125,
+          6.8236328125000005
+        ],
+        [
+          -1.1019531249999996,
+          7.0173828125
+        ],
+        [
+          -1.2957031249999993,
+          7.2595703125
+        ],
+        [
+          -1.7679687499999996,
+          7.2353515625
+        ]
+      ],
+      "cuts_source_pixels": [
+        [
+          [
+            1756,
+            853
+          ],
+          [
+            1866,
+            889
+          ]
+        ]
+      ],
+      "hinge_slopes": [
+        0.027
+      ],
+      "cap_offset": -0.014764597190308298,
+      "cap_base_tilt": [
+        0.0020737900878984895,
+        0.0015176168154280682
+      ],
+      "selective_bevel_source_edges": [
+        2
+      ],
+      "fill_count": 1,
+      "trace_note": "Shallow fracture plane aligned with the source's triangular missing corner."
+    },
+    {
+      "name": "HeroScanSlab_144_lower_right_edge_low",
+      "number": 144,
+      "source_id": "lower_right_edge_low",
+      "raw_polygon_world_xz": [
+        [
+          -0.6962890625,
+          7.4896484375000005
+        ],
+        [
+          -0.5509765625000007,
+          7.392773437500001
+        ],
+        [
+          -0.35117187500000036,
+          7.471484375
+        ],
+        [
+          -0.5388671874999993,
+          7.834765625
+        ],
+        [
+          -0.6720703125000007,
+          7.87109375
+        ]
+      ],
+      "cuts_source_pixels": [
+        [
+          [
+            1937,
+            748
+          ],
+          [
+            1957,
+            827
+          ]
+        ]
+      ],
+      "hinge_slopes": [
+        -0.025
+      ],
+      "cap_offset": -0.022431453085020644,
+      "cap_base_tilt": [
+        0.0026410803555266624,
+        -0.0052182259459571945
+      ],
+      "selective_bevel_source_edges": [
+        1
+      ],
+      "fill_count": 1,
+      "trace_note": "Small broken wedge keeps its acute original corner. Single authored lithic plane only."
+    },
+    {
+      "name": "HeroScanSlab_146_bottom_right_narrow",
+      "number": 146,
+      "source_id": "bottom_right_narrow",
+      "raw_polygon_world_xz": [
+        [
+          -2.4642578124999996,
+          6.46640625
+        ],
+        [
+          -2.4521484375,
+          6.236328125
+        ],
+        [
+          -1.8285156249999996,
+          6.236328125
+        ],
+        [
+          -1.7861328125,
+          6.4906250000000005
+        ],
+        [
+          -1.9435546875000007,
+          6.684375
+        ],
+        [
+          -1.8285156249999996,
+          6.95078125
+        ],
+        [
+          -1.9919921874999993,
+          7.132421875
+        ],
+        [
+          -2.2886718750000004,
+          6.9931640625
+        ]
+      ],
+      "cuts_source_pixels": [
+        [
+          [
+            1641,
+            980
+          ],
+          [
+            1727,
+            944
+          ]
+        ]
+      ],
+      "hinge_slopes": [
+        0.028
+      ],
+      "cap_offset": -0.017324493494722253,
+      "cap_base_tilt": [
+        0.0016166782920428923,
+        0.0037542530314826905
+      ],
+      "selective_bevel_source_edges": [
+        1,
+        4
+      ],
+      "fill_count": 1,
+      "trace_note": "Source zigzag right boundary remains sharp; one shallow plane runs to its inward break."
+    }
+  ],
+  "parts": [
+    {
+      "name": "Continuous recessed source stonebed",
+      "index_start": 0,
+      "index_count": 108096,
+      "original_index_start": 0
+    },
+    {
+      "name": "HeroScanSlab_00_upper_middle_broad",
+      "index_start": 108096,
+      "index_count": 672,
+      "original_index_start": 108096
+    },
+    {
+      "name": "HeroScanSlab_01_upper_right_shoulder",
+      "index_start": 108768,
+      "index_count": 696,
+      "original_index_start": 108768
+    },
+    {
+      "name": "HeroScanSlab_02_upper_right_tall",
+      "index_start": 109464,
+      "index_count": 576,
+      "original_index_start": 109464
+    },
+    {
+      "name": "HeroScanSlab_03_upper_right_wedge",
+      "index_start": 110040,
+      "index_count": 648,
+      "original_index_start": 110040
+    },
+    {
+      "name": "HeroScanSlab_04_upper_edge_right",
+      "index_start": 110688,
+      "index_count": 528,
+      "original_index_start": 110688
+    },
+    {
+      "name": "HeroScanSlab_05_upper_low_middle",
+      "index_start": 111216,
+      "index_count": 312,
+      "original_index_start": 111216
+    },
+    {
+      "name": "HeroScanSlab_06_upper_low_right",
+      "index_start": 111528,
+      "index_count": 360,
+      "original_index_start": 111528
+    },
+    {
+      "name": "HeroScanSlab_07_upper_low_far_right",
+      "index_start": 111888,
+      "index_count": 312,
+      "original_index_start": 111888
+    },
+    {
+      "name": "HeroScanSlab_08_upper_small_wedge",
+      "index_start": 112200,
+      "index_count": 288,
+      "original_index_start": 112200
+    },
+    {
+      "name": "HeroScanSlab_09_upper_mid_triangle",
+      "index_start": 112488,
+      "index_count": 264,
+      "original_index_start": 112488
+    },
+    {
+      "name": "HeroScanSlab_10_upper_top_midright",
+      "index_start": 112752,
+      "index_count": 336,
+      "original_index_start": 112752
+    },
+    {
+      "name": "HeroScanSlab_11_upper_right_diagonal",
+      "index_start": 113088,
+      "index_count": 576,
+      "original_index_start": 113088
+    },
+    {
+      "name": "HeroScanSlab_12_upper_right_lowerwedge",
+      "index_start": 113664,
+      "index_count": 216,
+      "original_index_start": 113664
+    },
+    {
+      "name": "HeroScanSlab_13_upper_organic_neighbor",
+      "index_start": 113880,
+      "index_count": 336,
+      "original_index_start": 113880
+    },
+    {
+      "name": "HeroScanSlab_14_upper_soil_bottom",
+      "index_start": 114216,
+      "index_count": 192,
+      "original_index_start": 114216
+    },
+    {
+      "name": "HeroScanSlab_15_upper_tiny_right",
+      "index_start": 114408,
+      "index_count": 144,
+      "original_index_start": 114408
+    },
+    {
+      "name": "HeroScanSlab_16_upper_soil_top",
+      "index_start": 114552,
+      "index_count": 216,
+      "original_index_start": 114552
+    },
+    {
+      "name": "HeroScanSlab_17_upper_soil_side",
+      "index_start": 114768,
+      "index_count": 168,
+      "original_index_start": 114768
+    },
+    {
+      "name": "HeroScanSlab_18_upper_middle_broad",
+      "index_start": 114936,
+      "index_count": 672,
+      "original_index_start": 114936
+    },
+    {
+      "name": "HeroScanSlab_19_upper_right_shoulder",
+      "index_start": 115608,
+      "index_count": 816,
+      "original_index_start": 115608
+    },
+    {
+      "name": "HeroScanSlab_20_upper_right_tall",
+      "index_start": 116424,
+      "index_count": 720,
+      "original_index_start": 116424
+    },
+    {
+      "name": "HeroScanSlab_21_upper_right_wedge",
+      "index_start": 117144,
+      "index_count": 696,
+      "original_index_start": 117144
+    },
+    {
+      "name": "HeroScanSlab_22_upper_edge_right",
+      "index_start": 117840,
+      "index_count": 648,
+      "original_index_start": 117840
+    },
+    {
+      "name": "HeroScanSlab_23_upper_low_middle",
+      "index_start": 118488,
+      "index_count": 456,
+      "original_index_start": 118488
+    },
+    {
+      "name": "HeroScanSlab_24_upper_low_right",
+      "index_start": 118944,
+      "index_count": 408,
+      "original_index_start": 118944
+    },
+    {
+      "name": "HeroScanSlab_25_upper_low_far_right",
+      "index_start": 119352,
+      "index_count": 384,
+      "original_index_start": 119352
+    },
+    {
+      "name": "HeroScanSlab_26_middle_center_wide",
+      "index_start": 119736,
+      "index_count": 480,
+      "original_index_start": 119736
+    },
+    {
+      "name": "HeroScanSlab_27_middle_center_tall",
+      "index_start": 120216,
+      "index_count": 384,
+      "original_index_start": 120216
+    },
+    {
+      "name": "HeroScanSlab_28_middle_center_lower",
+      "index_start": 120600,
+      "index_count": 432,
+      "original_index_start": 120600
+    },
+    {
+      "name": "HeroScanSlab_29_middle_right_large",
+      "index_start": 121032,
+      "index_count": 576,
+      "original_index_start": 121032
+    },
+    {
+      "name": "HeroScanSlab_30_middle_far_right_upper",
+      "index_start": 121608,
+      "index_count": 432,
+      "original_index_start": 121608
+    },
+    {
+      "name": "HeroScanSlab_31_middle_far_right_lower",
+      "index_start": 122040,
+      "index_count": 480,
+      "original_index_start": 122040
+    },
+    {
+      "name": "HeroScanSlab_32_middle_right_broad",
+      "index_start": 122520,
+      "index_count": 576,
+      "original_index_start": 122520
+    },
+    {
+      "name": "HeroScanSlab_33_middle_right_edge",
+      "index_start": 123096,
+      "index_count": 480,
+      "original_index_start": 123096
+    },
+    {
+      "name": "HeroScanSlab_34_lower_middle_upper",
+      "index_start": 123576,
+      "index_count": 528,
+      "original_index_start": 123576
+    },
+    {
+      "name": "HeroScanSlab_35_lower_middle_lower",
+      "index_start": 124104,
+      "index_count": 480,
+      "original_index_start": 124104
+    },
+    {
+      "name": "HeroScanSlab_36_lower_middle_tall",
+      "index_start": 124584,
+      "index_count": 744,
+      "original_index_start": 124584
+    },
+    {
+      "name": "HeroScanSlab_37_lower_middle_right",
+      "index_start": 125328,
+      "index_count": 624,
+      "original_index_start": 125328
+    },
+    {
+      "name": "HeroScanSlab_38_lower_right_upper",
+      "index_start": 125952,
+      "index_count": 528,
+      "original_index_start": 125952
+    },
+    {
+      "name": "HeroScanSlab_39_lower_right_lower",
+      "index_start": 126480,
+      "index_count": 600,
+      "original_index_start": 126480
+    },
+    {
+      "name": "HeroScanSlab_40_lower_far_right_broad",
+      "index_start": 127080,
+      "index_count": 696,
+      "original_index_start": 127080
+    },
+    {
+      "name": "HeroScanSlab_41_lower_far_right_tall",
+      "index_start": 127776,
+      "index_count": 720,
+      "original_index_start": 127776
+    },
+    {
+      "name": "HeroScanSlab_42_lower_right_edge",
+      "index_start": 128496,
+      "index_count": 816,
+      "original_index_start": 128496
+    },
+    {
+      "name": "HeroScanSlab_43_bottom_left_broad",
+      "index_start": 129312,
+      "index_count": 312,
+      "original_index_start": 129312
+    },
+    {
+      "name": "HeroScanSlab_44_bottom_middle_broad",
+      "index_start": 129624,
+      "index_count": 816,
+      "original_index_start": 129624
+    },
+    {
+      "name": "HeroScanSlab_45_bottom_middle_right",
+      "index_start": 130440,
+      "index_count": 696,
+      "original_index_start": 130440
+    },
+    {
+      "name": "HeroScanSlab_46_bottom_right_broad",
+      "index_start": 131136,
+      "index_count": 720,
+      "original_index_start": 131136
+    },
+    {
+      "name": "HeroScanSlab_47_bottom_right_tall",
+      "index_start": 131856,
+      "index_count": 480,
+      "original_index_start": 131856
+    },
+    {
+      "name": "HeroScanSlab_48_upper_small_wedge",
+      "index_start": 132336,
+      "index_count": 288,
+      "original_index_start": 132336
+    },
+    {
+      "name": "HeroScanSlab_49_upper_mid_triangle",
+      "index_start": 132624,
+      "index_count": 264,
+      "original_index_start": 132624
+    },
+    {
+      "name": "HeroScanSlab_50_upper_top_midright",
+      "index_start": 132888,
+      "index_count": 336,
+      "original_index_start": 132888
+    },
+    {
+      "name": "HeroScanSlab_51_upper_right_diagonal",
+      "index_start": 133224,
+      "index_count": 576,
+      "original_index_start": 133224
+    },
+    {
+      "name": "HeroScanSlab_52_upper_right_lowerwedge",
+      "index_start": 133800,
+      "index_count": 312,
+      "original_index_start": 133800
+    },
+    {
+      "name": "HeroScanSlab_53_upper_organic_neighbor",
+      "index_start": 134112,
+      "index_count": 336,
+      "original_index_start": 134112
+    },
+    {
+      "name": "HeroScanSlab_54_middle_edge_wedge",
+      "index_start": 134448,
+      "index_count": 192,
+      "original_index_start": 134448
+    },
+    {
+      "name": "HeroScanSlab_55_middle_upper_rightrect",
+      "index_start": 134640,
+      "index_count": 360,
+      "original_index_start": 134640
+    },
+    {
+      "name": "HeroScanSlab_56_middle_center_square",
+      "index_start": 135000,
+      "index_count": 312,
+      "original_index_start": 135000
+    },
+    {
+      "name": "HeroScanSlab_57_middle_center_lowrect",
+      "index_start": 135312,
+      "index_count": 408,
+      "original_index_start": 135312
+    },
+    {
+      "name": "HeroScanSlab_58_middle_low_wedge",
+      "index_start": 135720,
+      "index_count": 264,
+      "original_index_start": 135720
+    },
+    {
+      "name": "HeroScanSlab_59_middle_narrow_tall",
+      "index_start": 135984,
+      "index_count": 336,
+      "original_index_start": 135984
+    },
+    {
+      "name": "HeroScanSlab_60_middle_low_lefttri",
+      "index_start": 136320,
+      "index_count": 312,
+      "original_index_start": 136320
+    },
+    {
+      "name": "HeroScanSlab_61_middle_organic_right",
+      "index_start": 136632,
+      "index_count": 360,
+      "original_index_start": 136632
+    },
+    {
+      "name": "HeroScanSlab_62_middle_organic_left",
+      "index_start": 136992,
+      "index_count": 144,
+      "original_index_start": 136992
+    },
+    {
+      "name": "HeroScanSlab_63_lower_narrow_course_left",
+      "index_start": 137136,
+      "index_count": 288,
+      "original_index_start": 137136
+    },
+    {
+      "name": "HeroScanSlab_64_lower_narrow_course_mid",
+      "index_start": 137424,
+      "index_count": 312,
+      "original_index_start": 137424
+    },
+    {
+      "name": "HeroScanSlab_65_lower_narrow_course_right",
+      "index_start": 137736,
+      "index_count": 384,
+      "original_index_start": 137736
+    },
+    {
+      "name": "HeroScanSlab_66_lower_narrow_course_far",
+      "index_start": 138120,
+      "index_count": 360,
+      "original_index_start": 138120
+    },
+    {
+      "name": "HeroScanSlab_67_bottom_small_middle",
+      "index_start": 138480,
+      "index_count": 312,
+      "original_index_start": 138480
+    },
+    {
+      "name": "HeroScanSlab_68_bottom_edge_right",
+      "index_start": 138792,
+      "index_count": 480,
+      "original_index_start": 138792
+    },
+    {
+      "name": "HeroScanSlab_69_bottom_right_mid",
+      "index_start": 139272,
+      "index_count": 288,
+      "original_index_start": 139272
+    },
+    {
+      "name": "HeroScanSlab_70_bottom_right_low",
+      "index_start": 139560,
+      "index_count": 336,
+      "original_index_start": 139560
+    },
+    {
+      "name": "HeroScanSlab_71_upper_soil_bottom",
+      "index_start": 139896,
+      "index_count": 288,
+      "original_index_start": 139896
+    },
+    {
+      "name": "HeroScanSlab_72_upper_tiny_right",
+      "index_start": 140184,
+      "index_count": 168,
+      "original_index_start": 140184
+    },
+    {
+      "name": "HeroScanSlab_73_upper_soil_top",
+      "index_start": 140352,
+      "index_count": 216,
+      "original_index_start": 140352
+    },
+    {
+      "name": "HeroScanSlab_74_upper_soil_side",
+      "index_start": 140568,
+      "index_count": 168,
+      "original_index_start": 140568
+    },
+    {
+      "name": "HeroScanSlab_75_middle_organic_top",
+      "index_start": 140736,
+      "index_count": 312,
+      "original_index_start": 140736
+    },
+    {
+      "name": "HeroScanSlab_76_middle_organic_bottom",
+      "index_start": 141048,
+      "index_count": 240,
+      "original_index_start": 141048
+    },
+    {
+      "name": "HeroScanSlab_77_middle_right_narrow",
+      "index_start": 141288,
+      "index_count": 264,
+      "original_index_start": 141288
+    },
+    {
+      "name": "HeroScanSlab_78_lower_right_edge_large",
+      "index_start": 141552,
+      "index_count": 528,
+      "original_index_start": 141552
+    },
+    {
+      "name": "HeroScanSlab_79_lower_right_edge_low",
+      "index_start": 142080,
+      "index_count": 264,
+      "original_index_start": 142080
+    },
+    {
+      "name": "HeroScanSlab_80_bottom_center_lowleft",
+      "index_start": 142344,
+      "index_count": 288,
+      "original_index_start": 142344
+    },
+    {
+      "name": "HeroScanSlab_81_bottom_right_narrow",
+      "index_start": 142632,
+      "index_count": 432,
+      "original_index_start": 142632
+    },
+    {
+      "name": "HeroScanSlab_82_bottom_right_largestedge",
+      "index_start": 143064,
+      "index_count": 288,
+      "original_index_start": 143064
+    },
+    {
+      "name": "HeroScanSlab_83_upper_middle_broad",
+      "index_start": 143352,
+      "index_count": 672,
+      "original_index_start": 143352
+    },
+    {
+      "name": "HeroScanSlab_84_upper_right_shoulder",
+      "index_start": 144024,
+      "index_count": 816,
+      "original_index_start": 144024
+    },
+    {
+      "name": "HeroScanSlab_85_upper_right_tall",
+      "index_start": 144840,
+      "index_count": 720,
+      "original_index_start": 144840
+    },
+    {
+      "name": "HeroScanSlab_86_upper_right_wedge",
+      "index_start": 145560,
+      "index_count": 696,
+      "original_index_start": 145560
+    },
+    {
+      "name": "HeroScanSlab_87_upper_edge_right",
+      "index_start": 146256,
+      "index_count": 648,
+      "original_index_start": 146256
+    },
+    {
+      "name": "HeroScanSlab_88_upper_low_middle",
+      "index_start": 146904,
+      "index_count": 456,
+      "original_index_start": 146904
+    },
+    {
+      "name": "HeroScanSlab_89_upper_low_right",
+      "index_start": 147360,
+      "index_count": 408,
+      "original_index_start": 147360
+    },
+    {
+      "name": "HeroScanSlab_90_upper_low_far_right",
+      "index_start": 147768,
+      "index_count": 384,
+      "original_index_start": 147768
+    },
+    {
+      "name": "HeroScanSlab_91_middle_center_wide",
+      "index_start": 148152,
+      "index_count": 480,
+      "original_index_start": 148152
+    },
+    {
+      "name": "HeroScanSlab_92_middle_center_tall",
+      "index_start": 148632,
+      "index_count": 384,
+      "original_index_start": 148632
+    },
+    {
+      "name": "HeroScanSlab_93_middle_center_lower",
+      "index_start": 149016,
+      "index_count": 432,
+      "original_index_start": 149016
+    },
+    {
+      "name": "HeroScanSlab_94_middle_right_large",
+      "index_start": 149448,
+      "index_count": 576,
+      "original_index_start": 149448
+    },
+    {
+      "name": "HeroScanSlab_95_middle_far_right_upper",
+      "index_start": 150024,
+      "index_count": 432,
+      "original_index_start": 150024
+    },
+    {
+      "name": "HeroScanSlab_98_middle_right_edge",
+      "index_start": 150456,
+      "index_count": 480,
+      "original_index_start": 151512
+    },
+    {
+      "name": "HeroScanSlab_99_lower_middle_upper",
+      "index_start": 150936,
+      "index_count": 528,
+      "original_index_start": 151992
+    },
+    {
+      "name": "HeroScanSlab_100_lower_middle_lower",
+      "index_start": 151464,
+      "index_count": 480,
+      "original_index_start": 152520
+    },
+    {
+      "name": "HeroScanSlab_101_lower_middle_tall",
+      "index_start": 151944,
+      "index_count": 744,
+      "original_index_start": 153000
+    },
+    {
+      "name": "HeroScanSlab_102_lower_middle_right",
+      "index_start": 152688,
+      "index_count": 624,
+      "original_index_start": 153744
+    },
+    {
+      "name": "HeroScanSlab_103_lower_right_upper",
+      "index_start": 153312,
+      "index_count": 528,
+      "original_index_start": 154368
+    },
+    {
+      "name": "HeroScanSlab_104_lower_right_lower",
+      "index_start": 153840,
+      "index_count": 600,
+      "original_index_start": 154896
+    },
+    {
+      "name": "HeroScanSlab_108_bottom_left_broad",
+      "index_start": 154440,
+      "index_count": 312,
+      "original_index_start": 157728
+    },
+    {
+      "name": "HeroScanSlab_109_bottom_middle_broad",
+      "index_start": 154752,
+      "index_count": 816,
+      "original_index_start": 158040
+    },
+    {
+      "name": "HeroScanSlab_110_bottom_middle_right",
+      "index_start": 155568,
+      "index_count": 696,
+      "original_index_start": 158856
+    },
+    {
+      "name": "HeroScanSlab_111_bottom_right_broad",
+      "index_start": 156264,
+      "index_count": 720,
+      "original_index_start": 159552
+    },
+    {
+      "name": "HeroScanSlab_113_upper_small_wedge",
+      "index_start": 156984,
+      "index_count": 288,
+      "original_index_start": 160752
+    },
+    {
+      "name": "HeroScanSlab_114_upper_mid_triangle",
+      "index_start": 157272,
+      "index_count": 264,
+      "original_index_start": 161040
+    },
+    {
+      "name": "HeroScanSlab_115_upper_top_midright",
+      "index_start": 157536,
+      "index_count": 336,
+      "original_index_start": 161304
+    },
+    {
+      "name": "HeroScanSlab_116_upper_right_diagonal",
+      "index_start": 157872,
+      "index_count": 576,
+      "original_index_start": 161640
+    },
+    {
+      "name": "HeroScanSlab_117_upper_right_lowerwedge",
+      "index_start": 158448,
+      "index_count": 312,
+      "original_index_start": 162216
+    },
+    {
+      "name": "HeroScanSlab_118_upper_organic_neighbor",
+      "index_start": 158760,
+      "index_count": 336,
+      "original_index_start": 162528
+    },
+    {
+      "name": "HeroScanSlab_119_middle_edge_wedge",
+      "index_start": 159096,
+      "index_count": 192,
+      "original_index_start": 162864
+    },
+    {
+      "name": "HeroScanSlab_120_middle_upper_rightrect",
+      "index_start": 159288,
+      "index_count": 360,
+      "original_index_start": 163056
+    },
+    {
+      "name": "HeroScanSlab_121_middle_center_square",
+      "index_start": 159648,
+      "index_count": 312,
+      "original_index_start": 163416
+    },
+    {
+      "name": "HeroScanSlab_122_middle_center_lowrect",
+      "index_start": 159960,
+      "index_count": 408,
+      "original_index_start": 163728
+    },
+    {
+      "name": "HeroScanSlab_123_middle_low_wedge",
+      "index_start": 160368,
+      "index_count": 264,
+      "original_index_start": 164136
+    },
+    {
+      "name": "HeroScanSlab_124_middle_narrow_tall",
+      "index_start": 160632,
+      "index_count": 336,
+      "original_index_start": 164400
+    },
+    {
+      "name": "HeroScanSlab_125_middle_low_lefttri",
+      "index_start": 160968,
+      "index_count": 312,
+      "original_index_start": 164736
+    },
+    {
+      "name": "HeroScanSlab_126_middle_organic_right",
+      "index_start": 161280,
+      "index_count": 360,
+      "original_index_start": 165048
+    },
+    {
+      "name": "HeroScanSlab_127_middle_organic_left",
+      "index_start": 161640,
+      "index_count": 144,
+      "original_index_start": 165408
+    },
+    {
+      "name": "HeroScanSlab_128_lower_narrow_course_left",
+      "index_start": 161784,
+      "index_count": 288,
+      "original_index_start": 165552
+    },
+    {
+      "name": "HeroScanSlab_129_lower_narrow_course_mid",
+      "index_start": 162072,
+      "index_count": 312,
+      "original_index_start": 165840
+    },
+    {
+      "name": "HeroScanSlab_130_lower_narrow_course_right",
+      "index_start": 162384,
+      "index_count": 384,
+      "original_index_start": 166152
+    },
+    {
+      "name": "HeroScanSlab_132_bottom_small_middle",
+      "index_start": 162768,
+      "index_count": 312,
+      "original_index_start": 166896
+    },
+    {
+      "name": "HeroScanSlab_133_bottom_edge_right",
+      "index_start": 163080,
+      "index_count": 480,
+      "original_index_start": 167208
+    },
+    {
+      "name": "HeroScanSlab_135_bottom_right_low",
+      "index_start": 163560,
+      "index_count": 336,
+      "original_index_start": 167976
+    },
+    {
+      "name": "HeroScanSlab_136_upper_soil_bottom",
+      "index_start": 163896,
+      "index_count": 288,
+      "original_index_start": 168312
+    },
+    {
+      "name": "HeroScanSlab_137_upper_tiny_right",
+      "index_start": 164184,
+      "index_count": 168,
+      "original_index_start": 168600
+    },
+    {
+      "name": "HeroScanSlab_138_upper_soil_top",
+      "index_start": 164352,
+      "index_count": 216,
+      "original_index_start": 168768
+    },
+    {
+      "name": "HeroScanSlab_139_upper_soil_side",
+      "index_start": 164568,
+      "index_count": 168,
+      "original_index_start": 168984
+    },
+    {
+      "name": "HeroScanSlab_140_middle_organic_top",
+      "index_start": 164736,
+      "index_count": 312,
+      "original_index_start": 169152
+    },
+    {
+      "name": "HeroScanSlab_141_middle_organic_bottom",
+      "index_start": 165048,
+      "index_count": 240,
+      "original_index_start": 169464
+    },
+    {
+      "name": "HeroScanSlab_142_middle_right_narrow",
+      "index_start": 165288,
+      "index_count": 264,
+      "original_index_start": 169704
+    },
+    {
+      "name": "HeroScanSlab_143_lower_right_edge_large",
+      "index_start": 165552,
+      "index_count": 528,
+      "original_index_start": 169968
+    },
+    {
+      "name": "HeroScanSlab_145_bottom_center_lowleft",
+      "index_start": 166080,
+      "index_count": 288,
+      "original_index_start": 170760
+    },
+    {
+      "name": "HeroScanSlab_147_bottom_right_largestedge",
+      "index_start": 166368,
+      "index_count": 288,
+      "original_index_start": 171480
+    },
+    {
+      "name": "HeroScanSlab_148_upper_middle_broad",
+      "index_start": 166656,
+      "index_count": 672,
+      "original_index_start": 171768
+    },
+    {
+      "name": "HeroScanSlab_149_upper_right_shoulder",
+      "index_start": 167328,
+      "index_count": 816,
+      "original_index_start": 172440
+    },
+    {
+      "name": "HeroScanSlab_150_upper_right_tall",
+      "index_start": 168144,
+      "index_count": 720,
+      "original_index_start": 173256
+    },
+    {
+      "name": "HeroScanSlab_151_upper_right_wedge",
+      "index_start": 168864,
+      "index_count": 696,
+      "original_index_start": 173976
+    },
+    {
+      "name": "HeroScanSlab_152_upper_edge_right",
+      "index_start": 169560,
+      "index_count": 648,
+      "original_index_start": 174672
+    },
+    {
+      "name": "HeroScanSlab_153_upper_low_middle",
+      "index_start": 170208,
+      "index_count": 456,
+      "original_index_start": 175320
+    },
+    {
+      "name": "HeroScanSlab_154_upper_low_right",
+      "index_start": 170664,
+      "index_count": 408,
+      "original_index_start": 175776
+    },
+    {
+      "name": "HeroScanSlab_155_upper_low_far_right",
+      "index_start": 171072,
+      "index_count": 384,
+      "original_index_start": 176184
+    },
+    {
+      "name": "HeroScanSlab_156_middle_center_wide",
+      "index_start": 171456,
+      "index_count": 480,
+      "original_index_start": 176568
+    },
+    {
+      "name": "HeroScanSlab_157_middle_center_tall",
+      "index_start": 171936,
+      "index_count": 384,
+      "original_index_start": 177048
+    },
+    {
+      "name": "HeroScanSlab_158_middle_center_lower",
+      "index_start": 172320,
+      "index_count": 432,
+      "original_index_start": 177432
+    },
+    {
+      "name": "HeroScanSlab_159_middle_right_large",
+      "index_start": 172752,
+      "index_count": 576,
+      "original_index_start": 177864
+    },
+    {
+      "name": "HeroScanSlab_160_middle_far_right_upper",
+      "index_start": 173328,
+      "index_count": 432,
+      "original_index_start": 178440
+    },
+    {
+      "name": "HeroScanSlab_161_middle_far_right_lower",
+      "index_start": 173760,
+      "index_count": 480,
+      "original_index_start": 178872
+    },
+    {
+      "name": "HeroScanSlab_162_middle_right_broad",
+      "index_start": 174240,
+      "index_count": 576,
+      "original_index_start": 179352
+    },
+    {
+      "name": "HeroScanSlab_163_middle_right_edge",
+      "index_start": 174816,
+      "index_count": 480,
+      "original_index_start": 179928
+    },
+    {
+      "name": "HeroScanSlab_164_lower_middle_upper",
+      "index_start": 175296,
+      "index_count": 528,
+      "original_index_start": 180408
+    },
+    {
+      "name": "HeroScanSlab_165_lower_middle_lower",
+      "index_start": 175824,
+      "index_count": 480,
+      "original_index_start": 180936
+    },
+    {
+      "name": "HeroScanSlab_166_lower_middle_tall",
+      "index_start": 176304,
+      "index_count": 744,
+      "original_index_start": 181416
+    },
+    {
+      "name": "HeroScanSlab_167_lower_middle_right",
+      "index_start": 177048,
+      "index_count": 624,
+      "original_index_start": 182160
+    },
+    {
+      "name": "HeroScanSlab_168_lower_right_upper",
+      "index_start": 177672,
+      "index_count": 528,
+      "original_index_start": 182784
+    },
+    {
+      "name": "HeroScanSlab_169_lower_right_lower",
+      "index_start": 178200,
+      "index_count": 600,
+      "original_index_start": 183312
+    },
+    {
+      "name": "HeroScanSlab_170_lower_far_right_broad",
+      "index_start": 178800,
+      "index_count": 696,
+      "original_index_start": 183912
+    },
+    {
+      "name": "HeroScanSlab_171_lower_far_right_tall",
+      "index_start": 179496,
+      "index_count": 720,
+      "original_index_start": 184608
+    },
+    {
+      "name": "HeroScanSlab_172_lower_right_edge",
+      "index_start": 180216,
+      "index_count": 816,
+      "original_index_start": 185328
+    },
+    {
+      "name": "HeroScanSlab_173_bottom_left_broad",
+      "index_start": 181032,
+      "index_count": 312,
+      "original_index_start": 186144
+    },
+    {
+      "name": "HeroScanSlab_174_bottom_middle_broad",
+      "index_start": 181344,
+      "index_count": 816,
+      "original_index_start": 186456
+    },
+    {
+      "name": "HeroScanSlab_175_bottom_middle_right",
+      "index_start": 182160,
+      "index_count": 696,
+      "original_index_start": 187272
+    },
+    {
+      "name": "HeroScanSlab_176_bottom_right_broad",
+      "index_start": 182856,
+      "index_count": 720,
+      "original_index_start": 187968
+    },
+    {
+      "name": "HeroScanSlab_177_bottom_right_tall",
+      "index_start": 183576,
+      "index_count": 480,
+      "original_index_start": 188688
+    },
+    {
+      "name": "HeroScanSlab_178_upper_small_wedge",
+      "index_start": 184056,
+      "index_count": 288,
+      "original_index_start": 189168
+    },
+    {
+      "name": "HeroScanSlab_179_upper_mid_triangle",
+      "index_start": 184344,
+      "index_count": 264,
+      "original_index_start": 189456
+    },
+    {
+      "name": "HeroScanSlab_180_upper_top_midright",
+      "index_start": 184608,
+      "index_count": 336,
+      "original_index_start": 189720
+    },
+    {
+      "name": "HeroScanSlab_181_upper_right_diagonal",
+      "index_start": 184944,
+      "index_count": 576,
+      "original_index_start": 190056
+    },
+    {
+      "name": "HeroScanSlab_182_upper_right_lowerwedge",
+      "index_start": 185520,
+      "index_count": 312,
+      "original_index_start": 190632
+    },
+    {
+      "name": "HeroScanSlab_183_upper_organic_neighbor",
+      "index_start": 185832,
+      "index_count": 336,
+      "original_index_start": 190944
+    },
+    {
+      "name": "HeroScanSlab_184_middle_edge_wedge",
+      "index_start": 186168,
+      "index_count": 192,
+      "original_index_start": 191280
+    },
+    {
+      "name": "HeroScanSlab_185_middle_upper_rightrect",
+      "index_start": 186360,
+      "index_count": 360,
+      "original_index_start": 191472
+    },
+    {
+      "name": "HeroScanSlab_186_middle_center_square",
+      "index_start": 186720,
+      "index_count": 312,
+      "original_index_start": 191832
+    },
+    {
+      "name": "HeroScanSlab_187_middle_center_lowrect",
+      "index_start": 187032,
+      "index_count": 408,
+      "original_index_start": 192144
+    },
+    {
+      "name": "HeroScanSlab_188_middle_low_wedge",
+      "index_start": 187440,
+      "index_count": 264,
+      "original_index_start": 192552
+    },
+    {
+      "name": "HeroScanSlab_189_middle_narrow_tall",
+      "index_start": 187704,
+      "index_count": 336,
+      "original_index_start": 192816
+    },
+    {
+      "name": "HeroScanSlab_190_middle_low_lefttri",
+      "index_start": 188040,
+      "index_count": 312,
+      "original_index_start": 193152
+    },
+    {
+      "name": "HeroScanSlab_191_middle_organic_right",
+      "index_start": 188352,
+      "index_count": 360,
+      "original_index_start": 193464
+    },
+    {
+      "name": "HeroScanSlab_192_middle_organic_left",
+      "index_start": 188712,
+      "index_count": 144,
+      "original_index_start": 193824
+    },
+    {
+      "name": "HeroScanSlab_193_lower_narrow_course_left",
+      "index_start": 188856,
+      "index_count": 288,
+      "original_index_start": 193968
+    },
+    {
+      "name": "HeroScanSlab_194_lower_narrow_course_mid",
+      "index_start": 189144,
+      "index_count": 312,
+      "original_index_start": 194256
+    },
+    {
+      "name": "HeroScanSlab_195_lower_narrow_course_right",
+      "index_start": 189456,
+      "index_count": 384,
+      "original_index_start": 194568
+    },
+    {
+      "name": "HeroScanSlab_196_lower_narrow_course_far",
+      "index_start": 189840,
+      "index_count": 360,
+      "original_index_start": 194952
+    },
+    {
+      "name": "HeroScanSlab_197_bottom_small_middle",
+      "index_start": 190200,
+      "index_count": 312,
+      "original_index_start": 195312
+    },
+    {
+      "name": "HeroScanSlab_198_bottom_edge_right",
+      "index_start": 190512,
+      "index_count": 480,
+      "original_index_start": 195624
+    },
+    {
+      "name": "HeroScanSlab_199_bottom_right_mid",
+      "index_start": 190992,
+      "index_count": 288,
+      "original_index_start": 196104
+    },
+    {
+      "name": "HeroScanSlab_200_bottom_right_low",
+      "index_start": 191280,
+      "index_count": 336,
+      "original_index_start": 196392
+    },
+    {
+      "name": "HeroScanSlab_201_upper_soil_bottom",
+      "index_start": 191616,
+      "index_count": 288,
+      "original_index_start": 196728
+    },
+    {
+      "name": "HeroScanSlab_202_upper_tiny_right",
+      "index_start": 191904,
+      "index_count": 168,
+      "original_index_start": 197016
+    },
+    {
+      "name": "HeroScanSlab_203_upper_soil_top",
+      "index_start": 192072,
+      "index_count": 216,
+      "original_index_start": 197184
+    },
+    {
+      "name": "HeroScanSlab_204_upper_soil_side",
+      "index_start": 192288,
+      "index_count": 168,
+      "original_index_start": 197400
+    },
+    {
+      "name": "HeroScanSlab_205_middle_organic_top",
+      "index_start": 192456,
+      "index_count": 312,
+      "original_index_start": 197568
+    },
+    {
+      "name": "HeroScanSlab_206_middle_organic_bottom",
+      "index_start": 192768,
+      "index_count": 240,
+      "original_index_start": 197880
+    },
+    {
+      "name": "HeroScanSlab_207_middle_right_narrow",
+      "index_start": 193008,
+      "index_count": 264,
+      "original_index_start": 198120
+    },
+    {
+      "name": "HeroScanSlab_208_lower_right_edge_large",
+      "index_start": 193272,
+      "index_count": 528,
+      "original_index_start": 198384
+    },
+    {
+      "name": "HeroScanSlab_209_lower_right_edge_low",
+      "index_start": 193800,
+      "index_count": 264,
+      "original_index_start": 198912
+    },
+    {
+      "name": "HeroScanSlab_210_bottom_center_lowleft",
+      "index_start": 194064,
+      "index_count": 288,
+      "original_index_start": 199176
+    },
+    {
+      "name": "HeroScanSlab_211_bottom_right_narrow",
+      "index_start": 194352,
+      "index_count": 432,
+      "original_index_start": 199464
+    },
+    {
+      "name": "HeroScanSlab_212_bottom_right_largestedge",
+      "index_start": 194784,
+      "index_count": 288,
+      "original_index_start": 199896
+    },
+    {
+      "name": "HeroScanSlab_213_lower_middle_upper",
+      "index_start": 195072,
+      "index_count": 336,
+      "original_index_start": 200184
+    },
+    {
+      "name": "HeroScanSlab_214_lower_middle_lower",
+      "index_start": 195408,
+      "index_count": 480,
+      "original_index_start": 200520
+    },
+    {
+      "name": "HeroScanSlab_215_lower_middle_tall",
+      "index_start": 195888,
+      "index_count": 504,
+      "original_index_start": 201000
+    },
+    {
+      "name": "HeroScanSlab_216_lower_middle_right",
+      "index_start": 196392,
+      "index_count": 528,
+      "original_index_start": 201504
+    },
+    {
+      "name": "HeroScanSlab_217_lower_right_upper",
+      "index_start": 196920,
+      "index_count": 384,
+      "original_index_start": 202032
+    },
+    {
+      "name": "HeroScanSlab_218_lower_right_lower",
+      "index_start": 197304,
+      "index_count": 600,
+      "original_index_start": 202416
+    },
+    {
+      "name": "HeroScanSlab_219_lower_far_right_broad",
+      "index_start": 197904,
+      "index_count": 600,
+      "original_index_start": 203016
+    },
+    {
+      "name": "HeroScanSlab_220_lower_far_right_tall",
+      "index_start": 198504,
+      "index_count": 552,
+      "original_index_start": 203616
+    },
+    {
+      "name": "HeroScanSlab_221_lower_right_edge",
+      "index_start": 199056,
+      "index_count": 576,
+      "original_index_start": 204168
+    },
+    {
+      "name": "HeroScanSlab_222_bottom_left_broad",
+      "index_start": 199632,
+      "index_count": 312,
+      "original_index_start": 204744
+    },
+    {
+      "name": "HeroScanSlab_223_bottom_middle_broad",
+      "index_start": 199944,
+      "index_count": 816,
+      "original_index_start": 205056
+    },
+    {
+      "name": "HeroScanSlab_224_bottom_middle_right",
+      "index_start": 200760,
+      "index_count": 696,
+      "original_index_start": 205872
+    },
+    {
+      "name": "HeroScanSlab_225_bottom_right_broad",
+      "index_start": 201456,
+      "index_count": 720,
+      "original_index_start": 206568
+    },
+    {
+      "name": "HeroScanSlab_226_bottom_right_tall",
+      "index_start": 202176,
+      "index_count": 480,
+      "original_index_start": 207288
+    },
+    {
+      "name": "HeroScanSlab_227_bottom_small_middle",
+      "index_start": 202656,
+      "index_count": 312,
+      "original_index_start": 207768
+    },
+    {
+      "name": "HeroScanSlab_228_bottom_edge_right",
+      "index_start": 202968,
+      "index_count": 480,
+      "original_index_start": 208080
+    },
+    {
+      "name": "HeroScanSlab_229_bottom_right_mid",
+      "index_start": 203448,
+      "index_count": 288,
+      "original_index_start": 208560
+    },
+    {
+      "name": "HeroScanSlab_230_bottom_right_low",
+      "index_start": 203736,
+      "index_count": 336,
+      "original_index_start": 208848
+    },
+    {
+      "name": "HeroScanSlab_231_lower_right_edge_large",
+      "index_start": 204072,
+      "index_count": 432,
+      "original_index_start": 209184
+    },
+    {
+      "name": "HeroScanSlab_232_lower_right_edge_low",
+      "index_start": 204504,
+      "index_count": 264,
+      "original_index_start": 209616
+    },
+    {
+      "name": "HeroScanSlab_233_bottom_center_lowleft",
+      "index_start": 204768,
+      "index_count": 288,
+      "original_index_start": 209880
+    },
+    {
+      "name": "HeroScanSlab_234_bottom_right_narrow",
+      "index_start": 205056,
+      "index_count": 432,
+      "original_index_start": 210168
+    },
+    {
+      "name": "HeroScanSlab_235_bottom_right_largestedge",
+      "index_start": 205488,
+      "index_count": 288,
+      "original_index_start": 210600
+    },
+    {
+      "name": "HeroScanSlab_236_upper_left_broad",
+      "index_start": 205776,
+      "index_count": 576,
+      "original_index_start": 210888
+    },
+    {
+      "name": "HeroScanSlab_237_upper_left_tall",
+      "index_start": 206352,
+      "index_count": 456,
+      "original_index_start": 211464
+    },
+    {
+      "name": "HeroScanSlab_238_upper_second_tall",
+      "index_start": 206808,
+      "index_count": 456,
+      "original_index_start": 211920
+    },
+    {
+      "name": "HeroScanSlab_239_upper_middle_broad",
+      "index_start": 207264,
+      "index_count": 672,
+      "original_index_start": 212376
+    },
+    {
+      "name": "HeroScanSlab_240_upper_right_shoulder",
+      "index_start": 207936,
+      "index_count": 696,
+      "original_index_start": 213048
+    },
+    {
+      "name": "HeroScanSlab_241_upper_right_tall",
+      "index_start": 208632,
+      "index_count": 576,
+      "original_index_start": 213744
+    },
+    {
+      "name": "HeroScanSlab_242_upper_low_left",
+      "index_start": 209208,
+      "index_count": 264,
+      "original_index_start": 214320
+    },
+    {
+      "name": "HeroScanSlab_243_upper_low_middle",
+      "index_start": 209472,
+      "index_count": 312,
+      "original_index_start": 214584
+    },
+    {
+      "name": "HeroScanSlab_244_upper_low_right",
+      "index_start": 209784,
+      "index_count": 360,
+      "original_index_start": 214896
+    },
+    {
+      "name": "HeroScanSlab_245_upper_small_wedge",
+      "index_start": 210144,
+      "index_count": 288,
+      "original_index_start": 215256
+    },
+    {
+      "name": "HeroScanSlab_246_upper_mid_triangle",
+      "index_start": 210432,
+      "index_count": 264,
+      "original_index_start": 215544
+    },
+    {
+      "name": "HeroScanSlab_247_upper_top_midright",
+      "index_start": 210696,
+      "index_count": 336,
+      "original_index_start": 215808
+    },
+    {
+      "name": "HeroScanSlab_248_upper_soil_neighbor",
+      "index_start": 211032,
+      "index_count": 288,
+      "original_index_start": 216144
+    },
+    {
+      "name": "HeroScanSlab_249_upper_organic_neighbor",
+      "index_start": 211320,
+      "index_count": 312,
+      "original_index_start": 216432
+    },
+    {
+      "name": "HeroScanSlab_250_upper_small_farleft",
+      "index_start": 211632,
+      "index_count": 168,
+      "original_index_start": 216744
+    },
+    {
+      "name": "HeroScanSlab_251_upper_soil_bottom",
+      "index_start": 211800,
+      "index_count": 192,
+      "original_index_start": 216912
+    },
+    {
+      "name": "HeroScanSlab_252_upper_tiny_right",
+      "index_start": 211992,
+      "index_count": 144,
+      "original_index_start": 217104
+    },
+    {
+      "name": "HeroScanSlab_253_upper_soil_top",
+      "index_start": 212136,
+      "index_count": 216,
+      "original_index_start": 217248
+    },
+    {
+      "name": "HeroScanSlab_254_upper_soil_side",
+      "index_start": 212352,
+      "index_count": 168,
+      "original_index_start": 217464
+    },
+    {
+      "name": "HeroScanSlab_255_upper_left_broad",
+      "index_start": 212520,
+      "index_count": 792,
+      "original_index_start": 217632
+    },
+    {
+      "name": "HeroScanSlab_256_upper_left_tall",
+      "index_start": 213312,
+      "index_count": 456,
+      "original_index_start": 218424
+    },
+    {
+      "name": "HeroScanSlab_257_upper_second_tall",
+      "index_start": 213768,
+      "index_count": 456,
+      "original_index_start": 218880
+    },
+    {
+      "name": "HeroScanSlab_258_upper_middle_broad",
+      "index_start": 214224,
+      "index_count": 672,
+      "original_index_start": 219336
+    },
+    {
+      "name": "HeroScanSlab_259_upper_right_shoulder",
+      "index_start": 214896,
+      "index_count": 816,
+      "original_index_start": 220008
+    },
+    {
+      "name": "HeroScanSlab_260_upper_right_tall",
+      "index_start": 215712,
+      "index_count": 720,
+      "original_index_start": 220824
+    },
+    {
+      "name": "HeroScanSlab_261_upper_low_left",
+      "index_start": 216432,
+      "index_count": 336,
+      "original_index_start": 221544
+    },
+    {
+      "name": "HeroScanSlab_262_upper_low_middle",
+      "index_start": 216768,
+      "index_count": 456,
+      "original_index_start": 221880
+    },
+    {
+      "name": "HeroScanSlab_263_upper_low_right",
+      "index_start": 217224,
+      "index_count": 408,
+      "original_index_start": 222336
+    },
+    {
+      "name": "HeroScanSlab_264_middle_left_edge",
+      "index_start": 217632,
+      "index_count": 480,
+      "original_index_start": 222744
+    },
+    {
+      "name": "HeroScanSlab_265_middle_left_upper",
+      "index_start": 218112,
+      "index_count": 456,
+      "original_index_start": 223224
+    },
+    {
+      "name": "HeroScanSlab_266_middle_left_lower",
+      "index_start": 218568,
+      "index_count": 408,
+      "original_index_start": 223680
+    },
+    {
+      "name": "HeroScanSlab_267_middle_left_tall",
+      "index_start": 218976,
+      "index_count": 576,
+      "original_index_start": 224088
+    },
+    {
+      "name": "HeroScanSlab_268_middle_center_wide",
+      "index_start": 219552,
+      "index_count": 480,
+      "original_index_start": 224664
+    },
+    {
+      "name": "HeroScanSlab_269_middle_center_tall",
+      "index_start": 220032,
+      "index_count": 384,
+      "original_index_start": 225144
+    },
+    {
+      "name": "HeroScanSlab_270_middle_center_lower",
+      "index_start": 220416,
+      "index_count": 432,
+      "original_index_start": 225528
+    },
+    {
+      "name": "HeroScanSlab_271_middle_right_large",
+      "index_start": 220848,
+      "index_count": 576,
+      "original_index_start": 225960
+    },
+    {
+      "name": "HeroScanSlab_272_lower_left_broad",
+      "index_start": 221424,
+      "index_count": 720,
+      "original_index_start": 226536
+    },
+    {
+      "name": "HeroScanSlab_273_lower_middle_upper",
+      "index_start": 222144,
+      "index_count": 672,
+      "original_index_start": 227256
+    },
+    {
+      "name": "HeroScanSlab_274_lower_middle_lower",
+      "index_start": 222816,
+      "index_count": 696,
+      "original_index_start": 227928
+    },
+    {
+      "name": "HeroScanSlab_275_lower_middle_tall",
+      "index_start": 223512,
+      "index_count": 744,
+      "original_index_start": 228624
+    },
+    {
+      "name": "HeroScanSlab_276_lower_middle_right",
+      "index_start": 224256,
+      "index_count": 624,
+      "original_index_start": 229368
+    },
+    {
+      "name": "HeroScanSlab_277_lower_right_upper",
+      "index_start": 224880,
+      "index_count": 528,
+      "original_index_start": 229992
+    },
+    {
+      "name": "HeroScanSlab_278_lower_right_lower",
+      "index_start": 225408,
+      "index_count": 600,
+      "original_index_start": 230520
+    },
+    {
+      "name": "HeroScanSlab_279_lower_far_right_broad",
+      "index_start": 226008,
+      "index_count": 360,
+      "original_index_start": 231120
+    },
+    {
+      "name": "HeroScanSlab_280_bottom_left_large",
+      "index_start": 226368,
+      "index_count": 408,
+      "original_index_start": 231480
+    },
+    {
+      "name": "HeroScanSlab_281_bottom_left_broad",
+      "index_start": 226776,
+      "index_count": 744,
+      "original_index_start": 231888
+    },
+    {
+      "name": "HeroScanSlab_282_bottom_middle_broad",
+      "index_start": 227520,
+      "index_count": 816,
+      "original_index_start": 232632
+    },
+    {
+      "name": "HeroScanSlab_283_bottom_middle_right",
+      "index_start": 228336,
+      "index_count": 696,
+      "original_index_start": 233448
+    },
+    {
+      "name": "HeroScanSlab_284_bottom_right_broad",
+      "index_start": 229032,
+      "index_count": 528,
+      "original_index_start": 234144
+    },
+    {
+      "name": "HeroScanSlab_285_upper_small_wedge",
+      "index_start": 229560,
+      "index_count": 288,
+      "original_index_start": 234672
+    },
+    {
+      "name": "HeroScanSlab_286_upper_mid_triangle",
+      "index_start": 229848,
+      "index_count": 264,
+      "original_index_start": 234960
+    },
+    {
+      "name": "HeroScanSlab_287_upper_top_midright",
+      "index_start": 230112,
+      "index_count": 336,
+      "original_index_start": 235224
+    },
+    {
+      "name": "HeroScanSlab_288_upper_soil_neighbor",
+      "index_start": 230448,
+      "index_count": 288,
+      "original_index_start": 235560
+    },
+    {
+      "name": "HeroScanSlab_289_upper_organic_neighbor",
+      "index_start": 230736,
+      "index_count": 312,
+      "original_index_start": 235848
+    },
+    {
+      "name": "HeroScanSlab_290_middle_center_square",
+      "index_start": 231048,
+      "index_count": 312,
+      "original_index_start": 236160
+    },
+    {
+      "name": "HeroScanSlab_291_middle_center_lowrect",
+      "index_start": 231360,
+      "index_count": 408,
+      "original_index_start": 236472
+    },
+    {
+      "name": "HeroScanSlab_292_middle_low_wedge",
+      "index_start": 231768,
+      "index_count": 264,
+      "original_index_start": 236880
+    },
+    {
+      "name": "HeroScanSlab_293_middle_narrow_tall",
+      "index_start": 232032,
+      "index_count": 336,
+      "original_index_start": 237144
+    },
+    {
+      "name": "HeroScanSlab_294_middle_low_lefttri",
+      "index_start": 232368,
+      "index_count": 312,
+      "original_index_start": 237480
+    },
+    {
+      "name": "HeroScanSlab_295_middle_organic_right",
+      "index_start": 232680,
+      "index_count": 360,
+      "original_index_start": 237792
+    },
+    {
+      "name": "HeroScanSlab_296_middle_organic_left",
+      "index_start": 233040,
+      "index_count": 336,
+      "original_index_start": 238152
+    },
+    {
+      "name": "HeroScanSlab_297_middle_small_upper",
+      "index_start": 233376,
+      "index_count": 288,
+      "original_index_start": 238488
+    },
+    {
+      "name": "HeroScanSlab_298_lower_left_fragment",
+      "index_start": 233664,
+      "index_count": 384,
+      "original_index_start": 238776
+    },
+    {
+      "name": "HeroScanSlab_299_lower_narrow_course_left",
+      "index_start": 234048,
+      "index_count": 288,
+      "original_index_start": 239160
+    },
+    {
+      "name": "HeroScanSlab_300_lower_narrow_course_mid",
+      "index_start": 234336,
+      "index_count": 312,
+      "original_index_start": 239448
+    },
+    {
+      "name": "HeroScanSlab_301_lower_narrow_course_right",
+      "index_start": 234648,
+      "index_count": 384,
+      "original_index_start": 239760
+    },
+    {
+      "name": "HeroScanSlab_302_lower_narrow_course_far",
+      "index_start": 235032,
+      "index_count": 240,
+      "original_index_start": 240144
+    },
+    {
+      "name": "HeroScanSlab_303_lower_left_lowtriangle",
+      "index_start": 235272,
+      "index_count": 336,
+      "original_index_start": 240384
+    },
+    {
+      "name": "HeroScanSlab_304_lower_left_lowsquare",
+      "index_start": 235608,
+      "index_count": 408,
+      "original_index_start": 240720
+    },
+    {
+      "name": "HeroScanSlab_305_bottom_left_lowpiece",
+      "index_start": 236016,
+      "index_count": 312,
+      "original_index_start": 241128
+    },
+    {
+      "name": "HeroScanSlab_306_bottom_small_middle",
+      "index_start": 236328,
+      "index_count": 312,
+      "original_index_start": 241440
+    },
+    {
+      "name": "HeroScanSlab_307_bottom_left_mid",
+      "index_start": 236640,
+      "index_count": 312,
+      "original_index_start": 241752
+    },
+    {
+      "name": "HeroScanSlab_308_upper_small_farleft",
+      "index_start": 236952,
+      "index_count": 192,
+      "original_index_start": 242064
+    },
+    {
+      "name": "HeroScanSlab_309_upper_soil_bottom",
+      "index_start": 237144,
+      "index_count": 288,
+      "original_index_start": 242256
+    },
+    {
+      "name": "HeroScanSlab_310_upper_tiny_right",
+      "index_start": 237432,
+      "index_count": 168,
+      "original_index_start": 242544
+    },
+    {
+      "name": "HeroScanSlab_311_upper_soil_top",
+      "index_start": 237600,
+      "index_count": 216,
+      "original_index_start": 242712
+    },
+    {
+      "name": "HeroScanSlab_312_upper_soil_side",
+      "index_start": 237816,
+      "index_count": 168,
+      "original_index_start": 242928
+    },
+    {
+      "name": "HeroScanSlab_313_middle_organic_top",
+      "index_start": 237984,
+      "index_count": 312,
+      "original_index_start": 243096
+    },
+    {
+      "name": "HeroScanSlab_314_middle_organic_bottom",
+      "index_start": 238296,
+      "index_count": 240,
+      "original_index_start": 243408
+    },
+    {
+      "name": "HeroScanSlab_315_middle_right_narrow",
+      "index_start": 238536,
+      "index_count": 264,
+      "original_index_start": 243648
+    },
+    {
+      "name": "HeroScanSlab_316_middle_lower_small",
+      "index_start": 238800,
+      "index_count": 216,
+      "original_index_start": 243912
+    },
+    {
+      "name": "HeroScanSlab_317_lower_left_edge_upper",
+      "index_start": 239016,
+      "index_count": 240,
+      "original_index_start": 244128
+    },
+    {
+      "name": "HeroScanSlab_318_lower_left_edge_lower",
+      "index_start": 239256,
+      "index_count": 240,
+      "original_index_start": 244368
+    },
+    {
+      "name": "HeroScanSlab_319_lower_left_center_wedge",
+      "index_start": 239496,
+      "index_count": 312,
+      "original_index_start": 244608
+    },
+    {
+      "name": "HeroScanSlab_320_lower_left_center_low",
+      "index_start": 239808,
+      "index_count": 264,
+      "original_index_start": 244920
+    },
+    {
+      "name": "HeroScanSlab_321_lower_middle_smalltop",
+      "index_start": 240072,
+      "index_count": 192,
+      "original_index_start": 245184
+    },
+    {
+      "name": "HeroScanSlab_322_bottom_left_edge",
+      "index_start": 240264,
+      "index_count": 240,
+      "original_index_start": 245376
+    },
+    {
+      "name": "HeroScanSlab_323_bottom_left_lowmiddle",
+      "index_start": 240504,
+      "index_count": 264,
+      "original_index_start": 245616
+    },
+    {
+      "name": "HeroScanSlab_324_bottom_left_lowsquare",
+      "index_start": 240768,
+      "index_count": 264,
+      "original_index_start": 245880
+    },
+    {
+      "name": "HeroScanSlab_325_bottom_center_lowleft",
+      "index_start": 241032,
+      "index_count": 288,
+      "original_index_start": 246144
+    },
+    {
+      "name": "HeroScanSlab_326_upper_left_broad",
+      "index_start": 241320,
+      "index_count": 792,
+      "original_index_start": 246432
+    },
+    {
+      "name": "HeroScanSlab_327_upper_left_tall",
+      "index_start": 242112,
+      "index_count": 456,
+      "original_index_start": 247224
+    },
+    {
+      "name": "HeroScanSlab_328_upper_second_tall",
+      "index_start": 242568,
+      "index_count": 456,
+      "original_index_start": 247680
+    },
+    {
+      "name": "HeroScanSlab_329_upper_middle_broad",
+      "index_start": 243024,
+      "index_count": 672,
+      "original_index_start": 248136
+    },
+    {
+      "name": "HeroScanSlab_330_upper_right_shoulder",
+      "index_start": 243696,
+      "index_count": 816,
+      "original_index_start": 248808
+    },
+    {
+      "name": "HeroScanSlab_331_upper_right_tall",
+      "index_start": 244512,
+      "index_count": 720,
+      "original_index_start": 249624
+    },
+    {
+      "name": "HeroScanSlab_332_upper_low_left",
+      "index_start": 245232,
+      "index_count": 336,
+      "original_index_start": 250344
+    },
+    {
+      "name": "HeroScanSlab_333_upper_low_middle",
+      "index_start": 245568,
+      "index_count": 456,
+      "original_index_start": 250680
+    },
+    {
+      "name": "HeroScanSlab_334_upper_low_right",
+      "index_start": 246024,
+      "index_count": 408,
+      "original_index_start": 251136
+    },
+    {
+      "name": "HeroScanSlab_335_middle_left_edge",
+      "index_start": 246432,
+      "index_count": 480,
+      "original_index_start": 251544
+    },
+    {
+      "name": "HeroScanSlab_336_middle_left_upper",
+      "index_start": 246912,
+      "index_count": 456,
+      "original_index_start": 252024
+    },
+    {
+      "name": "HeroScanSlab_337_middle_left_lower",
+      "index_start": 247368,
+      "index_count": 408,
+      "original_index_start": 252480
+    },
+    {
+      "name": "HeroScanSlab_338_middle_left_tall",
+      "index_start": 247776,
+      "index_count": 576,
+      "original_index_start": 252888
+    },
+    {
+      "name": "HeroScanSlab_339_middle_center_wide",
+      "index_start": 248352,
+      "index_count": 480,
+      "original_index_start": 253464
+    },
+    {
+      "name": "HeroScanSlab_340_middle_center_tall",
+      "index_start": 248832,
+      "index_count": 384,
+      "original_index_start": 253944
+    },
+    {
+      "name": "HeroScanSlab_341_middle_center_lower",
+      "index_start": 249216,
+      "index_count": 432,
+      "original_index_start": 254328
+    },
+    {
+      "name": "HeroScanSlab_342_middle_right_large",
+      "index_start": 249648,
+      "index_count": 576,
+      "original_index_start": 254760
+    },
+    {
+      "name": "HeroScanSlab_343_lower_left_broad",
+      "index_start": 250224,
+      "index_count": 720,
+      "original_index_start": 255336
+    },
+    {
+      "name": "HeroScanSlab_344_lower_middle_upper",
+      "index_start": 250944,
+      "index_count": 672,
+      "original_index_start": 256056
+    },
+    {
+      "name": "HeroScanSlab_345_lower_middle_lower",
+      "index_start": 251616,
+      "index_count": 696,
+      "original_index_start": 256728
+    },
+    {
+      "name": "HeroScanSlab_346_lower_middle_tall",
+      "index_start": 252312,
+      "index_count": 744,
+      "original_index_start": 257424
+    },
+    {
+      "name": "HeroScanSlab_347_lower_middle_right",
+      "index_start": 253056,
+      "index_count": 624,
+      "original_index_start": 258168
+    },
+    {
+      "name": "HeroScanSlab_348_lower_right_upper",
+      "index_start": 253680,
+      "index_count": 528,
+      "original_index_start": 258792
+    },
+    {
+      "name": "HeroScanSlab_349_lower_right_lower",
+      "index_start": 254208,
+      "index_count": 600,
+      "original_index_start": 259320
+    },
+    {
+      "name": "HeroScanSlab_350_lower_far_right_broad",
+      "index_start": 254808,
+      "index_count": 360,
+      "original_index_start": 259920
+    },
+    {
+      "name": "HeroScanSlab_351_bottom_left_large",
+      "index_start": 255168,
+      "index_count": 408,
+      "original_index_start": 260280
+    },
+    {
+      "name": "HeroScanSlab_352_bottom_left_broad",
+      "index_start": 255576,
+      "index_count": 744,
+      "original_index_start": 260688
+    },
+    {
+      "name": "HeroScanSlab_353_bottom_middle_broad",
+      "index_start": 256320,
+      "index_count": 816,
+      "original_index_start": 261432
+    },
+    {
+      "name": "HeroScanSlab_354_bottom_middle_right",
+      "index_start": 257136,
+      "index_count": 696,
+      "original_index_start": 262248
+    },
+    {
+      "name": "HeroScanSlab_355_bottom_right_broad",
+      "index_start": 257832,
+      "index_count": 528,
+      "original_index_start": 262944
+    },
+    {
+      "name": "HeroScanSlab_356_upper_small_wedge",
+      "index_start": 258360,
+      "index_count": 288,
+      "original_index_start": 263472
+    },
+    {
+      "name": "HeroScanSlab_357_upper_mid_triangle",
+      "index_start": 258648,
+      "index_count": 264,
+      "original_index_start": 263760
+    },
+    {
+      "name": "HeroScanSlab_358_upper_top_midright",
+      "index_start": 258912,
+      "index_count": 336,
+      "original_index_start": 264024
+    },
+    {
+      "name": "HeroScanSlab_359_upper_soil_neighbor",
+      "index_start": 259248,
+      "index_count": 288,
+      "original_index_start": 264360
+    },
+    {
+      "name": "HeroScanSlab_360_upper_organic_neighbor",
+      "index_start": 259536,
+      "index_count": 312,
+      "original_index_start": 264648
+    },
+    {
+      "name": "HeroScanSlab_361_middle_center_square",
+      "index_start": 259848,
+      "index_count": 312,
+      "original_index_start": 264960
+    },
+    {
+      "name": "HeroScanSlab_362_middle_center_lowrect",
+      "index_start": 260160,
+      "index_count": 408,
+      "original_index_start": 265272
+    },
+    {
+      "name": "HeroScanSlab_363_middle_low_wedge",
+      "index_start": 260568,
+      "index_count": 264,
+      "original_index_start": 265680
+    },
+    {
+      "name": "HeroScanSlab_364_middle_narrow_tall",
+      "index_start": 260832,
+      "index_count": 336,
+      "original_index_start": 265944
+    },
+    {
+      "name": "HeroScanSlab_365_middle_low_lefttri",
+      "index_start": 261168,
+      "index_count": 312,
+      "original_index_start": 266280
+    },
+    {
+      "name": "HeroScanSlab_366_middle_organic_right",
+      "index_start": 261480,
+      "index_count": 360,
+      "original_index_start": 266592
+    },
+    {
+      "name": "HeroScanSlab_367_middle_organic_left",
+      "index_start": 261840,
+      "index_count": 336,
+      "original_index_start": 266952
+    },
+    {
+      "name": "HeroScanSlab_368_middle_small_upper",
+      "index_start": 262176,
+      "index_count": 288,
+      "original_index_start": 267288
+    },
+    {
+      "name": "HeroScanSlab_369_lower_left_fragment",
+      "index_start": 262464,
+      "index_count": 384,
+      "original_index_start": 267576
+    },
+    {
+      "name": "HeroScanSlab_370_lower_narrow_course_left",
+      "index_start": 262848,
+      "index_count": 288,
+      "original_index_start": 267960
+    },
+    {
+      "name": "HeroScanSlab_371_lower_narrow_course_mid",
+      "index_start": 263136,
+      "index_count": 312,
+      "original_index_start": 268248
+    },
+    {
+      "name": "HeroScanSlab_372_lower_narrow_course_right",
+      "index_start": 263448,
+      "index_count": 384,
+      "original_index_start": 268560
+    },
+    {
+      "name": "HeroScanSlab_373_lower_narrow_course_far",
+      "index_start": 263832,
+      "index_count": 240,
+      "original_index_start": 268944
+    },
+    {
+      "name": "HeroScanSlab_374_lower_left_lowtriangle",
+      "index_start": 264072,
+      "index_count": 336,
+      "original_index_start": 269184
+    },
+    {
+      "name": "HeroScanSlab_375_lower_left_lowsquare",
+      "index_start": 264408,
+      "index_count": 408,
+      "original_index_start": 269520
+    },
+    {
+      "name": "HeroScanSlab_376_bottom_left_lowpiece",
+      "index_start": 264816,
+      "index_count": 312,
+      "original_index_start": 269928
+    },
+    {
+      "name": "HeroScanSlab_377_bottom_small_middle",
+      "index_start": 265128,
+      "index_count": 312,
+      "original_index_start": 270240
+    },
+    {
+      "name": "HeroScanSlab_378_bottom_left_mid",
+      "index_start": 265440,
+      "index_count": 312,
+      "original_index_start": 270552
+    },
+    {
+      "name": "HeroScanSlab_379_upper_small_farleft",
+      "index_start": 265752,
+      "index_count": 192,
+      "original_index_start": 270864
+    },
+    {
+      "name": "HeroScanSlab_380_upper_soil_bottom",
+      "index_start": 265944,
+      "index_count": 288,
+      "original_index_start": 271056
+    },
+    {
+      "name": "HeroScanSlab_381_upper_tiny_right",
+      "index_start": 266232,
+      "index_count": 168,
+      "original_index_start": 271344
+    },
+    {
+      "name": "HeroScanSlab_382_upper_soil_top",
+      "index_start": 266400,
+      "index_count": 216,
+      "original_index_start": 271512
+    },
+    {
+      "name": "HeroScanSlab_383_upper_soil_side",
+      "index_start": 266616,
+      "index_count": 168,
+      "original_index_start": 271728
+    },
+    {
+      "name": "HeroScanSlab_384_middle_organic_top",
+      "index_start": 266784,
+      "index_count": 312,
+      "original_index_start": 271896
+    },
+    {
+      "name": "HeroScanSlab_385_middle_organic_bottom",
+      "index_start": 267096,
+      "index_count": 240,
+      "original_index_start": 272208
+    },
+    {
+      "name": "HeroScanSlab_386_middle_right_narrow",
+      "index_start": 267336,
+      "index_count": 264,
+      "original_index_start": 272448
+    },
+    {
+      "name": "HeroScanSlab_387_middle_lower_small",
+      "index_start": 267600,
+      "index_count": 216,
+      "original_index_start": 272712
+    },
+    {
+      "name": "HeroScanSlab_388_lower_left_edge_upper",
+      "index_start": 267816,
+      "index_count": 240,
+      "original_index_start": 272928
+    },
+    {
+      "name": "HeroScanSlab_389_lower_left_edge_lower",
+      "index_start": 268056,
+      "index_count": 240,
+      "original_index_start": 273168
+    },
+    {
+      "name": "HeroScanSlab_390_lower_left_center_wedge",
+      "index_start": 268296,
+      "index_count": 312,
+      "original_index_start": 273408
+    },
+    {
+      "name": "HeroScanSlab_391_lower_left_center_low",
+      "index_start": 268608,
+      "index_count": 264,
+      "original_index_start": 273720
+    },
+    {
+      "name": "HeroScanSlab_392_lower_middle_smalltop",
+      "index_start": 268872,
+      "index_count": 192,
+      "original_index_start": 273984
+    },
+    {
+      "name": "HeroScanSlab_393_bottom_left_edge",
+      "index_start": 269064,
+      "index_count": 240,
+      "original_index_start": 274176
+    },
+    {
+      "name": "HeroScanSlab_394_bottom_left_lowmiddle",
+      "index_start": 269304,
+      "index_count": 264,
+      "original_index_start": 274416
+    },
+    {
+      "name": "HeroScanSlab_395_bottom_left_lowsquare",
+      "index_start": 269568,
+      "index_count": 264,
+      "original_index_start": 274680
+    },
+    {
+      "name": "HeroScanSlab_396_bottom_center_lowleft",
+      "index_start": 269832,
+      "index_count": 288,
+      "original_index_start": 274944
+    },
+    {
+      "name": "HeroScanSlab_397_upper_left_broad",
+      "index_start": 270120,
+      "index_count": 792,
+      "original_index_start": 275232
+    },
+    {
+      "name": "HeroScanSlab_398_upper_left_tall",
+      "index_start": 270912,
+      "index_count": 456,
+      "original_index_start": 276024
+    },
+    {
+      "name": "HeroScanSlab_399_upper_second_tall",
+      "index_start": 271368,
+      "index_count": 456,
+      "original_index_start": 276480
+    },
+    {
+      "name": "HeroScanSlab_400_upper_middle_broad",
+      "index_start": 271824,
+      "index_count": 672,
+      "original_index_start": 276936
+    },
+    {
+      "name": "HeroScanSlab_401_upper_right_shoulder",
+      "index_start": 272496,
+      "index_count": 816,
+      "original_index_start": 277608
+    },
+    {
+      "name": "HeroScanSlab_402_upper_right_tall",
+      "index_start": 273312,
+      "index_count": 720,
+      "original_index_start": 278424
+    },
+    {
+      "name": "HeroScanSlab_403_upper_low_left",
+      "index_start": 274032,
+      "index_count": 336,
+      "original_index_start": 279144
+    },
+    {
+      "name": "HeroScanSlab_404_upper_low_middle",
+      "index_start": 274368,
+      "index_count": 456,
+      "original_index_start": 279480
+    },
+    {
+      "name": "HeroScanSlab_405_upper_low_right",
+      "index_start": 274824,
+      "index_count": 408,
+      "original_index_start": 279936
+    },
+    {
+      "name": "HeroScanSlab_406_middle_left_edge",
+      "index_start": 275232,
+      "index_count": 480,
+      "original_index_start": 280344
+    },
+    {
+      "name": "HeroScanSlab_407_middle_left_upper",
+      "index_start": 275712,
+      "index_count": 456,
+      "original_index_start": 280824
+    },
+    {
+      "name": "HeroScanSlab_408_middle_left_lower",
+      "index_start": 276168,
+      "index_count": 408,
+      "original_index_start": 281280
+    },
+    {
+      "name": "HeroScanSlab_409_middle_left_tall",
+      "index_start": 276576,
+      "index_count": 576,
+      "original_index_start": 281688
+    },
+    {
+      "name": "HeroScanSlab_410_middle_center_wide",
+      "index_start": 277152,
+      "index_count": 480,
+      "original_index_start": 282264
+    },
+    {
+      "name": "HeroScanSlab_411_middle_center_tall",
+      "index_start": 277632,
+      "index_count": 384,
+      "original_index_start": 282744
+    },
+    {
+      "name": "HeroScanSlab_412_middle_center_lower",
+      "index_start": 278016,
+      "index_count": 432,
+      "original_index_start": 283128
+    },
+    {
+      "name": "HeroScanSlab_413_middle_right_large",
+      "index_start": 278448,
+      "index_count": 576,
+      "original_index_start": 283560
+    },
+    {
+      "name": "HeroScanSlab_414_lower_left_broad",
+      "index_start": 279024,
+      "index_count": 720,
+      "original_index_start": 284136
+    },
+    {
+      "name": "HeroScanSlab_415_lower_middle_upper",
+      "index_start": 279744,
+      "index_count": 672,
+      "original_index_start": 284856
+    },
+    {
+      "name": "HeroScanSlab_416_lower_middle_lower",
+      "index_start": 280416,
+      "index_count": 696,
+      "original_index_start": 285528
+    },
+    {
+      "name": "HeroScanSlab_417_lower_middle_tall",
+      "index_start": 281112,
+      "index_count": 744,
+      "original_index_start": 286224
+    },
+    {
+      "name": "HeroScanSlab_418_lower_middle_right",
+      "index_start": 281856,
+      "index_count": 624,
+      "original_index_start": 286968
+    },
+    {
+      "name": "HeroScanSlab_419_lower_right_upper",
+      "index_start": 282480,
+      "index_count": 528,
+      "original_index_start": 287592
+    },
+    {
+      "name": "HeroScanSlab_420_lower_right_lower",
+      "index_start": 283008,
+      "index_count": 600,
+      "original_index_start": 288120
+    },
+    {
+      "name": "HeroScanSlab_421_lower_far_right_broad",
+      "index_start": 283608,
+      "index_count": 360,
+      "original_index_start": 288720
+    },
+    {
+      "name": "HeroScanSlab_422_bottom_left_large",
+      "index_start": 283968,
+      "index_count": 408,
+      "original_index_start": 289080
+    },
+    {
+      "name": "HeroScanSlab_423_bottom_left_broad",
+      "index_start": 284376,
+      "index_count": 744,
+      "original_index_start": 289488
+    },
+    {
+      "name": "HeroScanSlab_424_bottom_middle_broad",
+      "index_start": 285120,
+      "index_count": 816,
+      "original_index_start": 290232
+    },
+    {
+      "name": "HeroScanSlab_425_bottom_middle_right",
+      "index_start": 285936,
+      "index_count": 696,
+      "original_index_start": 291048
+    },
+    {
+      "name": "HeroScanSlab_426_bottom_right_broad",
+      "index_start": 286632,
+      "index_count": 528,
+      "original_index_start": 291744
+    },
+    {
+      "name": "HeroScanSlab_427_upper_small_wedge",
+      "index_start": 287160,
+      "index_count": 288,
+      "original_index_start": 292272
+    },
+    {
+      "name": "HeroScanSlab_428_upper_mid_triangle",
+      "index_start": 287448,
+      "index_count": 264,
+      "original_index_start": 292560
+    },
+    {
+      "name": "HeroScanSlab_429_upper_top_midright",
+      "index_start": 287712,
+      "index_count": 336,
+      "original_index_start": 292824
+    },
+    {
+      "name": "HeroScanSlab_430_upper_soil_neighbor",
+      "index_start": 288048,
+      "index_count": 288,
+      "original_index_start": 293160
+    },
+    {
+      "name": "HeroScanSlab_431_upper_organic_neighbor",
+      "index_start": 288336,
+      "index_count": 312,
+      "original_index_start": 293448
+    },
+    {
+      "name": "HeroScanSlab_432_middle_center_square",
+      "index_start": 288648,
+      "index_count": 312,
+      "original_index_start": 293760
+    },
+    {
+      "name": "HeroScanSlab_433_middle_center_lowrect",
+      "index_start": 288960,
+      "index_count": 408,
+      "original_index_start": 294072
+    },
+    {
+      "name": "HeroScanSlab_434_middle_low_wedge",
+      "index_start": 289368,
+      "index_count": 264,
+      "original_index_start": 294480
+    },
+    {
+      "name": "HeroScanSlab_435_middle_narrow_tall",
+      "index_start": 289632,
+      "index_count": 336,
+      "original_index_start": 294744
+    },
+    {
+      "name": "HeroScanSlab_436_middle_low_lefttri",
+      "index_start": 289968,
+      "index_count": 312,
+      "original_index_start": 295080
+    },
+    {
+      "name": "HeroScanSlab_437_middle_organic_right",
+      "index_start": 290280,
+      "index_count": 360,
+      "original_index_start": 295392
+    },
+    {
+      "name": "HeroScanSlab_438_middle_organic_left",
+      "index_start": 290640,
+      "index_count": 336,
+      "original_index_start": 295752
+    },
+    {
+      "name": "HeroScanSlab_439_middle_small_upper",
+      "index_start": 290976,
+      "index_count": 288,
+      "original_index_start": 296088
+    },
+    {
+      "name": "HeroScanSlab_440_lower_left_fragment",
+      "index_start": 291264,
+      "index_count": 384,
+      "original_index_start": 296376
+    },
+    {
+      "name": "HeroScanSlab_441_lower_narrow_course_left",
+      "index_start": 291648,
+      "index_count": 288,
+      "original_index_start": 296760
+    },
+    {
+      "name": "HeroScanSlab_442_lower_narrow_course_mid",
+      "index_start": 291936,
+      "index_count": 312,
+      "original_index_start": 297048
+    },
+    {
+      "name": "HeroScanSlab_443_lower_narrow_course_right",
+      "index_start": 292248,
+      "index_count": 384,
+      "original_index_start": 297360
+    },
+    {
+      "name": "HeroScanSlab_444_lower_narrow_course_far",
+      "index_start": 292632,
+      "index_count": 240,
+      "original_index_start": 297744
+    },
+    {
+      "name": "HeroScanSlab_445_lower_left_lowtriangle",
+      "index_start": 292872,
+      "index_count": 336,
+      "original_index_start": 297984
+    },
+    {
+      "name": "HeroScanSlab_446_lower_left_lowsquare",
+      "index_start": 293208,
+      "index_count": 408,
+      "original_index_start": 298320
+    },
+    {
+      "name": "HeroScanSlab_447_bottom_left_lowpiece",
+      "index_start": 293616,
+      "index_count": 312,
+      "original_index_start": 298728
+    },
+    {
+      "name": "HeroScanSlab_448_bottom_small_middle",
+      "index_start": 293928,
+      "index_count": 312,
+      "original_index_start": 299040
+    },
+    {
+      "name": "HeroScanSlab_449_bottom_left_mid",
+      "index_start": 294240,
+      "index_count": 312,
+      "original_index_start": 299352
+    },
+    {
+      "name": "HeroScanSlab_450_upper_small_farleft",
+      "index_start": 294552,
+      "index_count": 192,
+      "original_index_start": 299664
+    },
+    {
+      "name": "HeroScanSlab_451_upper_soil_bottom",
+      "index_start": 294744,
+      "index_count": 288,
+      "original_index_start": 299856
+    },
+    {
+      "name": "HeroScanSlab_452_upper_tiny_right",
+      "index_start": 295032,
+      "index_count": 168,
+      "original_index_start": 300144
+    },
+    {
+      "name": "HeroScanSlab_453_upper_soil_top",
+      "index_start": 295200,
+      "index_count": 216,
+      "original_index_start": 300312
+    },
+    {
+      "name": "HeroScanSlab_454_upper_soil_side",
+      "index_start": 295416,
+      "index_count": 168,
+      "original_index_start": 300528
+    },
+    {
+      "name": "HeroScanSlab_455_middle_organic_top",
+      "index_start": 295584,
+      "index_count": 312,
+      "original_index_start": 300696
+    },
+    {
+      "name": "HeroScanSlab_456_middle_organic_bottom",
+      "index_start": 295896,
+      "index_count": 240,
+      "original_index_start": 301008
+    },
+    {
+      "name": "HeroScanSlab_457_middle_right_narrow",
+      "index_start": 296136,
+      "index_count": 264,
+      "original_index_start": 301248
+    },
+    {
+      "name": "HeroScanSlab_458_middle_lower_small",
+      "index_start": 296400,
+      "index_count": 216,
+      "original_index_start": 301512
+    },
+    {
+      "name": "HeroScanSlab_459_lower_left_edge_upper",
+      "index_start": 296616,
+      "index_count": 240,
+      "original_index_start": 301728
+    },
+    {
+      "name": "HeroScanSlab_460_lower_left_edge_lower",
+      "index_start": 296856,
+      "index_count": 240,
+      "original_index_start": 301968
+    },
+    {
+      "name": "HeroScanSlab_461_lower_left_center_wedge",
+      "index_start": 297096,
+      "index_count": 312,
+      "original_index_start": 302208
+    },
+    {
+      "name": "HeroScanSlab_462_lower_left_center_low",
+      "index_start": 297408,
+      "index_count": 264,
+      "original_index_start": 302520
+    },
+    {
+      "name": "HeroScanSlab_463_lower_middle_smalltop",
+      "index_start": 297672,
+      "index_count": 192,
+      "original_index_start": 302784
+    },
+    {
+      "name": "HeroScanSlab_464_bottom_left_edge",
+      "index_start": 297864,
+      "index_count": 240,
+      "original_index_start": 302976
+    },
+    {
+      "name": "HeroScanSlab_465_bottom_left_lowmiddle",
+      "index_start": 298104,
+      "index_count": 264,
+      "original_index_start": 303216
+    },
+    {
+      "name": "HeroScanSlab_466_bottom_left_lowsquare",
+      "index_start": 298368,
+      "index_count": 264,
+      "original_index_start": 303480
+    },
+    {
+      "name": "HeroScanSlab_467_bottom_center_lowleft",
+      "index_start": 298632,
+      "index_count": 288,
+      "original_index_start": 303744
+    },
+    {
+      "name": "HeroScanSlab_468_lower_left_broad",
+      "index_start": 298920,
+      "index_count": 384,
+      "original_index_start": 304032
+    },
+    {
+      "name": "HeroScanSlab_469_lower_middle_upper",
+      "index_start": 299304,
+      "index_count": 432,
+      "original_index_start": 304416
+    },
+    {
+      "name": "HeroScanSlab_470_lower_middle_lower",
+      "index_start": 299736,
+      "index_count": 696,
+      "original_index_start": 304848
+    },
+    {
+      "name": "HeroScanSlab_471_lower_middle_tall",
+      "index_start": 300432,
+      "index_count": 504,
+      "original_index_start": 305544
+    },
+    {
+      "name": "HeroScanSlab_472_lower_middle_right",
+      "index_start": 300936,
+      "index_count": 528,
+      "original_index_start": 306048
+    },
+    {
+      "name": "HeroScanSlab_473_lower_right_upper",
+      "index_start": 301464,
+      "index_count": 384,
+      "original_index_start": 306576
+    },
+    {
+      "name": "HeroScanSlab_474_lower_right_lower",
+      "index_start": 301848,
+      "index_count": 600,
+      "original_index_start": 306960
+    },
+    {
+      "name": "HeroScanSlab_475_lower_far_right_broad",
+      "index_start": 302448,
+      "index_count": 312,
+      "original_index_start": 307560
+    },
+    {
+      "name": "HeroScanSlab_476_bottom_left_large",
+      "index_start": 302760,
+      "index_count": 408,
+      "original_index_start": 307872
+    },
+    {
+      "name": "HeroScanSlab_477_bottom_left_broad",
+      "index_start": 303168,
+      "index_count": 744,
+      "original_index_start": 308280
+    },
+    {
+      "name": "HeroScanSlab_478_bottom_middle_broad",
+      "index_start": 303912,
+      "index_count": 816,
+      "original_index_start": 309024
+    },
+    {
+      "name": "HeroScanSlab_479_bottom_middle_right",
+      "index_start": 304728,
+      "index_count": 696,
+      "original_index_start": 309840
+    },
+    {
+      "name": "HeroScanSlab_480_bottom_right_broad",
+      "index_start": 305424,
+      "index_count": 528,
+      "original_index_start": 310536
+    },
+    {
+      "name": "HeroScanSlab_481_lower_left_lowtriangle",
+      "index_start": 305952,
+      "index_count": 336,
+      "original_index_start": 311064
+    },
+    {
+      "name": "HeroScanSlab_482_lower_left_lowsquare",
+      "index_start": 306288,
+      "index_count": 408,
+      "original_index_start": 311400
+    },
+    {
+      "name": "HeroScanSlab_483_bottom_left_lowpiece",
+      "index_start": 306696,
+      "index_count": 312,
+      "original_index_start": 311808
+    },
+    {
+      "name": "HeroScanSlab_484_bottom_small_middle",
+      "index_start": 307008,
+      "index_count": 312,
+      "original_index_start": 312120
+    },
+    {
+      "name": "HeroScanSlab_485_bottom_left_mid",
+      "index_start": 307320,
+      "index_count": 312,
+      "original_index_start": 312432
+    },
+    {
+      "name": "HeroScanSlab_486_lower_left_edge_lower",
+      "index_start": 307632,
+      "index_count": 240,
+      "original_index_start": 312744
+    },
+    {
+      "name": "HeroScanSlab_487_lower_left_center_wedge",
+      "index_start": 307872,
+      "index_count": 312,
+      "original_index_start": 312984
+    },
+    {
+      "name": "HeroScanSlab_488_lower_left_center_low",
+      "index_start": 308184,
+      "index_count": 264,
+      "original_index_start": 313296
+    },
+    {
+      "name": "HeroScanSlab_489_bottom_left_edge",
+      "index_start": 308448,
+      "index_count": 240,
+      "original_index_start": 313560
+    },
+    {
+      "name": "HeroScanSlab_490_bottom_left_lowmiddle",
+      "index_start": 308688,
+      "index_count": 264,
+      "original_index_start": 313800
+    },
+    {
+      "name": "HeroScanSlab_491_bottom_left_lowsquare",
+      "index_start": 308952,
+      "index_count": 264,
+      "original_index_start": 314064
+    },
+    {
+      "name": "HeroScanSlab_492_bottom_center_lowleft",
+      "index_start": 309216,
+      "index_count": 288,
+      "original_index_start": 314328
+    },
+    {
+      "name": "V16_HeroScanSlab_96_middle_far_right_lower",
+      "index_start": 309504,
+      "index_count": 132
+    },
+    {
+      "name": "V16_joint_fill_96_0",
+      "index_start": 309636,
+      "index_count": 36
+    },
+    {
+      "name": "V16_joint_fill_96_3",
+      "index_start": 309672,
+      "index_count": 36
+    },
+    {
+      "name": "V16_HeroScanSlab_97_middle_right_broad",
+      "index_start": 309708,
+      "index_count": 138
+    },
+    {
+      "name": "V16_joint_fill_97_7",
+      "index_start": 309846,
+      "index_count": 36
+    },
+    {
+      "name": "V16_HeroScanSlab_105_lower_far_right_broad",
+      "index_start": 309882,
+      "index_count": 156
+    },
+    {
+      "name": "V16_HeroScanSlab_106_lower_far_right_tall",
+      "index_start": 310038,
+      "index_count": 144
+    },
+    {
+      "name": "V16_joint_fill_106_0",
+      "index_start": 310182,
+      "index_count": 36
+    },
+    {
+      "name": "V16_joint_fill_106_4",
+      "index_start": 310218,
+      "index_count": 36
+    },
+    {
+      "name": "V16_HeroScanSlab_107_lower_right_edge",
+      "index_start": 310254,
+      "index_count": 156
+    },
+    {
+      "name": "V16_joint_fill_107_6",
+      "index_start": 310410,
+      "index_count": 36
+    },
+    {
+      "name": "V16_joint_fill_107_9",
+      "index_start": 310446,
+      "index_count": 36
+    },
+    {
+      "name": "V16_HeroScanSlab_112_bottom_right_tall",
+      "index_start": 310482,
+      "index_count": 120
+    },
+    {
+      "name": "V16_joint_fill_112_6",
+      "index_start": 310602,
+      "index_count": 36
+    },
+    {
+      "name": "V16_HeroScanSlab_131_lower_narrow_course_far",
+      "index_start": 310638,
+      "index_count": 84
+    },
+    {
+      "name": "V16_joint_fill_131_3",
+      "index_start": 310722,
+      "index_count": 36
+    },
+    {
+      "name": "V16_HeroScanSlab_134_bottom_right_mid",
+      "index_start": 310758,
+      "index_count": 66
+    },
+    {
+      "name": "V16_joint_fill_134_4",
+      "index_start": 310824,
+      "index_count": 36
+    },
+    {
+      "name": "V16_HeroScanSlab_144_lower_right_edge_low",
+      "index_start": 310860,
+      "index_count": 66
+    },
+    {
+      "name": "V16_joint_fill_144_3",
+      "index_start": 310926,
+      "index_count": 36
+    },
+    {
+      "name": "V16_HeroScanSlab_146_bottom_right_narrow",
+      "index_start": 310962,
+      "index_count": 108
+    },
+    {
+      "name": "V16_joint_fill_146_6",
+      "index_start": 311070,
+      "index_count": 36
+    }
+  ],
+  "triangles": 103702,
+  "vertices": 163267,
+  "new_index_start": 309504,
+  "new_object_count": 22,
+  "period": [
+    12.4,
+    6.2
+  ],
+  "patch_bounds_xz": [
+    [
+      -4.162,
+      -0.296
+    ],
+    [
+      6.151,
+      10.381
+    ]
+  ],
+  "world_bounds": [
+    [
+      -8.936228752,
+      -0.126000002,
+      -11.101970673
+    ],
+    [
+      9.040660858,
+      0.010417859,
+      21.067903519
+    ]
+  ],
+  "prototype_only": true,
+  "old_vertex_prefix_preserved": true,
+  "strict_positive_triangles": 103702,
+  "limitations": [
+    "Ten-source-unit prototype; not whole-floor expansion.",
+    "Internal planar continuation and height angles are authored, not measured scan fracture depth.",
+    "Original selected vertex records remain unreferenced to preserve all other indices exactly."
+  ]
+}
