@@ -1,0 +1,27 @@
+﻿{
+  "created_at": "2026-09-09T18:12:35.174205Z",
+  "display_name": "Nano Banana Pro",
+  "id": "4a6eb56c-2add-4353-9212-209b3647c467",
+  "job_type": "nano_banana_pro",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3HqrOQdfhs3psNu8LvY0hv7gvNL/hf_20260909_181235_4a6eb56c-2add-4353-9212-209b3647c467_min.webp",
+  "params": {
+    "application": null,
+    "aspect_ratio": "3:2",
+    "batch_size": 1,
+    "height": 1696,
+    "input_image": null,
+    "input_images": [
+      {
+        "id": "62496e5c-281f-4db1-9791-e7ea19c706e5",
+        "type": "media_input",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3HqrOQdfhs3psNu8LvY0hv7gvNL/62496e5c-281f-4db1-9791-e7ea19c706e5.png"
+      }
+    ],
+    "prompt": "Improve this exact Unity game screenshot into a beautiful credible AAA in-engine screenshot. Keep exact elevated three-quarter camera, traveler position/scale, and broad layout. Rain-soaked roofless Gothic abbey upper left, traveler on wide wet path to its right, birches and fractured low rocks on right. Break away middle twelve meters of wall nearest traveler, leaving a broad accessible opening into courtyard. Keep front entrance and back lancet walls. Actual pointed window openings, worn limestone, damp flagstones with dark wet joints, a few irregular reflective puddles, subtle pale rain streaks and impact rings. Small broken slate roof on far aisle, warm amber sconce at entrance. Soft overcast illumination with rich readable shadows, no harsh direct sun, cool blue-grey air and localized amber warmth. Natural foliage, modest moss and rubble at broken wall ends. Detailed physically plausible materials, no plastic shine, no uniform checkerboard floor, no repetitive blocks. Preserve player and readable ground. Calm uncluttered scene, no photographic grain, no depth-of-field blur, no added huge buildings, no text or UI. Ideal playable version of this precise camera, not painting or aerial art.",
+    "resolution": "2k",
+    "surface": null,
+    "width": 2528
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3HqrOQdfhs3psNu8LvY0hv7gvNL/hf_20260909_181235_4a6eb56c-2add-4353-9212-209b3647c467.png",
+  "status": "completed"
+}

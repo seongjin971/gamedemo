@@ -1,0 +1,659 @@
+{
+  "name": "CW_CardedAlpineFir_SnowCoverV2_LOD1",
+  "exported_node": "CW_CardedAlpineFir_SnowCoverV2_Reduced",
+  "triangles": 6973,
+  "zero_area_triangles": 0,
+  "bounds_source_xyz": [
+    [
+      -1.8724875450134277,
+      -1.8848826885223389,
+      0.8038298487663269
+    ],
+    [
+      2.103649139404297,
+      1.9836426973342896,
+      8.388242721557617
+    ]
+  ],
+  "materials": [
+    "CW_SettledSnow"
+  ],
+  "paired_model": "CW_CardedAlpineFir_LOD1",
+  "paired_fbx_sha256": "8140947b9c960ebd3d2d4ec2695a7ce308b7da5c12d2f3589a4d5b6f4b4f9569",
+  "supported_spray_count": 105,
+  "source_sprays": [
+    {
+      "source_first_vertex": 0,
+      "upward_normal_abs_z": 0.9183220267295837,
+      "patch_offset_m": 0.08362215832993969,
+      "retained_cells": 337
+    },
+    {
+      "source_first_vertex": 30,
+      "upward_normal_abs_z": 0.8979111909866333,
+      "patch_offset_m": 0.10541236911523116,
+      "retained_cells": 207
+    },
+    {
+      "source_first_vertex": 60,
+      "upward_normal_abs_z": 0.8715754747390747,
+      "patch_offset_m": 0.08761573753138777,
+      "retained_cells": 125
+    },
+    {
+      "source_first_vertex": 90,
+      "upward_normal_abs_z": 0.9128287434577942,
+      "patch_offset_m": 0.09793601317403788,
+      "retained_cells": 241
+    },
+    {
+      "source_first_vertex": 120,
+      "upward_normal_abs_z": 0.9605433940887451,
+      "patch_offset_m": 0.0789173408414573,
+      "retained_cells": 337
+    },
+    {
+      "source_first_vertex": 150,
+      "upward_normal_abs_z": 0.5878871083259583,
+      "patch_offset_m": 0.10813973606205644,
+      "retained_cells": 203
+    },
+    {
+      "source_first_vertex": 180,
+      "upward_normal_abs_z": 0.9670245051383972,
+      "patch_offset_m": 0.1047979692266043,
+      "retained_cells": 183
+    },
+    {
+      "source_first_vertex": 210,
+      "upward_normal_abs_z": 0.9260836243629456,
+      "patch_offset_m": 0.0966127291037002,
+      "retained_cells": 148
+    },
+    {
+      "source_first_vertex": 240,
+      "upward_normal_abs_z": 0.9287184476852417,
+      "patch_offset_m": 0.10544341985284301,
+      "retained_cells": 201
+    },
+    {
+      "source_first_vertex": 270,
+      "upward_normal_abs_z": 0.8901581764221191,
+      "patch_offset_m": 0.0827529758936603,
+      "retained_cells": 105
+    },
+    {
+      "source_first_vertex": 300,
+      "upward_normal_abs_z": 0.9308357238769531,
+      "patch_offset_m": 0.08847753377323873,
+      "retained_cells": 233
+    },
+    {
+      "source_first_vertex": 330,
+      "upward_normal_abs_z": 0.9072174429893494,
+      "patch_offset_m": 0.09664100694791561,
+      "retained_cells": 349
+    },
+    {
+      "source_first_vertex": 360,
+      "upward_normal_abs_z": 0.6262294054031372,
+      "patch_offset_m": 0.10071214251406821,
+      "retained_cells": 176
+    },
+    {
+      "source_first_vertex": 390,
+      "upward_normal_abs_z": 0.9130306839942932,
+      "patch_offset_m": 0.08103252802867043,
+      "retained_cells": 177
+    },
+    {
+      "source_first_vertex": 420,
+      "upward_normal_abs_z": 0.8760144114494324,
+      "patch_offset_m": 0.10349485704427654,
+      "retained_cells": 103
+    },
+    {
+      "source_first_vertex": 450,
+      "upward_normal_abs_z": 0.9460524916648865,
+      "patch_offset_m": 0.08696915835311475,
+      "retained_cells": 227
+    },
+    {
+      "source_first_vertex": 480,
+      "upward_normal_abs_z": 0.9513821005821228,
+      "patch_offset_m": 0.10003685469903326,
+      "retained_cells": 96
+    },
+    {
+      "source_first_vertex": 510,
+      "upward_normal_abs_z": 0.8681640625,
+      "patch_offset_m": 0.0793821020770118,
+      "retained_cells": 236
+    },
+    {
+      "source_first_vertex": 540,
+      "upward_normal_abs_z": 0.9120745658874512,
+      "patch_offset_m": 0.10400623595075076,
+      "retained_cells": 329
+    },
+    {
+      "source_first_vertex": 570,
+      "upward_normal_abs_z": 0.5724812150001526,
+      "patch_offset_m": 0.10549218732709047,
+      "retained_cells": 183
+    },
+    {
+      "source_first_vertex": 600,
+      "upward_normal_abs_z": 0.9161890149116516,
+      "patch_offset_m": 0.11080221288388119,
+      "retained_cells": 199
+    },
+    {
+      "source_first_vertex": 630,
+      "upward_normal_abs_z": 0.8910358548164368,
+      "patch_offset_m": 0.11089252653579315,
+      "retained_cells": 172
+    },
+    {
+      "source_first_vertex": 660,
+      "upward_normal_abs_z": 0.8777895569801331,
+      "patch_offset_m": 0.10734234045440615,
+      "retained_cells": 248
+    },
+    {
+      "source_first_vertex": 690,
+      "upward_normal_abs_z": 0.8979858160018921,
+      "patch_offset_m": 0.09911681507661904,
+      "retained_cells": 295
+    },
+    {
+      "source_first_vertex": 750,
+      "upward_normal_abs_z": 0.9249165058135986,
+      "patch_offset_m": 0.1097048958665455,
+      "retained_cells": 222
+    },
+    {
+      "source_first_vertex": 780,
+      "upward_normal_abs_z": 0.958055853843689,
+      "patch_offset_m": 0.07810299289504921,
+      "retained_cells": 305
+    },
+    {
+      "source_first_vertex": 810,
+      "upward_normal_abs_z": 0.5786795020103455,
+      "patch_offset_m": 0.10778031513021188,
+      "retained_cells": 175
+    },
+    {
+      "source_first_vertex": 840,
+      "upward_normal_abs_z": 0.9406383037567139,
+      "patch_offset_m": 0.09036832679745435,
+      "retained_cells": 204
+    },
+    {
+      "source_first_vertex": 870,
+      "upward_normal_abs_z": 0.8694350123405457,
+      "patch_offset_m": 0.07633458070006814,
+      "retained_cells": 101
+    },
+    {
+      "source_first_vertex": 900,
+      "upward_normal_abs_z": 0.9611952900886536,
+      "patch_offset_m": 0.09117039907744162,
+      "retained_cells": 215
+    },
+    {
+      "source_first_vertex": 930,
+      "upward_normal_abs_z": 0.8926262855529785,
+      "patch_offset_m": 0.10040926863819914,
+      "retained_cells": 293
+    },
+    {
+      "source_first_vertex": 960,
+      "upward_normal_abs_z": 0.7043972611427307,
+      "patch_offset_m": 0.09209361850398831,
+      "retained_cells": 169
+    },
+    {
+      "source_first_vertex": 990,
+      "upward_normal_abs_z": 0.9607381224632263,
+      "patch_offset_m": 0.09477009761485822,
+      "retained_cells": 176
+    },
+    {
+      "source_first_vertex": 1020,
+      "upward_normal_abs_z": 0.8733512163162231,
+      "patch_offset_m": 0.09779966471600082,
+      "retained_cells": 322
+    },
+    {
+      "source_first_vertex": 1050,
+      "upward_normal_abs_z": 0.6583207845687866,
+      "patch_offset_m": 0.09495821802567211,
+      "retained_cells": 189
+    },
+    {
+      "source_first_vertex": 1080,
+      "upward_normal_abs_z": 0.9370796084403992,
+      "patch_offset_m": 0.08352667658770963,
+      "retained_cells": 171
+    },
+    {
+      "source_first_vertex": 1110,
+      "upward_normal_abs_z": 0.9454842209815979,
+      "patch_offset_m": 0.10558843456424358,
+      "retained_cells": 157
+    },
+    {
+      "source_first_vertex": 1140,
+      "upward_normal_abs_z": 0.943750262260437,
+      "patch_offset_m": 0.08455172303840013,
+      "retained_cells": 247
+    },
+    {
+      "source_first_vertex": 1170,
+      "upward_normal_abs_z": 0.8698275089263916,
+      "patch_offset_m": 0.09702050730863562,
+      "retained_cells": 312
+    },
+    {
+      "source_first_vertex": 1200,
+      "upward_normal_abs_z": 0.6481239199638367,
+      "patch_offset_m": 0.09979744761228437,
+      "retained_cells": 205
+    },
+    {
+      "source_first_vertex": 1230,
+      "upward_normal_abs_z": 0.9132761359214783,
+      "patch_offset_m": 0.0789026433935494,
+      "retained_cells": 172
+    },
+    {
+      "source_first_vertex": 1260,
+      "upward_normal_abs_z": 0.8785001635551453,
+      "patch_offset_m": 0.10518908178177147,
+      "retained_cells": 151
+    },
+    {
+      "source_first_vertex": 1290,
+      "upward_normal_abs_z": 0.9323458671569824,
+      "patch_offset_m": 0.11059599354318222,
+      "retained_cells": 179
+    },
+    {
+      "source_first_vertex": 1320,
+      "upward_normal_abs_z": 0.9560367465019226,
+      "patch_offset_m": 0.10106991232417327,
+      "retained_cells": 96
+    },
+    {
+      "source_first_vertex": 1350,
+      "upward_normal_abs_z": 0.9284937977790833,
+      "patch_offset_m": 0.11050184325470228,
+      "retained_cells": 247
+    },
+    {
+      "source_first_vertex": 1380,
+      "upward_normal_abs_z": 0.9641980528831482,
+      "patch_offset_m": 0.09736006982169591,
+      "retained_cells": 284
+    },
+    {
+      "source_first_vertex": 1410,
+      "upward_normal_abs_z": 0.7743463516235352,
+      "patch_offset_m": 0.07576332613774539,
+      "retained_cells": 207
+    },
+    {
+      "source_first_vertex": 1440,
+      "upward_normal_abs_z": 0.9435788989067078,
+      "patch_offset_m": 0.11053298090313432,
+      "retained_cells": 205
+    },
+    {
+      "source_first_vertex": 1470,
+      "upward_normal_abs_z": 0.9286729693412781,
+      "patch_offset_m": 0.09881960487917422,
+      "retained_cells": 159
+    },
+    {
+      "source_first_vertex": 1500,
+      "upward_normal_abs_z": 0.8788215517997742,
+      "patch_offset_m": 0.08979322025760669,
+      "retained_cells": 215
+    },
+    {
+      "source_first_vertex": 1530,
+      "upward_normal_abs_z": 0.9212339520454407,
+      "patch_offset_m": 0.09787145938818613,
+      "retained_cells": 146
+    },
+    {
+      "source_first_vertex": 1560,
+      "upward_normal_abs_z": 0.9373940825462341,
+      "patch_offset_m": 0.11441746702037717,
+      "retained_cells": 220
+    },
+    {
+      "source_first_vertex": 1590,
+      "upward_normal_abs_z": 0.8961466550827026,
+      "patch_offset_m": 0.09970368138545406,
+      "retained_cells": 319
+    },
+    {
+      "source_first_vertex": 1620,
+      "upward_normal_abs_z": 0.6077106595039368,
+      "patch_offset_m": 0.08687912434021482,
+      "retained_cells": 180
+    },
+    {
+      "source_first_vertex": 1650,
+      "upward_normal_abs_z": 0.9192259907722473,
+      "patch_offset_m": 0.11266947168779315,
+      "retained_cells": 205
+    },
+    {
+      "source_first_vertex": 1680,
+      "upward_normal_abs_z": 0.9416818618774414,
+      "patch_offset_m": 0.10106992325455846,
+      "retained_cells": 159
+    },
+    {
+      "source_first_vertex": 1710,
+      "upward_normal_abs_z": 0.9436467885971069,
+      "patch_offset_m": 0.08038647846481767,
+      "retained_cells": 224
+    },
+    {
+      "source_first_vertex": 1740,
+      "upward_normal_abs_z": 0.8678324222564697,
+      "patch_offset_m": 0.09718592284734966,
+      "retained_cells": 342
+    },
+    {
+      "source_first_vertex": 1770,
+      "upward_normal_abs_z": 0.9310281276702881,
+      "patch_offset_m": 0.08237372910374655,
+      "retained_cells": 250
+    },
+    {
+      "source_first_vertex": 1800,
+      "upward_normal_abs_z": 0.9034283757209778,
+      "patch_offset_m": 0.10054159894234534,
+      "retained_cells": 302
+    },
+    {
+      "source_first_vertex": 1830,
+      "upward_normal_abs_z": 0.6143046021461487,
+      "patch_offset_m": 0.09625323198850769,
+      "retained_cells": 169
+    },
+    {
+      "source_first_vertex": 1860,
+      "upward_normal_abs_z": 0.877482533454895,
+      "patch_offset_m": 0.09259989519677815,
+      "retained_cells": 198
+    },
+    {
+      "source_first_vertex": 1890,
+      "upward_normal_abs_z": 0.8657304644584656,
+      "patch_offset_m": 0.08094657736575389,
+      "retained_cells": 160
+    },
+    {
+      "source_first_vertex": 1920,
+      "upward_normal_abs_z": 0.9142348170280457,
+      "patch_offset_m": 0.09925598611588798,
+      "retained_cells": 215
+    },
+    {
+      "source_first_vertex": 1950,
+      "upward_normal_abs_z": 0.9254937767982483,
+      "patch_offset_m": 0.11401726213967825,
+      "retained_cells": 295
+    },
+    {
+      "source_first_vertex": 1980,
+      "upward_normal_abs_z": 0.9536136388778687,
+      "patch_offset_m": 0.10343321402478584,
+      "retained_cells": 196
+    },
+    {
+      "source_first_vertex": 2010,
+      "upward_normal_abs_z": 0.922959566116333,
+      "patch_offset_m": 0.09717233700796227,
+      "retained_cells": 287
+    },
+    {
+      "source_first_vertex": 2040,
+      "upward_normal_abs_z": 0.7463215589523315,
+      "patch_offset_m": 0.1136186396907254,
+      "retained_cells": 204
+    },
+    {
+      "source_first_vertex": 2070,
+      "upward_normal_abs_z": 0.9476677775382996,
+      "patch_offset_m": 0.08252414600069553,
+      "retained_cells": 201
+    },
+    {
+      "source_first_vertex": 2100,
+      "upward_normal_abs_z": 0.9333280324935913,
+      "patch_offset_m": 0.09072397753797301,
+      "retained_cells": 95
+    },
+    {
+      "source_first_vertex": 2130,
+      "upward_normal_abs_z": 0.9303231835365295,
+      "patch_offset_m": 0.11443727968216108,
+      "retained_cells": 214
+    },
+    {
+      "source_first_vertex": 2160,
+      "upward_normal_abs_z": 0.8690389394760132,
+      "patch_offset_m": 0.11315248691970149,
+      "retained_cells": 312
+    },
+    {
+      "source_first_vertex": 2190,
+      "upward_normal_abs_z": 0.8945189714431763,
+      "patch_offset_m": 0.10643601548823915,
+      "retained_cells": 192
+    },
+    {
+      "source_first_vertex": 2220,
+      "upward_normal_abs_z": 0.9229446649551392,
+      "patch_offset_m": 0.11397353980920005,
+      "retained_cells": 205
+    },
+    {
+      "source_first_vertex": 2250,
+      "upward_normal_abs_z": 0.8632967472076416,
+      "patch_offset_m": 0.10128033257573925,
+      "retained_cells": 153
+    },
+    {
+      "source_first_vertex": 2280,
+      "upward_normal_abs_z": 0.9396088719367981,
+      "patch_offset_m": 0.09751265275597021,
+      "retained_cells": 255
+    },
+    {
+      "source_first_vertex": 2310,
+      "upward_normal_abs_z": 0.938095211982727,
+      "patch_offset_m": 0.09658180205962215,
+      "retained_cells": 278
+    },
+    {
+      "source_first_vertex": 2340,
+      "upward_normal_abs_z": 0.928686261177063,
+      "patch_offset_m": 0.08818770003830513,
+      "retained_cells": 169
+    },
+    {
+      "source_first_vertex": 2370,
+      "upward_normal_abs_z": 0.9063856601715088,
+      "patch_offset_m": 0.0862186246248384,
+      "retained_cells": 99
+    },
+    {
+      "source_first_vertex": 2400,
+      "upward_normal_abs_z": 0.8610044121742249,
+      "patch_offset_m": 0.08554752025120718,
+      "retained_cells": 107
+    },
+    {
+      "source_first_vertex": 2430,
+      "upward_normal_abs_z": 0.9026892781257629,
+      "patch_offset_m": 0.09393156546521397,
+      "retained_cells": 248
+    },
+    {
+      "source_first_vertex": 2460,
+      "upward_normal_abs_z": 0.9123664498329163,
+      "patch_offset_m": 0.09742820211992743,
+      "retained_cells": 286
+    },
+    {
+      "source_first_vertex": 2490,
+      "upward_normal_abs_z": 0.9389128088951111,
+      "patch_offset_m": 0.07569267777839996,
+      "retained_cells": 176
+    },
+    {
+      "source_first_vertex": 2520,
+      "upward_normal_abs_z": 0.9128987193107605,
+      "patch_offset_m": 0.11022625560673867,
+      "retained_cells": 98
+    },
+    {
+      "source_first_vertex": 2550,
+      "upward_normal_abs_z": 0.9190691113471985,
+      "patch_offset_m": 0.09785435243145213,
+      "retained_cells": 233
+    },
+    {
+      "source_first_vertex": 2580,
+      "upward_normal_abs_z": 0.9037667512893677,
+      "patch_offset_m": 0.08256455593129802,
+      "retained_cells": 216
+    },
+    {
+      "source_first_vertex": 2610,
+      "upward_normal_abs_z": 0.8964861035346985,
+      "patch_offset_m": 0.10352884737107745,
+      "retained_cells": 280
+    },
+    {
+      "source_first_vertex": 2640,
+      "upward_normal_abs_z": 0.9304942488670349,
+      "patch_offset_m": 0.1009832058062049,
+      "retained_cells": 183
+    },
+    {
+      "source_first_vertex": 2670,
+      "upward_normal_abs_z": 0.8913944363594055,
+      "patch_offset_m": 0.08355289113952179,
+      "retained_cells": 112
+    },
+    {
+      "source_first_vertex": 2700,
+      "upward_normal_abs_z": 0.9041460752487183,
+      "patch_offset_m": 0.1029201094861654,
+      "retained_cells": 229
+    },
+    {
+      "source_first_vertex": 2730,
+      "upward_normal_abs_z": 0.906216025352478,
+      "patch_offset_m": 0.0768649742978601,
+      "retained_cells": 276
+    },
+    {
+      "source_first_vertex": 2790,
+      "upward_normal_abs_z": 0.9092757701873779,
+      "patch_offset_m": 0.08667799390467812,
+      "retained_cells": 353
+    },
+    {
+      "source_first_vertex": 2820,
+      "upward_normal_abs_z": 0.9009838104248047,
+      "patch_offset_m": 0.08619098692755871,
+      "retained_cells": 202
+    },
+    {
+      "source_first_vertex": 2850,
+      "upward_normal_abs_z": 0.8595085144042969,
+      "patch_offset_m": 0.10868426836397366,
+      "retained_cells": 164
+    },
+    {
+      "source_first_vertex": 2880,
+      "upward_normal_abs_z": 0.9038946628570557,
+      "patch_offset_m": 0.1104207525130348,
+      "retained_cells": 239
+    },
+    {
+      "source_first_vertex": 2910,
+      "upward_normal_abs_z": 0.8805464506149292,
+      "patch_offset_m": 0.07748599267470543,
+      "retained_cells": 174
+    },
+    {
+      "source_first_vertex": 2940,
+      "upward_normal_abs_z": 0.8692917227745056,
+      "patch_offset_m": 0.0760474232221639,
+      "retained_cells": 116
+    },
+    {
+      "source_first_vertex": 2970,
+      "upward_normal_abs_z": 0.8249624371528625,
+      "patch_offset_m": 0.10065997958384369,
+      "retained_cells": 251
+    },
+    {
+      "source_first_vertex": 3000,
+      "upward_normal_abs_z": 0.9034790396690369,
+      "patch_offset_m": 0.08591990536482605,
+      "retained_cells": 298
+    },
+    {
+      "source_first_vertex": 3030,
+      "upward_normal_abs_z": 0.7092702388763428,
+      "patch_offset_m": 0.11467968863334355,
+      "retained_cells": 178
+    },
+    {
+      "source_first_vertex": 3060,
+      "upward_normal_abs_z": 0.7928382754325867,
+      "patch_offset_m": 0.10029050458630749,
+      "retained_cells": 149
+    },
+    {
+      "source_first_vertex": 3090,
+      "upward_normal_abs_z": 0.8268346190452576,
+      "patch_offset_m": 0.10354130825414828,
+      "retained_cells": 245
+    },
+    {
+      "source_first_vertex": 3120,
+      "upward_normal_abs_z": 0.8638408184051514,
+      "patch_offset_m": 0.07569267777839996,
+      "retained_cells": 350
+    },
+    {
+      "source_first_vertex": 3150,
+      "upward_normal_abs_z": 0.7144035696983337,
+      "patch_offset_m": 0.07909103451638559,
+      "retained_cells": 183
+    },
+    {
+      "source_first_vertex": 3180,
+      "upward_normal_abs_z": 0.8089404106140137,
+      "patch_offset_m": 0.0831703506610928,
+      "retained_cells": 170
+    }
+  ],
+  "placement": "Identical parent wrapper pos/scale/yaw as paired tree; preserve each FBX root -90 X. Cap-only derivative; original fir unchanged.",
+  "uv": "0..1 UV0; parent WSA snow quadrant ST or full SnowSurface identity ST.",
+  "diagnosis": "V1 selected only 33 sprays, narrowed alpha support, and sat close below crossed needle cards. V2 increases supported upper-spray coverage, closes only tiny alpha gaps, and uses 7.5-11.5 cm upper offsets plus settled thickness."
+}

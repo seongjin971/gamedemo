@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "models": {
+    "CW_ChapelEntranceArch": {
+      "passed": true,
+      "triangles": 19240,
+      "zero_area_triangles": 0,
+      "uvs_present": true,
+      "all_triangular": true,
+      "open_aperture_rays": 70,
+      "open_aperture_all_clear": true,
+      "solid_wall_rays_hit": true
+    },
+    "CW_ChapelLancetWall": {
+      "passed": true,
+      "triangles": 25330,
+      "zero_area_triangles": 0,
+      "uvs_present": true,
+      "all_triangular": true,
+      "open_aperture_rays": 70,
+      "open_aperture_all_clear": true,
+      "solid_wall_rays_hit": true
+    }
+  }
+}

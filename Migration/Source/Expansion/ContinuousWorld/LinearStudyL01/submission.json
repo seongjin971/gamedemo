@@ -1,0 +1,40 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Submitted 5/5 image generations.\n- index 1: 909b3e11-78a1-4794-a8b5-b2344975c404 (pending)\n- index 2: e73872b7-3f62-443a-9319-29202126d8e9 (pending)\n- index 3: 34b9566b-c170-4bd1-8fb4-6f0007e4ff1c (pending)\n- index 4: 14f87a72-ab0f-478b-872f-e4e66ceb36ac (pending)\n- index 5: 59ad757e-d1e1-436c-b1ea-adfab9dab8b9 (pending)"
+    }
+  ],
+  "structuredContent": {
+    "jobs": [
+      {
+        "index": 1,
+        "job_id": "909b3e11-78a1-4794-a8b5-b2344975c404",
+        "status": "pending"
+      },
+      {
+        "index": 2,
+        "job_id": "e73872b7-3f62-443a-9319-29202126d8e9",
+        "status": "pending"
+      },
+      {
+        "index": 3,
+        "job_id": "34b9566b-c170-4bd1-8fb4-6f0007e4ff1c",
+        "status": "pending"
+      },
+      {
+        "index": 4,
+        "job_id": "14f87a72-ab0f-478b-872f-e4e66ceb36ac",
+        "status": "pending"
+      },
+      {
+        "index": 5,
+        "job_id": "59ad757e-d1e1-436c-b1ea-adfab9dab8b9",
+        "status": "pending"
+      }
+    ],
+    "submitted_count": 5,
+    "failed_count": 0
+  },
+  "isError": false
+}

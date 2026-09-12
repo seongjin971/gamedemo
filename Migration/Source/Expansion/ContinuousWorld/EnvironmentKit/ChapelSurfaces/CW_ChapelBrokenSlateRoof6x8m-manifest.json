@@ -1,0 +1,32 @@
+{
+  "name": "CW_ChapelBrokenSlateRoof6x8m",
+  "bounds_source_xyz": [
+    [
+      -3.0,
+      -4.0,
+      -0.2699997127056122
+    ],
+    [
+      3.0,
+      3.999999523162842,
+      2.4000000953674316
+    ]
+  ],
+  "triangles": 16840,
+  "zero_area_triangles": 0,
+  "materials": [
+    "CW_ChapelRoofTimber",
+    "CW_ChapelRoofSlateLight",
+    "CW_ChapelRoofSlate"
+  ],
+  "source_axes": "X width/Y length/Z up, metres",
+  "fbx_axes": "Y-up/-Z-forward; preserve root X=-90 degree conversion via world wrapper",
+  "uv": "0..1 UV0 per stone/slate/timber; apply parent atlas ST per material",
+  "pivot": "eave/wall top height0, center X/Y; ridge+2.4",
+  "nominal_full_width": 6,
+  "nominal_full_length": 8,
+  "broken_end": "positive sourceY / converted Unity length axis; last .2.. .85m torn back",
+  "rain_surface": "continuous pitched underlayer across x +/-2.9, length -3.9..3.0; parent raycast collider may use actual mesh",
+  "stone_slate_ST": "WSA top-right",
+  "timber_ST": "WSA bottom-left"
+}

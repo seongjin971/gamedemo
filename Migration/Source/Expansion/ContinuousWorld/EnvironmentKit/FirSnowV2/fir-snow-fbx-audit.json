@@ -1,0 +1,75 @@
+{
+  "passed": true,
+  "models": {
+    "CW_CardedAlpineFir_SnowCoverV2": {
+      "passed": true,
+      "triangles": 13759,
+      "zero_area_triangles": 0,
+      "explicit_triangles": true,
+      "bounds_source_xyz": [
+        [
+          -1.8724875450134277,
+          -1.8848824501037598,
+          0.7286972403526306
+        ],
+        [
+          2.103649139404297,
+          1.9836429357528687,
+          8.38329029083252
+        ]
+      ],
+      "reimport_bounds_error": 2.384185791015625e-07,
+      "uv_bounds_per_material": {
+        "CW_SettledSnow": [
+          0.006237237248569727,
+          0.9937626123428345,
+          0.006237225607037544,
+          0.9839555621147156
+        ]
+      },
+      "fbx_root_rotations": [
+        [
+          -90.00000933466734,
+          0.0,
+          0.0
+        ]
+      ],
+      "wall_silhouette_height_samples": []
+    },
+    "CW_CardedAlpineFir_SnowCoverV2_LOD1": {
+      "passed": true,
+      "triangles": 6973,
+      "zero_area_triangles": 0,
+      "explicit_triangles": true,
+      "bounds_source_xyz": [
+        [
+          -1.8724875450134277,
+          -1.8848824501037598,
+          0.8038297891616821
+        ],
+        [
+          2.103649139404297,
+          1.9836429357528687,
+          8.388242721557617
+        ]
+      ],
+      "reimport_bounds_error": 2.384185791015625e-07,
+      "uv_bounds_per_material": {
+        "CW_SettledSnow.001": [
+          0.007547987159341574,
+          0.9924519658088684,
+          0.007547961547970772,
+          0.9809408187866211
+        ]
+      },
+      "fbx_root_rotations": [
+        [
+          -90.00000933466734,
+          0.0,
+          0.0
+        ]
+      ],
+      "wall_silhouette_height_samples": []
+    }
+  }
+}

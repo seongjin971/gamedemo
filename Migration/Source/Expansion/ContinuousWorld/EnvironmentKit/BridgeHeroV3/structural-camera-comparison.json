@@ -1,0 +1,59 @@
+{
+  "camera_angle": 0.6,
+  "camera_elevation": 0.62,
+  "orthographic_size_unity": 8.2,
+  "source_camera_position": [
+    19.301115036010742,
+    -31.712360382080078,
+    28.29007339477539
+  ],
+  "source_camera_target": [
+    0.0,
+    -3.5,
+    3.8865973949432373
+  ],
+  "handedness": "positive source camera X, negative source length-Y; matches observed imported FBX orientation in Unity",
+  "deck_world_height": 2.8,
+  "only_negative_local_up_scale": 1.5,
+  "water_world_height": -0.95,
+  "river_bed_world_height": -4,
+  "near_facade_projection_quad_pixels": [
+    [
+      812.0878601074219,
+      929.1597747802734
+    ],
+    [
+      1305.6680603027344,
+      509.9638671875
+    ],
+    [
+      1305.6680603027344,
+      319.397216796875
+    ],
+    [
+      812.0878601074219,
+      738.5931396484375
+    ]
+  ],
+  "near_facade_world_x": 3.25,
+  "near_facade_range_length": [
+    -7,
+    7
+  ],
+  "near_facade_vertical_range": [
+    -0.95,
+    2.8
+  ],
+  "cases": [
+    {
+      "model": "CW_StoneBridgeHeroV2_14m",
+      "preview": "structural-v2-raised-camera-preview.png",
+      "geometry_alpha": "structural-v2-geometry-alpha.png"
+    },
+    {
+      "model": "CW_StoneBridgeHeroV3_14m",
+      "preview": "structural-v3-raised-camera-preview.png",
+      "geometry_alpha": "structural-v3-geometry-alpha.png"
+    }
+  ]
+}

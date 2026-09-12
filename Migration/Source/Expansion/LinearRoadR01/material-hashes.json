@@ -1,0 +1,22 @@
+﻿[
+    {
+        "name":  "BuriedStone.png",
+        "bytes":  11181440,
+        "sha256":  "967C597261CBA31D0C335E4A626CEC185D5FC1CF14A19DBDF851385A7E6872A7"
+    },
+    {
+        "name":  "DryTrail.png",
+        "bytes":  11142086,
+        "sha256":  "5F6C1006048EDBDB9069918722DAE056D67DD86E6A73CD3F116136236FF3B3E8"
+    },
+    {
+        "name":  "RainMud.png",
+        "bytes":  10559711,
+        "sha256":  "13E4944570D791E13E30C450A20E80094E906060B5B29F2092F4D02EE45255CC"
+    },
+    {
+        "name":  "SlushTrail.png",
+        "bytes":  10448382,
+        "sha256":  "A0A86D3442C8CF7F684F2577ED9731723D659A903B3EFA509BC2420C3081D9C5"
+    }
+]

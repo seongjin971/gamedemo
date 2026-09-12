@@ -1,0 +1,26 @@
+{
+  "file": "original.glb",
+  "meshes": [
+    {
+      "name": "Mesh_0",
+      "vertices": 37666,
+      "triangles": 31119,
+      "bounds_min": [
+        -0.43775999546051025,
+        -0.2154410034418106,
+        -0.9516779780387878
+      ],
+      "bounds_max": [
+        0.4365519881248474,
+        0.20579203963279724,
+        0.9505509734153748
+      ],
+      "groups": [],
+      "materials": [
+        "Material_0"
+      ]
+    }
+  ],
+  "armatures": [],
+  "actions": []
+}

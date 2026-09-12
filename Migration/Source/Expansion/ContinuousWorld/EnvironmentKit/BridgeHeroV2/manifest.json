@@ -1,0 +1,331 @@
+{
+  "name": "CW_StoneBridgeHeroV2_14m",
+  "length": 14,
+  "arch_clear_span": 9.8,
+  "arch_crown_below_deck": 0.22,
+  "arch_spring_below_deck": 3.0,
+  "clear_width": 5.2,
+  "full_width": 6.5,
+  "deck_max_height": 0.007892369292676449,
+  "walking_top_contract": "0 nominal; all paving <= +0.008, no steps; parent smooth collider",
+  "bounds_source_xyz": [
+    [
+      -3.25,
+      -7.0,
+      -3.0199999809265137
+    ],
+    [
+      3.25,
+      7.0,
+      1.340000033378601
+    ]
+  ],
+  "source_axes": "X width, Y length, Z up",
+  "fbx_axes": "Y-up/-Z-forward; root X=-90 degrees MUST be preserved by wrapper placement",
+  "pivot": "deck center at nominal height0",
+  "triangles": 17663,
+  "zero_area_triangles": 0,
+  "stone_slabs": 42,
+  "uv": "each stone UV0 within0..1; parent may map to stone atlas quadrant via material ST",
+  "materials": [
+    "CW_BridgeStone",
+    "CW_BridgeStoneLight",
+    "CW_BridgeMortar"
+  ],
+  "arch_open_ray_checks": [
+    {
+      "length_axis": -4,
+      "height": -1.5442979052785286,
+      "clear": true
+    },
+    {
+      "length_axis": -4,
+      "height": -1.7942979052785288,
+      "clear": true
+    },
+    {
+      "length_axis": -2,
+      "height": -0.612113122251461,
+      "clear": true
+    },
+    {
+      "length_axis": -2,
+      "height": -0.862113122251461,
+      "clear": true
+    },
+    {
+      "length_axis": 0,
+      "height": -0.3700000000000002,
+      "clear": true
+    },
+    {
+      "length_axis": 0,
+      "height": -0.6200000000000002,
+      "clear": true
+    },
+    {
+      "length_axis": 2,
+      "height": -0.612113122251461,
+      "clear": true
+    },
+    {
+      "length_axis": 2,
+      "height": -0.862113122251461,
+      "clear": true
+    },
+    {
+      "length_axis": 4,
+      "height": -1.5442979052785286,
+      "clear": true
+    },
+    {
+      "length_axis": 4,
+      "height": -1.7942979052785288,
+      "clear": true
+    }
+  ],
+  "arch_all_clear": true,
+  "walking_ray_checks": [
+    {
+      "x": -2.4,
+      "length_axis": -6.8,
+      "surface_height": -0.0009221583604812622,
+      "safe": true
+    },
+    {
+      "x": -2.4,
+      "length_axis": -5,
+      "surface_height": 0.0021337419748306274,
+      "safe": true
+    },
+    {
+      "x": -2.4,
+      "length_axis": -3,
+      "surface_height": -0.0006558895111083984,
+      "safe": true
+    },
+    {
+      "x": -2.4,
+      "length_axis": -1,
+      "surface_height": 0.0012087821960449219,
+      "safe": true
+    },
+    {
+      "x": -2.4,
+      "length_axis": 1,
+      "surface_height": 0.0025905966758728027,
+      "safe": true
+    },
+    {
+      "x": -2.4,
+      "length_axis": 3,
+      "surface_height": 0.003066331148147583,
+      "safe": true
+    },
+    {
+      "x": -2.4,
+      "length_axis": 5,
+      "surface_height": 0.003372862935066223,
+      "safe": true
+    },
+    {
+      "x": -2.4,
+      "length_axis": 6.8,
+      "surface_height": 0.0035491138696670532,
+      "safe": true
+    },
+    {
+      "x": -1.2,
+      "length_axis": -6.8,
+      "surface_height": 0.0022941380739212036,
+      "safe": true
+    },
+    {
+      "x": -1.2,
+      "length_axis": -5,
+      "surface_height": 0.000912010669708252,
+      "safe": true
+    },
+    {
+      "x": -1.2,
+      "length_axis": -3,
+      "surface_height": 0.0012552738189697266,
+      "safe": true
+    },
+    {
+      "x": -1.2,
+      "length_axis": -1,
+      "surface_height": 0.0018452256917953491,
+      "safe": true
+    },
+    {
+      "x": -1.2,
+      "length_axis": 1,
+      "surface_height": 0.0018649548292160034,
+      "safe": true
+    },
+    {
+      "x": -1.2,
+      "length_axis": 3,
+      "surface_height": -0.0006187111139297485,
+      "safe": true
+    },
+    {
+      "x": -1.2,
+      "length_axis": 5,
+      "surface_height": 0.0012212693691253662,
+      "safe": true
+    },
+    {
+      "x": -1.2,
+      "length_axis": 6.8,
+      "surface_height": 0.0007000267505645752,
+      "safe": true
+    },
+    {
+      "x": 0,
+      "length_axis": -6.8,
+      "surface_height": 0.0002190321683883667,
+      "safe": true
+    },
+    {
+      "x": 0,
+      "length_axis": -5,
+      "surface_height": 0.0010292083024978638,
+      "safe": true
+    },
+    {
+      "x": 0,
+      "length_axis": -3,
+      "surface_height": 0.004743903875350952,
+      "safe": true
+    },
+    {
+      "x": 0,
+      "length_axis": -1,
+      "surface_height": 0.0012771189212799072,
+      "safe": true
+    },
+    {
+      "x": 0,
+      "length_axis": 1,
+      "surface_height": 0.002670302987098694,
+      "safe": true
+    },
+    {
+      "x": 0,
+      "length_axis": 3,
+      "surface_height": 0.0023562610149383545,
+      "safe": true
+    },
+    {
+      "x": 0,
+      "length_axis": 5,
+      "surface_height": -0.031999990344047546,
+      "safe": true
+    },
+    {
+      "x": 0,
+      "length_axis": 6.8,
+      "surface_height": -0.03200000524520874,
+      "safe": true
+    },
+    {
+      "x": 1.2,
+      "length_axis": -6.8,
+      "surface_height": -0.0006382465362548828,
+      "safe": true
+    },
+    {
+      "x": 1.2,
+      "length_axis": -5,
+      "surface_height": -0.002102866768836975,
+      "safe": true
+    },
+    {
+      "x": 1.2,
+      "length_axis": -3,
+      "surface_height": 0.004125669598579407,
+      "safe": true
+    },
+    {
+      "x": 1.2,
+      "length_axis": -1,
+      "surface_height": -0.001351282000541687,
+      "safe": true
+    },
+    {
+      "x": 1.2,
+      "length_axis": 1,
+      "surface_height": 0.0019707530736923218,
+      "safe": true
+    },
+    {
+      "x": 1.2,
+      "length_axis": 3,
+      "surface_height": 0.0014375150203704834,
+      "safe": true
+    },
+    {
+      "x": 1.2,
+      "length_axis": 5,
+      "surface_height": 0.0031241625547409058,
+      "safe": true
+    },
+    {
+      "x": 1.2,
+      "length_axis": 6.8,
+      "surface_height": 4.9248337745666504e-05,
+      "safe": true
+    },
+    {
+      "x": 2.4,
+      "length_axis": -6.8,
+      "surface_height": -0.001678466796875,
+      "safe": true
+    },
+    {
+      "x": 2.4,
+      "length_axis": -5,
+      "surface_height": 0.0006342977285385132,
+      "safe": true
+    },
+    {
+      "x": 2.4,
+      "length_axis": -3,
+      "surface_height": 0.005511492490768433,
+      "safe": true
+    },
+    {
+      "x": 2.4,
+      "length_axis": -1,
+      "surface_height": 0.0012266486883163452,
+      "safe": true
+    },
+    {
+      "x": 2.4,
+      "length_axis": 1,
+      "surface_height": 0.0018445998430252075,
+      "safe": true
+    },
+    {
+      "x": 2.4,
+      "length_axis": 3,
+      "surface_height": 0.0002377331256866455,
+      "safe": true
+    },
+    {
+      "x": 2.4,
+      "length_axis": 5,
+      "surface_height": 0.0015075504779815674,
+      "safe": true
+    },
+    {
+      "x": 2.4,
+      "length_axis": 6.8,
+      "surface_height": -0.0014064013957977295,
+      "safe": true
+    }
+  ],
+  "walking_all_safe": true
+}

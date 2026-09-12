@@ -1,0 +1,410 @@
+{
+  "name": "CW_ChapelLancetWall",
+  "width": 6,
+  "height": 7,
+  "max_depth": 0.6,
+  "origin": "ground center",
+  "source_axes": "XYZ width/depth/height; +Z up",
+  "fbx_axes": "+Y up/-Z forward",
+  "aperture": {
+    "base": 1.3,
+    "spring": 4.3,
+    "apex": 6.1,
+    "width_at_base_and_legs": 2,
+    "rise": 1.8,
+    "curve_radius": 2.12,
+    "curve_center_offset": 1.12,
+    "half_width_above_spring": "sqrt(radius^2-(height-spring)^2)-center_offset"
+  },
+  "bounds_source_xyz": [
+    [
+      -3.0,
+      -0.29600000381469727,
+      0.0
+    ],
+    [
+      3.0,
+      0.29600000381469727,
+      7.0
+    ]
+  ],
+  "triangles": 25330,
+  "zero_area_triangles": 0,
+  "all_triangular": true,
+  "material_slots": [
+    "CW_ChapelStone",
+    "CW_ChapelStoneLight",
+    "CW_ChapelMortar"
+  ],
+  "aperture_ray_checks": [
+    {
+      "x": -0.82,
+      "height": 1.62,
+      "clear": true
+    },
+    {
+      "x": -0.45,
+      "height": 1.62,
+      "clear": true
+    },
+    {
+      "x": 0.0,
+      "height": 1.62,
+      "clear": true
+    },
+    {
+      "x": 0.45,
+      "height": 1.62,
+      "clear": true
+    },
+    {
+      "x": 0.82,
+      "height": 1.62,
+      "clear": true
+    },
+    {
+      "x": -0.82,
+      "height": 1.94,
+      "clear": true
+    },
+    {
+      "x": -0.45,
+      "height": 1.94,
+      "clear": true
+    },
+    {
+      "x": 0.0,
+      "height": 1.94,
+      "clear": true
+    },
+    {
+      "x": 0.45,
+      "height": 1.94,
+      "clear": true
+    },
+    {
+      "x": 0.82,
+      "height": 1.94,
+      "clear": true
+    },
+    {
+      "x": -0.82,
+      "height": 2.26,
+      "clear": true
+    },
+    {
+      "x": -0.45,
+      "height": 2.26,
+      "clear": true
+    },
+    {
+      "x": 0.0,
+      "height": 2.26,
+      "clear": true
+    },
+    {
+      "x": 0.45,
+      "height": 2.26,
+      "clear": true
+    },
+    {
+      "x": 0.82,
+      "height": 2.26,
+      "clear": true
+    },
+    {
+      "x": -0.82,
+      "height": 2.58,
+      "clear": true
+    },
+    {
+      "x": -0.45,
+      "height": 2.58,
+      "clear": true
+    },
+    {
+      "x": 0.0,
+      "height": 2.58,
+      "clear": true
+    },
+    {
+      "x": 0.45,
+      "height": 2.58,
+      "clear": true
+    },
+    {
+      "x": 0.82,
+      "height": 2.58,
+      "clear": true
+    },
+    {
+      "x": -0.82,
+      "height": 2.9000000000000004,
+      "clear": true
+    },
+    {
+      "x": -0.45,
+      "height": 2.9000000000000004,
+      "clear": true
+    },
+    {
+      "x": 0.0,
+      "height": 2.9000000000000004,
+      "clear": true
+    },
+    {
+      "x": 0.45,
+      "height": 2.9000000000000004,
+      "clear": true
+    },
+    {
+      "x": 0.82,
+      "height": 2.9000000000000004,
+      "clear": true
+    },
+    {
+      "x": -0.82,
+      "height": 3.2199999999999998,
+      "clear": true
+    },
+    {
+      "x": -0.45,
+      "height": 3.2199999999999998,
+      "clear": true
+    },
+    {
+      "x": 0.0,
+      "height": 3.2199999999999998,
+      "clear": true
+    },
+    {
+      "x": 0.45,
+      "height": 3.2199999999999998,
+      "clear": true
+    },
+    {
+      "x": 0.82,
+      "height": 3.2199999999999998,
+      "clear": true
+    },
+    {
+      "x": -0.82,
+      "height": 3.54,
+      "clear": true
+    },
+    {
+      "x": -0.45,
+      "height": 3.54,
+      "clear": true
+    },
+    {
+      "x": 0.0,
+      "height": 3.54,
+      "clear": true
+    },
+    {
+      "x": 0.45,
+      "height": 3.54,
+      "clear": true
+    },
+    {
+      "x": 0.82,
+      "height": 3.54,
+      "clear": true
+    },
+    {
+      "x": -0.82,
+      "height": 3.8600000000000003,
+      "clear": true
+    },
+    {
+      "x": -0.45,
+      "height": 3.8600000000000003,
+      "clear": true
+    },
+    {
+      "x": 0.0,
+      "height": 3.8600000000000003,
+      "clear": true
+    },
+    {
+      "x": 0.45,
+      "height": 3.8600000000000003,
+      "clear": true
+    },
+    {
+      "x": 0.82,
+      "height": 3.8600000000000003,
+      "clear": true
+    },
+    {
+      "x": -0.82,
+      "height": 4.18,
+      "clear": true
+    },
+    {
+      "x": -0.45,
+      "height": 4.18,
+      "clear": true
+    },
+    {
+      "x": 0.0,
+      "height": 4.18,
+      "clear": true
+    },
+    {
+      "x": 0.45,
+      "height": 4.18,
+      "clear": true
+    },
+    {
+      "x": 0.82,
+      "height": 4.18,
+      "clear": true
+    },
+    {
+      "x": -0.8122468617254068,
+      "height": 4.5,
+      "clear": true
+    },
+    {
+      "x": -0.44574522899565017,
+      "height": 4.5,
+      "clear": true
+    },
+    {
+      "x": 0.0,
+      "height": 4.5,
+      "clear": true
+    },
+    {
+      "x": 0.44574522899565017,
+      "height": 4.5,
+      "clear": true
+    },
+    {
+      "x": 0.8122468617254068,
+      "height": 4.5,
+      "clear": true
+    },
+    {
+      "x": -0.766894514320865,
+      "height": 4.82,
+      "clear": true
+    },
+    {
+      "x": -0.42085674566388936,
+      "height": 4.82,
+      "clear": true
+    },
+    {
+      "x": 0.0,
+      "height": 4.82,
+      "clear": true
+    },
+    {
+      "x": 0.42085674566388936,
+      "height": 4.82,
+      "clear": true
+    },
+    {
+      "x": 0.766894514320865,
+      "height": 4.82,
+      "clear": true
+    },
+    {
+      "x": -0.677716887950253,
+      "height": 5.14,
+      "clear": true
+    },
+    {
+      "x": -0.3719178043629437,
+      "height": 5.14,
+      "clear": true
+    },
+    {
+      "x": 0.0,
+      "height": 5.14,
+      "clear": true
+    },
+    {
+      "x": 0.3719178043629437,
+      "height": 5.14,
+      "clear": true
+    },
+    {
+      "x": 0.677716887950253,
+      "height": 5.14,
+      "clear": true
+    },
+    {
+      "x": -0.5366783896409155,
+      "height": 5.46,
+      "clear": true
+    },
+    {
+      "x": -0.2945186284614781,
+      "height": 5.46,
+      "clear": true
+    },
+    {
+      "x": 0.0,
+      "height": 5.46,
+      "clear": true
+    },
+    {
+      "x": 0.2945186284614781,
+      "height": 5.46,
+      "clear": true
+    },
+    {
+      "x": 0.5366783896409155,
+      "height": 5.46,
+      "clear": true
+    },
+    {
+      "x": -0.3262724870422739,
+      "height": 5.78,
+      "clear": true
+    },
+    {
+      "x": -0.17905197459636985,
+      "height": 5.78,
+      "clear": true
+    },
+    {
+      "x": 0.0,
+      "height": 5.78,
+      "clear": true
+    },
+    {
+      "x": 0.17905197459636985,
+      "height": 5.78,
+      "clear": true
+    },
+    {
+      "x": 0.3262724870422739,
+      "height": 5.78,
+      "clear": true
+    }
+  ],
+  "solid_wall_ray_checks": [
+    {
+      "x": -2.64,
+      "height": 2.1,
+      "hit": true
+    },
+    {
+      "x": 2.64,
+      "height": 4.2,
+      "hit": true
+    },
+    {
+      "x": 0,
+      "height": 6.7,
+      "hit": true
+    }
+  ],
+  "aperture_all_clear": true,
+  "solid_tests_hit": true
+}

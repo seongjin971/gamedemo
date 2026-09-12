@@ -1,0 +1,21 @@
+{
+  "created_at": "2026-09-09T16:34:24.187496Z",
+  "display_name": "Text to 3D",
+  "id": "156e139b-457a-4556-9d54-ffd8872859f5",
+  "job_type": "tripo_3d",
+  "min_result_url": null,
+  "params": {
+    "auto_size": true,
+    "face_limit": 70000,
+    "folder_id": null,
+    "geometry_quality": "detailed",
+    "negative_prompt": "cartoon, toy, plastic, lowpoly, spherical canopy, solid broccoli lumps, featureless blobs, giant leaves, rigid symmetrical branching, ground disk, multiple trees, roots spreading across a terrain base",
+    "pbr": true,
+    "prompt": "Single photorealistic botanical game environment asset: mature riverbank alder tree approximately 8 meters tall, open irregular broad crown with realistically dense small oval dark olive green leaves in fine natural clusters, several curving textured gray brown branches visible through graceful canopy gaps, forked slightly leaning trunk with rough fissured bark and natural flared roots at its base. Natural wild European riparian tree, organic asymmetric silhouette, subtly drooping outer twigs, biologically plausible branch hierarchy, detailed realistic bark and leaf PBR textures, photogrammetry AAA game environment quality. Isolated freestanding complete tree, no landscape, no scenery, no pedestal, no pot, no people.",
+    "seed": null,
+    "texture": true,
+    "texture_quality": "detailed"
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3HqrOQdfhs3psNu8LvY0hv7gvNL/hf_20260909_163424_156e139b-457a-4556-9d54-ffd8872859f5.glb",
+  "status": "completed"
+}

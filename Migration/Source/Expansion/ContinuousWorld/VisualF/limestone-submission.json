@@ -1,0 +1,39 @@
+{
+  "submitted": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Submitted 1 job. If a widget is visible, it polls automatically — do not call job_status or show_generations as a follow-up poll. In text-only clients, use job_status with sync:true to poll for completion.\n- 3e65cfe6-9a44-4e95-aa7e-2b9929ebc732  \"Use case: photorealistic-natural. Asset type: seamless PBR albedo texture for weathered limestone paving and ruined Gothic masonry in a Unity environment. Full-frame flat orthographic surface of aged fine silver-gray limestone, even neutral diffuse illumination. No cast shadows, no wet reflections baked in, no mortar, no tile grid, no objects, no border, no writing. Tiny shallow chips, minute pores, fine mineral mottling and worn stone grains, subtle fine hairline erosion. Soft neutral gray midtones with subtle warm-gray inclusions, uniform overall brightness. Dense detailed natural fine structure, no large black cracks, no repeated mirrored shapes. This is one continuous stone surface, not separate tiles. Exact square, physically plausible 2K game material albedo.\""
+      }
+    ],
+    "structuredContent": {
+      "results": [
+        {
+          "id": "3e65cfe6-9a44-4e95-aa7e-2b9929ebc732",
+          "type": "image",
+          "status": "pending",
+          "model": "gpt_image_2",
+          "params": {
+            "prompt": "Use case: photorealistic-natural. Asset type: seamless PBR albedo texture for weathered limestone paving and ruined Gothic masonry in a Unity environment. Full-frame flat orthographic surface of aged fine silver-gray limestone, even neutral diffuse illumination. No cast shadows, no wet reflections baked in, no mortar, no tile grid, no objects, no border, no writing. Tiny shallow chips, minute pores, fine mineral mottling and worn stone grains, subtle fine hairline erosion. Soft neutral gray midtones with subtle warm-gray inclusions, uniform overall brightness. Dense detailed natural fine structure, no large black cracks, no repeated mirrored shapes. This is one continuous stone surface, not separate tiles. Exact square, physically plausible 2K game material albedo.",
+            "aspect_ratio": "1:1",
+            "resolution": "2k",
+            "quality": "high"
+          }
+        }
+      ]
+    },
+    "isError": false
+  },
+  "params": {
+    "model": "gpt_image_2",
+    "aspect_ratio": "1:1",
+    "resolution": "2k",
+    "quality": "high",
+    "count": 1,
+    "prompt": "Use case: photorealistic-natural. Asset type: seamless PBR albedo texture for weathered limestone paving and ruined Gothic masonry in a Unity environment. Full-frame flat orthographic surface of aged fine silver-gray limestone, even neutral diffuse illumination. No cast shadows, no wet reflections baked in, no mortar, no tile grid, no objects, no border, no writing. Tiny shallow chips, minute pores, fine mineral mottling and worn stone grains, subtle fine hairline erosion. Soft neutral gray midtones with subtle warm-gray inclusions, uniform overall brightness. Dense detailed natural fine structure, no large black cracks, no repeated mirrored shapes. This is one continuous stone surface, not separate tiles. Exact square, physically plausible 2K game material albedo.",
+    "use_unlim": false
+  },
+  "beforeCredits": 2421.5,
+  "estimatedCreditsExact": 6.5,
+  "adoption": "pending Unity visual comparison"
+}

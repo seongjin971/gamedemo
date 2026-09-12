@@ -1,0 +1,168 @@
+{
+  "study": "LinearStudyL01",
+  "status": "PREPARED_NOT_SUBMITTED",
+  "purpose": "Five gameplay camera image candidates for review. No Unity changes or adoption.",
+  "oldState": "E02 preserved, F01 intermediate preserved, F02 uncompiled draft remains paused.",
+  "beforeCredits": 2378,
+  "estimatedCreditsExactPerImage": 6.5,
+  "estimatedCreditsExactTotal": 32.5,
+  "stages": [
+    {
+      "index": 1,
+      "name": "01-waterside",
+      "title": "맑은 물가"
+    },
+    {
+      "index": 2,
+      "name": "02-damp-wood",
+      "title": "젖어가는 숲길"
+    },
+    {
+      "index": 3,
+      "name": "03-rainy-abbey",
+      "title": "비 오는 폐허"
+    },
+    {
+      "index": 4,
+      "name": "04-frost-transition",
+      "title": "서리로 바뀌는 길"
+    },
+    {
+      "index": 5,
+      "name": "05-snow-pass",
+      "title": "눈 덮인 고갯길"
+    }
+  ],
+  "requests": [
+    {
+      "index": 1,
+      "params": {
+        "model": "gpt_image_2",
+        "aspect_ratio": "3:2",
+        "resolution": "2k",
+        "quality": "high",
+        "count": 1,
+        "use_unlim": false,
+        "medias": [
+          {
+            "role": "image",
+            "value": "577104a6-d650-457d-b582-9387a4b42946"
+          },
+          {
+            "role": "image",
+            "value": "4a6eb56c-2add-4353-9212-209b3647c467"
+          },
+          {
+            "role": "image",
+            "value": "44960f88-6cdb-4002-a48c-5781b305b6ed"
+          }
+        ],
+        "prompt": "Create ONE polished real-time 3D GAME SCREENSHOT in a five-image sequence for VESPER, a compact LINEAR walking environment whose only purpose is experiencing gradual natural climate change. This is a buildable target for a Unity game, physically grounded stylized realism, carefully authored geometry and PBR materials, not a painting, not cinematic art, not a miniature diorama.\nREFERENCE ROLES: Image 1 is the existing waterside material/bridge reference; image 2 is the existing rainy Gothic ruin and traveler reference; image 3 is the existing snow/conifer reference. Retain their coherent game art direction and elevated gameplay camera, while improving natural landform, foliage and stone quality. Render ONLY the requested stage, never a collage or all climates in one image.\nLOCKED ACROSS ALL FIVE IMAGES: landscape 3:2 frame; fixed elevated three-quarter game camera looking down approximately 53 degrees, near-orthographic lens without a horizon or sky band; one continuous unbranched path on exactly the same screen axis, entering around bottom x=0.28 and leaving around top x=0.74. The path is straight, with only irregular natural edges: no S bends, intersections, looping lanes, side paths, plazas or dramatic overlooks. Walkable lane approximately 3.5 metres wide. Camera sees around 22 metres of the route, not the entire 300m world. Same small human adventurer, brown short hair, off-white long-sleeved tunic, brown leather vest and boots, short dark teal shoulder cape, no armor or large weapon, seen from behind, feet near screen (0.50,0.62), body height about 13% of the image. Same human, scale, direction and camera every stage. Local natural terrain continues beyond all frame edges; no floating island, cutaway terrain or stage platform. Ground clear around traveler. Detailed warm-gray weathered limestone family, irregular large slabs blending into earth, natural varied foliage clusters and grounded rock outcrops with fine contact shadows. Restrained believable colors, clean crisp rendered image, no depth-of-field blur, no HUD, labels, text, logo, border, panel, watermark or visible numerical markers.\nWORLD CONTINUITY: the player proceeds in a straight route from a sunny river crossing through a damp deciduous wood past a small rainy ruined abbey, then a frosty gradual rise into a snowy conifer pass. Moisture, species, rock exposure, light and precipitation evolve gradually. Architecture is compact, human-scale. Do not enlarge the map to make an epic vista.\n\nSTAGE 1, SUNNY WATERSIDE, around route 25m. The traveler is crossing a compact, substantial low limestone arched bridge along the locked straight path axis. A shallow clear turquoise stream runs perpendicular underneath; one readable masonry arch and lower natural layered rock banks, visible submerged stones, warm dense irregular golden reed clusters on both banks, one graceful leafy alder framing the right edge. Low weathered parapets with worn coping, large irregular pale bridge slabs merging into grass beyond the bridge, no ruler-straight pavement termination. Soft warm daylight and coherent fine water glints, gentle shadows, fresh muted green grass. Far end of the same straight path enters slightly denser greener trees with subtly cooler shade. It is fully dry and sunny here, no rain or snow. Keep the riverbanks low and compact and make the whole space feel reachable."
+      }
+    },
+    {
+      "index": 2,
+      "params": {
+        "model": "gpt_image_2",
+        "aspect_ratio": "3:2",
+        "resolution": "2k",
+        "quality": "high",
+        "count": 1,
+        "use_unlim": false,
+        "medias": [
+          {
+            "role": "image",
+            "value": "577104a6-d650-457d-b582-9387a4b42946"
+          },
+          {
+            "role": "image",
+            "value": "4a6eb56c-2add-4353-9212-209b3647c467"
+          },
+          {
+            "role": "image",
+            "value": "44960f88-6cdb-4002-a48c-5781b305b6ed"
+          }
+        ],
+        "prompt": "Create ONE polished real-time 3D GAME SCREENSHOT in a five-image sequence for VESPER, a compact LINEAR walking environment whose only purpose is experiencing gradual natural climate change. This is a buildable target for a Unity game, physically grounded stylized realism, carefully authored geometry and PBR materials, not a painting, not cinematic art, not a miniature diorama.\nREFERENCE ROLES: Image 1 is the existing waterside material/bridge reference; image 2 is the existing rainy Gothic ruin and traveler reference; image 3 is the existing snow/conifer reference. Retain their coherent game art direction and elevated gameplay camera, while improving natural landform, foliage and stone quality. Render ONLY the requested stage, never a collage or all climates in one image.\nLOCKED ACROSS ALL FIVE IMAGES: landscape 3:2 frame; fixed elevated three-quarter game camera looking down approximately 53 degrees, near-orthographic lens without a horizon or sky band; one continuous unbranched path on exactly the same screen axis, entering around bottom x=0.28 and leaving around top x=0.74. The path is straight, with only irregular natural edges: no S bends, intersections, looping lanes, side paths, plazas or dramatic overlooks. Walkable lane approximately 3.5 metres wide. Camera sees around 22 metres of the route, not the entire 300m world. Same small human adventurer, brown short hair, off-white long-sleeved tunic, brown leather vest and boots, short dark teal shoulder cape, no armor or large weapon, seen from behind, feet near screen (0.50,0.62), body height about 13% of the image. Same human, scale, direction and camera every stage. Local natural terrain continues beyond all frame edges; no floating island, cutaway terrain or stage platform. Ground clear around traveler. Detailed warm-gray weathered limestone family, irregular large slabs blending into earth, natural varied foliage clusters and grounded rock outcrops with fine contact shadows. Restrained believable colors, clean crisp rendered image, no depth-of-field blur, no HUD, labels, text, logo, border, panel, watermark or visible numerical markers.\nWORLD CONTINUITY: the player proceeds in a straight route from a sunny river crossing through a damp deciduous wood past a small rainy ruined abbey, then a frosty gradual rise into a snowy conifer pass. Moisture, species, rock exposure, light and precipitation evolve gradually. Architecture is compact, human-scale. Do not enlarge the map to make an epic vista.\n\nSTAGE 2, DAMP WOOD TRANSITION, around route 85m, after leaving the bridge. Same straight route and camera. A compact deciduous woodland of alder and birch frames the path in grouped irregular masses, still some warm golden grasses in the near foreground, greener ferns and moss deeper ahead. The path changes from packed sandy earth and scattered embedded limestone slabs in foreground to darker moist soil and more connected stones ahead. Shallow rainwater gathers in small irregular depressions, first sparse fine drizzle mainly toward the upper frame, shade increases gently with soft cloudy daylight, a trace of ground haze without obscuring details. At the far upper-left edge only a small fragment of the approaching Gothic abbey may be glimpsed between trees; do not reveal an entire building. No snow, no blanket fog, no dry desert, no second bridge, no river crossing. The essential subject is the gradual sunny-to-damp ecological transition, not rows of identical trees."
+      }
+    },
+    {
+      "index": 3,
+      "params": {
+        "model": "gpt_image_2",
+        "aspect_ratio": "3:2",
+        "resolution": "2k",
+        "quality": "high",
+        "count": 1,
+        "use_unlim": false,
+        "medias": [
+          {
+            "role": "image",
+            "value": "577104a6-d650-457d-b582-9387a4b42946"
+          },
+          {
+            "role": "image",
+            "value": "4a6eb56c-2add-4353-9212-209b3647c467"
+          },
+          {
+            "role": "image",
+            "value": "44960f88-6cdb-4002-a48c-5781b305b6ed"
+          }
+        ],
+        "prompt": "Create ONE polished real-time 3D GAME SCREENSHOT in a five-image sequence for VESPER, a compact LINEAR walking environment whose only purpose is experiencing gradual natural climate change. This is a buildable target for a Unity game, physically grounded stylized realism, carefully authored geometry and PBR materials, not a painting, not cinematic art, not a miniature diorama.\nREFERENCE ROLES: Image 1 is the existing waterside material/bridge reference; image 2 is the existing rainy Gothic ruin and traveler reference; image 3 is the existing snow/conifer reference. Retain their coherent game art direction and elevated gameplay camera, while improving natural landform, foliage and stone quality. Render ONLY the requested stage, never a collage or all climates in one image.\nLOCKED ACROSS ALL FIVE IMAGES: landscape 3:2 frame; fixed elevated three-quarter game camera looking down approximately 53 degrees, near-orthographic lens without a horizon or sky band; one continuous unbranched path on exactly the same screen axis, entering around bottom x=0.28 and leaving around top x=0.74. The path is straight, with only irregular natural edges: no S bends, intersections, looping lanes, side paths, plazas or dramatic overlooks. Walkable lane approximately 3.5 metres wide. Camera sees around 22 metres of the route, not the entire 300m world. Same small human adventurer, brown short hair, off-white long-sleeved tunic, brown leather vest and boots, short dark teal shoulder cape, no armor or large weapon, seen from behind, feet near screen (0.50,0.62), body height about 13% of the image. Same human, scale, direction and camera every stage. Local natural terrain continues beyond all frame edges; no floating island, cutaway terrain or stage platform. Ground clear around traveler. Detailed warm-gray weathered limestone family, irregular large slabs blending into earth, natural varied foliage clusters and grounded rock outcrops with fine contact shadows. Restrained believable colors, clean crisp rendered image, no depth-of-field blur, no HUD, labels, text, logo, border, panel, watermark or visible numerical markers.\nWORLD CONTINUITY: the player proceeds in a straight route from a sunny river crossing through a damp deciduous wood past a small rainy ruined abbey, then a frosty gradual rise into a snowy conifer pass. Moisture, species, rock exposure, light and precipitation evolve gradually. Architecture is compact, human-scale. Do not enlarge the map to make an epic vista.\n\nSTAGE 3, RAINY ABBEY, around route 150m. Same straight route, camera and traveler. To the left of the uninterrupted path stands ONE compact roofless Gothic chapel ruin, only about one storey high, a broken pointed window and one grounded arch, thick eroded wall, moss-grown collapse masses, a very small roofed recess with a restrained amber lamp. A shallow accessible threshold directly abuts the path without a separate side lane or broad courtyard. To the right, damp vegetation and low grounded limestone outcrops. Large irregular wet flagstones dissolve organically into dirt at the margins, dark wet joints, physically coherent irregular puddles reflecting cool diffuse sky and a small stretched amber lamp reflection. Visible fine rain and restrained water impact ripples; softly overcast blue-gray daylight, rich readable shadows, no hard sunshine. Organic scattered rubble sizes, no tiny checkerboard tiles or immaculate cathedral walls. No snow at this station. The route passes alongside the ruin and remains entirely straight and legible."
+      }
+    },
+    {
+      "index": 4,
+      "params": {
+        "model": "gpt_image_2",
+        "aspect_ratio": "3:2",
+        "resolution": "2k",
+        "quality": "high",
+        "count": 1,
+        "use_unlim": false,
+        "medias": [
+          {
+            "role": "image",
+            "value": "577104a6-d650-457d-b582-9387a4b42946"
+          },
+          {
+            "role": "image",
+            "value": "4a6eb56c-2add-4353-9212-209b3647c467"
+          },
+          {
+            "role": "image",
+            "value": "44960f88-6cdb-4002-a48c-5781b305b6ed"
+          }
+        ],
+        "prompt": "Create ONE polished real-time 3D GAME SCREENSHOT in a five-image sequence for VESPER, a compact LINEAR walking environment whose only purpose is experiencing gradual natural climate change. This is a buildable target for a Unity game, physically grounded stylized realism, carefully authored geometry and PBR materials, not a painting, not cinematic art, not a miniature diorama.\nREFERENCE ROLES: Image 1 is the existing waterside material/bridge reference; image 2 is the existing rainy Gothic ruin and traveler reference; image 3 is the existing snow/conifer reference. Retain their coherent game art direction and elevated gameplay camera, while improving natural landform, foliage and stone quality. Render ONLY the requested stage, never a collage or all climates in one image.\nLOCKED ACROSS ALL FIVE IMAGES: landscape 3:2 frame; fixed elevated three-quarter game camera looking down approximately 53 degrees, near-orthographic lens without a horizon or sky band; one continuous unbranched path on exactly the same screen axis, entering around bottom x=0.28 and leaving around top x=0.74. The path is straight, with only irregular natural edges: no S bends, intersections, looping lanes, side paths, plazas or dramatic overlooks. Walkable lane approximately 3.5 metres wide. Camera sees around 22 metres of the route, not the entire 300m world. Same small human adventurer, brown short hair, off-white long-sleeved tunic, brown leather vest and boots, short dark teal shoulder cape, no armor or large weapon, seen from behind, feet near screen (0.50,0.62), body height about 13% of the image. Same human, scale, direction and camera every stage. Local natural terrain continues beyond all frame edges; no floating island, cutaway terrain or stage platform. Ground clear around traveler. Detailed warm-gray weathered limestone family, irregular large slabs blending into earth, natural varied foliage clusters and grounded rock outcrops with fine contact shadows. Restrained believable colors, clean crisp rendered image, no depth-of-field blur, no HUD, labels, text, logo, border, panel, watermark or visible numerical markers.\nWORLD CONTINUITY: the player proceeds in a straight route from a sunny river crossing through a damp deciduous wood past a small rainy ruined abbey, then a frosty gradual rise into a snowy conifer pass. Moisture, species, rock exposure, light and precipitation evolve gradually. Architecture is compact, human-scale. Do not enlarge the map to make an epic vista.\n\nSTAGE 4, FROST TRANSITION, around route 215m. Same straight route and traveler, now a modest continuously walkable uphill gradient, never stairs or steep switchbacks. Deciduous trees thin out and mix naturally with the first slender detailed conifers. Near foreground remains visibly damp dark earth with wet warm-gray embedded stones and muted green moss. Hoarfrost traces sheltered rock crevices and grass tips; irregular small patches of snow accumulate first along shaded path margins and upper branches, coverage increases from perhaps 10 percent in near ground to 35 percent toward the top of frame. Central walking path is mostly exposed damp stone/soil with a slight frost sheen, never uniformly white or a gray empty slab. Rain has almost stopped, a few sparse sleet flakes, cool luminous overcast light and thin mist. Natural low rock ledges with small retained snow pockets support the slope. No abbey, no monumental mountains, no cliff wall, no panorama. Clearly an intermediate damp-to-snow stage rather than a separate biome with a hard border."
+      }
+    },
+    {
+      "index": 5,
+      "params": {
+        "model": "gpt_image_2",
+        "aspect_ratio": "3:2",
+        "resolution": "2k",
+        "quality": "high",
+        "count": 1,
+        "use_unlim": false,
+        "medias": [
+          {
+            "role": "image",
+            "value": "577104a6-d650-457d-b582-9387a4b42946"
+          },
+          {
+            "role": "image",
+            "value": "4a6eb56c-2add-4353-9212-209b3647c467"
+          },
+          {
+            "role": "image",
+            "value": "44960f88-6cdb-4002-a48c-5781b305b6ed"
+          }
+        ],
+        "prompt": "Create ONE polished real-time 3D GAME SCREENSHOT in a five-image sequence for VESPER, a compact LINEAR walking environment whose only purpose is experiencing gradual natural climate change. This is a buildable target for a Unity game, physically grounded stylized realism, carefully authored geometry and PBR materials, not a painting, not cinematic art, not a miniature diorama.\nREFERENCE ROLES: Image 1 is the existing waterside material/bridge reference; image 2 is the existing rainy Gothic ruin and traveler reference; image 3 is the existing snow/conifer reference. Retain their coherent game art direction and elevated gameplay camera, while improving natural landform, foliage and stone quality. Render ONLY the requested stage, never a collage or all climates in one image.\nLOCKED ACROSS ALL FIVE IMAGES: landscape 3:2 frame; fixed elevated three-quarter game camera looking down approximately 53 degrees, near-orthographic lens without a horizon or sky band; one continuous unbranched path on exactly the same screen axis, entering around bottom x=0.28 and leaving around top x=0.74. The path is straight, with only irregular natural edges: no S bends, intersections, looping lanes, side paths, plazas or dramatic overlooks. Walkable lane approximately 3.5 metres wide. Camera sees around 22 metres of the route, not the entire 300m world. Same small human adventurer, brown short hair, off-white long-sleeved tunic, brown leather vest and boots, short dark teal shoulder cape, no armor or large weapon, seen from behind, feet near screen (0.50,0.62), body height about 13% of the image. Same human, scale, direction and camera every stage. Local natural terrain continues beyond all frame edges; no floating island, cutaway terrain or stage platform. Ground clear around traveler. Detailed warm-gray weathered limestone family, irregular large slabs blending into earth, natural varied foliage clusters and grounded rock outcrops with fine contact shadows. Restrained believable colors, clean crisp rendered image, no depth-of-field blur, no HUD, labels, text, logo, border, panel, watermark or visible numerical markers.\nWORLD CONTINUITY: the player proceeds in a straight route from a sunny river crossing through a damp deciduous wood past a small rainy ruined abbey, then a frosty gradual rise into a snowy conifer pass. Moisture, species, rock exposure, light and precipitation evolve gradually. Architecture is compact, human-scale. Do not enlarge the map to make an epic vista.\n\nSTAGE 5, SNOWY PASS, around route 275m. Same straight lane, camera framing and traveler scale. The ground is mostly soft pale blue-white snow, with a narrow gently compacted snow track along the same diagonal path axis and a few embedded gray stone edges visible through it. Fine detailed conifers with perforated layered boughs frame both sides asymmetrically; snow rests naturally on upper branches with varied thickness, not broad green polygon plates or separate marshmallow lumps. Low grounded fractured rock ledges carry irregular thin wind-shaped snow and exposed stone faces. Sparse gentle falling snow, brighter cold diffuse daylight, subtle soft directional shadows and delicate contact depressions. The path continues simply into the top of the image; this is an intimate winter walk, no dramatic summit, no overlook, no monumental rock towers, no broad blank plateau or distant sky. Small traces of the same limestone family link it to the earlier path. Calm, restrained and physically plausible."
+      }
+    }
+  ]
+}

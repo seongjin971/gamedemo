@@ -1,0 +1,28 @@
+[
+  {
+    "name": "CW_FirVolume_1",
+    "branches": 70,
+    "twigSprays": 1120,
+    "triangles": {
+      "CW_FirVolume_1_Wood": 5988,
+      "CW_FirVolume_1_Needles": 9520,
+      "CW_FirVolume_1_Snow": 12276
+    },
+    "assetAdoption": "pending actual Unity comparison",
+    "existingTextureSha256": "8f95ebbd5aacadbb3108679b6783ea6824b3cbe1ec162267c03c95b818ae2814",
+    "newGenerationCredits": 0
+  },
+  {
+    "name": "CW_FirVolume_2",
+    "branches": 70,
+    "twigSprays": 1120,
+    "triangles": {
+      "CW_FirVolume_2_Wood": 5988,
+      "CW_FirVolume_2_Needles": 9520,
+      "CW_FirVolume_2_Snow": 12342
+    },
+    "assetAdoption": "pending actual Unity comparison",
+    "existingTextureSha256": "8f95ebbd5aacadbb3108679b6783ea6824b3cbe1ec162267c03c95b818ae2814",
+    "newGenerationCredits": 0
+  }
+]

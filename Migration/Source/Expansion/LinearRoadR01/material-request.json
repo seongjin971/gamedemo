@@ -1,0 +1,52 @@
+{
+  "requests": [
+    {
+      "index": 1,
+      "params": {
+        "model": "gpt_image_2",
+        "aspect_ratio": "1:1",
+        "resolution": "2k",
+        "quality": "high",
+        "prompt": "Seamless tileable PBR base color texture ONLY, perfectly orthographic top-down, filling square edge to edge, a 3 by 3 meter patch of compacted temperate forest walking-trail earth. Muted warm gray-brown packed soil, fine sand, weathered small gravel, occasional flat irregular gray-brown stone fragments 3 to 12cm across, subtle fine root bits. Natural heterogeneous rich microdetail with flat diffuse even lighting. No trail boundaries, no directional marks, no large slabs, no rectangular grid, no objects or vegetation, no perspective, no cast shadows, no ambient occlusion baked in, no specular reflections, no text. Production game material albedo; constant overall tone without vignetting, all four edges tile seamlessly.",
+        "count": 1,
+        "use_unlim": false
+      }
+    },
+    {
+      "index": 2,
+      "params": {
+        "model": "gpt_image_2",
+        "aspect_ratio": "1:1",
+        "resolution": "2k",
+        "quality": "high",
+        "prompt": "Seamless tileable PBR base color texture ONLY, perfectly orthographic top-down, filling square edge to edge, a 3 by 3 meter patch of rain-softened brown walking-trail mud with embedded small weathered limestone gravel and partially buried flat stones. Muted dark neutral brown clay, saturated wet dirt base color, compressed grit, organic mottled wetness and shallow worn hollows. Stones cover about25percent of area, varying3 to20cm across, asymmetric placement. Flat diffuse even lighting, no bright reflections or puddle highlights baked in; those will be rendered in a shader. No whole path shape, no borders, no road markings, no plants, no perspective, no rectangular grid, no shadows, no text. Realistic detailed albedo, seamless four edges.",
+        "count": 1,
+        "use_unlim": false
+      }
+    },
+    {
+      "index": 3,
+      "params": {
+        "model": "gpt_image_2",
+        "aspect_ratio": "1:1",
+        "resolution": "2k",
+        "quality": "high",
+        "prompt": "Seamless tileable PBR base color texture ONLY, perfectly orthographic top-down, filling square edge to edge, a 3 by 3 meter patch of ancient irregular weathered limestone walking trail embedded into gray-brown compact earth. Stone coverage65percent, gray taupe varied worn chipped flat stones8 to30cm across; asymmetric irregular rounded-angular shapes of different sizes, broad dirt seams with smaller gravel and moss flecks. This is a naturally eroded centuries-old mountain footpath, never hexagonal pavers or Voronoi tessellation, never square tiled patio. Flat diffuse uniform lighting, no baked shadows or ambient occlusion, no highlights, no perspective, no dominant arrangement, no paving panels, no text, no border. Credible rich surface material detail, seamless allfour edges.",
+        "count": 1,
+        "use_unlim": false
+      }
+    },
+    {
+      "index": 4,
+      "params": {
+        "model": "gpt_image_2",
+        "aspect_ratio": "1:1",
+        "resolution": "2k",
+        "quality": "high",
+        "prompt": "Seamless tileable PBR base color texture ONLY, perfectly orthographic top-down, filling square edge to edge. A 3 by 3 meter patch of late-winter trampled mountain trail: gray-blue compacted granular snow interspersed with thawing gray-brown slushy grit and a few half-buried little limestone pieces. Dirty snow roughly60percent with irregular thin thaw patches and compressed grain, pale neutral blue-gray whites with subdued taupe dirt, material suitable for blending into both mud and clean snow. No large footprint motifs, no path boundary, no scene, no perspective, no baked shadows or glossy reflections, no text. Flat diffuse even light, tileable subtle variation without giant clumps or repeated shapes.",
+        "count": 1,
+        "use_unlim": false
+      }
+    }
+  ]
+}

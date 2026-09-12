@@ -1,0 +1,26 @@
+[
+  {
+    "file": "PackedAlpineSnow.png",
+    "destination": "C:\\Users\\brian\\Dev\\active\\Dream Loop Astra\\Unity\\Vesper\\Assets\\Vesper\\Expansion\\ContinuousWorld\\Art\\Textures\\MaterialTexturesV2\\PackedAlpineSnow.png",
+    "sha256": "768a031779aa07e30de209773668c4c04aafe6890f030eaa67b659acf7873e6c",
+    "stage_matches_art": true
+  },
+  {
+    "file": "WetAbbeyLimestone.png",
+    "destination": "C:\\Users\\brian\\Dev\\active\\Dream Loop Astra\\Unity\\Vesper\\Assets\\Vesper\\Expansion\\ContinuousWorld\\Art\\Textures\\MaterialTexturesV2\\WetAbbeyLimestone.png",
+    "sha256": "7f17ef2bd26d887d7dbe7aa1f3c708882e6013d07d3608a3757168dc9dfb0078",
+    "stage_matches_art": true
+  },
+  {
+    "file": "manifest.json",
+    "destination": "C:\\Users\\brian\\Dev\\active\\Dream Loop Astra\\Unity\\Vesper\\Assets\\Vesper\\Expansion\\ContinuousWorld\\Art\\Textures\\MaterialTexturesV2\\manifest.json",
+    "sha256": "c638ef9b7af25ff2a901b2ac4fdc93ff8eaf121e86d4fc9066d93fd0b49f4efe",
+    "stage_matches_art": true
+  },
+  {
+    "file": "provenance.json",
+    "destination": "C:\\Users\\brian\\Dev\\active\\Dream Loop Astra\\Unity\\Vesper\\Assets\\Vesper\\Expansion\\ContinuousWorld\\Art\\Textures\\MaterialTexturesV2\\provenance.json",
+    "sha256": "133342d7b2f82abf891a7626d93983973c67199f49fa1a64fb3143cb1efd3f80",
+    "stage_matches_art": true
+  }
+]

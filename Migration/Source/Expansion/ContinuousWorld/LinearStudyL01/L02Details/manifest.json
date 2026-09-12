@@ -1,0 +1,42 @@
+[
+  {
+    "name": "LinearPaving_1",
+    "triangles": 720,
+    "walkingCollider": "separate continuous ground"
+  },
+  {
+    "name": "LinearPaving_2",
+    "triangles": 720,
+    "walkingCollider": "separate continuous ground"
+  },
+  {
+    "name": "LinearPaving_3",
+    "triangles": 720,
+    "walkingCollider": "separate continuous ground"
+  },
+  {
+    "name": "LinearFieldstone_1",
+    "triangles": 818,
+    "walkingCollider": "separate continuous ground"
+  },
+  {
+    "name": "LinearFieldstone_2",
+    "triangles": 812,
+    "walkingCollider": "separate continuous ground"
+  },
+  {
+    "name": "LinearFieldstone_3",
+    "triangles": 818,
+    "walkingCollider": "separate continuous ground"
+  },
+  {
+    "name": "LinearGrass_1",
+    "triangles": 828,
+    "walkingCollider": "separate continuous ground"
+  },
+  {
+    "name": "LinearGrass_2",
+    "triangles": 828,
+    "walkingCollider": "separate continuous ground"
+  }
+]

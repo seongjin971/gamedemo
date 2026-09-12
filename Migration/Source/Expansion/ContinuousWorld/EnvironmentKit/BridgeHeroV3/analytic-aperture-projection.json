@@ -1,0 +1,38 @@
+[
+  {
+    "deck": 2.8,
+    "angle": 0.46,
+    "elevation": 0.72,
+    "above_water_arch_area_m2": 24.78590253941808,
+    "projected_area_m2": 8.272610503463204,
+    "projected_frame_fraction": 0.02050518169607179,
+    "pixel_area_1536x1024": 32251.86210321026
+  },
+  {
+    "deck": 2.8,
+    "angle": 0.6,
+    "elevation": 0.62,
+    "above_water_arch_area_m2": 24.78590253941808,
+    "projected_area_m2": 11.390370058487699,
+    "projected_frame_fraction": 0.028233120311540003,
+    "pixel_area_1536x1024": 44406.858545690055
+  },
+  {
+    "deck": 0.8,
+    "angle": 0.46,
+    "elevation": 0.72,
+    "above_water_arch_area_m2": 7.25239129750508,
+    "projected_area_m2": 2.4205779203541664,
+    "projected_frame_fraction": 0.005999846124217148,
+    "pixel_area_1536x1024": 9436.941974320682
+  },
+  {
+    "deck": 0.8,
+    "angle": 0.6,
+    "elevation": 0.62,
+    "above_water_arch_area_m2": 7.25239129750508,
+    "projected_area_m2": 3.3328389214862977,
+    "projected_frame_fraction": 0.00826105225432852,
+    "pixel_area_1536x1024": 12993.511692952172
+  }
+]

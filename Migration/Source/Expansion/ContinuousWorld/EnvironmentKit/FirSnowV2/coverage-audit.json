@@ -1,0 +1,63 @@
+{
+  "coverage": {
+    "fir-v2-actual-angle-coverage-mask.png": {
+      "visible_snow_pixels": 34948,
+      "visible_tree_pixels": 77679,
+      "projected_snow_fraction": 0.31029859625134293,
+      "image_size": [
+        760,
+        920
+      ],
+      "camera": "Unity default angle .46 radians / elevation .72 radians, root yaw 0",
+      "method": "Opaque-enough foreground pixels (alpha>=128), white emission snow vs green emission tree. Antialiased boundary pixels use a 127 channel threshold. Controlled single view; no claim of all-angle coverage."
+    },
+    "fir-v2-coverage-mask.png": {
+      "visible_snow_pixels": 56502,
+      "visible_tree_pixels": 123035,
+      "projected_snow_fraction": 0.31470950277658644,
+      "image_size": [
+        950,
+        1150
+      ],
+      "camera": "Inspection camera source (12,-16,17.6) looking at (0,0,4.3)",
+      "method": "Opaque-enough foreground pixels (alpha>=128), white emission snow vs green emission tree. Antialiased boundary pixels use a 127 channel threshold. Controlled single view; no claim of all-angle coverage."
+    },
+    "fir-v2-lod1-actual-angle-coverage-mask.png": {
+      "visible_snow_pixels": 33135,
+      "visible_tree_pixels": 77012,
+      "projected_snow_fraction": 0.3008252607878562,
+      "image_size": [
+        760,
+        920
+      ],
+      "camera": "Unity default angle .46 radians / elevation .72 radians, root yaw 0",
+      "method": "Opaque-enough foreground pixels (alpha>=128), white emission snow vs green emission tree. Antialiased boundary pixels use a 127 channel threshold. Controlled single view; no claim of all-angle coverage."
+    },
+    "fir-v2-lod1-coverage-mask.png": {
+      "visible_snow_pixels": 53043,
+      "visible_tree_pixels": 119491,
+      "projected_snow_fraction": 0.30743505627876244,
+      "image_size": [
+        950,
+        1150
+      ],
+      "camera": "Inspection camera source (12,-16,17.6) looking at (0,0,4.3)",
+      "method": "Opaque-enough foreground pixels (alpha>=128), white emission snow vs green emission tree. Antialiased boundary pixels use a 127 channel threshold. Controlled single view; no claim of all-angle coverage."
+    }
+  },
+  "paired_original_fbx_hashes_unchanged": true,
+  "camera": {
+    "position_source_xyz": [
+      12,
+      -16,
+      17.6
+    ],
+    "look_at_source_xyz": [
+      0,
+      0,
+      4.3
+    ],
+    "orthographic_scale": 11
+  },
+  "original_v1_coverage": "Not measured by this script; V1 geometric selection was 33 sprays."
+}

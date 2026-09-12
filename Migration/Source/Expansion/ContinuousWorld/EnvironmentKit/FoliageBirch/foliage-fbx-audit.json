@@ -1,0 +1,153 @@
+{
+  "passed": true,
+  "models": {
+    "CW_CardedAlpineFir": {
+      "passed": true,
+      "triangles": 8732,
+      "zero_area_triangles": 0,
+      "finite": true,
+      "all_triangular": true,
+      "uvs": true,
+      "uv_bounds_per_material_umin_umax_vmin_vmax": {
+        "CW_FirNeedles": [
+          0.004000000189989805,
+          0.9959999918937683,
+          0.004000000189989805,
+          0.9959999918937683
+        ],
+        "CW_FirBark": [
+          0.02500000037252903,
+          0.4749999940395355,
+          0.02500000037252903,
+          0.4749999940395355
+        ]
+      },
+      "blender_world_bounds": [
+        [
+          -2.5,
+          -2.3791472911834717,
+          -0.007079609669744968
+        ],
+        [
+          2.365339756011963,
+          2.383756160736084,
+          9.0
+        ]
+      ]
+    },
+    "CW_CardedAlpineFir_LOD1": {
+      "passed": true,
+      "triangles": 6276,
+      "zero_area_triangles": 0,
+      "finite": true,
+      "all_triangular": true,
+      "uvs": true,
+      "uv_bounds_per_material_umin_umax_vmin_vmax": {
+        "CW_FirNeedles.001": [
+          0.004000000189989805,
+          0.9959999918937683,
+          0.004000000189989805,
+          0.9959999918937683
+        ],
+        "CW_FirBark.001": [
+          0.02500000037252903,
+          0.4749999940395355,
+          0.02500000037252903,
+          0.4749999940395355
+        ]
+      },
+      "blender_world_bounds": [
+        [
+          -2.5,
+          -2.3791472911834717,
+          -0.006808980833739042
+        ],
+        [
+          2.365339756011963,
+          2.383756160736084,
+          9.0
+        ]
+      ]
+    },
+    "CW_CardedRiverBirch": {
+      "passed": true,
+      "triangles": 9724,
+      "zero_area_triangles": 0,
+      "finite": true,
+      "all_triangular": true,
+      "uvs": true,
+      "uv_bounds_per_material_umin_umax_vmin_vmax": {
+        "CW_BirchTwigs": [
+          0.0,
+          1.0,
+          0.0,
+          1.0
+        ],
+        "CW_BirchLeaves": [
+          0.004000000189989805,
+          0.9959999918937683,
+          0.004000000189989805,
+          0.9959999918937683
+        ],
+        "CW_WhiteBirchBark": [
+          0.0,
+          1.0,
+          0.0,
+          1.0
+        ]
+      },
+      "blender_world_bounds": [
+        [
+          -2.131491184234619,
+          -2.0684211254119873,
+          -0.009607069194316864
+        ],
+        [
+          2.4000000953674316,
+          2.2655715942382812,
+          7.199999809265137
+        ]
+      ]
+    },
+    "CW_CardedRiverBirch_LOD1": {
+      "passed": true,
+      "triangles": 6668,
+      "zero_area_triangles": 0,
+      "finite": true,
+      "all_triangular": true,
+      "uvs": true,
+      "uv_bounds_per_material_umin_umax_vmin_vmax": {
+        "CW_BirchTwigs.001": [
+          0.0,
+          1.0,
+          0.0,
+          1.0
+        ],
+        "CW_BirchLeaves.001": [
+          0.004000000189989805,
+          0.9959999918937683,
+          0.004000000189989805,
+          0.9959999918937683
+        ],
+        "CW_WhiteBirchBark.001": [
+          0.0,
+          1.0,
+          0.0,
+          1.0
+        ]
+      },
+      "blender_world_bounds": [
+        [
+          -2.131491184234619,
+          -2.0684211254119873,
+          -0.009116473607718945
+        ],
+        [
+          2.4000000953674316,
+          2.2655715942382812,
+          7.199999809265137
+        ]
+      ]
+    }
+  }
+}

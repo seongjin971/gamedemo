@@ -1,0 +1,123 @@
+{
+  "results": {
+    "PackedAlpineSnow": {
+      "size": [
+        2048,
+        2048
+      ],
+      "mean_rgba": [
+        219.63770246505737,
+        220.87782049179077,
+        221.36331748962402,
+        255.0
+      ],
+      "stdev_rgba": [
+        13.09230393810208,
+        12.365239177346345,
+        11.612070107658536,
+        0.0
+      ],
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "one_pixel_luminance_difference_rms": 8.152482619864891,
+      "horizontal_opposing_edge_rgb_mae": 8.38736979166667,
+      "vertical_opposing_edge_rgb_mae": 8.163248697916655,
+      "horizontal_half_frame_rgb_mae": 13.145670572916675,
+      "sha256": "768a031779aa07e30de209773668c4c04aafe6890f030eaa67b659acf7873e6c",
+      "file_unchanged": true
+    },
+    "WetAbbeyLimestone": {
+      "size": [
+        2048,
+        2048
+      ],
+      "mean_rgba": [
+        143.3316457271576,
+        154.62208104133606,
+        167.59471559524536,
+        255.0
+      ],
+      "stdev_rgba": [
+        12.448878964789893,
+        12.483999263501225,
+        12.452387336453544,
+        0.0
+      ],
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "one_pixel_luminance_difference_rms": 13.064970170372842,
+      "horizontal_opposing_edge_rgb_mae": 12.272786458333359,
+      "vertical_opposing_edge_rgb_mae": 9.32486979166666,
+      "horizontal_half_frame_rgb_mae": 4.455179850260421,
+      "sha256": "7f17ef2bd26d887d7dbe7aa1f3c708882e6013d07d3608a3757168dc9dfb0078",
+      "file_unchanged": true
+    },
+    "OriginalSnowSurface": {
+      "size": [
+        2048,
+        2048
+      ],
+      "mean_rgba": [
+        224.80681228637695,
+        225.5216782093048,
+        230.37637996673584,
+        255.0
+      ],
+      "stdev_rgba": [
+        2.628671000817939,
+        2.575708026617559,
+        2.5203562256889134,
+        0.0
+      ],
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "one_pixel_luminance_difference_rms": 1.552062878870258,
+      "horizontal_opposing_edge_rgb_mae": 1.9243164062500042,
+      "vertical_opposing_edge_rgb_mae": 3.88037109375002,
+      "horizontal_half_frame_rgb_mae": 2.7534484863281428,
+      "sha256": "c415f3996d61fd6490f7c312935ba3ab140472e14087467b9bb67b5d2e884eaa",
+      "file_unchanged": true
+    },
+    "OriginalLimestoneSurface": {
+      "size": [
+        2048,
+        2048
+      ],
+      "mean_rgba": [
+        196.53631496429443,
+        191.99804091453552,
+        184.8857123851776,
+        255.0
+      ],
+      "stdev_rgba": [
+        12.177863048860795,
+        12.043930811157663,
+        11.803104563949379,
+        0.0
+      ],
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "one_pixel_luminance_difference_rms": 13.228349784814206,
+      "horizontal_opposing_edge_rgb_mae": 12.309733072916664,
+      "vertical_opposing_edge_rgb_mae": 10.050130208333353,
+      "horizontal_half_frame_rgb_mae": 13.129496256510405,
+      "sha256": "4bfbc532cd5a3c8e396d7eb253f2ab8c04b4d5e8775a45812cabc9f42633f371",
+      "file_unchanged": true
+    }
+  },
+  "snow_microcontrast_rms_ratio_new_over_old": 5.252675475235294,
+  "scope": "Pixel statistics on original downloaded PNGs and read-only old references; no filtering, recoloring, resampling, normal-map generation or image edits. Metrics do not guarantee seamless visual tiling.",
+  "inspection": {
+    "PackedAlpineSnow": "Clearly coarser crushed granular snow with pale blue-gray compacted patches; no recognizable footprints, track paths, grid, rocks or perspective. Some larger angular snow clods are present; visible fine self-contrast is inherent in this generated albedo.",
+    "WetAbbeyLimestone": "Cool blue-gray fine limestone with tiny pits and short fractures; no tile borders, puddles, gloss reflections or directional cast shadow. A repeated half-frame motif is perceptible in the generated original; use per-slab rotation/UV offsets already available if repetition becomes visible.",
+    "tiling": "Requested seamless repeat in both prompts. Edge statistics are evidence, not a claim of mathematically identical edge pixels or Unity repeat-mode visual acceptance."
+  }
+}

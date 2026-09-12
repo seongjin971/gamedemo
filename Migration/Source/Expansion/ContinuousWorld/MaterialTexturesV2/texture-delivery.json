@@ -1,0 +1,37 @@
+{
+  "textures": [
+    {
+      "name": "PackedAlpineSnow",
+      "job_id": "d687ef50-6053-491e-aa08-b1f3311bbbb0",
+      "status": "completed",
+      "charge_credits": 2,
+      "path": "staged\\PackedAlpineSnow.png",
+      "width": 2048,
+      "height": 2048,
+      "mode": "RGBA",
+      "file_bytes": 7221529,
+      "sha256": "768a031779aa07e30de209773668c4c04aafe6890f030eaa67b659acf7873e6c",
+      "original_bytes_preserved": true,
+      "procedural_edits": false
+    },
+    {
+      "name": "WetAbbeyLimestone",
+      "job_id": "7919d6e6-4163-4598-af27-7622d9839b90",
+      "status": "completed",
+      "charge_credits": 2,
+      "path": "staged\\WetAbbeyLimestone.png",
+      "width": 2048,
+      "height": 2048,
+      "mode": "RGBA",
+      "file_bytes": 8025019,
+      "sha256": "7f17ef2bd26d887d7dbe7aa1f3c708882e6013d07d3608a3757168dc9dfb0078",
+      "original_bytes_preserved": true,
+      "procedural_edits": false
+    }
+  ],
+  "all_complete": true,
+  "new_texture_charge_total": 4,
+  "balance_after_submission": 2436,
+  "active_run_total_credits": 90,
+  "source_only": true
+}

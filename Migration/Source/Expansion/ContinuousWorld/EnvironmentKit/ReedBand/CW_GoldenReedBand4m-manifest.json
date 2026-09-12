@@ -1,0 +1,52 @@
+{
+  "name": "CW_GoldenReedBand4m",
+  "stem_count": 480,
+  "triangles": 9846,
+  "bounds_source_xyz": [
+    [
+      -2.0,
+      -0.75,
+      0.0
+    ],
+    [
+      2.0,
+      0.75,
+      1.2000000476837158
+    ]
+  ],
+  "full_band_size": [
+    4,
+    1.5,
+    1.2
+  ],
+  "pivot": "ground center",
+  "axes": "source X=4m band length, Y=1.5m depth, Z=1.2m up; preserve imported -90X root",
+  "materials": {
+    "CW_GoldenReedStem": [
+      0.5400000214576721,
+      0.4099999964237213,
+      0.18000000715255737,
+      1.0
+    ],
+    "CW_GoldenReedLight": [
+      0.7200000286102295,
+      0.5699999928474426,
+      0.28999999165534973,
+      1.0
+    ],
+    "CW_DryReedLeaf": [
+      0.4300000071525574,
+      0.3700000047683716,
+      0.1899999976158142,
+      1.0
+    ],
+    "CW_ReedSeed": [
+      0.3700000047683716,
+      0.25999999046325684,
+      0.11500000208616257,
+      1.0
+    ]
+  },
+  "material_contract": "solid authored gold/brown colors, no texture required; leaves double-sided/cull off; stems are real tubes, no alpha cards",
+  "lod": 0
+}

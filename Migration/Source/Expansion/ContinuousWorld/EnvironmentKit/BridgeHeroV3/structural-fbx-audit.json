@@ -1,0 +1,113 @@
+{
+  "original_v2_above_deck": {
+    "triangle_count": 7488,
+    "sha256": "e04ebbe8b558dfe0ecca76c1767892de2efe8f655f7474e551331344023a8fc2"
+  },
+  "new_v3_above_deck": {
+    "triangle_count": 7488,
+    "sha256": "e04ebbe8b558dfe0ecca76c1767892de2efe8f655f7474e551331344023a8fc2"
+  },
+  "above_deck_source_triangles_bit_exact": true,
+  "triangles": 15985,
+  "zero_area_triangles": 0,
+  "all_explicit_triangles": true,
+  "uv_bounds": {
+    "CW_BridgeStone.002": [
+      0.001631448627449572,
+      0.9976584315299988,
+      0.001884160446934402,
+      0.9977153539657593
+    ],
+    "CW_BridgeStoneLight.002": [
+      0.0016649470198899508,
+      0.986551821231842,
+      0.0020835716277360916,
+      0.9978773593902588
+    ],
+    "CW_BridgeMortar.002": [
+      0.0011462975526228547,
+      0.9966210722923279,
+      0.0011463008122518659,
+      0.9988536834716797
+    ]
+  },
+  "root_rotations": [
+    [
+      -90.00000933466734,
+      0.0,
+      0.0
+    ]
+  ],
+  "bounds_source_xyz": [
+    [
+      -3.25,
+      -7.000000476837158,
+      -3.020001173019409
+    ],
+    [
+      3.25,
+      7.0,
+      1.3399989604949951
+    ]
+  ],
+  "reimport_bounds_error": 1.1920928955078125e-06,
+  "dense_intrados_slices": [
+    {
+      "source_height": -0.35,
+      "analytic_clear_span": 4.377024577001904,
+      "inside_clear": 101,
+      "inside_test_count": 101,
+      "outside_opaque": 8,
+      "outside_test_count": 8,
+      "passed": true
+    },
+    {
+      "source_height": -0.6,
+      "analytic_clear_span": 6.720796693380395,
+      "inside_clear": 101,
+      "inside_test_count": 101,
+      "outside_opaque": 8,
+      "outside_test_count": 8,
+      "passed": true
+    },
+    {
+      "source_height": -1,
+      "analytic_clear_span": 9.023838344511935,
+      "inside_clear": 101,
+      "inside_test_count": 101,
+      "outside_opaque": 8,
+      "outside_test_count": 8,
+      "passed": true
+    },
+    {
+      "source_height": -1.5,
+      "analytic_clear_span": 10.839012080821051,
+      "inside_clear": 101,
+      "inside_test_count": 101,
+      "outside_opaque": 8,
+      "outside_test_count": 8,
+      "passed": true
+    },
+    {
+      "source_height": -2,
+      "analytic_clear_span": 11.968183430118835,
+      "inside_clear": 101,
+      "inside_test_count": 101,
+      "outside_opaque": 8,
+      "outside_test_count": 8,
+      "passed": true
+    },
+    {
+      "source_height": -2.6,
+      "analytic_clear_span": 12.670579558122641,
+      "inside_clear": 101,
+      "inside_test_count": 101,
+      "outside_opaque": 8,
+      "outside_test_count": 8,
+      "passed": true
+    }
+  ],
+  "walking_ray_count": 40,
+  "walking_all_safe": true,
+  "passed": true
+}

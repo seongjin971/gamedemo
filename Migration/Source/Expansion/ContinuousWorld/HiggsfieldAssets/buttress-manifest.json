@@ -1,0 +1,121 @@
+{
+  "name": "CW_HF_GothicButtress",
+  "source_glb": "buttress.glb",
+  "source_job": {
+    "created_at": "2026-09-09T16:40:56.719198Z",
+    "display_name": "Text to 3D",
+    "id": "c4658017-eef3-4be9-b602-a6c79a79738c",
+    "job_type": "tripo_3d",
+    "min_result_url": null,
+    "params": {
+      "auto_size": true,
+      "face_limit": 50000,
+      "folder_id": null,
+      "geometry_quality": "detailed",
+      "negative_prompt": "cartoon, toy, plastic, lowpoly, pristine new stone, smooth untextured blocks, symmetrical complete building, glass, door, ground disk, cutaway diorama, excessive vines",
+      "pbr": true,
+      "prompt": "Single photorealistic dark fantasy game environment asset: a ruined medieval Gothic chapel buttress and fragment of adjoining window wall, approximately 5 meters tall, 3 meters wide and 1.6 meters deep. Heavy weathered grey limestone masonry with a stepped projecting buttress, delicately carved stone moldings, a tall narrow pointed lancet opening with a genuinely open empty center, broken irregular top with missing blocks and fractured edges. Fallen small stone rubble nestled at the foot, damp dark joints, subtle green moss on lower shaded stones, chips and rich rough mineral texture. Historically plausible European Gothic stone construction, realistic photogrammetry PBR quality. Standalone isolated architectural fragment with complete sides and back, no complete building, no terrain platform, no environment, no people, no text.",
+      "seed": null,
+      "texture": true,
+      "texture_quality": "detailed"
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3HqrOQdfhs3psNu8LvY0hv7gvNL/hf_20260909_164056_c4658017-eef3-4be9-b602-a6c79a79738c.glb",
+    "status": "completed"
+  },
+  "normalization": {
+    "uniform_scale": 2.0,
+    "source_min": [
+      -0.8834733366966248,
+      -0.6614881157875061,
+      -1.2486919164657593
+    ],
+    "source_max": [
+      0.7403571009635925,
+      0.977013349533081,
+      1.2513080835342407
+    ],
+    "source_ground_pivot": [
+      -0.07155811786651611,
+      0.15776261687278748,
+      -1.2486919164657593
+    ]
+  },
+  "source_axes": "+Z up",
+  "fbx_axes": "+Y up, -Z forward",
+  "materials": [
+    {
+      "name": "CW_HF_GothicButtress_Material0",
+      "source_name": "tripo_material_fefffd4f-81f6-4897-af1f-bd9104d7a6d0",
+      "texture_inputs": {
+        "Base Color": [
+          "CW_HF_GothicButtress_Texture0.png"
+        ],
+        "Metallic": [
+          "CW_HF_GothicButtress_Texture2.png"
+        ],
+        "Roughness": [
+          "CW_HF_GothicButtress_Texture2.png"
+        ],
+        "Normal": [
+          "CW_HF_GothicButtress_Texture1.png"
+        ],
+        "Alpha": [],
+        "UnityMetallicSmoothness": [
+          "CW_HF_GothicButtress_MetallicSmoothness0.png"
+        ]
+      },
+      "double_sided_recommended": true
+    }
+  ],
+  "textures": [
+    {
+      "source_image": "Color_fefffd4f-81f6-4897-af1f-bd9104d7a6d0",
+      "file": "CW_HF_GothicButtress_Texture0.png",
+      "size": [
+        4096,
+        4096
+      ],
+      "colorspace": "sRGB"
+    },
+    {
+      "source_image": "NormalGL_fefffd4f-81f6-4897-af1f-bd9104d7a6d0",
+      "file": "CW_HF_GothicButtress_Texture1.png",
+      "size": [
+        4096,
+        4096
+      ],
+      "colorspace": "Non-Color"
+    },
+    {
+      "source_image": "ORM_fefffd4f-81f6-4897-af1f-bd9104d7a6d0",
+      "file": "CW_HF_GothicButtress_Texture2.png",
+      "size": [
+        4096,
+        4096
+      ],
+      "colorspace": "Non-Color"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "CW_HF_GothicButtress",
+      "triangles": 44516,
+      "zero_area_triangles": 0,
+      "uv_layers": 1,
+      "all_triangular": true
+    }
+  ],
+  "bounds_source_xyz": [
+    [
+      -1.6238304376602173,
+      -1.6385014057159424,
+      0.0
+    ],
+    [
+      1.6238304376602173,
+      1.6385014057159424,
+      5.0
+    ]
+  ],
+  "lod1_triangles": 17806
+}

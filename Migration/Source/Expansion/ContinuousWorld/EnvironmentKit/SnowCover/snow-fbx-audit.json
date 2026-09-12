@@ -1,0 +1,197 @@
+{
+  "passed": true,
+  "models": {
+    "CW_CardedAlpineFir_SnowCover": {
+      "passed": true,
+      "triangles": 10134,
+      "zero_area_triangles": 0,
+      "finite": true,
+      "all_triangular": true,
+      "uv_bounds": [
+        [
+          0.007323338650166988,
+          0.007323308382183313
+        ],
+        [
+          0.9926766157150269,
+          0.9854663014411926
+        ]
+      ],
+      "blender_world_bounds": [
+        [
+          -1.8282617330551147,
+          -1.7122970819473267,
+          0.8710518479347229
+        ],
+        [
+          1.9759639501571655,
+          2.013533353805542,
+          7.79323148727417
+        ]
+      ],
+      "reimport_bounds_error": 2.384185791015625e-07,
+      "maximum_bounds_overhang": -0.3702225685119629,
+      "paired_fbx_sha256_unchanged": true
+    },
+    "CW_CardedAlpineFir_SnowCover_LOD1": {
+      "passed": true,
+      "triangles": 4991,
+      "zero_area_triangles": 0,
+      "finite": true,
+      "all_triangular": true,
+      "uv_bounds": [
+        [
+          0.007323338650166988,
+          0.007323339581489563
+        ],
+        [
+          0.9924866557121277,
+          0.9853379130363464
+        ]
+      ],
+      "blender_world_bounds": [
+        [
+          -1.8235154151916504,
+          -1.6961476802825928,
+          0.900154173374176
+        ],
+        [
+          1.9796335697174072,
+          2.0028326511383057,
+          7.798609256744385
+        ]
+      ],
+      "reimport_bounds_error": 0.029102206230163574,
+      "maximum_bounds_overhang": -0.3809232711791992,
+      "paired_fbx_sha256_unchanged": true
+    },
+    "CW_HF_Limestone_SnowCover": {
+      "passed": true,
+      "triangles": 17334,
+      "zero_area_triangles": 0,
+      "finite": true,
+      "all_triangular": true,
+      "uv_bounds": [
+        [
+          0.008532698266208172,
+          0.008532715030014515
+        ],
+        [
+          0.9876046180725098,
+          0.9914673566818237
+        ]
+      ],
+      "blender_world_bounds": [
+        [
+          -2.528355360031128,
+          -3.4154088497161865,
+          1.620789647102356
+        ],
+        [
+          2.571601629257202,
+          3.4493844509124756,
+          6.190970420837402
+        ]
+      ],
+      "reimport_bounds_error": 4.76837158203125e-07,
+      "maximum_bounds_overhang": 0.1492910385131836,
+      "paired_fbx_sha256_unchanged": true
+    },
+    "CW_HF_Limestone_SnowCover_LOD1": {
+      "passed": true,
+      "triangles": 8666,
+      "zero_area_triangles": 0,
+      "finite": true,
+      "all_triangular": true,
+      "uv_bounds": [
+        [
+          0.008532710373401642,
+          0.008532715030014515
+        ],
+        [
+          0.9696811437606812,
+          0.9731112718582153
+        ]
+      ],
+      "blender_world_bounds": [
+        [
+          -2.5308492183685303,
+          -3.415623664855957,
+          1.6193201541900635
+        ],
+        [
+          2.571601629257202,
+          3.4476730823516846,
+          6.195529937744141
+        ]
+      ],
+      "reimport_bounds_error": 0.004559040069580078,
+      "maximum_bounds_overhang": 0.15385055541992188,
+      "paired_fbx_sha256_unchanged": true
+    },
+    "CW_LayeredRock_A_SnowCover": {
+      "passed": true,
+      "triangles": 12530,
+      "zero_area_triangles": 0,
+      "finite": true,
+      "all_triangular": true,
+      "uv_bounds": [
+        [
+          0.0038803904317319393,
+          0.003880447009578347
+        ],
+        [
+          0.9961196184158325,
+          0.936889111995697
+        ]
+      ],
+      "blender_world_bounds": [
+        [
+          -2.0261852741241455,
+          -1.7911462783813477,
+          1.4184393882751465
+        ],
+        [
+          2.0778861045837402,
+          1.472532868385315,
+          2.724468946456909
+        ]
+      ],
+      "reimport_bounds_error": 3.5762786865234375e-07,
+      "maximum_bounds_overhang": 0.11562967300415039,
+      "paired_fbx_sha256_unchanged": true
+    },
+    "CW_LayeredRock_A_SnowCover_LOD1": {
+      "passed": true,
+      "triangles": 6264,
+      "zero_area_triangles": 0,
+      "finite": true,
+      "all_triangular": true,
+      "uv_bounds": [
+        [
+          0.0038804742507636547,
+          0.003880447009578347
+        ],
+        [
+          0.9961196184158325,
+          0.936889111995697
+        ]
+      ],
+      "blender_world_bounds": [
+        [
+          -2.0259289741516113,
+          -1.7910985946655273,
+          1.4180352687835693
+        ],
+        [
+          2.0789425373077393,
+          1.4729958772659302,
+          2.724440336227417
+        ]
+      ],
+      "reimport_bounds_error": 0.0010564327239990234,
+      "maximum_bounds_overhang": 0.1156010627746582,
+      "paired_fbx_sha256_unchanged": true
+    }
+  }
+}

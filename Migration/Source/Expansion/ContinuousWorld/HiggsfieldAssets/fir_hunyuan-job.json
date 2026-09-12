@@ -1,0 +1,17 @@
+{
+  "created_at": "2026-09-09T16:40:16.35273Z",
+  "display_name": "Hunyuan 3D v3.1 Text to 3D",
+  "id": "d8c1cc6c-26f3-4bcc-a0ce-2ee7b7793abe",
+  "job_type": "hunyuan3d_v3_1_text_to_3d",
+  "min_result_url": null,
+  "params": {
+    "enable_pbr": true,
+    "face_count": 100000,
+    "folder_id": null,
+    "generate_type": "Normal",
+    "mode": "pro",
+    "prompt": "Photorealistic PBR game environment prop, one natural mature alpine silver fir tree with densely feathered dark green needle boughs, irregular full conical canopy, fine serrated branchlet silhouettes, small gaps between overlapping sprays, visible scaly reddish brown bark trunk and tapering branch hierarchy. Delicate many-needle texture and rough matte foliage. 9m tall, realistic proportions, asymmetrical wild mountain tree. No snow, no decorations, no pot, no terrain base. Avoid thick fused foliage lumps and plastic smooth surfaces."
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3HqrOQdfhs3psNu8LvY0hv7gvNL/hf_20260909_164016_d8c1cc6c-26f3-4bcc-a0ce-2ee7b7793abe.glb",
+  "status": "completed"
+}

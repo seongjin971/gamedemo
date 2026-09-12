@@ -1,0 +1,21 @@
+﻿{
+  "created_at": "2026-09-09T17:07:40.449022Z",
+  "display_name": "Nano Banana Pro",
+  "id": "f37da558-07d4-4b9d-832c-94ab5c605428",
+  "job_type": "nano_banana_pro",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3HqrOQdfhs3psNu8LvY0hv7gvNL/hf_20260909_170740_f37da558-07d4-4b9d-832c-94ab5c605428_min.webp",
+  "params": {
+    "application": null,
+    "aspect_ratio": "1:1",
+    "batch_size": 1,
+    "height": 1024,
+    "input_image": null,
+    "input_images": [],
+    "prompt": "Seamless tileable photorealistic PBR base color texture of mature silver birch bark, flattened bark surface filling the entire square. Predominantly warm ivory white and very pale grey papery bark, fine thin horizontal charcoal black lenticels and small irregular dark fissures, subtle cream peeling flakes and natural fine rough surface detail. Realistic medium-scale tree bark, no large knots, no branches, no perspective, no cylindrical trunk silhouette, no background, no dramatic light, no cast shadows, no highlights. Neutral evenly illuminated diffuse albedo map only, vertically oriented trunk grain, seamless edge-to-edge tiling in both directions, crisp photographic texture, no text or labels.",
+    "resolution": "1k",
+    "surface": null,
+    "width": 1024
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3HqrOQdfhs3psNu8LvY0hv7gvNL/hf_20260909_170740_f37da558-07d4-4b9d-832c-94ab5c605428.png",
+  "status": "completed"
+}

@@ -1,0 +1,21 @@
+﻿{
+  "created_at": "2026-09-09T18:39:31.505383Z",
+  "display_name": "Nano Banana Pro",
+  "id": "8183c615-0a89-4324-984b-00b3de6e3ae7",
+  "job_type": "nano_banana_pro",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3HqrOQdfhs3psNu8LvY0hv7gvNL/hf_20260909_183931_8183c615-0a89-4324-984b-00b3de6e3ae7_min.webp",
+  "params": {
+    "application": null,
+    "aspect_ratio": "1:1",
+    "batch_size": 1,
+    "height": 2048,
+    "input_image": null,
+    "input_images": [],
+    "prompt": "A single seamless tileable PBR base-color texture of aged fine-grained pale grey limestone, neutral diffuse top-down scan, one continuous stone surface filling entire square. Subtle cream and cool grey mineral variation, fine realistic pores, faint abrasion and weathering, tiny occasional dark pinholes, very restrained narrow hairline fractures only, no large cracks or black veins. Moderately worn Gothic abbey paving stone material without any slab borders or joints. No paving layout, no bricks, no tiles, no grid, no moss, no grass, no shadows, no lighting gradients, no specular highlights, no bevels, no vignette. Edge-to-edge consistent exposure and seamlessly matching edges. Approx1m square sampled surface, rich fine material detail without noisy grunge. Neutral middle-light grey albedo, not pure white, not blue. Production game diffuse texture.",
+    "resolution": "2k",
+    "surface": null,
+    "width": 2048
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3HqrOQdfhs3psNu8LvY0hv7gvNL/hf_20260909_183931_8183c615-0a89-4324-984b-00b3de6e3ae7.png",
+  "status": "completed"
+}

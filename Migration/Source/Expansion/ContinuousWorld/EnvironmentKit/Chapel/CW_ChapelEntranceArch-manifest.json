@@ -1,0 +1,410 @@
+{
+  "name": "CW_ChapelEntranceArch",
+  "width": 5,
+  "height": 6,
+  "max_depth": 0.6,
+  "origin": "ground center",
+  "source_axes": "XYZ width/depth/height; +Z up",
+  "fbx_axes": "+Y up/-Z forward",
+  "aperture": {
+    "base": 0,
+    "spring": 2.3,
+    "apex": 4,
+    "width_at_base_and_legs": 3,
+    "rise": 1.7,
+    "curve_radius": 1.7133333333333332,
+    "curve_center_offset": 0.21333333333333315,
+    "half_width_above_spring": "sqrt(radius^2-(height-spring)^2)-center_offset"
+  },
+  "bounds_source_xyz": [
+    [
+      -2.5,
+      -0.29600000381469727,
+      0.0
+    ],
+    [
+      2.5,
+      0.29600000381469727,
+      5.999953746795654
+    ]
+  ],
+  "triangles": 19240,
+  "zero_area_triangles": 0,
+  "all_triangular": true,
+  "material_slots": [
+    "CW_ChapelStone",
+    "CW_ChapelStoneLight",
+    "CW_ChapelMortar"
+  ],
+  "aperture_ray_checks": [
+    {
+      "x": -1.23,
+      "height": 0.26666666666666666,
+      "clear": true
+    },
+    {
+      "x": -0.675,
+      "height": 0.26666666666666666,
+      "clear": true
+    },
+    {
+      "x": 0.0,
+      "height": 0.26666666666666666,
+      "clear": true
+    },
+    {
+      "x": 0.675,
+      "height": 0.26666666666666666,
+      "clear": true
+    },
+    {
+      "x": 1.23,
+      "height": 0.26666666666666666,
+      "clear": true
+    },
+    {
+      "x": -1.23,
+      "height": 0.5333333333333333,
+      "clear": true
+    },
+    {
+      "x": -0.675,
+      "height": 0.5333333333333333,
+      "clear": true
+    },
+    {
+      "x": 0.0,
+      "height": 0.5333333333333333,
+      "clear": true
+    },
+    {
+      "x": 0.675,
+      "height": 0.5333333333333333,
+      "clear": true
+    },
+    {
+      "x": 1.23,
+      "height": 0.5333333333333333,
+      "clear": true
+    },
+    {
+      "x": -1.23,
+      "height": 0.8,
+      "clear": true
+    },
+    {
+      "x": -0.675,
+      "height": 0.8,
+      "clear": true
+    },
+    {
+      "x": 0.0,
+      "height": 0.8,
+      "clear": true
+    },
+    {
+      "x": 0.675,
+      "height": 0.8,
+      "clear": true
+    },
+    {
+      "x": 1.23,
+      "height": 0.8,
+      "clear": true
+    },
+    {
+      "x": -1.23,
+      "height": 1.0666666666666667,
+      "clear": true
+    },
+    {
+      "x": -0.675,
+      "height": 1.0666666666666667,
+      "clear": true
+    },
+    {
+      "x": 0.0,
+      "height": 1.0666666666666667,
+      "clear": true
+    },
+    {
+      "x": 0.675,
+      "height": 1.0666666666666667,
+      "clear": true
+    },
+    {
+      "x": 1.23,
+      "height": 1.0666666666666667,
+      "clear": true
+    },
+    {
+      "x": -1.23,
+      "height": 1.3333333333333333,
+      "clear": true
+    },
+    {
+      "x": -0.675,
+      "height": 1.3333333333333333,
+      "clear": true
+    },
+    {
+      "x": 0.0,
+      "height": 1.3333333333333333,
+      "clear": true
+    },
+    {
+      "x": 0.675,
+      "height": 1.3333333333333333,
+      "clear": true
+    },
+    {
+      "x": 1.23,
+      "height": 1.3333333333333333,
+      "clear": true
+    },
+    {
+      "x": -1.23,
+      "height": 1.6,
+      "clear": true
+    },
+    {
+      "x": -0.675,
+      "height": 1.6,
+      "clear": true
+    },
+    {
+      "x": 0.0,
+      "height": 1.6,
+      "clear": true
+    },
+    {
+      "x": 0.675,
+      "height": 1.6,
+      "clear": true
+    },
+    {
+      "x": 1.23,
+      "height": 1.6,
+      "clear": true
+    },
+    {
+      "x": -1.23,
+      "height": 1.8666666666666667,
+      "clear": true
+    },
+    {
+      "x": -0.675,
+      "height": 1.8666666666666667,
+      "clear": true
+    },
+    {
+      "x": 0.0,
+      "height": 1.8666666666666667,
+      "clear": true
+    },
+    {
+      "x": 0.675,
+      "height": 1.8666666666666667,
+      "clear": true
+    },
+    {
+      "x": 1.23,
+      "height": 1.8666666666666667,
+      "clear": true
+    },
+    {
+      "x": -1.23,
+      "height": 2.1333333333333333,
+      "clear": true
+    },
+    {
+      "x": -0.675,
+      "height": 2.1333333333333333,
+      "clear": true
+    },
+    {
+      "x": 0.0,
+      "height": 2.1333333333333333,
+      "clear": true
+    },
+    {
+      "x": 0.675,
+      "height": 2.1333333333333333,
+      "clear": true
+    },
+    {
+      "x": 1.23,
+      "height": 2.1333333333333333,
+      "clear": true
+    },
+    {
+      "x": -1.2276049624401228,
+      "height": 2.4,
+      "clear": true
+    },
+    {
+      "x": -0.6736856501195797,
+      "height": 2.4,
+      "clear": true
+    },
+    {
+      "x": 0.0,
+      "height": 2.4,
+      "clear": true
+    },
+    {
+      "x": 0.6736856501195797,
+      "height": 2.4,
+      "clear": true
+    },
+    {
+      "x": 1.2276049624401228,
+      "height": 2.4,
+      "clear": true
+    },
+    {
+      "x": -1.1974504419520882,
+      "height": 2.6666666666666665,
+      "clear": true
+    },
+    {
+      "x": -0.6571374376566338,
+      "height": 2.6666666666666665,
+      "clear": true
+    },
+    {
+      "x": 0.0,
+      "height": 2.6666666666666665,
+      "clear": true
+    },
+    {
+      "x": 0.6571374376566338,
+      "height": 2.6666666666666665,
+      "clear": true
+    },
+    {
+      "x": 1.1974504419520882,
+      "height": 2.6666666666666665,
+      "clear": true
+    },
+    {
+      "x": -1.1304901841505521,
+      "height": 2.933333333333333,
+      "clear": true
+    },
+    {
+      "x": -0.6203909547167664,
+      "height": 2.933333333333333,
+      "clear": true
+    },
+    {
+      "x": 0.0,
+      "height": 2.933333333333333,
+      "clear": true
+    },
+    {
+      "x": 0.6203909547167664,
+      "height": 2.933333333333333,
+      "clear": true
+    },
+    {
+      "x": 1.1304901841505521,
+      "height": 2.933333333333333,
+      "clear": true
+    },
+    {
+      "x": -1.0205555503921118,
+      "height": 3.2,
+      "clear": true
+    },
+    {
+      "x": -0.560060972776159,
+      "height": 3.2,
+      "clear": true
+    },
+    {
+      "x": 0.0,
+      "height": 3.2,
+      "clear": true
+    },
+    {
+      "x": 0.560060972776159,
+      "height": 3.2,
+      "clear": true
+    },
+    {
+      "x": 1.0205555503921118,
+      "height": 3.2,
+      "clear": true
+    },
+    {
+      "x": -0.8539624631397592,
+      "height": 3.466666666666667,
+      "clear": true
+    },
+    {
+      "x": -0.4686379370888923,
+      "height": 3.466666666666667,
+      "clear": true
+    },
+    {
+      "x": 0.0,
+      "height": 3.466666666666667,
+      "clear": true
+    },
+    {
+      "x": 0.4686379370888923,
+      "height": 3.466666666666667,
+      "clear": true
+    },
+    {
+      "x": 0.8539624631397592,
+      "height": 3.466666666666667,
+      "clear": true
+    },
+    {
+      "x": -0.5947609089906339,
+      "height": 3.7333333333333334,
+      "clear": true
+    },
+    {
+      "x": -0.3263931817631528,
+      "height": 3.7333333333333334,
+      "clear": true
+    },
+    {
+      "x": 0.0,
+      "height": 3.7333333333333334,
+      "clear": true
+    },
+    {
+      "x": 0.3263931817631528,
+      "height": 3.7333333333333334,
+      "clear": true
+    },
+    {
+      "x": 0.5947609089906339,
+      "height": 3.7333333333333334,
+      "clear": true
+    }
+  ],
+  "solid_wall_ray_checks": [
+    {
+      "x": -2.2,
+      "height": 1.7999999999999998,
+      "hit": true
+    },
+    {
+      "x": 2.2,
+      "height": 3.5999999999999996,
+      "hit": true
+    },
+    {
+      "x": 0,
+      "height": 5.7,
+      "hit": true
+    }
+  ],
+  "aperture_all_clear": true,
+  "solid_tests_hit": true
+}

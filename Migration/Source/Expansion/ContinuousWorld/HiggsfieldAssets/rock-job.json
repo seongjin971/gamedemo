@@ -1,0 +1,21 @@
+{
+  "created_at": "2026-09-09T16:33:54.740001Z",
+  "display_name": "Text to 3D",
+  "id": "dda3a429-d355-404d-81e1-39eba93618df",
+  "job_type": "tripo_3d",
+  "min_result_url": null,
+  "params": {
+    "auto_size": true,
+    "face_limit": 45000,
+    "folder_id": null,
+    "geometry_quality": "detailed",
+    "negative_prompt": "toy, low-poly, stylized, cartoon, smooth plastic, rounded stacked stones, identical layers, geometric cube, flat sliced planes, uniform green blanket, building, terrain base, trees",
+    "pbr": true,
+    "prompt": "Single photorealistic game environment asset: a massive irregular weathered limestone outcrop, approximately 5 meters wide and 3 meters tall, one cohesive naturally fractured rock formation with asymmetric stepped shelves, chipped jagged edges, layered sediment seams, deep narrow crevices and eroded crumbling corners. Muted grey beige limestone, dark mineral deposits and damp cracks, patchy natural olive moss concentrated in shaded crevices and horizontal ledges, tiny sparse grass tufts. Rich realistic fine PBR rock surface texture, albedo with natural color variation and physically plausible roughness. Geological realism, scanned AAA game environment quality. Freestanding isolated outcrop, complete underside, usable as a single 3D environment prop, no scenery, no pedestal, no people, no text.",
+    "seed": null,
+    "texture": true,
+    "texture_quality": "detailed"
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3HqrOQdfhs3psNu8LvY0hv7gvNL/hf_20260909_163354_dda3a429-d355-404d-81e1-39eba93618df.glb",
+  "status": "completed"
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "name": "CW_BroadPaving_1",
+    "slabs": 9,
+    "triangles": 476,
+    "walkingCollider": "separate existing continuous surface"
+  },
+  {
+    "name": "CW_BroadPaving_2",
+    "slabs": 9,
+    "triangles": 476,
+    "walkingCollider": "separate existing continuous surface"
+  },
+  {
+    "name": "CW_BroadPaving_3",
+    "slabs": 9,
+    "triangles": 476,
+    "walkingCollider": "separate existing continuous surface"
+  }
+]

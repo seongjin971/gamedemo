@@ -1,0 +1,48 @@
+{
+  "created_at_utc": "2026-09-09T20:02:24.184298Z",
+  "model": "nano_banana_pro",
+  "resolution": "2k",
+  "aspect_ratio": "1:1",
+  "balance_before": 2440,
+  "balance_before_basis": "Recovered current balance plus exactly matched first submission charge; prior audited balance was2440.",
+  "jobs": [
+    {
+      "name": "PackedAlpineSnow",
+      "id": "d687ef50-6053-491e-aa08-b1f3311bbbb0",
+      "created_at": "2026-09-09T20:02:24.184298Z",
+      "status": "completed",
+      "prompt_file": "PackedAlpineSnow-prompt.txt",
+      "job_file": "PackedAlpineSnow-job.json",
+      "matched_latest_transaction": [
+        {
+          "created_at": "2026-09-09T20:02:24.302826Z",
+          "display_name": "Nano Banana Pro",
+          "action": "spend",
+          "credits": -2
+        }
+      ],
+      "charge_credits": 2
+    },
+    {
+      "name": "WetAbbeyLimestone",
+      "id": "7919d6e6-4163-4598-af27-7622d9839b90",
+      "created_at": "2026-09-09T20:03:41.647224Z",
+      "status": "in_progress",
+      "prompt_file": "WetAbbeyLimestone-prompt.txt",
+      "job_file": "WetAbbeyLimestone-job.json",
+      "matched_latest_transaction": [
+        {
+          "created_at": "2026-09-09T20:03:41.749063Z",
+          "display_name": "Nano Banana Pro",
+          "action": "spend",
+          "credits": -2
+        }
+      ],
+      "charge_credits": 2
+    }
+  ],
+  "method": "Installed Higgsfield CLI. First create returned a one-element list; its existing job was recovered by exact full-prompt comparison against the latest image job, without resubmission.",
+  "balance_after_submission": 2436,
+  "known_charge_total": 4,
+  "attribution_limit": "Exact ledger charges; job linkage uses the latest transaction queried after each separate submission and before the next submission, plus matching timestamps. Ledger has no explicit job ID."
+}

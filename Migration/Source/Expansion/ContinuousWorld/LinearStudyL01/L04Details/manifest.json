@@ -1,0 +1,23 @@
+[
+  {
+    "name": "LinearIrregular_1",
+    "stones": 35,
+    "triangles": 940,
+    "width": 3.5,
+    "length": 4
+  },
+  {
+    "name": "LinearIrregular_2",
+    "stones": 35,
+    "triangles": 940,
+    "width": 3.5,
+    "length": 4
+  },
+  {
+    "name": "LinearIrregular_3",
+    "stones": 35,
+    "triangles": 940,
+    "width": 3.5,
+    "length": 4
+  }
+]

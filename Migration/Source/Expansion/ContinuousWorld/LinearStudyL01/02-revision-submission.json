@@ -1,0 +1,20 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Submitted 1/1 image generations.\n- index 2: 040a978a-8090-40d4-8c25-8568841916b1 (pending)"
+    }
+  ],
+  "structuredContent": {
+    "jobs": [
+      {
+        "index": 2,
+        "job_id": "040a978a-8090-40d4-8c25-8568841916b1",
+        "status": "pending"
+      }
+    ],
+    "submitted_count": 1,
+    "failed_count": 0
+  },
+  "isError": false
+}

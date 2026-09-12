@@ -1,0 +1,21 @@
+{
+  "created_at": "2026-09-09T16:34:09.801238Z",
+  "display_name": "Text to 3D",
+  "id": "d545ebc1-f197-47c4-abe8-d2f2f9f55295",
+  "job_type": "tripo_3d",
+  "min_result_url": null,
+  "params": {
+    "auto_size": true,
+    "face_limit": 70000,
+    "folder_id": null,
+    "geometry_quality": "detailed",
+    "negative_prompt": "cartoon, toy, lowpoly, plastic, stacked cones, solid triangular slabs, generic Christmas tree, oversimplified smooth canopy, oversized leaves, snow, pot, ground disk, multiple trees",
+    "pbr": true,
+    "prompt": "Single photorealistic botanical game environment asset: mature mountain silver fir evergreen tree, 9 meters tall, natural asymmetrical conical silhouette with dense delicate dark green needles organized into many fine feathered branching sprays. Visible realistically tapered reddish gray scaly bark trunk at base, irregular layered boughs drooping slightly under their own weight with upturned growing tips, open gaps between boughs, organic slight wind swept asymmetry, botanically correct alpine conifer, dense fine foliage with individual needle detail and rich variation of deep forest green, realistic PBR bark and foliage textures, photogrammetry AAA game environment quality. NO snow, no decorations. Freestanding tree with full trunk and small root flare, isolated single tree, no scenery or terrain base, no pot.",
+    "seed": null,
+    "texture": true,
+    "texture_quality": "detailed"
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3HqrOQdfhs3psNu8LvY0hv7gvNL/hf_20260909_163409_d545ebc1-f197-47c4-abe8-d2f2f9f55295.glb",
+  "status": "completed"
+}

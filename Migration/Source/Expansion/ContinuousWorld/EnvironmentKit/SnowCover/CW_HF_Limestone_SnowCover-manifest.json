@@ -1,0 +1,40 @@
+{
+  "name": "CW_HF_Limestone_SnowCover",
+  "paired_model": "CW_HF_Limestone",
+  "paired_fbx": "Unity\\Vesper\\Assets\\Vesper\\Expansion\\ContinuousWorld\\Art\\HiggsfieldAssets\\CW_HF_Limestone\\CW_HF_Limestone.fbx",
+  "paired_fbx_sha256": "0c9ee036a7b7a2a0f0e6ab7c9c4aabb76c3d684a68dec37cf7af0cf463f3db9e",
+  "source_axes": "Z-up; same normalized source coordinates and pivot as paired model",
+  "fbx_axes": "Y-up/-Z-forward; root X=-90 degrees",
+  "placement": "Instantiate rock and cap under identical world wrapper transforms; preserve each imported FBX root conversion. Do not rotate twice by parenting cap beneath an already converted mesh node.",
+  "source_rock_bounds": [
+    [
+      -2.5,
+      -3.4230191707611084,
+      0.0
+    ],
+    [
+      2.5,
+      3.4230191707611084,
+      6.041679382324219
+    ]
+  ],
+  "cap_bounds": [
+    [
+      -2.528355360031128,
+      -3.4154090881347656,
+      1.6207892894744873
+    ],
+    [
+      2.571601629257202,
+      3.4493839740753174,
+      6.1909708976745605
+    ]
+  ],
+  "selected_shelf_components": 44,
+  "triangles": 17334,
+  "zero_area_triangles": 0,
+  "material": "CW_SettledSnow",
+  "uv": "0..1 UV0; parent material ST selects WSA bottom-right snow quadrant",
+  "nominal_snow_depth": 0.16,
+  "lod1_triangles": 8666
+}

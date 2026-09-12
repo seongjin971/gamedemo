@@ -1,0 +1,53 @@
+{
+  "created_at_utc": "2026-09-09T20:02:24.184298Z",
+  "model": "nano_banana_pro",
+  "resolution": "2k",
+  "aspect_ratio": "1:1",
+  "balance_before": 2440,
+  "balance_before_basis": "Recovered current balance plus exactly matched first submission charge; prior audited balance was2440.",
+  "jobs": [
+    {
+      "name": "PackedAlpineSnow",
+      "id": "d687ef50-6053-491e-aa08-b1f3311bbbb0",
+      "created_at": "2026-09-09T20:02:24.184298Z",
+      "status": "completed",
+      "prompt_file": "PackedAlpineSnow-prompt.txt",
+      "job_file": "PackedAlpineSnow-job.json",
+      "matched_latest_transaction": [
+        {
+          "created_at": "2026-09-09T20:02:24.302826Z",
+          "display_name": "Nano Banana Pro",
+          "action": "spend",
+          "credits": -2
+        }
+      ],
+      "charge_credits": 2,
+      "prompt": "Production game material: one seamless tileable 2048 square PBR base-color ALBEDO of densely packed alpine snow, a continuous snow surface viewed flat orthographically from directly above, covering about 2 metres square. The snow has been broadly compressed and churned by use but has NO recognizable footprints, boot tread, tracks or grooves. Clearly resolved fine irregular hard snow granules and crushed crystals, small compacted clods, a few denser icy granular patches, irregular subtly compressed areas. Materially coarser and more granular than smooth fresh powder, while still unmistakably near-white snow. Restrained pale icy gray-blue compression among neutral off-white grains; very subtle low-frequency variation. Sharp physically plausible millimetre grain and crushed crystalline texture at every part of the image, not blurred cloud noise or cotton. Perfectly even diffuse unlit albedo capture: NO cast shadows, directional illumination, highlights, sparkles, reflections, ambient occlusion, vignette or lighting gradient. No scene, perspective, horizon, rocks, dirt, plants, liquid puddles, snow dunes, text or borders. All four edges repeat seamlessly with uniform exposure; no grid or visible seams. Output the material texture itself, edge-to-edge, not a render of a material sample.",
+      "source_original_job_metadata": "Migration/Source/Expansion/ContinuousWorld/MaterialTexturesV2/PackedAlpineSnow-job.json"
+    },
+    {
+      "name": "WetAbbeyLimestone",
+      "id": "7919d6e6-4163-4598-af27-7622d9839b90",
+      "created_at": "2026-09-09T20:03:41.647224Z",
+      "status": "completed",
+      "prompt_file": "WetAbbeyLimestone-prompt.txt",
+      "job_file": "WetAbbeyLimestone-job.json",
+      "matched_latest_transaction": [
+        {
+          "created_at": "2026-09-09T20:03:41.749063Z",
+          "display_name": "Nano Banana Pro",
+          "action": "spend",
+          "credits": -2
+        }
+      ],
+      "charge_credits": 2,
+      "prompt": "Production game material: one seamless tileable 2048 square PBR base-color ALBEDO of rain-wet weathered blue-gray limestone from a ruined Gothic abbey floor. One continuous stone surface fills the frame, a flat orthographic top-down material scan covering about 1 metre square, WITHOUT any slab perimeter, tile grid, mortar joint or paving layout. Cool medium-light slate-blue gray mineral body, tiny irregular pores and pinprick pits, occasional very narrow short hairline fractures, finely worn pale limestone grains and subtle old abrasion. Saturated by rain so the mineral color is slightly deeper and cooler than dry limestone, but this image is ALBEDO ONLY: no glossy reflections, specular highlights, water glints, puddles, rivulets, drops, wet shine, directional light, shadows, ambient occlusion, black crevices, bright bevels or baked depth lighting. Detailed and convincing fine-grained weathered stone, restrained broad mottling, no large dark veins, no dramatic cracks, no moss, no grass, no sediment streaks, no dirt blobs. Uniform neutral diffuse illumination and edge-to-edge material density; all four edges repeat seamlessly. No perspective, scene, text, borders, tiles, grid or sample sphere. Return only the physically plausible color texture.",
+      "source_original_job_metadata": "Migration/Source/Expansion/ContinuousWorld/MaterialTexturesV2/WetAbbeyLimestone-job.json"
+    }
+  ],
+  "method": "Installed Higgsfield CLI. First create returned a one-element list; its existing job was recovered by exact full-prompt comparison against the latest image job, without resubmission.",
+  "balance_after_submission": 2436,
+  "known_charge_total": 4,
+  "attribution_limit": "Exact ledger charges; job linkage uses the latest transaction queried after each separate submission and before the next submission, plus matching timestamps. Ledger has no explicit job ID.",
+  "active_run_credits_after_this_batch": 90
+}

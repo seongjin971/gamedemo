@@ -1,0 +1,44 @@
+{
+  "passed": true,
+  "models": {
+    "CW_BridgeApproach6x8m": {
+      "passed": true,
+      "triangles": 1192,
+      "zero_area_triangles": 0,
+      "explicit_triangles": true,
+      "uv0_in_unit_square": true,
+      "reimport_bounds_error": 6.556510925292969e-07,
+      "nodes": [
+        "CW_BridgeApproach6x8m"
+      ],
+      "walking_rays": 25,
+      "walking_all_safe": true
+    },
+    "CW_GoldenReedBand4m": {
+      "passed": true,
+      "triangles": 9846,
+      "zero_area_triangles": 0,
+      "explicit_triangles": true,
+      "uv0_in_unit_square": true,
+      "reimport_bounds_error": 5.960464477539063e-08,
+      "nodes": [
+        "CW_GoldenReedBand4m"
+      ],
+      "walking_rays": 0,
+      "walking_all_safe": true
+    },
+    "CW_GoldenReedBand4m_LOD1": {
+      "passed": true,
+      "triangles": 4570,
+      "zero_area_triangles": 0,
+      "explicit_triangles": true,
+      "uv0_in_unit_square": true,
+      "reimport_bounds_error": 5.960464477539063e-08,
+      "nodes": [
+        "CW_GoldenReedBand4m_Reduced"
+      ],
+      "walking_rays": 0,
+      "walking_all_safe": true
+    }
+  }
+}

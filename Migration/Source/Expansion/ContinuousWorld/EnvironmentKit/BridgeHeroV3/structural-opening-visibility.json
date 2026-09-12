@@ -1,0 +1,43 @@
+{
+  "method": "Camera-ray visibility from rendered geometry alpha, alpha<128 inside the identical projected near facade rectangle: source X=3.25, length -7..7, world up -0.95..2.8. Includes occlusion by the entire actual bridge. This is visible open silhouette above water, not a horizontal ray test or only analytic ellipse area. Antialiased perimeter pixels can contribute less than one pixel of boundary error.",
+  "comparison": {
+    "v2": {
+      "near_facade_pixels": 94527,
+      "camera_visible_open_pixels": 35553,
+      "opaque_pixels": 58974,
+      "open_fraction_of_near_facade": 0.3761147608619759,
+      "open_fraction_of_entire_frame": 0.022603988647460938,
+      "open_pixel_bounds": [
+        [
+          889,
+          319
+        ],
+        [
+          1305,
+          863
+        ]
+      ]
+    },
+    "v3": {
+      "near_facade_pixels": 94527,
+      "camera_visible_open_pixels": 52201,
+      "opaque_pixels": 42326,
+      "open_fraction_of_near_facade": 0.5522337533191575,
+      "open_fraction_of_entire_frame": 0.0331885019938151,
+      "open_pixel_bounds": [
+        [
+          837,
+          319
+        ],
+        [
+          1305,
+          908
+        ]
+      ]
+    }
+  },
+  "visible_open_pixel_ratio_v3_over_v2": 1.4682586560909066,
+  "visible_open_pixel_increase_percent": 46.825865609090656,
+  "camera_manifest": "structural-camera-comparison.json",
+  "visual_assessment": "Paired raised-water previews show a broader continuous curved opening and narrower piers in V3, with the same upper deck and parapets. Controlled geometry improvement; no independent Unity water-gate score or full-scene acceptance claimed."
+}

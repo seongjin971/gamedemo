@@ -1,0 +1,21 @@
+{
+  "created_at": "2026-09-09T20:03:41.647224Z",
+  "display_name": "Nano Banana Pro",
+  "id": "7919d6e6-4163-4598-af27-7622d9839b90",
+  "job_type": "nano_banana_pro",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3HqrOQdfhs3psNu8LvY0hv7gvNL/hf_20260909_200341_7919d6e6-4163-4598-af27-7622d9839b90_min.webp",
+  "params": {
+    "application": null,
+    "aspect_ratio": "1:1",
+    "batch_size": 1,
+    "height": 2048,
+    "input_image": null,
+    "input_images": [],
+    "prompt": "Production game material: one seamless tileable 2048 square PBR base-color ALBEDO of rain-wet weathered blue-gray limestone from a ruined Gothic abbey floor. One continuous stone surface fills the frame, a flat orthographic top-down material scan covering about 1 metre square, WITHOUT any slab perimeter, tile grid, mortar joint or paving layout. Cool medium-light slate-blue gray mineral body, tiny irregular pores and pinprick pits, occasional very narrow short hairline fractures, finely worn pale limestone grains and subtle old abrasion. Saturated by rain so the mineral color is slightly deeper and cooler than dry limestone, but this image is ALBEDO ONLY: no glossy reflections, specular highlights, water glints, puddles, rivulets, drops, wet shine, directional light, shadows, ambient occlusion, black crevices, bright bevels or baked depth lighting. Detailed and convincing fine-grained weathered stone, restrained broad mottling, no large dark veins, no dramatic cracks, no moss, no grass, no sediment streaks, no dirt blobs. Uniform neutral diffuse illumination and edge-to-edge material density; all four edges repeat seamlessly. No perspective, scene, text, borders, tiles, grid or sample sphere. Return only the physically plausible color texture.",
+    "resolution": "2k",
+    "surface": null,
+    "width": 2048
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3HqrOQdfhs3psNu8LvY0hv7gvNL/hf_20260909_200341_7919d6e6-4163-4598-af27-7622d9839b90.png",
+  "status": "completed"
+}

@@ -1,0 +1,82 @@
+{
+  "status": "GENERATED_REVIEW_CANDIDATES",
+  "unityImported": false,
+  "layoutAdopted": false,
+  "images": [
+    {
+      "index": 1,
+      "name": "01-waterside",
+      "title": "맑은 물가",
+      "job_id": "909b3e11-78a1-4794-a8b5-b2344975c404",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3HqrOQdfhs3psNu8LvY0hv7gvNL/hf_20260910_135202_909b3e11-78a1-4794-a8b5-b2344975c404.png",
+      "file": "01-waterside.png",
+      "bytes": 6119050,
+      "dimensions": [
+        2048,
+        1360
+      ],
+      "sha256": "5c1bad822af7eb04c27d1ec560e301dd9a22b49aa0fd81999316bed35df6b602",
+      "pixelEdits": false
+    },
+    {
+      "index": 2,
+      "name": "02-damp-wood",
+      "title": "젖어가는 숲길",
+      "job_id": "e73872b7-3f62-443a-9319-29202126d8e9",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3HqrOQdfhs3psNu8LvY0hv7gvNL/hf_20260910_135202_e73872b7-3f62-443a-9319-29202126d8e9.png",
+      "file": "02-damp-wood.png",
+      "bytes": 5678780,
+      "dimensions": [
+        2048,
+        1360
+      ],
+      "sha256": "2c3c28c56e6620673da467527dbc1757f23c2671c996f0154370e9d260e108d3",
+      "pixelEdits": false
+    },
+    {
+      "index": 3,
+      "name": "03-rainy-abbey",
+      "title": "비 오는 폐허",
+      "job_id": "34b9566b-c170-4bd1-8fb4-6f0007e4ff1c",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3HqrOQdfhs3psNu8LvY0hv7gvNL/hf_20260910_135202_34b9566b-c170-4bd1-8fb4-6f0007e4ff1c.png",
+      "file": "03-rainy-abbey.png",
+      "bytes": 5973277,
+      "dimensions": [
+        2048,
+        1360
+      ],
+      "sha256": "cdd6a8ceca078e47a8bb06d86f5463129d623198bf59773ae01528aafa5b3308",
+      "pixelEdits": false
+    },
+    {
+      "index": 4,
+      "name": "04-frost-transition",
+      "title": "서리로 바뀌는 길",
+      "job_id": "14f87a72-ab0f-478b-872f-e4e66ceb36ac",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3HqrOQdfhs3psNu8LvY0hv7gvNL/hf_20260910_135202_14f87a72-ab0f-478b-872f-e4e66ceb36ac.png",
+      "file": "04-frost-transition.png",
+      "bytes": 6637927,
+      "dimensions": [
+        2048,
+        1360
+      ],
+      "sha256": "f2d6e6391570a90650a67068d42541ad6ff4915a9b9077ce6f434e5501c2ed5b",
+      "pixelEdits": false
+    },
+    {
+      "index": 5,
+      "name": "05-snow-pass",
+      "title": "눈 덮인 고갯길",
+      "job_id": "59ad757e-d1e1-436c-b1ea-adfab9dab8b9",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3HqrOQdfhs3psNu8LvY0hv7gvNL/hf_20260910_135203_59ad757e-d1e1-436c-b1ea-adfab9dab8b9.png",
+      "file": "05-snow-pass.png",
+      "bytes": 5612853,
+      "dimensions": [
+        2048,
+        1360
+      ],
+      "sha256": "e1e491e7b2935c64870ba5026627f14e3f5cc6a90e0dbb9b706b74e4dc6678f6",
+      "pixelEdits": false
+    }
+  ]
+}

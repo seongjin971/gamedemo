@@ -1,0 +1,27 @@
+﻿[
+    {
+        "file":  "alder.glb",
+        "bytes":  6155876,
+        "sha256":  "ED3E49F379A729259823582526260DE0DE715994971450C8BD068670B63A02AC"
+    },
+    {
+        "file":  "buttress.glb",
+        "bytes":  4628112,
+        "sha256":  "984469A405B8BF503D3D57DC3C1EEECC2CE58A1E042E17C1193836499E0F58FD"
+    },
+    {
+        "file":  "fir.glb",
+        "bytes":  5515556,
+        "sha256":  "10F8C8D6785EA235EBD2E1C945D06D3ACCE2FC14CA163D3764CDDDBA4C39CBCC"
+    },
+    {
+        "file":  "fir_hunyuan.glb",
+        "bytes":  31442740,
+        "sha256":  "CFB8EF2DCFAC7BE5D0310691D6EA19BCB445D00073918EE3FB21585D149BE5FD"
+    },
+    {
+        "file":  "rock.glb",
+        "bytes":  5899952,
+        "sha256":  "F94D547FC1B9FC94507385EDA739DA6EE7D14F7EF460DE67FC0A22D736564E71"
+    }
+]

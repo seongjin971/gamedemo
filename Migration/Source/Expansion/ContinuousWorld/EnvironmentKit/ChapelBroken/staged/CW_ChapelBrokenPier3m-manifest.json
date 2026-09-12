@@ -1,0 +1,31 @@
+{
+  "name": "CW_ChapelBrokenPier3m",
+  "triangles": 2906,
+  "zero_area_triangles": 0,
+  "bounds_source_xyz": [
+    [
+      -0.43994101881980896,
+      -0.43983879685401917,
+      0.0
+    ],
+    [
+      0.4694962501525879,
+      0.4396633207798004,
+      3.0
+    ]
+  ],
+  "materials": [
+    "CW_ChapelStone",
+    "CW_ChapelStoneLight",
+    "CW_WetMoss"
+  ],
+  "uv": "0..1 individual stone UV0; parent WSA stone-quadrant ST. CW_WetMoss uses moss/soil quadrant via parent existing Moss slot.",
+  "pivot": "ground center; preserve original -90X FBX root via wrapper transform",
+  "source_axes": "X width, Y wall thickness, Z height, metres",
+  "height": 3,
+  "footprint_max": [
+    1,
+    1
+  ],
+  "construction": "Bonded weathered central pier with eight engaged Gothic shaft fragments, carved base bands, an irregular fractured top, moss and rubble toe."
+}

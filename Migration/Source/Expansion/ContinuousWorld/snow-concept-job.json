@@ -1,0 +1,27 @@
+﻿{
+  "created_at": "2026-09-09T18:43:11.565403Z",
+  "display_name": "Nano Banana Pro",
+  "id": "44960f88-6cdb-4002-a48c-5781b305b6ed",
+  "job_type": "nano_banana_pro",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3HqrOQdfhs3psNu8LvY0hv7gvNL/hf_20260909_184311_44960f88-6cdb-4002-a48c-5781b305b6ed_min.webp",
+  "params": {
+    "application": null,
+    "aspect_ratio": "3:2",
+    "batch_size": 1,
+    "height": 1696,
+    "input_image": null,
+    "input_images": [
+      {
+        "id": "27aeb8b2-685e-43e0-88c5-9de22e2dd05f",
+        "type": "media_input",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3HqrOQdfhs3psNu8LvY0hv7gvNL/27aeb8b2-685e-43e0-88c5-9de22e2dd05f.png"
+      }
+    ],
+    "prompt": "Refine this precise elevated three-quarter Unity game screenshot into a polished AAA real-time playable snowy alpine pass. Preserve the exact camera and traveler position/scale, all major rock positions and sizes, and fir tree placement. Keep white snow resting naturally on fractured exposed dark limestone shelves, open conifer silhouettes, and a broad walkable valley route. Replace the repeating squared snow pattern and visible dotted grid with continuous softly wind-smoothed powder, very fine subtle snow grain and a gently compacted slightly darker trail under the traveler leading to top center. Add believable contact shadows, softer rich blue-grey ambient shading, clean bright snow without clipping, fine sparse falling snowflakes, natural branch-scale patches of settled snow. Trees must read as realistic textured alpine firs, not geometric cones or solid plastic. Rocks have broad natural fracture planes and narrow weathered crevices, convincing neutral stone. No extra mountains or buildings inside this view, no added UI/text, no photographic grain, no blizzard, no heavy fog wall, no depth-of-field blur, no cartoon look. Subtle restrained high-quality materials and atmosphere while keeping gameplay clear. Exact current composition, upgraded in-engine rendering.",
+    "resolution": "2k",
+    "surface": null,
+    "width": 2528
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3HqrOQdfhs3psNu8LvY0hv7gvNL/hf_20260909_184311_44960f88-6cdb-4002-a48c-5781b305b6ed.png",
+  "status": "completed"
+}

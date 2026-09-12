@@ -1,0 +1,21 @@
+{
+  "created_at": "2026-09-09T20:02:24.184298Z",
+  "display_name": "Nano Banana Pro",
+  "id": "d687ef50-6053-491e-aa08-b1f3311bbbb0",
+  "job_type": "nano_banana_pro",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3HqrOQdfhs3psNu8LvY0hv7gvNL/hf_20260909_200224_d687ef50-6053-491e-aa08-b1f3311bbbb0_min.webp",
+  "params": {
+    "application": null,
+    "aspect_ratio": "1:1",
+    "batch_size": 1,
+    "height": 2048,
+    "input_image": null,
+    "input_images": [],
+    "prompt": "Production game material: one seamless tileable 2048 square PBR base-color ALBEDO of densely packed alpine snow, a continuous snow surface viewed flat orthographically from directly above, covering about 2 metres square. The snow has been broadly compressed and churned by use but has NO recognizable footprints, boot tread, tracks or grooves. Clearly resolved fine irregular hard snow granules and crushed crystals, small compacted clods, a few denser icy granular patches, irregular subtly compressed areas. Materially coarser and more granular than smooth fresh powder, while still unmistakably near-white snow. Restrained pale icy gray-blue compression among neutral off-white grains; very subtle low-frequency variation. Sharp physically plausible millimetre grain and crushed crystalline texture at every part of the image, not blurred cloud noise or cotton. Perfectly even diffuse unlit albedo capture: NO cast shadows, directional illumination, highlights, sparkles, reflections, ambient occlusion, vignette or lighting gradient. No scene, perspective, horizon, rocks, dirt, plants, liquid puddles, snow dunes, text or borders. All four edges repeat seamlessly with uniform exposure; no grid or visible seams. Output the material texture itself, edge-to-edge, not a render of a material sample.",
+    "resolution": "2k",
+    "surface": null,
+    "width": 2048
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3HqrOQdfhs3psNu8LvY0hv7gvNL/hf_20260909_200224_d687ef50-6053-491e-aa08-b1f3311bbbb0.png",
+  "status": "completed"
+}

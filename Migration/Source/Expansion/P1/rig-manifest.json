@@ -1,0 +1,20 @@
+{
+  "task_id": "01a08444-c3ac-703d-ba36-07284b96a903",
+  "files": [
+    {
+      "file": "rigged.glb",
+      "bytes": 7908192,
+      "sha256": "0498894faf7fd61d21bac38f81942f0702214d3ae09710736476d736152e83f5"
+    },
+    {
+      "file": "walking.glb",
+      "bytes": 7920964,
+      "sha256": "b612bc4d3ca5559dc76f283655985ac670743769c0d005d8616253891f7905ff"
+    },
+    {
+      "file": "walking.fbx",
+      "bytes": 7919964,
+      "sha256": "ade0f23cdbaf2ef5700ce4deb05f50d71cbe183988c2aa7be0beb25ad5aee377"
+    }
+  ]
+}

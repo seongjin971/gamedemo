@@ -1,0 +1,22 @@
+{
+  "parameters": {
+    "model_type": "standard",
+    "ai_model": "meshy-7",
+    "ultra_mode": true,
+    "should_texture": true,
+    "enable_pbr": true,
+    "texture_resolution": "2k",
+    "should_remesh": true,
+    "topology": "triangle",
+    "target_polycount": 30000,
+    "pose_mode": "a-pose",
+    "image_enhancement": false,
+    "target_formats": [
+      "glb"
+    ],
+    "multi_view_thumbnails": true
+  },
+  "image_sha256": "0aff5fd47b8d401ddb51b8324e12fa4beb081b6b9246f93d9b7da35dca7def22",
+  "source": "OpenAI built-in imagegen, original P1 character design",
+  "docs": "https://docs.meshy.ai/en/api/image-to-3d"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "CW_ChapelRubblePile3m",
+  "bounds_source_xyz": [
+    [
+      -1.5,
+      -1.0,
+      0.0
+    ],
+    [
+      1.5,
+      1.0,
+      0.949999988079071
+    ]
+  ],
+  "triangles": 792,
+  "zero_area_triangles": 0,
+  "materials": [
+    "CW_ChapelPavingStoneLight",
+    "CW_ChapelPavingStone"
+  ],
+  "source_axes": "X width/Y length/Z up, metres",
+  "fbx_axes": "Y-up/-Z-forward; preserve root X=-90 degree conversion via world wrapper",
+  "uv": "0..1 UV0 per stone/slate/timber; apply parent atlas ST per material",
+  "pivot": "ground center",
+  "overall_size": [
+    3,
+    2,
+    0.95
+  ],
+  "blocks": 18
+}

@@ -1,0 +1,320 @@
+{
+  "version": 1,
+  "source_units": "metres",
+  "source_axes": "+Z up, +Y length",
+  "fbx_axes": "-Z forward, +Y up",
+  "models": {
+    "CW_LayeredRock_A": {
+      "file": "CW_LayeredRock_A.fbx",
+      "triangles": 1828,
+      "source_bounds_min": [
+        -2.138852119445801,
+        -1.7843338251113892,
+        -0.07586415857076645
+      ],
+      "source_bounds_max": [
+        2.0893843173980713,
+        1.6819888353347778,
+        2.608839273452759
+      ],
+      "size_xyz_source": [
+        4.228236436843872,
+        3.466322660446167,
+        2.6847034320235252
+      ],
+      "material_slots": [
+        "CW_Rock",
+        "CW_RockLight",
+        "CW_Crevice",
+        "CW_Moss"
+      ],
+      "objects": [
+        "CW_LayeredRock_A"
+      ],
+      "notes": "Carved irregular stone solid, broad planar fracture faces, fine surface erosion and localized ledges. Ground pivot. Assign tileable stone texture and normal; no disconnected primitive stacks."
+    },
+    "CW_LayeredRock_B": {
+      "file": "CW_LayeredRock_B.fbx",
+      "triangles": 1502,
+      "source_bounds_min": [
+        -1.7811896800994873,
+        -1.5575556755065918,
+        -0.06598762422800064
+      ],
+      "source_bounds_max": [
+        1.7366291284561157,
+        1.3721084594726562,
+        1.7559754848480225
+      ],
+      "size_xyz_source": [
+        3.517818808555603,
+        2.929664134979248,
+        1.821963109076023
+      ],
+      "material_slots": [
+        "CW_Rock",
+        "CW_RockLight",
+        "CW_Crevice",
+        "CW_Moss"
+      ],
+      "objects": [
+        "CW_LayeredRock_B"
+      ],
+      "notes": "Carved irregular stone solid, broad planar fracture faces, fine surface erosion and localized ledges. Ground pivot. Assign tileable stone texture and normal; no disconnected primitive stacks."
+    },
+    "CW_CliffLedge": {
+      "file": "CW_CliffLedge.fbx",
+      "triangles": 1744,
+      "source_bounds_min": [
+        -3.6551504135131836,
+        -2.102344512939453,
+        -0.09438265115022659
+      ],
+      "source_bounds_max": [
+        3.383584499359131,
+        1.9193828105926514,
+        4.181107521057129
+      ],
+      "size_xyz_source": [
+        7.0387349128723145,
+        4.0217273235321045,
+        4.2754901722073555
+      ],
+      "material_slots": [
+        "CW_Rock",
+        "CW_RockLight",
+        "CW_Crevice",
+        "CW_Moss"
+      ],
+      "objects": [
+        "CW_CliffLedge"
+      ],
+      "notes": "Carved irregular stone solid, broad planar fracture faces, fine surface erosion and localized ledges. Ground pivot. Assign tileable stone texture and normal; no disconnected primitive stacks."
+    },
+    "CW_RiverBoulder": {
+      "file": "CW_RiverBoulder.fbx",
+      "triangles": 1802,
+      "source_bounds_min": [
+        -1.0845441818237305,
+        -0.9456953406333923,
+        -0.05549381300806999
+      ],
+      "source_bounds_max": [
+        1.0416841506958008,
+        0.8898223638534546,
+        0.8549242615699768
+      ],
+      "size_xyz_source": [
+        2.1262283325195312,
+        1.835517704486847,
+        0.9104180745780468
+      ],
+      "material_slots": [
+        "CW_Rock",
+        "CW_RockLight",
+        "CW_Crevice",
+        "CW_Moss"
+      ],
+      "objects": [
+        "CW_RiverBoulder"
+      ],
+      "notes": "Carved irregular stone solid, broad planar fracture faces, fine surface erosion and localized ledges. Ground pivot. Assign tileable stone texture and normal; no disconnected primitive stacks."
+    },
+    "CW_StoneFootbridge": {
+      "file": "CW_StoneFootbridge.fbx",
+      "triangles": 10472,
+      "source_bounds_min": [
+        -3.2500057220458984,
+        -5.220983028411865,
+        -1.7622524499893188
+      ],
+      "source_bounds_max": [
+        3.2445926666259766,
+        5.211538314819336,
+        1.6291335821151733
+      ],
+      "size_xyz_source": [
+        6.494598388671875,
+        10.432521343231201,
+        3.391386032104492
+      ],
+      "material_slots": [
+        "CW_StoneDark",
+        "CW_Stone"
+      ],
+      "objects": [
+        "CW_StoneFootbridge"
+      ],
+      "notes": "10 m along Z in Unity; 5.2 m clear deck width; deck y=.8*(1-(z/5)^2), -5<=z<=5. Origin at deck end elevation. Arch underside -1.75 m; parapet top ~1.6 m at crown. Add continuous walking collider from formula; visual slab gaps are not navigation holes."
+    },
+    "CW_StoneFootbridge_Flat12m": {
+      "file": "CW_StoneFootbridge_Flat12m.fbx",
+      "triangles": 10472,
+      "source_bounds_min": [
+        -3.2500057220458984,
+        -6.265179634094238,
+        -1.7622524499893188
+      ],
+      "source_bounds_max": [
+        3.2445926666259766,
+        6.253846168518066,
+        0.8298714756965637
+      ],
+      "size_xyz_source": [
+        6.494598388671875,
+        12.519025802612305,
+        2.5921239256858826
+      ],
+      "material_slots": [
+        "CW_StoneDark",
+        "CW_Stone"
+      ],
+      "objects": [
+        "CW_StoneFootbridge_Flat12m"
+      ],
+      "notes": "12 m along Z in Unity; 5.2 m clear width, flat walking deck at local y=0. Place at Unity y=.8 for desired world deck. Arch underside reaches -1.75 below deck; no collider included."
+    },
+    "CW_Reeds": {
+      "file": "CW_Reeds.fbx",
+      "triangles": 1466,
+      "source_bounds_min": [
+        -1.1192231178283691,
+        -1.3582243919372559,
+        -0.001510573667474091
+      ],
+      "source_bounds_max": [
+        1.4054492712020874,
+        1.1835072040557861,
+        2.236783027648926
+      ],
+      "size_xyz_source": [
+        2.5246723890304565,
+        2.541731595993042,
+        2.2382936013164
+      ],
+      "material_slots": [
+        "CW_ReedDry",
+        "CW_Seed",
+        "CW_Reed"
+      ],
+      "objects": [
+        "CW_Reeds"
+      ],
+      "notes": "Ground centered clump. Individually curved creased ribbons and seed heads; blade materials should render double sided."
+    },
+    "CW_RiverGrass": {
+      "file": "CW_RiverGrass.fbx",
+      "triangles": 1890,
+      "source_bounds_min": [
+        -1.1826953887939453,
+        -1.2365634441375732,
+        0.0
+      ],
+      "source_bounds_max": [
+        1.1726446151733398,
+        1.1185054779052734,
+        0.54850172996521
+      ],
+      "size_xyz_source": [
+        2.355340003967285,
+        2.3550689220428467,
+        0.54850172996521
+      ],
+      "material_slots": [
+        "CW_Reed",
+        "CW_ReedDry"
+      ],
+      "objects": [
+        "CW_RiverGrass"
+      ],
+      "notes": "Ground centered clump. Individually curved creased ribbons and seed heads; blade materials should render double sided."
+    },
+    "CW_RiverBirch": {
+      "file": "CW_RiverBirch.fbx",
+      "triangles": 7438,
+      "source_bounds_min": [
+        -2.679664373397827,
+        -2.5372939109802246,
+        -0.010859286412596703
+      ],
+      "source_bounds_max": [
+        2.602414608001709,
+        2.3305351734161377,
+        6.910024642944336
+      ],
+      "size_xyz_source": [
+        5.282078981399536,
+        4.867829084396362,
+        6.920883929356933
+      ],
+      "material_slots": [
+        "CW_Birch",
+        "CW_Bark",
+        "CW_Leaf",
+        "CW_LeafLight"
+      ],
+      "objects": [
+        "CW_RiverBirch"
+      ],
+      "notes": "Open canopy river birch; branched tapering trunk, dark bark lenticels, individual folded leaves. Ground origin. Leaf material should render double sided."
+    },
+    "CW_AlpineFir": {
+      "file": "CW_AlpineFir.fbx",
+      "triangles": 23901,
+      "source_bounds_min": [
+        -2.257547616958618,
+        -2.345093011856079,
+        -0.006454616319388151
+      ],
+      "source_bounds_max": [
+        2.386329412460327,
+        2.333407402038574,
+        7.500080585479736
+      ],
+      "size_xyz_source": [
+        4.643877029418945,
+        4.678500413894653,
+        7.5065352017991245
+      ],
+      "material_slots": [
+        "CW_Bark",
+        "CW_Pine",
+        "CW_PineTip",
+        "CW_Snow"
+      ],
+      "objects": [
+        "CW_AlpineFir",
+        "CW_AlpineFir_SnowCaps"
+      ],
+      "notes": "7.5 m alpine fir, irregular drooping woody boughs and serrated needle sprays. Snow caps are a separate child mesh that can be hidden for lower elevation. Pine material should render double sided."
+    },
+    "CW_StoneWaymarker": {
+      "file": "CW_StoneWaymarker.fbx",
+      "triangles": 150,
+      "source_bounds_min": [
+        -0.6499999761581421,
+        -0.5200259685516357,
+        -0.12384041398763657
+      ],
+      "source_bounds_max": [
+        0.9001625180244446,
+        0.5368949174880981,
+        2.6500000953674316
+      ],
+      "size_xyz_source": [
+        1.5501624941825867,
+        1.0569208860397339,
+        2.773840509355068
+      ],
+      "material_slots": [
+        "CW_StoneDark",
+        "CW_Stone",
+        "CW_Crevice"
+      ],
+      "objects": [
+        "CW_StoneWaymarker"
+      ],
+      "notes": "Hewn directional stone marker, 2.65 m high, pointer along local X, ground origin."
+    }
+  }
+}

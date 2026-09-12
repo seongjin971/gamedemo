@@ -1,0 +1,61 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "jobs[5]{index,job_id,status,type,model,result_url}:\n  1,909b3e11-78a1-4794-a8b5-b2344975c404,completed,image,gpt_image_2,\"https://d8j0ntlcm91z4.cloudfront.net/user_3HqrOQdfhs3psNu8LvY0hv7gvNL/hf_20260910_135202_909b3e11-78a1-4794-a8b5-b2344975c404.png\"\n  2,e73872b7-3f62-443a-9319-29202126d8e9,completed,image,gpt_image_2,\"https://d8j0ntlcm91z4.cloudfront.net/user_3HqrOQdfhs3psNu8LvY0hv7gvNL/hf_20260910_135202_e73872b7-3f62-443a-9319-29202126d8e9.png\"\n  3,34b9566b-c170-4bd1-8fb4-6f0007e4ff1c,completed,image,gpt_image_2,\"https://d8j0ntlcm91z4.cloudfront.net/user_3HqrOQdfhs3psNu8LvY0hv7gvNL/hf_20260910_135202_34b9566b-c170-4bd1-8fb4-6f0007e4ff1c.png\"\n  4,14f87a72-ab0f-478b-872f-e4e66ceb36ac,completed,image,gpt_image_2,\"https://d8j0ntlcm91z4.cloudfront.net/user_3HqrOQdfhs3psNu8LvY0hv7gvNL/hf_20260910_135202_14f87a72-ab0f-478b-872f-e4e66ceb36ac.png\"\n  5,59ad757e-d1e1-436c-b1ea-adfab9dab8b9,completed,image,gpt_image_2,\"https://d8j0ntlcm91z4.cloudfront.net/user_3HqrOQdfhs3psNu8LvY0hv7gvNL/hf_20260910_135203_59ad757e-d1e1-436c-b1ea-adfab9dab8b9.png\"\nsummary:\n  total: 5\n  completed: 5\n  failed: 0\n  active: 0\n  errors: 0\nall_terminal: true"
+    }
+  ],
+  "structuredContent": {
+    "jobs": [
+      {
+        "index": 1,
+        "job_id": "909b3e11-78a1-4794-a8b5-b2344975c404",
+        "status": "completed",
+        "type": "image",
+        "model": "gpt_image_2",
+        "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3HqrOQdfhs3psNu8LvY0hv7gvNL/hf_20260910_135202_909b3e11-78a1-4794-a8b5-b2344975c404.png"
+      },
+      {
+        "index": 2,
+        "job_id": "e73872b7-3f62-443a-9319-29202126d8e9",
+        "status": "completed",
+        "type": "image",
+        "model": "gpt_image_2",
+        "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3HqrOQdfhs3psNu8LvY0hv7gvNL/hf_20260910_135202_e73872b7-3f62-443a-9319-29202126d8e9.png"
+      },
+      {
+        "index": 3,
+        "job_id": "34b9566b-c170-4bd1-8fb4-6f0007e4ff1c",
+        "status": "completed",
+        "type": "image",
+        "model": "gpt_image_2",
+        "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3HqrOQdfhs3psNu8LvY0hv7gvNL/hf_20260910_135202_34b9566b-c170-4bd1-8fb4-6f0007e4ff1c.png"
+      },
+      {
+        "index": 4,
+        "job_id": "14f87a72-ab0f-478b-872f-e4e66ceb36ac",
+        "status": "completed",
+        "type": "image",
+        "model": "gpt_image_2",
+        "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3HqrOQdfhs3psNu8LvY0hv7gvNL/hf_20260910_135202_14f87a72-ab0f-478b-872f-e4e66ceb36ac.png"
+      },
+      {
+        "index": 5,
+        "job_id": "59ad757e-d1e1-436c-b1ea-adfab9dab8b9",
+        "status": "completed",
+        "type": "image",
+        "model": "gpt_image_2",
+        "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3HqrOQdfhs3psNu8LvY0hv7gvNL/hf_20260910_135203_59ad757e-d1e1-436c-b1ea-adfab9dab8b9.png"
+      }
+    ],
+    "summary": {
+      "total": 5,
+      "completed": 5,
+      "failed": 0,
+      "active": 0,
+      "errors": 0
+    },
+    "all_terminal": true
+  },
+  "isError": false
+}

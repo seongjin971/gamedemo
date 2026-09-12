@@ -1,0 +1,64 @@
+{
+  "status": "FIVE_IMAGE_CANDIDATES_READY_FOR_USER_REVIEW",
+  "provider": "Higgsfield",
+  "model": "gpt_image_2",
+  "generationCount": 6,
+  "displayedImageCount": 5,
+  "beforeCredits": 2378,
+  "afterCredits": 2339,
+  "observedBalanceDecrease": 39,
+  "estimatedCreditsExactTotal": 39,
+  "pixelEdits": false,
+  "unityChanges": false,
+  "finalTargetAdopted": false,
+  "images": [
+    {
+      "index": 1,
+      "name": "01-waterside",
+      "title": "맑은 물가",
+      "file": "01-waterside.png",
+      "job_id": "909b3e11-78a1-4794-a8b5-b2344975c404"
+    },
+    {
+      "index": 2,
+      "name": "02-damp-wood",
+      "title": "젖어가는 숲길",
+      "file": "02-damp-wood-r1.png",
+      "job_id": "040a978a-8090-40d4-8c25-8568841916b1"
+    },
+    {
+      "index": 3,
+      "name": "03-rainy-abbey",
+      "title": "비 오는 폐허",
+      "file": "03-rainy-abbey.png",
+      "job_id": "34b9566b-c170-4bd1-8fb4-6f0007e4ff1c"
+    },
+    {
+      "index": 4,
+      "name": "04-frost-transition",
+      "title": "서리로 바뀌는 길",
+      "file": "04-frost-transition.png",
+      "job_id": "14f87a72-ab0f-478b-872f-e4e66ceb36ac"
+    },
+    {
+      "index": 5,
+      "name": "05-snow-pass",
+      "title": "눈 덮인 고갯길",
+      "file": "05-snow-pass.png",
+      "job_id": "59ad757e-d1e1-436c-b1ea-adfab9dab8b9"
+    }
+  ],
+  "revision": {
+    "index": 2,
+    "original": "02-damp-wood.png",
+    "selected": "02-damp-wood-r1.png",
+    "reason": "Brighter woodland and clearer dry-to-damp midpoint; initial darker image preserved.",
+    "sha256": "42acde9a12a54944569f442d1880e91479207e5355c8a928f63f9ab99e84aa84"
+  },
+  "notes": [
+    "The five generated images are design candidates, not actual Unity screenshots.",
+    "Camera direction and traveler design are broadly consistent; exact camera transforms and dimensions are not established.",
+    "Original E02, F01, uncompiled F02 and shared assets were not edited by this image task.",
+    "Initial generation prompt set: request.json. Targeted revision prompt: 02-revision-request.json."
+  ]
+}

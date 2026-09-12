@@ -1,0 +1,27 @@
+{
+  "reason": "Initial stage2 too dark and wet to serve as gradual early transition.",
+  "estimatedCreditsExact": 6.5,
+  "params": {
+    "model": "gpt_image_2",
+    "aspect_ratio": "3:2",
+    "resolution": "2k",
+    "quality": "high",
+    "count": 1,
+    "use_unlim": false,
+    "medias": [
+      {
+        "role": "image",
+        "value": "e73872b7-3f62-443a-9319-29202126d8e9"
+      },
+      {
+        "role": "image",
+        "value": "909b3e11-78a1-4794-a8b5-b2344975c404"
+      },
+      {
+        "role": "image",
+        "value": "34b9566b-c170-4bd1-8fb4-6f0007e4ff1c"
+      }
+    ],
+    "prompt": "EDIT IMAGE 1 ONLY into an earlier, lighter damp-wood transitional stage between the sunny waterside in image 2 and the rainy abbey in image 3. Preserve image 1's exact gameplay camera, straight path centerline, all major tree and rock positions, ground geometry, framing, small traveler identity, outfit, pose and scale. Keep landscape 3:2 and crisp real-time Unity game screenshot style. TARGETED CHANGES: the current forest is too dark and fully rain soaked. Make it a naturally overcast but pleasantly readable woodland in late morning, approximately halfway in brightness and color temperature between sunny image 2 and rainy image 3. Soft warm-gray diffuse light with small residual dappled daylight in foreground, cooler shade increasing into distance. Dry pale grass and sandy-brown soil at near left/right path margins, dry-to-damp stones transitioning smoothly toward upper path. Limit wet specular sheen and small puddles to about one quarter of the visible path, primarily farther ahead. Most foreground stones have matte or softly damp surfaces; retain subtle natural limestone texture and moss. Remove foreground rain streaks entirely; only a faint sparse fine drizzle far ahead. Brighten the foliage enough to show leaf, fern and ground layers clearly, without washing out contrast or making luminous greens. The little distant chapel fragment remains subdued and partially concealed by trees. No snow, no other location changes, no new bridge, no additional buildings, no path bends or branches, no HUD, text, borders or labels. This should unmistakably be a gentle halfway transition, not the full rainy region."
+  }
+}
