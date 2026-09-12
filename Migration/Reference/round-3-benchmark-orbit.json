@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-09-08T06:45:17.713Z",
+  "mode": "orbit",
+  "frames": 180,
+  "cpuAndGpuCompletedMs": 2086.199999690056,
+  "renderThroughputFps": 86.28127697571776,
+  "method": "180 rendered frames in 10-frame batches, GPU completion via gl.finish; excludes yield time; not display FPS",
+  "viewport": {
+    "width": 1536,
+    "height": 1024,
+    "pixelRatio": 1
+  }
+}

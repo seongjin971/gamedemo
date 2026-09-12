@@ -1,0 +1,10 @@
+{
+  "packets": 1785,
+  "minimumIntervalMs": 33.33299999999895,
+  "maximumIntervalMs": 33.33400000000353,
+  "medianIntervalMs": 33.33300000000028,
+  "intervalHistogramMs": {
+    "33.33": 1784
+  },
+  "sourceSHA256": "6b60080dc4bdbf2e33b8ff6c0b67e8a0ab54a13ad58737612f3e7f88fe0ef549"
+}

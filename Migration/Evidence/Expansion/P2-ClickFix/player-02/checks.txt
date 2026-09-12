@@ -1,0 +1,16 @@
+PASS User rejected paving A screen click accepted
+PASS User rejected paving A destination reached at (4.79, 0.00, -0.17) target (4.79, 0.03, -0.17)
+PASS User rejected paving B screen click accepted
+PASS User rejected paving B destination reached at (4.79, 0.00, -0.17) target (4.79, 0.03, -0.17)
+PASS Root exclusion stays blocked
+PASS Gateway pier stays blocked
+PASS Orphan release does not click
+PASS Drag orbits without moving
+PASS Courtyard gate screen click accepted
+PASS Click reaches crossing transition
+PASS Bridge screen click screen click accepted
+PASS Bridge screen click destination reached at (0.00, 1.60, -2.50) target (0.00, 1.62, -2.50)
+PASS Water stays blocked
+PASS Disconnected ledge stays blocked
+PASS Return gate screen click accepted
+PASS Click returns to courtyard

@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "Icosphere004_rounded_v2",
+      "vertexCount": 9972,
+      "triangles": 3324,
+      "unitNormalMaxError": 1.0467031663630166e-07,
+      "uniqueSceneName": true
+    },
+    {
+      "name": "Icosphere004_rounded_v2_1",
+      "vertexCount": 2304,
+      "triangles": 768,
+      "unitNormalMaxError": 1.141023477924108e-07,
+      "uniqueSceneName": true
+    },
+    {
+      "name": "Icosphere007_rounded_v2",
+      "vertexCount": 9972,
+      "triangles": 3324,
+      "unitNormalMaxError": 1.0495508129260145e-07,
+      "uniqueSceneName": true
+    },
+    {
+      "name": "Icosphere007_rounded_v2_1",
+      "vertexCount": 2304,
+      "triangles": 768,
+      "unitNormalMaxError": 1.141023477924108e-07,
+      "uniqueSceneName": true
+    },
+    {
+      "name": "Heavy_folded_crimson_cape",
+      "vertexCount": 37428,
+      "triangles": 12476,
+      "unitNormalMaxError": 1.1870385296930408e-07,
+      "uniqueSceneName": true
+    },
+    {
+      "name": "LeftArm_Polished forged edges",
+      "vertexCount": 456,
+      "triangles": 152,
+      "unitNormalMaxError": 4.8718539202852185e-08,
+      "uniqueSceneName": true
+    },
+    {
+      "name": "RightArm_Polished forged edges",
+      "vertexCount": 456,
+      "triangles": 152,
+      "unitNormalMaxError": 4.8718539202852185e-08,
+      "uniqueSceneName": true
+    }
+  ]
+}

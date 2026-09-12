@@ -1,0 +1,190 @@
+{
+  "method": "Upright face planes, finite angular mineral losses, two broad open corner fractures, no continuous bevel shoulder",
+  "source_v8_hashes": {
+    "build_masonry_v8.py": "0e66b51016dbe6fc7b1885e03139efb45b910a51a5acc44ee78d775af88972fd",
+    "export-validation.json": "9c19383303d7ce9a002a1d42d1427c3c3516907d2fca95622d6ebf06fdf7207d",
+    "facade-v8-0.json": "ea1c2791bf9e54ea5f880f8983a0d535e6b9b5b94e13de65eced4f9456bc0367",
+    "facade-v8-1.json": "c224fc9954f28978fc6421c2f57d187220a7402c816e3151031c28a2c84ccdff",
+    "masonry-v8-0.json": "64e0fc308238c185302deaa44c9933cfaf36043b22e9e5200ff8667272f94df5",
+    "masonry-v8-1.json": "e84eca1f05b9a50fc1f53ee9bb080086bc4a90f7c275f6e922704c7a9d192144",
+    "masonry-v8-2.json": "d8cbaaf122a941dea6c3dce10041f134d9ed60e267a42fc25363c9e4a4afe98a",
+    "masonry-v8-3.json": "69c0884673e8d1247d6d05ce4d076ccbb4942ff7780131b6f191bec98294542c",
+    "masonry-v8-4.json": "460bae289063b491a160450423fad761d4fd72d55d8a2bca238f6ff25c91095a",
+    "masonry-v8-5.json": "09fd288e0775b5940dcfa7ba5bf04cae3e77399ff61f8a214bb5560a5623158c",
+    "masonry-v8-qa.json": "410525ede633d3b62e85a1ebe051d71107031d8267806d0edc61fc5ac3f34057",
+    "masonry-v8.blend": "cf94f7c94682c289545c161983f5caa4b60aa43af535752ae023c57c98fc8c3e",
+    "SELF_REVIEW.md": "507b5e58ea02ae0cc6983bbd200bac374a29dcdb53c4b25a2b434ae6461792d1"
+  },
+  "all_sources_preserved": true,
+  "basis": "Unity native (Blender x,z,-y), triangle order retained, no inspection transforms baked",
+  "meshes": [
+    {
+      "id": "masonry-v12-0",
+      "triangles": 800,
+      "vertices": 589,
+      "authored_triangles": 934,
+      "budget": 800,
+      "nonmanifold_edges_welded": 0,
+      "bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ],
+      "sha256": "213080b7724124ad57ad934d801da58c28cc311eef2c41df23b2967613c3e743"
+    },
+    {
+      "id": "masonry-v12-1",
+      "triangles": 800,
+      "vertices": 564,
+      "authored_triangles": 896,
+      "budget": 800,
+      "nonmanifold_edges_welded": 0,
+      "bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ],
+      "sha256": "ef8105c328e1721e623fb31ba8546128a7f16a66e02fdb999605c958ef262c86"
+    },
+    {
+      "id": "masonry-v12-2",
+      "triangles": 800,
+      "vertices": 593,
+      "authored_triangles": 930,
+      "budget": 800,
+      "nonmanifold_edges_welded": 0,
+      "bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ],
+      "sha256": "b6bdf6fe5a0251ea1eb34285996bef03972859b708d06d7766b6fb2678309d4b"
+    },
+    {
+      "id": "masonry-v12-3",
+      "triangles": 800,
+      "vertices": 585,
+      "authored_triangles": 950,
+      "budget": 800,
+      "nonmanifold_edges_welded": 0,
+      "bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ],
+      "sha256": "149d469c9ea7a39dc46f26a488b3f4c478be598db033e67bbf4bcbdd5e2704ce"
+    },
+    {
+      "id": "masonry-v12-4",
+      "triangles": 800,
+      "vertices": 638,
+      "authored_triangles": 1004,
+      "budget": 800,
+      "nonmanifold_edges_welded": 0,
+      "bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ],
+      "sha256": "354d857243a7b140bab9284cfadc8b9ca9d96bc48761f2365eb9de767c4ebc41"
+    },
+    {
+      "id": "masonry-v12-5",
+      "triangles": 800,
+      "vertices": 573,
+      "authored_triangles": 918,
+      "budget": 800,
+      "nonmanifold_edges_welded": 0,
+      "bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ],
+      "sha256": "cc6e58464458be1c60936b7f377e9cfd3eca775c29a9868240adb59f39b26515"
+    },
+    {
+      "id": "facade-v12-0",
+      "triangles": 180,
+      "vertices": 153,
+      "authored_triangles": 846,
+      "budget": 180,
+      "nonmanifold_edges_welded": 0,
+      "bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ],
+      "sha256": "311f00cf385c553befe46c8338b1cd900ae3d1c1e7c64d6c362d67c1288f5881"
+    },
+    {
+      "id": "facade-v12-1",
+      "triangles": 180,
+      "vertices": 155,
+      "authored_triangles": 842,
+      "budget": 180,
+      "nonmanifold_edges_welded": 0,
+      "bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ],
+      "sha256": "0a62cf8c5fc791dbc1565a3325c6b162247c627a12a5acc1e1044c3d679e4997"
+    }
+  ]
+}

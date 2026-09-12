@@ -1,0 +1,178 @@
+{
+    "name": "VESPER FHD",
+    "sources": [
+        {
+            "prev_ver": 537001985,
+            "name": "VESPER Game Capture",
+            "uuid": "1439a51e-4582-45a5-be99-79262912d6f8",
+            "id": "game_capture",
+            "versioned_id": "game_capture",
+            "settings": {
+                "capture_audio": false,
+                "capture_mode": "window",
+                "capture_cursor": false,
+                "limit_framerate": true,
+                "capture_overlays": false,
+                "window": "VESPER Unity migration:UnityWndClass:VesperLinear.exe"
+            },
+            "mixers": 255,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "hotkey_start": [],
+                "hotkey_stop": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 537001985,
+            "name": "VESPER",
+            "uuid": "1938290e-2dea-4560-bb4f-c7a1c116a843",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "items": [
+                    {
+                        "name": "VESPER Game Capture",
+                        "source_uuid": "1439a51e-4582-45a5-be99-79262912d6f8",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "align": 5,
+                        "bounds_type": 2,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 1,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ],
+                "id_counter": 1,
+                "custom_size": false
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.1": [],
+                "libobs.hide_scene_item.1": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
+            "private_settings": {}
+        }
+    ],
+    "groups": [],
+    "scene_order": [
+        {
+            "name": "VESPER"
+        }
+    ],
+    "current_scene": "VESPER",
+    "current_program_scene": "VESPER",
+    "canvases": [],
+    "current_transition": "서서히 사라지기",
+    "transition_duration": 300,
+    "transitions": [],
+    "quick_transitions": [],
+    "saved_projectors": [],
+    "preview_locked": false,
+    "scaling_enabled": false,
+    "scaling_level": 0,
+    "scaling_off_x": 0.0,
+    "scaling_off_y": 0.0,
+    "virtual-camera": {
+        "type2": 3
+    },
+    "modules": {
+        "scripts-tool": [
+            {
+                "path": "C:/Users/brian/AppData/Roaming/obs-studio/scripts/vesper_setup.lua",
+                "settings": {
+                    "evidence": "C:/Users/brian/Dev/active/Dream Loop Astra/Migration/Evidence/Expansion/LinearWorld/L09/obs-setup-20260911",
+                    "finished": false
+                }
+            }
+        ],
+        "output-timer": {
+            "streamTimerHours": 0,
+            "streamTimerMinutes": 0,
+            "streamTimerSeconds": 0,
+            "recordTimerHours": 0,
+            "recordTimerMinutes": 0,
+            "recordTimerSeconds": 0,
+            "autoStartStreamTimer": false,
+            "autoStartRecordTimer": false,
+            "pauseRecordTimer": false
+        },
+        "auto-scene-switcher": {
+            "interval": 300,
+            "non_matching_scene": "",
+            "switch_if_not_matching": false,
+            "active": false,
+            "switches": []
+        },
+        "captions": {
+            "source": "",
+            "enabled": false,
+            "lang_id": 1042,
+            "provider": "mssapi"
+        }
+    },
+    "resolution": {
+        "x": 1920,
+        "y": 1080
+    },
+    "version": 1
+}

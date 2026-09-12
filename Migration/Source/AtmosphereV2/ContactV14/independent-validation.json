@@ -1,0 +1,85 @@
+{
+  "status": "PASS",
+  "exact_removed_instances": 50,
+  "retained_instances": 49,
+  "rubble_clusters": 4,
+  "new_closed_fragments": 26,
+  "closed_contact_pockets": 4,
+  "tree_and_paving_sources_preserved": true,
+  "meshes": [
+    {
+      "file": "contact-v14-rubble.json",
+      "sha256": "7edb648a785c17c25611014ed090792e0b00888ea7d299ac5eb0c4ae808d87c8",
+      "vertices": 1524,
+      "triangles": 508,
+      "nonpositive_normal_dot": 0,
+      "degenerate_triangles": 0,
+      "welded_edge_errors": 0,
+      "minimum_cross_dot_sum_normals": 0.003517377075602296,
+      "max_normal_length_error": 1.4059537190025395e-07,
+      "signed_volume_m3": 0.15571487511986098,
+      "bounds": [
+        [
+          5.14356803894043,
+          -0.04332974553108215,
+          -6.84910774230957
+        ],
+        [
+          8.470000267028809,
+          0.08781183511018753,
+          1.0946117639541626
+        ]
+      ],
+      "cluster_fragment_diameter_ranges": [
+        {
+          "cluster": 0,
+          "min_m": 0.2664753970227367,
+          "max_m": 0.8401577961337071,
+          "ratio": 3.1528531546273357
+        },
+        {
+          "cluster": 1,
+          "min_m": 0.24999560841214546,
+          "max_m": 0.8296622345083736,
+          "ratio": 3.318707235611049
+        },
+        {
+          "cluster": 2,
+          "min_m": 0.25445651205198816,
+          "max_m": 0.7266467510692923,
+          "ratio": 2.855681488398421
+        },
+        {
+          "cluster": 3,
+          "min_m": 0.2375863623284289,
+          "max_m": 0.7755802487260108,
+          "ratio": 3.2644140056064455
+        }
+      ]
+    },
+    {
+      "file": "contact-v14-deposits.json",
+      "sha256": "db43062755e611af95441466b4c55dc7d9a998ce2ace3e14c5aba41d5763026e",
+      "vertices": 1728,
+      "triangles": 576,
+      "nonpositive_normal_dot": 0,
+      "degenerate_triangles": 0,
+      "welded_edge_errors": 0,
+      "minimum_cross_dot_sum_normals": 0.0013445281201499989,
+      "max_normal_length_error": 1.26284814161437e-07,
+      "signed_volume_m3": 0.06634563450704631,
+      "bounds": [
+        [
+          4.360618591308594,
+          -0.08260006457567215,
+          1.058613657951355
+        ],
+        [
+          8.67801570892334,
+          0.2242136150598526,
+          6.632275581359863
+        ]
+      ]
+    }
+  ]
+}

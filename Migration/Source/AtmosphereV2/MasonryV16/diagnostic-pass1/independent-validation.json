@@ -1,0 +1,1101 @@
+{
+  "status": "PASS",
+  "exact_untouched_stair_bodies": 45,
+  "exact_hero_instances": 8,
+  "exact_facade_removals": 63,
+  "bridge_sha256": "0da895372621f8bc9f651e19332bb57cc5c8f40f060881b5b4310449d6a52af9",
+  "meshes": [
+    {
+      "file": "facade-v16-mesh.json",
+      "sha256": "a6701c8e6db15caa23e9dc7791de86155a84efe14e35d3f2a7ea769aac4854c1",
+      "triangles": 44758,
+      "vertices": 134274,
+      "bounds": [
+        [
+          -9.799748132522208,
+          -3.4060000512599946,
+          -3.795255164087809
+        ],
+        [
+          -9.22523328959376,
+          -0.2939999964237213,
+          4.695141748296817
+        ]
+      ],
+      "minimum_normal_dot": 6.177696653426972e-07,
+      "parts": [
+        {
+          "name": "Running bond 0-0",
+          "triangles": 884,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.21441923307041755
+        },
+        {
+          "name": "Running bond 0-1",
+          "triangles": 892,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.26970822007954975
+        },
+        {
+          "name": "Running bond 0-2",
+          "triangles": 1004,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.25617333158040906
+        },
+        {
+          "name": "Running bond 0-3",
+          "triangles": 840,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.28003515509273563
+        },
+        {
+          "name": "Running bond 0-4",
+          "triangles": 912,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.24208566973205992
+        },
+        {
+          "name": "Running bond 0-5",
+          "triangles": 958,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.27728990189294817
+        },
+        {
+          "name": "Running bond 0-6",
+          "triangles": 822,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.32224198451093766
+        },
+        {
+          "name": "Running bond 1-0",
+          "triangles": 860,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.3461013900453221
+        },
+        {
+          "name": "Running bond 1-1",
+          "triangles": 1010,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.26016432307015586
+        },
+        {
+          "name": "Running bond 1-2",
+          "triangles": 864,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.27001647046817706
+        },
+        {
+          "name": "Running bond 1-3",
+          "triangles": 894,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.2841035192224027
+        },
+        {
+          "name": "Running bond 1-4",
+          "triangles": 970,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.27923610105770474
+        },
+        {
+          "name": "Running bond 1-5",
+          "triangles": 870,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.26108498756062026
+        },
+        {
+          "name": "Running bond 1-6",
+          "triangles": 978,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.21930372521347077
+        },
+        {
+          "name": "Running bond 2-0",
+          "triangles": 1016,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.22086128247122452
+        },
+        {
+          "name": "Running bond 2-1",
+          "triangles": 874,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.2553005101588899
+        },
+        {
+          "name": "Running bond 2-2",
+          "triangles": 890,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.27952896768780605
+        },
+        {
+          "name": "Running bond 2-3",
+          "triangles": 990,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.25582859457411483
+        },
+        {
+          "name": "Running bond 2-4",
+          "triangles": 846,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.2904272443561015
+        },
+        {
+          "name": "Running bond 2-5",
+          "triangles": 956,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.272176541470488
+        },
+        {
+          "name": "Running bond 2-6",
+          "triangles": 866,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.32243375007095637
+        },
+        {
+          "name": "Running bond 3-0",
+          "triangles": 800,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.3519906778825117
+        },
+        {
+          "name": "Running bond 3-1",
+          "triangles": 912,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.2554886732972748
+        },
+        {
+          "name": "Running bond 3-2",
+          "triangles": 976,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.27337480885664905
+        },
+        {
+          "name": "Running bond 3-3",
+          "triangles": 854,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.29146820048691097
+        },
+        {
+          "name": "Running bond 3-4",
+          "triangles": 986,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.2532275829688497
+        },
+        {
+          "name": "Running bond 3-5",
+          "triangles": 910,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.2926848217765243
+        },
+        {
+          "name": "Running bond 3-6",
+          "triangles": 914,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.19991569916832694
+        },
+        {
+          "name": "Running bond 4-0",
+          "triangles": 928,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.22138464347853018
+        },
+        {
+          "name": "Running bond 4-1",
+          "triangles": 960,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.26611750990079175
+        },
+        {
+          "name": "Running bond 4-2",
+          "triangles": 860,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.2410142886141465
+        },
+        {
+          "name": "Running bond 4-3",
+          "triangles": 958,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.25320890746457997
+        },
+        {
+          "name": "Running bond 4-4",
+          "triangles": 928,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.2605237218838874
+        },
+        {
+          "name": "Running bond 4-5",
+          "triangles": 842,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.27626793980045655
+        },
+        {
+          "name": "Running bond 4-6",
+          "triangles": 876,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.3120357994962137
+        },
+        {
+          "name": "Running bond 5-0",
+          "triangles": 912,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.3338385110896433
+        },
+        {
+          "name": "Running bond 5-1",
+          "triangles": 860,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.2874978334938551
+        },
+        {
+          "name": "Running bond 5-2",
+          "triangles": 980,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.26320347471053784
+        },
+        {
+          "name": "Running bond 5-3",
+          "triangles": 944,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.26757859682700574
+        },
+        {
+          "name": "Running bond 5-4",
+          "triangles": 856,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.30182161529956336
+        },
+        {
+          "name": "Running bond 5-5",
+          "triangles": 918,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.2639990691836651
+        },
+        {
+          "name": "Running bond 5-6",
+          "triangles": 1018,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.2085119225108357
+        },
+        {
+          "name": "Running bond 6-0",
+          "triangles": 880,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.21522127993551043
+        },
+        {
+          "name": "Running bond 6-1",
+          "triangles": 972,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.2576420523142648
+        },
+        {
+          "name": "Running bond 6-2",
+          "triangles": 938,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.2631956379546936
+        },
+        {
+          "name": "Running bond 6-3",
+          "triangles": 838,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.2948170869246611
+        },
+        {
+          "name": "Running bond 6-4",
+          "triangles": 918,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.2529034931391852
+        },
+        {
+          "name": "Running bond 6-5",
+          "triangles": 972,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.27987159435157
+        },
+        {
+          "name": "Running bond 6-6",
+          "triangles": 852,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.31462878359553414
+        }
+      ]
+    },
+    {
+      "file": "stairs-v16-mesh.json",
+      "sha256": "b4e7f1200f174f5848cc92a4ed341a52fd59a69b821c73c56cc2c4733825b1e6",
+      "triangles": 69120,
+      "vertices": 136860,
+      "bounds": [
+        [
+          -6.781499892473221,
+          0.009999999999999953,
+          -6.398135662078857
+        ],
+        [
+          1.1615000069141388,
+          2.9419901371002197,
+          -1.459
+        ]
+      ],
+      "minimum_normal_dot": 8.141448701840016e-09,
+      "parts": [
+        {
+          "name": "Preserved V13 row 1 tone 0.9180271369967543",
+          "triangles": 764,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.164937575227283
+        },
+        {
+          "name": "Preserved V13 row 1 tone 0.9698120156994765",
+          "triangles": 764,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.13946252046091787
+        },
+        {
+          "name": "Preserved V13 row 1 tone 0.9521048638322105",
+          "triangles": 718,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.13594694496578857
+        },
+        {
+          "name": "Preserved V13 row 1 tone 1.0020211153479777",
+          "triangles": 562,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.15630479611725065
+        },
+        {
+          "name": "Preserved V13 row 1 tone 1.0140160688708668",
+          "triangles": 764,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.14106379146178216
+        },
+        {
+          "name": "Preserved V13 row 1 tone 0.9217306441920173",
+          "triangles": 706,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.14309672975323076
+        },
+        {
+          "name": "Preserved V13 row 1 tone 0.9568254815709317",
+          "triangles": 764,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.13808233245062987
+        },
+        {
+          "name": "Preserved V13 row 1 tone 1.025025532229433",
+          "triangles": 764,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.14220537593204052
+        },
+        {
+          "name": "Preserved V13 row 1 tone 0.9437036328539661",
+          "triangles": 754,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.11574903540482823
+        },
+        {
+          "name": "Preserved V13 row 3 tone 0.9517828039186647",
+          "triangles": 764,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.16995995025629884
+        },
+        {
+          "name": "Preserved V13 row 3 tone 1.0070400583849661",
+          "triangles": 730,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.15093043239711398
+        },
+        {
+          "name": "Preserved V13 row 3 tone 0.9888844382296933",
+          "triangles": 764,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.1400120041693195
+        },
+        {
+          "name": "Preserved V13 row 3 tone 1.0380918187443018",
+          "triangles": 764,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.1356564525776839
+        },
+        {
+          "name": "Preserved V13 row 3 tone 0.9115936140113625",
+          "triangles": 714,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.14881243649122455
+        },
+        {
+          "name": "Preserved V13 row 3 tone 0.9575593127306583",
+          "triangles": 562,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.13179283545230067
+        },
+        {
+          "name": "Preserved V13 row 3 tone 0.9447955005958472",
+          "triangles": 764,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.13533314032296898
+        },
+        {
+          "name": "Preserved V13 row 3 tone 0.9391105293861832",
+          "triangles": 710,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.14984281699640858
+        },
+        {
+          "name": "Preserved V13 row 3 tone 0.9767163760602267",
+          "triangles": 764,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.11702697026020893
+        },
+        {
+          "name": "Preserved V13 row 5 tone 0.9645406985128613",
+          "triangles": 706,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.17818111536717796
+        },
+        {
+          "name": "Preserved V13 row 5 tone 0.9199291838304043",
+          "triangles": 562,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.13424044164946256
+        },
+        {
+          "name": "Preserved V13 row 5 tone 1.0204428998273263",
+          "triangles": 764,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.1459297479132356
+        },
+        {
+          "name": "Preserved V13 row 5 tone 0.9749213752265755",
+          "triangles": 720,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.14135798649228853
+        },
+        {
+          "name": "Preserved V13 row 5 tone 0.9201479700885071",
+          "triangles": 764,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.13997094392828535
+        },
+        {
+          "name": "Preserved V13 row 5 tone 0.9967143001746837",
+          "triangles": 764,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.14639280116407016
+        },
+        {
+          "name": "Preserved V13 row 5 tone 0.9256994861077918",
+          "triangles": 708,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.13720534325649794
+        },
+        {
+          "name": "Preserved V13 row 5 tone 0.9355926754387529",
+          "triangles": 562,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.1404783246237902
+        },
+        {
+          "name": "Preserved V13 row 5 tone 1.0387211307385285",
+          "triangles": 764,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.11363173617462229
+        },
+        {
+          "name": "Preserved V13 row 7 tone 1.0272741709773843",
+          "triangles": 764,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.1690842168269214
+        },
+        {
+          "name": "Preserved V13 row 7 tone 0.945945251152528",
+          "triangles": 764,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.14114426413374057
+        },
+        {
+          "name": "Preserved V13 row 7 tone 0.9687393607800734",
+          "triangles": 734,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.14073352419681187
+        },
+        {
+          "name": "Preserved V13 row 7 tone 0.9744266770105315",
+          "triangles": 562,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.1539579638016821
+        },
+        {
+          "name": "Preserved V13 row 7 tone 1.0057141482098921",
+          "triangles": 764,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.13947062752589295
+        },
+        {
+          "name": "Preserved V13 row 7 tone 0.9424986569008191",
+          "triangles": 724,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.13924745187869875
+        },
+        {
+          "name": "Preserved V13 row 7 tone 1.0197996798615347",
+          "triangles": 764,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.12722944546339887
+        },
+        {
+          "name": "Preserved V13 row 7 tone 0.9711922588313062",
+          "triangles": 764,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.14222133195903777
+        },
+        {
+          "name": "Preserved V13 row 7 tone 1.0119057733171857",
+          "triangles": 710,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.12238569494299911
+        },
+        {
+          "name": "Preserved V13 row 9 tone 0.9472762254004938",
+          "triangles": 764,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.16392188361947127
+        },
+        {
+          "name": "Preserved V13 row 9 tone 0.9430082429795016",
+          "triangles": 726,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.1516215022851626
+        },
+        {
+          "name": "Preserved V13 row 9 tone 0.9998804993076769",
+          "triangles": 764,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.1465027055010335
+        },
+        {
+          "name": "Preserved V13 row 9 tone 0.9479012994340733",
+          "triangles": 764,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.13910335754891376
+        },
+        {
+          "name": "Preserved V13 row 9 tone 0.9972252617096802",
+          "triangles": 726,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.1392803885039037
+        },
+        {
+          "name": "Preserved V13 row 9 tone 0.9411562109231059",
+          "triangles": 562,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.1401971458026254
+        },
+        {
+          "name": "Preserved V13 row 9 tone 0.9472542763723919",
+          "triangles": 764,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.14243357073219473
+        },
+        {
+          "name": "Preserved V13 row 9 tone 1.0105099618934286",
+          "triangles": 724,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.13910882746557326
+        },
+        {
+          "name": "Preserved V13 row 9 tone 0.9913919748635431",
+          "triangles": 764,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.11792400797324332
+        },
+        {
+          "name": "Lithic stair 00-00",
+          "triangles": 696,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.2001661304242901
+        },
+        {
+          "name": "Lithic stair 00-01",
+          "triangles": 728,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.13377152443955845
+        },
+        {
+          "name": "Lithic stair 00-02",
+          "triangles": 610,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.2951729464305355
+        },
+        {
+          "name": "Lithic stair 00-03",
+          "triangles": 834,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.14703663040264706
+        },
+        {
+          "name": "Lithic stair 00-04",
+          "triangles": 916,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.0662346553359802
+        },
+        {
+          "name": "Lithic stair 00-05",
+          "triangles": 876,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.06412006920721434
+        },
+        {
+          "name": "Lithic stair 00-06",
+          "triangles": 854,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.13301763043488865
+        },
+        {
+          "name": "Lithic stair 00-07",
+          "triangles": 796,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.1469377682732065
+        },
+        {
+          "name": "Lithic stair 00-08",
+          "triangles": 898,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.08244491218993143
+        },
+        {
+          "name": "Lithic stair 02-00",
+          "triangles": 788,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.14173468014541143
+        },
+        {
+          "name": "Lithic stair 02-01",
+          "triangles": 832,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.14774362114270292
+        },
+        {
+          "name": "Lithic stair 02-02",
+          "triangles": 868,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.14116065209912465
+        },
+        {
+          "name": "Lithic stair 02-03",
+          "triangles": 854,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.1317130604368025
+        },
+        {
+          "name": "Lithic stair 02-04",
+          "triangles": 850,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.14437153998756447
+        },
+        {
+          "name": "Lithic stair 02-05",
+          "triangles": 810,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.13211836270358948
+        },
+        {
+          "name": "Lithic stair 02-06",
+          "triangles": 876,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.13188323184832312
+        },
+        {
+          "name": "Lithic stair 02-07",
+          "triangles": 804,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.15083207750939895
+        },
+        {
+          "name": "Lithic stair 02-08",
+          "triangles": 762,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.1456748588359865
+        },
+        {
+          "name": "Lithic stair 04-00",
+          "triangles": 778,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.20366354315062363
+        },
+        {
+          "name": "Lithic stair 04-01",
+          "triangles": 850,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.1350637818793479
+        },
+        {
+          "name": "Lithic stair 04-02",
+          "triangles": 682,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.28589930451293427
+        },
+        {
+          "name": "Lithic stair 04-03",
+          "triangles": 798,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.1455905990591639
+        },
+        {
+          "name": "Lithic stair 04-04",
+          "triangles": 892,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.06894555545251625
+        },
+        {
+          "name": "Lithic stair 04-05",
+          "triangles": 894,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.06647551179634209
+        },
+        {
+          "name": "Lithic stair 04-06",
+          "triangles": 772,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.13717601732971232
+        },
+        {
+          "name": "Lithic stair 04-07",
+          "triangles": 782,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.14200827746487552
+        },
+        {
+          "name": "Lithic stair 04-08",
+          "triangles": 936,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.08335708951048697
+        },
+        {
+          "name": "Lithic stair 06-00",
+          "triangles": 850,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.14009733222700516
+        },
+        {
+          "name": "Lithic stair 06-01",
+          "triangles": 802,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.14169126764900142
+        },
+        {
+          "name": "Lithic stair 06-02",
+          "triangles": 876,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.13239304207918887
+        },
+        {
+          "name": "Lithic stair 06-03",
+          "triangles": 794,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.15279791509894944
+        },
+        {
+          "name": "Lithic stair 06-04",
+          "triangles": 766,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.14168191359319304
+        },
+        {
+          "name": "Lithic stair 06-05",
+          "triangles": 786,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.1367680630118422
+        },
+        {
+          "name": "Lithic stair 06-06",
+          "triangles": 902,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.12438164554243898
+        },
+        {
+          "name": "Lithic stair 06-07",
+          "triangles": 800,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.14451219326511455
+        },
+        {
+          "name": "Lithic stair 06-08",
+          "triangles": 774,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.15325304011096974
+        },
+        {
+          "name": "Lithic stair 08-00",
+          "triangles": 812,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.18997699017972902
+        },
+        {
+          "name": "Lithic stair 08-01",
+          "triangles": 810,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.14382809583421122
+        },
+        {
+          "name": "Lithic stair 08-02",
+          "triangles": 600,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.2967869922480959
+        },
+        {
+          "name": "Lithic stair 08-03",
+          "triangles": 788,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.13491342655448166
+        },
+        {
+          "name": "Lithic stair 08-04",
+          "triangles": 936,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.06735500026957697
+        },
+        {
+          "name": "Lithic stair 08-05",
+          "triangles": 880,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.06509652892114969
+        },
+        {
+          "name": "Lithic stair 08-06",
+          "triangles": 782,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.14643162258236794
+        },
+        {
+          "name": "Lithic stair 08-07",
+          "triangles": 714,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.13398165588240118
+        },
+        {
+          "name": "Lithic stair 08-08",
+          "triangles": 894,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.09030765324315164
+        }
+      ]
+    },
+    {
+      "file": "hero-v16-0.json",
+      "sha256": "12c04ae540d1cedddfda5894570dfd55d3b6dad433997902513e667cabad290b",
+      "triangles": 862,
+      "vertices": 2586,
+      "bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5000000000000001
+        ]
+      ],
+      "minimum_normal_dot": 4.666057372025957e-05,
+      "parts": [
+        {
+          "name": "Lower visible hero 0",
+          "triangles": 862,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.9623348038879729
+        }
+      ]
+    },
+    {
+      "file": "hero-v16-1.json",
+      "sha256": "d4dfface3b0334086f56e2c2f342862569b379b110659e7a3972cf45945c643d",
+      "triangles": 940,
+      "vertices": 2820,
+      "bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ],
+      "minimum_normal_dot": 2.235854568656594e-05,
+      "parts": [
+        {
+          "name": "Lower visible hero 1",
+          "triangles": 940,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.9572400691542589
+        }
+      ]
+    },
+    {
+      "file": "hero-v16-2.json",
+      "sha256": "bf5146393cc1303887df7e21eccec4189d1b6d2729272b5d06360e0c7b035d20",
+      "triangles": 972,
+      "vertices": 2916,
+      "bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ],
+      "minimum_normal_dot": 6.128776451246788e-06,
+      "parts": [
+        {
+          "name": "Lower visible hero 2",
+          "triangles": 972,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.9595446156900644
+        }
+      ]
+    },
+    {
+      "file": "hero-v16-3.json",
+      "sha256": "741d24ae85ab52373f7fb24e8a731b15ca99af1a84a8a4dd3a98f289fc61c300",
+      "triangles": 994,
+      "vertices": 2982,
+      "bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ],
+      "minimum_normal_dot": 4.3338530380398235e-05,
+      "parts": [
+        {
+          "name": "Lower visible hero 3",
+          "triangles": 994,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.9558145697283477
+        }
+      ]
+    },
+    {
+      "file": "hero-v16-4.json",
+      "sha256": "a5fcab7602d7bc0d9749688159d1cb42c3aef331a933c6861bc546cf05bc9d4f",
+      "triangles": 1016,
+      "vertices": 3048,
+      "bounds": [
+        [
+          -0.5000000000000001,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ],
+      "minimum_normal_dot": 1.2290302911790027e-06,
+      "parts": [
+        {
+          "name": "Lower visible hero 4",
+          "triangles": 1016,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.9564370808770947
+        }
+      ]
+    },
+    {
+      "file": "hero-v16-5.json",
+      "sha256": "3ad3c628f04307aa4632f2a04fb281e632eb1b336d1e1f2e04af7660c649df03",
+      "triangles": 944,
+      "vertices": 2832,
+      "bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ],
+      "minimum_normal_dot": 4.013767027455298e-05,
+      "parts": [
+        {
+          "name": "Lower visible hero 5",
+          "triangles": 944,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.9539143960049176
+        }
+      ]
+    },
+    {
+      "file": "hero-v16-6.json",
+      "sha256": "176944742fdd39d6022e1e0e08a30817f899bbd3089a271d26e87670df331491",
+      "triangles": 804,
+      "vertices": 2412,
+      "bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ],
+      "minimum_normal_dot": 2.2489250924197355e-06,
+      "parts": [
+        {
+          "name": "Lower visible hero 6",
+          "triangles": 804,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.9535452084964975
+        }
+      ]
+    },
+    {
+      "file": "hero-v16-7.json",
+      "sha256": "008ae11ebc36e5a9bb777a09c248b96f3d5bcc5af590d98ad4ae832de70e19b8",
+      "triangles": 778,
+      "vertices": 2334,
+      "bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ],
+      "minimum_normal_dot": 5.831483175208676e-05,
+      "parts": [
+        {
+          "name": "Lower visible hero 7",
+          "triangles": 778,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.9550326935996979
+        }
+      ]
+    }
+  ]
+}

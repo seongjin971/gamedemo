@@ -1,0 +1,32 @@
+{
+    "mode": "-worldManual",
+    "device": "Intel(R) Arc(TM) 130V GPU (8GB)",
+    "note": "Opt-in runtime evidence. Synthetic pointer checks and automatic placement are not native device acceptance. Natural frame cadence is not display-present timing.",
+    "width": 1536,
+    "height": 1024,
+    "failures": 0,
+    "samples": 51697,
+    "clicks": 4,
+    "blocked": 1,
+    "drags": 1,
+    "zooms": 1,
+    "resets": 1,
+    "safetyStops": 0,
+    "fixturePlacements": 3,
+    "nativeShiftFrames": 1,
+    "shiftChanges": 2,
+    "distance": 18.607540130615236,
+    "nativeRunDistance": 0.0,
+    "position": {
+        "x": 0.0,
+        "y": 0.800000011920929,
+        "z": 0.0
+    },
+    "checks": [
+        "MANUAL FIXTURE placement at 45; not continuous traversal or a native movement click",
+        "MANUAL FIXTURE placement at 180; not continuous traversal or a native movement click",
+        "MANUAL FIXTURE placement at 342; not continuous traversal or a native movement click"
+    ],
+    "errors": [],
+    "performance": []
+}

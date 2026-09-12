@@ -1,0 +1,208 @@
+{
+  "sourceHashesBefore": {
+    "C:\\Users\\brian\\Dev\\active\\Dream Loop Astra\\Migration\\Source\\AtmosphereV2\\Knight\\knight-v3.blend": "3753bd0d79b6e45a2b2fc81b3311e2b179b9efc54be8c0a1b90e87e467abffc5",
+    "C:\\Users\\brian\\Dev\\active\\Dream Loop Astra\\Migration\\Source\\AtmosphereV2\\Knight\\knight-v3-unity-meshes.json": "a091f8d911e4a4d3e0f006f3e347dcb55dbac0a98bbf8f90227c48be31223018"
+  },
+  "sourceHashesAfter": {
+    "C:\\Users\\brian\\Dev\\active\\Dream Loop Astra\\Migration\\Source\\AtmosphereV2\\Knight\\knight-v3.blend": "3753bd0d79b6e45a2b2fc81b3311e2b179b9efc54be8c0a1b90e87e467abffc5",
+    "C:\\Users\\brian\\Dev\\active\\Dream Loop Astra\\Migration\\Source\\AtmosphereV2\\Knight\\knight-v3-unity-meshes.json": "a091f8d911e4a4d3e0f006f3e347dcb55dbac0a98bbf8f90227c48be31223018"
+  },
+  "sourceUnchanged": true,
+  "allOriginalTransformsAndParentsPreserved": true,
+  "allOtherBlenderMeshesExact": true,
+  "allMaterialsPreserved": true,
+  "capePreviousTriangles": 12476,
+  "capeNewTriangles": 7736,
+  "capeTriangleDelta": -4740,
+  "capeBlenderLocalBoundsBefore": [
+    [
+      -0.3209093511104584,
+      0.39161306619644165
+    ],
+    [
+      0.003576332237571478,
+      0.4662749171257019
+    ],
+    [
+      -0.9946776032447815,
+      0.001393439364619553
+    ]
+  ],
+  "capeBlenderLocalBoundsAfter": [
+    [
+      -0.32137808203697205,
+      0.3924098312854767
+    ],
+    [
+      0.019619986414909363,
+      0.47465240955352783
+    ],
+    [
+      -0.9764831066131592,
+      0.0013137066271156073
+    ]
+  ],
+  "meshes": [
+    {
+      "name": "Icosphere004_rounded_v2",
+      "vertices": 9972,
+      "triangles": 3324,
+      "exactRecordPreserved": true,
+      "normalMaxLengthError": 1.0467031663630166e-07,
+      "minTriangleArea": 2.3286315281953194e-11,
+      "minFaceNormalAlignment": -0.9996559545397758,
+      "bounds": [
+        [
+          -0.8445043563842773,
+          0.8445043563842773
+        ],
+        [
+          -0.34542402625083923,
+          0.5269412398338318
+        ],
+        [
+          -0.8111110925674438,
+          0.8111110925674438
+        ]
+      ]
+    },
+    {
+      "name": "Icosphere004_rounded_v2_1",
+      "vertices": 2304,
+      "triangles": 768,
+      "exactRecordPreserved": true,
+      "normalMaxLengthError": 1.141023477924108e-07,
+      "minTriangleArea": 0.0006425237001588484,
+      "minFaceNormalAlignment": 0.9606795310974121,
+      "bounds": [
+        [
+          -0.8638226985931396,
+          0.8638226985931396
+        ],
+        [
+          -0.3552594482898712,
+          0.10393954068422318
+        ],
+        [
+          -0.829444408416748,
+          0.829444408416748
+        ]
+      ]
+    },
+    {
+      "name": "Icosphere007_rounded_v2",
+      "vertices": 9972,
+      "triangles": 3324,
+      "exactRecordPreserved": true,
+      "normalMaxLengthError": 1.0495508129260145e-07,
+      "minTriangleArea": 2.484286777263797e-11,
+      "minFaceNormalAlignment": -0.9996755458414555,
+      "bounds": [
+        [
+          -0.8445043563842773,
+          0.8445043563842773
+        ],
+        [
+          -0.34542402625083923,
+          0.5269412398338318
+        ],
+        [
+          -0.8111110925674438,
+          0.8111110925674438
+        ]
+      ]
+    },
+    {
+      "name": "Icosphere007_rounded_v2_1",
+      "vertices": 2304,
+      "triangles": 768,
+      "exactRecordPreserved": true,
+      "normalMaxLengthError": 1.141023477924108e-07,
+      "minTriangleArea": 0.0006425236994676845,
+      "minFaceNormalAlignment": 0.9617767482995987,
+      "bounds": [
+        [
+          -0.8638226985931396,
+          0.8638226985931396
+        ],
+        [
+          -0.3552594482898712,
+          0.10393954068422318
+        ],
+        [
+          -0.829444408416748,
+          0.829444408416748
+        ]
+      ]
+    },
+    {
+      "name": "Heavy_folded_crimson_cape",
+      "vertices": 23208,
+      "triangles": 7736,
+      "exactRecordPreserved": false,
+      "normalMaxLengthError": 1.2776138647030422e-07,
+      "minTriangleArea": 2.681757719704421e-05,
+      "minFaceNormalAlignment": 0.7048831209540367,
+      "bounds": [
+        [
+          -0.3924098312854767,
+          0.32137808203697205
+        ],
+        [
+          -0.9764831066131592,
+          0.0013137066271156073
+        ],
+        [
+          -0.47465240955352783,
+          -0.019619986414909363
+        ]
+      ]
+    },
+    {
+      "name": "LeftArm_Polished forged edges",
+      "vertices": 456,
+      "triangles": 152,
+      "exactRecordPreserved": true,
+      "normalMaxLengthError": 4.8718539202852185e-08,
+      "minTriangleArea": 1.3856342584349607e-05,
+      "minFaceNormalAlignment": 0.9999999366700649,
+      "bounds": [
+        [
+          -0.021026119589805603,
+          0.13102613389492035
+        ],
+        [
+          -0.5250000357627869,
+          -0.22199998795986176
+        ],
+        [
+          -0.07581079751253128,
+          0.12450000643730164
+        ]
+      ]
+    },
+    {
+      "name": "RightArm_Polished forged edges",
+      "vertices": 456,
+      "triangles": 152,
+      "exactRecordPreserved": true,
+      "normalMaxLengthError": 4.8718539202852185e-08,
+      "minTriangleArea": 1.3856342584349607e-05,
+      "minFaceNormalAlignment": 0.9999999366700649,
+      "bounds": [
+        [
+          -0.13102613389492035,
+          0.021026119589805603
+        ],
+        [
+          -0.5250000357627869,
+          -0.22199998795986176
+        ],
+        [
+          -0.07581079751253128,
+          0.12450000643730164
+        ]
+      ]
+    }
+  ]
+}

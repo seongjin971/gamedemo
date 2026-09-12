@@ -1,0 +1,241 @@
+{
+  "source": "C:\\Users\\brian\\Videos\\화면 녹화\\화면 녹화 중 2026-09-11 205624.mp4",
+  "metadata": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "Main",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "mime_codec_string": "avc1.4d0033",
+        "width": 2880,
+        "height": 1800,
+        "coded_width": 2880,
+        "coded_height": 1800,
+        "has_b_frames": 0,
+        "sample_aspect_ratio": "1:1",
+        "display_aspect_ratio": "8:5",
+        "pix_fmt": "yuv420p",
+        "level": 51,
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "30/1",
+        "avg_frame_rate": "30/1",
+        "time_base": "1/30000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 1785000,
+        "duration": "59.500000",
+        "bit_rate": "21660808",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "1785",
+        "extradata_size": 54,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "creation_time": "2026-09-11T11:55:25.000000Z",
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "encoder": "AVC Coding"
+        }
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_long_name": "AAC (Advanced Audio Coding)",
+        "profile": "LC",
+        "codec_type": "audio",
+        "codec_tag_string": "mp4a",
+        "codec_tag": "0x6134706d",
+        "mime_codec_string": "mp4a.40.2",
+        "sample_fmt": "fltp",
+        "sample_rate": "48000",
+        "channels": 2,
+        "channel_layout": "stereo",
+        "bits_per_sample": 0,
+        "initial_padding": 0,
+        "id": "0x2",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/48000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 2855935,
+        "duration": "59.498646",
+        "bit_rate": "192000",
+        "nb_frames": "2789",
+        "extradata_size": 2,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "creation_time": "2026-09-11T11:55:25.000000Z",
+          "language": "und",
+          "handler_name": "SoundHandler"
+        }
+      }
+    ],
+    "format": {
+      "filename": "C:\\Users\\brian\\Videos\\화면 녹화\\화면 녹화 중 2026-09-11 205624.mp4",
+      "nb_streams": 2,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "59.500000",
+      "size": "162553117",
+      "bit_rate": "21855881",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "mp42",
+        "minor_version": "0",
+        "compatible_brands": "mp41isom",
+        "creation_time": "2026-09-11T11:55:25.000000Z"
+      }
+    }
+  },
+  "analysis": "Read-only decode at160x100 grayscale; near-duplicate MAD<0.10 is heuristic, not proof of every dropped frame. Static scenes may also produce similar frames.",
+  "frames": 1785,
+  "exactRepeatedScaledFrames": 0,
+  "nearRepeatedScaledFrames": 355,
+  "medianFrameDifference": 4.05790625,
+  "holds": [
+    {
+      "startSeconds": 13.333,
+      "durationSeconds": 0.067,
+      "nextFrameMeanDifference": 5.0899
+    },
+    {
+      "startSeconds": 27.433,
+      "durationSeconds": 0.067,
+      "nextFrameMeanDifference": 4.5015
+    },
+    {
+      "startSeconds": 29.3,
+      "durationSeconds": 0.067,
+      "nextFrameMeanDifference": 5.4667
+    },
+    {
+      "startSeconds": 32.6,
+      "durationSeconds": 0.067,
+      "nextFrameMeanDifference": 2.5074
+    },
+    {
+      "startSeconds": 42.3,
+      "durationSeconds": 0.067,
+      "nextFrameMeanDifference": 0.265
+    }
+  ],
+  "fiveSecondBins": [
+    {
+      "start": 0,
+      "nearRepeats": 30,
+      "pairs": 150,
+      "medianDifference": 4.2355625
+    },
+    {
+      "start": 5,
+      "nearRepeats": 36,
+      "pairs": 150,
+      "medianDifference": 3.729
+    },
+    {
+      "start": 10,
+      "nearRepeats": 32,
+      "pairs": 150,
+      "medianDifference": 4.81334375
+    },
+    {
+      "start": 15,
+      "nearRepeats": 28,
+      "pairs": 150,
+      "medianDifference": 3.71584375
+    },
+    {
+      "start": 20,
+      "nearRepeats": 28,
+      "pairs": 150,
+      "medianDifference": 3.1700625000000002
+    },
+    {
+      "start": 25,
+      "nearRepeats": 29,
+      "pairs": 150,
+      "medianDifference": 3.28340625
+    },
+    {
+      "start": 30,
+      "nearRepeats": 29,
+      "pairs": 150,
+      "medianDifference": 2.73753125
+    },
+    {
+      "start": 35,
+      "nearRepeats": 29,
+      "pairs": 150,
+      "medianDifference": 3.60746875
+    },
+    {
+      "start": 40,
+      "nearRepeats": 35,
+      "pairs": 150,
+      "medianDifference": 8.831125
+    },
+    {
+      "start": 45,
+      "nearRepeats": 22,
+      "pairs": 150,
+      "medianDifference": 10.72671875
+    },
+    {
+      "start": 50,
+      "nearRepeats": 26,
+      "pairs": 150,
+      "medianDifference": 11.341750000000001
+    }
+  ]
+}

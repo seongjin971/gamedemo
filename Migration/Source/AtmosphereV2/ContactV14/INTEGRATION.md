@@ -1,0 +1,17 @@
+# Contact V14 integration contract
+
+This source package owns no Unity files. The output JSON meshes contain native Unity world positions, normals, UVs, RGBA colors and strict triangle winding. Import both at identity position/rotation/scale; do not apply the tree Transform again.
+
+`rubble-removal-manifest.json` freezes exactly 50 original bridge instances and explicitly records 49 retained instances from the same 99-member region. Each record has the original node UUID, unfiltered instance index, geometry/material UUID, and exact position/quaternion/scale/color. Verify the bridge SHA256 and every field. The selection was identified from the two original loose-offcut loops in `src/world.js`, including their height/scale equations, then restricted to the left rear/parapet region. Structural wall blocks, the stair manifest, tree, paving and other loose rubble are not in the removal set.
+
+Integrate the removal set in the existing `InstallStone` batching loop **before** calling `AppendStone`. Keep the original selected-array/chunk numbering unchanged. Do not remove merged batches, entire geometry UUIDs, or nearby objects by spatial approximation. The existing masonry and stair replacements remain active.
+
+`contact-v14-rubble.json` adds 26 closed flat wedge/fracture fragments in four unequal groups. Old retained pieces near those groups remain, while isolated offcuts were preferentially removed to create empty intervals. The intended nominal fragment lengths are 0.28–0.96 m. Both new assets use the existing Rock05 stone material and their supplied vertex colors; no new photographic map is required. The three soil bodies use muted brown color and the vertical pocket muted olive. These are mineral-grain contact deposits, not a newly scanned botanical moss asset.
+
+`contact-v14-deposits.json` contains three horizontal soil pockets and one small vertical parapet pocket. Their geometry is projected against the recorded paving and actual V12 support stone. Pockets are smaller than a typical paving slab. There are no added upright grass fragments or uniformly scattered specks.
+
+`world-contact-evidence.json` records the exact TreeV12 source, inherited parent Transform and -20-degree mesh-local yaw. The combined yaw is approximately -25.729578 degrees, scale 1.73, world origin (7.2,0,3.7). Four root samples are actual source vertices, not inferred points on the crown AABB. The fourth outer sample lies beyond the paving. Its replacement is a real root vertex near the inward parapet surface, with the exact retained support stone identity recorded. Do not move the tree or change its navigation hull to fit these deposits.
+
+The final height dependency is PavingV14, SHA256 `00ee641f13bdc841a4d0fd531379380a33952ee8f952133e750380e9e4be5c59`. All fragment support samples and horizontal pocket vertices were reprojected to that complete floor. The earlier V13 experiment is retained as context evidence only. Preserve this separation from the root's navigation clearance of 0.28 m: a visual contact deposit is not a replacement navigation boundary.
+
+Run `prepare_contact.py` (default V14), then Blender `build_contact_v14.py`, then `validate_contact.py`. `--geometry-only` skips all renders; `--contact-previews-only` rerenders the two overviews and contact close-up. Source context is for local geometry review and does not reproduce native lighting, photographic shader response or performance.

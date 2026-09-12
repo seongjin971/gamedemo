@@ -1,0 +1,17 @@
+{
+  "note": "Approximate low-toe contact proxy from natural captured frames. Select constant cruise speed and low toe height. Not sole geometry, not a visual acceptance test. Turning may inflate maxima.",
+  "feet": {
+    "leftToe": {
+      "min_height": 0.05663580819964409,
+      "samples": 25,
+      "median_m_per_s": 0.020356502413823432,
+      "max_m_per_s": 0.07475265254495313
+    },
+    "rightToe": {
+      "min_height": 0.05611669272184372,
+      "samples": 15,
+      "median_m_per_s": 0.02702736844352294,
+      "max_m_per_s": 0.054642984763049074
+    }
+  }
+}

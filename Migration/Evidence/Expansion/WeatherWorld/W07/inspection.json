@@ -1,0 +1,250 @@
+{
+    "shelter": {
+        "m_Center": {
+            "x": 7.0,
+            "y": 4.300000190734863,
+            "z": -195.5
+        },
+        "m_Extent": {
+            "x": 1.5499999523162842,
+            "y": 2.200000047683716,
+            "z": 1.7000000476837159
+        }
+    },
+    "items": [
+        {
+            "name": "CW_ChapelBrokenSlateRoof6x8m",
+            "path": "Linear terrain and collision/Authored linear landscape/ChapelSurfaces/CW_ChapelBrokenSlateRoof6x8m/CW_ChapelBrokenSlateRoof6x8m",
+            "position": {
+                "x": 7.0,
+                "y": 6.949999809265137,
+                "z": -195.5
+            },
+            "scale": {
+                "x": 0.6499999761581421,
+                "y": 0.4999999403953552,
+                "z": 0.6999998688697815
+            },
+            "min": {
+                "x": 5.050000190734863,
+                "y": 6.76099967956543,
+                "z": -197.5
+            },
+            "max": {
+                "x": 8.949999809265137,
+                "y": 8.630000114440918,
+                "z": -193.5
+            },
+            "materials": [
+                "22-Material | Universal Render Pipeline/Lit | Assets/Vesper/Expansion/WeatherWorld/Generated/W06/22-Material.asset",
+                "23-Material | Universal Render Pipeline/Lit | Assets/Vesper/Expansion/WeatherWorld/Generated/W06/23-Material.asset",
+                "24-Material | Universal Render Pipeline/Lit | Assets/Vesper/Expansion/WeatherWorld/Generated/W06/24-Material.asset"
+            ]
+        },
+        {
+            "name": "CW_ChapelBrokenWall6m",
+            "path": "Linear terrain and collision/Authored linear landscape/ChapelBroken/CW_ChapelBrokenWall6m/CW_ChapelBrokenWall6m",
+            "position": {
+                "x": 4.599999904632568,
+                "y": 2.200000047683716,
+                "z": -203.0
+            },
+            "scale": {
+                "x": 0.7500001192092896,
+                "y": 0.7800000309944153,
+                "z": 0.7799999117851257
+            },
+            "min": {
+                "x": 4.096114158630371,
+                "y": 2.1999998092651369,
+                "z": -205.25
+            },
+            "max": {
+                "x": 5.107000350952148,
+                "y": 4.383285999298096,
+                "z": -200.75
+            },
+            "materials": [
+                "19-Material | Vesper/Weather/WetStone | Assets/Vesper/Expansion/WeatherWorld/Generated/W06/19-Material.asset",
+                "20-Material | Vesper/Weather/WetStone | Assets/Vesper/Expansion/WeatherWorld/Generated/W06/20-Material.asset",
+                "21-Material | Vesper/Weather/WetStone | Assets/Vesper/Expansion/WeatherWorld/Generated/W06/21-Material.asset",
+                "36-Material | Universal Render Pipeline/Lit | Assets/Vesper/Expansion/WeatherWorld/Generated/W06/36-Material.asset"
+            ]
+        },
+        {
+            "name": "CW_ChapelBrokenPier3m",
+            "path": "Linear terrain and collision/Authored linear landscape/ChapelBroken/CW_ChapelBrokenPier3m/CW_ChapelBrokenPier3m",
+            "position": {
+                "x": 9.0,
+                "y": 2.200000047683716,
+                "z": -197.0
+            },
+            "scale": {
+                "x": 0.6000000238418579,
+                "y": 0.5999999046325684,
+                "z": 1.499999761581421
+            },
+            "min": {
+                "x": 8.718302726745606,
+                "y": 2.200000047683716,
+                "z": -197.26380920410157
+            },
+            "max": {
+                "x": 9.263964653015137,
+                "y": 6.699999809265137,
+                "z": -196.73609924316407
+            },
+            "materials": [
+                "19-Material | Vesper/Weather/WetStone | Assets/Vesper/Expansion/WeatherWorld/Generated/W06/19-Material.asset",
+                "20-Material | Vesper/Weather/WetStone | Assets/Vesper/Expansion/WeatherWorld/Generated/W06/20-Material.asset",
+                "36-Material | Universal Render Pipeline/Lit | Assets/Vesper/Expansion/WeatherWorld/Generated/W06/36-Material.asset"
+            ]
+        },
+        {
+            "name": "CW_ChapelBrokenWall6m",
+            "path": "Linear terrain and collision/Authored linear landscape/ChapelBroken/CW_ChapelBrokenWall6m/CW_ChapelBrokenWall6m",
+            "position": {
+                "x": 8.0,
+                "y": 2.200000047683716,
+                "z": -204.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 0.8999998569488525,
+                "z": 0.8999998569488525
+            },
+            "min": {
+                "x": 5.0,
+                "y": 2.200000047683716,
+                "z": -205.08140563964845
+            },
+            "max": {
+                "x": 11.0,
+                "y": 4.719176292419434,
+                "z": -203.9149932861328
+            },
+            "materials": [
+                "19-Material | Vesper/Weather/WetStone | Assets/Vesper/Expansion/WeatherWorld/Generated/W06/19-Material.asset",
+                "20-Material | Vesper/Weather/WetStone | Assets/Vesper/Expansion/WeatherWorld/Generated/W06/20-Material.asset",
+                "21-Material | Vesper/Weather/WetStone | Assets/Vesper/Expansion/WeatherWorld/Generated/W06/21-Material.asset",
+                "36-Material | Universal Render Pipeline/Lit | Assets/Vesper/Expansion/WeatherWorld/Generated/W06/36-Material.asset"
+            ]
+        },
+        {
+            "name": "CW_ChapelEntranceArch",
+            "path": "Linear terrain and collision/Authored linear landscape/Chapel/CW_ChapelEntranceArch/CW_ChapelEntranceArch",
+            "position": {
+                "x": 4.599999904632568,
+                "y": 2.200000047683716,
+                "z": -197.0
+            },
+            "scale": {
+                "x": 0.8000001311302185,
+                "y": 0.7500000596046448,
+                "z": 0.7999999523162842
+            },
+            "min": {
+                "x": 4.3779988288879398,
+                "y": 2.200000047683716,
+                "z": -199.0
+            },
+            "max": {
+                "x": 4.822000026702881,
+                "y": 6.99996280670166,
+                "z": -195.0
+            },
+            "materials": [
+                "19-Material | Vesper/Weather/WetStone | Assets/Vesper/Expansion/WeatherWorld/Generated/W06/19-Material.asset",
+                "20-Material | Vesper/Weather/WetStone | Assets/Vesper/Expansion/WeatherWorld/Generated/W06/20-Material.asset",
+                "21-Material | Vesper/Weather/WetStone | Assets/Vesper/Expansion/WeatherWorld/Generated/W06/21-Material.asset"
+            ]
+        },
+        {
+            "name": "CW_ChapelBrokenPier3m",
+            "path": "Linear terrain and collision/Authored linear landscape/ChapelBroken/CW_ChapelBrokenPier3m/CW_ChapelBrokenPier3m",
+            "position": {
+                "x": 9.0,
+                "y": 2.200000047683716,
+                "z": -194.0
+            },
+            "scale": {
+                "x": 0.6000000238418579,
+                "y": 0.5999999046325684,
+                "z": 1.499999761581421
+            },
+            "min": {
+                "x": 8.718302726745606,
+                "y": 2.200000047683716,
+                "z": -194.26380920410157
+            },
+            "max": {
+                "x": 9.263964653015137,
+                "y": 6.699999809265137,
+                "z": -193.73609924316407
+            },
+            "materials": [
+                "19-Material | Vesper/Weather/WetStone | Assets/Vesper/Expansion/WeatherWorld/Generated/W06/19-Material.asset",
+                "20-Material | Vesper/Weather/WetStone | Assets/Vesper/Expansion/WeatherWorld/Generated/W06/20-Material.asset",
+                "36-Material | Universal Render Pipeline/Lit | Assets/Vesper/Expansion/WeatherWorld/Generated/W06/36-Material.asset"
+            ]
+        },
+        {
+            "name": "CW_ChapelBrokenPier3m",
+            "path": "Linear terrain and collision/Authored linear landscape/ChapelBroken/CW_ChapelBrokenPier3m/CW_ChapelBrokenPier3m",
+            "position": {
+                "x": 5.0,
+                "y": 2.200000047683716,
+                "z": -191.5
+            },
+            "scale": {
+                "x": 0.800000011920929,
+                "y": 0.7999998927116394,
+                "z": 0.9999998807907105
+            },
+            "min": {
+                "x": 4.62440299987793,
+                "y": 2.1999998092651369,
+                "z": -191.8517303466797
+            },
+            "max": {
+                "x": 5.35195255279541,
+                "y": 5.199999809265137,
+                "z": -191.1481170654297
+            },
+            "materials": [
+                "19-Material | Vesper/Weather/WetStone | Assets/Vesper/Expansion/WeatherWorld/Generated/W06/19-Material.asset",
+                "20-Material | Vesper/Weather/WetStone | Assets/Vesper/Expansion/WeatherWorld/Generated/W06/20-Material.asset",
+                "36-Material | Universal Render Pipeline/Lit | Assets/Vesper/Expansion/WeatherWorld/Generated/W06/36-Material.asset"
+            ]
+        },
+        {
+            "name": "CW_ChapelLancetWall",
+            "path": "Linear terrain and collision/Authored linear landscape/Chapel/CW_ChapelLancetWall/CW_ChapelLancetWall",
+            "position": {
+                "x": 11.0,
+                "y": 2.200000047683716,
+                "z": -198.0
+            },
+            "scale": {
+                "x": 0.9000000953674316,
+                "y": 0.8500000834465027,
+                "z": 0.8999999165534973
+            },
+            "min": {
+                "x": 10.74839973449707,
+                "y": 2.1999998092651369,
+                "z": -200.6999969482422
+            },
+            "max": {
+                "x": 11.25160026550293,
+                "y": 8.499999046325684,
+                "z": -195.3000030517578
+            },
+            "materials": [
+                "19-Material | Vesper/Weather/WetStone | Assets/Vesper/Expansion/WeatherWorld/Generated/W06/19-Material.asset",
+                "20-Material | Vesper/Weather/WetStone | Assets/Vesper/Expansion/WeatherWorld/Generated/W06/20-Material.asset",
+                "21-Material | Vesper/Weather/WetStone | Assets/Vesper/Expansion/WeatherWorld/Generated/W06/21-Material.asset"
+            ]
+        }
+    ]
+}

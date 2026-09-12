@@ -1,0 +1,19 @@
+{
+  "armor-after.png": "7d19af603b5b6269dadf9aefb6be58181084692d9f5040167df702f07ccc8dac",
+  "armor-before.png": "b3df30838effaae543a1fb1a8ef7c9c2731d72a864d87e88baabce85091465a4",
+  "build-report.json": "4ff715e4cbb2e4a58a3faedfd4623b337396c4df670292623c3faa44d6178933",
+  "BUILDER.md": "96f3ead1a97cce3b135e51bfce66520b49d64161a1be056d085d959d2fe1ce10",
+  "build_knight_v6.py": "0b5669c7686770d991de5e0d6359fd3bd0d92b0d701aaa46d46a71de5b7aaa8a",
+  "export-qa.json": "a6d7915fc5bfa252058c6a449a93406c5261b16488b3c2a9cfd900d3ff4b848b",
+  "helmet-v6-unity-mesh.json": "e57503a85be1d6d67870e9dee425d4ff2a98e712cf89be5cbdc42a9982c9c2fe",
+  "inspection.json": "dae791a0b4d2784bb047de47f5f15c69ec4272eb9cb4541e61a0b8210c5a1038",
+  "inspect_knight.py": "9f3a346e977360eea251c71cc713105fb514c226ca743c9f218ca4d6b0cc9a8b",
+  "knight-v6-unity-meshes.json": "0d2246118d6c9534a949cbfc13774b88dd1f72aadb14b3da080bc1c887f4ec25",
+  "knight-v6.blend": "8a910560dcab38c6870e6b9235bf88525a87b2667a4c76561197d4075ea33d3d",
+  "knight-v6.blend1": "b207ab8afebfc789034bc7375ea6b6d2ffa4a5a2bb163c6a2976d16788158b4c",
+  "preview-after.png": "7e8cffff96313cf401987754dc8612830653e6ada025f0cb3613dfd9d92b8313",
+  "preview-before.png": "9cd37ed1517de2c6d9ba6a2dbc4723467d88080e4d8249eae132a43dd32d0a06",
+  "render_knight_v6.py": "5bfaf3a7ea7619ff5c84715a56c7db58ad08bd7cf4a5cbddcbd3054acaa5d08c",
+  "SELF_REVIEW.md": "e69d54c5b31b99947f720246b92f91ade2f323104c9e965db18b153c9d0f6127",
+  "validate_knight_v6.py": "be6149299a2001c843bb362e64638881a07d842f1506c34880e19c1772cbf0d0"
+}

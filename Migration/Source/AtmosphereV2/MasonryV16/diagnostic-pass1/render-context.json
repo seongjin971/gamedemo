@@ -1,0 +1,20 @@
+{
+  "camera": "Native full candidate52 projection; 1536x1024",
+  "bridge_instances": 2126,
+  "tree": "Complete unchanged V12",
+  "paving": "Complete unchanged V15",
+  "limits": [
+    "Source clay/material comparison, not Unity render.",
+    "Lighting is matched between before/after but is not the Unity HDR environment.",
+    "Non-instanced arch rings, fire effects and character are excluded.",
+    "Deep vertical shaft context uses preserved source geometry; replacement facade rows are explicit."
+  ],
+  "renders": [
+    "full-normal-before.png",
+    "full-normal-after.png",
+    "full-clay-before.png",
+    "full-clay-after.png",
+    "full-material-before.png",
+    "full-material-after.png"
+  ]
+}

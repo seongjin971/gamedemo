@@ -1,0 +1,117 @@
+{
+    "mode": "-roadPerformance",
+    "device": "Intel(R) Arc(TM) 130V GPU (8GB)",
+    "note": "Unmodified Unity runtime captures. Fixture placement is not traversal; screen pointer traversal is synthetic. Native device acceptance is separate. FPS is engine frame cadence, not display-present timing.",
+    "width": 1920,
+    "height": 1080,
+    "fixtures": 4,
+    "frames": 0,
+    "clicks": 0,
+    "rejected": 0,
+    "safetyStops": 0,
+    "resets": 0,
+    "audioSources": 0,
+    "failures": 0,
+    "distance": 0.0,
+    "captures": [],
+    "checks": [],
+    "errors": [],
+    "performance": [
+        {
+            "name": "85-static",
+            "frames": 453,
+            "unfocused": 0,
+            "fps": 75.44110107421875,
+            "p95Ms": 16.568302154541017,
+            "maxMs": 18.117502212524415
+        },
+        {
+            "name": "85-walk",
+            "frames": 446,
+            "unfocused": 0,
+            "fps": 74.02665710449219,
+            "p95Ms": 16.707199096679689,
+            "maxMs": 25.691999435424806
+        },
+        {
+            "name": "85-orbit",
+            "frames": 428,
+            "unfocused": 0,
+            "fps": 71.20603942871094,
+            "p95Ms": 17.03679847717285,
+            "maxMs": 22.360998153686525
+        },
+        {
+            "name": "150-static",
+            "frames": 285,
+            "unfocused": 0,
+            "fps": 47.46677017211914,
+            "p95Ms": 24.790803909301759,
+            "maxMs": 31.868896484375
+        },
+        {
+            "name": "150-walk",
+            "frames": 293,
+            "unfocused": 0,
+            "fps": 48.70674514770508,
+            "p95Ms": 24.395401000976564,
+            "maxMs": 28.730993270874025
+        },
+        {
+            "name": "150-orbit",
+            "frames": 309,
+            "unfocused": 0,
+            "fps": 51.395111083984378,
+            "p95Ms": 23.538698196411134,
+            "maxMs": 31.323902130126954
+        },
+        {
+            "name": "234-static",
+            "frames": 455,
+            "unfocused": 0,
+            "fps": 75.7927474975586,
+            "p95Ms": 16.63320541381836,
+            "maxMs": 18.832002639770509
+        },
+        {
+            "name": "234-walk",
+            "frames": 448,
+            "unfocused": 0,
+            "fps": 74.59856414794922,
+            "p95Ms": 16.521202087402345,
+            "maxMs": 21.50880241394043
+        },
+        {
+            "name": "234-orbit",
+            "frames": 424,
+            "unfocused": 0,
+            "fps": 70.53264617919922,
+            "p95Ms": 17.78790283203125,
+            "maxMs": 23.5033016204834
+        },
+        {
+            "name": "275-static",
+            "frames": 405,
+            "unfocused": 0,
+            "fps": 67.39257049560547,
+            "p95Ms": 17.946102142333986,
+            "maxMs": 22.449604034423829
+        },
+        {
+            "name": "275-walk",
+            "frames": 402,
+            "unfocused": 0,
+            "fps": 66.84503173828125,
+            "p95Ms": 17.789003372192384,
+            "maxMs": 21.223499298095704
+        },
+        {
+            "name": "275-orbit",
+            "frames": 441,
+            "unfocused": 0,
+            "fps": 73.4776840209961,
+            "p95Ms": 16.583999633789064,
+            "maxMs": 26.10999870300293
+        }
+    ]
+}

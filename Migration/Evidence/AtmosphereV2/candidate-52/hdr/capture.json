@@ -1,0 +1,15 @@
+{
+    "scene": "Assets/Vesper/Scenes/VesperAtmosphereV2.unity",
+    "device": "Intel(R) Arc(TM) 130V GPU (8GB)",
+    "diagnostic": "",
+    "waterDiagnostic": "",
+    "fullFireCasters": false,
+    "unpartitionedFireCasters": false,
+    "glareOrbit": false,
+    "shaderErrors": 0,
+    "missingScripts": 0,
+    "reflectionFrames": 115,
+    "rootHullPoints": 25,
+    "localShadowTriangles": 296282,
+    "errors": []
+}

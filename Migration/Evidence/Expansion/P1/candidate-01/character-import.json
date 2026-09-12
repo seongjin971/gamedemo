@@ -1,0 +1,27 @@
+{
+    "scene": "Assets/Vesper/Scenes/Expansion/VesperAdventurerP1.unity",
+    "model": "Assets/Vesper/Expansion/P1/Art/Adventurer.fbx",
+    "skins": 1,
+    "bones": 24,
+    "triangles": 31113,
+    "missingScripts": 0,
+    "baselinePosition": {
+        "x": -2.25,
+        "y": 0.0,
+        "z": 7.5
+    },
+    "baselineSize": {
+        "x": 1.811892032623291,
+        "y": 3.496274948120117,
+        "z": 1.7274627685546876
+    },
+    "newSize": {
+        "x": 0.8797922134399414,
+        "y": 2.1847078800201418,
+        "z": 1.1677131652832032
+    },
+    "clips": [
+        "Idle 4.000s",
+        "Walk 1.033s"
+    ]
+}

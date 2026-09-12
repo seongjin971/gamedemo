@@ -1,0 +1,15 @@
+{
+  "geometryCardinalityAndIndicesValidated": 95,
+  "hierarchyNodesValidated": 122,
+  "sourceTextureHashesMatch": [
+    "bark-plates-normal-v2.png",
+    "bark-plates-v2.png",
+    "flame-v1.png",
+    "ruins-panorama.png",
+    "stone-grain-normal-v2.png",
+    "stone-grain-v2.png"
+  ],
+  "uniqueAssetGuids": 309,
+  "missingMetaFiles": [],
+  "preservedBrowserCommit": "2413d5d"
+}

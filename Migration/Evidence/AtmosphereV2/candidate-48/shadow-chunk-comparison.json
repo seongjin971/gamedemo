@@ -1,0 +1,21 @@
+{
+  "note": "Same savedscene, originalcombinedvs exactspatialchunks; particles/captureordernotisolated, notpixelidentity proof",
+  "views": [
+    {
+      "view": "full",
+      "mean_absolute_rgb_8bit": 0.14208560519748265
+    },
+    {
+      "view": "orbit",
+      "mean_absolute_rgb_8bit": 0.09429232279459636
+    },
+    {
+      "view": "zoom",
+      "mean_absolute_rgb_8bit": 0.14414766099717882
+    },
+    {
+      "view": "slice",
+      "mean_absolute_rgb_8bit": 0.15527685818665185
+    }
+  ]
+}

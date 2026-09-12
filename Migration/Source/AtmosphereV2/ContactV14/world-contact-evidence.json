@@ -1,0 +1,174 @@
+{
+  "tree_sha256": "9c9e1f1ee6e6ad97eee8172ce2caf9f500354810e82d792c85d0bfc66d655cc9",
+  "contact_source_sha256": "098c3d2968a9246d0e5ec58c466141702ad26507871ae30720f403022e5c9d90",
+  "paving_sha256": "00ee641f13bdc841a4d0fd531379380a33952ee8f952133e750380e9e4be5c59",
+  "paving_source": "Migration\\Source\\AtmosphereV2\\PavingV14\\paving-v14-mesh.json",
+  "native_tree_parent": {
+    "position": [
+      7.2,
+      0,
+      3.7
+    ],
+    "scale": [
+      1.73,
+      1.73,
+      1.73
+    ],
+    "quaternion": [
+      0,
+      -0.04997916927067833,
+      0,
+      0.9987502603949663
+    ]
+  },
+  "mesh_local_yaw_degrees": -20,
+  "combined_yaw_degrees": -25.729577951308233,
+  "contacts": [
+    {
+      "root": 1,
+      "original_local_vertex": [
+        1.4443387985229492,
+        0.005616816692054272,
+        0.9545528292655945
+      ],
+      "original_world_vertex": [
+        8.73406454305967,
+        0.00971709287725389,
+        6.272396208948344
+      ],
+      "original_source_vertex_index": 27889,
+      "original_paving_top_y": -0.0208716348226669,
+      "alternative_inner_contact": {
+        "local_vertex": [
+          1.3241559267044067,
+          -0.004042639397084713,
+          1.0260305404663086
+        ],
+        "world_vertex": [
+          8.493080199979115,
+          -0.006993766156956553,
+          6.2935309628253435
+        ],
+        "source_vertex_index": 29930,
+        "paving_top_y": -0.01612586569445175,
+        "height_above_paving": 0.009132099537495195,
+        "candidate_count": 259
+      }
+    },
+    {
+      "root": 2,
+      "original_local_vertex": [
+        -1.0745216608047485,
+        0.01151752658188343,
+        1.0842323303222656
+      ],
+      "original_world_vertex": [
+        4.711087785037664,
+        0.019925320986658335,
+        4.582746572749546
+      ],
+      "original_source_vertex_index": 98774,
+      "original_paving_top_y": -0.025859503572385305
+    },
+    {
+      "root": 3,
+      "original_local_vertex": [
+        -1.4487985372543335,
+        0.012181530706584454,
+        -0.8185287117958069
+      ],
+      "original_world_vertex": [
+        5.556826209305411,
+        0.021074048122391106,
+        1.336244659761268
+      ],
+      "original_source_vertex_index": 105732,
+      "original_paving_top_y": -0.011525215663771543
+    },
+    {
+      "root": 4,
+      "original_local_vertex": [
+        1.0631921291351318,
+        0.005027396138757467,
+        -1.2875460386276245
+      ],
+      "original_world_vertex": [
+        9.8239510955548,
+        0.008697395320050419,
+        2.491885070908929
+      ],
+      "original_source_vertex_index": 37623,
+      "original_paving_top_y": null,
+      "alternative_inner_contact": {
+        "local_vertex": [
+          0.3653796315193176,
+          0.12763428688049316,
+          -1.2187092304229736
+        ],
+        "world_vertex": [
+          8.684728400767165,
+          0.22080731630325318,
+          2.075084060756696
+        ],
+        "source_vertex_index": 57946,
+        "paving_top_y": -0.003163860527236752,
+        "height_above_paving": 0.22397117683048992,
+        "candidate_count": 22
+      }
+    }
+  ],
+  "paving_bounds": [
+    [
+      -8.936228752,
+      -0.115000002,
+      -11.101970673
+    ],
+    [
+      9.040660858,
+      0.010417859,
+      21.067903519
+    ]
+  ],
+  "root4_wall_contact": {
+    "sourceVertexIndex": 61633,
+    "nativeLocalVertex": [
+      0.27028435468673706,
+      0.06813701242208481,
+      -1.1853978633880615
+    ],
+    "worldVertex": [
+      8.511506720652235,
+      0.11787703149020672,
+      2.0555791511406953
+    ],
+    "support": {
+      "nodeId": "592370d4-d68c-4fe8-b91d-41e1eaa41394",
+      "instanceIndex": 682,
+      "geometry": "7b9ce760-2f47-40f1-98d7-6b4e0aadc2e5",
+      "materialId": "08b6ee59-7da1-4fb0-bd5d-a752d5b8fa60",
+      "sourceVariant": 0,
+      "position": [
+        -8.899999618530273,
+        0.20999999344348907,
+        1.8696969747543335
+      ],
+      "quaternion": [
+        0,
+        -0.7071067811865475,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        0.7537878751754761,
+        0.40700000524520874,
+        0.7799999713897705
+      ],
+      "color": [
+        1.1993324756622314,
+        1.221091628074646,
+        1.21923828125
+      ]
+    },
+    "reason": "Fourth terminal sample is outside paving. An actual root vertex lies within 1.6mm of the nominal inward parapet plane; use a small vertical moss contact pocket projected to actual V12 stone geometry instead of a floating horizontal soil mound."
+  }
+}

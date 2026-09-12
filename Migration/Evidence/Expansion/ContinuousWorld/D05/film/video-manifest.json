@@ -1,0 +1,59 @@
+{
+  "note": "Internal live render captures. Nine separately placed fixture clips, recorded realtime cadence. Silent video; not seamless traversal or FPS evidence.",
+  "clips": [
+    {
+      "fixture": "45",
+      "frames": 45,
+      "recordedSeconds": 6.000233333333333,
+      "video": "fixture-45.mp4"
+    },
+    {
+      "fixture": "95",
+      "frames": 44,
+      "recordedSeconds": 6.014733333333333,
+      "video": "fixture-95.mp4"
+    },
+    {
+      "fixture": "120",
+      "frames": 41,
+      "recordedSeconds": 6.0668733333333345,
+      "video": "fixture-120.mp4"
+    },
+    {
+      "fixture": "145",
+      "frames": 41,
+      "recordedSeconds": 5.944533333333337,
+      "video": "fixture-145.mp4"
+    },
+    {
+      "fixture": "180",
+      "frames": 46,
+      "recordedSeconds": 6.060983333333337,
+      "video": "fixture-180.mp4"
+    },
+    {
+      "fixture": "242",
+      "frames": 59,
+      "recordedSeconds": 6.040043333333334,
+      "video": "fixture-242.mp4"
+    },
+    {
+      "fixture": "265",
+      "frames": 59,
+      "recordedSeconds": 6.049853333333336,
+      "video": "fixture-265.mp4"
+    },
+    {
+      "fixture": "292",
+      "frames": 60,
+      "recordedSeconds": 6.05622333333334,
+      "video": "fixture-292.mp4"
+    },
+    {
+      "fixture": "342",
+      "frames": 59,
+      "recordedSeconds": 6.044503333333329,
+      "video": "fixture-342.mp4"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+ M CHECKPOINT.md
+ M EXPANSION_PLAN.md
+?? CONTINUOUS_MAP_PLAN.md
+?? Migration/Evidence/Expansion/ContinuousWorld/
+?? Migration/Evidence/Expansion/LinearWorld/
+?? Migration/Source/Expansion/ContinuousWorld/
+?? PLAY_LINEAR.md
+?? PLAY_VESPER_LINEAR.cmd
+?? PLAY_VESPER_WORLD.cmd
+?? PLAY_VESPER_WORLD_F01.cmd
+?? PLAY_WORLD.md
+?? Unity/Vesper/Assets/Vesper/Expansion/ContinuousWorld.meta
+?? Unity/Vesper/Assets/Vesper/Expansion/ContinuousWorld/
+?? Unity/Vesper/Assets/Vesper/Expansion/LinearWorld.meta
+?? Unity/Vesper/Assets/Vesper/Expansion/LinearWorld/
+?? Unity/Vesper/Assets/Vesper/Scenes/Expansion/VesperContinuousWorld.unity
+?? Unity/Vesper/Assets/Vesper/Scenes/Expansion/VesperContinuousWorld.unity.meta
+?? Unity/Vesper/Assets/Vesper/Scenes/Expansion/VesperContinuousWorld_F01.unity
+?? Unity/Vesper/Assets/Vesper/Scenes/Expansion/VesperContinuousWorld_F01.unity.meta
+?? Unity/Vesper/Assets/Vesper/Scenes/Expansion/VesperLinearWorld_L01.unity
+?? Unity/Vesper/Assets/Vesper/Scenes/Expansion/VesperLinearWorld_L01.unity.meta
+?? Unity/Vesper/Assets/Vesper/Scenes/Expansion/VesperLinearWorld_L02.unity
+?? Unity/Vesper/Assets/Vesper/Scenes/Expansion/VesperLinearWorld_L02.unity.meta
+?? Unity/Vesper/Assets/Vesper/Scenes/Expansion/VesperLinearWorld_L03.unity
+?? Unity/Vesper/Assets/Vesper/Scenes/Expansion/VesperLinearWorld_L03.unity.meta
+?? Unity/Vesper/Assets/Vesper/Scenes/Expansion/VesperLinearWorld_L04.unity
+?? Unity/Vesper/Assets/Vesper/Scenes/Expansion/VesperLinearWorld_L04.unity.meta
+?? Unity/Vesper/Assets/Vesper/Scenes/Expansion/VesperLinearWorld_L05.unity
+?? Unity/Vesper/Assets/Vesper/Scenes/Expansion/VesperLinearWorld_L05.unity.meta
+?? Unity/Vesper/Assets/Vesper/Scenes/Expansion/VesperLinearWorld_L06.unity
+?? Unity/Vesper/Assets/Vesper/Scenes/Expansion/VesperLinearWorld_L06.unity.meta

@@ -1,0 +1,4 @@
+point=(4.73, 0.00, 0.24) originalValid=True nearest=(4.79, 0.03, -0.17) distance=0.4096417 found=True path=True
+point=(4.68, 0.00, 0.35) originalValid=True nearest=(4.79, 0.03, -0.17) distance=0.526314 found=True path=True
+point=(4.91, 0.00, 3.78) originalValid=False nearest=(3.91, 0.03, 4.24) distance=1.103543 found=True path=True
+point=(-2.98, 0.00, 1.30) originalValid=True nearest=(-2.98, 0.03, 1.30) distance=0.0275 found=True path=True

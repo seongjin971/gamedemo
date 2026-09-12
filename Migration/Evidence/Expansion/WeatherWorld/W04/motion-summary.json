@@ -1,0 +1,13 @@
+{
+  "revision": "W04",
+  "frames": 146,
+  "duration": 19.10922,
+  "averageSampleFps": 7.64029091715936,
+  "source": "Unmodified actual Unity screenshot sequence; durations retained from runtime timestamps, fixture wait gaps cut. Forced standard pulse previews at identified points. This is an effects preview, not a gameplay or recording performance measurement.",
+  "audio": false,
+  "stages": [
+    84.0,
+    198.0,
+    323.0
+  ]
+}

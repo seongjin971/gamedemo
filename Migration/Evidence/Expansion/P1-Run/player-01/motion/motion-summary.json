@@ -1,0 +1,119 @@
+{
+  "width": 1536,
+  "height": 1024,
+  "distance": 30.046592712402344,
+  "peakSpeed": 5.400004863739014,
+  "skipped": 0,
+  "errors": [
+    "walk-to-run reaches full run",
+    "Shift release returns to walk while moving",
+    "run-stop reaches full run"
+  ],
+  "passed": [
+    "idle ends stationary",
+    "Accept route walk-to-run (0.00, 0.00, 10.00)",
+    "walk-to-run ends stationary",
+    "Accept route run-to-walk (0.00, 0.00, 10.00)",
+    "run-to-walk ends stationary",
+    "Accept route run-stop (0.00, 0.00, 10.00)",
+    "run-stop ends stationary",
+    "Accept route run-reversal (0.00, 0.00, 10.00)",
+    "Accept route run-reversal (-2.25, 0.00, 7.50)",
+    "run-reversal ends stationary",
+    "Accept route run-near-root (3.40, 0.00, 3.70)",
+    "Accept route run-near-root (4.00, 0.00, 6.70)",
+    "Accept route run-near-root (6.00, 0.00, 7.40)",
+    "run-near-root ends stationary",
+    "orbit ends stationary",
+    "zoom ends stationary",
+    "Accept route reset (0.00, 0.00, 10.00)",
+    "reset ends stationary",
+    "Reset clears run route and animation",
+    "No sustained stationary running"
+  ],
+  "frames": 499,
+  "unfocused": 0,
+  "stages": {
+    "idle": {
+      "frames": 34,
+      "captureHz": 11.09188087201531,
+      "peakSpeed": 0.0,
+      "peakRunBlend": 0.0,
+      "first": "0000.jpg",
+      "middle": "0017.jpg",
+      "last": "0033.jpg"
+    },
+    "walk-to-run": {
+      "frames": 56,
+      "captureHz": 11.156041332054821,
+      "peakSpeed": 4.4973955154418945,
+      "peakRunBlend": 0.8829869031906128,
+      "first": "0034.jpg",
+      "middle": "0062.jpg",
+      "last": "0089.jpg"
+    },
+    "run-to-walk": {
+      "frames": 56,
+      "captureHz": 11.145397299518175,
+      "peakSpeed": 5.000433444976807,
+      "peakRunBlend": 0.9977166056632996,
+      "first": "0090.jpg",
+      "middle": "0118.jpg",
+      "last": "0145.jpg"
+    },
+    "run-stop": {
+      "frames": 54,
+      "captureHz": 10.705167456630942,
+      "peakSpeed": 4.935480117797852,
+      "peakRunBlend": 0.9922325015068054,
+      "first": "0146.jpg",
+      "middle": "0173.jpg",
+      "last": "0199.jpg"
+    },
+    "run-reversal": {
+      "frames": 70,
+      "captureHz": 9.982819753668304,
+      "peakSpeed": 4.8052191734313965,
+      "peakRunBlend": 0.9721131324768066,
+      "first": "0200.jpg",
+      "middle": "0235.jpg",
+      "last": "0269.jpg"
+    },
+    "run-near-root": {
+      "frames": 98,
+      "captureHz": 9.744360810053704,
+      "peakSpeed": 5.399997711181641,
+      "peakRunBlend": 1.0,
+      "first": "0270.jpg",
+      "middle": "0319.jpg",
+      "last": "0367.jpg"
+    },
+    "orbit": {
+      "frames": 50,
+      "captureHz": 9.95638124131388,
+      "peakSpeed": 0.0,
+      "peakRunBlend": 0.0,
+      "first": "0368.jpg",
+      "middle": "0393.jpg",
+      "last": "0417.jpg"
+    },
+    "zoom": {
+      "frames": 51,
+      "captureHz": 10.156321432943885,
+      "peakSpeed": 0.0,
+      "peakRunBlend": 0.0,
+      "first": "0418.jpg",
+      "middle": "0443.jpg",
+      "last": "0468.jpg"
+    },
+    "reset": {
+      "frames": 30,
+      "captureHz": 9.938420348058902,
+      "peakSpeed": 4.996129512786865,
+      "peakRunBlend": 0.9974518418312073,
+      "first": "0469.jpg",
+      "middle": "0484.jpg",
+      "last": "0498.jpg"
+    }
+  }
+}

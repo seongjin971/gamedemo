@@ -1,0 +1,16 @@
+{
+    "mode": "-weatherMotion",
+    "device": "Intel(R) Arc(TM) 130V GPU (8GB)",
+    "note": "Actual Unity renders. Screenshot fixtures and synthetic pointer checks are not native user acceptance. Performance is uncapped engine cadence, not display present timing. Motion export is separate from performance measurement.",
+    "width": 1920,
+    "height": 1080,
+    "failures": 0,
+    "clicks": 0,
+    "safetyStops": 0,
+    "audioSources": 0,
+    "distance": 0.0,
+    "checks": [],
+    "errors": [],
+    "captures": [],
+    "performance": []
+}

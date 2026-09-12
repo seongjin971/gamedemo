@@ -1,0 +1,867 @@
+[
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\build-report.json",
+    "bytes": 112,
+    "sha256": "B7C0F7A2396A0B86684D18A6F632618F5809E90A843B1540590924388864FC9C"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\D3D12\\D3D12Core.dll",
+    "bytes": 4725304,
+    "sha256": "625BD40005B1C3708695D5256ECF230D278E6B8EDBA5A88AF70F3D91324F3052"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\dstorage.dll",
+    "bytes": 206904,
+    "sha256": "CAE65787F61514BEC6F012F44546E68B19E39D8854A9AB52AF813370D44B272A"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\dstoragecore.dll",
+    "bytes": 1482784,
+    "sha256": "CF85B19A92A8276F8BACA0DB9BBCD60735BAD50768DEB303D310E84D5F4FDD11"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll",
+    "bytes": 7831472,
+    "sha256": "02CEC9FDB34A2606DAD35174CAC85D733F1D04DCB18A40AB80012E7D5638F48A"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll",
+    "bytes": 611240,
+    "sha256": "5782FACF743EE29F270FC625B7633860AEDB1C8290D2E7307E60DC4925FD94DC"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\MonoBleedingEdge\\etc\\mono\\2.0\\Browsers\\Compat.browser",
+    "bytes": 1605,
+    "sha256": "8A1082057AC5681DCD4E9C227ED7FB8EB42AC1618963B5DE3B65739DD77E2741"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\MonoBleedingEdge\\etc\\mono\\2.0\\DefaultWsdlHelpGenerator.aspx",
+    "bytes": 60575,
+    "sha256": "751861040B69EA63A3827507B7C8DA9C7F549DC181C1C8AF4B7CA78CC97D710A"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config",
+    "bytes": 29066,
+    "sha256": "E91782A27FA39FC6C1D6EE8B08529F5D35052310D0006034B878EB04B8F2AF30"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\MonoBleedingEdge\\etc\\mono\\2.0\\settings.map",
+    "bytes": 2622,
+    "sha256": "49C6160F9D54AF4270A3B4E997FC4A8301F79B9E2070118FA46DDBCBBC44F9A2"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config",
+    "bytes": 11635,
+    "sha256": "CF2B54339E069B9E42F7D6795EECBF562C50C1011F4CA8F65F578FE52D97FF92"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\MonoBleedingEdge\\etc\\mono\\4.0\\Browsers\\Compat.browser",
+    "bytes": 1605,
+    "sha256": "8A1082057AC5681DCD4E9C227ED7FB8EB42AC1618963B5DE3B65739DD77E2741"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\MonoBleedingEdge\\etc\\mono\\4.0\\DefaultWsdlHelpGenerator.aspx",
+    "bytes": 60575,
+    "sha256": "751861040B69EA63A3827507B7C8DA9C7F549DC181C1C8AF4B7CA78CC97D710A"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config",
+    "bytes": 33598,
+    "sha256": "E60AEC2C5115D65B3ACB3C55EA21576DBD770F579166C017125571E46AE560ED"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\MonoBleedingEdge\\etc\\mono\\4.0\\settings.map",
+    "bytes": 2622,
+    "sha256": "CE1DB1AD8A9512073164E3ECCDC193F7EDA036E1A9733CAEC4635DE21B2865C8"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config",
+    "bytes": 18802,
+    "sha256": "E38BB8CC68FE5B4EDECDFD288D094B9E8CED7629039B2A347682ABA0D8BD7492"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\MonoBleedingEdge\\etc\\mono\\4.5\\Browsers\\Compat.browser",
+    "bytes": 1605,
+    "sha256": "8A1082057AC5681DCD4E9C227ED7FB8EB42AC1618963B5DE3B65739DD77E2741"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\MonoBleedingEdge\\etc\\mono\\4.5\\DefaultWsdlHelpGenerator.aspx",
+    "bytes": 60575,
+    "sha256": "751861040B69EA63A3827507B7C8DA9C7F549DC181C1C8AF4B7CA78CC97D710A"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config",
+    "bytes": 34056,
+    "sha256": "EE950004B576FB28DC85F4B0435ED04BF96612DE2E8B53BE84D07AFE85A0DE6C"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\MonoBleedingEdge\\etc\\mono\\4.5\\settings.map",
+    "bytes": 2622,
+    "sha256": "CE1DB1AD8A9512073164E3ECCDC193F7EDA036E1A9733CAEC4635DE21B2865C8"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config",
+    "bytes": 18811,
+    "sha256": "C4CBDDD4FD9347B58CC5A72B36DC4BA1AD2BB699E65869D05CD3FB9865F0D824"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\MonoBleedingEdge\\etc\\mono\\browscap.ini",
+    "bytes": 311984,
+    "sha256": "4DDD50F31FB968F30BEDEFC253A46DC3F2890192D05CDAA9E0A64A056EEE807E"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\MonoBleedingEdge\\etc\\mono\\config",
+    "bytes": 3815,
+    "sha256": "5776169973A26A387B8B3E5C0F2301A7AB9A6DD7C7D3EFA22A96ABC47FBF8662"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml",
+    "bytes": 25817,
+    "sha256": "0C56E34C69124510FA8C19E7B4C2CA6C1C4FF460AE19F798DD0CA035809E396D"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\UnityCrashHandler64.exe",
+    "bytes": 1736624,
+    "sha256": "8BFBC94F0E2199E8AAB47A7467012BA45DEC1009D30598995EC7607B446EE8B1"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\UnityPlayer.dll",
+    "bytes": 37287856,
+    "sha256": "7F9C4C1B4A42D763422F1F792C0DA193F0D6541048AAA84F0B3EFD1E4EE90206"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo.exe",
+    "bytes": 667648,
+    "sha256": "D05C5848F7CC2EB32FF6016F54762EE3C666A69B862BE297DF2390830C1EA8CF"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\app.info",
+    "bytes": 29,
+    "sha256": "58A518610884EE308B703225B656894E55D7E74F1B5823F1D98F9E911DD534DA"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\boot.config",
+    "bytes": 156,
+    "sha256": "E3A05CBE7DAE0A40251D254C5D790DF6ADC7C7E1ED84DA366F422CEEEAB41AB8"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\globalgamemanagers",
+    "bytes": 60628,
+    "sha256": "89178D238558A19439F93F4D4CE4A3F448BD495D6CE891E2C9767802EDAF79AE"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\globalgamemanagers.assets",
+    "bytes": 482712,
+    "sha256": "9AB52E938E5B02A44B25CD5A53E30AF16EFD4DEF1C241A69D60327815139C5F8"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\globalgamemanagers.assets.resS",
+    "bytes": 3275488,
+    "sha256": "7C8F8811AF123955811662BF92D0C48510D2727CC14296D18D3F709D20C950E7"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\level0",
+    "bytes": 205636,
+    "sha256": "893A983C868C96027B80E5741F61B3F24E2AB70FE4043A2E81B5BE18339B56E7"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\Assembly-CSharp.dll",
+    "bytes": 61952,
+    "sha256": "43034A765EF10741AC8753A1AAFCD56017662EC6EB1E0A145B1B96A68AA4D0D7"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\Mono.Security.dll",
+    "bytes": 241152,
+    "sha256": "1849437C1D2FE7698C0FDE2A9A6AAD9A864372A373B7C1D887DA902A36965B36"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\mscorlib.dll",
+    "bytes": 4632064,
+    "sha256": "F7698BD46AF58D3EE9DAC59A286CFEDFD28E51F71C0FE3940671A3CCC7AF5711"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\netstandard.dll",
+    "bytes": 90112,
+    "sha256": "6AE62E082DC494A2433984177F60CA4DB5FAE69B1F360A8B33754172B310B8C5"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\System.Buffers.dll",
+    "bytes": 4608,
+    "sha256": "762F8FDBE975E05B76BE5FE996C53CE7C75E4A2830F2F50B02A5948EF6BA0AEB"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\System.Collections.Immutable.dll",
+    "bytes": 252680,
+    "sha256": "5B1B1C83BA3D135C2FDFE425842FBE9C7432878B7E468623ACB554C69B4C130F"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\System.ComponentModel.Composition.dll",
+    "bytes": 257024,
+    "sha256": "335D76D10AE5B80D1FAAE4833937B9166551CCC9E79EE8262D2DA4D58843F79D"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\System.Configuration.dll",
+    "bytes": 124928,
+    "sha256": "D7139DD6B622233D316AAC733B392B9C1A545375804F62685F57F9D36F1C7AC2"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\System.Core.dll",
+    "bytes": 1113088,
+    "sha256": "A4637C44A11EA827D686313CFCA3F5191225D2A96F7EAF0F10AA32DE446380D2"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\System.Data.DataSetExtensions.dll",
+    "bytes": 29696,
+    "sha256": "80432A96154F8D2935B2F1C9E61B2EE6109FD6234E281327B3B297451C8931BA"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\System.Data.dll",
+    "bytes": 2125312,
+    "sha256": "AB47D362CFF6F6E665CADBC8C6C81F9FA3612F23483A44D08B339347AC99F116"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\System.dll",
+    "bytes": 2641920,
+    "sha256": "D26CADA0FC3DCAE061F0FA421DF15A082CB35CCF81CCAEEBC8B0E2D2E6877099"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\System.Drawing.dll",
+    "bytes": 489984,
+    "sha256": "3C3586BA170C1788A8D3A4E419EB1F50F092070F4D81E90238B2FE6C5405CF2C"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\System.EnterpriseServices.dll",
+    "bytes": 44544,
+    "sha256": "00595C8EEA345FE0E47DA702100E460AAAF8F14D27A24950B71D926CBF1201C4"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\System.IO.Compression.dll",
+    "bytes": 114688,
+    "sha256": "A2803C059BD49C7FE520673F7E2B06657BB0419B253A5267E3F1DA14B357DD5A"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\System.IO.Compression.FileSystem.dll",
+    "bytes": 18432,
+    "sha256": "F45CA89827639A880DCBEAB1917AF99A5BD18AEC4433FBCB2D7774CCF9FE7121"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\System.Memory.dll",
+    "bytes": 4608,
+    "sha256": "C4F030A2CBA7DA7CDCF493257C24560E203D355904AEE490D645A935842F834A"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\System.Net.Http.dll",
+    "bytes": 122880,
+    "sha256": "128B31FEC424C70356952314ABFF2F6B1408F64B7613D2AE4BDE5E84C2F8AC03"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\System.Numerics.dll",
+    "bytes": 119296,
+    "sha256": "B968DC8852985029FD5DD08A1A9C3A6B8750EA4470CD677A5051C33FC5A08639"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\System.Reflection.Metadata.dll",
+    "bytes": 487584,
+    "sha256": "AFCFD6C166FE0D59F45CC6363082806F6A7EA8CEED9DC6C75EEC9FD79CCB5717"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\System.Runtime.CompilerServices.Unsafe.dll",
+    "bytes": 19256,
+    "sha256": "FD67ABC4C4AF10AFFBCD42FD68A2A7BC361B26714AFE6965D4D0D139459D8297"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\System.Runtime.dll",
+    "bytes": 12288,
+    "sha256": "E0A7334B7BA419AAAB6BD3BB6992D693E689341A9178172C9BF99C2AA6A085BD"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\System.Runtime.Serialization.dll",
+    "bytes": 934400,
+    "sha256": "685123ACDBB6AC313E503E89F4831FED096BE838CCB000B85B33EE903562807F"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\System.Security.dll",
+    "bytes": 320000,
+    "sha256": "02D51B98DC8C877124FEA386C9FBF7264790AAE381AB15577EB0E2D082D1BCC4"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\System.ServiceModel.Internals.dll",
+    "bytes": 215040,
+    "sha256": "077333ADC8BF20EB40E94D1909DB2D07A16925A9192B69064F34EAF128804C8B"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\System.Transactions.dll",
+    "bytes": 35328,
+    "sha256": "6557E5029469211193CCEC80DD4D3AD090F5EB87D80F5D5341D77A6D3506B64B"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\System.Xml.dll",
+    "bytes": 3160064,
+    "sha256": "32129A7D847A5EFEACEE6BD4B0D6BBFFC8923551C5446A8C216D8EF1191B1DE1"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\System.Xml.Linq.dll",
+    "bytes": 136704,
+    "sha256": "FD300E794B9CCD85D95BBAB54E282DA1333FAA20A9209457944E831C27452B00"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\Unity.Burst.dll",
+    "bytes": 296960,
+    "sha256": "326C8FD8116F6D64DC62761F316F98CF83EA6B460CC5386888E842BDA7205D81"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\Unity.Burst.Unsafe.dll",
+    "bytes": 5632,
+    "sha256": "9D9C1FF52411DECBEE5D9F0D1CD61EBEAA222077AA77A52101EA3DEBAFAE98E2"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\Unity.Collections.dll",
+    "bytes": 439808,
+    "sha256": "CEF9A0A8572124005F9880F356AF7F7712FFBF3EC487B233A066B7EA1B95800D"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\Unity.Collections.LowLevel.ILSupport.dll",
+    "bytes": 5120,
+    "sha256": "FF50383F807F9692E4913B97E47D86FEFCB8FAA33D6D48CD3E3FD6FC7FFB448D"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\Unity.InternalAPIEngineBridge.RenderPipelines.Core.Runtime.Shared.dll",
+    "bytes": 3584,
+    "sha256": "2EC6092B9B4630D3C636A0691C14A0F5A3DCD4F7B63C7273A412D548EC3BD36D"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\Unity.Mathematics.dll",
+    "bytes": 5632,
+    "sha256": "3B3C09ABE9D155639883C0DB048BB65467AEF7BB050C2BB93BA3F0ADD7514737"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\Unity.PathTracing.Runtime.dll",
+    "bytes": 142848,
+    "sha256": "76EB2C302F7A9F98A2CF845DD82A186AAF47EAB13DAF35741324DD5A4BE24C9D"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\Unity.RenderPipeline.Universal.ShaderLibrary.dll",
+    "bytes": 7680,
+    "sha256": "A152507BB7A7DEDC5428C86DD89487623CD64348B71BAA7495FADD1E7615B7D6"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\Unity.RenderPipelines.Core.Runtime.dll",
+    "bytes": 1093632,
+    "sha256": "3D35E41DE21BAB07EE0F6528C5CE1B37EDBD538602685C9B7C17B704DCE8BF76"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\Unity.RenderPipelines.Core.Runtime.Shared.dll",
+    "bytes": 11264,
+    "sha256": "68C75B4A8F75AD480C8B4937A05C172B953D46C336765BDB2458DA87B483AC27"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\Unity.RenderPipelines.Core.ShaderLibrary.dll",
+    "bytes": 3584,
+    "sha256": "58C61A1C8E27980FADF2B5C86D1C9812E19FFD6CC27FB314C92948AB8FB2D89A"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\Unity.RenderPipelines.GPUDriven.Runtime.dll",
+    "bytes": 263168,
+    "sha256": "77CA9C7B3A4F56083B1DAA36331BFAA3B812C1B083461D66DC98FF699148D5BF"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll",
+    "bytes": 3584,
+    "sha256": "19DCDEC25A339858F0E420933A3E673D02044E7E58DD5A6D9FE01EC79DA5183C"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\Unity.RenderPipelines.Universal.2D.Runtime.dll",
+    "bytes": 198656,
+    "sha256": "F7C487C9D4204D8155041583704908A5A7145FD95FF2264467741BC2CE802D43"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\Unity.RenderPipelines.Universal.Config.Runtime.dll",
+    "bytes": 4096,
+    "sha256": "829CDF62B2E40DB97D7E17D33519BCC4F418087A3DD9FD7235094C0DB9BCD8FF"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\Unity.RenderPipelines.Universal.Runtime.dll",
+    "bytes": 722432,
+    "sha256": "C80073DA92A2B8E68252C56C44F4C5A230666507A49627B585669CDF5DBC8EBA"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\Unity.RenderPipelines.Universal.Shaders.dll",
+    "bytes": 3584,
+    "sha256": "18D98467365CE05A7A46F9B68FB2B63BC221FFA829B12F6EAFB6E8249E5B6D64"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\Unity.Scripting.dll",
+    "bytes": 68520,
+    "sha256": "F0B65D6EBCB0D2FF9E5CCBDD4BDABAD87B92BFA612F019FC2DF3F953F0FD748D"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\Unity.SurfaceCache.Runtime.dll",
+    "bytes": 3584,
+    "sha256": "146931824727296536D0F6761A74A6A2C156BEA20B665F2EE20102D4840634C9"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\Unity.UnifiedRayTracing.Runtime.dll",
+    "bytes": 91648,
+    "sha256": "49AFAFEF08057515CFD009545CFE65F8BDBA06DA8CD2AD0A8DE5A8466D1F18D9"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.AccessibilityModule.dll",
+    "bytes": 49072,
+    "sha256": "6DB9D37DBC9ADEF60D2F6B849D2446DC0550148673AA5A0D81546F1A79532226"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.AdaptivePerformanceModule.dll",
+    "bytes": 117672,
+    "sha256": "37A15858C624E2B6B45081A58A8E53ABFD68BD1553FB37B0E67C0E0F7D8C4B8D"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.AIModule.dll",
+    "bytes": 86448,
+    "sha256": "CA817A2AD1F0AE3D905D54067505F4D7C96FEC8B2B66F565C1C768A4F8166CFF"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.AMDModule.dll",
+    "bytes": 21928,
+    "sha256": "35971DB89105C67B6C15128215B887D767E80AE475ED325160AB8E57CD9341A7"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.AndroidJNIModule.dll",
+    "bytes": 120744,
+    "sha256": "88F9C79339341BA5D8A900EDF5C4A96FDA96DA7B4478BE4B8452A229B98D9313"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.AnimationModule.dll",
+    "bytes": 218536,
+    "sha256": "663A387EB4361C369003B41FE45DBA95C1F3D56BE7E63D2DF4B155BE8F42D1CE"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.ARModule.dll",
+    "bytes": 27048,
+    "sha256": "EA82748EE0BF694BEE764CBBBFFD4F02728D13F5E81DE7AD2DE72DB906A9B3C0"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.AssetBundleModule.dll",
+    "bytes": 42408,
+    "sha256": "80B2696F8CD7B8CD501D0E7AC001A9978CA0AF32AB7D971B3418031D0ADDC746"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.AudioModule.dll",
+    "bytes": 142760,
+    "sha256": "FA41B1A4C4F35D381C50B88FF89D7A3B58F600E889AF34F028FC10F17E40221D"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.ClothModule.dll",
+    "bytes": 37296,
+    "sha256": "60ABA21AF9AE6EE8B459BF0E0B2608BF6E7AD75C76CD023A8767A36703D1AC06"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.ClusterInputModule.dll",
+    "bytes": 29096,
+    "sha256": "D97FD97C4092655D7C452D86E31E0793F31F273AD3B5E83653B76D2AB28717CD"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.ClusterRendererModule.dll",
+    "bytes": 28080,
+    "sha256": "584758F26D1C4F037FA90C2518606125663017FC9DF4E55CA5D15F4501649879"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.ContentLoadModule.dll",
+    "bytes": 46504,
+    "sha256": "78D400AFCA6D471E464FAE69996C6FA575B42E88E629B2E849A558E29747C87B"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "bytes": 1974192,
+    "sha256": "2A18300D7351FA1649C18891D460C1C4C218E97036DD3A953231EEA4B90F7157"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.CrashReportingModule.dll",
+    "bytes": 28080,
+    "sha256": "DB74902471F13CEF2AEF5118F86D255BE1E3E926790373234EEF4BF40CAB501A"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.DirectorModule.dll",
+    "bytes": 41896,
+    "sha256": "5417BDE7146733DC30C39AAE48AC16B191313BC330A0439D6BA269CFAA3AE39B"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.dll",
+    "bytes": 210344,
+    "sha256": "3ED4763A9CA378E0445C0A440D8CD3447071B2615903B0E24F657DEF316F9502"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.DSPGraphModule.dll",
+    "bytes": 32680,
+    "sha256": "E9718601EB9E5579323EC08DB7DAE1E37C25ADE827DA87DF6D5EF12992F23C2C"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.GameCenterModule.dll",
+    "bytes": 45480,
+    "sha256": "E52662101AE401F1C671B4486E0C811C2FA381C1E9CA6E4A8983ABBEFDE08D58"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.GIModule.dll",
+    "bytes": 25512,
+    "sha256": "25FD5FEEE13FFB25A9E85C3BE914B42C7A11C10F75CEA60B0F00578E4744DF2B"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.GraphicsStateCollectionSerializerModule.dll",
+    "bytes": 14256,
+    "sha256": "8E6EDCDF791DBE2E0E39F860770C219D8D3632D920BEF539E08B9A6BF1476FB3"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.GridModule.dll",
+    "bytes": 32168,
+    "sha256": "A5F0AD1DED5B832409B8AAAC944B24049DAD8559586143EB47E283A792AC5C19"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.HierarchyCoreModule.dll",
+    "bytes": 105392,
+    "sha256": "4B3925C7AB1EBCD20180D16ADB7EA2BFEB0BA6DC251DB731F5B0D5AD0E6F4E3F"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.HierarchyModule.dll",
+    "bytes": 100272,
+    "sha256": "DF777449233A9A38CAC23BE146A2A6F24BABCC00BA3CCE93F97427585CA3E9FC"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.HotReloadModule.dll",
+    "bytes": 25512,
+    "sha256": "627DA8B9AEC2E4A6AEFEFD0A45A640B7FD32B9807579DE9C311778A3432E20E6"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.IdentifiersModule.dll",
+    "bytes": 16816,
+    "sha256": "80C05EFCF0D3806A36240E18EBE99037714BCE107DCDDFA5CEB5509E4A222366"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.ImageConversionModule.dll",
+    "bytes": 33712,
+    "sha256": "3D196414C1A058F927A097D5FE7D979042FFB1BF32B25DA34DB61D903ADFE3B2"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.IMGUIModule.dll",
+    "bytes": 188848,
+    "sha256": "FDC1ABDDCECF5786C7C51B129C5AEA498654AB9D215C9F511783C6D5FD053ECD"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.InputForUIModule.dll",
+    "bytes": 55720,
+    "sha256": "31C9A134102E24CF994BC6BF46871A9EE6DD065F21B9FEADCDD9010CD0F7F419"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.InputLegacyModule.dll",
+    "bytes": 41904,
+    "sha256": "B5E0A4E992599C49CB336E0696F691875F984D571CEB59CF45F981265E093844"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.InputModule.dll",
+    "bytes": 30640,
+    "sha256": "F011868F24A0DF3D5984212B07BA9427F834E7E81AA93307748FB0A05AF2A181"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.InsightsModule.dll",
+    "bytes": 15784,
+    "sha256": "E069F2CB540D21F7F040590C85B5D07C68C21CA03D89FC8529F697B4E146E5FD"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.JSONSerializeModule.dll",
+    "bytes": 28080,
+    "sha256": "9A26F28D619756EA077557C2D946F64DDD3763E243270090684FD00BEB84F4D4"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.LocalizationModule.dll",
+    "bytes": 28072,
+    "sha256": "A19F9BBED9F6C229648297F50E3E7D2A8A79958F761A7E4EC4CA0ABE92396C48"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.MarshallingModule.dll",
+    "bytes": 97200,
+    "sha256": "634DBB08ADCEF689FD1AF7B189FE3F1B9F7CA410B654FC67EB459D855B77417E"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.MathematicsModule.dll",
+    "bytes": 740784,
+    "sha256": "574F922ABD1741D772E2BE8693BFFDAD844C1A622CC906A4FDC96AEA283375B9"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.MultiplayerModule.dll",
+    "bytes": 17840,
+    "sha256": "A22002B95B79E5C236E48ABDE24049C19CE4B238C482F30CC32627C329D77480"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.NVIDIAModule.dll",
+    "bytes": 40360,
+    "sha256": "7DF935B972C0C48DF0E64A499EC46C99972BC6C4956211CBB9A2AC0701F2D9F9"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.ParticleSystemModule.dll",
+    "bytes": 168872,
+    "sha256": "6B3F64A09FC1AFF08163AE41831D0AF0FC8E204EDA726604290749C3C5849972"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.PerformanceReportingModule.dll",
+    "bytes": 26544,
+    "sha256": "17AFC72EC2E69CD57F7FEDA73322036DE8ED70FB19AE2BE9ABB146493021A14E"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.Physics2DModule.dll",
+    "bytes": 222128,
+    "sha256": "1CE5AA769093EA2F7E105ECA4173BE1F57893A083E063227D55FCF4682B56669"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.PhysicsBackendPhysXModule.dll",
+    "bytes": 14256,
+    "sha256": "E58013F9D5B4C98234E8081C721F72BD9788AF872BCD83F1BB1B7292F5BFF90C"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.PhysicsCore2DModule.dll",
+    "bytes": 450472,
+    "sha256": "8A6328E94B1415A5FDBB24DC80BC27C3136234B535203AB526D88A6117A02361"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.PhysicsModule.dll",
+    "bytes": 180144,
+    "sha256": "8304935E5E691012705D0803DC5F9AF50CE776346B362584FA87B4E9560538EA"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.PropertiesModule.dll",
+    "bytes": 124840,
+    "sha256": "7AE0E78F7D23EDBC66B9AD19AEC3F8CBFF676916B5FF67A3F83D5F98553F1378"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.RenderAs2DModule.dll",
+    "bytes": 27056,
+    "sha256": "B9A214F0D83DDD310B9D2F95C828B4A8B304AB50595C2A490A907958A861938C"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
+    "bytes": 25512,
+    "sha256": "5CCB1F68FE4640F00F5504FA26684136BB3D4A640DD9871C9C1BC6BFC718071D"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.ScreenCaptureModule.dll",
+    "bytes": 27560,
+    "sha256": "8A9619A5356B29D9218677F48FCEDDF9ECC64E1A76FF9C5A57642BD516123306"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.ScriptingModule.dll",
+    "bytes": 27568,
+    "sha256": "B0A4E96536E9955D9017F380BFE0761DD039F0BFA2E31A192F52C935E665B4BD"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.ShaderVariantAnalyticsModule.dll",
+    "bytes": 25520,
+    "sha256": "F45DF0E38CB43212D36C04CA5DBCFC1D9B06ED40B9919D61ECB13C09DE8A731A"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "bytes": 36776,
+    "sha256": "28FC15015127543E0DE81E393DE8E348FB8B264233B06FE9BD2E45306805F5C4"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.SpriteMaskModule.dll",
+    "bytes": 29616,
+    "sha256": "D6FF7FA2655B89E58D7C72BA54199B189246047D9A692F0EBEA7453064F19839"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.SpriteShapeModule.dll",
+    "bytes": 33712,
+    "sha256": "76EF045ACD9052C5073FBD5154DE26308DCD8DE81EF1592C1DF56AF87CA0EF82"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.StreamingModule.dll",
+    "bytes": 27048,
+    "sha256": "B6AD31CF283F8C90A73BC34EB6E797DE344970B8387EEC16E2B9A11DE031CAE5"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.SubstanceModule.dll",
+    "bytes": 30632,
+    "sha256": "653095446F89249F09331C6FD384B5AAB8B748707107ED7E317188C5BAADF187"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.SubsystemsModule.dll",
+    "bytes": 42408,
+    "sha256": "8179BE3B63B43B0FA379C975CFD5571097B78EBA8DBA1CADFB9527ECC2C3D253"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.TerrainModule.dll",
+    "bytes": 131496,
+    "sha256": "47758974E742A3E7789B496254975EC044F3FFC2744AEDABEFCE0B9BEE11B408"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.TerrainPhysicsModule.dll",
+    "bytes": 27048,
+    "sha256": "F4C3432C938FA1219B8E6AA8B4017AA2409A78A0F86EE1DDD5032729EF8EB1AF"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.TextCoreFontEngineModule.dll",
+    "bytes": 77744,
+    "sha256": "C6BB188ECE49244F4663E64074CBD5FEA0862ADAB17765607F1716F637F8C9ED"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.TextCoreTextEngineModule.dll",
+    "bytes": 331184,
+    "sha256": "025C03413FE74D9EE62668A2D75133052C69D305026B99A4DA2B01ADD3894075"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.TextRenderingModule.dll",
+    "bytes": 38824,
+    "sha256": "FD18E3E23CDEC8C9F878A521A46FECBB0F4C1573CB9EE31061268F58E0BF4371"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.TilemapModule.dll",
+    "bytes": 75176,
+    "sha256": "CF9C8135C9D26B28158057D7E394D66B26B05DFDCEAA1164C1EA43FFCA1F2314"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.TLSModule.dll",
+    "bytes": 33200,
+    "sha256": "50B5250F6C340905D1A3A439A9BC20B7353E08C8238E635BED2AA12867BB218C"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.U2DRuntimeModule.dll",
+    "bytes": 26544,
+    "sha256": "4AD2F38B14A3CB47538468855F6791EEED77C3642D9437F75F4E3C26BA7D156F"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.UIElementsModule.dll",
+    "bytes": 2349488,
+    "sha256": "AB4A31AAA1DAED918AC9CDA5731A1A024EE51DFD4B127489AA4B3B92928FE1A3"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.UIModule.dll",
+    "bytes": 54192,
+    "sha256": "A65AE332E37DC180C2169C775704850979BF366A0D30798CF247AB0B75021548"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.UmbraModule.dll",
+    "bytes": 25512,
+    "sha256": "8A0A6AA45BBF59FFF02ABB7D51CB6B4BF5E622C7DF1A687E16762498937433BC"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.UnityAnalyticsCommonModule.dll",
+    "bytes": 35752,
+    "sha256": "16C2F70F26A564F856B0CEA1915972ABCEE9B91DB6B7092056901B16C7CC2EE5"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.UnityAnalyticsModule.dll",
+    "bytes": 60336,
+    "sha256": "9C037986706671D3B93B445D532686675CB2D207CA751C9769137447D8AFD622"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.UnityConnectModule.dll",
+    "bytes": 29096,
+    "sha256": "46AA366B054AA340B97347F7FAD493E8C66AEEA922C2786B98E38DA1C33DE0F1"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.UnityConsentModule.dll",
+    "bytes": 16304,
+    "sha256": "12C30C7DE2BFB3C798B464CB3AE3884142BB258D869FDA95F2B24A39B358DD76"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.UnityCurlModule.dll",
+    "bytes": 27568,
+    "sha256": "2E236D4F52B1A94073F3A4AD4E69927773597B2BED84B59CD0EED695EF73E09D"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.UnityWebRequestAssetBundleModule.dll",
+    "bytes": 30128,
+    "sha256": "6A49DEA9F163BD6D400BA8AA68737036CAA1A89AC9D98F4D585B7607AD1DD1C7"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.UnityWebRequestAudioModule.dll",
+    "bytes": 29608,
+    "sha256": "1119783850292B2BACD7D501495B93430948B0D90CD3067E3909B57A11837C1B"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.UnityWebRequestModule.dll",
+    "bytes": 79280,
+    "sha256": "524F87E1464C9DE6A60AB1A11A4790C69F461F63B58BAF51CBA146A3C586C9AB"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.UnityWebRequestTextureModule.dll",
+    "bytes": 28584,
+    "sha256": "4D21CF72272AC76834BFA076199A388C5D5DE1912DF41729781CEF9FC83429AF"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.UnityWebRequestWWWModule.dll",
+    "bytes": 36776,
+    "sha256": "AD1EB834A4EFF342AF7FD417437BF8B14FDF055BF89D8A3F49B8F9A3B5F950A1"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.VectorGraphicsModule.dll",
+    "bytes": 227760,
+    "sha256": "634EE65CBB312CD0AD4C2408CD1E40A16BB5DB00F313263BF4506E85078DA940"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.VehiclesModule.dll",
+    "bytes": 32688,
+    "sha256": "0C283FB8103BD704C12366082E95AFB1D6BA3A54412E61FD002C74CC9396CF37"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.VFXModule.dll",
+    "bytes": 81832,
+    "sha256": "29E15A474B39084111FBC41B657E376CF5FE8CE67B89D0FB4C4C021EE927E08E"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.VideoModule.dll",
+    "bytes": 48560,
+    "sha256": "25FF35882211D44AAD5A94ED306B9E2C1AD1BBFF134CB8B182F859EE5FD4551E"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.VirtualTexturingModule.dll",
+    "bytes": 43432,
+    "sha256": "603DFAD3C554CC381A0A8F6EE8DF86B63EAA6A19A4CFDE193C7782BFA0B07CED"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.WindModule.dll",
+    "bytes": 28080,
+    "sha256": "66DCDE7129C4F807B7917EB6071302A7D159F7B061F29D6EF22D9476DAFF02ED"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Managed\\UnityEngine.XRModule.dll",
+    "bytes": 95656,
+    "sha256": "82F3423628CCFC083A3C9016F1232102BB9F94CAF64F2604D67942B1643990EF"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Plugins\\x86_64\\lib_burst_generated.dll",
+    "bytes": 446976,
+    "sha256": "3957EC2EADBC6A20B7D978D9B94CFE7D365C3E18AD5D1AD60A1F9AACDB8D0D43"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Resources\\unity default resources",
+    "bytes": 5881648,
+    "sha256": "1FBAFF511BDEC6CF276529DE02215FEE9FDCF7298EA9D7C49DC6B984EE73A7F5"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\Resources\\unity_builtin_extra",
+    "bytes": 399720,
+    "sha256": "7F1E9AF9CB23F06C4E7CEB883325C1B6E39710ECEB2CD6E280288955867A113E"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\resources.assets",
+    "bytes": 2860,
+    "sha256": "A951DD9FC9D55AF702DDEC5C4C428E77BDD8F161360041E833993C116A6DBE29"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\RuntimeInitializeOnLoads.json",
+    "bytes": 2869,
+    "sha256": "74E101F5F208B987BA7613C130203C16809BC682D17A7FE3FD3251D58AC54E21"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\ScriptingAssemblies.json",
+    "bytes": 4121,
+    "sha256": "BDA61B82DFC39DAE49953EE6F5D230D5C861DA3C4E4B128584C26FD4A7B6374E"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\sharedassets0.assets",
+    "bytes": 247399696,
+    "sha256": "9B1E7B66E314CB0AD2D63917D26C69D3C47CFC93A023CA4781D432495EFE2FE6"
+  },
+  {
+    "path": "Unity\\Vesper\\Builds\\VesperMixamo\\VesperMixamo_Data\\sharedassets0.assets.resS",
+    "bytes": 438130192,
+    "sha256": "7A1454C8B0B3A4C9483BB385C03CDEA69F128EB78166841CCB178A367EE4FAEA"
+  }
+]

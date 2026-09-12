@@ -1,0 +1,9 @@
+{
+    "result": "Succeeded",
+    "path": "Builds/VesperLinearWorld_RoadBaseline/VesperLinear.exe",
+    "scene": "Assets/Vesper/Scenes/Expansion/VesperLinearWorld_L06.unity",
+    "errors": 0,
+    "warnings": 0,
+    "seconds": 36.603201299999998,
+    "messages": []
+}

@@ -1,0 +1,12 @@
+﻿[
+    {
+        "path":  "Unity/Vesper/Builds/VesperLinearWorld_L09/VesperLinear.exe",
+        "sha256":  "d05c5848f7cc2eb32ff6016f54762ee3c666a69b862be297df2390830c1ea8cf",
+        "matches":  true
+    },
+    {
+        "path":  "Unity/Vesper/Builds/VesperLinearWorld_L09/VesperLinear_Data/Managed/Assembly-CSharp.dll",
+        "sha256":  "b80cbcbbc05af195ba8872c6f0c3ec210f2e52d1edb4d4097af0af5e91773b53",
+        "matches":  true
+    }
+]

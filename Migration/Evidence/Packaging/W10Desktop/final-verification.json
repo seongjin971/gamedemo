@@ -1,0 +1,22 @@
+{
+  "runtimeFiles": 173,
+  "runtimeBytesMatchW10": true,
+  "originalBuildUnchanged": true,
+  "localObsSettingsUnchanged": true,
+  "setupChecks": {
+    "newIsolatedInstall": true,
+    "repeatKeepsExistingSettings": true,
+    "conflictRefusesOverwrite": true,
+    "portableRecordingPath": true,
+    "nvenc60Profile": true,
+    "noAudioCaptureOrAutomationScripts": true
+  },
+  "copiedGameStartup": "Engine initialized and process responded in the Unicode transfer path; hidden startup check only.",
+  "targetDesktopValidation": "RTX5070 device and recording have not been tested here; perform the short test in the included guide.",
+  "folder": "D:\\임시게임\\VESPER_W10_Desktop",
+  "folderBytes": 214379162,
+  "zip": "D:\\임시게임\\VESPER_W10_Desktop.zip",
+  "zipBytes": 109471472,
+  "zipSha256": "6b87899b5fb4e02e505aabc9424f3249e9430986f7ba06b6edcd1271139980ae",
+  "zipCrcAndContentHashesVerified": true
+}

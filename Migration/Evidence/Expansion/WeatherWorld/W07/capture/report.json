@@ -1,0 +1,36 @@
+{
+    "mode": "-w07Capture",
+    "device": "Intel(R) Arc(TM) 130V GPU (8GB)",
+    "note": "Actual 1920x1080 Unity player. Fixtures/synthetic clicks are not user acceptance. Performance is engine cadence; concurrent-processes.json records the user's preserved W06 process. No OBS recording.",
+    "width": 1920,
+    "height": 1080,
+    "failures": 0,
+    "clicks": 0,
+    "safetyStops": 0,
+    "audioSources": 0,
+    "distance": 0.0,
+    "captures": [
+        "abbey-W06-normal.png",
+        "abbey-W06-flash.png",
+        "abbey-W06-strong.png",
+        "abbey-W07-normal.png",
+        "abbey-W07-flash.png",
+        "abbey-W07-strong.png",
+        "abbey-after-flash.png",
+        "canopy-W06-0.59.png",
+        "canopy-W07-0.59.png",
+        "canopy-W06-0.05.png",
+        "canopy-W07-0.05.png",
+        "canopy-W06-1.1.png",
+        "canopy-W07-1.1.png",
+        "canopy-sheltered.png",
+        "rainwood-normal.png",
+        "rainwood-flash.png",
+        "snow-retained.png"
+    ],
+    "checks": [
+        "PASS Original shelter activates roof cutaway"
+    ],
+    "errors": [],
+    "performance": []
+}

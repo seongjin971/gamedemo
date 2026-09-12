@@ -1,0 +1,16 @@
+2026-09-11T12:18:01Z Setup started
+2026-09-11T12:18:19Z Configured exact game window: VESPER Unity migration:UnityWndClass:VesperLinear.exe
+2026-09-11T12:18:38Z Start 70-second recording test requested
+2026-09-11T12:19:48Z Test recording timer stopped
+2026-09-11T12:19:58Z Recording stop requested
+2026-09-11T12:22:11Z Setup started
+2026-09-11T12:22:13Z Configured exact game window: VESPER Unity migration:UnityWndClass:VesperLinear.exe
+2026-09-11T12:22:13Z Record refused: game capture is not ready
+2026-09-11T12:22:56Z Start 70-second recording test requested
+2026-09-11T12:23:37Z Recording stop requested
+2026-09-11T12:24:16Z Setup complete; all automation disabled
+2026-09-11T12:26:50Z Setup started
+2026-09-11T12:26:51Z Configured exact game window: VESPER Unity migration:UnityWndClass:VesperLinear.exe
+2026-09-11T12:27:34Z Start 70-second recording test requested
+2026-09-11T12:28:44Z Recording stop requested
+2026-09-11T12:28:47Z Setup complete; all automation disabled

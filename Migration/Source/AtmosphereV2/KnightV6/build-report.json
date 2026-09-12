@@ -1,0 +1,113 @@
+{
+  "sourceHashes": {
+    "C:\\Users\\brian\\Dev\\active\\Dream Loop Astra\\Migration\\Source\\AtmosphereV2\\KnightV5\\knight-v5.blend": "f49d17d6ecf6eacccae1a8f8be5cd55ab6d73de1d9c5a6295e8c97334a5906c9",
+    "C:\\Users\\brian\\Dev\\active\\Dream Loop Astra\\Migration\\Source\\AtmosphereV2\\KnightV5\\knight-v5-unity-meshes.json": "37b54e28c18dffd17a75caf6c28fb48b1ac419c41a680f0807dba10ba1034354"
+  },
+  "sourceUnchanged": true,
+  "allObjectNamesParentsTransformsMaterialSlotsAndVisibilityExact": true,
+  "allOtherBlenderMeshesExact": true,
+  "exactCopiedRecords": [
+    "Icosphere004_rounded_v2_1",
+    "Icosphere007_rounded_v2_1",
+    "Heavy_folded_crimson_cape",
+    "LeftArm_Polished forged edges",
+    "RightArm_Polished forged edges"
+  ],
+  "changedRecords": [
+    "Icosphere004_rounded_v2",
+    "Icosphere007_rounded_v2"
+  ],
+  "changes": [
+    {
+      "object": "Left shoulder pauldron",
+      "beforeVertices": 2048,
+      "afterVertices": 1922,
+      "poleCandidates": 128,
+      "operation": "Collapse both tiny 64-sided pole caps and recalculate closed-shell normals; preserve outer profile and material indices"
+    },
+    {
+      "object": "Right shoulder pauldron",
+      "beforeVertices": 2048,
+      "afterVertices": 1922,
+      "poleCandidates": 128,
+      "operation": "Collapse both tiny 64-sided pole caps and recalculate closed-shell normals; preserve outer profile and material indices"
+    },
+    {
+      "object": "Angular closed bascinet",
+      "beforeTriangles": 80,
+      "afterTriangles": 1920,
+      "boundsBefore": [
+        [
+          -0.9510578513145447,
+          0.9510578513145447
+        ],
+        [
+          -0.9999999403953552,
+          0.9999999403953552
+        ],
+        [
+          -1.0,
+          1.0
+        ]
+      ],
+      "boundsAfter": [
+        [
+          -0.9510578513145447,
+          0.9510578513145447
+        ],
+        [
+          -0.9999999403953552,
+          0.9999999403953552
+        ],
+        [
+          -1.0,
+          1.0
+        ]
+      ],
+      "operation": "Two bounded shell subdivision levels plus smooth normals; unchanged visor, nasal ridge, eye slit and hinges"
+    }
+  ],
+  "helmetMapping": {
+    "gameObjectName": "Angular_closed_bascinet",
+    "blenderObject": "Angular closed bascinet",
+    "blenderParent": "Head",
+    "sourceTransform": {
+      "parent": "Head",
+      "matrix": [
+        [
+          0.14000000059604645,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.13699999451637268,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.1860000044107437,
+          0.12999999523162842
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "materials": [
+        "Tempered steel blue grey"
+      ],
+      "hidden": false
+    },
+    "unitySource": "Unity/Vesper/Assets/Vesper/Import/unity-scene.json",
+    "unityObjectId": "2507cff0-bb1f-4e6e-802a-38e85ddda457",
+    "unityParentId": "280be315-6128-47ac-988d-3a693604496e",
+    "unityMaterialId": "f7d20fcf-c1c0-4764-a247-8511f3551f90"
+  },
+  "coordinateRule": "Already Unity (-x,z,-y), reversed [0,2,1] once; do not reconvert or bake object transform"
+}

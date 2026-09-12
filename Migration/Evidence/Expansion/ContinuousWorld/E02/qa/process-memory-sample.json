@@ -1,0 +1,9 @@
+﻿{
+    "Utc":  "2026-09-09T20:58:20.8029539Z",
+    "Mode":  "full-route QA",
+    "PID":  35196,
+    "WorkingSetBytes":  871313408,
+    "PeakWorkingSetBytes":  961474560,
+    "PrivateBytes":  953344000,
+    "Note":  "One process-memory sample during E02 traversal; not VRAM, per-zone memory delta, or draw-call profiling."
+}

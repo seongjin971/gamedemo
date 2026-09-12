@@ -1,0 +1,72 @@
+{
+    "note": "Actual Unity player, synthetic calls through the same key/pointer handlers used by native polling. Not physical keyboard/user acceptance. Engine cadence, no OBS recording.",
+    "device": "Intel(R) Arc(TM) 130V GPU (8GB)",
+    "width": 1920,
+    "height": 1080,
+    "failures": 0,
+    "clicks": 2,
+    "drags": 0,
+    "audioSources": 0,
+    "safetyStops": 0,
+    "distance": 11.927017211914063,
+    "checks": [
+        "PASS Q rotates left, fixed elevation",
+        "PASS E rotates right, fixed elevation",
+        "PASS Q and E together do not rotate",
+        "PASS Movement accepted after large pointer drag to 198 ",
+        "PASS Arrival and collision support at 198",
+        "PASS Yaw and elevation stay fixed through pointer motion and walking to 198",
+        "PASS Movement accepted after click to 192 ",
+        "PASS Arrival and collision support at 192",
+        "PASS Yaw and elevation stay fixed through pointer motion and walking to 192",
+        "PASS Wheel zoom does not rotate",
+        "PASS R returns home without rotating",
+        "PASS Shift running speed retained",
+        "PASS Unpaired release ignored",
+        "PASS Disabling input cancels held pointer",
+        "PASS Right mouse ignored",
+        "PASS Other pointer buttons never rotate",
+        "PASS No mouse orbit events",
+        "PASS No safety stops",
+        "PASS No audio sources"
+    ],
+    "errors": [
+        "Failed to capture screen shot.",
+        "Failed to capture screen shot.",
+        "Failed to capture screen shot.",
+        "Failed to capture screen shot.",
+        "Failed to capture screen shot.",
+        "Failed to capture screen shot."
+    ],
+    "captures": [
+        "start-qe-help.png",
+        "q-left.png",
+        "e-right.png",
+        "drag-release-walk-fixed-angle.png",
+        "w09-strong-flash-retained.png",
+        "snow-retained.png"
+    ],
+    "performance": [
+        {
+            "scene": "150-walk",
+            "frames": 718,
+            "fps": 119.6478500366211,
+            "p95Ms": 8.334601402282715,
+            "maxMs": 18.10860252380371
+        },
+        {
+            "scene": "198-walk",
+            "frames": 720,
+            "fps": 119.89046478271485,
+            "p95Ms": 8.334502220153809,
+            "maxMs": 12.61120319366455
+        },
+        {
+            "scene": "323-walk",
+            "frames": 720,
+            "fps": 119.98306274414063,
+            "p95Ms": 8.334502220153809,
+            "maxMs": 8.402196884155274
+        }
+    ]
+}

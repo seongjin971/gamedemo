@@ -1,0 +1,19 @@
+# Generated material textures — built-in ImageGen
+
+All outputs copied into public/textures; originals preserved in CODEX_HOME generated_images. Inspected each image. Normal maps are generated approximations, not measured surface scans.
+
+## stoneAlbedoPrompt
+
+Use case: photorealistic-natural. Asset type: tileable physically-based stone BASE COLOR texture for weathered medieval floor slabs and cathedral masonry, not a scene. An evenly lit flat orthographic material scan of dark neutral blue-gray coarse slate/limestone, subtle fine random mineral aggregate grains and tiny dark pores scattered across its broad flat surface, sparse hairline mineral fissures only. Quiet natural variation: mineral specks of gray, charcoal and subdued cooler gray, no large light patches. Surface represents a 1 meter square of heavy old quarried stone. Perfectly flat diffuse albedo illumination, NO directional light, NO gloss, NO shadows or ambient occlusion, NO shading of ripples, NO objects or tile joints. No wavy folded ridges, no layered stripes, no marble swirls, no repeating pebble blobs, no large gashes, no white speckle glitter. Fine granular porous texture at three scales with subtle dry patina; predominantly even mid-dark gray suited to adding realtime blue moonlight. Edge-to-edge tileable square. Realistic photographed material texture. No text, borders or watermark.
+
+## stoneNormalPrompt
+
+Convert the supplied flat stone albedo into its matching tangent-space normal map, preserve the exact placement of all pores, fine mineral grains and hairline fissures. Production-ready DirectX-neutral/OpenGL tangent-space normal image: neutral flat surfaces RGB(128,128,255), red X right positive, green Y up positive, blue Z, tiny dark pores represented as shallow concave pits, no broad ripples or bulges. Keep mostly neutral blue-purple with subtle cyan/magenta microstructure, moderately strong shallow granular pits without noisy spikes. Must correspond spatially to the supplied image. Same square framing, full bleed seamless texture, no lighting shadows, no borders, no captions, no natural stone colors. Output only the normal map.
+
+## barkAlbedoPrompt
+
+Use case: photorealistic-natural. Asset type: seamless photoreal PBR albedo material texture for a gnarled ancient dead ash tree in a dark ruined cathedral courtyard. Flat orthographic evenly diffuse-lit 1 meter square bark scan. Charcoal gray-brown dry weathered bark composed of varied SHORT irregular broken plates, small jagged flakes, deep crooked cross-fissures and broad shallow creases. Plates vary 3x in width and height, align loosely vertical but continually interrupt and stagger with horizontal/diagonal fractures. NO long continuous parallel grooves, no bundled rope look, no sine-wave stripes or wood-grain swirls. Fine porous wood texture and sparse worn lighter cool gray edges, natural restrained dark earthy albedo. No directional lighting/shadows baked in, no shiny specular, no moss, no lichen, no tree silhouette, no scenery. Fill image edge to edge. Square tileable material swatch, not an illustration. No text, border, watermark.
+
+## barkNormalPrompt
+
+Convert the supplied tree bark albedo into a matching OpenGL tangent-space normal map. Preserve exact all bark plate outlines, crossing fissures and pores, same square framing. Neutral flat surfaces RGB128,128,255, X red positive right, Y green positive up, Z blue positive out. Short broken bark plates have gently raised rough rims and shallow hollow fissures, maintain natural fine relief and medium broken bark scales, no inflated pillow shapes, no continuous stripe ridges, no spikes. Output only a production normal texture in blue-purple with restrained pink/cyan structure, no natural bark colors or lighting or labels. No border, seamless tileable square.

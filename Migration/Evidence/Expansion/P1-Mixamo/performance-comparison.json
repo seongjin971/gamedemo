@@ -1,0 +1,29 @@
+{
+  "note": "Adjacent isolated 1536x1024 natural player frame loops, automatic commands, not hardware present or direct input.",
+  "stages": [
+    {
+      "stage": "static",
+      "originalP1Fps": 32.24881362915039,
+      "mixamoFps": 33.6566276550293,
+      "changePercent": 4.365475400330232
+    },
+    {
+      "stage": "walk",
+      "originalP1Fps": 32.75288009643555,
+      "mixamoFps": 34.04900360107422,
+      "changePercent": 3.9572810110819256
+    },
+    {
+      "stage": "orbit",
+      "originalP1Fps": 32.261383056640625,
+      "mixamoFps": 33.56415939331055,
+      "changePercent": 4.038191215741316
+    },
+    {
+      "stage": "zoom",
+      "originalP1Fps": 32.57518768310547,
+      "mixamoFps": 33.642784118652344,
+      "changePercent": 3.277330113743493
+    }
+  ]
+}

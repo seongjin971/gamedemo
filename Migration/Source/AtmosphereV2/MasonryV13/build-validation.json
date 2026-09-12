@@ -1,0 +1,1208 @@
+{
+  "meshes": [
+    {
+      "id": "stairs-v13-mesh",
+      "sha256": "fa1dd68fd3e87040a2e0d7b5fb72e41a8a939f11267a86d25be2c60e882c753c",
+      "triangles": 64780,
+      "vertices": 54081,
+      "nonmanifold_edges_welded": 0,
+      "bounds": [
+        [
+          -6.781499862670898,
+          0.012000009417533875,
+          -6.398135662078857
+        ],
+        [
+          1.1614999771118164,
+          2.9419901371002197,
+          -1.4589999914169312
+        ]
+      ]
+    },
+    {
+      "id": "localized-masonry-v13-0",
+      "sha256": "b3ca991cab36ad3d9689c1a79aae631c8109976fb642c7734d6a92ae955342c8",
+      "triangles": 868,
+      "vertices": 771,
+      "nonmanifold_edges_welded": 0,
+      "bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.49988868832588196
+        ]
+      ]
+    },
+    {
+      "id": "localized-masonry-v13-1",
+      "sha256": "71ddb29c8595ad5b09f2bb875b23519805353be2cb4f57ff6162ffffd7797508",
+      "triangles": 892,
+      "vertices": 805,
+      "nonmanifold_edges_welded": 0,
+      "bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ]
+    },
+    {
+      "id": "localized-masonry-v13-2",
+      "sha256": "5067d9c69de34f4c4238ee248d9c922e03d31c2385190283f82a64d454a28c23",
+      "triangles": 872,
+      "vertices": 767,
+      "nonmanifold_edges_welded": 0,
+      "bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ]
+    },
+    {
+      "id": "localized-masonry-v13-3",
+      "sha256": "0a29ea0a8acd80493b5fbe7cc9adbbf03109a57a95c28c5a12d78f4f1e05cfbf",
+      "triangles": 880,
+      "vertices": 796,
+      "nonmanifold_edges_welded": 0,
+      "bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ]
+    },
+    {
+      "id": "localized-masonry-v13-4",
+      "sha256": "42b123f0628154cb9668ef84c417bba0197ffef1698c6fc3c515e233d0472a76",
+      "triangles": 834,
+      "vertices": 748,
+      "nonmanifold_edges_welded": 0,
+      "bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ]
+    },
+    {
+      "id": "localized-masonry-v13-5",
+      "sha256": "deb9c9bd6b6196ab8eeb2c5a7bcb0384ea8d3419bcb4cc94dd4c346eaf1a6e2a",
+      "triangles": 850,
+      "vertices": 748,
+      "nonmanifold_edges_welded": 0,
+      "bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ]
+    },
+    {
+      "id": "localized-masonry-v13-6",
+      "sha256": "a9f2b947723781ca85ed92fe85430d2d6e5edf4e3f9cae0999cde031bdbb5743",
+      "triangles": 846,
+      "vertices": 764,
+      "nonmanifold_edges_welded": 0,
+      "bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ]
+    },
+    {
+      "id": "localized-masonry-v13-7",
+      "sha256": "3643a2852bd121f1b2490b66a349d5bab4fe655af59d3a39f862cc5377f7fb8f",
+      "triangles": 908,
+      "vertices": 803,
+      "nonmanifold_edges_welded": 0,
+      "bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ]
+    }
+  ],
+  "stair_nose_losses": [
+    {
+      "row": 0,
+      "column": 1,
+      "width": 0.519858981383428,
+      "depth": 0.03672218096640786,
+      "vertical_loss": 0.04207022639060713
+    },
+    {
+      "row": 0,
+      "column": 4,
+      "width": 0.5398627026263928,
+      "depth": 0.03472383768222011,
+      "vertical_loss": 0.03354310351524538
+    },
+    {
+      "row": 0,
+      "column": 7,
+      "width": 0.5778740390822424,
+      "depth": 0.04193896988050966,
+      "vertical_loss": 0.03134758013983418
+    },
+    {
+      "row": 1,
+      "column": 2,
+      "width": 0.5481032089134843,
+      "depth": 0.041754327775448144,
+      "vertical_loss": 0.03193492383144514
+    },
+    {
+      "row": 1,
+      "column": 5,
+      "width": 0.4743151640014546,
+      "depth": 0.03848372628606088,
+      "vertical_loss": 0.027172451629010583
+    },
+    {
+      "row": 1,
+      "column": 8,
+      "width": 0.4526757960338063,
+      "depth": 0.04124042911046227,
+      "vertical_loss": 0.03896104183703854
+    },
+    {
+      "row": 2,
+      "column": 0,
+      "width": 0.4606200318538831,
+      "depth": 0.042239737653906484,
+      "vertical_loss": 0.0374760317218687
+    },
+    {
+      "row": 2,
+      "column": 3,
+      "width": 0.4774034500769364,
+      "depth": 0.04090674594282262,
+      "vertical_loss": 0.02731295101657676
+    },
+    {
+      "row": 2,
+      "column": 6,
+      "width": 0.49073515751445973,
+      "depth": 0.03349154233042807,
+      "vertical_loss": 0.03707876327538252
+    },
+    {
+      "row": 3,
+      "column": 1,
+      "width": 0.4415817030512033,
+      "depth": 0.03968429462778806,
+      "vertical_loss": 0.03406534717657634
+    },
+    {
+      "row": 3,
+      "column": 4,
+      "width": 0.4980351117425024,
+      "depth": 0.0414764359768071,
+      "vertical_loss": 0.04304924123462123
+    },
+    {
+      "row": 3,
+      "column": 7,
+      "width": 0.48293134674317256,
+      "depth": 0.032870838222601034,
+      "vertical_loss": 0.04428149875237859
+    },
+    {
+      "row": 4,
+      "column": 2,
+      "width": 0.4810464384014591,
+      "depth": 0.04052618475166678,
+      "vertical_loss": 0.04235420449444334
+    },
+    {
+      "row": 4,
+      "column": 5,
+      "width": 0.46461066454634686,
+      "depth": 0.04379463624473762,
+      "vertical_loss": 0.035855861203194894
+    },
+    {
+      "row": 4,
+      "column": 8,
+      "width": 0.46408472767924364,
+      "depth": 0.03278280652395481,
+      "vertical_loss": 0.030797784418130025
+    },
+    {
+      "row": 5,
+      "column": 0,
+      "width": 0.49792931369901233,
+      "depth": 0.042243455872716926,
+      "vertical_loss": 0.038138180336493
+    },
+    {
+      "row": 5,
+      "column": 3,
+      "width": 0.4540108374334817,
+      "depth": 0.04675171299781977,
+      "vertical_loss": 0.04121792661850461
+    },
+    {
+      "row": 5,
+      "column": 6,
+      "width": 0.44248234297249356,
+      "depth": 0.03485621792931339,
+      "vertical_loss": 0.025605350892891975
+    },
+    {
+      "row": 6,
+      "column": 1,
+      "width": 0.5524580855573789,
+      "depth": 0.04548610488134147,
+      "vertical_loss": 0.036686189350874754
+    },
+    {
+      "row": 6,
+      "column": 4,
+      "width": 0.5647176443171322,
+      "depth": 0.034556751000667706,
+      "vertical_loss": 0.029028916430023068
+    },
+    {
+      "row": 6,
+      "column": 7,
+      "width": 0.5051654800909565,
+      "depth": 0.035117042844659496,
+      "vertical_loss": 0.031604235614191734
+    },
+    {
+      "row": 7,
+      "column": 2,
+      "width": 0.5795234933865396,
+      "depth": 0.044689771968891255,
+      "vertical_loss": 0.02743664712311105
+    },
+    {
+      "row": 7,
+      "column": 5,
+      "width": 0.5584767161524538,
+      "depth": 0.03254916778260692,
+      "vertical_loss": 0.025564610363389223
+    },
+    {
+      "row": 7,
+      "column": 8,
+      "width": 0.5466582135401705,
+      "depth": 0.046091397398903854,
+      "vertical_loss": 0.028079941042730185
+    },
+    {
+      "row": 8,
+      "column": 0,
+      "width": 0.46094784808719036,
+      "depth": 0.037502721150324735,
+      "vertical_loss": 0.03175395949080243
+    },
+    {
+      "row": 8,
+      "column": 3,
+      "width": 0.49141591140804564,
+      "depth": 0.044257551847644946,
+      "vertical_loss": 0.03046483874740279
+    },
+    {
+      "row": 8,
+      "column": 6,
+      "width": 0.556018983460307,
+      "depth": 0.0415330071880196,
+      "vertical_loss": 0.02559840131833067
+    },
+    {
+      "row": 9,
+      "column": 1,
+      "width": 0.5507694725768366,
+      "depth": 0.04449009934385445,
+      "vertical_loss": 0.03776943922359613
+    },
+    {
+      "row": 9,
+      "column": 4,
+      "width": 0.5560405528667534,
+      "depth": 0.036147315190634924,
+      "vertical_loss": 0.04266061942748953
+    },
+    {
+      "row": 9,
+      "column": 7,
+      "width": 0.5147807687638847,
+      "depth": 0.046448578918254345,
+      "vertical_loss": 0.034027423319023
+    }
+  ],
+  "stair_volumes": [
+    {
+      "name": "Carved stair 00-00",
+      "original_volume": 0.11851912756623936,
+      "final_volume": 0.117517019443809,
+      "ratio": 0.9915447561671403,
+      "vertices": 600,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 00-01",
+      "original_volume": 0.15477574350058426,
+      "final_volume": 0.1526572674040904,
+      "ratio": 0.98631260914288,
+      "vertices": 637,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 00-02",
+      "original_volume": 0.13932271084055867,
+      "final_volume": 0.13733159447862195,
+      "ratio": 0.9857086016348379,
+      "vertices": 508,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 00-03",
+      "original_volume": 0.1375278327478548,
+      "final_volume": 0.135571629306404,
+      "ratio": 0.9857759451133262,
+      "vertices": 600,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 00-04",
+      "original_volume": 0.13747896750910854,
+      "final_volume": 0.13540299454836735,
+      "ratio": 0.9848997050359456,
+      "vertices": 627,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 00-05",
+      "original_volume": 0.14594854367271906,
+      "final_volume": 0.14398160161741672,
+      "ratio": 0.9865230443154466,
+      "vertices": 600,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 00-06",
+      "original_volume": 0.15460410082500517,
+      "final_volume": 0.15263653074387468,
+      "ratio": 0.9872734935837338,
+      "vertices": 600,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 00-07",
+      "original_volume": 0.1489908719171461,
+      "final_volume": 0.1468816642934472,
+      "ratio": 0.9858433768689411,
+      "vertices": 705,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 00-08",
+      "original_volume": 0.15384915168609928,
+      "final_volume": 0.1528632867617554,
+      "ratio": 0.9935920028577385,
+      "vertices": 508,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 01-00",
+      "original_volume": 0.16591615218628142,
+      "final_volume": 0.1649375752272835,
+      "ratio": 0.994101978944767,
+      "vertices": 600,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 01-01",
+      "original_volume": 0.14141733531041384,
+      "final_volume": 0.1394625204609182,
+      "ratio": 0.9861769786200201,
+      "vertices": 600,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 01-02",
+      "original_volume": 0.1380565216057674,
+      "final_volume": 0.13594694496578874,
+      "ratio": 0.984719471304639,
+      "vertices": 642,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 01-03",
+      "original_volume": 0.15831563400930881,
+      "final_volume": 0.15630479611725034,
+      "ratio": 0.9872985513740213,
+      "vertices": 508,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 01-04",
+      "original_volume": 0.14302128157446964,
+      "final_volume": 0.14106379146178205,
+      "ratio": 0.986313294838794,
+      "vertices": 600,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 01-05",
+      "original_volume": 0.1451619292715371,
+      "final_volume": 0.1430967297532317,
+      "ratio": 0.985773132606675,
+      "vertices": 627,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 01-06",
+      "original_volume": 0.14007996657002833,
+      "final_volume": 0.13808233245063023,
+      "ratio": 0.9857393304102521,
+      "vertices": 600,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 01-07",
+      "original_volume": 0.14420832274043774,
+      "final_volume": 0.14220537593204038,
+      "ratio": 0.9861107405568923,
+      "vertices": 600,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 01-08",
+      "original_volume": 0.11685752051846257,
+      "final_volume": 0.115749035404828,
+      "ratio": 0.9905142167254914,
+      "vertices": 673,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 02-00",
+      "original_volume": 0.13559021465216228,
+      "final_volume": 0.13451191334334572,
+      "ratio": 0.9920473515615947,
+      "vertices": 673,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 02-01",
+      "original_volume": 0.13382987166076352,
+      "final_volume": 0.13183050993365358,
+      "ratio": 0.9850604225925137,
+      "vertices": 600,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 02-02",
+      "original_volume": 0.13828733667453577,
+      "final_volume": 0.13629196391771842,
+      "ratio": 0.9855708208372431,
+      "vertices": 600,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 02-03",
+      "original_volume": 0.14341237507037766,
+      "final_volume": 0.1413204432211805,
+      "ratio": 0.9854131705986282,
+      "vertices": 658,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 02-04",
+      "original_volume": 0.14345090078219463,
+      "final_volume": 0.14144030566823879,
+      "ratio": 0.9859840886115551,
+      "vertices": 508,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 02-05",
+      "original_volume": 0.16430818294598729,
+      "final_volume": 0.16229927896959573,
+      "ratio": 0.9877735609975558,
+      "vertices": 600,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 02-06",
+      "original_volume": 0.1400590392074924,
+      "final_volume": 0.13799875656844104,
+      "ratio": 0.9852898988118922,
+      "vertices": 630,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 02-07",
+      "original_volume": 0.13440491912639457,
+      "final_volume": 0.13241934491576804,
+      "ratio": 0.985226923065522,
+      "vertices": 600,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 02-08",
+      "original_volume": 0.16690085304943994,
+      "final_volume": 0.16591421183821936,
+      "ratio": 0.9940884591468906,
+      "vertices": 600,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 03-00",
+      "original_volume": 0.1709437409582474,
+      "final_volume": 0.16995995025629937,
+      "ratio": 0.9942449445856674,
+      "vertices": 600,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 03-01",
+      "original_volume": 0.153044661721897,
+      "final_volume": 0.1509304323971131,
+      "ratio": 0.98618554021423,
+      "vertices": 652,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 03-02",
+      "original_volume": 0.14198214917436164,
+      "final_volume": 0.14001200416931972,
+      "ratio": 0.9861239950479798,
+      "vertices": 600,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 03-03",
+      "original_volume": 0.1376591754088869,
+      "final_volume": 0.13565645257768416,
+      "ratio": 0.9854515848634566,
+      "vertices": 600,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 03-04",
+      "original_volume": 0.1509296391098797,
+      "final_volume": 0.14881243649122436,
+      "ratio": 0.9859722541500681,
+      "vertices": 632,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 03-05",
+      "original_volume": 0.13381361811349973,
+      "final_volume": 0.1317928354523008,
+      "ratio": 0.9848985275961606,
+      "vertices": 508,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 03-06",
+      "original_volume": 0.13730778877910102,
+      "final_volume": 0.1353331403229691,
+      "ratio": 0.9856188168661814,
+      "vertices": 600,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 03-07",
+      "original_volume": 0.15196168805152088,
+      "final_volume": 0.14984281699640814,
+      "ratio": 0.9860565443679833,
+      "vertices": 636,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 03-08",
+      "original_volume": 0.11802477587398827,
+      "final_volume": 0.11702697026020831,
+      "ratio": 0.9915457953095773,
+      "vertices": 600,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 04-00",
+      "original_volume": 0.11780674991530164,
+      "final_volume": 0.11680890757528603,
+      "ratio": 0.9915298372908766,
+      "vertices": 508,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 04-01",
+      "original_volume": 0.15704068012592323,
+      "final_volume": 0.15507687486130098,
+      "ratio": 0.9874949263907443,
+      "vertices": 600,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 04-02",
+      "original_volume": 0.14676976169215727,
+      "final_volume": 0.14463960548543758,
+      "ratio": 0.9854864095835517,
+      "vertices": 618,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 04-03",
+      "original_volume": 0.1288454704051181,
+      "final_volume": 0.1268519000259838,
+      "ratio": 0.9845274314039439,
+      "vertices": 600,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 04-04",
+      "original_volume": 0.1579316901732247,
+      "final_volume": 0.1559300642147184,
+      "ratio": 0.9873260017903256,
+      "vertices": 600,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 04-05",
+      "original_volume": 0.13945432580325587,
+      "final_volume": 0.13735760218398552,
+      "ratio": 0.9849648004305837,
+      "vertices": 652,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 04-06",
+      "original_volume": 0.15044718977061033,
+      "final_volume": 0.14844598017376887,
+      "ratio": 0.9866982587053121,
+      "vertices": 508,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 04-07",
+      "original_volume": 0.1415387129724186,
+      "final_volume": 0.13954216170716313,
+      "ratio": 0.9858939563365641,
+      "vertices": 600,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 04-08",
+      "original_volume": 0.1609818981683611,
+      "final_volume": 0.15990807090291576,
+      "ratio": 0.9933295154445112,
+      "vertices": 643,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 05-00",
+      "original_volume": 0.1793301674766064,
+      "final_volume": 0.17818111536717676,
+      "ratio": 0.9935925331158822,
+      "vertices": 629,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 05-01",
+      "original_volume": 0.13621012740602764,
+      "final_volume": 0.13424044164946203,
+      "ratio": 0.9855393589736966,
+      "vertices": 508,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 05-02",
+      "original_volume": 0.1478995590356879,
+      "final_volume": 0.145929747913236,
+      "ratio": 0.9866814266702676,
+      "vertices": 600,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 05-03",
+      "original_volume": 0.14351853816415786,
+      "final_volume": 0.14135798649228817,
+      "ratio": 0.9849458355728343,
+      "vertices": 646,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 05-04",
+      "original_volume": 0.14193049455883927,
+      "final_volume": 0.1399709439282858,
+      "ratio": 0.9861935897803759,
+      "vertices": 600,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 05-05",
+      "original_volume": 0.14838093823524712,
+      "final_volume": 0.14639280116406994,
+      "ratio": 0.9866011288591184,
+      "vertices": 600,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 05-06",
+      "original_volume": 0.1392351449916594,
+      "final_volume": 0.13720534325649836,
+      "ratio": 0.9854217716706322,
+      "vertices": 626,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 05-07",
+      "original_volume": 0.14245964670213163,
+      "final_volume": 0.14047832462379048,
+      "ratio": 0.9860920469465723,
+      "vertices": 508,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 05-08",
+      "original_volume": 0.11461997418317563,
+      "final_volume": 0.11363173617462213,
+      "ratio": 0.9913781344342812,
+      "vertices": 600,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 06-00",
+      "original_volume": 0.11535267049527717,
+      "final_volume": 0.11435344829588946,
+      "ratio": 0.9913376760581488,
+      "vertices": 600,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 06-01",
+      "original_volume": 0.15740263347858163,
+      "final_volume": 0.15529346901687577,
+      "ratio": 0.9866001958474674,
+      "vertices": 619,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 06-02",
+      "original_volume": 0.14234978408310692,
+      "final_volume": 0.14033352742635186,
+      "ratio": 0.9858358994378388,
+      "vertices": 508,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 06-03",
+      "original_volume": 0.1319185281791681,
+      "final_volume": 0.1299421084408269,
+      "ratio": 0.9850178760662271,
+      "vertices": 600,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 06-04",
+      "original_volume": 0.15451610611373198,
+      "final_volume": 0.15243486477982082,
+      "ratio": 0.9865305864465724,
+      "vertices": 673,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 06-05",
+      "original_volume": 0.15053720256217332,
+      "final_volume": 0.14854996872392914,
+      "ratio": 0.9867990516336091,
+      "vertices": 600,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 06-06",
+      "original_volume": 0.13769027809718204,
+      "final_volume": 0.13573434259642153,
+      "ratio": 0.9857946724504397,
+      "vertices": 600,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 06-07",
+      "original_volume": 0.15008402465669385,
+      "final_volume": 0.14799095579728383,
+      "ratio": 0.9860540196453436,
+      "vertices": 673,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 06-08",
+      "original_volume": 0.15892391925556856,
+      "final_volume": 0.15792533106484546,
+      "ratio": 0.9937165645335159,
+      "vertices": 508,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 07-00",
+      "original_volume": 0.170073243871014,
+      "final_volume": 0.16908421682692196,
+      "ratio": 0.9941846993590472,
+      "vertices": 600,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 07-01",
+      "original_volume": 0.14310508076113979,
+      "final_volume": 0.14114426413374034,
+      "ratio": 0.9862980642128822,
+      "vertices": 600,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 07-02",
+      "original_volume": 0.14284660200045807,
+      "final_volume": 0.1407335241968123,
+      "ratio": 0.9852073638850786,
+      "vertices": 652,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 07-03",
+      "original_volume": 0.15594692700842322,
+      "final_volume": 0.15395796380168264,
+      "ratio": 0.9872458967618314,
+      "vertices": 508,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 07-04",
+      "original_volume": 0.14143922754673052,
+      "final_volume": 0.1394706275258935,
+      "ratio": 0.986081654608962,
+      "vertices": 600,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 07-05",
+      "original_volume": 0.14130702327954173,
+      "final_volume": 0.139247451878698,
+      "ratio": 0.9854248475904176,
+      "vertices": 639,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 07-06",
+      "original_volume": 0.12922850173206885,
+      "final_volume": 0.127229445463399,
+      "ratio": 0.9845308407829837,
+      "vertices": 600,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 07-07",
+      "original_volume": 0.14418009878321156,
+      "final_volume": 0.1422213319590381,
+      "ratio": 0.9864144438746804,
+      "vertices": 600,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 07-08",
+      "original_volume": 0.1234807637077602,
+      "final_volume": 0.12238569494299792,
+      "ratio": 0.9911316651121954,
+      "vertices": 628,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 08-00",
+      "original_volume": 0.11893546496032582,
+      "final_volume": 0.11789094252050487,
+      "ratio": 0.991217737786039,
+      "vertices": 634,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 08-01",
+      "original_volume": 0.15364116191741492,
+      "final_volume": 0.1516457025701964,
+      "ratio": 0.9870122086925436,
+      "vertices": 600,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 08-02",
+      "original_volume": 0.14316349598022932,
+      "final_volume": 0.14117713513239993,
+      "ratio": 0.9861252281230706,
+      "vertices": 600,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 08-03",
+      "original_volume": 0.13745317288322517,
+      "final_volume": 0.13536043374996612,
+      "ratio": 0.9847748939557985,
+      "vertices": 671,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 08-04",
+      "original_volume": 0.14655418870523657,
+      "final_volume": 0.1445754062807371,
+      "ratio": 0.9864979469916115,
+      "vertices": 508,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 08-05",
+      "original_volume": 0.15245593380035286,
+      "final_volume": 0.15046948318341022,
+      "ratio": 0.9869703292785968,
+      "vertices": 600,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 08-06",
+      "original_volume": 0.13346741849850077,
+      "final_volume": 0.13137787364143866,
+      "ratio": 0.9843441576935453,
+      "vertices": 650,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 08-07",
+      "original_volume": 0.14260585424231276,
+      "final_volume": 0.14062268725790494,
+      "ratio": 0.9860933690629695,
+      "vertices": 600,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 08-08",
+      "original_volume": 0.16666457465460194,
+      "final_volume": 0.16567344865299927,
+      "ratio": 0.9940531693453352,
+      "vertices": 600,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 09-00",
+      "original_volume": 0.1649258770620093,
+      "final_volume": 0.1639218836194714,
+      "ratio": 0.9939124565506453,
+      "vertices": 600,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 09-01",
+      "original_volume": 0.15377823171927577,
+      "final_volume": 0.15162150228516103,
+      "ratio": 0.9859750667568354,
+      "vertices": 641,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 09-02",
+      "original_volume": 0.1484998466721454,
+      "final_volume": 0.1465027055010339,
+      "ratio": 0.9865512240189664,
+      "vertices": 600,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 09-03",
+      "original_volume": 0.1410745939554061,
+      "final_volume": 0.139103357548914,
+      "ratio": 0.9860269921661783,
+      "vertices": 600,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 09-04",
+      "original_volume": 0.14138673899388535,
+      "final_volume": 0.13928038850390545,
+      "ratio": 0.9851022061547725,
+      "vertices": 641,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 09-05",
+      "original_volume": 0.14217879017633298,
+      "final_volume": 0.1401971458026248,
+      "ratio": 0.9860623066826599,
+      "vertices": 508,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 09-06",
+      "original_volume": 0.14439701845844383,
+      "final_volume": 0.14243357073219384,
+      "ratio": 0.9864024358175024,
+      "vertices": 600,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 09-07",
+      "original_volume": 0.14121048946564657,
+      "final_volume": 0.13910882746557396,
+      "ratio": 0.9851168138569203,
+      "vertices": 642,
+      "original_components": 1,
+      "final_components": 1
+    },
+    {
+      "name": "Carved stair 09-08",
+      "original_volume": 0.11892467522188432,
+      "final_volume": 0.11792400797324382,
+      "ratio": 0.991585705432674,
+      "vertices": 600,
+      "original_components": 1,
+      "final_components": 1
+    }
+  ],
+  "stair_joint_width": 0.028,
+  "stair_boundary_centers_preserved": true,
+  "stair_outer_width_and_level_heights_preserved": true,
+  "source_v11_mesh_sha256": "5d8b883677e4d23c1eca6f16fb2658f885ab2ee458314ee330d8c109c4580f11",
+  "source_v12_validation_sha256": "b011ed4e358db46b619855c151730c375a997562e7effe4c66964f2d3ece4314",
+  "notes": [
+    "Clay assembly excludes non-instanced arch-ring mesh and trim; matching before/after context only.",
+    "No scene material, lighting or Unity files changed."
+  ]
+}

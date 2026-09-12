@@ -1,0 +1,15 @@
+{
+    "scene": "Assets/Vesper/Scenes/Expansion/VesperAdventurerP1.unity",
+    "device": "Intel(R) Arc(TM) 130V GPU (8GB)",
+    "diagnostic": "",
+    "waterDiagnostic": "",
+    "fullFireCasters": false,
+    "unpartitionedFireCasters": false,
+    "glareOrbit": false,
+    "shaderErrors": 0,
+    "missingScripts": 0,
+    "reflectionFrames": 134,
+    "rootHullPoints": 30,
+    "localShadowTriangles": 499887,
+    "errors": []
+}

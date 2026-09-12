@@ -1,0 +1,25 @@
+# Candidate 41 masonry banding audit
+
+Audit was read-only during the player41 performance window. Directly opened candidate41 full/orbit/zoom and read verdict7, the saved scene/material, source stair mesh, native build log, shader and installed URP source. The following records the candidate41 state before root's later lighting edits.
+
+## Established causes and exclusions
+
+- The build log records 278 old stair parts removed and 63,224 new stair triangles imported. The saved stair object uses one `StairsV11` material with neutral-blue base RGB (0.35,0.38,0.40). Source vertex RGB has maximum channel spread 0: every vertex has R=G=B. Therefore the original separate brown-riser material explanation no longer applies to candidate41.
+- The two unshadowed brazier point lights are at (-6.9,2,-1.45) and (1.65,2,-1.45), with range 6.7 and warm RGB (1,0.565,0.18). Upper treads are above the light's y=2 elevation and receive little or zero direct fire diffuse; the +Z front risers face the flames and still receive warm diffuse. The moon illuminates the tops from the opposite/back direction. This makes a color boundary follow every 90-degree stair edge even on a single neutral stone.
+- The shader adds a hard-coded indirect-light gradient based only on normal.y: horizontal-up RGB (0.08,0.13,0.18), vertical RGB (0.025,0.045,0.065). The vertical faces thus receive substantially less cool environment light. The actual scene uses Trilight ambient, sky (0.18,0.265,0.35), equator (0.065,0.105,0.145), ground (0.019,0.024,0.03), which the custom stone GI bypasses.
+- WetPool is gated to upward geometric normals. Stairs have `_Wetness=0.35` and `_WaterLayer=0`; the wet albedo term can darken treads by up to 19.25%, while vertical risers have wet=0. The photographic detail-normal scale can fall from 1.7 to 1.1645. This reinforces dark/calm treads, but does not supply the orange color. Geometric normal interpolation toward up does not change a perfectly horizontal tread, which is already up.
+- The installed URP enum confirms additional-light mode 1 is PerPixel. The custom shader calls `GetAdditionalLight` and `LightingPhysicallyBased` in its fragment loop. VertexLighting is calculated but not added by the custom final lighting function. These bands are not coarse vertex-light interpolation artifacts.
+- Known camera projection to the actual full image gives approximate 3x3 RGB means: fifth-level middle top at (973,480) = (20,20,23), its front at (968,492) = (19,12,11); seventh-level top at (993,433) = (14,21,26), front at (988,445) = (17,12,12). This confirms the face-orientation color split in the pixels. These samples are diagnostic, not a visual score.
+- Joint staggering exists in the actual source: adjacent-row differences are 21.0-46.1% of nominal block width, median 31.9%. The 1.6 cm seam is only about 0.74 full-frame pixels, so improved construction is difficult to read through the strong illumination bands. New V13 geometry makes selected joints/noses clearer without pretending that geometry alone removes their lighting cause.
+
+## Concrete correction plan for root
+
+First capture isolated albedo, dry world normals, and separated moon/fire/indirect-light terms. These diagnostics distinguish geometry/normal defects from the established lighting split without guessing from a beauty render.
+
+Separate stone wet-film behavior from flat standing-water behavior: preserve stone geometric and measured micro normals, avoid projecting the ground puddle mask indiscriminately onto raised architecture, and give stair wetness an appropriate rain/runoff distribution. Wetness should alter absorption/roughness without flattening the stone substrate into a water plane.
+
+Replace the stone-only hard-coded normal.y GI with the scene's SH/probe irradiance. Match a neutral top-facing reference patch's indirect brightness during the comparison, because the scene's ambient values are higher than the current hard-coded constants. A brighter overall render alone does not demonstrate an improvement.
+
+Correct light transport around the braziers: retain their visible sources and localized warm core, but prevent unshadowed point irradiance from washing every riser and pier behind intervening cheek walls/columns. Compare a confined shadow or baked occlusion-cookie approach within the GPU budget, plus genuinely localized indirect bounce near lit stone. Simply raising the point source above the upper stairs would move the artificial stripes rather than reproduce the visible flame position. Avoid adding uniform orange fill or using whole-frame grading to disguise the bands.
+
+Retain the useful V12 reduction of broad shoulders on general masonry. Apply local broad fractures only to eight especially clean pier/buttress/spandrel instances, and refine the existing thirty stair noses. The main arch-ring mesh is a separate non-instanced asset and is not silently replaced by this source package. Native41's squared-face regression must be reviewed directly after the selective changes.

@@ -1,0 +1,29 @@
+{
+    "note": "Automated commands to actual runtime components; not mouse/keyboard injection.",
+    "passed": [
+        "Exactly one P1 motor, no knight",
+        "Skinned mesh and Animator present",
+        "Accept destination (-3.08, 0.00, 5.21)",
+        "Arrive (-3.08, 0.00, 5.21)",
+        "Route preserves courtyard clearance (-3.08, 0.00, 5.21)",
+        "Accept destination (3.40, 0.00, 3.70)",
+        "Arrive (3.40, 0.00, 3.70)",
+        "Route preserves courtyard clearance (3.40, 0.00, 3.70)",
+        "Accept destination (4.00, 0.00, 6.70)",
+        "Arrive (4.00, 0.00, 6.70)",
+        "Route preserves courtyard clearance (4.00, 0.00, 6.70)",
+        "Accept destination (6.00, 0.00, 7.40)",
+        "Arrive (6.00, 0.00, 7.40)",
+        "Route preserves courtyard clearance (6.00, 0.00, 7.40)",
+        "Reject outside courtyard",
+        "Rejected command does not move player",
+        "Accept mid-walk destination change",
+        "Close/rotation camera clamps",
+        "Wide/rotation camera clamps",
+        "R handler resets position and clears route",
+        "R handler resets camera"
+    ],
+    "errors": [],
+    "traveled": 18.39837646484375,
+    "frames": 443
+}

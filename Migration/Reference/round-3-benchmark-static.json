@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-09-08T06:40:36.149Z",
+  "mode": "static",
+  "frames": 180,
+  "cpuAndGpuCompletedMs": 1888.1999998092651,
+  "renderThroughputFps": 95.32888466167914,
+  "method": "180 rendered frames in 10-frame batches, GPU completion via gl.finish; excludes yield time; not display FPS",
+  "viewport": {
+    "width": 1536,
+    "height": 1024,
+    "pixelRatio": 1
+  }
+}

@@ -1,0 +1,1 @@
+Synthesized pointer events through production handler, raycast, NavMesh and moving player. Native input is separate. checks=14; failures=0

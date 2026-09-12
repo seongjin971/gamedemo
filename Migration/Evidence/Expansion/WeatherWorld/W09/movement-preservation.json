@@ -1,0 +1,23 @@
+{
+  "source": "W06",
+  "candidate": "W09",
+  "colliderComponents": 382,
+  "collidersIdentical": true,
+  "originalTransforms": 6623,
+  "changedOriginalTransforms": [],
+  "newTransforms": 10,
+  "originalPrefabTransformsPreserved": true,
+  "navigationIdentical": true,
+  "originalRuntimeUnchanged": {
+    "WeatherProbe.cs": true,
+    "WorldAnimation.cs": true,
+    "WorldCamera.cs": true,
+    "WorldEnvironment.cs": true,
+    "WorldLayout.cs": true,
+    "WorldMotor.cs": true,
+    "WorldRoofCutaway.cs": true,
+    "WorldRunInput.cs": true,
+    "WorldWeather.cs": true
+  },
+  "passed": true
+}

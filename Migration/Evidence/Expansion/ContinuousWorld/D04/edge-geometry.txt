@@ -1,0 +1,11 @@
+d=12 target=(-1.40, 0.80, -14.00) sampled=True near=(-1.40, 0.86, -14.00) correction=0.05566472 body=
+d=35 target=(-5.80, 2.43, -37.00) sampled=True near=(-5.80, 2.53, -37.00) correction=0.09998631 body=
+d=60 target=(-5.80, 2.04, -62.00) sampled=True near=(-5.80, 2.12, -62.00) correction=0.07587075 body=
+d=82 target=(14.09, 2.19, -84.00) sampled=True near=(14.09, 2.25, -84.00) correction=0.06425309 body=
+d=120 target=(-13.81, 5.82, -122.00) sampled=True near=(-13.81, 5.87, -122.00) correction=0.05048037 body=
+d=165 target=(18.69, 9.00, -167.00) sampled=True near=(18.69, 9.08, -167.00) correction=0.08100224 body=
+d=195 target=(15.31, 9.00, -197.00) sampled=True near=(15.31, 9.06, -197.00) correction=0.06046009 body=
+d=230 target=(-11.21, 11.24, -232.00) sampled=True near=(-11.21, 11.32, -232.00) correction=0.0829134 body=
+d=265 target=(-5.31, 21.68, -267.00) sampled=True near=(-5.31, 21.79, -267.00) correction=0.1157761 body=
+d=315 target=(21.77, 41.94, -317.00) sampled=True near=(21.77, 42.01, -317.00) correction=0.06705093 body=
+d=360 target=(-5.68, 54.19, -362.00) sampled=True near=(-5.68, 54.27, -362.00) correction=0.07679367 body=

@@ -1,0 +1,1126 @@
+{
+  "mesh_sha256": "90a4ce0ab8138d00438519708a265e7bb6662bb40b556d44683498aef63cacdc",
+  "bridge_sha256": "0da895372621f8bc9f651e19332bb57cc5c8f40f060881b5b4310449d6a52af9",
+  "triangles": 26472,
+  "vertices": 79416,
+  "negative_normal_dots": 0,
+  "degenerate_triangles": 0,
+  "nonmanifold_edges": 0,
+  "basis": "Unity world positions/normals (Blender x,z,-y), same triangle order; identity GameObject transform",
+  "stone_count": 90,
+  "rows": [
+    {
+      "row": 0,
+      "unity_top": 0.33199999999999996,
+      "unity_z": -1.75,
+      "boundaries_x": [
+        -6.781499892473221,
+        -6.063877128713812,
+        -5.116473678190468,
+        -4.2608013223547925,
+        -3.401153822791402,
+        -2.5560579754631827,
+        -1.6496429744317063,
+        -0.6907272905407633,
+        0.21717053283912857,
+        1.1615000069141388
+      ],
+      "stones": [
+        {
+          "name": "Carved stair 00-00",
+          "width": 0.709622763759409,
+          "nose_loss": false
+        },
+        {
+          "name": "Carved stair 00-01",
+          "width": 0.9314034505233435,
+          "nose_loss": true
+        },
+        {
+          "name": "Carved stair 00-02",
+          "width": 0.8396723558356758,
+          "nose_loss": false
+        },
+        {
+          "name": "Carved stair 00-03",
+          "width": 0.8436474995633905,
+          "nose_loss": false
+        },
+        {
+          "name": "Carved stair 00-04",
+          "width": 0.8290958473282193,
+          "nose_loss": true
+        },
+        {
+          "name": "Carved stair 00-05",
+          "width": 0.8904150010314764,
+          "nose_loss": false
+        },
+        {
+          "name": "Carved stair 00-06",
+          "width": 0.9429156838909429,
+          "nose_loss": false
+        },
+        {
+          "name": "Carved stair 00-07",
+          "width": 0.8918978233798919,
+          "nose_loss": true
+        },
+        {
+          "name": "Carved stair 00-08",
+          "width": 0.9363294740750102,
+          "nose_loss": false
+        }
+      ]
+    },
+    {
+      "row": 1,
+      "unity_top": 0.622,
+      "unity_z": -2.24,
+      "boundaries_x": [
+        -6.781499892473221,
+        -5.720504106878683,
+        -4.802099817815216,
+        -3.9394632994629255,
+        -3.0412837644903035,
+        -2.1753700575200465,
+        -1.3109146533636908,
+        -0.40874660869617485,
+        0.3948036109677403,
+        1.1615000069141388
+      ],
+      "stones": [
+        {
+          "name": "Carved stair 01-00",
+          "width": 1.052995785594538,
+          "nose_loss": false
+        },
+        {
+          "name": "Carved stair 01-01",
+          "width": 0.9024042890634671,
+          "nose_loss": true
+        },
+        {
+          "name": "Carved stair 01-02",
+          "width": 0.8466365183522901,
+          "nose_loss": false
+        },
+        {
+          "name": "Carved stair 01-03",
+          "width": 0.882179534972622,
+          "nose_loss": false
+        },
+        {
+          "name": "Carved stair 01-04",
+          "width": 0.8499137069702569,
+          "nose_loss": true
+        },
+        {
+          "name": "Carved stair 01-05",
+          "width": 0.8484554041563557,
+          "nose_loss": false
+        },
+        {
+          "name": "Carved stair 01-06",
+          "width": 0.886168044667516,
+          "nose_loss": false
+        },
+        {
+          "name": "Carved stair 01-07",
+          "width": 0.7875502196639151,
+          "nose_loss": true
+        },
+        {
+          "name": "Carved stair 01-08",
+          "width": 0.7586963959463985,
+          "nose_loss": false
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "unity_top": 0.9119999999999999,
+      "unity_z": -2.73,
+      "boundaries_x": [
+        -6.781499892473221,
+        -6.047745852640544,
+        -5.130916163380069,
+        -4.2558489783591495,
+        -3.3738768205597487,
+        -2.497636429472599,
+        -1.5912352774365182,
+        -0.7870704585308284,
+        0.10918286761145748,
+        1.1615000069141388
+      ],
+      "stones": [
+        {
+          "name": "Carved stair 02-00",
+          "width": 0.725754039832677,
+          "nose_loss": false
+        },
+        {
+          "name": "Carved stair 02-01",
+          "width": 0.9008296892604752,
+          "nose_loss": true
+        },
+        {
+          "name": "Carved stair 02-02",
+          "width": 0.859067185020919,
+          "nose_loss": false
+        },
+        {
+          "name": "Carved stair 02-03",
+          "width": 0.8659721577994008,
+          "nose_loss": false
+        },
+        {
+          "name": "Carved stair 02-04",
+          "width": 0.8602403910871499,
+          "nose_loss": true
+        },
+        {
+          "name": "Carved stair 02-05",
+          "width": 0.8904011520360806,
+          "nose_loss": false
+        },
+        {
+          "name": "Carved stair 02-06",
+          "width": 0.7881648189056898,
+          "nose_loss": false
+        },
+        {
+          "name": "Carved stair 02-07",
+          "width": 0.8802533261422858,
+          "nose_loss": true
+        },
+        {
+          "name": "Carved stair 02-08",
+          "width": 1.0443171393026813,
+          "nose_loss": false
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "unity_top": 1.202,
+      "unity_z": -3.2199999999999998,
+      "boundaries_x": [
+        -6.781499892473221,
+        -5.763600839220419,
+        -4.905666663834247,
+        -3.9995512420862895,
+        -3.116550487977952,
+        -2.181750690494576,
+        -1.265286157454552,
+        -0.43680778277745325,
+        0.4002591240362565,
+        1.1615000069141388
+      ],
+      "stones": [
+        {
+          "name": "Carved stair 03-00",
+          "width": 1.009899053252802,
+          "nose_loss": false
+        },
+        {
+          "name": "Carved stair 03-01",
+          "width": 0.8419341753861715,
+          "nose_loss": true
+        },
+        {
+          "name": "Carved stair 03-02",
+          "width": 0.8901154217479581,
+          "nose_loss": false
+        },
+        {
+          "name": "Carved stair 03-03",
+          "width": 0.8670007541083375,
+          "nose_loss": false
+        },
+        {
+          "name": "Carved stair 03-04",
+          "width": 0.9187997974833761,
+          "nose_loss": true
+        },
+        {
+          "name": "Carved stair 03-05",
+          "width": 0.9004645330400238,
+          "nose_loss": false
+        },
+        {
+          "name": "Carved stair 03-06",
+          "width": 0.8124783746770987,
+          "nose_loss": false
+        },
+        {
+          "name": "Carved stair 03-07",
+          "width": 0.8210669068137098,
+          "nose_loss": true
+        },
+        {
+          "name": "Carved stair 03-08",
+          "width": 0.7532408828778823,
+          "nose_loss": false
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "unity_top": 1.492,
+      "unity_z": -3.71,
+      "boundaries_x": [
+        -6.781499892473221,
+        -5.978103825562931,
+        -5.142542359655434,
+        -4.3060588044863115,
+        -3.3171304873164376,
+        -2.5355358049439447,
+        -1.6289038361809036,
+        -0.6783268823072419,
+        0.20804702726876276,
+        1.1615000069141388
+      ],
+      "stones": [
+        {
+          "name": "Carved stair 04-00",
+          "width": 0.79539606691029,
+          "nose_loss": false
+        },
+        {
+          "name": "Carved stair 04-01",
+          "width": 0.8195614659074968,
+          "nose_loss": true
+        },
+        {
+          "name": "Carved stair 04-02",
+          "width": 0.8204835551691225,
+          "nose_loss": false
+        },
+        {
+          "name": "Carved stair 04-03",
+          "width": 0.9729283171698739,
+          "nose_loss": false
+        },
+        {
+          "name": "Carved stair 04-04",
+          "width": 0.7655946823724928,
+          "nose_loss": true
+        },
+        {
+          "name": "Carved stair 04-05",
+          "width": 0.8906319687630411,
+          "nose_loss": false
+        },
+        {
+          "name": "Carved stair 04-06",
+          "width": 0.9345769538736617,
+          "nose_loss": false
+        },
+        {
+          "name": "Carved stair 04-07",
+          "width": 0.8703739095760047,
+          "nose_loss": true
+        },
+        {
+          "name": "Carved stair 04-08",
+          "width": 0.945452979645376,
+          "nose_loss": false
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "unity_top": 1.7819999999999998,
+      "unity_z": -4.2,
+      "boundaries_x": [
+        -6.781499892473221,
+        -5.70540360751808,
+        -4.819025755568817,
+        -3.967411298699039,
+        -3.0968628605996176,
+        -2.222371267724936,
+        -1.267679445503203,
+        -0.42988476725757696,
+        0.40904492129261627,
+        1.1615000069141388
+      ],
+      "stones": [
+        {
+          "name": "Carved stair 05-00",
+          "width": 1.068096284955141,
+          "nose_loss": false
+        },
+        {
+          "name": "Carved stair 05-01",
+          "width": 0.8703778519492626,
+          "nose_loss": true
+        },
+        {
+          "name": "Carved stair 05-02",
+          "width": 0.8356144568697781,
+          "nose_loss": false
+        },
+        {
+          "name": "Carved stair 05-03",
+          "width": 0.8545484380994215,
+          "nose_loss": false
+        },
+        {
+          "name": "Carved stair 05-04",
+          "width": 0.8584915928746817,
+          "nose_loss": true
+        },
+        {
+          "name": "Carved stair 05-05",
+          "width": 0.9386918222217329,
+          "nose_loss": false
+        },
+        {
+          "name": "Carved stair 05-06",
+          "width": 0.821794678245626,
+          "nose_loss": false
+        },
+        {
+          "name": "Carved stair 05-07",
+          "width": 0.8229296885501932,
+          "nose_loss": true
+        },
+        {
+          "name": "Carved stair 05-08",
+          "width": 0.7444550856215225,
+          "nose_loss": false
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "unity_top": 2.0719999999999996,
+      "unity_z": -4.6899999999999995,
+      "boundaries_x": [
+        -6.781499892473221,
+        -6.03772445428772,
+        -5.085491596301653,
+        -4.276190801335763,
+        -3.3487552769252567,
+        -2.479906754007457,
+        -1.5786266187931772,
+        -0.693510815558219,
+        0.1229643153381316,
+        1.1615000069141388
+      ],
+      "stones": [
+        {
+          "name": "Carved stair 06-00",
+          "width": 0.7357754381855006,
+          "nose_loss": false
+        },
+        {
+          "name": "Carved stair 06-01",
+          "width": 0.9362328579860675,
+          "nose_loss": true
+        },
+        {
+          "name": "Carved stair 06-02",
+          "width": 0.7933007949658899,
+          "nose_loss": false
+        },
+        {
+          "name": "Carved stair 06-03",
+          "width": 0.9114355244105061,
+          "nose_loss": false
+        },
+        {
+          "name": "Carved stair 06-04",
+          "width": 0.8528485229177996,
+          "nose_loss": true
+        },
+        {
+          "name": "Carved stair 06-05",
+          "width": 0.8852801352142798,
+          "nose_loss": false
+        },
+        {
+          "name": "Carved stair 06-06",
+          "width": 0.8691158032349582,
+          "nose_loss": false
+        },
+        {
+          "name": "Carved stair 06-07",
+          "width": 0.8004751308963506,
+          "nose_loss": true
+        },
+        {
+          "name": "Carved stair 06-08",
+          "width": 1.030535691576007,
+          "nose_loss": false
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "unity_top": 2.3619999999999997,
+      "unity_z": -5.18,
+      "boundaries_x": [
+        -6.781499892473221,
+        -5.753282552138434,
+        -4.920463321068725,
+        -3.995949966107832,
+        -3.1063042905150837,
+        -2.2682736064579276,
+        -1.282581682928827,
+        -0.41810802539046793,
+        0.4425214130720883,
+        1.1615000069141388
+      ],
+      "stones": [
+        {
+          "name": "Carved stair 07-00",
+          "width": 1.0202173403347867,
+          "nose_loss": false
+        },
+        {
+          "name": "Carved stair 07-01",
+          "width": 0.8168192310697089,
+          "nose_loss": true
+        },
+        {
+          "name": "Carved stair 07-02",
+          "width": 0.9085133549608937,
+          "nose_loss": false
+        },
+        {
+          "name": "Carved stair 07-03",
+          "width": 0.8736456755927482,
+          "nose_loss": false
+        },
+        {
+          "name": "Carved stair 07-04",
+          "width": 0.8220306840571561,
+          "nose_loss": true
+        },
+        {
+          "name": "Carved stair 07-05",
+          "width": 0.9696919235291006,
+          "nose_loss": false
+        },
+        {
+          "name": "Carved stair 07-06",
+          "width": 0.8484736575383591,
+          "nose_loss": false
+        },
+        {
+          "name": "Carved stair 07-07",
+          "width": 0.8446294384625562,
+          "nose_loss": true
+        },
+        {
+          "name": "Carved stair 07-08",
+          "width": 0.7109785938420505,
+          "nose_loss": false
+        }
+      ]
+    },
+    {
+      "row": 8,
+      "unity_top": 2.6519999999999997,
+      "unity_z": -5.67,
+      "boundaries_x": [
+        -6.781499892473221,
+        -5.996074688632239,
+        -5.1274013626611215,
+        -4.276336402574392,
+        -3.3954663464311,
+        -2.456612428447504,
+        -1.577979983752625,
+        -0.7079529318951118,
+        0.15539640751833766,
+        1.1615000069141388
+      ],
+      "stones": [
+        {
+          "name": "Carved stair 08-00",
+          "width": 0.7774252038409815,
+          "nose_loss": false
+        },
+        {
+          "name": "Carved stair 08-01",
+          "width": 0.8526733259711179,
+          "nose_loss": true
+        },
+        {
+          "name": "Carved stair 08-02",
+          "width": 0.8350649600867293,
+          "nose_loss": false
+        },
+        {
+          "name": "Carved stair 08-03",
+          "width": 0.864870056143292,
+          "nose_loss": false
+        },
+        {
+          "name": "Carved stair 08-04",
+          "width": 0.9228539179835962,
+          "nose_loss": true
+        },
+        {
+          "name": "Carved stair 08-05",
+          "width": 0.862632444694879,
+          "nose_loss": false
+        },
+        {
+          "name": "Carved stair 08-06",
+          "width": 0.8540270518575132,
+          "nose_loss": false
+        },
+        {
+          "name": "Carved stair 08-07",
+          "width": 0.8473493394134495,
+          "nose_loss": true
+        },
+        {
+          "name": "Carved stair 08-08",
+          "width": 0.9981035993958012,
+          "nose_loss": false
+        }
+      ]
+    },
+    {
+      "row": 9,
+      "unity_top": 2.9419999999999997,
+      "unity_z": -6.16,
+      "boundaries_x": [
+        -6.781499892473221,
+        -5.740352427474831,
+        -4.830969676821843,
+        -3.9372046002592676,
+        -3.126640691911663,
+        -2.244025734274033,
+        -1.3558389474752242,
+        -0.4296429374812024,
+        0.48963931875690553,
+        1.1615000069141388
+      ],
+      "stones": [
+        {
+          "name": "Carved stair 09-00",
+          "width": 1.0331474649983896,
+          "nose_loss": false
+        },
+        {
+          "name": "Carved stair 09-01",
+          "width": 0.8933827506529886,
+          "nose_loss": true
+        },
+        {
+          "name": "Carved stair 09-02",
+          "width": 0.8777650765625751,
+          "nose_loss": false
+        },
+        {
+          "name": "Carved stair 09-03",
+          "width": 0.7945639083476044,
+          "nose_loss": false
+        },
+        {
+          "name": "Carved stair 09-04",
+          "width": 0.8666149576376303,
+          "nose_loss": true
+        },
+        {
+          "name": "Carved stair 09-05",
+          "width": 0.8721867867988087,
+          "nose_loss": false
+        },
+        {
+          "name": "Carved stair 09-06",
+          "width": 0.9101960099940217,
+          "nose_loss": false
+        },
+        {
+          "name": "Carved stair 09-07",
+          "width": 0.903282256238108,
+          "nose_loss": true
+        },
+        {
+          "name": "Carved stair 09-08",
+          "width": 0.6638606881572333,
+          "nose_loss": false
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "name": "Carved stair 00-00",
+      "triangles": 296,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 00-01",
+      "triangles": 290,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 00-02",
+      "triangles": 296,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 00-03",
+      "triangles": 296,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 00-04",
+      "triangles": 290,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 00-05",
+      "triangles": 296,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 00-06",
+      "triangles": 296,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 00-07",
+      "triangles": 290,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 00-08",
+      "triangles": 296,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 01-00",
+      "triangles": 296,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 01-01",
+      "triangles": 290,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 01-02",
+      "triangles": 296,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 01-03",
+      "triangles": 296,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 01-04",
+      "triangles": 290,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 01-05",
+      "triangles": 296,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 01-06",
+      "triangles": 296,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 01-07",
+      "triangles": 290,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 01-08",
+      "triangles": 296,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 02-00",
+      "triangles": 296,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 02-01",
+      "triangles": 290,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 02-02",
+      "triangles": 296,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 02-03",
+      "triangles": 296,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 02-04",
+      "triangles": 290,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 02-05",
+      "triangles": 296,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 02-06",
+      "triangles": 296,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 02-07",
+      "triangles": 290,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 02-08",
+      "triangles": 296,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 03-00",
+      "triangles": 296,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 03-01",
+      "triangles": 290,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 03-02",
+      "triangles": 296,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 03-03",
+      "triangles": 296,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 03-04",
+      "triangles": 290,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 03-05",
+      "triangles": 296,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 03-06",
+      "triangles": 296,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 03-07",
+      "triangles": 290,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 03-08",
+      "triangles": 296,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 04-00",
+      "triangles": 296,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 04-01",
+      "triangles": 290,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 04-02",
+      "triangles": 296,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 04-03",
+      "triangles": 296,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 04-04",
+      "triangles": 290,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 04-05",
+      "triangles": 296,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 04-06",
+      "triangles": 296,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 04-07",
+      "triangles": 290,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 04-08",
+      "triangles": 296,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 05-00",
+      "triangles": 296,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 05-01",
+      "triangles": 290,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 05-02",
+      "triangles": 296,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 05-03",
+      "triangles": 296,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 05-04",
+      "triangles": 290,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 05-05",
+      "triangles": 296,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 05-06",
+      "triangles": 296,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 05-07",
+      "triangles": 290,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 05-08",
+      "triangles": 296,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 06-00",
+      "triangles": 296,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 06-01",
+      "triangles": 290,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 06-02",
+      "triangles": 296,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 06-03",
+      "triangles": 296,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 06-04",
+      "triangles": 290,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 06-05",
+      "triangles": 296,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 06-06",
+      "triangles": 296,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 06-07",
+      "triangles": 290,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 06-08",
+      "triangles": 296,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 07-00",
+      "triangles": 296,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 07-01",
+      "triangles": 290,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 07-02",
+      "triangles": 296,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 07-03",
+      "triangles": 296,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 07-04",
+      "triangles": 290,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 07-05",
+      "triangles": 296,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 07-06",
+      "triangles": 296,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 07-07",
+      "triangles": 290,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 07-08",
+      "triangles": 296,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 08-00",
+      "triangles": 296,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 08-01",
+      "triangles": 296,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 08-02",
+      "triangles": 296,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 08-03",
+      "triangles": 296,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 08-04",
+      "triangles": 290,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 08-05",
+      "triangles": 296,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 08-06",
+      "triangles": 296,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 08-07",
+      "triangles": 290,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 08-08",
+      "triangles": 296,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 09-00",
+      "triangles": 296,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 09-01",
+      "triangles": 296,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 09-02",
+      "triangles": 296,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 09-03",
+      "triangles": 296,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 09-04",
+      "triangles": 290,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 09-05",
+      "triangles": 296,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 09-06",
+      "triangles": 296,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 09-07",
+      "triangles": 290,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Carved stair 09-08",
+      "triangles": 296,
+      "nonmanifold_edges": 0
+    }
+  ],
+  "bounds": [
+    [
+      -6.781499862670898,
+      0.012000009417533875,
+      -6.3935370445251465
+    ],
+    [
+      1.1614999771118164,
+      2.9419991970062256,
+      -1.4589999914169312
+    ]
+  ],
+  "removal_counts": {
+    "riser": 90,
+    "tread": 90,
+    "lip": 98
+  },
+  "known_limits": [
+    "Neutral Blender geometry only; native material and lighting acceptance pending.",
+    "Before clay recreates preserved V7 source components; native V8 riser replacements can have different small chips."
+  ]
+}

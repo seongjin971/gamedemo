@@ -1,0 +1,215 @@
+{
+  "status": "PASS",
+  "exact_architecture_overrides": 8,
+  "stair_nose_losses": 30,
+  "meshes": [
+    {
+      "id": "stairs-v13-mesh",
+      "sha256": "fa1dd68fd3e87040a2e0d7b5fb72e41a8a939f11267a86d25be2c60e882c753c",
+      "triangles": 64780,
+      "vertices": 54081,
+      "negative_normal_dots": 0,
+      "degenerate_triangles": 0,
+      "minimum_cross_dot_sum_corner_normals": 8.141448701840016e-09,
+      "max_normal_length_error": 1.3936296650030044e-07,
+      "bounds": [
+        [
+          -6.781499862670898,
+          0.012000009417533875,
+          -6.398135662078857
+        ],
+        [
+          1.1614999771118164,
+          2.9419901371002197,
+          -1.4589999914169312
+        ]
+      ]
+    },
+    {
+      "id": "localized-masonry-v13-0",
+      "sha256": "a0fd8a66d35cca7ff61257f4e85ece7ae667a32e371437d3b6144807fbddbbaf",
+      "triangles": 886,
+      "vertices": 786,
+      "negative_normal_dots": 0,
+      "degenerate_triangles": 0,
+      "minimum_cross_dot_sum_corner_normals": 7.681486433844885e-07,
+      "max_normal_length_error": 1.4898069755631127e-07,
+      "bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ],
+      "volume_fraction_of_v12": 0.9945889016122432
+    },
+    {
+      "id": "localized-masonry-v13-1",
+      "sha256": "249bf6613dd953adb8ded695e3128345b8e64a2817ca13217b98a9933a93fd54",
+      "triangles": 906,
+      "vertices": 817,
+      "negative_normal_dots": 0,
+      "degenerate_triangles": 0,
+      "minimum_cross_dot_sum_corner_normals": 1.9441954117096795e-05,
+      "max_normal_length_error": 1.1885676132195044e-07,
+      "bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ],
+      "volume_fraction_of_v12": 0.9943123040370573
+    },
+    {
+      "id": "localized-masonry-v13-2",
+      "sha256": "755adc1cc5cdc9db4071e872f7a9a3bfc36b215c580f4ea96d2b9c051ea7cf9a",
+      "triangles": 874,
+      "vertices": 781,
+      "negative_normal_dots": 0,
+      "degenerate_triangles": 0,
+      "minimum_cross_dot_sum_corner_normals": 1.5715914331235714e-08,
+      "max_normal_length_error": 1.0642007675087939e-07,
+      "bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ],
+      "volume_fraction_of_v12": 0.994353076466507
+    },
+    {
+      "id": "localized-masonry-v13-3",
+      "sha256": "5a634323f5c5620d9d14eba18e2477b6fe0c050b460f54f019f9709965cbc9af",
+      "triangles": 886,
+      "vertices": 799,
+      "negative_normal_dots": 0,
+      "degenerate_triangles": 0,
+      "minimum_cross_dot_sum_corner_normals": 3.485660594622224e-06,
+      "max_normal_length_error": 1.5636650196881874e-07,
+      "bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ],
+      "volume_fraction_of_v12": 0.9934024336728094
+    },
+    {
+      "id": "localized-masonry-v13-4",
+      "sha256": "5f9dc1e6650a8f7435baecad62061361f2c48e1bcfffad6c278f368f95bf4a9e",
+      "triangles": 848,
+      "vertices": 762,
+      "negative_normal_dots": 0,
+      "degenerate_triangles": 0,
+      "minimum_cross_dot_sum_corner_normals": 4.096040847858239e-06,
+      "max_normal_length_error": 1.3917513708161522e-07,
+      "bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ],
+      "volume_fraction_of_v12": 0.9948857215873571
+    },
+    {
+      "id": "localized-masonry-v13-5",
+      "sha256": "d7714711b7b733fac5863ff9465674254062f6dd607275175154dcbd2dd7fe5a",
+      "triangles": 908,
+      "vertices": 816,
+      "negative_normal_dots": 0,
+      "degenerate_triangles": 0,
+      "minimum_cross_dot_sum_corner_normals": 3.5018013260967295e-06,
+      "max_normal_length_error": 1.1330928573194399e-07,
+      "bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ],
+      "volume_fraction_of_v12": 0.9938816447917365
+    },
+    {
+      "id": "localized-masonry-v13-6",
+      "sha256": "207e13316ab5371c46da70e9eddfce29520a582cdc6a0d52390f672132891d09",
+      "triangles": 866,
+      "vertices": 787,
+      "negative_normal_dots": 0,
+      "degenerate_triangles": 0,
+      "minimum_cross_dot_sum_corner_normals": 4.096040847858239e-06,
+      "max_normal_length_error": 1.3917513708161522e-07,
+      "bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ],
+      "volume_fraction_of_v12": 0.9941930126711254
+    },
+    {
+      "id": "localized-masonry-v13-7",
+      "sha256": "da18c4e801bb58218dfe2807e398a11d73f12b6659100d50747c05e79d0e9d8b",
+      "triangles": 930,
+      "vertices": 825,
+      "negative_normal_dots": 0,
+      "degenerate_triangles": 0,
+      "minimum_cross_dot_sum_corner_normals": 7.328472234018014e-10,
+      "max_normal_length_error": 1.0510431192045644e-07,
+      "bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ],
+      "volume_fraction_of_v12": 0.9934557599731483
+    }
+  ],
+  "source_v11_unchanged": true,
+  "source_v12_unchanged": true
+}

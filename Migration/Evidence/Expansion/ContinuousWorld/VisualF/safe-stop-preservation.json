@@ -1,0 +1,9 @@
+{
+  "timeUtc": "2026-09-10T11:55:04.816854+00:00",
+  "scope": "Limited safe-stop audit: entire E02 Windows build, old continuous scene, runtime source, launcher, user IDE files and original protection baseline. Full 24061-file rehash deferred at user request to stop promptly.",
+  "checked": 207,
+  "authorizedSourceChanges": [
+    "Unity/Vesper/Assets/Vesper/Expansion/ContinuousWorld/Runtime/WorldLayout.cs"
+  ],
+  "violations": []
+}

@@ -1,0 +1,6 @@
+{
+  "protected_files": 221,
+  "changed": [],
+  "passed": true,
+  "scope": "Exact initial hashes for L09 build, scene, LinearWorld runtime/editor/root shaders and protected launchers/user files. This is not a new baseline."
+}

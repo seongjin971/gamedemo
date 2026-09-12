@@ -1,0 +1,68 @@
+{
+    "mode": "-w09Performance",
+    "device": "Intel(R) Arc(TM) 130V GPU (8GB)",
+    "note": "Actual 1920x1080 Unity player. Fixtures/synthetic clicks are not user acceptance. Performance is engine cadence; concurrent-processes.json records the user's preserved W06 process. No OBS recording.",
+    "width": 1920,
+    "height": 1080,
+    "failures": 0,
+    "clicks": 0,
+    "safetyStops": 0,
+    "audioSources": 0,
+    "distance": 0.0,
+    "captures": [],
+    "checks": [
+        "PASS Two brief pulses and recovery strong=False",
+        "PASS Unchanged sun intensity strong=False",
+        "PASS Stronger measured exposure strong=False EV=2.747626",
+        "PASS Original darkness restored strong=False",
+        "PASS Two brief pulses and recovery strong=True",
+        "PASS Unchanged sun intensity strong=True",
+        "PASS Stronger measured exposure strong=True EV=3.35",
+        "PASS Original darkness restored strong=True"
+    ],
+    "errors": [],
+    "performance": [
+        {
+            "scene": "150-static",
+            "frames": 458,
+            "fps": 76.29681396484375,
+            "p95Ms": 25.292503356933595,
+            "maxMs": 65.40690612792969
+        },
+        {
+            "scene": "150-walk",
+            "frames": 392,
+            "fps": 65.07759094238281,
+            "p95Ms": 31.26959800720215,
+            "maxMs": 66.38600158691406
+        },
+        {
+            "scene": "198-static",
+            "frames": 331,
+            "fps": 55.02313995361328,
+            "p95Ms": 20.129995346069337,
+            "maxMs": 43.50559616088867
+        },
+        {
+            "scene": "198-walk",
+            "frames": 329,
+            "fps": 54.70237350463867,
+            "p95Ms": 38.03249740600586,
+            "maxMs": 57.326595306396487
+        },
+        {
+            "scene": "323-static",
+            "frames": 424,
+            "fps": 70.53011322021485,
+            "p95Ms": 15.939200401306153,
+            "maxMs": 51.58470153808594
+        },
+        {
+            "scene": "323-walk",
+            "frames": 442,
+            "fps": 73.62200927734375,
+            "p95Ms": 15.384998321533204,
+            "maxMs": 39.6348991394043
+        }
+    ]
+}

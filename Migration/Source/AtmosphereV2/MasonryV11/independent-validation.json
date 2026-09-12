@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "mesh_sha256": "5d8b883677e4d23c1eca6f16fb2658f885ab2ee458314ee330d8c109c4580f11",
+  "vertices": 52382,
+  "triangles": 63224,
+  "positive_normal_dot_triangles": 63224,
+  "minimum_cross_dot_three_corner_normals": 7.899818133865823e-06,
+  "degenerate_triangles": 0,
+  "max_normal_length_error": 1.2744845812040495e-07,
+  "exact_source_removals": 278,
+  "source_counts": {
+    "riser": 90,
+    "tread": 90,
+    "lip": 98
+  },
+  "finite": true,
+  "valid_indices": true,
+  "limits": "Array and identity checks do not establish native visual acceptance."
+}

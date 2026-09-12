@@ -1,0 +1,213 @@
+{
+    "mode": "-roadTraverse",
+    "device": "Intel(R) Arc(TM) 130V GPU (8GB)",
+    "note": "Unmodified Unity runtime captures. Fixture placement is not traversal; screen pointer traversal is synthetic. Native device acceptance is separate. FPS is engine frame cadence, not display-present timing.",
+    "width": 1536,
+    "height": 1024,
+    "fixtures": 4,
+    "frames": 8471,
+    "clicks": 40,
+    "rejected": 0,
+    "safetyStops": 0,
+    "resets": 0,
+    "audioSources": 0,
+    "failures": 0,
+    "distance": 240.90843200683595,
+    "captures": [
+        {
+            "progress": 38.0,
+            "position": {
+                "x": 0.0,
+                "y": 1.085185170173645,
+                "z": -38.0
+            },
+            "image": "start-38.png"
+        },
+        {
+            "progress": 61.983970642089847,
+            "position": {
+                "x": 0.000011077378985646646,
+                "y": 1.0730280876159669,
+                "z": -61.983970642089847
+            },
+            "image": "end-62.png"
+        },
+        {
+            "progress": 38.020992279052737,
+            "position": {
+                "x": -3.450913936831057e-7,
+                "y": 1.0819225311279297,
+                "z": -38.020992279052737
+            },
+            "image": "returned-38.png"
+        },
+        {
+            "progress": 112.0,
+            "position": {
+                "x": 0.0,
+                "y": 2.200000047683716,
+                "z": -112.0
+            },
+            "image": "start-112.png"
+        },
+        {
+            "progress": 135.98081970214845,
+            "position": {
+                "x": 2.6683313219567906e-13,
+                "y": 2.200000047683716,
+                "z": -135.98081970214845
+            },
+            "image": "end-136.png"
+        },
+        {
+            "progress": 112.02364349365235,
+            "position": {
+                "x": 0.000016056290405686013,
+                "y": 2.200000047683716,
+                "z": -112.02364349365235
+            },
+            "image": "returned-112.png"
+        },
+        {
+            "progress": 166.0,
+            "position": {
+                "x": 0.0,
+                "y": 2.200000047683716,
+                "z": -166.0
+            },
+            "image": "start-166.png"
+        },
+        {
+            "progress": 189.98321533203126,
+            "position": {
+                "x": -1.307444286169357e-8,
+                "y": 2.454972505569458,
+                "z": -189.98321533203126
+            },
+            "image": "end-190.png"
+        },
+        {
+            "progress": 166.01930236816407,
+            "position": {
+                "x": 4.741212578096565e-8,
+                "y": 2.200000047683716,
+                "z": -166.01930236816407
+            },
+            "image": "returned-166.png"
+        },
+        {
+            "progress": 208.0,
+            "position": {
+                "x": 0.0,
+                "y": 3.993036985397339,
+                "z": -208.0
+            },
+            "image": "start-208.png"
+        },
+        {
+            "progress": 255.97640991210938,
+            "position": {
+                "x": 0.000017033738913596608,
+                "y": 11.23480224609375,
+                "z": -255.97640991210938
+            },
+            "image": "end-256.png"
+        },
+        {
+            "progress": 208.01788330078126,
+            "position": {
+                "x": 0.000010633891179168131,
+                "y": 3.995129346847534,
+                "z": -208.01788330078126
+            },
+            "image": "returned-208.png"
+        }
+    ],
+    "checks": [
+        "PASS forward 44 screen pointer accepted",
+        "PASS forward 44 arrival/support/body/climate continuity: ",
+        "PASS forward 50 screen pointer accepted",
+        "PASS forward 50 arrival/support/body/climate continuity: ",
+        "PASS forward 56 screen pointer accepted",
+        "PASS forward 56 arrival/support/body/climate continuity: ",
+        "PASS forward 62 screen pointer accepted",
+        "PASS forward 62 arrival/support/body/climate continuity: ",
+        "PASS reverse 56 screen pointer accepted",
+        "PASS reverse 56 arrival/support/body/climate continuity: ",
+        "PASS reverse 50 screen pointer accepted",
+        "PASS reverse 50 arrival/support/body/climate continuity: ",
+        "PASS reverse 44 screen pointer accepted",
+        "PASS reverse 44 arrival/support/body/climate continuity: ",
+        "PASS reverse 38 screen pointer accepted",
+        "PASS reverse 38 arrival/support/body/climate continuity: ",
+        "PASS forward 118 screen pointer accepted",
+        "PASS forward 118 arrival/support/body/climate continuity: ",
+        "PASS forward 124 screen pointer accepted",
+        "PASS forward 124 arrival/support/body/climate continuity: ",
+        "PASS forward 130 screen pointer accepted",
+        "PASS forward 130 arrival/support/body/climate continuity: ",
+        "PASS forward 136 screen pointer accepted",
+        "PASS forward 136 arrival/support/body/climate continuity: ",
+        "PASS reverse 130 screen pointer accepted",
+        "PASS reverse 130 arrival/support/body/climate continuity: ",
+        "PASS reverse 124 screen pointer accepted",
+        "PASS reverse 124 arrival/support/body/climate continuity: ",
+        "PASS reverse 118 screen pointer accepted",
+        "PASS reverse 118 arrival/support/body/climate continuity: ",
+        "PASS reverse 112 screen pointer accepted",
+        "PASS reverse 112 arrival/support/body/climate continuity: ",
+        "PASS forward 172 screen pointer accepted",
+        "PASS forward 172 arrival/support/body/climate continuity: ",
+        "PASS forward 178 screen pointer accepted",
+        "PASS forward 178 arrival/support/body/climate continuity: ",
+        "PASS forward 184 screen pointer accepted",
+        "PASS forward 184 arrival/support/body/climate continuity: ",
+        "PASS forward 190 screen pointer accepted",
+        "PASS forward 190 arrival/support/body/climate continuity: ",
+        "PASS reverse 184 screen pointer accepted",
+        "PASS reverse 184 arrival/support/body/climate continuity: ",
+        "PASS reverse 178 screen pointer accepted",
+        "PASS reverse 178 arrival/support/body/climate continuity: ",
+        "PASS reverse 172 screen pointer accepted",
+        "PASS reverse 172 arrival/support/body/climate continuity: ",
+        "PASS reverse 166 screen pointer accepted",
+        "PASS reverse 166 arrival/support/body/climate continuity: ",
+        "PASS forward 214 screen pointer accepted",
+        "PASS forward 214 arrival/support/body/climate continuity: ",
+        "PASS forward 220 screen pointer accepted",
+        "PASS forward 220 arrival/support/body/climate continuity: ",
+        "PASS forward 226 screen pointer accepted",
+        "PASS forward 226 arrival/support/body/climate continuity: ",
+        "PASS forward 232 screen pointer accepted",
+        "PASS forward 232 arrival/support/body/climate continuity: ",
+        "PASS forward 238 screen pointer accepted",
+        "PASS forward 238 arrival/support/body/climate continuity: ",
+        "PASS forward 244 screen pointer accepted",
+        "PASS forward 244 arrival/support/body/climate continuity: ",
+        "PASS forward 250 screen pointer accepted",
+        "PASS forward 250 arrival/support/body/climate continuity: ",
+        "PASS forward 256 screen pointer accepted",
+        "PASS forward 256 arrival/support/body/climate continuity: ",
+        "PASS reverse 250 screen pointer accepted",
+        "PASS reverse 250 arrival/support/body/climate continuity: ",
+        "PASS reverse 244 screen pointer accepted",
+        "PASS reverse 244 arrival/support/body/climate continuity: ",
+        "PASS reverse 238 screen pointer accepted",
+        "PASS reverse 238 arrival/support/body/climate continuity: ",
+        "PASS reverse 232 screen pointer accepted",
+        "PASS reverse 232 arrival/support/body/climate continuity: ",
+        "PASS reverse 226 screen pointer accepted",
+        "PASS reverse 226 arrival/support/body/climate continuity: ",
+        "PASS reverse 220 screen pointer accepted",
+        "PASS reverse 220 arrival/support/body/climate continuity: ",
+        "PASS reverse 214 screen pointer accepted",
+        "PASS reverse 214 arrival/support/body/climate continuity: ",
+        "PASS reverse 208 screen pointer accepted",
+        "PASS reverse 208 arrival/support/body/climate continuity: ",
+        "PASS No safety stop",
+        "PASS No camera reset",
+        "PASS No audio sources"
+    ],
+    "errors": [],
+    "performance": []
+}

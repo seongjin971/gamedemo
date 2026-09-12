@@ -1,0 +1,17 @@
+﻿{
+    "PID":  28448,
+    "executable":  "C:\\Users\\brian\\Dev\\active\\Dream Loop Astra\\Unity\\Vesper\\Builds\\VesperLinearWorld_L09\\VesperLinear.exe",
+    "arguments":  [
+                      "-screen-width",
+                      "1920",
+                      "-screen-height",
+                      "1080",
+                      "-screen-fullscreen",
+                      "1",
+                      "-window-mode",
+                      "exclusive",
+                      "-force-d3d12"
+                  ],
+    "probeMode":  false,
+    "startedUtc":  "2026-09-11T11:55:11.7901213Z"
+}

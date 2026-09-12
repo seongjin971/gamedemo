@@ -1,0 +1,39 @@
+{
+    "mode": "-w09Traverse",
+    "device": "Intel(R) Arc(TM) 130V GPU (8GB)",
+    "note": "Actual 1920x1080 Unity player. Fixtures/synthetic clicks are not user acceptance. Performance is engine cadence; concurrent-processes.json records the user's preserved W06 process. No OBS recording.",
+    "width": 1920,
+    "height": 1080,
+    "failures": 0,
+    "clicks": 4,
+    "safetyStops": 0,
+    "audioSources": 0,
+    "distance": 37.49859619140625,
+    "captures": [
+        "shelter-entry.png"
+    ],
+    "checks": [
+        "PASS Screen click accepted (0.00, 2.20, -198.00) ",
+        "PASS Arrived with support and clearance (0.00, 2.20, -198.00)",
+        "PASS Screen click accepted (0.00, 2.20, -204.00) ",
+        "PASS Arrived with support and clearance (0.00, 2.20, -204.00)",
+        "PASS Screen click accepted (0.00, 2.20, -198.00) ",
+        "PASS Arrived with support and clearance (0.00, 2.20, -198.00)",
+        "PASS Screen click accepted (0.00, 2.20, -192.00) ",
+        "PASS Arrived with support and clearance (0.00, 2.20, -192.00)",
+        "PASS Navigation motor request accepted (3.50, 2.20, -197.00) ",
+        "PASS Arrived with support and clearance (3.50, 2.20, -197.00)",
+        "PASS Navigation motor request accepted (6.80, 2.20, -197.00) ",
+        "PASS Arrived with support and clearance (6.80, 2.20, -197.00)",
+        "PASS Entered original shelter through arch",
+        "PASS Navigation motor request accepted (3.50, 2.20, -197.00) ",
+        "PASS Arrived with support and clearance (3.50, 2.20, -197.00)",
+        "PASS Exited shelter and opaque roof returned",
+        "PASS Navigation motor request accepted (0.00, 2.20, -197.00) ",
+        "PASS Arrived with support and clearance (0.00, 2.20, -197.00)",
+        "PASS No safety stops",
+        "PASS No audio sources"
+    ],
+    "errors": [],
+    "performance": []
+}

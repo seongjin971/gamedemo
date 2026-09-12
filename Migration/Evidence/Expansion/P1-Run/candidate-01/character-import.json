@@ -1,0 +1,17 @@
+{
+    "scene": "Assets/Vesper/Scenes/Expansion/VesperAdventurerRun.unity",
+    "model": "Assets/Vesper/Expansion/P1Run/Art/Adventurer.fbx",
+    "walk": "Walk",
+    "skins": 1,
+    "bones": 24,
+    "triangles": 31113,
+    "missingScripts": 0,
+    "authoredSpeed": 2.668814182281494,
+    "authoredRunSpeed": 6.906059265136719,
+    "runPhaseOffset": 0.9750000238418579,
+    "clips": [
+        "Idle 9.933s",
+        "Run 0.700s",
+        "Walk 1.033s"
+    ]
+}

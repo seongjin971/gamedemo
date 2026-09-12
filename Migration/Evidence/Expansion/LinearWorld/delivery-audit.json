@@ -1,0 +1,38 @@
+{
+  "timeUtc": "2026-09-10T15:35:54.314454+00:00",
+  "priorBoundedInspection": "preservation-inspection.json:6497 files unchanged before final L06 build",
+  "postBuildCriticalChecked": 37,
+  "violations": [],
+  "sourceMatchesL06BuildSnapshot": true,
+  "sourceChanges": [],
+  "deliveryHashes": {
+    "PLAY_VESPER_LINEAR.cmd": "c731ba0cd97fb916058c2dc89f409a96a68d752364d63b3551ab106e9d8b8a4f",
+    "Unity/Vesper/Assets/Vesper/Scenes/Expansion/VesperLinearWorld_L06.unity": "24db1e289334fb83485e4c975445892627bff6859abfb379f95a843b024ceadb",
+    "Unity/Vesper/Assets/Vesper/Scenes/Expansion/VesperLinearWorld_L06.unity.meta": "bd56e47ceba96563b9fb4eaa47bf35cd6e29ed0559d792413e480edf33bd490c",
+    "Unity/Vesper/Builds/VesperLinearWorld_L06/VesperLinear.exe": "d05c5848f7cc2eb32ff6016f54762ee3c666a69b862be297df2390830c1ea8cf",
+    "Unity/Vesper/Builds/VesperLinearWorld_L06/VesperLinear_Data/Managed/Assembly-CSharp.dll": "6955b0b5c01a7c489388a5a19ff80be5e7c9136bb8502f5ddea16f7d911e68a0",
+    "Migration/Evidence/Expansion/LinearWorld/L06/build-source/Ground.shader": "e5eb02eb136fe79a5c9e3ce97cd90504cc5e6a249f589176c24bcef1ef12160c",
+    "Migration/Evidence/Expansion/LinearWorld/L06/build-source/Precipitation.shader": "c86bb664a3f0d819c868b351a7653c22ef92cbe750b45fd8b69834cf718507b4",
+    "Migration/Evidence/Expansion/LinearWorld/L06/build-source/River.shader": "841643b976ae8607bd65876dc881f597f008c8314fc2fc777f0a9ba6593745f3",
+    "Migration/Evidence/Expansion/LinearWorld/L06/build-source/WetStone.shader": "b0078fc1dd414cd4eaeb7e1fbba4f92373fcc847411ada656670268811aa5ad0",
+    "Migration/Evidence/Expansion/LinearWorld/L06/build-source/Editor/LinearBuild.cs": "36d3123d76596ec3e595ac613093245aca0a20e1322135927ecd0430f7c90ba5",
+    "Migration/Evidence/Expansion/LinearWorld/L06/build-source/Editor/LinearComposition.cs": "6296f4bd6a3e797de52e49d66953e35abe9f64240190da9acd2f48f90b9fefd3",
+    "Migration/Evidence/Expansion/LinearWorld/L06/build-source/Editor/LinearTerrain.cs": "d5ffd26d84457e4d7b1de4866b4b30c694441d6dbde478fa8784006911dea9ee",
+    "Migration/Evidence/Expansion/LinearWorld/L06/build-source/Editor/WorldVisuals.cs": "4d5b29b1301880556046d163f7675bc31dd9c86206ae7b453ba162c95b43b254",
+    "Migration/Evidence/Expansion/LinearWorld/L06/build-source/Editor/WorldWeatherSetup.cs": "f5e1258e47159dd22f9abb18414580ef758d0237cbcdef4192b1a0a00787cbee",
+    "Migration/Evidence/Expansion/LinearWorld/L06/build-source/Runtime/LinearProbe.cs": "6d424a8292372b65747d62bc1c568a0a761ca9c6c8958fa9cc1c8bf114dcca93",
+    "Migration/Evidence/Expansion/LinearWorld/L06/build-source/Runtime/WorldAnimation.cs": "bebd8bebb0ab2321b09431acbe9caa609a3e24aeb73f23ee0e43a4c64755df58",
+    "Migration/Evidence/Expansion/LinearWorld/L06/build-source/Runtime/WorldCamera.cs": "d5e369863297ec9ea6c2d4df8ce54b81de15efca0c5d82ae8bae163b065be689",
+    "Migration/Evidence/Expansion/LinearWorld/L06/build-source/Runtime/WorldEnvironment.cs": "780838193371146f8653dff390ac25003483ec171a205a9da4299e1b6d2ca142",
+    "Migration/Evidence/Expansion/LinearWorld/L06/build-source/Runtime/WorldLayout.cs": "f3553486cbdc1162afcad233c2e2296735836a04c038358da16ea73bc9f3b7f8",
+    "Migration/Evidence/Expansion/LinearWorld/L06/build-source/Runtime/WorldMotor.cs": "35d0863a07a345aa03deb432fb43d36309b964030ea23bada87ccb1480d0600c",
+    "Migration/Evidence/Expansion/LinearWorld/L06/build-source/Runtime/WorldRoofCutaway.cs": "248d91f1f918b34ec306d39b665052250a6a086d8446921124dccdca630dfc22",
+    "Migration/Evidence/Expansion/LinearWorld/L06/build-source/Runtime/WorldRunInput.cs": "31b659dd5e77c0f29375b61e7d0902b37a5613d663d340303b17e4f306586237",
+    "Migration/Evidence/Expansion/LinearWorld/L06/build-source/Runtime/WorldWeather.cs": "0e6be7d6842ceea756d82ed6f06031aae327e8e90a13d3a763f24dbf1a3279bc"
+  },
+  "notes": [
+    "No old baseline or preservation script regenerated or rerun.",
+    "No full 24061-file final rehash. F01 built later than the earlier baseline; isolated output routing preserved it but this audit does not claim a historical full F01 hash comparison.",
+    "F02 source hashes preserved; the Unity project has since compiled globally, but no F02 scene preparation, build or adoption was performed."
+  ]
+}

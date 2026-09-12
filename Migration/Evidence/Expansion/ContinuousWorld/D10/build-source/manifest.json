@@ -1,0 +1,94 @@
+﻿[
+    {
+        "Path":  "ContinuousTerrain.shader",
+        "SHA256":  "102E3D965A712A4DC199CE00A73683F8F81CFA99F186EC3452B20616CADC5E6E"
+    },
+    {
+        "Path":  "WorldFoliage.shader",
+        "SHA256":  "1B32D03CBBFEB95CA61185660B0D9D2582E5A803AE9AA964780DB289B544163C"
+    },
+    {
+        "Path":  "WorldGround.shader",
+        "SHA256":  "BB584F1F995985AF9DEFC2450CC85F6BF24712DBE6E69644D97E6AD455A84A4C"
+    },
+    {
+        "Path":  "WorldPrecipitation.shader",
+        "SHA256":  "7D95E6B35664B85CD21A7120F835AA96F96B0FAAD369F969275515959FA7B68F"
+    },
+    {
+        "Path":  "WorldWater.shader",
+        "SHA256":  "0FDAF79D3CEE5A8C7BB0C057F2172508FF42E4DA7C8111CA1CD5EB12496CB0B4"
+    },
+    {
+        "Path":  "WorldWetStone.shader",
+        "SHA256":  "BD46C475DDAE1C507BA3BF8ACF70FBD026F69E36151FF773961F4FC8545E241A"
+    },
+    {
+        "Path":  "Editor\\WorldBuild.cs",
+        "SHA256":  "6AF2ED37F3758DB4A3FAA79900BC35B1210B575EA3A7AE80739A4EAB1009F094"
+    },
+    {
+        "Path":  "Editor\\WorldRuins.cs",
+        "SHA256":  "7CCCCF9C1489633A8531A6E1F1BDCDF7BFBB7F970C08AEBF6913D92A18902499"
+    },
+    {
+        "Path":  "Editor\\WorldSnow.cs",
+        "SHA256":  "5B71B03ECF8F2C001B7A630CBD010C3F41A97A010D2F80AC8C9952F4832EDEE0"
+    },
+    {
+        "Path":  "Editor\\WorldSnowLayout.cs",
+        "SHA256":  "30676080180696917E2F258378EC9C23ADD62834774FD9558441B73EC4CDB46F"
+    },
+    {
+        "Path":  "Editor\\WorldVisuals.cs",
+        "SHA256":  "92671E8751F7DE42973EA39AEBB6BA241BD4E6420AF026900F5CC7EA0FBC3EF6"
+    },
+    {
+        "Path":  "Runtime\\WorldAnimation.cs",
+        "SHA256":  "C2CE2D9D5629158585240382ECBE75F58DD83D17A75C69351B782E3DB1A1E802"
+    },
+    {
+        "Path":  "Runtime\\WorldCamera.cs",
+        "SHA256":  "70A57E91B1104F1A59E0872C4F8CD2055FF0FE31607CA4FA13CA5080DD7FB60D"
+    },
+    {
+        "Path":  "Runtime\\WorldEnvironment.cs",
+        "SHA256":  "F9E3EB842E66B315C42C8C02A735E7C2BEBF54BB31A57EEBE7F591655D7E2FA5"
+    },
+    {
+        "Path":  "Runtime\\WorldLayout.cs",
+        "SHA256":  "281DD73140EDE43EC9FB3E9B6A4A8F887F87399BD23D8DB0D4F4C58EE67DA415"
+    },
+    {
+        "Path":  "Runtime\\WorldMotor.cs",
+        "SHA256":  "21FB9AB5A968252E9C5E8A82C39927D48E412A7C625344F48270FDB5A074757B"
+    },
+    {
+        "Path":  "Runtime\\WorldProbe.cs",
+        "SHA256":  "A74770397B281BB66B6D1188197908E814641D474C3D862C71ED25E51C9FB98D"
+    },
+    {
+        "Path":  "Runtime\\WorldProbeAblation.cs",
+        "SHA256":  "36CADA147DDB79EDA3F12ABB0618A1CE2EE53F5DE7E880C096A2AAB76C849B07"
+    },
+    {
+        "Path":  "Runtime\\WorldProbeMaterials.cs",
+        "SHA256":  "D3183D2C58FB210120C5CFEF11456057F667D22A1988B5021F0DC98569581CAB"
+    },
+    {
+        "Path":  "Runtime\\WorldProbeWeather.cs",
+        "SHA256":  "0D4084ECC311F063B7D714D5550DE6041C1FA37CCB802F642419538A6F35E16D"
+    },
+    {
+        "Path":  "Runtime\\WorldRoofCutaway.cs",
+        "SHA256":  "908265FBF1A94CF4818BCFE2B23B761F6AD53BB4F0C42452EBADBFCF7226252E"
+    },
+    {
+        "Path":  "Runtime\\WorldRunInput.cs",
+        "SHA256":  "E749C08E31A739973769C444F7BDDA8518EF23CE7B5D9F13BABCA562FFB27E2D"
+    },
+    {
+        "Path":  "Runtime\\WorldWeather.cs",
+        "SHA256":  "43B22D160E9217CB630B165BFD50F88667E9B86D5C365958E378375AB0964AC3"
+    }
+]

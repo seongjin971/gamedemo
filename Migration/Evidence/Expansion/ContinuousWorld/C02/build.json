@@ -1,0 +1,10 @@
+{
+    "result": "Succeeded",
+    "path": "Builds/VesperContinuousWorld_C02/VesperWorld.exe",
+    "errors": 0,
+    "warnings": 1,
+    "seconds": 92.9117552,
+    "messages": [
+        "File 'CW_GoldenReedBand4m_LOD1' has inconsistent LOD naming (_LOD1 found but no _LOD0)."
+    ]
+}

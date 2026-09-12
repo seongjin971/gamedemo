@@ -1,0 +1,125 @@
+{
+    "mode": "-worldAblation",
+    "device": "Intel(R) Arc(TM) 130V GPU (8GB)",
+    "note": "Opt-in runtime evidence. Synthetic pointer checks and automatic placement are not native device acceptance. Natural frame cadence is not display-present timing.",
+    "width": 1536,
+    "height": 1024,
+    "failures": 0,
+    "samples": 0,
+    "clicks": 0,
+    "blocked": 0,
+    "drags": 0,
+    "zooms": 0,
+    "resets": 0,
+    "safetyStops": 0,
+    "fixturePlacements": 0,
+    "nativeShiftFrames": 0,
+    "shiftChanges": 0,
+    "distance": 0.0,
+    "nativeRunDistance": 0.0,
+    "position": {
+        "x": 0.0,
+        "y": 50.215999603271487,
+        "z": -342.0
+    },
+    "checks": [],
+    "errors": [],
+    "performance": [
+        {
+            "name": "48-all",
+            "frames": 652,
+            "unfocused": 0,
+            "fps": 108.53369903564453,
+            "p95Ms": 10.597697257995606,
+            "maxMs": 12.388293266296387
+        },
+        {
+            "name": "48-reflection-off",
+            "frames": 708,
+            "unfocused": 0,
+            "fps": 117.99508666992188,
+            "p95Ms": 10.172399520874024,
+            "maxMs": 10.691695213317871
+        },
+        {
+            "name": "48-precipitation-off",
+            "frames": 638,
+            "unfocused": 0,
+            "fps": 106.22930145263672,
+            "p95Ms": 11.072498321533204,
+            "maxMs": 13.317602157592774
+        },
+        {
+            "name": "48-shadows-off",
+            "frames": 720,
+            "unfocused": 0,
+            "fps": 119.96245574951172,
+            "p95Ms": 8.361302375793457,
+            "maxMs": 9.768097877502442
+        },
+        {
+            "name": "180-all",
+            "frames": 619,
+            "unfocused": 0,
+            "fps": 103.11766815185547,
+            "p95Ms": 11.355400085449219,
+            "maxMs": 14.417098999023438
+        },
+        {
+            "name": "180-reflection-off",
+            "frames": 720,
+            "unfocused": 0,
+            "fps": 119.9544906616211,
+            "p95Ms": 8.340901374816895,
+            "maxMs": 8.718204498291016
+        },
+        {
+            "name": "180-precipitation-off",
+            "frames": 637,
+            "unfocused": 0,
+            "fps": 106.00990295410156,
+            "p95Ms": 10.842495918273926,
+            "maxMs": 12.845096588134766
+        },
+        {
+            "name": "180-shadows-off",
+            "frames": 720,
+            "unfocused": 0,
+            "fps": 119.96996307373047,
+            "p95Ms": 8.512797355651856,
+            "maxMs": 13.39630126953125
+        },
+        {
+            "name": "342-all",
+            "frames": 704,
+            "unfocused": 0,
+            "fps": 117.31495666503906,
+            "p95Ms": 10.632702827453614,
+            "maxMs": 13.352500915527344
+        },
+        {
+            "name": "342-reflection-off",
+            "frames": 714,
+            "unfocused": 0,
+            "fps": 118.84346771240235,
+            "p95Ms": 10.279605865478516,
+            "maxMs": 14.123101234436036
+        },
+        {
+            "name": "342-precipitation-off",
+            "frames": 693,
+            "unfocused": 0,
+            "fps": 115.36080932617188,
+            "p95Ms": 11.08229923248291,
+            "maxMs": 14.027196884155274
+        },
+        {
+            "name": "342-shadows-off",
+            "frames": 720,
+            "unfocused": 0,
+            "fps": 119.93875122070313,
+            "p95Ms": 8.34479808807373,
+            "maxMs": 8.689200401306153
+        }
+    ]
+}

@@ -1,0 +1,186 @@
+{
+  "recordings": [
+    {
+      "path": "C:\\Users\\brian\\Videos\\VESPER\\VESPER 2026-09-11 21-27-34.mp4",
+      "width": 1920,
+      "height": 1080,
+      "fps": "30/1",
+      "duration": 67.733333,
+      "bytes": 138342343,
+      "decoded_frames": 2031,
+      "min_frame_interval": 0.03333299999999895,
+      "max_frame_interval": 0.03333400000001063,
+      "exact_duplicate_small_frames": 109,
+      "motion_bounded_near_repeat_holds": [
+        {
+          "seconds": 0.333,
+          "frames": 1
+        },
+        {
+          "seconds": 0.433,
+          "frames": 1
+        },
+        {
+          "seconds": 3.4,
+          "frames": 1
+        },
+        {
+          "seconds": 9.767,
+          "frames": 1
+        },
+        {
+          "seconds": 9.9,
+          "frames": 1
+        },
+        {
+          "seconds": 11.633,
+          "frames": 1
+        },
+        {
+          "seconds": 11.733,
+          "frames": 1
+        },
+        {
+          "seconds": 12.033,
+          "frames": 1
+        },
+        {
+          "seconds": 13.033,
+          "frames": 1
+        },
+        {
+          "seconds": 14.133,
+          "frames": 1
+        },
+        {
+          "seconds": 15.533,
+          "frames": 1
+        },
+        {
+          "seconds": 19.333,
+          "frames": 1
+        },
+        {
+          "seconds": 19.767,
+          "frames": 1
+        },
+        {
+          "seconds": 21.067,
+          "frames": 1
+        },
+        {
+          "seconds": 25.5,
+          "frames": 1
+        },
+        {
+          "seconds": 34.233,
+          "frames": 1
+        },
+        {
+          "seconds": 37.233,
+          "frames": 1
+        },
+        {
+          "seconds": 41.9,
+          "frames": 1
+        },
+        {
+          "seconds": 42.033,
+          "frames": 1
+        },
+        {
+          "seconds": 42.633,
+          "frames": 2
+        },
+        {
+          "seconds": 43.533,
+          "frames": 1
+        },
+        {
+          "seconds": 45.167,
+          "frames": 1
+        },
+        {
+          "seconds": 45.367,
+          "frames": 1
+        },
+        {
+          "seconds": 52.633,
+          "frames": 1
+        },
+        {
+          "seconds": 57.933,
+          "frames": 1
+        },
+        {
+          "seconds": 60.5,
+          "frames": 1
+        },
+        {
+          "seconds": 60.967,
+          "frames": 1
+        }
+      ],
+      "all_audio_samples_zero": true,
+      "sha256": "05d297532ab1f9b07f431cfd910e1f51785186344cfa5f833ab864c9f9aa78f4"
+    }
+  ],
+  "scene_bounds": {
+    "name": "VESPER Game Capture",
+    "source_uuid": "1439a51e-4582-45a5-be99-79262912d6f8",
+    "visible": true,
+    "locked": true,
+    "rot": 0.0,
+    "scale_ref": {
+      "x": 1920.0,
+      "y": 1080.0
+    },
+    "align": 5,
+    "bounds_type": 3,
+    "bounds_align": 0,
+    "bounds_crop": true,
+    "crop_left": 0,
+    "crop_top": 0,
+    "crop_right": 0,
+    "crop_bottom": 0,
+    "id": 1,
+    "group_item_backup": false,
+    "pos": {
+      "x": 0.0,
+      "y": 0.0
+    },
+    "pos_rel": {
+      "x": -1.7777777910232544,
+      "y": -1.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0
+    },
+    "scale_rel": {
+      "x": 1.0,
+      "y": 1.0
+    },
+    "bounds": {
+      "x": 1920.0,
+      "y": 1080.0
+    },
+    "bounds_rel": {
+      "x": 3.555555582046509,
+      "y": 2.0
+    },
+    "scale_filter": "disable",
+    "blend_method": "default",
+    "blend_type": "normal",
+    "show_transition": {
+      "duration": 0
+    },
+    "hide_transition": {
+      "duration": 0
+    },
+    "private_settings": {}
+  },
+  "setup_automation_finished": true,
+  "audio_sources": [],
+  "note": "CFR timestamps and duplicate-frame heuristics are supporting evidence; not a full subjective playback acceptance."
+}

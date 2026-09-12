@@ -1,0 +1,8 @@
+<!doctype html><html lang="ko"><meta charset="utf-8"><title>VESPER P1 — Mixamo 비교</title>
+<style>body{background:#111820;color:#e1e8ed;font:16px system-ui;margin:24px}main{display:flex;gap:16px}section{flex:1;min-width:0}video{width:100%;background:#000}button{padding:10px 18px;margin-right:8px}p{max-width:1000px;line-height:1.6}</style>
+<h1>VESPER P1 — Mixamo 모션 비교</h1>
+<p>같은 안뜰과 자동 이동 경로에서 촬영한 실제 Windows 플레이어입니다. 영상은 약10Hz 캡처이며 게임 성능 측정과 별개입니다. 두 기록의 프레임 타이밍이 달라 자세가 정확히 일치하지 않을 수 있습니다.</p>
+<p><button onclick="document.querySelectorAll('video').forEach(v=>{v.currentTime=0;v.play()})">처음부터 함께 재생</button><button onclick="document.querySelectorAll('video').forEach(v=>v.pause())">함께 일시정지</button></p>
+<main><section><h2>기존 P1</h2><video controls muted preload="metadata" src="../P1/player-03/motion/motion.mp4"></video></section><section><h2>Mixamo Walking + Breathing Idle</h2><video controls muted preload="metadata" src="player-01/motion/motion.mp4"></video></section></main>
+<p>순서: 대기 → 걷기·정지 → 방향 전환 → 나무 근처 이동 → 카메라 회전·줌 → 최대/최소 거리. 완전한 발 고정 정지 모션은 아니며 정지 때 발 재배치가 남습니다. 직접 플레이는 저장소 루트의 PLAY_VESPER_MIXAMO.cmd를 실행하세요.</p>
+</html>

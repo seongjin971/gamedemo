@@ -1,0 +1,32 @@
+{
+  "baseline": {
+    "path": "Unity/Vesper/Assets/Vesper/Textures/flame-v1.png",
+    "sha256": "30a85dd788bd6d4bf09aa194ea7f9132595865a7474f7ad0df64a96bfc21ac75",
+    "size": [
+      1254,
+      1254
+    ],
+    "meanLinearLuminance": 0.26217422162210924,
+    "meanDirectSourceLuminance": 0.21345970768158254,
+    "peakSampleLuminance": 22.495002226321393,
+    "luminousSamples": 10540,
+    "coreSamples": 829,
+    "note": "256x256 source sample; no camera, warp, depth, fog, RT filtering or tone mapping."
+  },
+  "candidate": {
+    "path": "Migration/Source/AtmosphereV2/FlameV16/flame-v16.png",
+    "sha256": "000adc75856e79725706256c8216e17dc11e558a7a2af3621288b07cb15054e8",
+    "size": [
+      1254,
+      1254
+    ],
+    "meanLinearLuminance": 0.5360443033011275,
+    "meanDirectSourceLuminance": 0.2509147000058364,
+    "peakSampleLuminance": 22.819000000000003,
+    "luminousSamples": 9940,
+    "coreSamples": 1743,
+    "note": "256x256 source sample; no camera, warp, depth, fog, RT filtering or tone mapping."
+  },
+  "candidateRadianceScaleForEqualSourceMean": 0.48909058450497256,
+  "directSourceScaleForBaselineMean": 1.0448739018320208
+}

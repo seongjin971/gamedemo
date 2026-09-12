@@ -1,0 +1,825 @@
+{
+  "recordings": [
+    {
+      "path": "C:\\Users\\brian\\Videos\\VESPER\\VESPER 2026-09-11 21-18-38.mp4",
+      "width": 1920,
+      "height": 1080,
+      "fps": "30/1",
+      "duration": 68.166667,
+      "bytes": 117879925,
+      "decoded_frames": 2045,
+      "min_frame_interval": 0.03333299999999895,
+      "max_frame_interval": 0.03333400000001063,
+      "exact_duplicate_small_frames": 0,
+      "motion_bounded_near_repeat_holds": [
+        {
+          "seconds": 4.867,
+          "frames": 1
+        },
+        {
+          "seconds": 4.933,
+          "frames": 1
+        },
+        {
+          "seconds": 5.067,
+          "frames": 1
+        },
+        {
+          "seconds": 5.2,
+          "frames": 1
+        },
+        {
+          "seconds": 6.967,
+          "frames": 1
+        },
+        {
+          "seconds": 7.133,
+          "frames": 1
+        },
+        {
+          "seconds": 7.3,
+          "frames": 1
+        },
+        {
+          "seconds": 7.5,
+          "frames": 1
+        },
+        {
+          "seconds": 7.567,
+          "frames": 1
+        },
+        {
+          "seconds": 7.633,
+          "frames": 1
+        },
+        {
+          "seconds": 7.867,
+          "frames": 1
+        },
+        {
+          "seconds": 14.6,
+          "frames": 1
+        },
+        {
+          "seconds": 14.9,
+          "frames": 1
+        },
+        {
+          "seconds": 15.567,
+          "frames": 1
+        },
+        {
+          "seconds": 15.8,
+          "frames": 1
+        },
+        {
+          "seconds": 16.667,
+          "frames": 1
+        },
+        {
+          "seconds": 17.867,
+          "frames": 1
+        },
+        {
+          "seconds": 18.3,
+          "frames": 1
+        },
+        {
+          "seconds": 18.833,
+          "frames": 1
+        },
+        {
+          "seconds": 19.733,
+          "frames": 1
+        },
+        {
+          "seconds": 19.8,
+          "frames": 1
+        },
+        {
+          "seconds": 20.233,
+          "frames": 1
+        },
+        {
+          "seconds": 20.667,
+          "frames": 1
+        },
+        {
+          "seconds": 20.967,
+          "frames": 1
+        },
+        {
+          "seconds": 24.333,
+          "frames": 1
+        },
+        {
+          "seconds": 24.4,
+          "frames": 1
+        },
+        {
+          "seconds": 25.833,
+          "frames": 1
+        },
+        {
+          "seconds": 26.033,
+          "frames": 1
+        },
+        {
+          "seconds": 26.2,
+          "frames": 1
+        },
+        {
+          "seconds": 26.467,
+          "frames": 1
+        },
+        {
+          "seconds": 26.6,
+          "frames": 1
+        },
+        {
+          "seconds": 26.733,
+          "frames": 1
+        },
+        {
+          "seconds": 26.867,
+          "frames": 1
+        },
+        {
+          "seconds": 27.1,
+          "frames": 1
+        },
+        {
+          "seconds": 27.2,
+          "frames": 1
+        },
+        {
+          "seconds": 27.367,
+          "frames": 1
+        },
+        {
+          "seconds": 27.5,
+          "frames": 1
+        },
+        {
+          "seconds": 27.6,
+          "frames": 1
+        },
+        {
+          "seconds": 27.733,
+          "frames": 1
+        },
+        {
+          "seconds": 27.9,
+          "frames": 1
+        },
+        {
+          "seconds": 27.967,
+          "frames": 1
+        },
+        {
+          "seconds": 28.1,
+          "frames": 1
+        },
+        {
+          "seconds": 28.2,
+          "frames": 1
+        },
+        {
+          "seconds": 28.267,
+          "frames": 1
+        },
+        {
+          "seconds": 28.367,
+          "frames": 1
+        },
+        {
+          "seconds": 28.433,
+          "frames": 1
+        },
+        {
+          "seconds": 28.533,
+          "frames": 1
+        },
+        {
+          "seconds": 28.633,
+          "frames": 1
+        },
+        {
+          "seconds": 28.7,
+          "frames": 1
+        },
+        {
+          "seconds": 28.8,
+          "frames": 1
+        },
+        {
+          "seconds": 28.933,
+          "frames": 1
+        },
+        {
+          "seconds": 29.067,
+          "frames": 1
+        },
+        {
+          "seconds": 29.167,
+          "frames": 1
+        },
+        {
+          "seconds": 29.3,
+          "frames": 1
+        },
+        {
+          "seconds": 29.367,
+          "frames": 1
+        },
+        {
+          "seconds": 29.467,
+          "frames": 1
+        },
+        {
+          "seconds": 29.533,
+          "frames": 1
+        },
+        {
+          "seconds": 29.767,
+          "frames": 1
+        },
+        {
+          "seconds": 35.233,
+          "frames": 1
+        },
+        {
+          "seconds": 35.333,
+          "frames": 1
+        },
+        {
+          "seconds": 35.733,
+          "frames": 1
+        },
+        {
+          "seconds": 36.067,
+          "frames": 1
+        },
+        {
+          "seconds": 36.867,
+          "frames": 1
+        },
+        {
+          "seconds": 37.067,
+          "frames": 1
+        },
+        {
+          "seconds": 37.233,
+          "frames": 1
+        },
+        {
+          "seconds": 37.467,
+          "frames": 1
+        },
+        {
+          "seconds": 37.633,
+          "frames": 1
+        },
+        {
+          "seconds": 37.733,
+          "frames": 1
+        },
+        {
+          "seconds": 37.8,
+          "frames": 1
+        },
+        {
+          "seconds": 37.9,
+          "frames": 1
+        },
+        {
+          "seconds": 38.1,
+          "frames": 1
+        },
+        {
+          "seconds": 38.2,
+          "frames": 1
+        },
+        {
+          "seconds": 38.367,
+          "frames": 1
+        },
+        {
+          "seconds": 38.467,
+          "frames": 1
+        },
+        {
+          "seconds": 38.567,
+          "frames": 1
+        },
+        {
+          "seconds": 38.667,
+          "frames": 1
+        },
+        {
+          "seconds": 38.767,
+          "frames": 1
+        },
+        {
+          "seconds": 38.867,
+          "frames": 1
+        },
+        {
+          "seconds": 39.133,
+          "frames": 1
+        },
+        {
+          "seconds": 39.667,
+          "frames": 1
+        },
+        {
+          "seconds": 39.833,
+          "frames": 1
+        },
+        {
+          "seconds": 40.033,
+          "frames": 1
+        },
+        {
+          "seconds": 40.1,
+          "frames": 1
+        },
+        {
+          "seconds": 40.2,
+          "frames": 1
+        },
+        {
+          "seconds": 40.667,
+          "frames": 1
+        },
+        {
+          "seconds": 40.8,
+          "frames": 1
+        },
+        {
+          "seconds": 41.167,
+          "frames": 1
+        },
+        {
+          "seconds": 41.267,
+          "frames": 1
+        },
+        {
+          "seconds": 41.533,
+          "frames": 1
+        },
+        {
+          "seconds": 41.867,
+          "frames": 1
+        },
+        {
+          "seconds": 42.2,
+          "frames": 1
+        },
+        {
+          "seconds": 42.467,
+          "frames": 1
+        },
+        {
+          "seconds": 42.567,
+          "frames": 1
+        },
+        {
+          "seconds": 42.867,
+          "frames": 1
+        },
+        {
+          "seconds": 42.967,
+          "frames": 1
+        },
+        {
+          "seconds": 43.1,
+          "frames": 1
+        },
+        {
+          "seconds": 43.333,
+          "frames": 1
+        },
+        {
+          "seconds": 44.033,
+          "frames": 1
+        },
+        {
+          "seconds": 44.2,
+          "frames": 1
+        },
+        {
+          "seconds": 44.267,
+          "frames": 1
+        },
+        {
+          "seconds": 44.567,
+          "frames": 1
+        },
+        {
+          "seconds": 44.7,
+          "frames": 1
+        },
+        {
+          "seconds": 44.933,
+          "frames": 1
+        },
+        {
+          "seconds": 45.0,
+          "frames": 1
+        },
+        {
+          "seconds": 45.267,
+          "frames": 1
+        },
+        {
+          "seconds": 45.333,
+          "frames": 1
+        },
+        {
+          "seconds": 45.467,
+          "frames": 1
+        },
+        {
+          "seconds": 45.567,
+          "frames": 1
+        },
+        {
+          "seconds": 45.667,
+          "frames": 1
+        },
+        {
+          "seconds": 45.733,
+          "frames": 1
+        },
+        {
+          "seconds": 45.867,
+          "frames": 1
+        },
+        {
+          "seconds": 46.533,
+          "frames": 1
+        },
+        {
+          "seconds": 46.7,
+          "frames": 1
+        },
+        {
+          "seconds": 46.867,
+          "frames": 1
+        },
+        {
+          "seconds": 46.933,
+          "frames": 1
+        },
+        {
+          "seconds": 47.0,
+          "frames": 1
+        },
+        {
+          "seconds": 47.133,
+          "frames": 1
+        },
+        {
+          "seconds": 47.233,
+          "frames": 1
+        },
+        {
+          "seconds": 47.4,
+          "frames": 1
+        },
+        {
+          "seconds": 47.5,
+          "frames": 1
+        },
+        {
+          "seconds": 48.067,
+          "frames": 1
+        },
+        {
+          "seconds": 48.133,
+          "frames": 1
+        },
+        {
+          "seconds": 48.333,
+          "frames": 1
+        },
+        {
+          "seconds": 48.567,
+          "frames": 1
+        },
+        {
+          "seconds": 48.633,
+          "frames": 1
+        },
+        {
+          "seconds": 48.867,
+          "frames": 1
+        },
+        {
+          "seconds": 49.1,
+          "frames": 1
+        },
+        {
+          "seconds": 49.2,
+          "frames": 1
+        },
+        {
+          "seconds": 49.333,
+          "frames": 1
+        },
+        {
+          "seconds": 49.633,
+          "frames": 1
+        },
+        {
+          "seconds": 49.867,
+          "frames": 1
+        },
+        {
+          "seconds": 50.133,
+          "frames": 1
+        },
+        {
+          "seconds": 56.533,
+          "frames": 1
+        },
+        {
+          "seconds": 56.9,
+          "frames": 1
+        },
+        {
+          "seconds": 57.3,
+          "frames": 1
+        },
+        {
+          "seconds": 57.5,
+          "frames": 1
+        },
+        {
+          "seconds": 57.633,
+          "frames": 1
+        },
+        {
+          "seconds": 57.8,
+          "frames": 1
+        },
+        {
+          "seconds": 58.067,
+          "frames": 1
+        },
+        {
+          "seconds": 58.2,
+          "frames": 1
+        },
+        {
+          "seconds": 58.333,
+          "frames": 1
+        },
+        {
+          "seconds": 58.467,
+          "frames": 1
+        },
+        {
+          "seconds": 58.6,
+          "frames": 1
+        },
+        {
+          "seconds": 58.833,
+          "frames": 1
+        },
+        {
+          "seconds": 58.967,
+          "frames": 1
+        },
+        {
+          "seconds": 59.067,
+          "frames": 1
+        },
+        {
+          "seconds": 59.233,
+          "frames": 1
+        },
+        {
+          "seconds": 59.367,
+          "frames": 1
+        },
+        {
+          "seconds": 59.467,
+          "frames": 1
+        },
+        {
+          "seconds": 59.567,
+          "frames": 1
+        },
+        {
+          "seconds": 59.7,
+          "frames": 1
+        },
+        {
+          "seconds": 59.8,
+          "frames": 1
+        },
+        {
+          "seconds": 59.933,
+          "frames": 1
+        },
+        {
+          "seconds": 60.067,
+          "frames": 1
+        },
+        {
+          "seconds": 60.233,
+          "frames": 1
+        },
+        {
+          "seconds": 60.367,
+          "frames": 1
+        },
+        {
+          "seconds": 60.567,
+          "frames": 1
+        },
+        {
+          "seconds": 60.8,
+          "frames": 1
+        },
+        {
+          "seconds": 60.933,
+          "frames": 1
+        },
+        {
+          "seconds": 61.1,
+          "frames": 1
+        },
+        {
+          "seconds": 61.267,
+          "frames": 1
+        },
+        {
+          "seconds": 61.567,
+          "frames": 1
+        },
+        {
+          "seconds": 61.667,
+          "frames": 1
+        },
+        {
+          "seconds": 61.833,
+          "frames": 1
+        },
+        {
+          "seconds": 61.933,
+          "frames": 1
+        },
+        {
+          "seconds": 62.033,
+          "frames": 1
+        },
+        {
+          "seconds": 62.133,
+          "frames": 1
+        },
+        {
+          "seconds": 62.233,
+          "frames": 1
+        },
+        {
+          "seconds": 62.333,
+          "frames": 1
+        },
+        {
+          "seconds": 62.433,
+          "frames": 1
+        },
+        {
+          "seconds": 62.533,
+          "frames": 1
+        },
+        {
+          "seconds": 62.633,
+          "frames": 1
+        },
+        {
+          "seconds": 62.833,
+          "frames": 1
+        },
+        {
+          "seconds": 63.133,
+          "frames": 1
+        },
+        {
+          "seconds": 63.567,
+          "frames": 1
+        },
+        {
+          "seconds": 63.667,
+          "frames": 1
+        },
+        {
+          "seconds": 63.767,
+          "frames": 1
+        },
+        {
+          "seconds": 64.033,
+          "frames": 1
+        },
+        {
+          "seconds": 65.167,
+          "frames": 1
+        },
+        {
+          "seconds": 65.633,
+          "frames": 1
+        },
+        {
+          "seconds": 66.233,
+          "frames": 1
+        },
+        {
+          "seconds": 66.333,
+          "frames": 1
+        },
+        {
+          "seconds": 66.567,
+          "frames": 1
+        }
+      ],
+      "all_audio_samples_zero": true,
+      "sha256": "1c91800aaa939c13f4eb92136ede09ce44f061032586ba165861f7e828097347"
+    },
+    {
+      "path": "C:\\Users\\brian\\Videos\\VESPER\\VESPER 2026-09-11 21-22-56.mp4",
+      "width": 1920,
+      "height": 1080,
+      "fps": "30/1",
+      "duration": 39.033333,
+      "bytes": 21627237,
+      "decoded_frames": 1170,
+      "min_frame_interval": 0.03333299999999895,
+      "max_frame_interval": 0.06666700000000247,
+      "exact_duplicate_small_frames": 1,
+      "motion_bounded_near_repeat_holds": [],
+      "all_audio_samples_zero": true,
+      "sha256": "bcd6e5838f7773c1d0de5017c95c107a8e89644c73eee8e466168d8edf8255b4"
+    }
+  ],
+  "scene_bounds": {
+    "name": "VESPER Game Capture",
+    "source_uuid": "1439a51e-4582-45a5-be99-79262912d6f8",
+    "visible": true,
+    "locked": true,
+    "rot": 0.0,
+    "scale_ref": {
+      "x": 1920.0,
+      "y": 1080.0
+    },
+    "align": 5,
+    "bounds_type": 3,
+    "bounds_align": 0,
+    "bounds_crop": true,
+    "crop_left": 0,
+    "crop_top": 0,
+    "crop_right": 0,
+    "crop_bottom": 0,
+    "id": 1,
+    "group_item_backup": false,
+    "pos": {
+      "x": 0.0,
+      "y": 0.0
+    },
+    "pos_rel": {
+      "x": -1.7777777910232544,
+      "y": -1.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0
+    },
+    "scale_rel": {
+      "x": 1.0,
+      "y": 1.0
+    },
+    "bounds": {
+      "x": 1920.0,
+      "y": 1080.0
+    },
+    "bounds_rel": {
+      "x": 3.555555582046509,
+      "y": 2.0
+    },
+    "scale_filter": "disable",
+    "blend_method": "default",
+    "blend_type": "normal",
+    "show_transition": {
+      "duration": 0
+    },
+    "hide_transition": {
+      "duration": 0
+    },
+    "private_settings": {}
+  },
+  "setup_automation_finished": true,
+  "audio_sources": [],
+  "note": "CFR timestamps and duplicate-frame heuristics are supporting evidence; not a full subjective playback acceptance."
+}

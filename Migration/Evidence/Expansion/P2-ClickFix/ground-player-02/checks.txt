@@ -1,0 +1,29 @@
+FAIL User rejected paving A screen click accepted
+FAIL User rejected paving A destination reached at (-2.25, -0.10, 7.50) target (0.00, 0.00, 0.00)
+FAIL User rejected paving A ground support/body clearance over 0 movement frames
+FAIL User rejected paving B screen click accepted
+FAIL User rejected paving B destination reached at (-2.25, -0.10, 7.50) target (0.00, 0.00, 0.00)
+FAIL User rejected paving B ground support/body clearance over 0 movement frames
+PASS User rejected front paving screen click accepted
+PASS User rejected front paving destination reached at (-0.08, -0.08, 13.02) target (-0.08, -0.06, 13.02)
+PASS User rejected front paving ground support/body clearance over 102 movement frames
+PASS Wide front paving screen click accepted
+PASS Wide front paving destination reached at (0.01, -0.09, 17.49) target (0.01, -0.04, 17.49)
+PASS Wide front paving ground support/body clearance over 77 movement frames
+FAIL User rejected tree-side open paving screen click accepted
+FAIL User rejected tree-side open paving destination reached at (-2.25, -0.10, 7.50) target (0.01, -0.04, 17.49)
+FAIL User rejected tree-side open paving ground support/body clearance over 0 movement frames
+PASS Actual tree trunk stays blocked
+PASS Gateway pier stays blocked
+PASS Beyond front ground stays blocked
+PASS Orphan release does not click
+PASS Drag orbits without moving
+PASS Courtyard gate screen click accepted
+PASS Click reaches crossing transition
+PASS Bridge screen click screen click accepted
+PASS Bridge screen click destination reached at (0.00, 1.60, -2.50) target (0.00, 1.62, -2.50)
+PASS Bridge screen click ground support/body clearance over 333 movement frames
+PASS Water stays blocked
+PASS Disconnected ledge stays blocked
+PASS Return gate screen click accepted
+PASS Click returns to courtyard

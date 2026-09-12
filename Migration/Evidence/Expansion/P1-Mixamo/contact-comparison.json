@@ -1,0 +1,31 @@
+{
+  "note": "Approximate low-toe contact proxy at constant cruise speed. Joint positions are not sole contacts and turns may inflate values. Same method applied to both runs; not visual acceptance.",
+  "originalP1": {
+    "leftToe": {
+      "minHeight": 0.0399513766169548,
+      "samples": 10,
+      "medianUnitsPerSecond": 0.008186857748695483,
+      "maxUnitsPerSecond": 0.04256105929118363
+    },
+    "rightToe": {
+      "minHeight": 0.037933140993118286,
+      "samples": 7,
+      "medianUnitsPerSecond": 0.025056532764390387,
+      "maxUnitsPerSecond": 0.02702736844352294
+    }
+  },
+  "mixamo": {
+    "leftToe": {
+      "minHeight": 0.07993905246257782,
+      "samples": 38,
+      "medianUnitsPerSecond": 0.2035030811536238,
+      "maxUnitsPerSecond": 0.48599458628092923
+    },
+    "rightToe": {
+      "minHeight": 0.05424947291612625,
+      "samples": 0,
+      "medianUnitsPerSecond": null,
+      "maxUnitsPerSecond": null
+    }
+  }
+}

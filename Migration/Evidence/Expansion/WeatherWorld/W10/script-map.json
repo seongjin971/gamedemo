@@ -1,0 +1,50 @@
+[
+  {
+    "old": "Assets/Vesper/Expansion/WeatherWorld/Runtime/WorldAnimation.cs",
+    "new": "Assets/Vesper/Expansion/WeatherW10/Runtime/WorldAnimation.cs"
+  },
+  {
+    "old": "Assets/Vesper/Expansion/WeatherWorld/Runtime/WorldCamera.cs",
+    "new": "Assets/Vesper/Expansion/WeatherW10/Runtime/WorldCamera.cs"
+  },
+  {
+    "old": "Assets/Vesper/Expansion/WeatherWorld/Runtime/WorldEnvironment.cs",
+    "new": "Assets/Vesper/Expansion/WeatherW10/Runtime/WorldEnvironment.cs"
+  },
+  {
+    "old": "Assets/Vesper/Expansion/WeatherWorld/Runtime/WorldLayout.cs",
+    "new": "Assets/Vesper/Expansion/WeatherW10/Runtime/WorldLayout.cs"
+  },
+  {
+    "old": "Assets/Vesper/Expansion/WeatherWorld/Runtime/WorldMotor.cs",
+    "new": "Assets/Vesper/Expansion/WeatherW10/Runtime/WorldMotor.cs"
+  },
+  {
+    "old": "Assets/Vesper/Expansion/WeatherWorld/Runtime/WorldRoofCutaway.cs",
+    "new": "Assets/Vesper/Expansion/WeatherW10/Runtime/WorldRoofCutaway.cs"
+  },
+  {
+    "old": "Assets/Vesper/Expansion/WeatherWorld/Runtime/WorldRunInput.cs",
+    "new": "Assets/Vesper/Expansion/WeatherW10/Runtime/WorldRunInput.cs"
+  },
+  {
+    "old": "Assets/Vesper/Expansion/WeatherWorld/Runtime/WorldWeather.cs",
+    "new": "Assets/Vesper/Expansion/WeatherW10/Runtime/WorldWeather.cs"
+  },
+  {
+    "old": "Assets/Vesper/Expansion/WeatherW07/Runtime/WeatherW07Flash.cs",
+    "new": "Assets/Vesper/Expansion/WeatherW10/Runtime/WeatherW07Flash.cs"
+  },
+  {
+    "old": "Assets/Vesper/Expansion/WeatherW07/Runtime/WeatherW07Roof.cs",
+    "new": "Assets/Vesper/Expansion/WeatherW10/Runtime/WeatherW07Roof.cs"
+  },
+  {
+    "old": "Assets/Vesper/Expansion/WeatherW07/Runtime/WeatherW07Variant.cs",
+    "new": "Assets/Vesper/Expansion/WeatherW10/Runtime/WeatherW07Variant.cs"
+  },
+  {
+    "old": "Assets/Vesper/Expansion/WeatherW08/Runtime/WeatherW08Flash.cs",
+    "new": "Assets/Vesper/Expansion/WeatherW10/Runtime/WeatherW08Flash.cs"
+  }
+]

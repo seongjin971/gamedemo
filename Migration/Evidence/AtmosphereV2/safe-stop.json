@@ -1,0 +1,93 @@
+{
+  "status": "USER_ACCEPTED_BASELINE",
+  "updatedOn": "2026-09-09",
+  "baselineCommit": "7f7fd09",
+  "candidate": 58,
+  "visualTargetMet": false,
+  "visualTargetMeaning": "Original concept parity/8-of-10 target, distinct from user acceptance of the current baseline.",
+  "fps60Met": false,
+  "finalUserAdoption": true,
+  "adoptionScope": "candidate58 current visual quality as the baseline for expansion; not final completion of all future character/maps.",
+  "userAcceptance": "퀄리티 이정도면 충분해",
+  "furtherAtmosphereIteration": "CLOSED_BY_USER_ACCEPTANCE",
+  "nextPhase": {
+    "status": "REVIEWED_PLAN",
+    "plan": "EXPANSION_PLAN.md",
+    "implementationStarted": false,
+    "authorizedWorkThisTurn": "Review the plan and update documentation only.",
+    "recommendedFirstPackage": "P1 beginner adventurer in a separate courtyard scene"
+  },
+  "latestIndependentCandidate": 52,
+  "latestIndependentScore": 6.1,
+  "build": {
+    "result": "Succeeded",
+    "errors": 0,
+    "warnings": 0,
+    "seconds": 111.30214029999999,
+    "warningMessages": []
+  },
+  "performance": [
+    {
+      "name": "static",
+      "frames": 348,
+      "unfocused": 0,
+      "fps": 43.44827651977539,
+      "p50Ms": 23.0154972076416,
+      "p95Ms": 24.445598602294922,
+      "p99Ms": 24.717199325561523,
+      "cpuP50Ms": 0.0,
+      "cpuP95Ms": 0.0,
+      "gpuP50Ms": 0.0,
+      "gpuP95Ms": 0.0,
+      "validTimings": 0
+    },
+    {
+      "name": "walk",
+      "frames": 354,
+      "unfocused": 0,
+      "fps": 44.08568572998047,
+      "p50Ms": 22.61489486694336,
+      "p95Ms": 24.032800674438477,
+      "p99Ms": 24.42959976196289,
+      "cpuP50Ms": 0.0,
+      "cpuP95Ms": 0.0,
+      "gpuP50Ms": 0.0,
+      "gpuP95Ms": 0.0,
+      "validTimings": 0
+    },
+    {
+      "name": "orbit",
+      "frames": 348,
+      "unfocused": 0,
+      "fps": 43.441410064697266,
+      "p50Ms": 23.026700973510742,
+      "p95Ms": 24.41999626159668,
+      "p99Ms": 24.796903610229492,
+      "cpuP50Ms": 0.0,
+      "cpuP95Ms": 0.0,
+      "gpuP50Ms": 0.0,
+      "gpuP95Ms": 0.0,
+      "validTimings": 0
+    },
+    {
+      "name": "zoom",
+      "frames": 351,
+      "unfocused": 0,
+      "fps": 43.84027099609375,
+      "p50Ms": 22.777097702026367,
+      "p95Ms": 24.407100677490234,
+      "p99Ms": 24.747901916503906,
+      "cpuP50Ms": 0.0,
+      "cpuP95Ms": 0.0,
+      "gpuP50Ms": 0.0,
+      "gpuP95Ms": 0.0,
+      "validTimings": 0
+    }
+  ],
+  "motionDistance": 33.424224853515625,
+  "motionFrames": 427,
+  "directInputVerified": false,
+  "depthPrimingAdopted": false,
+  "launcher": "PLAY_VESPER.cmd",
+  "scene": "Assets/Vesper/Scenes/VesperAtmosphereV2.unity"
+}

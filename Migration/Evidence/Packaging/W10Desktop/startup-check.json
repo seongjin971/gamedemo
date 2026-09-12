@@ -1,0 +1,11 @@
+﻿{
+    "exe":  "D:\\임시게임\\VESPER_W10_Desktop\\Game\\VesperLinear.exe",
+    "started":  true,
+    "responding":  true,
+    "engineInitialized":  true,
+    "errors":  [
+
+               ],
+    "stop":  "stopped-own-hidden-smoke-process",
+    "note":  "Hidden startup/dependency/path check only; not visual, FPS or RTX5070 validation"
+}

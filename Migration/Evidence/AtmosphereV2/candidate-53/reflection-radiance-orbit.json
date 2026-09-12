@@ -1,0 +1,17 @@
+{
+    "note": "Linear floating-point reflection target before main-camera water blending and tone mapping. PNG is not used for radiance measurement.",
+    "format": "R16G16B16A16_SFloat",
+    "width": 1024,
+    "height": 683,
+    "peakX": 514,
+    "peakY": 302,
+    "pixelsAboveOne": 23,
+    "pixelsAboveFour": 1,
+    "peakLuminance": 6.773775100708008,
+    "peakRGB": {
+        "r": 10.5703125,
+        "g": 6.06640625,
+        "b": 2.6015625,
+        "a": 1.0
+    }
+}

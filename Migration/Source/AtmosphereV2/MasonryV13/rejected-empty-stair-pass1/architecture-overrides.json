@@ -1,0 +1,239 @@
+{
+  "bridge_sha256": "0da895372621f8bc9f651e19332bb57cc5c8f40f060881b5b4310449d6a52af9",
+  "identity": "original node UUID + original instanceIndex + exact transform/color/material/geometry",
+  "overrides": [
+    {
+      "nodeId": "592370d4-d68c-4fe8-b91d-41e1eaa41394",
+      "instanceIndex": 412,
+      "geometry": "7b9ce760-2f47-40f1-98d7-6b4e0aadc2e5",
+      "materialId": "08b6ee59-7da1-4fb0-bd5d-a752d5b8fa60",
+      "sourceVariant": 3,
+      "replacement": "localized-masonry-v13-0.json",
+      "position": [
+        -0.8999999761581421,
+        5.145845413208008,
+        -7.0542402267456055
+      ],
+      "quaternion": [
+        0,
+        -0.004182912991784074,
+        0,
+        0.9999912515811843
+      ],
+      "scale": [
+        0.7200000111831065,
+        0.609000027179718,
+        1.638790018769727
+      ],
+      "color": [
+        0.9149016737937927,
+        0.9346651434898376,
+        0.9267624616622925
+      ]
+    },
+    {
+      "nodeId": "592370d4-d68c-4fe8-b91d-41e1eaa41394",
+      "instanceIndex": 415,
+      "geometry": "7b9ce760-2f47-40f1-98d7-6b4e0aadc2e5",
+      "materialId": "08b6ee59-7da1-4fb0-bd5d-a752d5b8fa60",
+      "sourceVariant": 0,
+      "replacement": "localized-masonry-v13-1.json",
+      "position": [
+        -0.8999999761581421,
+        8.985560417175293,
+        -7.0617995262146
+      ],
+      "quaternion": [
+        0,
+        -0.0017055644206182678,
+        0,
+        0.9999985455239458
+      ],
+      "scale": [
+        0.7199999855683934,
+        0.609000027179718,
+        1.6682955526867913
+      ],
+      "color": [
+        0.8501531481742859,
+        0.8701506853103638,
+        0.8830538392066956
+      ]
+    },
+    {
+      "nodeId": "592370d4-d68c-4fe8-b91d-41e1eaa41394",
+      "instanceIndex": 452,
+      "geometry": "7b9ce760-2f47-40f1-98d7-6b4e0aadc2e5",
+      "materialId": "08b6ee59-7da1-4fb0-bd5d-a752d5b8fa60",
+      "sourceVariant": 1,
+      "replacement": "localized-masonry-v13-2.json",
+      "position": [
+        6.5,
+        6.417189121246338,
+        -7.084789276123047
+      ],
+      "quaternion": [
+        0,
+        -0.004294296277265347,
+        0,
+        0.9999907794672324
+      ],
+      "scale": [
+        0.7199999999496232,
+        0.609000027179718,
+        1.622683648988703
+      ],
+      "color": [
+        0.8590419292449951,
+        0.8451863527297974,
+        0.8646323084831238
+      ]
+    },
+    {
+      "nodeId": "592370d4-d68c-4fe8-b91d-41e1eaa41394",
+      "instanceIndex": 455,
+      "geometry": "7b9ce760-2f47-40f1-98d7-6b4e0aadc2e5",
+      "materialId": "08b6ee59-7da1-4fb0-bd5d-a752d5b8fa60",
+      "sourceVariant": 4,
+      "replacement": "localized-masonry-v13-3.json",
+      "position": [
+        6.5,
+        10.256962776184082,
+        -7.076532363891602
+      ],
+      "quaternion": [
+        0,
+        0.0014629063882257455,
+        0,
+        0.9999989299518771
+      ],
+      "scale": [
+        0.7200000109056985,
+        0.609000027179718,
+        1.6157059683395103
+      ],
+      "color": [
+        0.9149318337440491,
+        0.9208412170410156,
+        0.9217347502708435
+      ]
+    },
+    {
+      "nodeId": "592370d4-d68c-4fe8-b91d-41e1eaa41394",
+      "instanceIndex": 459,
+      "geometry": "7b9ce760-2f47-40f1-98d7-6b4e0aadc2e5",
+      "materialId": "08b6ee59-7da1-4fb0-bd5d-a752d5b8fa60",
+      "sourceVariant": 2,
+      "replacement": "localized-masonry-v13-4.json",
+      "position": [
+        5.349999904632568,
+        10.04122257232666,
+        -8.113359451293945
+      ],
+      "quaternion": [
+        0,
+        -0.002696386859335805,
+        0,
+        0.9999963647423448
+      ],
+      "scale": [
+        0.7029999793861229,
+        0.43799999356269836,
+        1.0514065324422148
+      ],
+      "color": [
+        1.159400463104248,
+        1.1573938131332397,
+        1.1861896514892578
+      ]
+    },
+    {
+      "nodeId": "b8fdddbd-6f37-4f9d-9104-2b3bd8d6ded5",
+      "instanceIndex": 414,
+      "geometry": "30387f49-1a6e-42e9-80e4-01b8c8c559c1",
+      "materialId": "08b6ee59-7da1-4fb0-bd5d-a752d5b8fa60",
+      "sourceVariant": 5,
+      "replacement": "localized-masonry-v13-5.json",
+      "position": [
+        -0.8999999761581421,
+        8.3443021774292,
+        -7.0784711837768555
+      ],
+      "quaternion": [
+        0,
+        -0.0004999730386482883,
+        0,
+        0.9999998750134725
+      ],
+      "scale": [
+        0.7199999713388915,
+        0.609000027179718,
+        1.6847021657694274
+      ],
+      "color": [
+        0.8364998698234558,
+        0.8443619608879089,
+        0.8499560356140137
+      ]
+    },
+    {
+      "nodeId": "b8fdddbd-6f37-4f9d-9104-2b3bd8d6ded5",
+      "instanceIndex": 453,
+      "geometry": "30387f49-1a6e-42e9-80e4-01b8c8c559c1",
+      "materialId": "08b6ee59-7da1-4fb0-bd5d-a752d5b8fa60",
+      "sourceVariant": 2,
+      "replacement": "localized-masonry-v13-6.json",
+      "position": [
+        6.5,
+        8.345837593078613,
+        -7.0575103759765625
+      ],
+      "quaternion": [
+        0,
+        -0.0015363704284286324,
+        0,
+        0.9999988197822567
+      ],
+      "scale": [
+        0.7199999705658815,
+        0.609000027179718,
+        1.684533680686952
+      ],
+      "color": [
+        0.881441056728363,
+        0.8778632283210754,
+        0.8829200267791748
+      ]
+    },
+    {
+      "nodeId": "b8fdddbd-6f37-4f9d-9104-2b3bd8d6ded5",
+      "instanceIndex": 458,
+      "geometry": "30387f49-1a6e-42e9-80e4-01b8c8c559c1",
+      "materialId": "08b6ee59-7da1-4fb0-bd5d-a752d5b8fa60",
+      "sourceVariant": 1,
+      "replacement": "localized-masonry-v13-7.json",
+      "position": [
+        0.23999999463558197,
+        10.022464752197266,
+        -8.1408052444458
+      ],
+      "quaternion": [
+        0,
+        -0.0005729862294220033,
+        0,
+        0.9999998358433771
+      ],
+      "scale": [
+        0.7029999938311678,
+        0.43799999356269836,
+        1.0546995174260378
+      ],
+      "color": [
+        1.0305306911468506,
+        1.005888819694519,
+        0.9968301057815552
+      ]
+    }
+  ],
+  "scope": "Only eight listed portal pier/buttress/spandrel instances. Other V12 masonry remains unchanged."
+}

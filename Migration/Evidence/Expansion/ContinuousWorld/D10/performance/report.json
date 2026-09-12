@@ -1,0 +1,189 @@
+{
+    "mode": "-worldPerformance",
+    "device": "Intel(R) Arc(TM) 130V GPU (8GB)",
+    "note": "Opt-in runtime evidence. Synthetic pointer checks and automatic placement are not native device acceptance. Natural frame cadence is not display-present timing.",
+    "width": 1536,
+    "height": 1024,
+    "failures": 0,
+    "samples": 0,
+    "clicks": 0,
+    "blocked": 0,
+    "drags": 0,
+    "zooms": 0,
+    "resets": 0,
+    "safetyStops": 1,
+    "fixturePlacements": 0,
+    "nativeShiftFrames": 0,
+    "shiftChanges": 0,
+    "distance": 0.0,
+    "nativeRunDistance": 0.0,
+    "position": {
+        "x": -3.599750518798828,
+        "y": 52.95015335083008,
+        "z": -353.9781494140625
+    },
+    "checks": [],
+    "errors": [],
+    "performance": [
+        {
+            "name": "48-static",
+            "frames": 873,
+            "unfocused": 0,
+            "fps": 109.05057525634766,
+            "p95Ms": 10.25629997253418,
+            "maxMs": 12.050496101379395
+        },
+        {
+            "name": "48-walk",
+            "frames": 865,
+            "unfocused": 0,
+            "fps": 107.940673828125,
+            "p95Ms": 10.646003723144532,
+            "maxMs": 13.002799034118653
+        },
+        {
+            "name": "48-orbit",
+            "frames": 874,
+            "unfocused": 0,
+            "fps": 109.11803436279297,
+            "p95Ms": 10.414101600646973,
+            "maxMs": 12.151800155639649
+        },
+        {
+            "name": "48-zoom",
+            "frames": 859,
+            "unfocused": 0,
+            "fps": 107.2630386352539,
+            "p95Ms": 10.771903038024903,
+            "maxMs": 12.748696327209473
+        },
+        {
+            "name": "120-static",
+            "frames": 959,
+            "unfocused": 0,
+            "fps": 119.86734008789063,
+            "p95Ms": 9.293997764587403,
+            "maxMs": 10.289994239807129
+        },
+        {
+            "name": "120-walk",
+            "frames": 954,
+            "unfocused": 0,
+            "fps": 119.0984115600586,
+            "p95Ms": 9.520599365234375,
+            "maxMs": 12.876296043395996
+        },
+        {
+            "name": "120-orbit",
+            "frames": 954,
+            "unfocused": 0,
+            "fps": 119.11442565917969,
+            "p95Ms": 9.785303115844727,
+            "maxMs": 11.175000190734864
+        },
+        {
+            "name": "120-zoom",
+            "frames": 954,
+            "unfocused": 0,
+            "fps": 119.22714233398438,
+            "p95Ms": 9.815404891967774,
+            "maxMs": 10.919295310974121
+        },
+        {
+            "name": "180-static",
+            "frames": 738,
+            "unfocused": 0,
+            "fps": 92.2441177368164,
+            "p95Ms": 14.6470947265625,
+            "maxMs": 15.864903450012207
+        },
+        {
+            "name": "180-walk",
+            "frames": 845,
+            "unfocused": 0,
+            "fps": 105.5865478515625,
+            "p95Ms": 10.788201332092286,
+            "maxMs": 12.11009693145752
+        },
+        {
+            "name": "180-orbit",
+            "frames": 848,
+            "unfocused": 0,
+            "fps": 105.93956756591797,
+            "p95Ms": 10.85859489440918,
+            "maxMs": 12.533900260925293
+        },
+        {
+            "name": "180-zoom",
+            "frames": 880,
+            "unfocused": 0,
+            "fps": 109.97270202636719,
+            "p95Ms": 10.695003509521485,
+            "maxMs": 12.456902503967286
+        },
+        {
+            "name": "265-static",
+            "frames": 957,
+            "unfocused": 0,
+            "fps": 119.55131530761719,
+            "p95Ms": 9.653393745422364,
+            "maxMs": 12.795003890991211
+        },
+        {
+            "name": "265-walk",
+            "frames": 954,
+            "unfocused": 0,
+            "fps": 119.11873626708985,
+            "p95Ms": 9.940398216247559,
+            "maxMs": 12.292694091796875
+        },
+        {
+            "name": "265-orbit",
+            "frames": 960,
+            "unfocused": 0,
+            "fps": 119.9697494506836,
+            "p95Ms": 8.339597702026368,
+            "maxMs": 9.879499435424805
+        },
+        {
+            "name": "265-zoom",
+            "frames": 914,
+            "unfocused": 0,
+            "fps": 114.1690444946289,
+            "p95Ms": 11.463598251342774,
+            "maxMs": 16.14440155029297
+        },
+        {
+            "name": "342-static",
+            "frames": 960,
+            "unfocused": 0,
+            "fps": 119.979248046875,
+            "p95Ms": 8.336997032165528,
+            "maxMs": 9.984601974487305
+        },
+        {
+            "name": "342-walk",
+            "frames": 959,
+            "unfocused": 0,
+            "fps": 119.82659149169922,
+            "p95Ms": 9.34360122680664,
+            "maxMs": 11.467899322509766
+        },
+        {
+            "name": "342-orbit",
+            "frames": 930,
+            "unfocused": 0,
+            "fps": 116.20935821533203,
+            "p95Ms": 10.855605125427246,
+            "maxMs": 15.439299583435059
+        },
+        {
+            "name": "342-zoom",
+            "frames": 960,
+            "unfocused": 0,
+            "fps": 119.96101379394531,
+            "p95Ms": 8.338399887084961,
+            "maxMs": 8.697803497314454
+        }
+    ]
+}

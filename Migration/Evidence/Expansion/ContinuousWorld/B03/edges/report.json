@@ -1,0 +1,32 @@
+{
+    "mode": "-worldEdges",
+    "device": "Intel(R) Arc(TM) 130V GPU (8GB)",
+    "note": "Opt-in runtime evidence. Synthetic pointer checks and automatic placement are not native device acceptance. Natural frame cadence is not display-present timing.",
+    "width": 1536,
+    "height": 1024,
+    "failures": 1,
+    "samples": 718,
+    "clicks": 5,
+    "blocked": 1,
+    "drags": 0,
+    "zooms": 0,
+    "resets": 0,
+    "safetyStops": 0,
+    "distance": 13.861732482910157,
+    "checks": [
+        "PASS Idle visible sole height 12 gap=0.026",
+        "PASS Walking side ground 12 screen input -> ray -> complete path",
+        "PASS Walking side ground 12 arrival/support/body/continuity frames=147 arrived=True supported=True clear=True continuous=True maxStep=0.019 actual=(-4.14, 0.80, -13.98) wanted=(-4.14, 0.86, -14.00) last=",
+        "PASS Running reverse side ground 12 screen input -> ray -> complete path",
+        "PASS Running reverse side ground 12 arrival/support/body/continuity frames=155 arrived=True supported=True clear=True continuous=True maxStep=0.043 actual=(-7.08, 0.80, -12.01) wanted=(-7.10, 0.87, -12.00) last=",
+        "PASS Idle visible sole height 35 gap=0.026",
+        "PASS Walking side ground 35 screen input -> ray -> complete path",
+        "PASS Walking side ground 35 arrival/support/body/continuity frames=221 arrived=True supported=True clear=True continuous=True maxStep=0.019 actual=(-15.54, 0.80, -36.98) wanted=(-15.52, 0.81, -37.00) last=",
+        "PASS Running reverse side ground 35 screen input -> ray -> complete path",
+        "PASS Running reverse side ground 35 arrival/support/body/continuity frames=195 arrived=True supported=True clear=True continuous=True maxStep=0.045 actual=(-20.18, 0.80, -35.01) wanted=(-20.20, 0.81, -35.00) last=",
+        "PASS Idle visible sole height 60 gap=0.026",
+        "FAIL Walking side ground 60 screen input -> ray -> complete path"
+    ],
+    "errors": [],
+    "performance": []
+}

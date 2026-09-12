@@ -1,0 +1,56 @@
+{
+  "note": "Adjacent standalone natural frame cadence, same1536x1024, no other rendering/encoding. Not hardware presentation or direct input.",
+  "stages": [
+    {
+      "name": "static",
+      "walkBuildFps": 37.173221588134766,
+      "runBuildFps": 34.7276496887207,
+      "changePercent": -6.578853795643735
+    },
+    {
+      "name": "walk",
+      "walkBuildFps": 37.751121520996094,
+      "runBuildFps": 35.260284423828125,
+      "changePercent": -6.598047943509799
+    },
+    {
+      "name": "orbit",
+      "walkBuildFps": 37.12035369873047,
+      "runBuildFps": 34.77355194091797,
+      "changePercent": -6.322142770672901
+    },
+    {
+      "name": "zoom",
+      "walkBuildFps": 36.85823059082031,
+      "runBuildFps": 34.86881637573242,
+      "changePercent": -5.397476176144389
+    }
+  ],
+  "continuous": {
+    "note": "Isolated standalone natural frame cadence, continuous automatic routes, no image readback or video encoding. Not direct input or hardware presentation.",
+    "device": "Intel(R) Arc(TM) 130V GPU (8GB)",
+    "width": 1536,
+    "height": 1024,
+    "stages": [
+      {
+        "name": "walk-continuous",
+        "frames": 408,
+        "unfocused": 0,
+        "fps": 33.96202850341797,
+        "p95Ms": 31.14329719543457,
+        "distance": 23.283979415893555,
+        "peakSpeed": 2.2500052452087402
+      },
+      {
+        "name": "run-continuous",
+        "frames": 409,
+        "unfocused": 0,
+        "fps": 33.98908615112305,
+        "p95Ms": 31.047903060913086,
+        "distance": 40.05989074707031,
+        "peakSpeed": 5.400002956390381
+      }
+    ],
+    "errors": []
+  }
+}

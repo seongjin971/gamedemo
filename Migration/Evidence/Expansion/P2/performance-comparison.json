@@ -1,0 +1,166 @@
+{
+  "note": "Adjacent 1536x1024 D3D12 natural frame cadence, matched P1 camera diagnostic in P2; not hardware presentation or physical input. Stage-end screenshots match the preceding P1 protocol.",
+  "stages": [
+    {
+      "stage": "static",
+      "baselineFps": 32.68682861328125,
+      "p2Fps": 33.45243835449219,
+      "changePercent": 2.3422576422720276,
+      "baselineP95Ms": 32.44759750366211,
+      "p2P95Ms": 31.630598068237305
+    },
+    {
+      "stage": "walk",
+      "baselineFps": 32.805938720703125,
+      "p2Fps": 32.72306823730469,
+      "changePercent": -0.2526081759280374,
+      "baselineP95Ms": 32.45109558105469,
+      "p2P95Ms": 33.1410026550293
+    },
+    {
+      "stage": "orbit",
+      "baselineFps": 32.66005325317383,
+      "p2Fps": 32.0189323425293,
+      "changePercent": -1.9630124472691413,
+      "baselineP95Ms": 33.4114990234375,
+      "p2P95Ms": 35.12689971923828
+    },
+    {
+      "stage": "zoom",
+      "baselineFps": 31.604394912719727,
+      "p2Fps": 31.033327102661133,
+      "changePercent": -1.8069253078114023,
+      "baselineP95Ms": 35.381900787353516,
+      "p2P95Ms": 39.7838020324707
+    }
+  ],
+  "p2Repeat": {
+    "note": "Standalone player natural frame loop, no explicit render requests. Frame cadence is not a hardware display-present trace.",
+    "device": "Intel(R) Arc(TM) 130V GPU (8GB)",
+    "width": 1536,
+    "height": 1024,
+    "clicks": 0,
+    "drags": 0,
+    "zooms": 0,
+    "resets": 0,
+    "blocked": 0,
+    "reflectionFrames": 1173,
+    "focused": true,
+    "moved": 2.4357750415802,
+    "errors": [],
+    "stages": [
+      {
+        "name": "static",
+        "frames": 257,
+        "unfocused": 0,
+        "fps": 32.0482292175293,
+        "p50Ms": 31.034900665283203,
+        "p95Ms": 33.22489929199219,
+        "p99Ms": 34.1934928894043,
+        "cpuP50Ms": 0.0,
+        "cpuP95Ms": 0.0,
+        "gpuP50Ms": 0.0,
+        "gpuP95Ms": 0.0,
+        "validTimings": 0
+      },
+      {
+        "name": "walk",
+        "frames": 261,
+        "unfocused": 0,
+        "fps": 32.56193161010742,
+        "p50Ms": 30.58300018310547,
+        "p95Ms": 32.42819595336914,
+        "p99Ms": 33.33080291748047,
+        "cpuP50Ms": 0.0,
+        "cpuP95Ms": 0.0,
+        "gpuP50Ms": 0.0,
+        "gpuP95Ms": 0.0,
+        "validTimings": 0
+      },
+      {
+        "name": "orbit",
+        "frames": 259,
+        "unfocused": 0,
+        "fps": 32.314598083496094,
+        "p50Ms": 30.905101776123047,
+        "p95Ms": 32.450294494628906,
+        "p99Ms": 32.97140121459961,
+        "cpuP50Ms": 0.0,
+        "cpuP95Ms": 0.0,
+        "gpuP50Ms": 0.0,
+        "gpuP95Ms": 0.0,
+        "validTimings": 0
+      },
+      {
+        "name": "zoom",
+        "frames": 260,
+        "unfocused": 0,
+        "fps": 32.45269012451172,
+        "p50Ms": 30.724206924438477,
+        "p95Ms": 32.44129943847656,
+        "p99Ms": 33.22560501098633,
+        "cpuP50Ms": 0.0,
+        "cpuP95Ms": 0.0,
+        "gpuP50Ms": 0.0,
+        "gpuP95Ms": 0.0,
+        "validTimings": 0
+      }
+    ],
+    "player": {
+      "x": -3.0799999237060547,
+      "y": 0.0,
+      "z": 5.210000038146973
+    },
+    "camera": {
+      "x": -26.572128295898438,
+      "y": 30.870248794555664,
+      "z": 18.527996063232422
+    }
+  },
+  "continuous": {
+    "note": "Isolated standalone natural frame cadence, continuous automatic routes, no image readback or video encoding. Not direct input or hardware presentation.",
+    "device": "Intel(R) Arc(TM) 130V GPU (8GB)",
+    "width": 1536,
+    "height": 1024,
+    "stages": [
+      {
+        "name": "walk-continuous",
+        "frames": 399,
+        "unfocused": 0,
+        "fps": 33.228755950927734,
+        "p95Ms": 31.980804443359375,
+        "distance": 23.288013458251953,
+        "peakSpeed": 2.250004291534424
+      },
+      {
+        "name": "run-continuous",
+        "frames": 394,
+        "unfocused": 384,
+        "fps": 32.79679870605469,
+        "p95Ms": 32.63339614868164,
+        "distance": 39.4614372253418,
+        "peakSpeed": 5.400001525878906
+      },
+      {
+        "name": "crossing-walk",
+        "frames": 716,
+        "unfocused": 716,
+        "fps": 59.638092041015625,
+        "p95Ms": 16.7958984375,
+        "distance": 25.48090171813965,
+        "peakSpeed": 2.250025987625122
+      },
+      {
+        "name": "crossing-run",
+        "frames": 719,
+        "unfocused": 719,
+        "fps": 59.87584686279297,
+        "p95Ms": 16.772499084472656,
+        "distance": 54.990623474121094,
+        "peakSpeed": 5.4000139236450195
+      }
+    ],
+    "errors": []
+  },
+  "repeatLimit": "Reverse baseline stalled when unfocused; no completed reverse pair. P2 all-focused repeat zoom p95 32.44ms, initial39.78ms not reproduced. Exact transient cause unproven."
+}

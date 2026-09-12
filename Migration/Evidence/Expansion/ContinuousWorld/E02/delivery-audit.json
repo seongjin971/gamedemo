@@ -1,0 +1,78 @@
+{
+  "revision": "E02",
+  "passed": true,
+  "checks": [
+    "Build succeeded without errors",
+    "12 complete prepared route legs",
+    "No missing scripts",
+    "qa: no failures/runtime errors",
+    "qa: no resets/safety stops",
+    "450 accepted whole-route screen clicks",
+    "Three completed continuous round trips",
+    "16 native captures during continuous traversal",
+    "edges: no failures/runtime errors",
+    "edges: no resets/safety stops",
+    "44 edge clicks / five intended rejections",
+    "weather: no failures/runtime errors",
+    "weather: no resets/safety stops",
+    "42 weather/shelter checks",
+    "Required roof, entry, outside rain and exit checks present",
+    "performance: no failures/runtime errors",
+    "performance: no resets/safety stops",
+    "20 focused performance intervals",
+    "film: no failures/runtime errors",
+    "film: no resets/safety stops",
+    "Nine local moving fixture recordings",
+    "Nine encoded local videos",
+    "Prepare and build source manifests identical",
+    "Current runtime/editor/shader source matches build snapshot",
+    "Standalone executable exists"
+  ],
+  "issues": [],
+  "summaries": {
+    "qa": {
+      "clicks": 450,
+      "blocked": 0,
+      "samples": 92112,
+      "distance": 2828.06640625,
+      "width": 1536,
+      "height": 1024
+    },
+    "edges": {
+      "clicks": 44,
+      "blocked": 5,
+      "samples": 9325,
+      "distance": 172.8001708984375,
+      "width": 1536,
+      "height": 1024
+    },
+    "weather": {
+      "clicks": 10,
+      "blocked": 1,
+      "samples": 2189,
+      "distance": 38.684547424316406,
+      "width": 1536,
+      "height": 1024
+    },
+    "performance": {
+      "clicks": 0,
+      "blocked": 0,
+      "samples": 0,
+      "distance": 0.0,
+      "width": 1536,
+      "height": 1024,
+      "minFPS": 79.48934173583984,
+      "maxFPS": 119.95413970947266,
+      "worstP95Ms": 15.313194274902344
+    },
+    "film": {
+      "clicks": 9,
+      "blocked": 0,
+      "samples": 0,
+      "distance": 0.0,
+      "width": 1536,
+      "height": 1024
+    }
+  },
+  "note": "Technical evidence only. Film contains separate local fixtures; timing is natural frame cadence. Independent visual score, physical device/user acceptance and preservation audit are separate."
+}

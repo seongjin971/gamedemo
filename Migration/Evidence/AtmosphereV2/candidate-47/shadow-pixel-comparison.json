@@ -1,0 +1,18 @@
+{
+  "full": {
+    "meanAbsolute8bitChannelDifference": 0.12447230021158855,
+    "fractionLumaDifferenceAbove5": 0.0022640228271484375
+  },
+  "orbit": {
+    "meanAbsolute8bitChannelDifference": 0.08796946207682292,
+    "fractionLumaDifferenceAbove5": 0.0016473134358723958
+  },
+  "zoom": {
+    "meanAbsolute8bitChannelDifference": 0.14344194200303817,
+    "fractionLumaDifferenceAbove5": 0.0028406778971354165
+  },
+  "slice": {
+    "meanAbsolute8bitChannelDifference": 0.14620128758706394,
+    "fractionLumaDifferenceAbove5": 0.0040060390712774825
+  }
+}

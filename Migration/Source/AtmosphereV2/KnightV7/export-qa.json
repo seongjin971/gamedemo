@@ -1,0 +1,219 @@
+{
+  "passed": true,
+  "exactSixOtherRecords": true,
+  "helmetSupplementByteExact": true,
+  "capeUVAndIndexBuffersExact": true,
+  "collarPositionVerticesExact": 3234,
+  "measuredHemAuthoredLeftRightDifferenceMeters": 0.07140004634857178,
+  "checks": [
+    {
+      "name": "Icosphere004_rounded_v2",
+      "vertices": 9216,
+      "triangles": 3072,
+      "minTriangleArea": 0.00017668523674278927,
+      "minFaceMeanNormalAlignment": 0.9988359586846666,
+      "strictNonpositiveDotTriangles": 0,
+      "maxNormalLengthError": 1.0412806628057325e-07,
+      "bounds": [
+        [
+          -0.8445043563842773,
+          0.8445043563842773
+        ],
+        [
+          -0.34542402625083923,
+          0.5269412398338318
+        ],
+        [
+          -0.8111110925674438,
+          0.8111110925674438
+        ]
+      ]
+    },
+    {
+      "name": "Icosphere004_rounded_v2_1",
+      "vertices": 2304,
+      "triangles": 768,
+      "minTriangleArea": 0.0006425236952587667,
+      "minFaceMeanNormalAlignment": 0.9606794964372042,
+      "strictNonpositiveDotTriangles": 0,
+      "maxNormalLengthError": 1.141023477924108e-07,
+      "bounds": [
+        [
+          -0.8638226985931396,
+          0.8638226985931396
+        ],
+        [
+          -0.3552594482898712,
+          0.10393954068422318
+        ],
+        [
+          -0.829444408416748,
+          0.829444408416748
+        ]
+      ]
+    },
+    {
+      "name": "Icosphere007_rounded_v2",
+      "vertices": 9216,
+      "triangles": 3072,
+      "minTriangleArea": 0.00017668443775654068,
+      "minFaceMeanNormalAlignment": 0.9988221079472661,
+      "strictNonpositiveDotTriangles": 0,
+      "maxNormalLengthError": 1.0143245199323303e-07,
+      "bounds": [
+        [
+          -0.8445043563842773,
+          0.8445043563842773
+        ],
+        [
+          -0.34542402625083923,
+          0.5269412398338318
+        ],
+        [
+          -0.8111110925674438,
+          0.8111110925674438
+        ]
+      ]
+    },
+    {
+      "name": "Icosphere007_rounded_v2_1",
+      "vertices": 2304,
+      "triangles": 768,
+      "minTriangleArea": 0.0006425236952587667,
+      "minFaceMeanNormalAlignment": 0.9617768682020733,
+      "strictNonpositiveDotTriangles": 0,
+      "maxNormalLengthError": 1.141023477924108e-07,
+      "bounds": [
+        [
+          -0.8638226985931396,
+          0.8638226985931396
+        ],
+        [
+          -0.3552594482898712,
+          0.10393954068422318
+        ],
+        [
+          -0.829444408416748,
+          0.829444408416748
+        ]
+      ]
+    },
+    {
+      "name": "Heavy_folded_crimson_cape",
+      "vertices": 23208,
+      "triangles": 7736,
+      "minTriangleArea": 2.681757710476065e-05,
+      "minFaceMeanNormalAlignment": 0.7094216231545315,
+      "strictNonpositiveDotTriangles": 0,
+      "maxNormalLengthError": 1.156375120103803e-07,
+      "bounds": [
+        [
+          -0.3924098312854767,
+          0.32137808203697205
+        ],
+        [
+          -1.0004991292953491,
+          0.0013137066271156073
+        ],
+        [
+          -0.5188644528388977,
+          -0.019619986414909363
+        ]
+      ]
+    },
+    {
+      "name": "LeftArm_Polished forged edges",
+      "vertices": 456,
+      "triangles": 152,
+      "minTriangleArea": 1.3856342177594179e-05,
+      "minFaceMeanNormalAlignment": 0.9999999999959781,
+      "strictNonpositiveDotTriangles": 0,
+      "maxNormalLengthError": 4.8718539202852185e-08,
+      "bounds": [
+        [
+          -0.021026119589805603,
+          0.13102613389492035
+        ],
+        [
+          -0.5250000357627869,
+          -0.22199998795986176
+        ],
+        [
+          -0.07581079751253128,
+          0.12450000643730164
+        ]
+      ]
+    },
+    {
+      "name": "RightArm_Polished forged edges",
+      "vertices": 456,
+      "triangles": 152,
+      "minTriangleArea": 1.3856342177594179e-05,
+      "minFaceMeanNormalAlignment": 0.9999999999959781,
+      "strictNonpositiveDotTriangles": 0,
+      "maxNormalLengthError": 4.8718539202852185e-08,
+      "bounds": [
+        [
+          -0.13102613389492035,
+          0.021026119589805603
+        ],
+        [
+          -0.5250000357627869,
+          -0.22199998795986176
+        ],
+        [
+          -0.07581079751253128,
+          0.12450000643730164
+        ]
+      ]
+    },
+    {
+      "name": "Angular_closed_bascinet",
+      "vertices": 5760,
+      "triangles": 1920,
+      "minTriangleArea": 0.003737647226448166,
+      "minFaceMeanNormalAlignment": 0.9986733753036078,
+      "strictNonpositiveDotTriangles": 0,
+      "maxNormalLengthError": 1.1037144220793493e-07,
+      "bounds": [
+        [
+          -0.9510578513145447,
+          0.9510578513145447
+        ],
+        [
+          -1.0,
+          1.0
+        ],
+        [
+          -0.9999999403953552,
+          0.9999999403953552
+        ]
+      ]
+    }
+  ],
+  "sourceFilesPreserved": {
+    "armor-after.png": true,
+    "armor-before.png": true,
+    "build-report.json": true,
+    "BUILDER.md": true,
+    "build_knight_v6.py": true,
+    "export-qa.json": true,
+    "helmet-v6-unity-mesh.json": true,
+    "inspection.json": true,
+    "inspect_knight.py": true,
+    "knight-v6-unity-meshes.json": true,
+    "knight-v6.blend": true,
+    "knight-v6.blend1": true,
+    "preview-after.png": true,
+    "preview-before.png": true,
+    "render_knight_v6.py": true,
+    "SELF_REVIEW.md": true,
+    "validate_knight_v6.py": true
+  },
+  "sha256": {
+    "knight-v7-unity-meshes.json": "cba8df68b55fca9cdedb15346651adee4ded5fe8f91c26e7ed46ad2db2204be9",
+    "knight-v7.blend": "ab39f38eb6896044ee48eb323ee4b2e8a978332028d2f0e85ed10ba7dfffb9cb",
+    "helmet-v6-unity-mesh.json": "e57503a85be1d6d67870e9dee425d4ff2a98e712cf89be5cbdc42a9982c9c2fe",
+    "build_knight_v7.py": "09ce86eab40f43dbbe8961ad1e46d7433bd22441779e2cd70f3ad45785250146"
+  }
+}

@@ -1,0 +1,32 @@
+{
+    "mode": "-worldWeatherQA",
+    "device": "Intel(R) Arc(TM) 130V GPU (8GB)",
+    "note": "Opt-in runtime evidence. Synthetic pointer checks and automatic placement are not native device acceptance. Natural frame cadence is not display-present timing.",
+    "width": 1536,
+    "height": 1024,
+    "failures": 1,
+    "samples": 208,
+    "clicks": 2,
+    "blocked": 1,
+    "drags": 0,
+    "zooms": 0,
+    "resets": 0,
+    "safetyStops": 0,
+    "distance": 3.2205846309661867,
+    "checks": [
+        "PASS Rain and spatial weather owner exist",
+        "PASS Clear river excludes both precipitation types spatially",
+        "PASS Open abbey uses rain only",
+        "PASS Covered aisle spatial rain mask",
+        "PASS White pass uses snow only",
+        "PASS Real roof blocks falling precipitation above shelter",
+        "PASS Courtyard is open to sky",
+        "PASS Lancet window central opening is actual geometry",
+        "PASS Solid wall below lancet blocks ray",
+        "PASS Optional abbey shelter approach (22.00, 9.00, -182.00) screen input -> ray -> complete path",
+        "PASS Optional abbey shelter approach (22.00, 9.00, -182.00) arrival/support/body/continuity frames=208 arrived=True supported=True clear=True continuous=True maxStep=0.019 actual=(21.98, 9.00, -181.99) wanted=(22.00, 9.03, -182.00) last=",
+        "FAIL Optional abbey shelter approach (27.00, 9.00, -183.00) screen input -> ray -> complete path rejected=Blocked surface"
+    ],
+    "errors": [],
+    "performance": []
+}

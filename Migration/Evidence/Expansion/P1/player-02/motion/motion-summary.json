@@ -1,0 +1,181 @@
+{
+  "frames": 650,
+  "distance": 25.41693687438965,
+  "errors": [],
+  "skipped": 0,
+  "unfocused": 0,
+  "stages": {
+    "idle": {
+      "frames": 32,
+      "seconds": 2.9140186309814453,
+      "captureHz": 10.638229855640683,
+      "minSpeed": 0.0,
+      "maxSpeed": 0.0,
+      "first": "0000.jpg",
+      "middle": "0016.jpg",
+      "last": "0031.jpg"
+    },
+    "walk-stop": {
+      "frames": 99,
+      "seconds": 8.984484672546387,
+      "captureHz": 10.907692936407981,
+      "minSpeed": 0.0,
+      "maxSpeed": 2.134317636489868,
+      "first": "0032.jpg",
+      "middle": "0081.jpg",
+      "last": "0130.jpg"
+    },
+    "turn": {
+      "frames": 97,
+      "seconds": 8.939094543457031,
+      "captureHz": 10.739342730217254,
+      "minSpeed": 0.0,
+      "maxSpeed": 2.1343250274658203,
+      "first": "0131.jpg",
+      "middle": "0179.jpg",
+      "last": "0227.jpg"
+    },
+    "near-root": {
+      "frames": 163,
+      "seconds": 15.941967010498047,
+      "captureHz": 10.161857686276752,
+      "minSpeed": 0.0,
+      "maxSpeed": 2.1343212127685547,
+      "first": "0228.jpg",
+      "middle": "0309.jpg",
+      "last": "0390.jpg"
+    },
+    "orbit": {
+      "frames": 64,
+      "seconds": 5.915813446044922,
+      "captureHz": 10.649423037861226,
+      "minSpeed": 0.0,
+      "maxSpeed": 0.0,
+      "first": "0391.jpg",
+      "middle": "0423.jpg",
+      "last": "0454.jpg"
+    },
+    "zoom": {
+      "frames": 64,
+      "seconds": 5.956398010253906,
+      "captureHz": 10.57686203835705,
+      "minSpeed": 0.0,
+      "maxSpeed": 0.0,
+      "first": "0455.jpg",
+      "middle": "0487.jpg",
+      "last": "0518.jpg"
+    },
+    "wide-limit": {
+      "frames": 67,
+      "seconds": 5.9123687744140625,
+      "captureHz": 11.163038456873124,
+      "minSpeed": 0.0,
+      "maxSpeed": 0.0,
+      "first": "0519.jpg",
+      "middle": "0552.jpg",
+      "last": "0585.jpg"
+    },
+    "close-limit": {
+      "frames": 64,
+      "seconds": 5.943717956542969,
+      "captureHz": 10.599426227929992,
+      "minSpeed": 0.0,
+      "maxSpeed": 0.0,
+      "first": "0586.jpg",
+      "middle": "0618.jpg",
+      "last": "0649.jpg"
+    }
+  },
+  "arrivals": [
+    {
+      "stage": "walk-stop",
+      "destination": 0,
+      "time": 12.026443481445312,
+      "requested": {
+        "x": -3.0799999237060547,
+        "y": 0.0,
+        "z": 5.210000038146973
+      },
+      "actual": {
+        "x": -3.0799999237060547,
+        "y": 0.0,
+        "z": 5.210000038146973
+      }
+    },
+    {
+      "stage": "turn",
+      "destination": 0,
+      "time": 22.681039810180664,
+      "requested": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 10.0
+      },
+      "actual": {
+        "x": -0.01999989151954651,
+        "y": 0.0,
+        "z": 9.970000267028809
+      }
+    },
+    {
+      "stage": "turn",
+      "destination": 1,
+      "time": 26.71218490600586,
+      "requested": {
+        "x": -3.0799999237060547,
+        "y": 0.0,
+        "z": 5.210000038146973
+      },
+      "actual": {
+        "x": -3.0799999237060547,
+        "y": 0.0,
+        "z": 5.210000038146973
+      }
+    },
+    {
+      "stage": "near-root",
+      "destination": 0,
+      "time": 33.074954986572266,
+      "requested": {
+        "x": 3.4000000953674316,
+        "y": 0.0,
+        "z": 3.700000047683716
+      },
+      "actual": {
+        "x": 3.380000114440918,
+        "y": 0.0,
+        "z": 3.8500001430511475
+      }
+    },
+    {
+      "stage": "near-root",
+      "destination": 1,
+      "time": 34.7262077331543,
+      "requested": {
+        "x": 4.0,
+        "y": 0.0,
+        "z": 6.699999809265137
+      },
+      "actual": {
+        "x": 4.059999942779541,
+        "y": 0.0,
+        "z": 6.570000171661377
+      }
+    },
+    {
+      "stage": "near-root",
+      "destination": 2,
+      "time": 36.05531311035156,
+      "requested": {
+        "x": 6.0,
+        "y": 0.0,
+        "z": 7.400000095367432
+      },
+      "actual": {
+        "x": 6.100000381469727,
+        "y": 0.0,
+        "z": 7.25
+      }
+    }
+  ]
+}

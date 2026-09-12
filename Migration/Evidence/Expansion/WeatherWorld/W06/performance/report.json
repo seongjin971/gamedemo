@@ -1,0 +1,81 @@
+{
+    "mode": "-weatherPerformance",
+    "device": "Intel(R) Arc(TM) 130V GPU (8GB)",
+    "note": "Actual Unity renders. Screenshot fixtures and synthetic pointer checks are not native user acceptance. Performance is uncapped engine cadence, not display present timing. Motion export is separate from performance measurement.",
+    "width": 1920,
+    "height": 1080,
+    "failures": 0,
+    "clicks": 0,
+    "safetyStops": 0,
+    "audioSources": 0,
+    "distance": 0.0,
+    "checks": [
+        "PASS Fine snow exceeds old 4096 particle capacity: 9594",
+        "PASS Near snow exceeds old 1200 particle capacity: 2303",
+        "PASS Snow uses no per-flake physics",
+        "PASS Two short global pulses and darkness return, strong=False, peaks=1/0.7435764, tail=1.318843E-08",
+        "PASS Directional sunlight unchanged throughout flash, strong=False",
+        "PASS Two short global pulses and darkness return, strong=True, peaks=1/0.7452687, tail=8.365907E-09",
+        "PASS Directional sunlight unchanged throughout flash, strong=True"
+    ],
+    "errors": [],
+    "captures": [],
+    "performance": [
+        {
+            "scene": "84-static",
+            "frames": 400,
+            "fps": 66.50483703613281,
+            "p95Ms": 15.588902473449707,
+            "maxMs": 24.270301818847658
+        },
+        {
+            "scene": "84-walk",
+            "frames": 425,
+            "fps": 70.68184661865235,
+            "p95Ms": 14.734502792358399,
+            "maxMs": 18.159196853637697
+        },
+        {
+            "scene": "198-static",
+            "frames": 279,
+            "fps": 46.463165283203128,
+            "p95Ms": 22.324296951293947,
+            "maxMs": 26.75819969177246
+        },
+        {
+            "scene": "198-walk",
+            "frames": 286,
+            "fps": 47.641971588134769,
+            "p95Ms": 22.846704483032228,
+            "maxMs": 25.443700790405275
+        },
+        {
+            "scene": "282-static",
+            "frames": 379,
+            "fps": 63.09855651855469,
+            "p95Ms": 16.503698348999025,
+            "maxMs": 35.351898193359378
+        },
+        {
+            "scene": "282-walk",
+            "frames": 384,
+            "fps": 63.915401458740237,
+            "p95Ms": 16.16429901123047,
+            "maxMs": 19.780101776123048
+        },
+        {
+            "scene": "323-static",
+            "frames": 348,
+            "fps": 57.957305908203128,
+            "p95Ms": 17.82089614868164,
+            "maxMs": 21.012798309326173
+        },
+        {
+            "scene": "323-walk",
+            "frames": 364,
+            "fps": 60.6205940246582,
+            "p95Ms": 17.156200408935548,
+            "maxMs": 21.16160011291504
+        }
+    ]
+}

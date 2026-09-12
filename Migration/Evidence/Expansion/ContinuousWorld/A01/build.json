@@ -1,0 +1,11 @@
+{
+    "result": "Succeeded",
+    "path": "Builds/VesperContinuousWorld_A01/VesperWorld.exe",
+    "errors": 0,
+    "warnings": 4,
+    "seconds": 43.0373186,
+    "messages": [
+        "A polygon of Mesh 'CW_LayeredRock_A' in Assets/Vesper/Expansion/ContinuousWorld/Art/EnvironmentKit/CW_LayeredRock_A.fbx is self-intersecting and has been discarded.",
+        "A polygon of Mesh 'CW_RiverBoulder' in Assets/Vesper/Expansion/ContinuousWorld/Art/EnvironmentKit/CW_RiverBoulder.fbx is self-intersecting and has been discarded."
+    ]
+}

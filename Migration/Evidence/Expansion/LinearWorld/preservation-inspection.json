@@ -1,0 +1,8 @@
+{
+  "timeUtc": "2026-09-10T15:21:14.246678+00:00",
+  "scope": "Bounded read-only comparison: E02 complete build, ContinuousWorld assets/source/scenes available in prior baseline, later F02 source manifest, five Unity-reserialized shared settings, original preservation evidence, launcher and IDE files. Not a full 24061-file rehash. No prior script executed or baseline rewritten.",
+  "checked": 6497,
+  "f02SourceFiles": 28,
+  "changes": [],
+  "exactCrLfOnlyChanges": []
+}

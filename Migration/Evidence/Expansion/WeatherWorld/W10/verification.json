@@ -1,0 +1,99 @@
+{
+  "protectedFiles": 12714,
+  "protectedChanges": [],
+  "sharedSkillChanges": [],
+  "sceneIdenticalExceptVersionedScriptGuids": true,
+  "runtimeComparison": [
+    {
+      "file": "WorldAnimation.cs",
+      "sameAsideFromNamespaceAndHelp": true,
+      "intendedCameraChange": false
+    },
+    {
+      "file": "WorldCamera.cs",
+      "sameAsideFromNamespaceAndHelp": false,
+      "intendedCameraChange": true
+    },
+    {
+      "file": "WorldEnvironment.cs",
+      "sameAsideFromNamespaceAndHelp": true,
+      "intendedCameraChange": false
+    },
+    {
+      "file": "WorldLayout.cs",
+      "sameAsideFromNamespaceAndHelp": true,
+      "intendedCameraChange": false
+    },
+    {
+      "file": "WorldMotor.cs",
+      "sameAsideFromNamespaceAndHelp": true,
+      "intendedCameraChange": false
+    },
+    {
+      "file": "WorldRoofCutaway.cs",
+      "sameAsideFromNamespaceAndHelp": true,
+      "intendedCameraChange": false
+    },
+    {
+      "file": "WorldRunInput.cs",
+      "sameAsideFromNamespaceAndHelp": true,
+      "intendedCameraChange": false
+    },
+    {
+      "file": "WorldWeather.cs",
+      "sameAsideFromNamespaceAndHelp": true,
+      "intendedCameraChange": false
+    },
+    {
+      "file": "WeatherW07Flash.cs",
+      "sameAsideFromNamespaceAndHelp": true,
+      "intendedCameraChange": false
+    },
+    {
+      "file": "WeatherW07Roof.cs",
+      "sameAsideFromNamespaceAndHelp": true,
+      "intendedCameraChange": false
+    },
+    {
+      "file": "WeatherW07Variant.cs",
+      "sameAsideFromNamespaceAndHelp": true,
+      "intendedCameraChange": false
+    },
+    {
+      "file": "WeatherW08Flash.cs",
+      "sameAsideFromNamespaceAndHelp": true,
+      "intendedCameraChange": false
+    }
+  ],
+  "rawImageSizes": {
+    "input-qa-visible/drag-release-walk-fixed-angle.png": [
+      1920,
+      1080
+    ],
+    "input-qa-visible/e-right.png": [
+      1920,
+      1080
+    ],
+    "input-qa-visible/q-left.png": [
+      1920,
+      1080
+    ],
+    "input-qa-visible/snow-retained.png": [
+      1920,
+      1080
+    ],
+    "input-qa-visible/start-qe-help.png": [
+      1920,
+      1080
+    ],
+    "input-qa-visible/w09-strong-flash-retained.png": [
+      1920,
+      1080
+    ]
+  },
+  "inputQAFailures": 0,
+  "runtimeErrors": [],
+  "buildErrors": 0,
+  "buildWarnings": 0,
+  "passed": true
+}

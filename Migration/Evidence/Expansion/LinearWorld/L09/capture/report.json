@@ -1,0 +1,182 @@
+{
+    "mode": "-roadCapture",
+    "device": "Intel(R) Arc(TM) 130V GPU (8GB)",
+    "note": "Unmodified Unity runtime captures. Fixture placement is not traversal; screen pointer traversal is synthetic. Native device acceptance is separate. FPS is engine frame cadence, not display-present timing.",
+    "width": 1536,
+    "height": 1024,
+    "fixtures": 16,
+    "frames": 0,
+    "clicks": 0,
+    "rejected": 0,
+    "safetyStops": 0,
+    "resets": 0,
+    "audioSources": 0,
+    "failures": 0,
+    "distance": 0.0,
+    "captures": [
+        {
+            "progress": 25.0,
+            "position": {
+                "x": 0.0,
+                "y": 1.9000000953674317,
+                "z": -25.0
+            },
+            "image": "road-25.png"
+        },
+        {
+            "progress": 46.0,
+            "position": {
+                "x": 0.0,
+                "y": 0.8011537194252014,
+                "z": -46.0
+            },
+            "image": "road-46.png"
+        },
+        {
+            "progress": 50.0,
+            "position": {
+                "x": 0.0,
+                "y": 0.8275462985038757,
+                "z": -50.0
+            },
+            "image": "road-50.png"
+        },
+        {
+            "progress": 85.0,
+            "position": {
+                "x": 0.0,
+                "y": 1.8370370864868165,
+                "z": -85.0
+            },
+            "image": "road-85.png"
+        },
+        {
+            "progress": 122.0,
+            "position": {
+                "x": 0.0,
+                "y": 2.200000047683716,
+                "z": -122.0
+            },
+            "image": "road-122.png"
+        },
+        {
+            "progress": 126.0,
+            "position": {
+                "x": 0.0,
+                "y": 2.200000047683716,
+                "z": -126.0
+            },
+            "image": "road-126.png"
+        },
+        {
+            "progress": 150.0,
+            "position": {
+                "x": 0.0,
+                "y": 2.200000047683716,
+                "z": -150.0
+            },
+            "image": "road-150.png"
+        },
+        {
+            "progress": 176.0,
+            "position": {
+                "x": 0.0,
+                "y": 2.200000047683716,
+                "z": -176.0
+            },
+            "image": "road-176.png"
+        },
+        {
+            "progress": 182.0,
+            "position": {
+                "x": 0.0,
+                "y": 2.2107129096984865,
+                "z": -182.0
+            },
+            "image": "road-182.png"
+        },
+        {
+            "progress": 215.0,
+            "position": {
+                "x": 0.0,
+                "y": 4.872598171234131,
+                "z": -215.0
+            },
+            "image": "road-215.png"
+        },
+        {
+            "progress": 228.0,
+            "position": {
+                "x": 0.0,
+                "y": 6.776000022888184,
+                "z": -228.0
+            },
+            "image": "road-228.png"
+        },
+        {
+            "progress": 234.0,
+            "position": {
+                "x": 0.0,
+                "y": 7.728250026702881,
+                "z": -234.0
+            },
+            "image": "road-234.png"
+        },
+        {
+            "progress": 238.0,
+            "position": {
+                "x": 0.0,
+                "y": 8.375120162963868,
+                "z": -238.0
+            },
+            "image": "road-238.png"
+        },
+        {
+            "progress": 244.0,
+            "position": {
+                "x": 0.0,
+                "y": 9.349038124084473,
+                "z": -244.0
+            },
+            "image": "road-244.png"
+        },
+        {
+            "progress": 260.0,
+            "position": {
+                "x": 0.0,
+                "y": 11.829629898071289,
+                "z": -260.0
+            },
+            "image": "road-260.png"
+        },
+        {
+            "progress": 275.0,
+            "position": {
+                "x": 0.0,
+                "y": 13.742389678955079,
+                "z": -275.0
+            },
+            "image": "road-275.png"
+        }
+    ],
+    "checks": [
+        "PASS Capture fixture 25 intact",
+        "PASS Capture fixture 46 intact",
+        "PASS Capture fixture 50 intact",
+        "PASS Capture fixture 85 intact",
+        "PASS Capture fixture 122 intact",
+        "PASS Capture fixture 126 intact",
+        "PASS Capture fixture 150 intact",
+        "PASS Capture fixture 176 intact",
+        "PASS Capture fixture 182 intact",
+        "PASS Capture fixture 215 intact",
+        "PASS Capture fixture 228 intact",
+        "PASS Capture fixture 234 intact",
+        "PASS Capture fixture 238 intact",
+        "PASS Capture fixture 244 intact",
+        "PASS Capture fixture 260 intact",
+        "PASS Capture fixture 275 intact"
+    ],
+    "errors": [],
+    "performance": []
+}

@@ -1,0 +1,50 @@
+{
+  "note": "Mean gamma-encoded image luminance, excluding HUD rows. Spatial coverage diagnostic only, not photometric exposure or temporal smoothness certification. Particle positions vary between frames.",
+  "flash": {
+    "abbey-fullscreen-flash.png": {
+      "upperLeft": {
+        "before": 0.1875,
+        "peak": 0.3101,
+        "ratio": 1.654
+      },
+      "upperRight": {
+        "before": 0.1818,
+        "peak": 0.2942,
+        "ratio": 1.618
+      },
+      "lowerLeft": {
+        "before": 0.1915,
+        "peak": 0.3065,
+        "ratio": 1.601
+      },
+      "lowerRight": {
+        "before": 0.1551,
+        "peak": 0.2733,
+        "ratio": 1.762
+      }
+    },
+    "abbey-strong-flash.png": {
+      "upperLeft": {
+        "before": 0.1875,
+        "peak": 0.3574,
+        "ratio": 1.907
+      },
+      "upperRight": {
+        "before": 0.1818,
+        "peak": 0.3426,
+        "ratio": 1.885
+      },
+      "lowerLeft": {
+        "before": 0.1915,
+        "peak": 0.354,
+        "ratio": 1.849
+      },
+      "lowerRight": {
+        "before": 0.1551,
+        "peak": 0.3235,
+        "ratio": 2.085
+      }
+    }
+  },
+  "afterReturnMeanAbsoluteDifference": 0.010732
+}

@@ -1,0 +1,12 @@
+{
+  "checked": 6634,
+  "unchanged": 6629,
+  "authorizedChanges": [
+    "CHECKPOINT.md",
+    "EXPANSION_PLAN.md",
+    "PLAY_EXPANSION.md",
+    "Unity/Vesper/Packages/manifest.json",
+    "Unity/Vesper/Packages/packages-lock.json"
+  ],
+  "violations": []
+}

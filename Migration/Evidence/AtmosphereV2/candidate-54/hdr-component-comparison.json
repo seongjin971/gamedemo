@@ -1,0 +1,357 @@
+﻿[
+  {
+    "folder": ".dream-loop/unity-atmosphere-v2/candidate-52-hdr",
+    "rowOrientation": "top-origin",
+    "peakXY": [
+      730,
+      492
+    ],
+    "peakLuminance": 15.097528125,
+    "warmComponents": [
+      {
+        "pixels": 112,
+        "boundsXY": [
+          492,
+          398,
+          498,
+          420
+        ],
+        "peakLuminance": 12.30088984375,
+        "sumLuminance": 264.0515506286621
+      },
+      {
+        "pixels": 36,
+        "boundsXY": [
+          728,
+          486,
+          732,
+          496
+        ],
+        "peakLuminance": 15.097528125,
+        "sumLuminance": 176.63200979003906
+      },
+      {
+        "pixels": 25,
+        "boundsXY": [
+          500,
+          399,
+          501,
+          412
+        ],
+        "peakLuminance": 2.478987109375,
+        "sumLuminance": 27.344092156982423
+      },
+      {
+        "pixels": 15,
+        "boundsXY": [
+          489,
+          380,
+          493,
+          383
+        ],
+        "peakLuminance": 1.1595522949218748,
+        "sumLuminance": 10.160212854003907
+      },
+      {
+        "pixels": 7,
+        "boundsXY": [
+          709,
+          432,
+          709,
+          438
+        ],
+        "peakLuminance": 0.6245962768554687,
+        "sumLuminance": 3.9624120971679675
+      },
+      {
+        "pixels": 4,
+        "boundsXY": [
+          489,
+          399,
+          490,
+          401
+        ],
+        "peakLuminance": 0.6713688720703126,
+        "sumLuminance": 2.30478515625
+      },
+      {
+        "pixels": 3,
+        "boundsXY": [
+          732,
+          482,
+          733,
+          483
+        ],
+        "peakLuminance": 0.682064990234375,
+        "sumLuminance": 1.9016656494140625
+      },
+      {
+        "pixels": 2,
+        "boundsXY": [
+          732,
+          485,
+          732,
+          486
+        ],
+        "peakLuminance": 0.5390200439453126,
+        "sumLuminance": 1.0471561279296875
+      },
+      {
+        "pixels": 1,
+        "boundsXY": [
+          788,
+          425,
+          788,
+          425
+        ],
+        "peakLuminance": 0.6522568969726563,
+        "sumLuminance": 0.6522568969726563
+      },
+      {
+        "pixels": 1,
+        "boundsXY": [
+          734,
+          464,
+          734,
+          464
+        ],
+        "peakLuminance": 0.6205205871582031,
+        "sumLuminance": 0.6205205871582031
+      },
+      {
+        "pixels": 1,
+        "boundsXY": [
+          724,
+          478,
+          724,
+          478
+        ],
+        "peakLuminance": 0.6201758056640625,
+        "sumLuminance": 0.6201758056640625
+      },
+      {
+        "pixels": 1,
+        "boundsXY": [
+          753,
+          469,
+          753,
+          469
+        ],
+        "peakLuminance": 0.6093452148437499,
+        "sumLuminance": 0.6093452148437499
+      }
+    ],
+    "note": "Actual linear reflection RT. Connected warm pixels are not automatically an identified emitter or visible water pixels; no main-camera blending, masking, tone map, or FPS inference."
+  },
+  {
+    "folder": ".dream-loop/unity-atmosphere-v2/candidate-53",
+    "rowOrientation": "top-origin",
+    "peakXY": [
+      730,
+      476
+    ],
+    "peakLuminance": 7.02571640625,
+    "warmComponents": [
+      {
+        "pixels": 39,
+        "boundsXY": [
+          492,
+          398,
+          498,
+          407
+        ],
+        "peakLuminance": 4.0093984375,
+        "sumLuminance": 55.950742926025384
+      },
+      {
+        "pixels": 15,
+        "boundsXY": [
+          500,
+          399,
+          501,
+          406
+        ],
+        "peakLuminance": 2.476742138671875,
+        "sumLuminance": 21.00982660522461
+      },
+      {
+        "pixels": 3,
+        "boundsXY": [
+          730,
+          476,
+          732,
+          476
+        ],
+        "peakLuminance": 7.02571640625,
+        "sumLuminance": 11.3580970703125
+      },
+      {
+        "pixels": 15,
+        "boundsXY": [
+          489,
+          380,
+          493,
+          383
+        ],
+        "peakLuminance": 1.1595522949218748,
+        "sumLuminance": 10.160212854003907
+      },
+      {
+        "pixels": 7,
+        "boundsXY": [
+          709,
+          432,
+          709,
+          438
+        ],
+        "peakLuminance": 0.6245962768554687,
+        "sumLuminance": 3.9624120971679675
+      },
+      {
+        "pixels": 1,
+        "boundsXY": [
+          788,
+          425,
+          788,
+          425
+        ],
+        "peakLuminance": 0.6522568969726563,
+        "sumLuminance": 0.6522568969726563
+      },
+      {
+        "pixels": 1,
+        "boundsXY": [
+          734,
+          464,
+          734,
+          464
+        ],
+        "peakLuminance": 0.6205205871582031,
+        "sumLuminance": 0.6205205871582031
+      },
+      {
+        "pixels": 1,
+        "boundsXY": [
+          753,
+          469,
+          753,
+          469
+        ],
+        "peakLuminance": 0.6093452148437499,
+        "sumLuminance": 0.6093452148437499
+      }
+    ],
+    "note": "Actual linear reflection RT. Connected warm pixels are not automatically an identified emitter or visible water pixels; no main-camera blending, masking, tone map, or FPS inference."
+  },
+  {
+    "folder": ".dream-loop/unity-atmosphere-v2/candidate-54",
+    "rowOrientation": "top-origin",
+    "peakXY": [
+      495,
+      401
+    ],
+    "peakLuminance": 8.035633593750001,
+    "warmComponents": [
+      {
+        "pixels": 45,
+        "boundsXY": [
+          493,
+          398,
+          498,
+          408
+        ],
+        "peakLuminance": 8.035633593750001,
+        "sumLuminance": 86.69639000854492
+      },
+      {
+        "pixels": 16,
+        "boundsXY": [
+          500,
+          399,
+          501,
+          407
+        ],
+        "peakLuminance": 2.3934464843749996,
+        "sumLuminance": 21.840685925292966
+      },
+      {
+        "pixels": 15,
+        "boundsXY": [
+          489,
+          380,
+          493,
+          383
+        ],
+        "peakLuminance": 1.1595522949218748,
+        "sumLuminance": 10.160212854003907
+      },
+      {
+        "pixels": 4,
+        "boundsXY": [
+          731,
+          475,
+          733,
+          476
+        ],
+        "peakLuminance": 2.3157541992187496,
+        "sumLuminance": 6.955706616210937
+      },
+      {
+        "pixels": 7,
+        "boundsXY": [
+          709,
+          432,
+          709,
+          438
+        ],
+        "peakLuminance": 0.6245962768554687,
+        "sumLuminance": 3.9624120971679675
+      },
+      {
+        "pixels": 1,
+        "boundsXY": [
+          788,
+          425,
+          788,
+          425
+        ],
+        "peakLuminance": 0.6522568969726563,
+        "sumLuminance": 0.6522568969726563
+      },
+      {
+        "pixels": 1,
+        "boundsXY": [
+          734,
+          464,
+          734,
+          464
+        ],
+        "peakLuminance": 0.6205205871582031,
+        "sumLuminance": 0.6205205871582031
+      },
+      {
+        "pixels": 1,
+        "boundsXY": [
+          753,
+          469,
+          753,
+          469
+        ],
+        "peakLuminance": 0.6093452148437499,
+        "sumLuminance": 0.6093452148437499
+      },
+      {
+        "pixels": 1,
+        "boundsXY": [
+          492,
+          397,
+          492,
+          397
+        ],
+        "peakLuminance": 0.5004311645507812,
+        "sumLuminance": 0.5004311645507812
+      }
+    ],
+    "note": "Actual linear reflection RT. Connected warm pixels are not automatically an identified emitter or visible water pixels; no main-camera blending, masking, tone map, or FPS inference."
+  }
+]

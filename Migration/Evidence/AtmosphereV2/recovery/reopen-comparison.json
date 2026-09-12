@@ -1,0 +1,38 @@
+{
+  "slice": {
+    "same_size": true,
+    "pixel_exact": false,
+    "mean_channel_difference": [
+      0.11167845207694205,
+      0.11270410247108671,
+      0.08085804920251115
+    ]
+  },
+  "full": {
+    "same_size": true,
+    "pixel_exact": false,
+    "mean_channel_difference": [
+      0.0897369384765625,
+      0.09913889567057292,
+      0.08322715759277344
+    ]
+  },
+  "orbit": {
+    "same_size": true,
+    "pixel_exact": false,
+    "mean_channel_difference": [
+      0.06720034281412761,
+      0.06938362121582031,
+      0.051984151204427086
+    ]
+  },
+  "zoom": {
+    "same_size": true,
+    "pixel_exact": false,
+    "mean_channel_difference": [
+      0.09451929728190105,
+      0.09965896606445312,
+      0.06730397542317708
+    ]
+  }
+}

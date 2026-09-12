@@ -1,0 +1,27 @@
+﻿{
+    "status":  "STOPPED_BY_USER_NO_PROGRESS_RULE",
+    "utc":  "2026-09-09T05:29:34.7388350Z",
+    "baselineCommit":  "3e0db76",
+    "login":  "User completed Adobe login; authenticated Mixamo library verified",
+    "upload":  "Migration/Source/Expansion/P1-Mixamo/Traveler-Upload.fbx",
+    "uploadSha256":  "7F512FCBD02E3BEBCB0BC7BBE5E93CFA9FBEEE20CCA69C1F2039EBC0193AF5D7",
+    "attempts":  [
+                     {
+                         "observed":  "Auto-Rigging screen, then returned to Place markers; selector reset to Standard Skeleton (65)",
+                         "explicitFailureMessage":  false,
+                         "skeleton":  "No Fingers (25)"
+                     },
+                     {
+                         "observed":  "Auto-Rigging screen, then returned to Place markers",
+                         "explicitFailureMessage":  false,
+                         "skeleton":  "Standard Skeleton (65)"
+                     }
+                 ],
+    "rigResultObtained":  false,
+    "animationsDownloaded":  0,
+    "unityImports":  0,
+    "unityBuilds":  0,
+    "meshyRequests":  0,
+    "preservedP1BuildHashMismatches":  0,
+    "note":  "No third retry, new candidate, or independent judge. This is a service workflow stall before motion implementation, not a finding that the new motion walks on the spot."
+}

@@ -1,0 +1,34 @@
+{
+  "status": "ART_DIRECTED_CANDIDATE_REQUIRES_VISUAL_REVIEW",
+  "rawSimulation": "attempt-03-flared/settled-cage.json",
+  "method": "restore v3 broad envelope per grid row, retain low-pass filtered simulated relief and side drift, sculpt unequal shallow hem sags",
+  "untouchedSimulation": false,
+  "rawBounds": [
+    [
+      -0.17000000178813934,
+      0.17000000178813934
+    ],
+    [
+      0.01551634818315506,
+      0.17436721920967102
+    ],
+    [
+      -1.0209667682647705,
+      0.0
+    ]
+  ],
+  "artDirectedBounds": [
+    [
+      -0.3199768201110956,
+      0.3911901729331277
+    ],
+    [
+      0.023,
+      0.4715778047046544
+    ],
+    [
+      -0.9751343928279085,
+      0
+    ]
+  ]
+}

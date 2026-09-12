@@ -1,0 +1,63 @@
+{
+    "note": "Standalone player natural frame loop, no explicit render requests. Frame cadence is not a hardware display-present trace.",
+    "device": "Intel(R) Arc(TM) 130V GPU (8GB)",
+    "width": 1536,
+    "height": 1024,
+    "clicks": 0,
+    "drags": 0,
+    "zooms": 0,
+    "resets": 0,
+    "blocked": 0,
+    "reflectionFrames": 1902,
+    "focused": true,
+    "moved": 2.4357750415802,
+    "errors": [],
+    "stages": [
+        {
+            "name": "static",
+            "frames": 414,
+            "unfocused": 0,
+            "fps": 51.73878860473633,
+            "p50Ms": 19.41269874572754,
+            "p95Ms": 22.42389488220215,
+            "p99Ms": 23.02330780029297
+        },
+        {
+            "name": "walk",
+            "frames": 418,
+            "unfocused": 0,
+            "fps": 52.1386833190918,
+            "p50Ms": 19.289703369140626,
+            "p95Ms": 22.115497589111329,
+            "p99Ms": 23.21969985961914
+        },
+        {
+            "name": "orbit",
+            "frames": 413,
+            "unfocused": 0,
+            "fps": 51.57743453979492,
+            "p50Ms": 19.300800323486329,
+            "p95Ms": 22.489398956298829,
+            "p99Ms": 23.083297729492189
+        },
+        {
+            "name": "zoom",
+            "frames": 424,
+            "unfocused": 0,
+            "fps": 52.954586029052737,
+            "p50Ms": 18.832901000976564,
+            "p95Ms": 21.816200256347658,
+            "p99Ms": 22.543798446655275
+        }
+    ],
+    "player": {
+        "x": -3.0799999237060549,
+        "y": 0.0,
+        "z": 5.210000038146973
+    },
+    "camera": {
+        "x": -25.8992862701416,
+        "y": 31.307275772094728,
+        "z": 17.370512008666993
+    }
+}

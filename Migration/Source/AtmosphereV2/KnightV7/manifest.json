@@ -1,0 +1,102 @@
+﻿[
+    {
+        "name":  "build-report.json",
+        "bytes":  10214,
+        "sha256":  "58f10d75245022c2a343146362de8bfd78123c6aa68fea1a59a557f182b4e0d0"
+    },
+    {
+        "name":  "build.log",
+        "bytes":  3716,
+        "sha256":  "6fd29230881768c880a063cf92c2ac946f74ecd1a4030f4ddc7abefc758e5f86"
+    },
+    {
+        "name":  "BUILDER.md",
+        "bytes":  2916,
+        "sha256":  "c688434b8034861b7556cf08cbedc64626390450d38a0f623db987067fa8b251"
+    },
+    {
+        "name":  "build_knight_v7.py",
+        "bytes":  6998,
+        "sha256":  "09ce86eab40f43dbbe8961ad1e46d7433bd22441779e2cd70f3ad45785250146"
+    },
+    {
+        "name":  "cape-after.png",
+        "bytes":  898734,
+        "sha256":  "326d1919ba978e5a043f9c5570ba997fe22c317fa21a44b070ed45fdaa80e5fa"
+    },
+    {
+        "name":  "cape-before.png",
+        "bytes":  896766,
+        "sha256":  "8f21f4c8420de2c4f88a7bcd519a1a9a2207fe696625d25ef07c7394986244c9"
+    },
+    {
+        "name":  "export-qa.json",
+        "bytes":  6017,
+        "sha256":  "4d9442f52177e37824e9c5cc92936e01025c1aa873216a594508dc9d7711e0df"
+    },
+    {
+        "name":  "helmet-v6-unity-mesh.json",
+        "bytes":  986379,
+        "sha256":  "e57503a85be1d6d67870e9dee425d4ff2a98e712cf89be5cbdc42a9982c9c2fe"
+    },
+    {
+        "name":  "knight-v7-unity-meshes.json",
+        "bytes":  7946504,
+        "sha256":  "cba8df68b55fca9cdedb15346651adee4ded5fe8f91c26e7ed46ad2db2204be9"
+    },
+    {
+        "name":  "knight-v7.blend",
+        "bytes":  415555,
+        "sha256":  "ab39f38eb6896044ee48eb323ee4b2e8a978332028d2f0e85ed10ba7dfffb9cb"
+    },
+    {
+        "name":  "protected-v6-hashes.json",
+        "bytes":  1572,
+        "sha256":  "7d10b0523c1440432ff67ac3fef85cb7faa2b058c1ccf35eab8cc0761d6c0217"
+    },
+    {
+        "name":  "render.log",
+        "bytes":  2478,
+        "sha256":  "ee41262d79db32193b99de48f66e4e3e0eba79861344e44747668b38b7e6f0cc"
+    },
+    {
+        "name":  "render_knight_v7.py",
+        "bytes":  1471,
+        "sha256":  "9712f4bb2ef0365c1ece5fd65c4712b025778109f88f7cec3eefc6252de14690"
+    },
+    {
+        "name":  "SELF_REVIEW.md",
+        "bytes":  3553,
+        "sha256":  "c24dae0d7ae5335e81b5964a1b00e2f654bfabd5f51bee6472556022f00a27fa"
+    },
+    {
+        "name":  "side-after.png",
+        "bytes":  716535,
+        "sha256":  "c2c748649ffa581714cf3151a3464ac9f4433d6710088e8d75156c67c5467c5f"
+    },
+    {
+        "name":  "side-before.png",
+        "bytes":  716085,
+        "sha256":  "c834b4c7815eb374e2b13cd2f392eb79f085ad26922b5fdbd63b825ac93b9f95"
+    },
+    {
+        "name":  "validate_knight_v7.py",
+        "bytes":  3701,
+        "sha256":  "ba0ec02cb14cce711550bdec10e5a42cc2197f94064846c0140c130387fea289"
+    },
+    {
+        "name":  "validation.log",
+        "bytes":  10874,
+        "sha256":  "30907ce400449753257624a2161e07fffa3a5dcce35bed8f615e5e9321396ab7"
+    },
+    {
+        "name":  "whole-after.png",
+        "bytes":  674516,
+        "sha256":  "429f5fecc436935c87939909259c74cfa57ba637aa8c48ec8a3641af94f077ff"
+    },
+    {
+        "name":  "whole-before.png",
+        "bytes":  672972,
+        "sha256":  "a88ced3fd1155b7363de1abf98b8301889e36b06caa256ba7a53b218fa7b6e69"
+    }
+]

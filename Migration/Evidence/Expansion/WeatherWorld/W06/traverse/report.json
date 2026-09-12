@@ -1,0 +1,52 @@
+{
+    "mode": "-weatherTraverse",
+    "device": "Intel(R) Arc(TM) 130V GPU (8GB)",
+    "note": "Actual Unity renders. Screenshot fixtures and synthetic pointer checks are not native user acceptance. Performance is uncapped engine cadence, not display present timing. Motion export is separate from performance measurement.",
+    "width": 1920,
+    "height": 1080,
+    "failures": 0,
+    "clicks": 8,
+    "safetyStops": 0,
+    "audioSources": 0,
+    "distance": 48.071895599365237,
+    "checks": [
+        "PASS screen pointer accepted 198",
+        "PASS arrival, support and continuous climate 198: ",
+        "PASS screen pointer accepted 204",
+        "PASS arrival, support and continuous climate 204: ",
+        "PASS screen pointer accepted 198",
+        "PASS arrival, support and continuous climate 198: ",
+        "PASS screen pointer accepted 192",
+        "PASS arrival, support and continuous climate 192: ",
+        "PASS screen pointer accepted 315",
+        "PASS arrival, support and continuous climate 315: ",
+        "PASS screen pointer accepted 321",
+        "PASS arrival, support and continuous climate 321: ",
+        "PASS screen pointer accepted 315",
+        "PASS arrival, support and continuous climate 315: ",
+        "PASS screen pointer accepted 309",
+        "PASS arrival, support and continuous climate 309: ",
+        "PASS No safety stops",
+        "PASS No audio sources"
+    ],
+    "errors": [],
+    "captures": [
+        {
+            "image": "forward-204.png",
+            "progress": 203.97647094726563,
+            "flash": 0.0,
+            "rain": 1.0,
+            "snow": 0.0,
+            "darkness": 1.0
+        },
+        {
+            "image": "forward-321.png",
+            "progress": 320.9768981933594,
+            "flash": 0.0,
+            "rain": 0.0,
+            "snow": 1.0,
+            "darkness": 1.0
+        }
+    ],
+    "performance": []
+}

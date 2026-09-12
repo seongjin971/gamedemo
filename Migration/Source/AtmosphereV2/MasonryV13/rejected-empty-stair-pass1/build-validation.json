@@ -1,0 +1,396 @@
+{
+  "meshes": [
+    {
+      "id": "stairs-v13-mesh",
+      "sha256": "e4c5565cdc870b6201575dd527e81305a5db35bfe8cbfeeae7d481c81b969a34",
+      "triangles": 64064,
+      "vertices": 53444,
+      "nonmanifold_edges_welded": 0,
+      "bounds": [
+        [
+          -6.781499862670898,
+          0.012000009417533875,
+          -6.398135662078857
+        ],
+        [
+          1.1614999771118164,
+          2.9419901371002197,
+          -1.4589999914169312
+        ]
+      ]
+    },
+    {
+      "id": "localized-masonry-v13-0",
+      "sha256": "296b0ad354c645cf355477f9afa62ceb08a16b99a3454f45b5ed8804465fe004",
+      "triangles": 834,
+      "vertices": 726,
+      "nonmanifold_edges_welded": 0,
+      "bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ]
+    },
+    {
+      "id": "localized-masonry-v13-1",
+      "sha256": "fe726c6e198d3d2e9eabf35d61c9cc2dd0e8185c95901e600c0ae4af4bb2e4d9",
+      "triangles": 856,
+      "vertices": 759,
+      "nonmanifold_edges_welded": 0,
+      "bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ]
+    },
+    {
+      "id": "localized-masonry-v13-2",
+      "sha256": "344e3cbdbfc4e1af00a31cfc6c99cf9564c289f518458cb8265bae96619a0e67",
+      "triangles": 850,
+      "vertices": 745,
+      "nonmanifold_edges_welded": 0,
+      "bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ]
+    },
+    {
+      "id": "localized-masonry-v13-3",
+      "sha256": "73f0d59d0ac17a9b51b41967200c4968fb4dfca047612e1a973c84cd9a044d0f",
+      "triangles": 842,
+      "vertices": 748,
+      "nonmanifold_edges_welded": 0,
+      "bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ]
+    },
+    {
+      "id": "localized-masonry-v13-4",
+      "sha256": "54f165873b2d24f5d00985ee3f93768226f6e6bd04e7573de984d3180efc78a7",
+      "triangles": 790,
+      "vertices": 695,
+      "nonmanifold_edges_welded": 0,
+      "bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ]
+    },
+    {
+      "id": "localized-masonry-v13-5",
+      "sha256": "2031a8003ca05b4eea5fe2414298613b73ab872c31dfc1b026e887243ed71a07",
+      "triangles": 850,
+      "vertices": 748,
+      "nonmanifold_edges_welded": 0,
+      "bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ]
+    },
+    {
+      "id": "localized-masonry-v13-6",
+      "sha256": "9771337181c006dbd7427a8283f1daad51674713077b56bc9379302655dee08c",
+      "triangles": 802,
+      "vertices": 712,
+      "nonmanifold_edges_welded": 0,
+      "bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ]
+    },
+    {
+      "id": "localized-masonry-v13-7",
+      "sha256": "a81568e198b0f3395135a1cc8f104b0074d8d903b91c45474f19d1af9a37231e",
+      "triangles": 872,
+      "vertices": 755,
+      "nonmanifold_edges_welded": 0,
+      "bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ]
+    }
+  ],
+  "stair_nose_losses": [
+    {
+      "row": 0,
+      "column": 1,
+      "width": 0.519858981383428,
+      "depth": 0.03672218096640786,
+      "vertical_loss": 0.04207022639060713
+    },
+    {
+      "row": 0,
+      "column": 4,
+      "width": 0.5398627026263928,
+      "depth": 0.03472383768222011,
+      "vertical_loss": 0.03354310351524538
+    },
+    {
+      "row": 0,
+      "column": 7,
+      "width": 0.5778740390822424,
+      "depth": 0.04193896988050966,
+      "vertical_loss": 0.03134758013983418
+    },
+    {
+      "row": 1,
+      "column": 2,
+      "width": 0.5481032089134843,
+      "depth": 0.041754327775448144,
+      "vertical_loss": 0.03193492383144514
+    },
+    {
+      "row": 1,
+      "column": 5,
+      "width": 0.4743151640014546,
+      "depth": 0.03848372628606088,
+      "vertical_loss": 0.027172451629010583
+    },
+    {
+      "row": 1,
+      "column": 8,
+      "width": 0.4526757960338063,
+      "depth": 0.04124042911046227,
+      "vertical_loss": 0.03896104183703854
+    },
+    {
+      "row": 2,
+      "column": 0,
+      "width": 0.4606200318538831,
+      "depth": 0.042239737653906484,
+      "vertical_loss": 0.0374760317218687
+    },
+    {
+      "row": 2,
+      "column": 3,
+      "width": 0.4774034500769364,
+      "depth": 0.04090674594282262,
+      "vertical_loss": 0.02731295101657676
+    },
+    {
+      "row": 2,
+      "column": 6,
+      "width": 0.49073515751445973,
+      "depth": 0.03349154233042807,
+      "vertical_loss": 0.03707876327538252
+    },
+    {
+      "row": 3,
+      "column": 1,
+      "width": 0.4415817030512033,
+      "depth": 0.03968429462778806,
+      "vertical_loss": 0.03406534717657634
+    },
+    {
+      "row": 3,
+      "column": 4,
+      "width": 0.4980351117425024,
+      "depth": 0.0414764359768071,
+      "vertical_loss": 0.04304924123462123
+    },
+    {
+      "row": 3,
+      "column": 7,
+      "width": 0.48293134674317256,
+      "depth": 0.032870838222601034,
+      "vertical_loss": 0.04428149875237859
+    },
+    {
+      "row": 4,
+      "column": 2,
+      "width": 0.4810464384014591,
+      "depth": 0.04052618475166678,
+      "vertical_loss": 0.04235420449444334
+    },
+    {
+      "row": 4,
+      "column": 5,
+      "width": 0.46461066454634686,
+      "depth": 0.04379463624473762,
+      "vertical_loss": 0.035855861203194894
+    },
+    {
+      "row": 4,
+      "column": 8,
+      "width": 0.46408472767924364,
+      "depth": 0.03278280652395481,
+      "vertical_loss": 0.030797784418130025
+    },
+    {
+      "row": 5,
+      "column": 0,
+      "width": 0.49792931369901233,
+      "depth": 0.042243455872716926,
+      "vertical_loss": 0.038138180336493
+    },
+    {
+      "row": 5,
+      "column": 3,
+      "width": 0.4540108374334817,
+      "depth": 0.04675171299781977,
+      "vertical_loss": 0.04121792661850461
+    },
+    {
+      "row": 5,
+      "column": 6,
+      "width": 0.44248234297249356,
+      "depth": 0.03485621792931339,
+      "vertical_loss": 0.025605350892891975
+    },
+    {
+      "row": 6,
+      "column": 1,
+      "width": 0.5524580855573789,
+      "depth": 0.04548610488134147,
+      "vertical_loss": 0.036686189350874754
+    },
+    {
+      "row": 6,
+      "column": 4,
+      "width": 0.5647176443171322,
+      "depth": 0.034556751000667706,
+      "vertical_loss": 0.029028916430023068
+    },
+    {
+      "row": 6,
+      "column": 7,
+      "width": 0.5051654800909565,
+      "depth": 0.035117042844659496,
+      "vertical_loss": 0.031604235614191734
+    },
+    {
+      "row": 7,
+      "column": 2,
+      "width": 0.5795234933865396,
+      "depth": 0.044689771968891255,
+      "vertical_loss": 0.02743664712311105
+    },
+    {
+      "row": 7,
+      "column": 5,
+      "width": 0.5584767161524538,
+      "depth": 0.03254916778260692,
+      "vertical_loss": 0.025564610363389223
+    },
+    {
+      "row": 7,
+      "column": 8,
+      "width": 0.5466582135401705,
+      "depth": 0.046091397398903854,
+      "vertical_loss": 0.028079941042730185
+    },
+    {
+      "row": 8,
+      "column": 0,
+      "width": 0.46094784808719036,
+      "depth": 0.037502721150324735,
+      "vertical_loss": 0.03175395949080243
+    },
+    {
+      "row": 8,
+      "column": 3,
+      "width": 0.49141591140804564,
+      "depth": 0.044257551847644946,
+      "vertical_loss": 0.03046483874740279
+    },
+    {
+      "row": 8,
+      "column": 6,
+      "width": 0.556018983460307,
+      "depth": 0.0415330071880196,
+      "vertical_loss": 0.02559840131833067
+    },
+    {
+      "row": 9,
+      "column": 1,
+      "width": 0.5507694725768366,
+      "depth": 0.04449009934385445,
+      "vertical_loss": 0.03776943922359613
+    },
+    {
+      "row": 9,
+      "column": 4,
+      "width": 0.5560405528667534,
+      "depth": 0.036147315190634924,
+      "vertical_loss": 0.04266061942748953
+    },
+    {
+      "row": 9,
+      "column": 7,
+      "width": 0.5147807687638847,
+      "depth": 0.046448578918254345,
+      "vertical_loss": 0.034027423319023
+    }
+  ],
+  "stair_joint_width": 0.028,
+  "stair_boundary_centers_preserved": true,
+  "stair_outer_width_and_level_heights_preserved": true,
+  "source_v11_mesh_sha256": "5d8b883677e4d23c1eca6f16fb2658f885ab2ee458314ee330d8c109c4580f11",
+  "source_v12_validation_sha256": "b011ed4e358db46b619855c151730c375a997562e7effe4c66964f2d3ece4314",
+  "notes": [
+    "Clay assembly excludes non-instanced arch-ring mesh and trim; matching before/after context only.",
+    "No scene material, lighting or Unity files changed."
+  ]
+}

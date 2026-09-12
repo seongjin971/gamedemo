@@ -1,0 +1,118 @@
+{
+  "boneCount": 24,
+  "vertexCount": 37706,
+  "clips": {
+    "Walk": {
+      "frames": [
+        1,
+        32
+      ],
+      "kneeInteriorAngleDegrees": [
+        107.73505313727983,
+        166.10988642600827
+      ],
+      "signedAnkleXSeparationMeters": [
+        0.1448761336505413,
+        0.1685662493109703
+      ],
+      "maxHandOrFootFrameStepMeters": 0.10091809771283473,
+      "endpointBoneHeadMismatchMeters": 0.0,
+      "hipEndpointHorizontalDriftMeters": 0.0
+    },
+    "WalkAlternative": {
+      "frames": [
+        1,
+        42
+      ],
+      "kneeInteriorAngleDegrees": [
+        85.46993417898057,
+        164.12347617007183
+      ],
+      "signedAnkleXSeparationMeters": [
+        0.22082936391234398,
+        0.29080118983983994
+      ],
+      "maxHandOrFootFrameStepMeters": 0.08183159534646875,
+      "endpointBoneHeadMismatchMeters": 0.0,
+      "hipEndpointHorizontalDriftMeters": 0.0
+    },
+    "Idle": {
+      "frames": [
+        1,
+        299
+      ],
+      "kneeInteriorAngleDegrees": [
+        142.55944880931767,
+        162.35535876000895
+      ],
+      "signedAnkleXSeparationMeters": [
+        0.26181161403656006,
+        0.2656082361936569
+      ],
+      "maxHandOrFootFrameStepMeters": 0.007125926221613129,
+      "endpointBoneHeadMismatchMeters": 0.0,
+      "hipEndpointHorizontalDriftMeters": 0.0
+    },
+    "Stop": {
+      "frames": [
+        1,
+        91
+      ],
+      "kneeInteriorAngleDegrees": [
+        102.50334679910351,
+        169.2027463463518
+      ],
+      "signedAnkleXSeparationMeters": [
+        0.07865909300744534,
+        0.18139087781310081
+      ],
+      "maxHandOrFootFrameStepMeters": 0.0823737491062866,
+      "endpointBoneHeadMismatchMeters": 0.19022245746740582,
+      "hipEndpointHorizontalDriftMeters": 0.0
+    }
+  },
+  "fbxRoundtrip": {
+    "armatures": [
+      {
+        "name": "TravelerRig",
+        "bones": 24
+      }
+    ],
+    "meshes": [
+      {
+        "name": "TravelerSkin",
+        "vertices": 37706
+      }
+    ],
+    "actions": [
+      {
+        "name": "TravelerRig|TravelerRig|Idle",
+        "frames": [
+          1.0,
+          299.0
+        ]
+      },
+      {
+        "name": "TravelerRig|TravelerRig|Stop",
+        "frames": [
+          1.0,
+          91.0
+        ]
+      },
+      {
+        "name": "TravelerRig|TravelerRig|Walk",
+        "frames": [
+          1.0,
+          32.0
+        ]
+      },
+      {
+        "name": "TravelerRig|TravelerRig|WalkAlternative",
+        "frames": [
+          1.0,
+          42.0
+        ]
+      }
+    ]
+  }
+}

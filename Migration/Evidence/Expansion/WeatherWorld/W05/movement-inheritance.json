@@ -1,0 +1,21 @@
+{
+  "W04ToW05": {
+    "colliderComponents": 382,
+    "collidersIdentical": true,
+    "retainedTransformCount": 6621,
+    "retainedTransformPosesIdentical": true,
+    "prefabTransformOverridesIdentical": true,
+    "navigationReferencesIdentical": true,
+    "movementRuntimeIdentical": {
+      "WorldMotor": true,
+      "WorldLayout": true,
+      "WorldCamera": true,
+      "WorldRunInput": true,
+      "WorldAnimation": true,
+      "WorldWeather": true,
+      "WorldRoofCutaway": true
+    }
+  },
+  "note": "W04 targeted 180.34m traversal remains applicable. W05 changes atmospheric particles and lighting shader early-outs; final W05 performance includes actual walking at all four representative fixtures.",
+  "passed": true
+}

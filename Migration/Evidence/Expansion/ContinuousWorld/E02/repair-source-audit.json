@@ -1,0 +1,8 @@
+{
+  "changedSourceFiles": [
+    "Runtime\\WorldLayout.cs"
+  ],
+  "added": [],
+  "removed": [],
+  "note": "Only endpoint continuity repair; E01 failed evidence retained."
+}

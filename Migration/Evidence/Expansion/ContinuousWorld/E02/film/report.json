@@ -1,0 +1,38 @@
+{
+    "mode": "-worldFilm",
+    "device": "Intel(R) Arc(TM) 130V GPU (8GB)",
+    "note": "Opt-in runtime evidence. Synthetic pointer checks and automatic placement are not native device acceptance. Natural frame cadence is not display-present timing.",
+    "width": 1536,
+    "height": 1024,
+    "failures": 0,
+    "samples": 0,
+    "clicks": 9,
+    "blocked": 0,
+    "drags": 0,
+    "zooms": 0,
+    "resets": 0,
+    "safetyStops": 0,
+    "fixturePlacements": 0,
+    "nativeShiftFrames": 0,
+    "shiftChanges": 0,
+    "distance": 0.0,
+    "nativeRunDistance": 0.0,
+    "position": {
+        "x": -0.6961503028869629,
+        "y": 51.400230407714847,
+        "z": -346.6847229003906
+    },
+    "checks": [
+        "SEQUENCE fixture 45 frames=47",
+        "SEQUENCE fixture 95 frames=52",
+        "SEQUENCE fixture 120 frames=51",
+        "SEQUENCE fixture 145 frames=52",
+        "SEQUENCE fixture 180 frames=51",
+        "SEQUENCE fixture 242 frames=58",
+        "SEQUENCE fixture 265 frames=60",
+        "SEQUENCE fixture 292 frames=60",
+        "SEQUENCE fixture 342 frames=59"
+    ],
+    "errors": [],
+    "performance": []
+}

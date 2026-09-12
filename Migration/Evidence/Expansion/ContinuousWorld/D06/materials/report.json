@@ -1,0 +1,38 @@
+{
+    "mode": "-worldMaterials",
+    "device": "Intel(R) Arc(TM) 130V GPU (8GB)",
+    "note": "Opt-in runtime evidence. Synthetic pointer checks and automatic placement are not native device acceptance. Natural frame cadence is not display-present timing.",
+    "width": 1536,
+    "height": 1024,
+    "failures": 0,
+    "samples": 0,
+    "clicks": 0,
+    "blocked": 0,
+    "drags": 0,
+    "zooms": 0,
+    "resets": 0,
+    "safetyStops": 0,
+    "fixturePlacements": 0,
+    "nativeShiftFrames": 0,
+    "shiftChanges": 0,
+    "distance": 0.0,
+    "nativeRunDistance": 0.0,
+    "position": {
+        "x": 0.0,
+        "y": 50.215999603271487,
+        "z": -342.0
+    },
+    "checks": [
+        "MATERIAL Wet_CW_ChapelPavingStone shader=Vesper/WorldWetStone texture=none",
+        "MATERIAL Wet_CW_ChapelPavingStoneLight shader=Vesper/WorldWetStone texture=none",
+        "MATERIAL Earth shader=Vesper/WorldGround texture=none",
+        "MATERIAL AbbeyPuddles shader=Vesper/WorldWetStone texture=none"
+    ],
+    "errors": [
+        "Material 'Wet_CW_ChapelPavingStone' with Shader 'Vesper/WorldWetStone' doesn't have a texture property '_MainTex'",
+        "Material 'Wet_CW_ChapelPavingStoneLight' with Shader 'Vesper/WorldWetStone' doesn't have a texture property '_MainTex'",
+        "Material 'Earth' with Shader 'Vesper/WorldGround' doesn't have a texture property '_MainTex'",
+        "Material 'AbbeyPuddles' with Shader 'Vesper/WorldWetStone' doesn't have a texture property '_MainTex'"
+    ],
+    "performance": []
+}

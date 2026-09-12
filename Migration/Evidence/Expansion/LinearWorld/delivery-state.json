@@ -1,0 +1,16 @@
+﻿{
+    "DeliveredUtc":  "2026-09-10T15:44:33.6359396Z",
+    "Revision":  "L06",
+    "Status":  "READY_FOR_USER_REVIEW",
+    "NoAudio":  true,
+    "VisualScore":  5.68,
+    "RouteChecks":  110,
+    "RouteMeters":  319.0246276855469,
+    "PerfSamples":  15,
+    "ActivePlayerPID":  20844,
+    "NormalCommandLine":  "\"C:\\Users\\brian\\Dev\\active\\Dream Loop Astra\\Unity\\Vesper\\Builds\\VesperLinearWorld_L06\\VesperLinear.exe\"  -screen-width 1536 -screen-height 1024 -screen-fullscreen 0 -force-d3d12",
+    "ProbeArgumentsPresent":  false,
+    "NativeWindowObserved":  true,
+    "GitDiffCheckExit":  0,
+    "UserAcceptance":  "PENDING"
+}

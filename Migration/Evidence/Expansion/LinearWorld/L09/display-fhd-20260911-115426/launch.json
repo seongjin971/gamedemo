@@ -1,0 +1,21 @@
+﻿{
+    "PID":  20876,
+    "executable":  "C:\\Users\\brian\\Dev\\active\\Dream Loop Astra\\Unity\\Vesper\\Builds\\VesperLinearWorld_L09\\VesperLinear.exe",
+    "evidence":  "C:\\Users\\brian\\Dev\\active\\Dream Loop Astra\\Migration\\Evidence\\Expansion\\LinearWorld\\L09\\display-fhd-20260911-115426",
+    "arguments":  [
+                      "-screen-width",
+                      "1920",
+                      "-screen-height",
+                      "1080",
+                      "-screen-fullscreen",
+                      "1",
+                      "-window-mode",
+                      "exclusive",
+                      "-force-d3d12",
+                      "-linearManual",
+                      "\"C:\\Users\\brian\\Dev\\active\\Dream Loop Astra\\Migration\\Evidence\\Expansion\\LinearWorld\\L09\\display-fhd-20260911-115426\"",
+                      "-logFile",
+                      "\"C:\\Users\\brian\\Dev\\active\\Dream Loop Astra\\Migration\\Evidence\\Expansion\\LinearWorld\\L09\\display-fhd-20260911-115426/player.log\""
+                  ],
+    "exeSHA256":  "D05C5848F7CC2EB32FF6016F54762EE3C666A69B862BE297DF2390830C1EA8CF"
+}

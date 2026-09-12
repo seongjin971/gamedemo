@@ -1,0 +1,65 @@
+{
+    "note": "Actual Unity player, synthetic calls through the same key/pointer handlers used by native polling. Not physical keyboard/user acceptance. Engine cadence, no OBS recording.",
+    "device": "Intel(R) Arc(TM) 130V GPU (8GB)",
+    "width": 1920,
+    "height": 1080,
+    "failures": 0,
+    "clicks": 2,
+    "drags": 0,
+    "audioSources": 0,
+    "safetyStops": 0,
+    "distance": 11.941268920898438,
+    "checks": [
+        "PASS Q rotates left, fixed elevation",
+        "PASS E rotates right, fixed elevation",
+        "PASS Q and E together do not rotate",
+        "PASS Movement accepted after large pointer drag to 198 ",
+        "PASS Arrival and collision support at 198",
+        "PASS Yaw and elevation stay fixed through pointer motion and walking to 198",
+        "PASS Movement accepted after click to 192 ",
+        "PASS Arrival and collision support at 192",
+        "PASS Yaw and elevation stay fixed through pointer motion and walking to 192",
+        "PASS Wheel zoom does not rotate",
+        "PASS R returns home without rotating",
+        "PASS Shift running speed retained",
+        "PASS Unpaired release ignored",
+        "PASS Disabling input cancels held pointer",
+        "PASS Right mouse ignored",
+        "PASS Other pointer buttons never rotate",
+        "PASS No mouse orbit events",
+        "PASS No safety stops",
+        "PASS No audio sources"
+    ],
+    "errors": [],
+    "captures": [
+        "start-qe-help.png",
+        "q-left.png",
+        "e-right.png",
+        "drag-release-walk-fixed-angle.png",
+        "w09-strong-flash-retained.png",
+        "snow-retained.png"
+    ],
+    "performance": [
+        {
+            "scene": "150-walk",
+            "frames": 372,
+            "fps": 61.986515045166019,
+            "p95Ms": 20.018898010253908,
+            "maxMs": 20.97869873046875
+        },
+        {
+            "scene": "198-walk",
+            "frames": 311,
+            "fps": 51.76179122924805,
+            "p95Ms": 20.06200408935547,
+            "maxMs": 21.033702850341798
+        },
+        {
+            "scene": "323-walk",
+            "frames": 368,
+            "fps": 61.28782272338867,
+            "p95Ms": 17.021299362182618,
+            "maxMs": 18.44069480895996
+        }
+    ]
+}

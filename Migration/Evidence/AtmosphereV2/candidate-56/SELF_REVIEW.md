@@ -1,0 +1,11 @@
+# Candidate56 — native TreeV16 and MasonryV16 structural integration
+
+Actual Unity full/orbit/zoom/glare-orbit/slice were directly opened. Shader/runtime/missing-script errors0, reflection134. Exact bridge checks applied16 unique hero overrides,54 visible plus9 deep facade skin removals,278 old stair removals,430 old ground removals,50 prior Contact14 offcuts. Original selected indices and chunk/loop seeds remain unchanged. Core foundations and the eight earlier V13 hero overrides remain.
+
+TreeV16 is visibly slimmer at its two broad lower forks, and the forward root foot no longer curls far over the paving. Its terminal sections now enter the ground; substantial side buttresses remain. New stone/soil entry meshes add72triangles each. Main tree157999triangles. Actual parent/local transforms rebuild a30-point root hull with.28m clearance;164 routes and20 samples per segment passed. Latest continuous walking is still52; the new hull and covers have not yet had a player near-root motion run.
+
+MasonryV16 adds71,736-triangle flight,50,320-triangle interlocking facade and eight lower local hero meshes. The right exterior bond is more varied in the actual frame. Selected stair face losses and pier cuts are visible locally, but clean large rectangles and ten regular riser bands still dominate. This does not clear the masonry material/shape blocker.
+
+Point lights return from3.6 to4.8m range and exact local shadow geometry was rebuilt to500080triangles. Fire reaches farther across the floor and steps, but a convincing sharp warm water glint did not appear. The brown riser band is stronger. This is a combined structural/range comparison, not an isolated proof of which pixels come from range. Do not claim the roughly10.86-times distance-window increase restored water specular or saved performance.
+
+Paving remainsV16 with55 mineral shading; broad pale mottling, smooth caps and rounded smaller units remain. Flame remainsV16 direct-source radiance and its reflected core is still physically occluded by bowl/coal/log geometry. The preparedV17 bitmap changes that source distribution and is not part of56. No56 independent score or performance measurement. Latest judge remains52's6.1/Tier2 and comparable FPS49.88–50.72. Not judge-ready; proceed with prepared paving/source flame plus explicit depth-priming comparison safeguards.

@@ -1,0 +1,13 @@
+ M CHECKPOINT.md
+ M EXPANSION_PLAN.md
+?? CONTINUOUS_MAP_PLAN.md
+?? Migration/Evidence/Expansion/ContinuousWorld/
+?? Migration/Source/Expansion/ContinuousWorld/
+?? PLAY_VESPER_WORLD.cmd
+?? PLAY_WORLD.md
+?? Unity/Vesper/Assets/Vesper/Expansion/ContinuousWorld.meta
+?? Unity/Vesper/Assets/Vesper/Expansion/ContinuousWorld/
+?? Unity/Vesper/Assets/Vesper/Scenes/Expansion/VesperContinuousWorld.unity
+?? Unity/Vesper/Assets/Vesper/Scenes/Expansion/VesperContinuousWorld.unity.meta
+?? Unity/Vesper/Assets/Vesper/Scenes/Expansion/VesperContinuousWorld_F01.unity
+?? Unity/Vesper/Assets/Vesper/Scenes/Expansion/VesperContinuousWorld_F01.unity.meta

@@ -1,0 +1,25 @@
+{
+    "mode": "-linearCapture",
+    "device": "Intel(R) Arc(TM) 130V GPU (8GB)",
+    "note": "Runtime originals. Capture placements are fixtures, not traversal. Synthetic screen pointers are not native device acceptance. Frame cadence is not display-present timing.",
+    "width": 1536,
+    "height": 1024,
+    "failures": 0,
+    "fixtures": 15,
+    "frames": 0,
+    "clicks": 0,
+    "drags": 0,
+    "zooms": 0,
+    "resets": 1,
+    "rejected": 0,
+    "safetyStops": 0,
+    "distance": 0.0,
+    "position": {
+        "x": 0.0,
+        "y": 14.23703670501709,
+        "z": -280.0
+    },
+    "checks": [],
+    "errors": [],
+    "performance": []
+}

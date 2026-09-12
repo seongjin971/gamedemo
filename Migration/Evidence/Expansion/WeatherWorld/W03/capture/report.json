@@ -1,0 +1,113 @@
+{
+    "mode": "-weatherCapture",
+    "device": "Intel(R) Arc(TM) 130V GPU (8GB)",
+    "note": "Actual Unity renders. Screenshot fixtures and synthetic pointer checks are not native user acceptance. Performance is uncapped engine cadence, not display present timing. Motion export is separate from performance measurement.",
+    "width": 1920,
+    "height": 1080,
+    "failures": 0,
+    "clicks": 0,
+    "safetyStops": 0,
+    "audioSources": 0,
+    "distance": 0.0,
+    "checks": [],
+    "errors": [],
+    "captures": [
+        {
+            "image": "weather-323.png",
+            "progress": 323.0,
+            "flash": 0.0,
+            "rain": 0.0,
+            "snow": 1.0,
+            "darkness": 1.0
+        },
+        {
+            "image": "weather-282.png",
+            "progress": 282.0,
+            "flash": 0.0,
+            "rain": 0.24569135904312135,
+            "snow": 0.7543086409568787,
+            "darkness": 1.0
+        },
+        {
+            "image": "weather-258.png",
+            "progress": 258.0,
+            "flash": 0.0,
+            "rain": 0.7742375731468201,
+            "snow": 0.22576241195201875,
+            "darkness": 1.0
+        },
+        {
+            "image": "weather-25.png",
+            "progress": 25.0,
+            "flash": 0.0,
+            "rain": 0.0,
+            "snow": 0.0,
+            "darkness": 0.0
+        },
+        {
+            "image": "weather-60.png",
+            "progress": 60.0,
+            "flash": 0.0,
+            "rain": 0.0,
+            "snow": 0.0,
+            "darkness": 0.5277650356292725
+        },
+        {
+            "image": "weather-84.png",
+            "progress": 84.0,
+            "flash": 0.0,
+            "rain": 0.0,
+            "snow": 0.0,
+            "darkness": 1.0
+        },
+        {
+            "image": "weather-104.png",
+            "progress": 104.0,
+            "flash": 0.0,
+            "rain": 0.0,
+            "snow": 0.0,
+            "darkness": 1.0
+        },
+        {
+            "image": "weather-122.png",
+            "progress": 122.0,
+            "flash": 0.0,
+            "rain": 0.0842747837305069,
+            "snow": 0.0,
+            "darkness": 1.0
+        },
+        {
+            "image": "weather-150.png",
+            "progress": 150.0,
+            "flash": 0.0,
+            "rain": 0.756468653678894,
+            "snow": 0.0,
+            "darkness": 1.0
+        },
+        {
+            "image": "weather-198.png",
+            "progress": 198.0,
+            "flash": 0.0,
+            "rain": 1.0,
+            "snow": 0.0,
+            "darkness": 1.0
+        },
+        {
+            "image": "abbey-distant-flash.png",
+            "progress": 198.0,
+            "flash": 1.0,
+            "rain": 1.0,
+            "snow": 0.0,
+            "darkness": 1.0
+        },
+        {
+            "image": "abbey-strong-flash.png",
+            "progress": 198.0,
+            "flash": 1.0,
+            "rain": 1.0,
+            "snow": 0.0,
+            "darkness": 1.0
+        }
+    ],
+    "performance": []
+}

@@ -1,0 +1,1063 @@
+﻿{
+    "utc":  "2026-09-09T04:22:00.6368422Z",
+    "count":  176,
+    "changed":  0,
+    "checks":  [
+                   {
+                       "path":  "PLAY_VESPER.cmd",
+                       "expected":  "453713E847913F464EE392BF73D5DEFABCA6C9D84F462568343BECFBF802882A",
+                       "actual":  "453713E847913F464EE392BF73D5DEFABCA6C9D84F462568343BECFBF802882A",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Assets\\Vesper\\Scenes\\VesperAtmosphereV2.unity",
+                       "expected":  "585895C2EAE2EA2A59B3B4C5F3F0A75E7A502FCDBC904E31DA7B34DA74884246",
+                       "actual":  "585895C2EAE2EA2A59B3B4C5F3F0A75E7A502FCDBC904E31DA7B34DA74884246",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\build-report.json",
+                       "expected":  "C070E63A7987B2C6ED719C7CFDE7E21A45D12789E389EBDD547EB996FC9A7C0E",
+                       "actual":  "C070E63A7987B2C6ED719C7CFDE7E21A45D12789E389EBDD547EB996FC9A7C0E",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\dstorage.dll",
+                       "expected":  "CAE65787F61514BEC6F012F44546E68B19E39D8854A9AB52AF813370D44B272A",
+                       "actual":  "CAE65787F61514BEC6F012F44546E68B19E39D8854A9AB52AF813370D44B272A",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\dstoragecore.dll",
+                       "expected":  "CF85B19A92A8276F8BACA0DB9BBCD60735BAD50768DEB303D310E84D5F4FDD11",
+                       "actual":  "CF85B19A92A8276F8BACA0DB9BBCD60735BAD50768DEB303D310E84D5F4FDD11",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\UnityCrashHandler64.exe",
+                       "expected":  "8BFBC94F0E2199E8AAB47A7467012BA45DEC1009D30598995EC7607B446EE8B1",
+                       "actual":  "8BFBC94F0E2199E8AAB47A7467012BA45DEC1009D30598995EC7607B446EE8B1",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\UnityPlayer.dll",
+                       "expected":  "7F9C4C1B4A42D763422F1F792C0DA193F0D6541048AAA84F0B3EFD1E4EE90206",
+                       "actual":  "7F9C4C1B4A42D763422F1F792C0DA193F0D6541048AAA84F0B3EFD1E4EE90206",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper.exe",
+                       "expected":  "D05C5848F7CC2EB32FF6016F54762EE3C666A69B862BE297DF2390830C1EA8CF",
+                       "actual":  "D05C5848F7CC2EB32FF6016F54762EE3C666A69B862BE297DF2390830C1EA8CF",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\D3D12\\D3D12Core.dll",
+                       "expected":  "625BD40005B1C3708695D5256ECF230D278E6B8EDBA5A88AF70F3D91324F3052",
+                       "actual":  "625BD40005B1C3708695D5256ECF230D278E6B8EDBA5A88AF70F3D91324F3052",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll",
+                       "expected":  "02CEC9FDB34A2606DAD35174CAC85D733F1D04DCB18A40AB80012E7D5638F48A",
+                       "actual":  "02CEC9FDB34A2606DAD35174CAC85D733F1D04DCB18A40AB80012E7D5638F48A",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll",
+                       "expected":  "5782FACF743EE29F270FC625B7633860AEDB1C8290D2E7307E60DC4925FD94DC",
+                       "actual":  "5782FACF743EE29F270FC625B7633860AEDB1C8290D2E7307E60DC4925FD94DC",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\MonoBleedingEdge\\etc\\mono\\browscap.ini",
+                       "expected":  "4DDD50F31FB968F30BEDEFC253A46DC3F2890192D05CDAA9E0A64A056EEE807E",
+                       "actual":  "4DDD50F31FB968F30BEDEFC253A46DC3F2890192D05CDAA9E0A64A056EEE807E",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\MonoBleedingEdge\\etc\\mono\\config",
+                       "expected":  "5776169973A26A387B8B3E5C0F2301A7AB9A6DD7C7D3EFA22A96ABC47FBF8662",
+                       "actual":  "5776169973A26A387B8B3E5C0F2301A7AB9A6DD7C7D3EFA22A96ABC47FBF8662",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\MonoBleedingEdge\\etc\\mono\\2.0\\DefaultWsdlHelpGenerator.aspx",
+                       "expected":  "751861040B69EA63A3827507B7C8DA9C7F549DC181C1C8AF4B7CA78CC97D710A",
+                       "actual":  "751861040B69EA63A3827507B7C8DA9C7F549DC181C1C8AF4B7CA78CC97D710A",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config",
+                       "expected":  "E91782A27FA39FC6C1D6EE8B08529F5D35052310D0006034B878EB04B8F2AF30",
+                       "actual":  "E91782A27FA39FC6C1D6EE8B08529F5D35052310D0006034B878EB04B8F2AF30",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\MonoBleedingEdge\\etc\\mono\\2.0\\settings.map",
+                       "expected":  "49C6160F9D54AF4270A3B4E997FC4A8301F79B9E2070118FA46DDBCBBC44F9A2",
+                       "actual":  "49C6160F9D54AF4270A3B4E997FC4A8301F79B9E2070118FA46DDBCBBC44F9A2",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config",
+                       "expected":  "CF2B54339E069B9E42F7D6795EECBF562C50C1011F4CA8F65F578FE52D97FF92",
+                       "actual":  "CF2B54339E069B9E42F7D6795EECBF562C50C1011F4CA8F65F578FE52D97FF92",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\MonoBleedingEdge\\etc\\mono\\2.0\\Browsers\\Compat.browser",
+                       "expected":  "8A1082057AC5681DCD4E9C227ED7FB8EB42AC1618963B5DE3B65739DD77E2741",
+                       "actual":  "8A1082057AC5681DCD4E9C227ED7FB8EB42AC1618963B5DE3B65739DD77E2741",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\MonoBleedingEdge\\etc\\mono\\4.0\\DefaultWsdlHelpGenerator.aspx",
+                       "expected":  "751861040B69EA63A3827507B7C8DA9C7F549DC181C1C8AF4B7CA78CC97D710A",
+                       "actual":  "751861040B69EA63A3827507B7C8DA9C7F549DC181C1C8AF4B7CA78CC97D710A",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config",
+                       "expected":  "E60AEC2C5115D65B3ACB3C55EA21576DBD770F579166C017125571E46AE560ED",
+                       "actual":  "E60AEC2C5115D65B3ACB3C55EA21576DBD770F579166C017125571E46AE560ED",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\MonoBleedingEdge\\etc\\mono\\4.0\\settings.map",
+                       "expected":  "CE1DB1AD8A9512073164E3ECCDC193F7EDA036E1A9733CAEC4635DE21B2865C8",
+                       "actual":  "CE1DB1AD8A9512073164E3ECCDC193F7EDA036E1A9733CAEC4635DE21B2865C8",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config",
+                       "expected":  "E38BB8CC68FE5B4EDECDFD288D094B9E8CED7629039B2A347682ABA0D8BD7492",
+                       "actual":  "E38BB8CC68FE5B4EDECDFD288D094B9E8CED7629039B2A347682ABA0D8BD7492",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\MonoBleedingEdge\\etc\\mono\\4.0\\Browsers\\Compat.browser",
+                       "expected":  "8A1082057AC5681DCD4E9C227ED7FB8EB42AC1618963B5DE3B65739DD77E2741",
+                       "actual":  "8A1082057AC5681DCD4E9C227ED7FB8EB42AC1618963B5DE3B65739DD77E2741",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\MonoBleedingEdge\\etc\\mono\\4.5\\DefaultWsdlHelpGenerator.aspx",
+                       "expected":  "751861040B69EA63A3827507B7C8DA9C7F549DC181C1C8AF4B7CA78CC97D710A",
+                       "actual":  "751861040B69EA63A3827507B7C8DA9C7F549DC181C1C8AF4B7CA78CC97D710A",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config",
+                       "expected":  "EE950004B576FB28DC85F4B0435ED04BF96612DE2E8B53BE84D07AFE85A0DE6C",
+                       "actual":  "EE950004B576FB28DC85F4B0435ED04BF96612DE2E8B53BE84D07AFE85A0DE6C",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\MonoBleedingEdge\\etc\\mono\\4.5\\settings.map",
+                       "expected":  "CE1DB1AD8A9512073164E3ECCDC193F7EDA036E1A9733CAEC4635DE21B2865C8",
+                       "actual":  "CE1DB1AD8A9512073164E3ECCDC193F7EDA036E1A9733CAEC4635DE21B2865C8",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config",
+                       "expected":  "C4CBDDD4FD9347B58CC5A72B36DC4BA1AD2BB699E65869D05CD3FB9865F0D824",
+                       "actual":  "C4CBDDD4FD9347B58CC5A72B36DC4BA1AD2BB699E65869D05CD3FB9865F0D824",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\MonoBleedingEdge\\etc\\mono\\4.5\\Browsers\\Compat.browser",
+                       "expected":  "8A1082057AC5681DCD4E9C227ED7FB8EB42AC1618963B5DE3B65739DD77E2741",
+                       "actual":  "8A1082057AC5681DCD4E9C227ED7FB8EB42AC1618963B5DE3B65739DD77E2741",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml",
+                       "expected":  "0C56E34C69124510FA8C19E7B4C2CA6C1C4FF460AE19F798DD0CA035809E396D",
+                       "actual":  "0C56E34C69124510FA8C19E7B4C2CA6C1C4FF460AE19F798DD0CA035809E396D",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\VESPER Unity migration_BurstDebugInformation_DoNotShip\\Data\\Plugins\\x86_64\\lib_burst_generated.txt",
+                       "expected":  "9BC0A0F0B720F244059A07E25F94885576A223D4272A6EC3ACC481928C34EC9F",
+                       "actual":  "9BC0A0F0B720F244059A07E25F94885576A223D4272A6EC3ACC481928C34EC9F",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\app.info",
+                       "expected":  "58A518610884EE308B703225B656894E55D7E74F1B5823F1D98F9E911DD534DA",
+                       "actual":  "58A518610884EE308B703225B656894E55D7E74F1B5823F1D98F9E911DD534DA",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\boot.config",
+                       "expected":  "3CA638AC8FB553904343C1F6DD5EF118E62BF64E95FD238C1B7C16ECBA653363",
+                       "actual":  "3CA638AC8FB553904343C1F6DD5EF118E62BF64E95FD238C1B7C16ECBA653363",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\globalgamemanagers",
+                       "expected":  "D9BBD553EDCE2C4616B9116A5B2DD20C5864112FC780030D9002D45E7CDFE9C1",
+                       "actual":  "D9BBD553EDCE2C4616B9116A5B2DD20C5864112FC780030D9002D45E7CDFE9C1",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\globalgamemanagers.assets",
+                       "expected":  "C114D4AF6CABB8AF18FE394BFF9641AF8C58F0CFBB4CE910FF18C3771C0D1540",
+                       "actual":  "C114D4AF6CABB8AF18FE394BFF9641AF8C58F0CFBB4CE910FF18C3771C0D1540",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\globalgamemanagers.assets.resS",
+                       "expected":  "7C8F8811AF123955811662BF92D0C48510D2727CC14296D18D3F709D20C950E7",
+                       "actual":  "7C8F8811AF123955811662BF92D0C48510D2727CC14296D18D3F709D20C950E7",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\level0",
+                       "expected":  "60F79849D320EABF70459474EBA969BF860DCA9064D329AC8F8286E1013FF1DF",
+                       "actual":  "60F79849D320EABF70459474EBA969BF860DCA9064D329AC8F8286E1013FF1DF",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\resources.assets",
+                       "expected":  "A951DD9FC9D55AF702DDEC5C4C428E77BDD8F161360041E833993C116A6DBE29",
+                       "actual":  "A951DD9FC9D55AF702DDEC5C4C428E77BDD8F161360041E833993C116A6DBE29",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\RuntimeInitializeOnLoads.json",
+                       "expected":  "C027E8D6A99B11E46B6514A3D1BAB751CB99D044899E188D879ECCA05F0C9163",
+                       "actual":  "C027E8D6A99B11E46B6514A3D1BAB751CB99D044899E188D879ECCA05F0C9163",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\ScriptingAssemblies.json",
+                       "expected":  "BDA61B82DFC39DAE49953EE6F5D230D5C861DA3C4E4B128584C26FD4A7B6374E",
+                       "actual":  "BDA61B82DFC39DAE49953EE6F5D230D5C861DA3C4E4B128584C26FD4A7B6374E",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\sharedassets0.assets",
+                       "expected":  "3A11D5692539A438C4D86830F708203EF85A3A5A9574AC27D34F62BF39F830E9",
+                       "actual":  "3A11D5692539A438C4D86830F708203EF85A3A5A9574AC27D34F62BF39F830E9",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\sharedassets0.assets.resS",
+                       "expected":  "40D608EC68FAF92396AF7B74C040E2A25983528283B304D76A849A369F33F76B",
+                       "actual":  "40D608EC68FAF92396AF7B74C040E2A25983528283B304D76A849A369F33F76B",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\Assembly-CSharp.dll",
+                       "expected":  "A44B57A8A6F4C600600B8EB79B9CBDAA3CB886B62830E633DA84C13ED085D843",
+                       "actual":  "A44B57A8A6F4C600600B8EB79B9CBDAA3CB886B62830E633DA84C13ED085D843",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\Mono.Security.dll",
+                       "expected":  "1849437C1D2FE7698C0FDE2A9A6AAD9A864372A373B7C1D887DA902A36965B36",
+                       "actual":  "1849437C1D2FE7698C0FDE2A9A6AAD9A864372A373B7C1D887DA902A36965B36",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\mscorlib.dll",
+                       "expected":  "F7698BD46AF58D3EE9DAC59A286CFEDFD28E51F71C0FE3940671A3CCC7AF5711",
+                       "actual":  "F7698BD46AF58D3EE9DAC59A286CFEDFD28E51F71C0FE3940671A3CCC7AF5711",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\netstandard.dll",
+                       "expected":  "6AE62E082DC494A2433984177F60CA4DB5FAE69B1F360A8B33754172B310B8C5",
+                       "actual":  "6AE62E082DC494A2433984177F60CA4DB5FAE69B1F360A8B33754172B310B8C5",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\System.Buffers.dll",
+                       "expected":  "762F8FDBE975E05B76BE5FE996C53CE7C75E4A2830F2F50B02A5948EF6BA0AEB",
+                       "actual":  "762F8FDBE975E05B76BE5FE996C53CE7C75E4A2830F2F50B02A5948EF6BA0AEB",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\System.Collections.Immutable.dll",
+                       "expected":  "5B1B1C83BA3D135C2FDFE425842FBE9C7432878B7E468623ACB554C69B4C130F",
+                       "actual":  "5B1B1C83BA3D135C2FDFE425842FBE9C7432878B7E468623ACB554C69B4C130F",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\System.ComponentModel.Composition.dll",
+                       "expected":  "335D76D10AE5B80D1FAAE4833937B9166551CCC9E79EE8262D2DA4D58843F79D",
+                       "actual":  "335D76D10AE5B80D1FAAE4833937B9166551CCC9E79EE8262D2DA4D58843F79D",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\System.Configuration.dll",
+                       "expected":  "D7139DD6B622233D316AAC733B392B9C1A545375804F62685F57F9D36F1C7AC2",
+                       "actual":  "D7139DD6B622233D316AAC733B392B9C1A545375804F62685F57F9D36F1C7AC2",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\System.Core.dll",
+                       "expected":  "A4637C44A11EA827D686313CFCA3F5191225D2A96F7EAF0F10AA32DE446380D2",
+                       "actual":  "A4637C44A11EA827D686313CFCA3F5191225D2A96F7EAF0F10AA32DE446380D2",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\System.Data.DataSetExtensions.dll",
+                       "expected":  "80432A96154F8D2935B2F1C9E61B2EE6109FD6234E281327B3B297451C8931BA",
+                       "actual":  "80432A96154F8D2935B2F1C9E61B2EE6109FD6234E281327B3B297451C8931BA",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\System.Data.dll",
+                       "expected":  "AB47D362CFF6F6E665CADBC8C6C81F9FA3612F23483A44D08B339347AC99F116",
+                       "actual":  "AB47D362CFF6F6E665CADBC8C6C81F9FA3612F23483A44D08B339347AC99F116",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\System.dll",
+                       "expected":  "D26CADA0FC3DCAE061F0FA421DF15A082CB35CCF81CCAEEBC8B0E2D2E6877099",
+                       "actual":  "D26CADA0FC3DCAE061F0FA421DF15A082CB35CCF81CCAEEBC8B0E2D2E6877099",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\System.Drawing.dll",
+                       "expected":  "3C3586BA170C1788A8D3A4E419EB1F50F092070F4D81E90238B2FE6C5405CF2C",
+                       "actual":  "3C3586BA170C1788A8D3A4E419EB1F50F092070F4D81E90238B2FE6C5405CF2C",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\System.EnterpriseServices.dll",
+                       "expected":  "00595C8EEA345FE0E47DA702100E460AAAF8F14D27A24950B71D926CBF1201C4",
+                       "actual":  "00595C8EEA345FE0E47DA702100E460AAAF8F14D27A24950B71D926CBF1201C4",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\System.IO.Compression.dll",
+                       "expected":  "A2803C059BD49C7FE520673F7E2B06657BB0419B253A5267E3F1DA14B357DD5A",
+                       "actual":  "A2803C059BD49C7FE520673F7E2B06657BB0419B253A5267E3F1DA14B357DD5A",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\System.IO.Compression.FileSystem.dll",
+                       "expected":  "F45CA89827639A880DCBEAB1917AF99A5BD18AEC4433FBCB2D7774CCF9FE7121",
+                       "actual":  "F45CA89827639A880DCBEAB1917AF99A5BD18AEC4433FBCB2D7774CCF9FE7121",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\System.Memory.dll",
+                       "expected":  "C4F030A2CBA7DA7CDCF493257C24560E203D355904AEE490D645A935842F834A",
+                       "actual":  "C4F030A2CBA7DA7CDCF493257C24560E203D355904AEE490D645A935842F834A",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\System.Net.Http.dll",
+                       "expected":  "128B31FEC424C70356952314ABFF2F6B1408F64B7613D2AE4BDE5E84C2F8AC03",
+                       "actual":  "128B31FEC424C70356952314ABFF2F6B1408F64B7613D2AE4BDE5E84C2F8AC03",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\System.Numerics.dll",
+                       "expected":  "B968DC8852985029FD5DD08A1A9C3A6B8750EA4470CD677A5051C33FC5A08639",
+                       "actual":  "B968DC8852985029FD5DD08A1A9C3A6B8750EA4470CD677A5051C33FC5A08639",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\System.Reflection.Metadata.dll",
+                       "expected":  "AFCFD6C166FE0D59F45CC6363082806F6A7EA8CEED9DC6C75EEC9FD79CCB5717",
+                       "actual":  "AFCFD6C166FE0D59F45CC6363082806F6A7EA8CEED9DC6C75EEC9FD79CCB5717",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\System.Runtime.CompilerServices.Unsafe.dll",
+                       "expected":  "FD67ABC4C4AF10AFFBCD42FD68A2A7BC361B26714AFE6965D4D0D139459D8297",
+                       "actual":  "FD67ABC4C4AF10AFFBCD42FD68A2A7BC361B26714AFE6965D4D0D139459D8297",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\System.Runtime.dll",
+                       "expected":  "E0A7334B7BA419AAAB6BD3BB6992D693E689341A9178172C9BF99C2AA6A085BD",
+                       "actual":  "E0A7334B7BA419AAAB6BD3BB6992D693E689341A9178172C9BF99C2AA6A085BD",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\System.Runtime.Serialization.dll",
+                       "expected":  "685123ACDBB6AC313E503E89F4831FED096BE838CCB000B85B33EE903562807F",
+                       "actual":  "685123ACDBB6AC313E503E89F4831FED096BE838CCB000B85B33EE903562807F",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\System.Security.dll",
+                       "expected":  "02D51B98DC8C877124FEA386C9FBF7264790AAE381AB15577EB0E2D082D1BCC4",
+                       "actual":  "02D51B98DC8C877124FEA386C9FBF7264790AAE381AB15577EB0E2D082D1BCC4",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\System.ServiceModel.Internals.dll",
+                       "expected":  "077333ADC8BF20EB40E94D1909DB2D07A16925A9192B69064F34EAF128804C8B",
+                       "actual":  "077333ADC8BF20EB40E94D1909DB2D07A16925A9192B69064F34EAF128804C8B",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\System.Transactions.dll",
+                       "expected":  "6557E5029469211193CCEC80DD4D3AD090F5EB87D80F5D5341D77A6D3506B64B",
+                       "actual":  "6557E5029469211193CCEC80DD4D3AD090F5EB87D80F5D5341D77A6D3506B64B",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\System.Xml.dll",
+                       "expected":  "32129A7D847A5EFEACEE6BD4B0D6BBFFC8923551C5446A8C216D8EF1191B1DE1",
+                       "actual":  "32129A7D847A5EFEACEE6BD4B0D6BBFFC8923551C5446A8C216D8EF1191B1DE1",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\System.Xml.Linq.dll",
+                       "expected":  "FD300E794B9CCD85D95BBAB54E282DA1333FAA20A9209457944E831C27452B00",
+                       "actual":  "FD300E794B9CCD85D95BBAB54E282DA1333FAA20A9209457944E831C27452B00",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\Unity.Burst.dll",
+                       "expected":  "326C8FD8116F6D64DC62761F316F98CF83EA6B460CC5386888E842BDA7205D81",
+                       "actual":  "326C8FD8116F6D64DC62761F316F98CF83EA6B460CC5386888E842BDA7205D81",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\Unity.Burst.Unsafe.dll",
+                       "expected":  "9D9C1FF52411DECBEE5D9F0D1CD61EBEAA222077AA77A52101EA3DEBAFAE98E2",
+                       "actual":  "9D9C1FF52411DECBEE5D9F0D1CD61EBEAA222077AA77A52101EA3DEBAFAE98E2",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\Unity.Collections.dll",
+                       "expected":  "CEF9A0A8572124005F9880F356AF7F7712FFBF3EC487B233A066B7EA1B95800D",
+                       "actual":  "CEF9A0A8572124005F9880F356AF7F7712FFBF3EC487B233A066B7EA1B95800D",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\Unity.Collections.LowLevel.ILSupport.dll",
+                       "expected":  "FF50383F807F9692E4913B97E47D86FEFCB8FAA33D6D48CD3E3FD6FC7FFB448D",
+                       "actual":  "FF50383F807F9692E4913B97E47D86FEFCB8FAA33D6D48CD3E3FD6FC7FFB448D",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\Unity.InternalAPIEngineBridge.RenderPipelines.Core.Runtime.Shared.dll",
+                       "expected":  "2EC6092B9B4630D3C636A0691C14A0F5A3DCD4F7B63C7273A412D548EC3BD36D",
+                       "actual":  "2EC6092B9B4630D3C636A0691C14A0F5A3DCD4F7B63C7273A412D548EC3BD36D",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\Unity.Mathematics.dll",
+                       "expected":  "3B3C09ABE9D155639883C0DB048BB65467AEF7BB050C2BB93BA3F0ADD7514737",
+                       "actual":  "3B3C09ABE9D155639883C0DB048BB65467AEF7BB050C2BB93BA3F0ADD7514737",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\Unity.PathTracing.Runtime.dll",
+                       "expected":  "76EB2C302F7A9F98A2CF845DD82A186AAF47EAB13DAF35741324DD5A4BE24C9D",
+                       "actual":  "76EB2C302F7A9F98A2CF845DD82A186AAF47EAB13DAF35741324DD5A4BE24C9D",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\Unity.RenderPipeline.Universal.ShaderLibrary.dll",
+                       "expected":  "A152507BB7A7DEDC5428C86DD89487623CD64348B71BAA7495FADD1E7615B7D6",
+                       "actual":  "A152507BB7A7DEDC5428C86DD89487623CD64348B71BAA7495FADD1E7615B7D6",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\Unity.RenderPipelines.Core.Runtime.dll",
+                       "expected":  "3D35E41DE21BAB07EE0F6528C5CE1B37EDBD538602685C9B7C17B704DCE8BF76",
+                       "actual":  "3D35E41DE21BAB07EE0F6528C5CE1B37EDBD538602685C9B7C17B704DCE8BF76",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\Unity.RenderPipelines.Core.Runtime.Shared.dll",
+                       "expected":  "68C75B4A8F75AD480C8B4937A05C172B953D46C336765BDB2458DA87B483AC27",
+                       "actual":  "68C75B4A8F75AD480C8B4937A05C172B953D46C336765BDB2458DA87B483AC27",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\Unity.RenderPipelines.Core.ShaderLibrary.dll",
+                       "expected":  "58C61A1C8E27980FADF2B5C86D1C9812E19FFD6CC27FB314C92948AB8FB2D89A",
+                       "actual":  "58C61A1C8E27980FADF2B5C86D1C9812E19FFD6CC27FB314C92948AB8FB2D89A",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\Unity.RenderPipelines.GPUDriven.Runtime.dll",
+                       "expected":  "77CA9C7B3A4F56083B1DAA36331BFAA3B812C1B083461D66DC98FF699148D5BF",
+                       "actual":  "77CA9C7B3A4F56083B1DAA36331BFAA3B812C1B083461D66DC98FF699148D5BF",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll",
+                       "expected":  "19DCDEC25A339858F0E420933A3E673D02044E7E58DD5A6D9FE01EC79DA5183C",
+                       "actual":  "19DCDEC25A339858F0E420933A3E673D02044E7E58DD5A6D9FE01EC79DA5183C",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\Unity.RenderPipelines.Universal.2D.Runtime.dll",
+                       "expected":  "F7C487C9D4204D8155041583704908A5A7145FD95FF2264467741BC2CE802D43",
+                       "actual":  "F7C487C9D4204D8155041583704908A5A7145FD95FF2264467741BC2CE802D43",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\Unity.RenderPipelines.Universal.Config.Runtime.dll",
+                       "expected":  "829CDF62B2E40DB97D7E17D33519BCC4F418087A3DD9FD7235094C0DB9BCD8FF",
+                       "actual":  "829CDF62B2E40DB97D7E17D33519BCC4F418087A3DD9FD7235094C0DB9BCD8FF",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\Unity.RenderPipelines.Universal.Runtime.dll",
+                       "expected":  "C80073DA92A2B8E68252C56C44F4C5A230666507A49627B585669CDF5DBC8EBA",
+                       "actual":  "C80073DA92A2B8E68252C56C44F4C5A230666507A49627B585669CDF5DBC8EBA",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\Unity.RenderPipelines.Universal.Shaders.dll",
+                       "expected":  "18D98467365CE05A7A46F9B68FB2B63BC221FFA829B12F6EAFB6E8249E5B6D64",
+                       "actual":  "18D98467365CE05A7A46F9B68FB2B63BC221FFA829B12F6EAFB6E8249E5B6D64",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\Unity.Scripting.dll",
+                       "expected":  "F0B65D6EBCB0D2FF9E5CCBDD4BDABAD87B92BFA612F019FC2DF3F953F0FD748D",
+                       "actual":  "F0B65D6EBCB0D2FF9E5CCBDD4BDABAD87B92BFA612F019FC2DF3F953F0FD748D",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\Unity.SurfaceCache.Runtime.dll",
+                       "expected":  "146931824727296536D0F6761A74A6A2C156BEA20B665F2EE20102D4840634C9",
+                       "actual":  "146931824727296536D0F6761A74A6A2C156BEA20B665F2EE20102D4840634C9",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\Unity.UnifiedRayTracing.Runtime.dll",
+                       "expected":  "49AFAFEF08057515CFD009545CFE65F8BDBA06DA8CD2AD0A8DE5A8466D1F18D9",
+                       "actual":  "49AFAFEF08057515CFD009545CFE65F8BDBA06DA8CD2AD0A8DE5A8466D1F18D9",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.AccessibilityModule.dll",
+                       "expected":  "6DB9D37DBC9ADEF60D2F6B849D2446DC0550148673AA5A0D81546F1A79532226",
+                       "actual":  "6DB9D37DBC9ADEF60D2F6B849D2446DC0550148673AA5A0D81546F1A79532226",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.AdaptivePerformanceModule.dll",
+                       "expected":  "37A15858C624E2B6B45081A58A8E53ABFD68BD1553FB37B0E67C0E0F7D8C4B8D",
+                       "actual":  "37A15858C624E2B6B45081A58A8E53ABFD68BD1553FB37B0E67C0E0F7D8C4B8D",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.AIModule.dll",
+                       "expected":  "CA817A2AD1F0AE3D905D54067505F4D7C96FEC8B2B66F565C1C768A4F8166CFF",
+                       "actual":  "CA817A2AD1F0AE3D905D54067505F4D7C96FEC8B2B66F565C1C768A4F8166CFF",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.AMDModule.dll",
+                       "expected":  "35971DB89105C67B6C15128215B887D767E80AE475ED325160AB8E57CD9341A7",
+                       "actual":  "35971DB89105C67B6C15128215B887D767E80AE475ED325160AB8E57CD9341A7",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.AndroidJNIModule.dll",
+                       "expected":  "88F9C79339341BA5D8A900EDF5C4A96FDA96DA7B4478BE4B8452A229B98D9313",
+                       "actual":  "88F9C79339341BA5D8A900EDF5C4A96FDA96DA7B4478BE4B8452A229B98D9313",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.AnimationModule.dll",
+                       "expected":  "663A387EB4361C369003B41FE45DBA95C1F3D56BE7E63D2DF4B155BE8F42D1CE",
+                       "actual":  "663A387EB4361C369003B41FE45DBA95C1F3D56BE7E63D2DF4B155BE8F42D1CE",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.ARModule.dll",
+                       "expected":  "EA82748EE0BF694BEE764CBBBFFD4F02728D13F5E81DE7AD2DE72DB906A9B3C0",
+                       "actual":  "EA82748EE0BF694BEE764CBBBFFD4F02728D13F5E81DE7AD2DE72DB906A9B3C0",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.AssetBundleModule.dll",
+                       "expected":  "80B2696F8CD7B8CD501D0E7AC001A9978CA0AF32AB7D971B3418031D0ADDC746",
+                       "actual":  "80B2696F8CD7B8CD501D0E7AC001A9978CA0AF32AB7D971B3418031D0ADDC746",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.AudioModule.dll",
+                       "expected":  "FA41B1A4C4F35D381C50B88FF89D7A3B58F600E889AF34F028FC10F17E40221D",
+                       "actual":  "FA41B1A4C4F35D381C50B88FF89D7A3B58F600E889AF34F028FC10F17E40221D",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.ClothModule.dll",
+                       "expected":  "60ABA21AF9AE6EE8B459BF0E0B2608BF6E7AD75C76CD023A8767A36703D1AC06",
+                       "actual":  "60ABA21AF9AE6EE8B459BF0E0B2608BF6E7AD75C76CD023A8767A36703D1AC06",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.ClusterInputModule.dll",
+                       "expected":  "D97FD97C4092655D7C452D86E31E0793F31F273AD3B5E83653B76D2AB28717CD",
+                       "actual":  "D97FD97C4092655D7C452D86E31E0793F31F273AD3B5E83653B76D2AB28717CD",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.ClusterRendererModule.dll",
+                       "expected":  "584758F26D1C4F037FA90C2518606125663017FC9DF4E55CA5D15F4501649879",
+                       "actual":  "584758F26D1C4F037FA90C2518606125663017FC9DF4E55CA5D15F4501649879",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.ContentLoadModule.dll",
+                       "expected":  "78D400AFCA6D471E464FAE69996C6FA575B42E88E629B2E849A558E29747C87B",
+                       "actual":  "78D400AFCA6D471E464FAE69996C6FA575B42E88E629B2E849A558E29747C87B",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.CoreModule.dll",
+                       "expected":  "2A18300D7351FA1649C18891D460C1C4C218E97036DD3A953231EEA4B90F7157",
+                       "actual":  "2A18300D7351FA1649C18891D460C1C4C218E97036DD3A953231EEA4B90F7157",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.CrashReportingModule.dll",
+                       "expected":  "DB74902471F13CEF2AEF5118F86D255BE1E3E926790373234EEF4BF40CAB501A",
+                       "actual":  "DB74902471F13CEF2AEF5118F86D255BE1E3E926790373234EEF4BF40CAB501A",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.DirectorModule.dll",
+                       "expected":  "5417BDE7146733DC30C39AAE48AC16B191313BC330A0439D6BA269CFAA3AE39B",
+                       "actual":  "5417BDE7146733DC30C39AAE48AC16B191313BC330A0439D6BA269CFAA3AE39B",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.dll",
+                       "expected":  "3ED4763A9CA378E0445C0A440D8CD3447071B2615903B0E24F657DEF316F9502",
+                       "actual":  "3ED4763A9CA378E0445C0A440D8CD3447071B2615903B0E24F657DEF316F9502",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.DSPGraphModule.dll",
+                       "expected":  "E9718601EB9E5579323EC08DB7DAE1E37C25ADE827DA87DF6D5EF12992F23C2C",
+                       "actual":  "E9718601EB9E5579323EC08DB7DAE1E37C25ADE827DA87DF6D5EF12992F23C2C",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.GameCenterModule.dll",
+                       "expected":  "E52662101AE401F1C671B4486E0C811C2FA381C1E9CA6E4A8983ABBEFDE08D58",
+                       "actual":  "E52662101AE401F1C671B4486E0C811C2FA381C1E9CA6E4A8983ABBEFDE08D58",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.GIModule.dll",
+                       "expected":  "25FD5FEEE13FFB25A9E85C3BE914B42C7A11C10F75CEA60B0F00578E4744DF2B",
+                       "actual":  "25FD5FEEE13FFB25A9E85C3BE914B42C7A11C10F75CEA60B0F00578E4744DF2B",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.GraphicsStateCollectionSerializerModule.dll",
+                       "expected":  "8E6EDCDF791DBE2E0E39F860770C219D8D3632D920BEF539E08B9A6BF1476FB3",
+                       "actual":  "8E6EDCDF791DBE2E0E39F860770C219D8D3632D920BEF539E08B9A6BF1476FB3",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.GridModule.dll",
+                       "expected":  "A5F0AD1DED5B832409B8AAAC944B24049DAD8559586143EB47E283A792AC5C19",
+                       "actual":  "A5F0AD1DED5B832409B8AAAC944B24049DAD8559586143EB47E283A792AC5C19",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.HierarchyCoreModule.dll",
+                       "expected":  "4B3925C7AB1EBCD20180D16ADB7EA2BFEB0BA6DC251DB731F5B0D5AD0E6F4E3F",
+                       "actual":  "4B3925C7AB1EBCD20180D16ADB7EA2BFEB0BA6DC251DB731F5B0D5AD0E6F4E3F",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.HierarchyModule.dll",
+                       "expected":  "DF777449233A9A38CAC23BE146A2A6F24BABCC00BA3CCE93F97427585CA3E9FC",
+                       "actual":  "DF777449233A9A38CAC23BE146A2A6F24BABCC00BA3CCE93F97427585CA3E9FC",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.HotReloadModule.dll",
+                       "expected":  "627DA8B9AEC2E4A6AEFEFD0A45A640B7FD32B9807579DE9C311778A3432E20E6",
+                       "actual":  "627DA8B9AEC2E4A6AEFEFD0A45A640B7FD32B9807579DE9C311778A3432E20E6",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.IdentifiersModule.dll",
+                       "expected":  "80C05EFCF0D3806A36240E18EBE99037714BCE107DCDDFA5CEB5509E4A222366",
+                       "actual":  "80C05EFCF0D3806A36240E18EBE99037714BCE107DCDDFA5CEB5509E4A222366",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.ImageConversionModule.dll",
+                       "expected":  "3D196414C1A058F927A097D5FE7D979042FFB1BF32B25DA34DB61D903ADFE3B2",
+                       "actual":  "3D196414C1A058F927A097D5FE7D979042FFB1BF32B25DA34DB61D903ADFE3B2",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.IMGUIModule.dll",
+                       "expected":  "FDC1ABDDCECF5786C7C51B129C5AEA498654AB9D215C9F511783C6D5FD053ECD",
+                       "actual":  "FDC1ABDDCECF5786C7C51B129C5AEA498654AB9D215C9F511783C6D5FD053ECD",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.InputForUIModule.dll",
+                       "expected":  "31C9A134102E24CF994BC6BF46871A9EE6DD065F21B9FEADCDD9010CD0F7F419",
+                       "actual":  "31C9A134102E24CF994BC6BF46871A9EE6DD065F21B9FEADCDD9010CD0F7F419",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.InputLegacyModule.dll",
+                       "expected":  "B5E0A4E992599C49CB336E0696F691875F984D571CEB59CF45F981265E093844",
+                       "actual":  "B5E0A4E992599C49CB336E0696F691875F984D571CEB59CF45F981265E093844",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.InputModule.dll",
+                       "expected":  "F011868F24A0DF3D5984212B07BA9427F834E7E81AA93307748FB0A05AF2A181",
+                       "actual":  "F011868F24A0DF3D5984212B07BA9427F834E7E81AA93307748FB0A05AF2A181",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.InsightsModule.dll",
+                       "expected":  "E069F2CB540D21F7F040590C85B5D07C68C21CA03D89FC8529F697B4E146E5FD",
+                       "actual":  "E069F2CB540D21F7F040590C85B5D07C68C21CA03D89FC8529F697B4E146E5FD",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.JSONSerializeModule.dll",
+                       "expected":  "9A26F28D619756EA077557C2D946F64DDD3763E243270090684FD00BEB84F4D4",
+                       "actual":  "9A26F28D619756EA077557C2D946F64DDD3763E243270090684FD00BEB84F4D4",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.LocalizationModule.dll",
+                       "expected":  "A19F9BBED9F6C229648297F50E3E7D2A8A79958F761A7E4EC4CA0ABE92396C48",
+                       "actual":  "A19F9BBED9F6C229648297F50E3E7D2A8A79958F761A7E4EC4CA0ABE92396C48",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.MarshallingModule.dll",
+                       "expected":  "634DBB08ADCEF689FD1AF7B189FE3F1B9F7CA410B654FC67EB459D855B77417E",
+                       "actual":  "634DBB08ADCEF689FD1AF7B189FE3F1B9F7CA410B654FC67EB459D855B77417E",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.MathematicsModule.dll",
+                       "expected":  "574F922ABD1741D772E2BE8693BFFDAD844C1A622CC906A4FDC96AEA283375B9",
+                       "actual":  "574F922ABD1741D772E2BE8693BFFDAD844C1A622CC906A4FDC96AEA283375B9",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.MultiplayerModule.dll",
+                       "expected":  "A22002B95B79E5C236E48ABDE24049C19CE4B238C482F30CC32627C329D77480",
+                       "actual":  "A22002B95B79E5C236E48ABDE24049C19CE4B238C482F30CC32627C329D77480",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.NVIDIAModule.dll",
+                       "expected":  "7DF935B972C0C48DF0E64A499EC46C99972BC6C4956211CBB9A2AC0701F2D9F9",
+                       "actual":  "7DF935B972C0C48DF0E64A499EC46C99972BC6C4956211CBB9A2AC0701F2D9F9",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.ParticleSystemModule.dll",
+                       "expected":  "6B3F64A09FC1AFF08163AE41831D0AF0FC8E204EDA726604290749C3C5849972",
+                       "actual":  "6B3F64A09FC1AFF08163AE41831D0AF0FC8E204EDA726604290749C3C5849972",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.PerformanceReportingModule.dll",
+                       "expected":  "17AFC72EC2E69CD57F7FEDA73322036DE8ED70FB19AE2BE9ABB146493021A14E",
+                       "actual":  "17AFC72EC2E69CD57F7FEDA73322036DE8ED70FB19AE2BE9ABB146493021A14E",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.Physics2DModule.dll",
+                       "expected":  "1CE5AA769093EA2F7E105ECA4173BE1F57893A083E063227D55FCF4682B56669",
+                       "actual":  "1CE5AA769093EA2F7E105ECA4173BE1F57893A083E063227D55FCF4682B56669",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.PhysicsBackendPhysXModule.dll",
+                       "expected":  "E58013F9D5B4C98234E8081C721F72BD9788AF872BCD83F1BB1B7292F5BFF90C",
+                       "actual":  "E58013F9D5B4C98234E8081C721F72BD9788AF872BCD83F1BB1B7292F5BFF90C",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.PhysicsCore2DModule.dll",
+                       "expected":  "8A6328E94B1415A5FDBB24DC80BC27C3136234B535203AB526D88A6117A02361",
+                       "actual":  "8A6328E94B1415A5FDBB24DC80BC27C3136234B535203AB526D88A6117A02361",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.PhysicsModule.dll",
+                       "expected":  "8304935E5E691012705D0803DC5F9AF50CE776346B362584FA87B4E9560538EA",
+                       "actual":  "8304935E5E691012705D0803DC5F9AF50CE776346B362584FA87B4E9560538EA",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.PropertiesModule.dll",
+                       "expected":  "7AE0E78F7D23EDBC66B9AD19AEC3F8CBFF676916B5FF67A3F83D5F98553F1378",
+                       "actual":  "7AE0E78F7D23EDBC66B9AD19AEC3F8CBFF676916B5FF67A3F83D5F98553F1378",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.RenderAs2DModule.dll",
+                       "expected":  "B9A214F0D83DDD310B9D2F95C828B4A8B304AB50595C2A490A907958A861938C",
+                       "actual":  "B9A214F0D83DDD310B9D2F95C828B4A8B304AB50595C2A490A907958A861938C",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
+                       "expected":  "5CCB1F68FE4640F00F5504FA26684136BB3D4A640DD9871C9C1BC6BFC718071D",
+                       "actual":  "5CCB1F68FE4640F00F5504FA26684136BB3D4A640DD9871C9C1BC6BFC718071D",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.ScreenCaptureModule.dll",
+                       "expected":  "8A9619A5356B29D9218677F48FCEDDF9ECC64E1A76FF9C5A57642BD516123306",
+                       "actual":  "8A9619A5356B29D9218677F48FCEDDF9ECC64E1A76FF9C5A57642BD516123306",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.ScriptingModule.dll",
+                       "expected":  "B0A4E96536E9955D9017F380BFE0761DD039F0BFA2E31A192F52C935E665B4BD",
+                       "actual":  "B0A4E96536E9955D9017F380BFE0761DD039F0BFA2E31A192F52C935E665B4BD",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.ShaderVariantAnalyticsModule.dll",
+                       "expected":  "F45DF0E38CB43212D36C04CA5DBCFC1D9B06ED40B9919D61ECB13C09DE8A731A",
+                       "actual":  "F45DF0E38CB43212D36C04CA5DBCFC1D9B06ED40B9919D61ECB13C09DE8A731A",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+                       "expected":  "28FC15015127543E0DE81E393DE8E348FB8B264233B06FE9BD2E45306805F5C4",
+                       "actual":  "28FC15015127543E0DE81E393DE8E348FB8B264233B06FE9BD2E45306805F5C4",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.SpriteMaskModule.dll",
+                       "expected":  "D6FF7FA2655B89E58D7C72BA54199B189246047D9A692F0EBEA7453064F19839",
+                       "actual":  "D6FF7FA2655B89E58D7C72BA54199B189246047D9A692F0EBEA7453064F19839",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.SpriteShapeModule.dll",
+                       "expected":  "76EF045ACD9052C5073FBD5154DE26308DCD8DE81EF1592C1DF56AF87CA0EF82",
+                       "actual":  "76EF045ACD9052C5073FBD5154DE26308DCD8DE81EF1592C1DF56AF87CA0EF82",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.StreamingModule.dll",
+                       "expected":  "B6AD31CF283F8C90A73BC34EB6E797DE344970B8387EEC16E2B9A11DE031CAE5",
+                       "actual":  "B6AD31CF283F8C90A73BC34EB6E797DE344970B8387EEC16E2B9A11DE031CAE5",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.SubstanceModule.dll",
+                       "expected":  "653095446F89249F09331C6FD384B5AAB8B748707107ED7E317188C5BAADF187",
+                       "actual":  "653095446F89249F09331C6FD384B5AAB8B748707107ED7E317188C5BAADF187",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.SubsystemsModule.dll",
+                       "expected":  "8179BE3B63B43B0FA379C975CFD5571097B78EBA8DBA1CADFB9527ECC2C3D253",
+                       "actual":  "8179BE3B63B43B0FA379C975CFD5571097B78EBA8DBA1CADFB9527ECC2C3D253",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.TerrainModule.dll",
+                       "expected":  "47758974E742A3E7789B496254975EC044F3FFC2744AEDABEFCE0B9BEE11B408",
+                       "actual":  "47758974E742A3E7789B496254975EC044F3FFC2744AEDABEFCE0B9BEE11B408",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.TerrainPhysicsModule.dll",
+                       "expected":  "F4C3432C938FA1219B8E6AA8B4017AA2409A78A0F86EE1DDD5032729EF8EB1AF",
+                       "actual":  "F4C3432C938FA1219B8E6AA8B4017AA2409A78A0F86EE1DDD5032729EF8EB1AF",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.TextCoreFontEngineModule.dll",
+                       "expected":  "C6BB188ECE49244F4663E64074CBD5FEA0862ADAB17765607F1716F637F8C9ED",
+                       "actual":  "C6BB188ECE49244F4663E64074CBD5FEA0862ADAB17765607F1716F637F8C9ED",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.TextCoreTextEngineModule.dll",
+                       "expected":  "025C03413FE74D9EE62668A2D75133052C69D305026B99A4DA2B01ADD3894075",
+                       "actual":  "025C03413FE74D9EE62668A2D75133052C69D305026B99A4DA2B01ADD3894075",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.TextRenderingModule.dll",
+                       "expected":  "FD18E3E23CDEC8C9F878A521A46FECBB0F4C1573CB9EE31061268F58E0BF4371",
+                       "actual":  "FD18E3E23CDEC8C9F878A521A46FECBB0F4C1573CB9EE31061268F58E0BF4371",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.TilemapModule.dll",
+                       "expected":  "CF9C8135C9D26B28158057D7E394D66B26B05DFDCEAA1164C1EA43FFCA1F2314",
+                       "actual":  "CF9C8135C9D26B28158057D7E394D66B26B05DFDCEAA1164C1EA43FFCA1F2314",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.TLSModule.dll",
+                       "expected":  "50B5250F6C340905D1A3A439A9BC20B7353E08C8238E635BED2AA12867BB218C",
+                       "actual":  "50B5250F6C340905D1A3A439A9BC20B7353E08C8238E635BED2AA12867BB218C",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.U2DRuntimeModule.dll",
+                       "expected":  "4AD2F38B14A3CB47538468855F6791EEED77C3642D9437F75F4E3C26BA7D156F",
+                       "actual":  "4AD2F38B14A3CB47538468855F6791EEED77C3642D9437F75F4E3C26BA7D156F",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.UIElementsModule.dll",
+                       "expected":  "AB4A31AAA1DAED918AC9CDA5731A1A024EE51DFD4B127489AA4B3B92928FE1A3",
+                       "actual":  "AB4A31AAA1DAED918AC9CDA5731A1A024EE51DFD4B127489AA4B3B92928FE1A3",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.UIModule.dll",
+                       "expected":  "A65AE332E37DC180C2169C775704850979BF366A0D30798CF247AB0B75021548",
+                       "actual":  "A65AE332E37DC180C2169C775704850979BF366A0D30798CF247AB0B75021548",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.UmbraModule.dll",
+                       "expected":  "8A0A6AA45BBF59FFF02ABB7D51CB6B4BF5E622C7DF1A687E16762498937433BC",
+                       "actual":  "8A0A6AA45BBF59FFF02ABB7D51CB6B4BF5E622C7DF1A687E16762498937433BC",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.UnityAnalyticsCommonModule.dll",
+                       "expected":  "16C2F70F26A564F856B0CEA1915972ABCEE9B91DB6B7092056901B16C7CC2EE5",
+                       "actual":  "16C2F70F26A564F856B0CEA1915972ABCEE9B91DB6B7092056901B16C7CC2EE5",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.UnityAnalyticsModule.dll",
+                       "expected":  "9C037986706671D3B93B445D532686675CB2D207CA751C9769137447D8AFD622",
+                       "actual":  "9C037986706671D3B93B445D532686675CB2D207CA751C9769137447D8AFD622",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.UnityConnectModule.dll",
+                       "expected":  "46AA366B054AA340B97347F7FAD493E8C66AEEA922C2786B98E38DA1C33DE0F1",
+                       "actual":  "46AA366B054AA340B97347F7FAD493E8C66AEEA922C2786B98E38DA1C33DE0F1",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.UnityConsentModule.dll",
+                       "expected":  "12C30C7DE2BFB3C798B464CB3AE3884142BB258D869FDA95F2B24A39B358DD76",
+                       "actual":  "12C30C7DE2BFB3C798B464CB3AE3884142BB258D869FDA95F2B24A39B358DD76",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.UnityCurlModule.dll",
+                       "expected":  "2E236D4F52B1A94073F3A4AD4E69927773597B2BED84B59CD0EED695EF73E09D",
+                       "actual":  "2E236D4F52B1A94073F3A4AD4E69927773597B2BED84B59CD0EED695EF73E09D",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.UnityWebRequestAssetBundleModule.dll",
+                       "expected":  "6A49DEA9F163BD6D400BA8AA68737036CAA1A89AC9D98F4D585B7607AD1DD1C7",
+                       "actual":  "6A49DEA9F163BD6D400BA8AA68737036CAA1A89AC9D98F4D585B7607AD1DD1C7",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.UnityWebRequestAudioModule.dll",
+                       "expected":  "1119783850292B2BACD7D501495B93430948B0D90CD3067E3909B57A11837C1B",
+                       "actual":  "1119783850292B2BACD7D501495B93430948B0D90CD3067E3909B57A11837C1B",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.UnityWebRequestModule.dll",
+                       "expected":  "524F87E1464C9DE6A60AB1A11A4790C69F461F63B58BAF51CBA146A3C586C9AB",
+                       "actual":  "524F87E1464C9DE6A60AB1A11A4790C69F461F63B58BAF51CBA146A3C586C9AB",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.UnityWebRequestTextureModule.dll",
+                       "expected":  "4D21CF72272AC76834BFA076199A388C5D5DE1912DF41729781CEF9FC83429AF",
+                       "actual":  "4D21CF72272AC76834BFA076199A388C5D5DE1912DF41729781CEF9FC83429AF",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.UnityWebRequestWWWModule.dll",
+                       "expected":  "AD1EB834A4EFF342AF7FD417437BF8B14FDF055BF89D8A3F49B8F9A3B5F950A1",
+                       "actual":  "AD1EB834A4EFF342AF7FD417437BF8B14FDF055BF89D8A3F49B8F9A3B5F950A1",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.VectorGraphicsModule.dll",
+                       "expected":  "634EE65CBB312CD0AD4C2408CD1E40A16BB5DB00F313263BF4506E85078DA940",
+                       "actual":  "634EE65CBB312CD0AD4C2408CD1E40A16BB5DB00F313263BF4506E85078DA940",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.VehiclesModule.dll",
+                       "expected":  "0C283FB8103BD704C12366082E95AFB1D6BA3A54412E61FD002C74CC9396CF37",
+                       "actual":  "0C283FB8103BD704C12366082E95AFB1D6BA3A54412E61FD002C74CC9396CF37",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.VFXModule.dll",
+                       "expected":  "29E15A474B39084111FBC41B657E376CF5FE8CE67B89D0FB4C4C021EE927E08E",
+                       "actual":  "29E15A474B39084111FBC41B657E376CF5FE8CE67B89D0FB4C4C021EE927E08E",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.VideoModule.dll",
+                       "expected":  "25FF35882211D44AAD5A94ED306B9E2C1AD1BBFF134CB8B182F859EE5FD4551E",
+                       "actual":  "25FF35882211D44AAD5A94ED306B9E2C1AD1BBFF134CB8B182F859EE5FD4551E",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.VirtualTexturingModule.dll",
+                       "expected":  "603DFAD3C554CC381A0A8F6EE8DF86B63EAA6A19A4CFDE193C7782BFA0B07CED",
+                       "actual":  "603DFAD3C554CC381A0A8F6EE8DF86B63EAA6A19A4CFDE193C7782BFA0B07CED",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.WindModule.dll",
+                       "expected":  "66DCDE7129C4F807B7917EB6071302A7D159F7B061F29D6EF22D9476DAFF02ED",
+                       "actual":  "66DCDE7129C4F807B7917EB6071302A7D159F7B061F29D6EF22D9476DAFF02ED",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Managed\\UnityEngine.XRModule.dll",
+                       "expected":  "82F3423628CCFC083A3C9016F1232102BB9F94CAF64F2604D67942B1643990EF",
+                       "actual":  "82F3423628CCFC083A3C9016F1232102BB9F94CAF64F2604D67942B1643990EF",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Plugins\\x86_64\\lib_burst_generated.dll",
+                       "expected":  "3957EC2EADBC6A20B7D978D9B94CFE7D365C3E18AD5D1AD60A1F9AACDB8D0D43",
+                       "actual":  "3957EC2EADBC6A20B7D978D9B94CFE7D365C3E18AD5D1AD60A1F9AACDB8D0D43",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Resources\\unity default resources",
+                       "expected":  "1FBAFF511BDEC6CF276529DE02215FEE9FDCF7298EA9D7C49DC6B984EE73A7F5",
+                       "actual":  "1FBAFF511BDEC6CF276529DE02215FEE9FDCF7298EA9D7C49DC6B984EE73A7F5",
+                       "unchanged":  true
+                   },
+                   {
+                       "path":  "Unity\\Vesper\\Builds\\VesperPreview\\Vesper_Data\\Resources\\unity_builtin_extra",
+                       "expected":  "7F1E9AF9CB23F06C4E7CEB883325C1B6E39710ECEB2CD6E280288955867A113E",
+                       "actual":  "7F1E9AF9CB23F06C4E7CEB883325C1B6E39710ECEB2CD6E280288955867A113E",
+                       "unchanged":  true
+                   }
+               ]
+}

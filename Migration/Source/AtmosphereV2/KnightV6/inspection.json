@@ -1,0 +1,3099 @@
+[
+  {
+    "name": "Angular closed bascinet",
+    "type": "MESH",
+    "parent": "Head",
+    "location": [
+      0.0,
+      0.0,
+      0.12999999523162842
+    ],
+    "scale": [
+      0.14000000059604645,
+      0.13699999451637268,
+      0.1860000044107437
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": false,
+    "mesh": "Icosphere",
+    "vertices": 42,
+    "polygons": 80,
+    "triangles": 80,
+    "smooth": 0,
+    "materials": [
+      "Tempered steel blue grey"
+    ],
+    "modifiers": [],
+    "bounds": [
+      [
+        -0.9510578513145447,
+        0.9510578513145447
+      ],
+      [
+        -0.9999999403953552,
+        0.9999999403953552
+      ],
+      [
+        -1.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "name": "Brass belt buckle",
+    "type": "MESH",
+    "parent": "Torso",
+    "location": [
+      0.0,
+      -0.14000000059604645,
+      0.9150000214576721
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": false,
+    "mesh": "Cube.003",
+    "vertices": 24,
+    "polygons": 26,
+    "triangles": 44,
+    "smooth": 0,
+    "materials": [
+      "Antique brass fasteners"
+    ],
+    "modifiers": [],
+    "bounds": [
+      [
+        -0.032499998807907104,
+        0.032499998807907104
+      ],
+      [
+        -0.010999999940395355,
+        0.010999999940395355
+      ],
+      [
+        -0.03449999913573265,
+        0.03449999913573265
+      ]
+    ]
+  },
+  {
+    "name": "Breather -1 0",
+    "type": "MESH",
+    "parent": "Head",
+    "location": [
+      -0.04800000041723251,
+      -0.14499999582767487,
+      0.054999999701976776
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": false,
+    "mesh": "Cube.013",
+    "vertices": 24,
+    "polygons": 26,
+    "triangles": 44,
+    "smooth": 0,
+    "materials": [
+      "Visor darkness"
+    ],
+    "modifiers": [],
+    "bounds": [
+      [
+        -0.0044999998062849045,
+        0.0044999998062849045
+      ],
+      [
+        -0.0044999998062849045,
+        0.0044999998062849045
+      ],
+      [
+        -0.013500000350177288,
+        0.013500000350177288
+      ]
+    ]
+  },
+  {
+    "name": "Breather -1 1",
+    "type": "MESH",
+    "parent": "Head",
+    "location": [
+      -0.06599999964237213,
+      -0.14100000262260437,
+      0.054999999701976776
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": false,
+    "mesh": "Cube.014",
+    "vertices": 24,
+    "polygons": 26,
+    "triangles": 44,
+    "smooth": 0,
+    "materials": [
+      "Visor darkness"
+    ],
+    "modifiers": [],
+    "bounds": [
+      [
+        -0.0044999998062849045,
+        0.0044999998062849045
+      ],
+      [
+        -0.0044999998062849045,
+        0.0044999998062849045
+      ],
+      [
+        -0.013500000350177288,
+        0.013500000350177288
+      ]
+    ]
+  },
+  {
+    "name": "Breather -1 2",
+    "type": "MESH",
+    "parent": "Head",
+    "location": [
+      -0.08399999886751175,
+      -0.13699999451637268,
+      0.054999999701976776
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": false,
+    "mesh": "Cube.015",
+    "vertices": 24,
+    "polygons": 26,
+    "triangles": 44,
+    "smooth": 0,
+    "materials": [
+      "Visor darkness"
+    ],
+    "modifiers": [],
+    "bounds": [
+      [
+        -0.0044999998062849045,
+        0.0044999998062849045
+      ],
+      [
+        -0.0044999998062849045,
+        0.0044999998062849045
+      ],
+      [
+        -0.013500000350177288,
+        0.013500000350177288
+      ]
+    ]
+  },
+  {
+    "name": "Breather 1 0",
+    "type": "MESH",
+    "parent": "Head",
+    "location": [
+      0.04800000041723251,
+      -0.14499999582767487,
+      0.054999999701976776
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": false,
+    "mesh": "Cube.016",
+    "vertices": 24,
+    "polygons": 26,
+    "triangles": 44,
+    "smooth": 0,
+    "materials": [
+      "Visor darkness"
+    ],
+    "modifiers": [],
+    "bounds": [
+      [
+        -0.0044999998062849045,
+        0.0044999998062849045
+      ],
+      [
+        -0.0044999998062849045,
+        0.0044999998062849045
+      ],
+      [
+        -0.013500000350177288,
+        0.013500000350177288
+      ]
+    ]
+  },
+  {
+    "name": "Breather 1 1",
+    "type": "MESH",
+    "parent": "Head",
+    "location": [
+      0.06599999964237213,
+      -0.14100000262260437,
+      0.054999999701976776
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": false,
+    "mesh": "Cube.017",
+    "vertices": 24,
+    "polygons": 26,
+    "triangles": 44,
+    "smooth": 0,
+    "materials": [
+      "Visor darkness"
+    ],
+    "modifiers": [],
+    "bounds": [
+      [
+        -0.0044999998062849045,
+        0.0044999998062849045
+      ],
+      [
+        -0.0044999998062849045,
+        0.0044999998062849045
+      ],
+      [
+        -0.013500000350177288,
+        0.013500000350177288
+      ]
+    ]
+  },
+  {
+    "name": "Breather 1 2",
+    "type": "MESH",
+    "parent": "Head",
+    "location": [
+      0.08399999886751175,
+      -0.13699999451637268,
+      0.054999999701976776
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": false,
+    "mesh": "Cube.018",
+    "vertices": 24,
+    "polygons": 26,
+    "triangles": 44,
+    "smooth": 0,
+    "materials": [
+      "Visor darkness"
+    ],
+    "modifiers": [],
+    "bounds": [
+      [
+        -0.0044999998062849045,
+        0.0044999998062849045
+      ],
+      [
+        -0.0044999998062849045,
+        0.0044999998062849045
+      ],
+      [
+        -0.013500000350177288,
+        0.013500000350177288
+      ]
+    ]
+  },
+  {
+    "name": "Cape",
+    "type": "EMPTY",
+    "parent": "KnightRoot",
+    "location": [
+      0.0,
+      0.11999999731779099,
+      1.309999942779541
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": false
+  },
+  {
+    "name": "Cape clasp -1",
+    "type": "MESH",
+    "parent": "Torso",
+    "location": [
+      -0.1599999964237213,
+      -0.03999999910593033,
+      1.284999966621399
+    ],
+    "scale": [
+      0.02500000037252903,
+      0.01899999938905239,
+      0.02500000037252903
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": false,
+    "mesh": "Icosphere.010",
+    "vertices": 12,
+    "polygons": 20,
+    "triangles": 20,
+    "smooth": 0,
+    "materials": [
+      "Antique brass fasteners"
+    ],
+    "modifiers": [],
+    "bounds": [
+      [
+        -0.8944249749183655,
+        0.8944249749183655
+      ],
+      [
+        -0.8506399989128113,
+        0.8506399989128113
+      ],
+      [
+        -1.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "name": "Cape clasp 1",
+    "type": "MESH",
+    "parent": "Torso",
+    "location": [
+      0.1599999964237213,
+      -0.03999999910593033,
+      1.284999966621399
+    ],
+    "scale": [
+      0.02500000037252903,
+      0.01899999938905239,
+      0.02500000037252903
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": false,
+    "mesh": "Icosphere.011",
+    "vertices": 12,
+    "polygons": 20,
+    "triangles": 20,
+    "smooth": 0,
+    "materials": [
+      "Antique brass fasteners"
+    ],
+    "modifiers": [],
+    "bounds": [
+      [
+        -0.8944249749183655,
+        0.8944249749183655
+      ],
+      [
+        -0.8506399989128113,
+        0.8506399989128113
+      ],
+      [
+        -1.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "name": "Dark eye slit",
+    "type": "MESH",
+    "parent": "Head",
+    "location": [
+      0.0,
+      -0.13899999856948853,
+      0.13899999856948853
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": false,
+    "mesh": "Cube.011",
+    "vertices": 24,
+    "polygons": 26,
+    "triangles": 44,
+    "smooth": 0,
+    "materials": [
+      "Visor darkness"
+    ],
+    "modifiers": [],
+    "bounds": [
+      [
+        -0.10400000214576721,
+        0.10400000214576721
+      ],
+      [
+        -0.006000000052154064,
+        0.006000000052154064
+      ],
+      [
+        -0.012500000186264515,
+        0.012500000186264515
+      ]
+    ]
+  },
+  {
+    "name": "Double edged sword blade",
+    "type": "MESH",
+    "parent": "Sword",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": false,
+    "mesh": "Double edged sword blade",
+    "vertices": 9,
+    "polygons": 8,
+    "triangles": 12,
+    "smooth": 0,
+    "materials": [
+      "Polished forged edges"
+    ],
+    "modifiers": [],
+    "bounds": [
+      [
+        -0.03500000014901161,
+        0.03500000014901161
+      ],
+      [
+        -0.012000000104308128,
+        0.012000000104308128
+      ],
+      [
+        -0.7200000286102295,
+        -0.09000000357627869
+      ]
+    ]
+  },
+  {
+    "name": "Gorget collar",
+    "type": "MESH",
+    "parent": "Torso",
+    "location": [
+      0.0,
+      0.0,
+      1.340000033378601
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": false,
+    "mesh": "Cube.001",
+    "vertices": 24,
+    "polygons": 26,
+    "triangles": 44,
+    "smooth": 0,
+    "materials": [
+      "Polished forged edges"
+    ],
+    "modifiers": [],
+    "bounds": [
+      [
+        -0.12999999523162842,
+        0.12999999523162842
+      ],
+      [
+        -0.10499999672174454,
+        0.10499999672174454
+      ],
+      [
+        -0.05249999836087227,
+        0.05249999836087227
+      ]
+    ]
+  },
+  {
+    "name": "Head",
+    "type": "EMPTY",
+    "parent": "KnightRoot",
+    "location": [
+      0.0,
+      0.0,
+      1.3899999856948853
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": false
+  },
+  {
+    "name": "Heavy folded crimson cape",
+    "type": "MESH",
+    "parent": "Cape",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": false,
+    "mesh": "Heavy cape v5 baked cloth",
+    "vertices": 3870,
+    "polygons": 3868,
+    "triangles": 7736,
+    "smooth": 3868,
+    "materials": [
+      "Worn crimson wool",
+      "Crimson fold edges",
+      "Crimson fold shadows"
+    ],
+    "modifiers": [],
+    "bounds": [
+      [
+        -0.32137808203697205,
+        0.3924098312854767
+      ],
+      [
+        0.019619986414909363,
+        0.47465240955352783
+      ],
+      [
+        -0.9764831066131592,
+        0.0013137066271156073
+      ]
+    ]
+  },
+  {
+    "name": "Helmet brow",
+    "type": "MESH",
+    "parent": "Head",
+    "location": [
+      0.0,
+      -0.11800000071525574,
+      0.17000000178813934
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": false,
+    "mesh": "Cube.010",
+    "vertices": 24,
+    "polygons": 26,
+    "triangles": 44,
+    "smooth": 0,
+    "materials": [
+      "Polished forged edges"
+    ],
+    "modifiers": [],
+    "bounds": [
+      [
+        -0.12849999964237213,
+        0.12849999964237213
+      ],
+      [
+        -0.023499999195337296,
+        0.023499999195337296
+      ],
+      [
+        -0.017000000923871994,
+        0.017000000923871994
+      ]
+    ]
+  },
+  {
+    "name": "KnightRoot",
+    "type": "EMPTY",
+    "parent": null,
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": false
+  },
+  {
+    "name": "Leather sword grip",
+    "type": "MESH",
+    "parent": "Sword",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": false,
+    "mesh": "Leather sword grip",
+    "vertices": 16,
+    "polygons": 10,
+    "triangles": 28,
+    "smooth": 0,
+    "materials": [
+      "Aged leather straps"
+    ],
+    "modifiers": [],
+    "bounds": [
+      [
+        -0.02277548238635063,
+        0.02316502295434475
+      ],
+      [
+        -0.023030735552310944,
+        0.02328570932149887
+      ],
+      [
+        -0.07500000298023224,
+        0.07500000298023224
+      ]
+    ]
+  },
+  {
+    "name": "Left cuisse",
+    "type": "MESH",
+    "parent": "LeftLeg",
+    "location": [
+      0.0,
+      -0.06499999761581421,
+      -0.125
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": false,
+    "mesh": "Cube.020",
+    "vertices": 24,
+    "polygons": 26,
+    "triangles": 44,
+    "smooth": 0,
+    "materials": [
+      "Tempered steel blue grey"
+    ],
+    "modifiers": [],
+    "bounds": [
+      [
+        -0.08100000023841858,
+        0.08100000023841858
+      ],
+      [
+        -0.04600000008940697,
+        0.04600000008940697
+      ],
+      [
+        -0.13750000298023224,
+        0.13750000298023224
+      ]
+    ]
+  },
+  {
+    "name": "Left elbow",
+    "type": "MESH",
+    "parent": "LeftArm",
+    "location": [
+      -0.054999999701976776,
+      -0.004999999888241291,
+      -0.296999990940094
+    ],
+    "scale": [
+      0.08500000089406967,
+      0.0949999988079071,
+      0.07500000298023224
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": false,
+    "mesh": "Icosphere.005",
+    "vertices": 12,
+    "polygons": 20,
+    "triangles": 20,
+    "smooth": 0,
+    "materials": [
+      "Polished forged edges"
+    ],
+    "modifiers": [],
+    "bounds": [
+      [
+        -0.8944249749183655,
+        0.8944249749183655
+      ],
+      [
+        -0.8506399989128113,
+        0.8506399989128113
+      ],
+      [
+        -1.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "name": "Left finger plate 0",
+    "type": "MESH",
+    "parent": "LeftArm",
+    "location": [
+      -0.05900000035762787,
+      -0.1120000034570694,
+      -0.4749999940395355
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": false,
+    "mesh": "Cube.031",
+    "vertices": 24,
+    "polygons": 26,
+    "triangles": 44,
+    "smooth": 0,
+    "materials": [
+      "Polished forged edges"
+    ],
+    "modifiers": [],
+    "bounds": [
+      [
+        -0.05249999836087227,
+        0.05249999836087227
+      ],
+      [
+        -0.012500000186264515,
+        0.012500000186264515
+      ],
+      [
+        -0.00800000037997961,
+        0.00800000037997961
+      ]
+    ]
+  },
+  {
+    "name": "Left finger plate 1",
+    "type": "MESH",
+    "parent": "LeftArm",
+    "location": [
+      -0.05900000035762787,
+      -0.1120000034570694,
+      -0.4959999918937683
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": false,
+    "mesh": "Cube.032",
+    "vertices": 24,
+    "polygons": 26,
+    "triangles": 44,
+    "smooth": 0,
+    "materials": [
+      "Polished forged edges"
+    ],
+    "modifiers": [],
+    "bounds": [
+      [
+        -0.05249999836087227,
+        0.05249999836087227
+      ],
+      [
+        -0.012500000186264515,
+        0.012500000186264515
+      ],
+      [
+        -0.00800000037997961,
+        0.00800000037997961
+      ]
+    ]
+  },
+  {
+    "name": "Left finger plate 2",
+    "type": "MESH",
+    "parent": "LeftArm",
+    "location": [
+      -0.05900000035762787,
+      -0.1120000034570694,
+      -0.5170000195503235
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": false,
+    "mesh": "Cube.033",
+    "vertices": 24,
+    "polygons": 26,
+    "triangles": 44,
+    "smooth": 0,
+    "materials": [
+      "Polished forged edges"
+    ],
+    "modifiers": [],
+    "bounds": [
+      [
+        -0.05249999836087227,
+        0.05249999836087227
+      ],
+      [
+        -0.012500000186264515,
+        0.012500000186264515
+      ],
+      [
+        -0.00800000037997961,
+        0.00800000037997961
+      ]
+    ]
+  },
+  {
+    "name": "Left gauntlet",
+    "type": "MESH",
+    "parent": "LeftArm",
+    "location": [
+      -0.05900000035762787,
+      -0.04500000178813934,
+      -0.5
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": false,
+    "mesh": "Cube.030",
+    "vertices": 24,
+    "polygons": 26,
+    "triangles": 44,
+    "smooth": 0,
+    "materials": [
+      "Tempered steel blue grey"
+    ],
+    "modifiers": [],
+    "bounds": [
+      [
+        -0.05950000137090683,
+        0.05950000137090683
+      ],
+      [
+        -0.0625,
+        0.0625
+      ],
+      [
+        -0.045499999076128006,
+        0.045499999076128006
+      ]
+    ]
+  },
+  {
+    "name": "Left knee",
+    "type": "MESH",
+    "parent": "LeftLeg",
+    "location": [
+      0.0,
+      -0.07100000232458115,
+      -0.31700000166893005
+    ],
+    "scale": [
+      0.10999999940395355,
+      0.10000000149011612,
+      0.09200000017881393
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": false,
+    "mesh": "Icosphere.003",
+    "vertices": 12,
+    "polygons": 20,
+    "triangles": 20,
+    "smooth": 0,
+    "materials": [
+      "Polished forged edges"
+    ],
+    "modifiers": [],
+    "bounds": [
+      [
+        -0.8944249749183655,
+        0.8944249749183655
+      ],
+      [
+        -0.8506399989128113,
+        0.8506399989128113
+      ],
+      [
+        -1.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "name": "Left padded thigh",
+    "type": "MESH",
+    "parent": "LeftLeg",
+    "location": [
+      0.0,
+      0.004999999888241291,
+      -0.1599999964237213
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": false,
+    "mesh": "Cube.019",
+    "vertices": 24,
+    "polygons": 26,
+    "triangles": 44,
+    "smooth": 0,
+    "materials": [
+      "Blackened chain mail"
+    ],
+    "modifiers": [],
+    "bounds": [
+      [
+        -0.07249999791383743,
+        0.07249999791383743
+      ],
+      [
+        -0.07999999821186066,
+        0.07999999821186066
+      ],
+      [
+        -0.14000000059604645,
+        0.14000000059604645
+      ]
+    ]
+  },
+  {
+    "name": "Left pauldron rim",
+    "type": "MESH",
+    "parent": "LeftArm",
+    "location": [
+      -0.04699999839067459,
+      -0.10499999672174454,
+      -0.039000000804662704
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": true,
+    "mesh": "Cube.026",
+    "vertices": 24,
+    "polygons": 26,
+    "triangles": 44,
+    "smooth": 0,
+    "materials": [
+      "Polished forged edges"
+    ],
+    "modifiers": [],
+    "bounds": [
+      [
+        -0.10849999636411667,
+        0.10849999636411667
+      ],
+      [
+        -0.017500000074505806,
+        0.017500000074505806
+      ],
+      [
+        -0.0215000007301569,
+        0.0215000007301569
+      ]
+    ]
+  },
+  {
+    "name": "Left rerebrace",
+    "type": "MESH",
+    "parent": "LeftArm",
+    "location": [
+      -0.04699999839067459,
+      -0.04500000178813934,
+      -0.14300000667572021
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": false,
+    "mesh": "Cube.028",
+    "vertices": 24,
+    "polygons": 26,
+    "triangles": 44,
+    "smooth": 0,
+    "materials": [
+      "Tempered steel blue grey"
+    ],
+    "modifiers": [],
+    "bounds": [
+      [
+        -0.06549999862909317,
+        0.06549999862909317
+      ],
+      [
+        -0.05999999865889549,
+        0.05999999865889549
+      ],
+      [
+        -0.08500000089406967,
+        0.08500000089406967
+      ]
+    ]
+  },
+  {
+    "name": "Left sabaton",
+    "type": "MESH",
+    "parent": "LeftLeg",
+    "location": [
+      0.0,
+      -0.06499999761581421,
+      -0.703000009059906
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": false,
+    "mesh": "Cube.022",
+    "vertices": 24,
+    "polygons": 26,
+    "triangles": 44,
+    "smooth": 0,
+    "materials": [
+      "Tempered steel blue grey"
+    ],
+    "modifiers": [],
+    "bounds": [
+      [
+        -0.07850000262260437,
+        0.07850000262260437
+      ],
+      [
+        -0.13899999856948853,
+        0.13899999856948853
+      ],
+      [
+        -0.05649999901652336,
+        0.05649999901652336
+      ]
+    ]
+  },
+  {
+    "name": "Left sabaton ridge 0",
+    "type": "MESH",
+    "parent": "LeftLeg",
+    "location": [
+      0.0,
+      -0.04500000178813934,
+      -0.6520000100135803
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": false,
+    "mesh": "Cube.023",
+    "vertices": 24,
+    "polygons": 26,
+    "triangles": 44,
+    "smooth": 0,
+    "materials": [
+      "Polished forged edges"
+    ],
+    "modifiers": [],
+    "bounds": [
+      [
+        -0.07599999755620956,
+        0.07599999755620956
+      ],
+      [
+        -0.007000000216066837,
+        0.007000000216066837
+      ],
+      [
+        -0.0044999998062849045,
+        0.0044999998062849045
+      ]
+    ]
+  },
+  {
+    "name": "Left sabaton ridge 1",
+    "type": "MESH",
+    "parent": "LeftLeg",
+    "location": [
+      0.0,
+      -0.10000000149011612,
+      -0.6520000100135803
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": false,
+    "mesh": "Cube.024",
+    "vertices": 24,
+    "polygons": 26,
+    "triangles": 44,
+    "smooth": 0,
+    "materials": [
+      "Polished forged edges"
+    ],
+    "modifiers": [],
+    "bounds": [
+      [
+        -0.07599999755620956,
+        0.07599999755620956
+      ],
+      [
+        -0.007000000216066837,
+        0.007000000216066837
+      ],
+      [
+        -0.0044999998062849045,
+        0.0044999998062849045
+      ]
+    ]
+  },
+  {
+    "name": "Left sabaton ridge 2",
+    "type": "MESH",
+    "parent": "LeftLeg",
+    "location": [
+      0.0,
+      -0.1550000011920929,
+      -0.6520000100135803
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": false,
+    "mesh": "Cube.025",
+    "vertices": 24,
+    "polygons": 26,
+    "triangles": 44,
+    "smooth": 0,
+    "materials": [
+      "Polished forged edges"
+    ],
+    "modifiers": [],
+    "bounds": [
+      [
+        -0.07599999755620956,
+        0.07599999755620956
+      ],
+      [
+        -0.007000000216066837,
+        0.007000000216066837
+      ],
+      [
+        -0.0044999998062849045,
+        0.0044999998062849045
+      ]
+    ]
+  },
+  {
+    "name": "Left shaped greave",
+    "type": "MESH",
+    "parent": "LeftLeg",
+    "location": [
+      0.0,
+      -0.01600000075995922,
+      -0.49300000071525574
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation": [
+      -0.03999999910593033,
+      0.0,
+      0.0
+    ],
+    "hidden": false,
+    "mesh": "Cube.021",
+    "vertices": 24,
+    "polygons": 26,
+    "triangles": 44,
+    "smooth": 0,
+    "materials": [
+      "Tempered steel blue grey"
+    ],
+    "modifiers": [],
+    "bounds": [
+      [
+        -0.07349999994039536,
+        0.07349999994039536
+      ],
+      [
+        -0.08299999684095383,
+        0.08299999684095383
+      ],
+      [
+        -0.13750000298023224,
+        0.13750000298023224
+      ]
+    ]
+  },
+  {
+    "name": "Left shoulder pauldron",
+    "type": "MESH",
+    "parent": "LeftArm",
+    "location": [
+      -0.027000000700354576,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.17000000178813934,
+      0.18000000715255737,
+      0.13500000536441803
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": false,
+    "mesh": "Icosphere.004 rounded v2 plate-v3 plate-v3",
+    "vertices": 2048,
+    "polygons": 1986,
+    "triangles": 4092,
+    "smooth": 1986,
+    "materials": [
+      "Tempered steel blue grey",
+      "Polished forged edges"
+    ],
+    "modifiers": [],
+    "bounds": [
+      [
+        -0.8638226985931396,
+        0.8638226985931396
+      ],
+      [
+        -0.829444408416748,
+        0.829444408416748
+      ],
+      [
+        -0.3552594482898712,
+        0.5269412398338318
+      ]
+    ]
+  },
+  {
+    "name": "Left upper arm",
+    "type": "MESH",
+    "parent": "LeftArm",
+    "location": [
+      -0.04399999976158142,
+      0.0,
+      -0.17499999701976776
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": false,
+    "mesh": "Cube.027",
+    "vertices": 24,
+    "polygons": 26,
+    "triangles": 44,
+    "smooth": 0,
+    "materials": [
+      "Blackened chain mail"
+    ],
+    "modifiers": [],
+    "bounds": [
+      [
+        -0.0625,
+        0.0625
+      ],
+      [
+        -0.07500000298023224,
+        0.07500000298023224
+      ],
+      [
+        -0.10249999910593033,
+        0.10249999910593033
+      ]
+    ]
+  },
+  {
+    "name": "Left vambrace",
+    "type": "MESH",
+    "parent": "LeftArm",
+    "location": [
+      -0.057999998331069946,
+      -0.02500000037252903,
+      -0.382999986410141
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": false,
+    "mesh": "Cube.029",
+    "vertices": 24,
+    "polygons": 26,
+    "triangles": 44,
+    "smooth": 0,
+    "materials": [
+      "Tempered steel blue grey"
+    ],
+    "modifiers": [],
+    "bounds": [
+      [
+        -0.05999999865889549,
+        0.05999999865889549
+      ],
+      [
+        -0.07500000298023224,
+        0.07500000298023224
+      ],
+      [
+        -0.08299999684095383,
+        0.08299999684095383
+      ]
+    ]
+  },
+  {
+    "name": "LeftArm",
+    "type": "EMPTY",
+    "parent": "KnightRoot",
+    "location": [
+      -0.26499998569488525,
+      0.0,
+      1.2200000286102295
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": false
+  },
+  {
+    "name": "LeftLeg",
+    "type": "EMPTY",
+    "parent": "KnightRoot",
+    "location": [
+      -0.11500000208616257,
+      0.0,
+      0.7599999904632568
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": false
+  },
+  {
+    "name": "Ridged breastplate",
+    "type": "MESH",
+    "parent": "Torso",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": false,
+    "mesh": "Ridged breastplate",
+    "vertices": 20,
+    "polygons": 17,
+    "triangles": 36,
+    "smooth": 0,
+    "materials": [
+      "Tempered steel blue grey"
+    ],
+    "modifiers": [],
+    "bounds": [
+      [
+        -0.22499999403953552,
+        0.22499999403953552
+      ],
+      [
+        -0.1550000011920929,
+        0.11999999731779099
+      ],
+      [
+        0.8700000047683716,
+        1.3200000524520874
+      ]
+    ]
+  },
+  {
+    "name": "Right cuisse",
+    "type": "MESH",
+    "parent": "RightLeg",
+    "location": [
+      0.0,
+      -0.06499999761581421,
+      -0.125
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": false,
+    "mesh": "Cube.035",
+    "vertices": 24,
+    "polygons": 26,
+    "triangles": 44,
+    "smooth": 0,
+    "materials": [
+      "Tempered steel blue grey"
+    ],
+    "modifiers": [],
+    "bounds": [
+      [
+        -0.08100000023841858,
+        0.08100000023841858
+      ],
+      [
+        -0.04600000008940697,
+        0.04600000008940697
+      ],
+      [
+        -0.13750000298023224,
+        0.13750000298023224
+      ]
+    ]
+  },
+  {
+    "name": "Right elbow",
+    "type": "MESH",
+    "parent": "RightArm",
+    "location": [
+      0.054999999701976776,
+      -0.004999999888241291,
+      -0.296999990940094
+    ],
+    "scale": [
+      0.08500000089406967,
+      0.0949999988079071,
+      0.07500000298023224
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": false,
+    "mesh": "Icosphere.008",
+    "vertices": 12,
+    "polygons": 20,
+    "triangles": 20,
+    "smooth": 0,
+    "materials": [
+      "Polished forged edges"
+    ],
+    "modifiers": [],
+    "bounds": [
+      [
+        -0.8944249749183655,
+        0.8944249749183655
+      ],
+      [
+        -0.8506399989128113,
+        0.8506399989128113
+      ],
+      [
+        -1.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "name": "Right finger plate 0",
+    "type": "MESH",
+    "parent": "RightArm",
+    "location": [
+      0.05900000035762787,
+      -0.1120000034570694,
+      -0.4749999940395355
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": false,
+    "mesh": "Cube.046",
+    "vertices": 24,
+    "polygons": 26,
+    "triangles": 44,
+    "smooth": 0,
+    "materials": [
+      "Polished forged edges"
+    ],
+    "modifiers": [],
+    "bounds": [
+      [
+        -0.05249999836087227,
+        0.05249999836087227
+      ],
+      [
+        -0.012500000186264515,
+        0.012500000186264515
+      ],
+      [
+        -0.00800000037997961,
+        0.00800000037997961
+      ]
+    ]
+  },
+  {
+    "name": "Right finger plate 1",
+    "type": "MESH",
+    "parent": "RightArm",
+    "location": [
+      0.05900000035762787,
+      -0.1120000034570694,
+      -0.4959999918937683
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": false,
+    "mesh": "Cube.047",
+    "vertices": 24,
+    "polygons": 26,
+    "triangles": 44,
+    "smooth": 0,
+    "materials": [
+      "Polished forged edges"
+    ],
+    "modifiers": [],
+    "bounds": [
+      [
+        -0.05249999836087227,
+        0.05249999836087227
+      ],
+      [
+        -0.012500000186264515,
+        0.012500000186264515
+      ],
+      [
+        -0.00800000037997961,
+        0.00800000037997961
+      ]
+    ]
+  },
+  {
+    "name": "Right finger plate 2",
+    "type": "MESH",
+    "parent": "RightArm",
+    "location": [
+      0.05900000035762787,
+      -0.1120000034570694,
+      -0.5170000195503235
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": false,
+    "mesh": "Cube.048",
+    "vertices": 24,
+    "polygons": 26,
+    "triangles": 44,
+    "smooth": 0,
+    "materials": [
+      "Polished forged edges"
+    ],
+    "modifiers": [],
+    "bounds": [
+      [
+        -0.05249999836087227,
+        0.05249999836087227
+      ],
+      [
+        -0.012500000186264515,
+        0.012500000186264515
+      ],
+      [
+        -0.00800000037997961,
+        0.00800000037997961
+      ]
+    ]
+  },
+  {
+    "name": "Right gauntlet",
+    "type": "MESH",
+    "parent": "RightArm",
+    "location": [
+      0.05900000035762787,
+      -0.04500000178813934,
+      -0.5
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": false,
+    "mesh": "Cube.045",
+    "vertices": 24,
+    "polygons": 26,
+    "triangles": 44,
+    "smooth": 0,
+    "materials": [
+      "Tempered steel blue grey"
+    ],
+    "modifiers": [],
+    "bounds": [
+      [
+        -0.05950000137090683,
+        0.05950000137090683
+      ],
+      [
+        -0.0625,
+        0.0625
+      ],
+      [
+        -0.045499999076128006,
+        0.045499999076128006
+      ]
+    ]
+  },
+  {
+    "name": "Right knee",
+    "type": "MESH",
+    "parent": "RightLeg",
+    "location": [
+      0.0,
+      -0.07100000232458115,
+      -0.31700000166893005
+    ],
+    "scale": [
+      0.10999999940395355,
+      0.10000000149011612,
+      0.09200000017881393
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": false,
+    "mesh": "Icosphere.006",
+    "vertices": 12,
+    "polygons": 20,
+    "triangles": 20,
+    "smooth": 0,
+    "materials": [
+      "Polished forged edges"
+    ],
+    "modifiers": [],
+    "bounds": [
+      [
+        -0.8944249749183655,
+        0.8944249749183655
+      ],
+      [
+        -0.8506399989128113,
+        0.8506399989128113
+      ],
+      [
+        -1.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "name": "Right padded thigh",
+    "type": "MESH",
+    "parent": "RightLeg",
+    "location": [
+      0.0,
+      0.004999999888241291,
+      -0.1599999964237213
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": false,
+    "mesh": "Cube.034",
+    "vertices": 24,
+    "polygons": 26,
+    "triangles": 44,
+    "smooth": 0,
+    "materials": [
+      "Blackened chain mail"
+    ],
+    "modifiers": [],
+    "bounds": [
+      [
+        -0.07249999791383743,
+        0.07249999791383743
+      ],
+      [
+        -0.07999999821186066,
+        0.07999999821186066
+      ],
+      [
+        -0.14000000059604645,
+        0.14000000059604645
+      ]
+    ]
+  },
+  {
+    "name": "Right pauldron rim",
+    "type": "MESH",
+    "parent": "RightArm",
+    "location": [
+      0.04699999839067459,
+      -0.10499999672174454,
+      -0.039000000804662704
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": true,
+    "mesh": "Cube.041",
+    "vertices": 24,
+    "polygons": 26,
+    "triangles": 44,
+    "smooth": 0,
+    "materials": [
+      "Polished forged edges"
+    ],
+    "modifiers": [],
+    "bounds": [
+      [
+        -0.10849999636411667,
+        0.10849999636411667
+      ],
+      [
+        -0.017500000074505806,
+        0.017500000074505806
+      ],
+      [
+        -0.0215000007301569,
+        0.0215000007301569
+      ]
+    ]
+  },
+  {
+    "name": "Right rerebrace",
+    "type": "MESH",
+    "parent": "RightArm",
+    "location": [
+      0.04699999839067459,
+      -0.04500000178813934,
+      -0.14300000667572021
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": false,
+    "mesh": "Cube.043",
+    "vertices": 24,
+    "polygons": 26,
+    "triangles": 44,
+    "smooth": 0,
+    "materials": [
+      "Tempered steel blue grey"
+    ],
+    "modifiers": [],
+    "bounds": [
+      [
+        -0.06549999862909317,
+        0.06549999862909317
+      ],
+      [
+        -0.05999999865889549,
+        0.05999999865889549
+      ],
+      [
+        -0.08500000089406967,
+        0.08500000089406967
+      ]
+    ]
+  },
+  {
+    "name": "Right sabaton",
+    "type": "MESH",
+    "parent": "RightLeg",
+    "location": [
+      0.0,
+      -0.06499999761581421,
+      -0.703000009059906
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": false,
+    "mesh": "Cube.037",
+    "vertices": 24,
+    "polygons": 26,
+    "triangles": 44,
+    "smooth": 0,
+    "materials": [
+      "Tempered steel blue grey"
+    ],
+    "modifiers": [],
+    "bounds": [
+      [
+        -0.07850000262260437,
+        0.07850000262260437
+      ],
+      [
+        -0.13899999856948853,
+        0.13899999856948853
+      ],
+      [
+        -0.05649999901652336,
+        0.05649999901652336
+      ]
+    ]
+  },
+  {
+    "name": "Right sabaton ridge 0",
+    "type": "MESH",
+    "parent": "RightLeg",
+    "location": [
+      0.0,
+      -0.04500000178813934,
+      -0.6520000100135803
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": false,
+    "mesh": "Cube.038",
+    "vertices": 24,
+    "polygons": 26,
+    "triangles": 44,
+    "smooth": 0,
+    "materials": [
+      "Polished forged edges"
+    ],
+    "modifiers": [],
+    "bounds": [
+      [
+        -0.07599999755620956,
+        0.07599999755620956
+      ],
+      [
+        -0.007000000216066837,
+        0.007000000216066837
+      ],
+      [
+        -0.0044999998062849045,
+        0.0044999998062849045
+      ]
+    ]
+  },
+  {
+    "name": "Right sabaton ridge 1",
+    "type": "MESH",
+    "parent": "RightLeg",
+    "location": [
+      0.0,
+      -0.10000000149011612,
+      -0.6520000100135803
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": false,
+    "mesh": "Cube.039",
+    "vertices": 24,
+    "polygons": 26,
+    "triangles": 44,
+    "smooth": 0,
+    "materials": [
+      "Polished forged edges"
+    ],
+    "modifiers": [],
+    "bounds": [
+      [
+        -0.07599999755620956,
+        0.07599999755620956
+      ],
+      [
+        -0.007000000216066837,
+        0.007000000216066837
+      ],
+      [
+        -0.0044999998062849045,
+        0.0044999998062849045
+      ]
+    ]
+  },
+  {
+    "name": "Right sabaton ridge 2",
+    "type": "MESH",
+    "parent": "RightLeg",
+    "location": [
+      0.0,
+      -0.1550000011920929,
+      -0.6520000100135803
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": false,
+    "mesh": "Cube.040",
+    "vertices": 24,
+    "polygons": 26,
+    "triangles": 44,
+    "smooth": 0,
+    "materials": [
+      "Polished forged edges"
+    ],
+    "modifiers": [],
+    "bounds": [
+      [
+        -0.07599999755620956,
+        0.07599999755620956
+      ],
+      [
+        -0.007000000216066837,
+        0.007000000216066837
+      ],
+      [
+        -0.0044999998062849045,
+        0.0044999998062849045
+      ]
+    ]
+  },
+  {
+    "name": "Right shaped greave",
+    "type": "MESH",
+    "parent": "RightLeg",
+    "location": [
+      0.0,
+      -0.01600000075995922,
+      -0.49300000071525574
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation": [
+      -0.03999999910593033,
+      0.0,
+      0.0
+    ],
+    "hidden": false,
+    "mesh": "Cube.036",
+    "vertices": 24,
+    "polygons": 26,
+    "triangles": 44,
+    "smooth": 0,
+    "materials": [
+      "Tempered steel blue grey"
+    ],
+    "modifiers": [],
+    "bounds": [
+      [
+        -0.07349999994039536,
+        0.07349999994039536
+      ],
+      [
+        -0.08299999684095383,
+        0.08299999684095383
+      ],
+      [
+        -0.13750000298023224,
+        0.13750000298023224
+      ]
+    ]
+  },
+  {
+    "name": "Right shoulder pauldron",
+    "type": "MESH",
+    "parent": "RightArm",
+    "location": [
+      0.027000000700354576,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.17000000178813934,
+      0.18000000715255737,
+      0.13500000536441803
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": false,
+    "mesh": "Icosphere.007 rounded v2 plate-v3 plate-v3",
+    "vertices": 2048,
+    "polygons": 1986,
+    "triangles": 4092,
+    "smooth": 1986,
+    "materials": [
+      "Tempered steel blue grey",
+      "Polished forged edges"
+    ],
+    "modifiers": [],
+    "bounds": [
+      [
+        -0.8638226985931396,
+        0.8638226985931396
+      ],
+      [
+        -0.829444408416748,
+        0.829444408416748
+      ],
+      [
+        -0.3552594482898712,
+        0.5269412398338318
+      ]
+    ]
+  },
+  {
+    "name": "Right upper arm",
+    "type": "MESH",
+    "parent": "RightArm",
+    "location": [
+      0.04399999976158142,
+      0.0,
+      -0.17499999701976776
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": false,
+    "mesh": "Cube.042",
+    "vertices": 24,
+    "polygons": 26,
+    "triangles": 44,
+    "smooth": 0,
+    "materials": [
+      "Blackened chain mail"
+    ],
+    "modifiers": [],
+    "bounds": [
+      [
+        -0.0625,
+        0.0625
+      ],
+      [
+        -0.07500000298023224,
+        0.07500000298023224
+      ],
+      [
+        -0.10249999910593033,
+        0.10249999910593033
+      ]
+    ]
+  },
+  {
+    "name": "Right vambrace",
+    "type": "MESH",
+    "parent": "RightArm",
+    "location": [
+      0.057999998331069946,
+      -0.02500000037252903,
+      -0.382999986410141
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": false,
+    "mesh": "Cube.044",
+    "vertices": 24,
+    "polygons": 26,
+    "triangles": 44,
+    "smooth": 0,
+    "materials": [
+      "Tempered steel blue grey"
+    ],
+    "modifiers": [],
+    "bounds": [
+      [
+        -0.05999999865889549,
+        0.05999999865889549
+      ],
+      [
+        -0.07500000298023224,
+        0.07500000298023224
+      ],
+      [
+        -0.08299999684095383,
+        0.08299999684095383
+      ]
+    ]
+  },
+  {
+    "name": "RightArm",
+    "type": "EMPTY",
+    "parent": "KnightRoot",
+    "location": [
+      0.26499998569488525,
+      0.0,
+      1.2200000286102295
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": false
+  },
+  {
+    "name": "RightLeg",
+    "type": "EMPTY",
+    "parent": "KnightRoot",
+    "location": [
+      0.11500000208616257,
+      0.0,
+      0.7599999904632568
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": false
+  },
+  {
+    "name": "Swept crossguard",
+    "type": "MESH",
+    "parent": "Sword",
+    "location": [
+      0.0,
+      0.0,
+      -0.07400000095367432
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": false,
+    "mesh": "Cube.049",
+    "vertices": 24,
+    "polygons": 26,
+    "triangles": 44,
+    "smooth": 0,
+    "materials": [
+      "Polished forged edges"
+    ],
+    "modifiers": [],
+    "bounds": [
+      [
+        -0.11999999731779099,
+        0.11999999731779099
+      ],
+      [
+        -0.02250000089406967,
+        0.02250000089406967
+      ],
+      [
+        -0.017500000074505806,
+        0.017500000074505806
+      ]
+    ]
+  },
+  {
+    "name": "Sword",
+    "type": "EMPTY",
+    "parent": "RightArm",
+    "location": [
+      0.05999999865889549,
+      -0.11999999731779099,
+      -0.4950000047683716
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": false
+  },
+  {
+    "name": "Sword pommel",
+    "type": "MESH",
+    "parent": "Sword",
+    "location": [
+      0.0,
+      0.0,
+      0.09000000357627869
+    ],
+    "scale": [
+      0.03500000014901161,
+      0.028999999165534973,
+      0.0430000014603138
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": false,
+    "mesh": "Icosphere.009",
+    "vertices": 12,
+    "polygons": 20,
+    "triangles": 20,
+    "smooth": 0,
+    "materials": [
+      "Antique brass fasteners"
+    ],
+    "modifiers": [],
+    "bounds": [
+      [
+        -0.8944249749183655,
+        0.8944249749183655
+      ],
+      [
+        -0.8506399989128113,
+        0.8506399989128113
+      ],
+      [
+        -1.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "name": "Tasset -1 lame 0",
+    "type": "MESH",
+    "parent": "Torso",
+    "location": [
+      -0.0949999988079071,
+      -0.023000000044703484,
+      0.8650000095367432
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation": [
+      0.0,
+      0.12999999523162842,
+      0.0
+    ],
+    "hidden": false,
+    "mesh": "Cube.004",
+    "vertices": 24,
+    "polygons": 26,
+    "triangles": 44,
+    "smooth": 0,
+    "materials": [
+      "Tempered steel blue grey"
+    ],
+    "modifiers": [],
+    "bounds": [
+      [
+        -0.08250000327825546,
+        0.08250000327825546
+      ],
+      [
+        -0.11749999970197678,
+        0.11749999970197678
+      ],
+      [
+        -0.03750000149011612,
+        0.03750000149011612
+      ]
+    ]
+  },
+  {
+    "name": "Tasset -1 lame 1",
+    "type": "MESH",
+    "parent": "Torso",
+    "location": [
+      -0.10999999940395355,
+      -0.023000000044703484,
+      0.8149999976158142
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation": [
+      0.0,
+      0.12999999523162842,
+      0.0
+    ],
+    "hidden": false,
+    "mesh": "Cube.005",
+    "vertices": 24,
+    "polygons": 26,
+    "triangles": 44,
+    "smooth": 0,
+    "materials": [
+      "Tempered steel blue grey"
+    ],
+    "modifiers": [],
+    "bounds": [
+      [
+        -0.08250000327825546,
+        0.08250000327825546
+      ],
+      [
+        -0.11749999970197678,
+        0.11749999970197678
+      ],
+      [
+        -0.03750000149011612,
+        0.03750000149011612
+      ]
+    ]
+  },
+  {
+    "name": "Tasset -1 lame 2",
+    "type": "MESH",
+    "parent": "Torso",
+    "location": [
+      -0.125,
+      -0.023000000044703484,
+      0.7649999856948853
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation": [
+      0.0,
+      0.12999999523162842,
+      0.0
+    ],
+    "hidden": false,
+    "mesh": "Cube.006",
+    "vertices": 24,
+    "polygons": 26,
+    "triangles": 44,
+    "smooth": 0,
+    "materials": [
+      "Tempered steel blue grey"
+    ],
+    "modifiers": [],
+    "bounds": [
+      [
+        -0.08250000327825546,
+        0.08250000327825546
+      ],
+      [
+        -0.11749999970197678,
+        0.11749999970197678
+      ],
+      [
+        -0.03750000149011612,
+        0.03750000149011612
+      ]
+    ]
+  },
+  {
+    "name": "Tasset 1 lame 0",
+    "type": "MESH",
+    "parent": "Torso",
+    "location": [
+      0.0949999988079071,
+      -0.023000000044703484,
+      0.8650000095367432
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation": [
+      0.0,
+      -0.12999999523162842,
+      0.0
+    ],
+    "hidden": false,
+    "mesh": "Cube.007",
+    "vertices": 24,
+    "polygons": 26,
+    "triangles": 44,
+    "smooth": 0,
+    "materials": [
+      "Tempered steel blue grey"
+    ],
+    "modifiers": [],
+    "bounds": [
+      [
+        -0.08250000327825546,
+        0.08250000327825546
+      ],
+      [
+        -0.11749999970197678,
+        0.11749999970197678
+      ],
+      [
+        -0.03750000149011612,
+        0.03750000149011612
+      ]
+    ]
+  },
+  {
+    "name": "Tasset 1 lame 1",
+    "type": "MESH",
+    "parent": "Torso",
+    "location": [
+      0.10999999940395355,
+      -0.023000000044703484,
+      0.8149999976158142
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation": [
+      0.0,
+      -0.12999999523162842,
+      0.0
+    ],
+    "hidden": false,
+    "mesh": "Cube.008",
+    "vertices": 24,
+    "polygons": 26,
+    "triangles": 44,
+    "smooth": 0,
+    "materials": [
+      "Tempered steel blue grey"
+    ],
+    "modifiers": [],
+    "bounds": [
+      [
+        -0.08250000327825546,
+        0.08250000327825546
+      ],
+      [
+        -0.11749999970197678,
+        0.11749999970197678
+      ],
+      [
+        -0.03750000149011612,
+        0.03750000149011612
+      ]
+    ]
+  },
+  {
+    "name": "Tasset 1 lame 2",
+    "type": "MESH",
+    "parent": "Torso",
+    "location": [
+      0.125,
+      -0.023000000044703484,
+      0.7649999856948853
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation": [
+      0.0,
+      -0.12999999523162842,
+      0.0
+    ],
+    "hidden": false,
+    "mesh": "Cube.009",
+    "vertices": 24,
+    "polygons": 26,
+    "triangles": 44,
+    "smooth": 0,
+    "materials": [
+      "Tempered steel blue grey"
+    ],
+    "modifiers": [],
+    "bounds": [
+      [
+        -0.08250000327825546,
+        0.08250000327825546
+      ],
+      [
+        -0.11749999970197678,
+        0.11749999970197678
+      ],
+      [
+        -0.03750000149011612,
+        0.03750000149011612
+      ]
+    ]
+  },
+  {
+    "name": "Torso",
+    "type": "EMPTY",
+    "parent": "KnightRoot",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": false
+  },
+  {
+    "name": "Visor hinge -1",
+    "type": "MESH",
+    "parent": "Head",
+    "location": [
+      -0.13300000131130219,
+      -0.01600000075995922,
+      0.10599999874830246
+    ],
+    "scale": [
+      0.017999999225139618,
+      0.017999999225139618,
+      0.017999999225139618
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": false,
+    "mesh": "Icosphere.001",
+    "vertices": 12,
+    "polygons": 20,
+    "triangles": 20,
+    "smooth": 0,
+    "materials": [
+      "Antique brass fasteners"
+    ],
+    "modifiers": [],
+    "bounds": [
+      [
+        -0.8944249749183655,
+        0.8944249749183655
+      ],
+      [
+        -0.8506399989128113,
+        0.8506399989128113
+      ],
+      [
+        -1.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "name": "Visor hinge 1",
+    "type": "MESH",
+    "parent": "Head",
+    "location": [
+      0.13300000131130219,
+      -0.01600000075995922,
+      0.10599999874830246
+    ],
+    "scale": [
+      0.017999999225139618,
+      0.017999999225139618,
+      0.017999999225139618
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": false,
+    "mesh": "Icosphere.002",
+    "vertices": 12,
+    "polygons": 20,
+    "triangles": 20,
+    "smooth": 0,
+    "materials": [
+      "Antique brass fasteners"
+    ],
+    "modifiers": [],
+    "bounds": [
+      [
+        -0.8944249749183655,
+        0.8944249749183655
+      ],
+      [
+        -0.8506399989128113,
+        0.8506399989128113
+      ],
+      [
+        -1.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "name": "Visor nasal ridge",
+    "type": "MESH",
+    "parent": "Head",
+    "location": [
+      0.0,
+      -0.1770000010728836,
+      0.08500000089406967
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": false,
+    "mesh": "Cube.012",
+    "vertices": 24,
+    "polygons": 26,
+    "triangles": 44,
+    "smooth": 0,
+    "materials": [
+      "Polished forged edges"
+    ],
+    "modifiers": [],
+    "bounds": [
+      [
+        -0.007000000216066837,
+        0.007000000216066837
+      ],
+      [
+        -0.007000000216066837,
+        0.007000000216066837
+      ],
+      [
+        -0.04800000041723251,
+        0.04800000041723251
+      ]
+    ]
+  },
+  {
+    "name": "Visor pointed face",
+    "type": "MESH",
+    "parent": "Head",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": false,
+    "mesh": "Visor pointed face",
+    "vertices": 5,
+    "polygons": 4,
+    "triangles": 4,
+    "smooth": 0,
+    "materials": [
+      "Tempered steel blue grey"
+    ],
+    "modifiers": [],
+    "bounds": [
+      [
+        -0.10999999940395355,
+        0.10999999940395355
+      ],
+      [
+        -0.18000000715255737,
+        -0.12099999934434891
+      ],
+      [
+        0.00800000037997961,
+        0.11599999666213989
+      ]
+    ]
+  },
+  {
+    "name": "Wide leather belt",
+    "type": "MESH",
+    "parent": "Torso",
+    "location": [
+      0.0,
+      -0.004999999888241291,
+      0.9100000262260437
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": false,
+    "mesh": "Cube.002",
+    "vertices": 24,
+    "polygons": 26,
+    "triangles": 44,
+    "smooth": 0,
+    "materials": [
+      "Aged leather straps"
+    ],
+    "modifiers": [],
+    "bounds": [
+      [
+        -0.17499999701976776,
+        0.17499999701976776
+      ],
+      [
+        -0.11999999731779099,
+        0.11999999731779099
+      ],
+      [
+        -0.03750000149011612,
+        0.03750000149011612
+      ]
+    ]
+  }
+]

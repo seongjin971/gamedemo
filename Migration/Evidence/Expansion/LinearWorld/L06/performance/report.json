@@ -1,0 +1,147 @@
+{
+    "mode": "-linearPerformance",
+    "device": "Intel(R) Arc(TM) 130V GPU (8GB)",
+    "note": "Runtime originals. Capture placements are fixtures, not traversal. Synthetic screen pointers are not native device acceptance. Frame cadence is not display-present timing.",
+    "width": 1536,
+    "height": 1024,
+    "failures": 0,
+    "fixtures": 5,
+    "frames": 0,
+    "clicks": 0,
+    "drags": 0,
+    "zooms": 0,
+    "resets": 0,
+    "rejected": 0,
+    "safetyStops": 0,
+    "audioSources": 0,
+    "distance": 0.0,
+    "position": {
+        "x": 0.0,
+        "y": 14.838533401489258,
+        "z": -288.04412841796877
+    },
+    "checks": [],
+    "errors": [],
+    "performance": [
+        {
+            "name": "25-static",
+            "frames": 313,
+            "unfocused": 0,
+            "fps": 52.05488204956055,
+            "p95Ms": 32.689002990722659,
+            "maxMs": 46.4889030456543
+        },
+        {
+            "name": "25-walk",
+            "frames": 282,
+            "unfocused": 0,
+            "fps": 46.8612174987793,
+            "p95Ms": 38.562896728515628,
+            "maxMs": 52.490901947021487
+        },
+        {
+            "name": "25-orbit",
+            "frames": 270,
+            "unfocused": 0,
+            "fps": 44.874107360839847,
+            "p95Ms": 38.23860168457031,
+            "maxMs": 46.067100524902347
+        },
+        {
+            "name": "85-static",
+            "frames": 352,
+            "unfocused": 0,
+            "fps": 58.505496978759769,
+            "p95Ms": 29.77859878540039,
+            "maxMs": 42.62910461425781
+        },
+        {
+            "name": "85-walk",
+            "frames": 355,
+            "unfocused": 0,
+            "fps": 59.0109748840332,
+            "p95Ms": 30.193593978881837,
+            "maxMs": 34.40860366821289
+        },
+        {
+            "name": "85-orbit",
+            "frames": 359,
+            "unfocused": 0,
+            "fps": 59.689144134521487,
+            "p95Ms": 29.58760643005371,
+            "maxMs": 36.923099517822269
+        },
+        {
+            "name": "150-static",
+            "frames": 250,
+            "unfocused": 0,
+            "fps": 41.644954681396487,
+            "p95Ms": 41.101600646972659,
+            "maxMs": 64.06480407714844
+        },
+        {
+            "name": "150-walk",
+            "frames": 296,
+            "unfocused": 0,
+            "fps": 49.14695739746094,
+            "p95Ms": 33.31769943237305,
+            "maxMs": 56.789794921875
+        },
+        {
+            "name": "150-orbit",
+            "frames": 258,
+            "unfocused": 0,
+            "fps": 42.9057731628418,
+            "p95Ms": 41.33300018310547,
+            "maxMs": 56.99699401855469
+        },
+        {
+            "name": "215-static",
+            "frames": 356,
+            "unfocused": 0,
+            "fps": 59.316184997558597,
+            "p95Ms": 31.914199829101564,
+            "maxMs": 40.168800354003909
+        },
+        {
+            "name": "215-walk",
+            "frames": 339,
+            "unfocused": 0,
+            "fps": 56.41572952270508,
+            "p95Ms": 31.925901412963868,
+            "maxMs": 39.90260314941406
+        },
+        {
+            "name": "215-orbit",
+            "frames": 401,
+            "unfocused": 0,
+            "fps": 66.70941162109375,
+            "p95Ms": 25.682703018188478,
+            "maxMs": 41.319698333740237
+        },
+        {
+            "name": "275-static",
+            "frames": 361,
+            "unfocused": 0,
+            "fps": 60.01305389404297,
+            "p95Ms": 28.732702255249025,
+            "maxMs": 38.319496154785159
+        },
+        {
+            "name": "275-walk",
+            "frames": 368,
+            "unfocused": 0,
+            "fps": 61.19831085205078,
+            "p95Ms": 25.630102157592775,
+            "maxMs": 33.69760513305664
+        },
+        {
+            "name": "275-orbit",
+            "frames": 388,
+            "unfocused": 0,
+            "fps": 64.6342544555664,
+            "p95Ms": 24.985898971557618,
+            "maxMs": 33.201900482177737
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+  "note": "Original JPEG95 frames, variable frame rate from actual capture timestamps; no interpolation. Not clean FPS or direct input evidence.",
+  "frames": 427,
+  "distance": 33.424224853515625,
+  "skipped": 0,
+  "errors": [],
+  "unfocused": 0,
+  "stages": [
+    {
+      "stage": "walk",
+      "frames": 69,
+      "hz": 11.37363712834643,
+      "maximumGapSeconds": 0.10790348052978516
+    },
+    {
+      "stage": "near-root",
+      "frames": 100,
+      "hz": 11.105372479042838,
+      "maximumGapSeconds": 0.09640312194824219
+    },
+    {
+      "stage": "orbit",
+      "frames": 69,
+      "hz": 11.352825358633034,
+      "maximumGapSeconds": 0.10660743713378906
+    },
+    {
+      "stage": "zoom",
+      "frames": 69,
+      "hz": 11.346581775303106,
+      "maximumGapSeconds": 0.09207916259765625
+    },
+    {
+      "stage": "wide-limit",
+      "frames": 59,
+      "hz": 9.704098233529933,
+      "maximumGapSeconds": 0.1056671142578125
+    },
+    {
+      "stage": "close-limit",
+      "frames": 61,
+      "hz": 10.121266213604853,
+      "maximumGapSeconds": 0.10543441772460938
+    }
+  ]
+}

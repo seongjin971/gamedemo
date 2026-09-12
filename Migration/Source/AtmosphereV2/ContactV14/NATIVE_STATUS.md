@@ -1,0 +1,3 @@
+# Native integration status
+
+Integrated into48–52 with exact50 original removals and49 retained records checked by the builder. Actual native views were directly reviewed. PavingV15 compatibility is documented separately because its one translated slab is outside these contact regions. The fresh52 judge still finds exposed root feet and insufficiently legible deposit/cluster organization. Root tip top-envelope geometry is being addressed in a new TreeV16 source, not treated as solved by these deposits. Existing ContactV14 is preserved; no claim of scanned botanical moss or final visual adoption.

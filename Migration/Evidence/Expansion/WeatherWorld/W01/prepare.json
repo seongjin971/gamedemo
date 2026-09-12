@@ -1,0 +1,37 @@
+{
+    "scene": "Assets/Vesper/Scenes/Expansion/VesperWeatherWorld_W01.unity",
+    "originalColliders": 351,
+    "colliders": 382,
+    "meshes": 74,
+    "materials": 43,
+    "addedTrees": 19,
+    "addedGroundClumps": 432,
+    "missingScripts": 0,
+    "audioSources": 0,
+    "addedMetres": 48.0,
+    "routes": [
+        "PASS 0 -> 25",
+        "PASS 25 -> 46",
+        "PASS 46 -> 60",
+        "PASS 60 -> 84",
+        "PASS 84 -> 108",
+        "PASS 108 -> 132",
+        "PASS 132 -> 156",
+        "PASS 156 -> 198",
+        "PASS 198 -> 236",
+        "PASS 236 -> 270",
+        "PASS 270 -> 303",
+        "PASS 303 -> 348"
+    ],
+    "roots": [
+        "Migration comparison camera",
+        "P1 novice adventurer",
+        "Linear terrain and collision",
+        "Continuous environment owner",
+        "Shared climate sun",
+        "Continuous world grading",
+        "Linear river reflection",
+        "Linear abbey reflection",
+        "Climate-blended walking surface"
+    ]
+}

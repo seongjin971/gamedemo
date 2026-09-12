@@ -1,0 +1,13 @@
+{
+  "destination": "D:\\\uc784\uc2dc\uac8c\uc784\\VESPER_W10_Desktop",
+  "runtimeFiles": 173,
+  "runtimeBytes": 210291141,
+  "copiedRuntimeMatchesW10": true,
+  "sourceBuildUnchanged": true,
+  "omittedDevelopmentSymbols": [
+    "VESPER Unity migration_BurstDebugInformation_DoNotShip"
+  ],
+  "obsProfile": "VESPER W10 RTX5070 60",
+  "obsEncoder": "obs_nvenc_h264_tex",
+  "desktopRecordingTest": "pending on target RTX5070 desktop"
+}

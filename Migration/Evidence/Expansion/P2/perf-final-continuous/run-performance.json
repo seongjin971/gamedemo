@@ -1,0 +1,45 @@
+{
+    "note": "Isolated standalone natural frame cadence, continuous automatic routes, no image readback or video encoding. Not direct input or hardware presentation.",
+    "device": "Intel(R) Arc(TM) 130V GPU (8GB)",
+    "width": 1536,
+    "height": 1024,
+    "stages": [
+        {
+            "name": "walk-continuous",
+            "frames": 399,
+            "unfocused": 0,
+            "fps": 33.228755950927737,
+            "p95Ms": 31.980804443359376,
+            "distance": 23.288013458251954,
+            "peakSpeed": 2.250004291534424
+        },
+        {
+            "name": "run-continuous",
+            "frames": 394,
+            "unfocused": 384,
+            "fps": 32.79679870605469,
+            "p95Ms": 32.63339614868164,
+            "distance": 39.4614372253418,
+            "peakSpeed": 5.400001525878906
+        },
+        {
+            "name": "crossing-walk",
+            "frames": 716,
+            "unfocused": 716,
+            "fps": 59.638092041015628,
+            "p95Ms": 16.7958984375,
+            "distance": 25.48090171813965,
+            "peakSpeed": 2.250025987625122
+        },
+        {
+            "name": "crossing-run",
+            "frames": 719,
+            "unfocused": 719,
+            "fps": 59.87584686279297,
+            "p95Ms": 16.772499084472658,
+            "distance": 54.990623474121097,
+            "peakSpeed": 5.4000139236450199
+        }
+    ],
+    "errors": []
+}

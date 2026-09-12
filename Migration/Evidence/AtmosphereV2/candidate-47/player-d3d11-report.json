@@ -1,0 +1,83 @@
+{
+    "note": "Standalone player natural frame loop, no explicit render requests. Frame cadence is not a hardware display-present trace.",
+    "device": "Intel(R) Arc(TM) 130V GPU (8GB)",
+    "width": 1536,
+    "height": 1024,
+    "clicks": 0,
+    "drags": 0,
+    "zooms": 0,
+    "resets": 0,
+    "blocked": 0,
+    "reflectionFrames": 1635,
+    "focused": true,
+    "moved": 2.4357750415802,
+    "errors": [],
+    "stages": [
+        {
+            "name": "static",
+            "frames": 362,
+            "unfocused": 0,
+            "fps": 45.217308044433597,
+            "p50Ms": 22.11740493774414,
+            "p95Ms": 23.569400787353517,
+            "p99Ms": 24.160303115844728,
+            "cpuP50Ms": 0.0,
+            "cpuP95Ms": 0.0,
+            "gpuP50Ms": 0.0,
+            "gpuP95Ms": 0.0,
+            "validTimings": 0
+        },
+        {
+            "name": "walk",
+            "frames": 365,
+            "unfocused": 0,
+            "fps": 45.4699821472168,
+            "p50Ms": 21.931598663330079,
+            "p95Ms": 23.73800277709961,
+            "p99Ms": 24.43260383605957,
+            "cpuP50Ms": 0.0,
+            "cpuP95Ms": 0.0,
+            "gpuP50Ms": 0.0,
+            "gpuP95Ms": 0.0,
+            "validTimings": 0
+        },
+        {
+            "name": "orbit",
+            "frames": 358,
+            "unfocused": 0,
+            "fps": 44.67973709106445,
+            "p50Ms": 22.39569854736328,
+            "p95Ms": 23.798398971557618,
+            "p99Ms": 24.563400268554689,
+            "cpuP50Ms": 0.0,
+            "cpuP95Ms": 0.0,
+            "gpuP50Ms": 0.0,
+            "gpuP95Ms": 0.0,
+            "validTimings": 0
+        },
+        {
+            "name": "zoom",
+            "frames": 364,
+            "unfocused": 0,
+            "fps": 45.38298416137695,
+            "p50Ms": 22.032794952392579,
+            "p95Ms": 23.58270263671875,
+            "p99Ms": 23.981801986694337,
+            "cpuP50Ms": 0.0,
+            "cpuP95Ms": 0.0,
+            "gpuP50Ms": 0.0,
+            "gpuP95Ms": 0.0,
+            "validTimings": 0
+        }
+    ],
+    "player": {
+        "x": -3.0799999237060549,
+        "y": 0.0,
+        "z": 5.210000038146973
+    },
+    "camera": {
+        "x": -25.90524673461914,
+        "y": 31.312089920043947,
+        "z": 17.353662490844728
+    }
+}
