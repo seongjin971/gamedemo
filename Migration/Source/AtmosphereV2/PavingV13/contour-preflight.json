@@ -1,0 +1,661 @@
+{
+  "source_contours": 92,
+  "body_ratio": 0.6611470570012824,
+  "cap_ratio": 0.5202861525933186,
+  "inset_reduced": [
+    {
+      "id": "lower_far_right_broad",
+      "n": 20,
+      "inset_scale": 0.5,
+      "body_area": 0.7672587342739075,
+      "cap_area": 0.7013946639918411
+    }
+  ],
+  "estimated_body_triangles_per_tile": 10320,
+  "results": [
+    {
+      "id": "upper_left_broad",
+      "n": 17,
+      "inset_scale": 1.0,
+      "body_area": 1.5122489296854755,
+      "cap_area": 1.3193899984692943
+    },
+    {
+      "id": "upper_left_tall",
+      "n": 16,
+      "inset_scale": 1.0,
+      "body_area": 0.33587005297342953,
+      "cap_area": 0.25096562031267133
+    },
+    {
+      "id": "upper_second_tall",
+      "n": 16,
+      "inset_scale": 1.0,
+      "body_area": 0.3215154831409466,
+      "cap_area": 0.2393676947095349
+    },
+    {
+      "id": "upper_middle_broad",
+      "n": 19,
+      "inset_scale": 1.0,
+      "body_area": 0.8302253766059833,
+      "cap_area": 0.6977951935807187
+    },
+    {
+      "id": "upper_right_shoulder",
+      "n": 27,
+      "inset_scale": 1.0,
+      "body_area": 0.6375346333980598,
+      "cap_area": 0.4895796591017998
+    },
+    {
+      "id": "upper_right_tall",
+      "n": 18,
+      "inset_scale": 1.0,
+      "body_area": 0.8146418180465727,
+      "cap_area": 0.6658815519478534
+    },
+    {
+      "id": "upper_right_wedge",
+      "n": 20,
+      "inset_scale": 1.0,
+      "body_area": 0.38475872496196395,
+      "cap_area": 0.25069625675176077
+    },
+    {
+      "id": "upper_edge_right",
+      "n": 19,
+      "inset_scale": 1.0,
+      "body_area": 0.9934913978576692,
+      "cap_area": 0.8358856272710273
+    },
+    {
+      "id": "upper_low_left",
+      "n": 12,
+      "inset_scale": 1.0,
+      "body_area": 0.2026679051717113,
+      "cap_area": 0.1386102000902838
+    },
+    {
+      "id": "upper_low_middle",
+      "n": 15,
+      "inset_scale": 1.0,
+      "body_area": 0.29353054420153146,
+      "cap_area": 0.20314234586475965
+    },
+    {
+      "id": "upper_low_right",
+      "n": 15,
+      "inset_scale": 1.0,
+      "body_area": 0.27122830653190455,
+      "cap_area": 0.1901336112347387
+    },
+    {
+      "id": "upper_low_far_right",
+      "n": 14,
+      "inset_scale": 1.0,
+      "body_area": 0.2636597657203623,
+      "cap_area": 0.1904043336615917
+    },
+    {
+      "id": "middle_left_edge",
+      "n": 14,
+      "inset_scale": 1.0,
+      "body_area": 0.580355378985405,
+      "cap_area": 0.4587338645872854
+    },
+    {
+      "id": "middle_left_upper",
+      "n": 16,
+      "inset_scale": 1.0,
+      "body_area": 0.26254559135436983,
+      "cap_area": 0.185828774582406
+    },
+    {
+      "id": "middle_left_lower",
+      "n": 15,
+      "inset_scale": 1.0,
+      "body_area": 0.24386961245536798,
+      "cap_area": 0.17318787011532688
+    },
+    {
+      "id": "middle_left_tall",
+      "n": 18,
+      "inset_scale": 1.0,
+      "body_area": 0.5387897845904022,
+      "cap_area": 0.4235227165274107
+    },
+    {
+      "id": "middle_center_wide",
+      "n": 15,
+      "inset_scale": 1.0,
+      "body_area": 0.32380269788106464,
+      "cap_area": 0.2375333685578438
+    },
+    {
+      "id": "middle_center_tall",
+      "n": 13,
+      "inset_scale": 1.0,
+      "body_area": 0.20609316523869747,
+      "cap_area": 0.14040920502398446
+    },
+    {
+      "id": "middle_center_lower",
+      "n": 14,
+      "inset_scale": 1.0,
+      "body_area": 0.3067510962486262,
+      "cap_area": 0.22382836661799566
+    },
+    {
+      "id": "middle_right_large",
+      "n": 24,
+      "inset_scale": 1.0,
+      "body_area": 0.5853814606666603,
+      "cap_area": 0.4685216815990616
+    },
+    {
+      "id": "middle_far_right_upper",
+      "n": 16,
+      "inset_scale": 1.0,
+      "body_area": 0.29065850353241096,
+      "cap_area": 0.21161121839597286
+    },
+    {
+      "id": "middle_far_right_lower",
+      "n": 15,
+      "inset_scale": 1.0,
+      "body_area": 0.3566057956218689,
+      "cap_area": 0.26642559515523345
+    },
+    {
+      "id": "middle_right_broad",
+      "n": 21,
+      "inset_scale": 1.0,
+      "body_area": 0.3903862322171463,
+      "cap_area": 0.2869672175834257
+    },
+    {
+      "id": "middle_right_edge",
+      "n": 16,
+      "inset_scale": 1.0,
+      "body_area": 0.2960028576850888,
+      "cap_area": 0.20822364479983158
+    },
+    {
+      "id": "lower_left_broad",
+      "n": 20,
+      "inset_scale": 1.0,
+      "body_area": 0.9242410088539124,
+      "cap_area": 0.7784580698422983
+    },
+    {
+      "id": "lower_middle_upper",
+      "n": 23,
+      "inset_scale": 1.0,
+      "body_area": 0.6500047720670699,
+      "cap_area": 0.5126732436014199
+    },
+    {
+      "id": "lower_middle_lower",
+      "n": 19,
+      "inset_scale": 1.0,
+      "body_area": 0.6048920613527289,
+      "cap_area": 0.46480953321243557
+    },
+    {
+      "id": "lower_middle_tall",
+      "n": 21,
+      "inset_scale": 1.0,
+      "body_area": 0.9450748738479628,
+      "cap_area": 0.7937712030399044
+    },
+    {
+      "id": "lower_middle_right",
+      "n": 23,
+      "inset_scale": 1.0,
+      "body_area": 0.4282871632575991,
+      "cap_area": 0.324227080960231
+    },
+    {
+      "id": "lower_right_upper",
+      "n": 20,
+      "inset_scale": 1.0,
+      "body_area": 0.3517975921630856,
+      "cap_area": 0.2617437470526669
+    },
+    {
+      "id": "lower_right_lower",
+      "n": 20,
+      "inset_scale": 1.0,
+      "body_area": 0.42413139629364105,
+      "cap_area": 0.3157368462466472
+    },
+    {
+      "id": "lower_far_right_broad",
+      "n": 20,
+      "inset_scale": 0.5,
+      "body_area": 0.7672587342739075,
+      "cap_area": 0.7013946639918411
+    },
+    {
+      "id": "lower_far_right_tall",
+      "n": 21,
+      "inset_scale": 1.0,
+      "body_area": 0.6506608661413207,
+      "cap_area": 0.5165712132295535
+    },
+    {
+      "id": "lower_right_edge",
+      "n": 26,
+      "inset_scale": 1.0,
+      "body_area": 0.9925273103714005,
+      "cap_area": 0.8376176306524146
+    },
+    {
+      "id": "bottom_left_large",
+      "n": 16,
+      "inset_scale": 1.0,
+      "body_area": 0.2486953470706939,
+      "cap_area": 0.17557852250526307
+    },
+    {
+      "id": "bottom_left_broad",
+      "n": 21,
+      "inset_scale": 1.0,
+      "body_area": 0.9753243269920342,
+      "cap_area": 0.8315645743621835
+    },
+    {
+      "id": "bottom_middle_broad",
+      "n": 26,
+      "inset_scale": 1.0,
+      "body_area": 0.7570167299270628,
+      "cap_area": 0.6080594632627156
+    },
+    {
+      "id": "bottom_middle_right",
+      "n": 23,
+      "inset_scale": 1.0,
+      "body_area": 0.6610933042526248,
+      "cap_area": 0.5357739359866731
+    },
+    {
+      "id": "bottom_right_broad",
+      "n": 25,
+      "inset_scale": 1.0,
+      "body_area": 0.685300602674485,
+      "cap_area": 0.557888498606584
+    },
+    {
+      "id": "bottom_right_tall",
+      "n": 19,
+      "inset_scale": 1.0,
+      "body_area": 0.3092662496566778,
+      "cap_area": 0.22050996957062752
+    },
+    {
+      "id": "upper_small_wedge",
+      "n": 9,
+      "inset_scale": 1.0,
+      "body_area": 0.09435268449783152,
+      "cap_area": 0.06732228095839865
+    },
+    {
+      "id": "upper_mid_triangle",
+      "n": 11,
+      "inset_scale": 1.0,
+      "body_area": 0.0913592710495017,
+      "cap_area": 0.0647540488561047
+    },
+    {
+      "id": "upper_top_midright",
+      "n": 12,
+      "inset_scale": 1.0,
+      "body_area": 0.1924866755008683,
+      "cap_area": 0.1529377326545891
+    },
+    {
+      "id": "upper_right_diagonal",
+      "n": 20,
+      "inset_scale": 1.0,
+      "body_area": 0.3872674100399003,
+      "cap_area": 0.3265136599352658
+    },
+    {
+      "id": "upper_right_lowerwedge",
+      "n": 12,
+      "inset_scale": 1.0,
+      "body_area": 0.12806648588180636,
+      "cap_area": 0.09529859556163345
+    },
+    {
+      "id": "upper_soil_neighbor",
+      "n": 12,
+      "inset_scale": 1.0,
+      "body_area": 0.09829177141189538,
+      "cap_area": 0.07149818459169133
+    },
+    {
+      "id": "upper_organic_neighbor",
+      "n": 14,
+      "inset_scale": 1.0,
+      "body_area": 0.12001552295684892,
+      "cap_area": 0.09172918497220639
+    },
+    {
+      "id": "middle_edge_wedge",
+      "n": 9,
+      "inset_scale": 1.0,
+      "body_area": 0.043787027359007524,
+      "cap_area": 0.023708596666633497
+    },
+    {
+      "id": "middle_upper_rightrect",
+      "n": 12,
+      "inset_scale": 1.0,
+      "body_area": 0.19364057874679474,
+      "cap_area": 0.15543070082329535
+    },
+    {
+      "id": "middle_center_square",
+      "n": 12,
+      "inset_scale": 1.0,
+      "body_area": 0.1328985266685505,
+      "cap_area": 0.10265843975980715
+    },
+    {
+      "id": "middle_center_lowrect",
+      "n": 16,
+      "inset_scale": 1.0,
+      "body_area": 0.19909011983871583,
+      "cap_area": 0.16048578876059505
+    },
+    {
+      "id": "middle_low_wedge",
+      "n": 12,
+      "inset_scale": 1.0,
+      "body_area": 0.08674416255950845,
+      "cap_area": 0.06106491746724885
+    },
+    {
+      "id": "middle_narrow_tall",
+      "n": 13,
+      "inset_scale": 1.0,
+      "body_area": 0.14373025894165092,
+      "cap_area": 0.1116035037248313
+    },
+    {
+      "id": "middle_low_lefttri",
+      "n": 12,
+      "inset_scale": 1.0,
+      "body_area": 0.12742855358123828,
+      "cap_area": 0.09712378818849343
+    },
+    {
+      "id": "middle_organic_right",
+      "n": 14,
+      "inset_scale": 1.0,
+      "body_area": 0.1386477370262127,
+      "cap_area": 0.10717632730873694
+    },
+    {
+      "id": "middle_organic_left",
+      "n": 14,
+      "inset_scale": 1.0,
+      "body_area": 0.15562899541854858,
+      "cap_area": 0.12278101611691294
+    },
+    {
+      "id": "middle_small_upper",
+      "n": 12,
+      "inset_scale": 1.0,
+      "body_area": 0.10725183200836197,
+      "cap_area": 0.08045599977835893
+    },
+    {
+      "id": "lower_left_fragment",
+      "n": 16,
+      "inset_scale": 1.0,
+      "body_area": 0.1716428871154787,
+      "cap_area": 0.13700810014065312
+    },
+    {
+      "id": "lower_narrow_course_left",
+      "n": 12,
+      "inset_scale": 1.0,
+      "body_area": 0.09176135253906192,
+      "cap_area": 0.062069037277158845
+    },
+    {
+      "id": "lower_narrow_course_mid",
+      "n": 12,
+      "inset_scale": 1.0,
+      "body_area": 0.10708358335494861,
+      "cap_area": 0.07465859754895376
+    },
+    {
+      "id": "lower_narrow_course_right",
+      "n": 14,
+      "inset_scale": 1.0,
+      "body_area": 0.12203665089607352,
+      "cap_area": 0.09019402497369722
+    },
+    {
+      "id": "lower_narrow_course_far",
+      "n": 12,
+      "inset_scale": 1.0,
+      "body_area": 0.13492823100089701,
+      "cap_area": 0.09795155153224577
+    },
+    {
+      "id": "lower_left_lowtriangle",
+      "n": 14,
+      "inset_scale": 1.0,
+      "body_area": 0.1854428081512451,
+      "cap_area": 0.14834002918116418
+    },
+    {
+      "id": "lower_left_lowsquare",
+      "n": 15,
+      "inset_scale": 1.0,
+      "body_area": 0.19312372493743896,
+      "cap_area": 0.15616841831982708
+    },
+    {
+      "id": "bottom_left_lowpiece",
+      "n": 12,
+      "inset_scale": 1.0,
+      "body_area": 0.12154111194610592,
+      "cap_area": 0.09336514468416565
+    },
+    {
+      "id": "bottom_small_middle",
+      "n": 14,
+      "inset_scale": 1.0,
+      "body_area": 0.1652224478721619,
+      "cap_area": 0.13165670896839898
+    },
+    {
+      "id": "bottom_edge_right",
+      "n": 13,
+      "inset_scale": 1.0,
+      "body_area": 0.24243924665451067,
+      "cap_area": 0.18949018029775333
+    },
+    {
+      "id": "bottom_right_mid",
+      "n": 10,
+      "inset_scale": 1.0,
+      "body_area": 0.10115704345703125,
+      "cap_area": 0.07467942540946582
+    },
+    {
+      "id": "bottom_right_low",
+      "n": 13,
+      "inset_scale": 1.0,
+      "body_area": 0.1611716156005858,
+      "cap_area": 0.12802088030585845
+    },
+    {
+      "id": "bottom_left_mid",
+      "n": 13,
+      "inset_scale": 1.0,
+      "body_area": 0.10301408481597912,
+      "cap_area": 0.07713733816971247
+    },
+    {
+      "id": "upper_small_farleft",
+      "n": 8,
+      "inset_scale": 1.0,
+      "body_area": 0.03129525852203363,
+      "cap_area": 0.01635649498846581
+    },
+    {
+      "id": "upper_soil_bottom",
+      "n": 12,
+      "inset_scale": 1.0,
+      "body_area": 0.10130586910247885,
+      "cap_area": 0.07452414286769038
+    },
+    {
+      "id": "upper_tiny_right",
+      "n": 8,
+      "inset_scale": 1.0,
+      "body_area": 0.030823556900023696,
+      "cap_area": 0.01698112444041211
+    },
+    {
+      "id": "upper_soil_top",
+      "n": 10,
+      "inset_scale": 1.0,
+      "body_area": 0.06654347753524714,
+      "cap_area": 0.04532148612675968
+    },
+    {
+      "id": "upper_soil_side",
+      "n": 8,
+      "inset_scale": 1.0,
+      "body_area": 0.018747995376585003,
+      "cap_area": 0.007840917339760445
+    },
+    {
+      "id": "middle_organic_top",
+      "n": 14,
+      "inset_scale": 1.0,
+      "body_area": 0.13063511562347285,
+      "cap_area": 0.10103401386303767
+    },
+    {
+      "id": "middle_organic_bottom",
+      "n": 10,
+      "inset_scale": 1.0,
+      "body_area": 0.03357002067566128,
+      "cap_area": 0.01842102965071213
+    },
+    {
+      "id": "middle_right_narrow",
+      "n": 12,
+      "inset_scale": 1.0,
+      "body_area": 0.08649822187423695,
+      "cap_area": 0.06284563612669025
+    },
+    {
+      "id": "middle_lower_small",
+      "n": 10,
+      "inset_scale": 1.0,
+      "body_area": 0.039792193889617966,
+      "cap_area": 0.02279817808168838
+    },
+    {
+      "id": "lower_left_edge_upper",
+      "n": 10,
+      "inset_scale": 1.0,
+      "body_area": 0.05927700233459467,
+      "cap_area": 0.03777795754369024
+    },
+    {
+      "id": "lower_left_edge_lower",
+      "n": 11,
+      "inset_scale": 1.0,
+      "body_area": 0.07293289041519167,
+      "cap_area": 0.04943425501321286
+    },
+    {
+      "id": "lower_left_center_wedge",
+      "n": 14,
+      "inset_scale": 1.0,
+      "body_area": 0.09010182046890258,
+      "cap_area": 0.06399805487047905
+    },
+    {
+      "id": "lower_left_center_low",
+      "n": 10,
+      "inset_scale": 1.0,
+      "body_area": 0.0802462835311889,
+      "cap_area": 0.056810111467453184
+    },
+    {
+      "id": "lower_middle_smalltop",
+      "n": 8,
+      "inset_scale": 1.0,
+      "body_area": 0.04078932571411187,
+      "cap_area": 0.02347052023803098
+    },
+    {
+      "id": "lower_right_edge_large",
+      "n": 17,
+      "inset_scale": 1.0,
+      "body_area": 0.3089153742790236,
+      "cap_area": 0.24787721074767877
+    },
+    {
+      "id": "lower_right_edge_low",
+      "n": 10,
+      "inset_scale": 1.0,
+      "body_area": 0.05071448278427004,
+      "cap_area": 0.03070287734782795
+    },
+    {
+      "id": "bottom_left_edge",
+      "n": 10,
+      "inset_scale": 1.0,
+      "body_area": 0.077413046836853,
+      "cap_area": 0.054064888348049935
+    },
+    {
+      "id": "bottom_left_lowmiddle",
+      "n": 10,
+      "inset_scale": 1.0,
+      "body_area": 0.0879589834213257,
+      "cap_area": 0.06326366287715664
+    },
+    {
+      "id": "bottom_left_lowsquare",
+      "n": 12,
+      "inset_scale": 1.0,
+      "body_area": 0.10350470495223982,
+      "cap_area": 0.07751525257121872
+    },
+    {
+      "id": "bottom_center_lowleft",
+      "n": 13,
+      "inset_scale": 1.0,
+      "body_area": 0.14868085575103762,
+      "cap_area": 0.11485601385530275
+    },
+    {
+      "id": "bottom_right_narrow",
+      "n": 18,
+      "inset_scale": 1.0,
+      "body_area": 0.23582482957839979,
+      "cap_area": 0.19147743482143254
+    },
+    {
+      "id": "bottom_right_largestedge",
+      "n": 13,
+      "inset_scale": 1.0,
+      "body_area": 0.1247322869300842,
+      "cap_area": 0.09483269896335433
+    }
+  ]
+}

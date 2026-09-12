@@ -1,0 +1,1 @@
+Independent QA: 100928tris,311negative face-cross/normal dots,46degenerate triangles. Do not import. Replacing cap subdivision with closed radial-ring topology. Geometry winding must agree with normals, not be reversed blindly.

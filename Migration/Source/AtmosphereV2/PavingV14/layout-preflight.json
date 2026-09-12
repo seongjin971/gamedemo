@@ -1,0 +1,10 @@
+{
+  "nominal_body_count": 485,
+  "estimated_triangles_including_36032_bed": 93968,
+  "stone_surface_coverage_ratio": 0.6762307699966368,
+  "period": [
+    12.4,
+    6.2
+  ],
+  "note": "Nominal manually traced guides only. Final bounded AO refinement, normals and export QA remain required."
+}

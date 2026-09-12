@@ -1,0 +1,2309 @@
+{
+  "cobblestone_floor_001": {
+    "type": 1,
+    "tags": [
+      "cobblestone",
+      "mud",
+      "path",
+      "pathway",
+      "uneven",
+      "medieval"
+    ],
+    "date_published": 1595528089,
+    "name": "Cobblestone Floor 001",
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "dimensions": [
+      2400.0000953674316,
+      2400.0000953674316
+    ],
+    "categories": [
+      "road",
+      "man made",
+      "outdoor",
+      "dirty",
+      "floor",
+      "cobblestone"
+    ],
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "sponsors": [
+      "118714804"
+    ],
+    "files_hash": "41439589d13c50ea939f76751b9a9c1664e96d60",
+    "description": "Free 8K texture of uneven medieval cobblestone floor: worn stones, mud-filled joints, scattered moss and dirt, rough matte stone with subtle sheen.",
+    "attributes": {
+      "surface_use": "paving",
+      "condition": [
+        "weathered",
+        "worn",
+        "mossy"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "category_id": "5aa99c3f-7783-51e3-90d1-2c496368ad24",
+    "category": "Stone/Cobblestone & Paving/Cut Setts & Pavers",
+    "img_version": "5481568e",
+    "download_count": 27308,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/cobblestone_floor_001.png?width=256&height=256&v=5481568e"
+  },
+  "concrete_floor_worn_001": {
+    "date_published": 1627948800,
+    "name": "Concrete Floor Worn 001",
+    "categories": [
+      "floor",
+      "man made",
+      "indoor",
+      "dirty",
+      "concrete",
+      "plaster-concrete"
+    ],
+    "type": 1,
+    "authors": {
+      "Dimitrios Savva": "Photography",
+      "Rico Cilliers": "Processing"
+    },
+    "tags": [
+      "worn",
+      "old",
+      "plain",
+      "grey",
+      "weathered",
+      "bare",
+      "discolored"
+    ],
+    "dimensions": [
+      3000,
+      3000.000238418579
+    ],
+    "max_resolution": [
+      16384,
+      16384
+    ],
+    "files_hash": "e3d93fd423c3db5bbc000a930cc8b9d770187ce4",
+    "description": "Free 16K concrete floor texture, worn grey slab with fine scratches, chips, stains and subtle roughness and discoloration.",
+    "category_id": "0a7b70c3-bc79-531b-8cf3-cadeb4cbf686",
+    "category": "Concrete/Cast Walls & Floors/Bare Cast",
+    "attributes": {
+      "surface_use": "floor",
+      "condition": [
+        "worn",
+        "weathered",
+        "damaged"
+      ],
+      "origin": "man_made",
+      "setting": "indoor"
+    },
+    "img_version": "87815d37",
+    "download_count": 442625,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/concrete_floor_worn_001.png?width=256&height=256&v=87815d37"
+  },
+  "concrete_pavement_02": {
+    "name": "Concrete Pavement 02",
+    "categories": [
+      "outdoor",
+      "road",
+      "cobblestone"
+    ],
+    "type": 1,
+    "tags": [
+      "concrete",
+      "sidewalk",
+      "urban",
+      "city",
+      "pavement",
+      "street",
+      "cityscape",
+      "infrastructure",
+      "walkway",
+      "sidewalk texture",
+      "footpath"
+    ],
+    "authors": {
+      "Charlotte Baglioni": "All"
+    },
+    "dimensions": [
+      1800.0000715255737,
+      1800.0000715255737
+    ],
+    "date_published": 1711670400,
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "files_hash": "0530cbdb94063d5899fabae01578b92009e02e5b",
+    "description": "Free 8K concrete pavement material: square sidewalk slabs with fine gritty texture, shallow grout lines, light staining and a matte, slightly worn urban finish.",
+    "category_id": "3d66fbeb-75a0-5a98-97b4-d2630544da3f",
+    "category": "Brick & Block/Concrete Block & Paver",
+    "attributes": {
+      "surface_use": "paving",
+      "condition": [
+        "worn"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "img_version": "20819352",
+    "download_count": 23724,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/concrete_pavement_02.png?width=256&height=256&v=20819352"
+  },
+  "concrete_slab_wall": {
+    "type": 1,
+    "name": "Concrete Slab Wall",
+    "tags": [
+      "rough",
+      "old",
+      "concrete",
+      "cracked",
+      "chipped",
+      "cement",
+      "cracked cement",
+      "worn",
+      "scratched",
+      "wall",
+      "weathered",
+      "exterior",
+      "coarse"
+    ],
+    "authors": {
+      "Dimitrios Savva": "All"
+    },
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "dimensions": [
+      2299.999952316284,
+      2299.999952316284
+    ],
+    "files_hash": "23b2acf2e313951505ad4259bc6b9aa0941b37ef",
+    "date_published": 1759795200,
+    "description": "Free 8K texture of a weathered concrete slab wall, coarse and rough with cracks, chips, horizontal joints and subtle stains - ideal for exterior use.",
+    "categories": [
+      "wall",
+      "concrete",
+      "plaster-concrete"
+    ],
+    "category_id": "0a7b70c3-bc79-531b-8cf3-cadeb4cbf686",
+    "category": "Concrete/Cast Walls & Floors/Bare Cast",
+    "attributes": {
+      "surface_use": "wall",
+      "condition": [
+        "weathered",
+        "cracked",
+        "damaged"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "img_version": "bb63a86c",
+    "download_count": 3141,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/concrete_slab_wall.png?width=256&height=256&v=bb63a86c"
+  },
+  "concrete_slab_wall_02": {
+    "type": 1,
+    "name": "Concrete Slab Wall 02",
+    "categories": [
+      "outdoor",
+      "man made",
+      "plaster-concrete",
+      "concrete",
+      "wall"
+    ],
+    "tags": [
+      "rough",
+      "weathered",
+      "wall",
+      "concrete",
+      "precast",
+      "concrete panel",
+      "exterior",
+      "dirty",
+      "cement",
+      "timeworn",
+      "plaster",
+      "discolored",
+      "worn"
+    ],
+    "description": "Free 8k material: weathered precast concrete slab wall texture with rough, discolored surface, horizontal panel joints, dirt streaks and patched cement.",
+    "authors": {
+      "Amal Kumar": "All"
+    },
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "dimensions": [
+      2102.315902709961,
+      2102.315902709961
+    ],
+    "files_hash": "2e4642ccad275deb5eb649f13a91778cdcfbaf22",
+    "date_published": 1772668800,
+    "category_id": "b4f089ac-1410-5388-bd51-34e956f0a0a5",
+    "category": "Concrete/Cast Walls & Floors/Board-Form & Panels",
+    "attributes": {
+      "surface_use": "wall",
+      "condition": [
+        "weathered",
+        "worn"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "img_version": "0ab5264d",
+    "download_count": 5302,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/concrete_slab_wall_02.png?width=256&height=256&v=0ab5264d"
+  },
+  "coral_ground_02": {
+    "type": 1,
+    "date_published": 1566820210,
+    "name": "Coral Ground 02",
+    "categories": [
+      "terrain",
+      "outdoor",
+      "rock",
+      "natural"
+    ],
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "dimensions": [
+      2000,
+      2000
+    ],
+    "sponsors": [
+      "66627515"
+    ],
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "files_hash": "3426255fef5184edc0f34cad1be4113229b31827",
+    "tags": [
+      "coral",
+      "ground",
+      "costal",
+      "stones",
+      "ocean",
+      "gravel",
+      "debris",
+      "sandy",
+      "porous surface",
+      "dirt",
+      "reef",
+      "coastline",
+      "sand",
+      "exposed seabed"
+    ],
+    "description": "Free 8K texture of exposed coral ground: sandy, porous limestone with scattered gravel, dark debris and coastal dirt; rough, pitted, crumbly surface.",
+    "category_id": "d5cd6278-7150-5639-a2c9-a5f9e1e72f61",
+    "category": "Ground & Terrain/Gravel & Pebbles/Coastal Gravel",
+    "attributes": {
+      "surface_use": "ground",
+      "origin": "natural",
+      "setting": "outdoor",
+      "condition": [
+        "weathered"
+      ]
+    },
+    "img_version": "678a06c0",
+    "download_count": 30413,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/coral_ground_02.png?width=256&height=256&v=678a06c0"
+  },
+  "granite_tile_03": {
+    "type": 1,
+    "name": "Granite Tile 03",
+    "categories": [
+      "wall",
+      "tiles"
+    ],
+    "tags": [
+      "granite",
+      "granite tile",
+      "granite blocks",
+      "wall",
+      "urban",
+      "speckled ",
+      "slab",
+      "outdoor",
+      "stone tile"
+    ],
+    "authors": {
+      "Charlotte Baglioni": "All"
+    },
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "dimensions": [
+      1802.0000457763672,
+      1802.0000457763672
+    ],
+    "date_published": 1744848000,
+    "files_hash": "08d41e4cbee63de142b19caa392247f0e441baa3",
+    "description": "Free 8K granite tile texture: speckled brown-grey stone slabs with fine grain, subtle micro-roughness, tight grout lines and a low satin sheen.",
+    "category_id": "c1b6840e-81a6-56d1-9cf0-1ef10c0aa6a2",
+    "category": "Stone/Slabs & Tiles/Granite",
+    "attributes": {
+      "surface_use": "wall",
+      "origin": "man_made",
+      "setting": "outdoor",
+      "condition": [
+        "clean"
+      ]
+    },
+    "img_version": "71827c3e",
+    "download_count": 6335,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/granite_tile_03.png?width=256&height=256&v=71827c3e"
+  },
+  "large_sandstone_blocks": {
+    "date_published": 1634601600,
+    "name": "Large Sandstone Blocks",
+    "categories": [
+      "wall",
+      "outdoor",
+      "sandstone",
+      "man made",
+      "dirty"
+    ],
+    "type": 1,
+    "dimensions": [
+      3000,
+      3000.000238418579
+    ],
+    "tags": [
+      "grey",
+      "discolored",
+      "blocks",
+      "sandstone",
+      "wall",
+      "trimsheet",
+      "urban",
+      "stained"
+    ],
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "sponsors": [
+      "4714267"
+    ],
+    "files_hash": "30af88ff503fd58680f84125c6231883fa4ed3f5",
+    "description": "Free 8K sandstone texture of large grey blockwork, showing discolored, stained surfaces, worn edges, layered mortar and fine gritty weathering.",
+    "category_id": "711f00d1-14a5-537f-addc-52bc3da7cd0e",
+    "category": "Brick & Block/Stone Block & Paver/Sandstone Brick & Block",
+    "attributes": {
+      "surface_use": "wall",
+      "condition": [
+        "weathered",
+        "worn"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "img_version": "e382db22",
+    "download_count": 20887,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/large_sandstone_blocks.png?width=256&height=256&v=e382db22"
+  },
+  "large_sandstone_blocks_01": {
+    "type": 1,
+    "tags": [
+      "wall",
+      "stones",
+      "rough",
+      "uneven",
+      "old",
+      "large"
+    ],
+    "date_published": 1577943321,
+    "name": "Large Sandstone Blocks 01",
+    "categories": [
+      "wall",
+      "floor",
+      "man made",
+      "dirty",
+      "brick"
+    ],
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "dimensions": [
+      3000,
+      3000
+    ],
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "files_hash": "116a735bff792dcdc5d5fe9c4542e10f3495afa8",
+    "description": "Free 8K texture of large weathered sandstone blocks with rough, uneven faces, worn edges, dirty/mossy staining and deep grout in warm beige and ochre tones.",
+    "category_id": "711f00d1-14a5-537f-addc-52bc3da7cd0e",
+    "category": "Brick & Block/Stone Block & Paver/Sandstone Brick & Block",
+    "attributes": {
+      "surface_use": "wall",
+      "condition": [
+        "weathered",
+        "mossy"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "img_version": "e34e046a",
+    "download_count": 50679,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/large_sandstone_blocks_01.png?width=256&height=256&v=e34e046a"
+  },
+  "medieval_blocks_02": {
+    "type": 1,
+    "tags": [
+      "stones",
+      "sandstone",
+      "old",
+      "weathered",
+      "rough",
+      "uneven"
+    ],
+    "date_published": 1542587736,
+    "name": "Medieval Blocks 02",
+    "categories": [
+      "wall",
+      "man made",
+      "dirty",
+      "outdoor",
+      "rock"
+    ],
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "dimensions": [
+      1500,
+      1500
+    ],
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "files_hash": "2646e7faba984dae331307745c68b55d8cbb5b9e",
+    "description": "Free 8K texture of weathered medieval sandstone blocks. Rough, uneven, pitted stones with sandy mortar, rusty-orange stains and dirty outdoor wall finish.",
+    "category_id": "711f00d1-14a5-537f-addc-52bc3da7cd0e",
+    "category": "Brick & Block/Stone Block & Paver/Sandstone Brick & Block",
+    "attributes": {
+      "surface_use": "wall",
+      "condition": [
+        "weathered",
+        "damaged"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "img_version": "01dc0163",
+    "download_count": 25127,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/medieval_blocks_02.png?width=256&height=256&v=01dc0163"
+  },
+  "medieval_blocks_03": {
+    "type": 1,
+    "tags": [
+      "blocks",
+      "large",
+      "old",
+      "rough"
+    ],
+    "date_published": 1546062309,
+    "name": "Medieval Blocks 03",
+    "categories": [
+      "wall",
+      "brick",
+      "man made",
+      "outdoor",
+      "indoor",
+      "clean"
+    ],
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "dimensions": [
+      2000,
+      2000
+    ],
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "sponsors": [
+      "118714804"
+    ],
+    "files_hash": "6f5a04014ad24a50d1ef9e106bcec49277613d3e",
+    "description": "Free 8K texture of large medieval stone blocks with rough, chiseled faces, worn edges, tight mortar joints and subtle weathering for a clean, aged stone wall.",
+    "category_id": "bc20bc70-284a-5f14-93eb-78274f6a1fa9",
+    "category": "Brick & Block/Stone Block & Paver/Ashlar & Coursed Stone",
+    "attributes": {
+      "surface_use": "wall",
+      "condition": [
+        "weathered",
+        "worn"
+      ],
+      "origin": "man_made",
+      "setting": "either"
+    },
+    "img_version": "a680b39a",
+    "download_count": 143545,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/medieval_blocks_03.png?width=256&height=256&v=a680b39a"
+  },
+  "medieval_blocks_05": {
+    "type": 1,
+    "tags": [
+      "blocks",
+      "road",
+      "stones",
+      "gaps"
+    ],
+    "date_published": 1543910522,
+    "name": "Medieval Blocks 05",
+    "categories": [
+      "wall",
+      "rock",
+      "man made",
+      "outdoor",
+      "dirty",
+      "floor"
+    ],
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "sponsors": [
+      "4714267"
+    ],
+    "dimensions": [
+      2000,
+      2000
+    ],
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "files_hash": "7bd050096adb56e3882bc061f044a07fc66f78db",
+    "description": "Free 8K texture of weathered medieval block stone, with rough chiseled limestone blocks, deep dirt-filled gaps, chipped edges and uneven, worn surfaces.",
+    "attributes": {
+      "surface_use": "paving",
+      "condition": [
+        "weathered",
+        "damaged",
+        "worn"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "category_id": "99762fb0-f134-5cd9-93f7-5b876875f7c9",
+    "category": "Stone/Cobblestone & Paving/Rough & Irregular Setts",
+    "img_version": "a2bb19c4",
+    "download_count": 68947,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/medieval_blocks_05.png?width=256&height=256&v=a2bb19c4"
+  },
+  "medieval_blocks_06": {
+    "type": 1,
+    "date_published": 1573088927,
+    "name": "Medieval Blocks 06",
+    "categories": [
+      "wall",
+      "man made",
+      "rock",
+      "dirty",
+      "outdoor"
+    ],
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "dimensions": [
+      2000,
+      2000
+    ],
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "files_hash": "b0186ec13e35366507fa07159d79ed438e45e1a6",
+    "tags": [
+      "wall",
+      "blocks",
+      "rocks",
+      "fortress walls",
+      "stonework",
+      "ancient walls",
+      "dungeon",
+      "fort",
+      "stone blocks",
+      "rough",
+      "stone wall"
+    ],
+    "description": "Free 8K texture of weathered medieval stone blocks, rough chiseled beige stone with deep mortar joints, pitted, gritty surface and patches of dirt.",
+    "category_id": "bc20bc70-284a-5f14-93eb-78274f6a1fa9",
+    "category": "Brick & Block/Stone Block & Paver/Ashlar & Coursed Stone",
+    "attributes": {
+      "surface_use": "wall",
+      "condition": [
+        "weathered",
+        "damaged"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "img_version": "eee9baae",
+    "download_count": 30120,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/medieval_blocks_06.png?width=256&height=256&v=eee9baae"
+  },
+  "medieval_red_brick": {
+    "name": "Medieval Red Brick",
+    "categories": [
+      "wall",
+      "brick",
+      "man made"
+    ],
+    "type": 1,
+    "tags": [
+      "concrete",
+      "medieval",
+      "red",
+      "brick",
+      "bricks",
+      "red brick",
+      "walling",
+      "building material",
+      "structural",
+      "textured",
+      "fired brick"
+    ],
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "dimensions": [
+      2000,
+      2000
+    ],
+    "date_published": 1712534400,
+    "max_resolution": [
+      16384,
+      16384
+    ],
+    "sponsors": [
+      "78546118"
+    ],
+    "files_hash": "0c85fc4d6307962d24b467ac6266c8cbce5a353f",
+    "description": "Free 16K texture of medieval red fired brick: rough, weathered bricks with chipped edges, deep mortar joints, varied red-brown tones and gritty surface detail.",
+    "category_id": "9ef0955b-87fa-5826-aa87-98b047ad9143",
+    "category": "Brick & Block/Clay Brick/Running-Bond",
+    "attributes": {
+      "surface_use": "wall",
+      "condition": [
+        "weathered",
+        "damaged"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "img_version": "f0f5ce92",
+    "download_count": 67676,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/medieval_red_brick.png?width=256&height=256&v=f0f5ce92"
+  },
+  "medieval_wall_01": {
+    "type": 1,
+    "tags": [
+      "wall",
+      "rough",
+      "uneven",
+      "plastered"
+    ],
+    "date_published": 1543989813,
+    "name": "Medieval Wall 01",
+    "categories": [
+      "plaster-concrete",
+      "wall",
+      "man made",
+      "outdoor",
+      "indoor",
+      "dirty"
+    ],
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "dimensions": [
+      2000,
+      2000
+    ],
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "files_hash": "08c1f2f29ee8aaf1d09d0b785eb66c6f5292393b",
+    "description": "Free 8K texture of rough medieval plaster: thick, crumbling cream plaster with deep chips, uneven coarse relief and dirt-stained crevices for an aged wall surface.",
+    "category_id": "ebaa964c-b45c-52e2-bd50-892d64616d87",
+    "category": "Concrete/Plaster & Stucco/Bare Plaster",
+    "attributes": {
+      "surface_use": "wall",
+      "condition": [
+        "weathered",
+        "damaged",
+        "cracked"
+      ],
+      "origin": "man_made",
+      "setting": "either"
+    },
+    "img_version": "0fd8f013",
+    "download_count": 60592,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/medieval_wall_01.png?width=256&height=256&v=0fd8f013"
+  },
+  "medieval_wall_02": {
+    "date_published": 1680739200,
+    "name": "Medieval Wall 02",
+    "categories": [
+      "wall",
+      "man made",
+      "rock",
+      "outdoor"
+    ],
+    "type": 1,
+    "dimensions": [
+      3499.999761581421,
+      3500
+    ],
+    "info": null,
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "tags": [
+      "rough",
+      "uneven",
+      "weathered",
+      "old",
+      "wall",
+      "worn",
+      "chipped",
+      "damaged",
+      "cracked",
+      "brown",
+      "rock",
+      "rocks",
+      "concrete",
+      "dungeon",
+      "dry"
+    ],
+    "max_resolution": [
+      16384,
+      16384
+    ],
+    "files_hash": "a41ffb67dfd5ef1d46b739ef56261f8186435d79",
+    "description": "Free 16K texture of a weathered medieval stone wall: rough, uneven brown stone and mortar with chipped, cracked, dry, worn detailing.",
+    "category_id": "6b87bb89-210e-5f4c-a78b-3a4bdfac7fe0",
+    "category": "Stone/Walls & Rubble/Rubble & Random Stone",
+    "attributes": {
+      "surface_use": "wall",
+      "condition": [
+        "weathered",
+        "damaged",
+        "cracked",
+        "worn"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "img_version": "6d660b8e",
+    "download_count": 11784,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/medieval_wall_02.png?width=256&height=256&v=6d660b8e"
+  },
+  "medieval_wood": {
+    "type": 1,
+    "tags": [
+      "planks",
+      "weathered",
+      "old",
+      "uneven"
+    ],
+    "date_published": 1532476453,
+    "name": "Medieval Wood",
+    "categories": [
+      "wood",
+      "wall",
+      "man made",
+      "outdoor",
+      "indoor"
+    ],
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "dimensions": [
+      2000,
+      2000
+    ],
+    "sponsors": [
+      "20953239"
+    ],
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "files_hash": "b8908557c616ef8ae1433ce664aaccbe3f9ed430",
+    "description": "Free 8K texture of weathered medieval wood planks with rough grain, deep grooves, uneven seams and rusted iron rivets.",
+    "category_id": "30ac2613-5076-5364-b4da-130117ad592d",
+    "category": "Wood/Boards & Planks/Weathered Planks",
+    "attributes": {
+      "surface_use": "wall",
+      "condition": [
+        "weathered",
+        "worn"
+      ],
+      "origin": "man_made",
+      "setting": "either"
+    },
+    "img_version": "17b0a7e3",
+    "download_count": 46677,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/medieval_wood.png?width=256&height=256&v=17b0a7e3"
+  },
+  "mixed_rock_tiles": {
+    "type": 1,
+    "name": "Mixed Rock Tiles",
+    "categories": [
+      "floor",
+      "rock"
+    ],
+    "tags": [
+      "rough",
+      "uneven",
+      "old",
+      "pebbles",
+      "rocks",
+      "stone tiles",
+      "embedded rock",
+      "dirty",
+      "stone slabs",
+      "outdoor",
+      "weathered",
+      "embedded pebble"
+    ],
+    "description": "Free 8k mixed rock tiles texture: weathered brown stone slabs with pebble-inlaid joints, rough sedimentary surface, worn edges and grime in crevices.",
+    "authors": {
+      "Dimitrios Savva": "All"
+    },
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "dimensions": [
+      1899.9998569488525,
+      1899.9998569488525
+    ],
+    "files_hash": "a68ddbcfa403c4978b466de08d1dac667f1ae036",
+    "date_published": 1764547200,
+    "category_id": "42008e30-c71f-5d74-af61-22ee59098e60",
+    "category": "Stone/Slabs & Tiles/Mixed-Stone",
+    "attributes": {
+      "surface_use": "floor",
+      "condition": [
+        "weathered",
+        "worn"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "img_version": "82f530b9",
+    "download_count": 2832,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/mixed_rock_tiles.png?width=256&height=256&v=82f530b9"
+  },
+  "monastery_stone_floor": {
+    "date_published": 1682553600,
+    "name": "Monastery Stone Floor",
+    "categories": [
+      "rock",
+      "outdoor",
+      "floor",
+      "man made"
+    ],
+    "type": 1,
+    "authors": {
+      "Amal Kumar": "All"
+    },
+    "info": null,
+    "dimensions": [
+      1799.9999523162842,
+      1799.9999523162842
+    ],
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "tags": [
+      "rock",
+      "rocks",
+      "stone",
+      "floor",
+      "pathway",
+      "slates",
+      "slate",
+      "path",
+      "walkway",
+      "weathered"
+    ],
+    "files_hash": "2b15d54cd0518be212cf14f320c761ab33e71ea6",
+    "description": "Free 8K texture of a weathered monastery stone floor: irregular slate slabs, rough chipped edges, worn faces and gritty mortar joints with dirt.",
+    "category_id": "0dc6c67b-4dfa-5355-ad12-9918fc376459",
+    "category": "Stone/Slabs & Tiles/Slate",
+    "attributes": {
+      "surface_use": "floor",
+      "condition": [
+        "weathered",
+        "worn",
+        "damaged"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "img_version": "1108252e",
+    "download_count": 55856,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/monastery_stone_floor.png?width=256&height=256&v=1108252e"
+  },
+  "mossy_sandstone": {
+    "name": "Mossy Sandstone",
+    "type": 1,
+    "tags": [
+      "rough",
+      "weathered",
+      "uneven",
+      "old",
+      "worn",
+      "wall",
+      "mosscovered",
+      "mossy",
+      "mossy ",
+      "outdoor",
+      "rock",
+      "timeworn",
+      "weatherbeaten",
+      "fortress walls",
+      "moss",
+      "rocks"
+    ],
+    "authors": {
+      "Dimitrios Savva": "All"
+    },
+    "info": null,
+    "dimensions": [
+      1889.9996280670166,
+      1889.9996280670166
+    ],
+    "date_published": 1698883200,
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "files_hash": "787b2e588f6dc6ec9fb0a33333189ddae5627e77",
+    "description": "Free 8K mossy sandstone texture: rough, weathered fortress wall blocks with uneven, timeworn stone and subtle green moss in crevices.",
+    "categories": [
+      "wall",
+      "man made",
+      "sandstone"
+    ],
+    "category_id": "711f00d1-14a5-537f-addc-52bc3da7cd0e",
+    "category": "Brick & Block/Stone Block & Paver/Sandstone Brick & Block",
+    "attributes": {
+      "surface_use": "wall",
+      "condition": [
+        "weathered",
+        "mossy",
+        "worn"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "img_version": "31593055",
+    "download_count": 11325,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/mossy_sandstone.png?width=256&height=256&v=31593055"
+  },
+  "old_sandstone_02": {
+    "name": "Old Sandstone 02",
+    "categories": [
+      "outdoor",
+      "man made",
+      "sandstone",
+      "wall"
+    ],
+    "type": 1,
+    "tags": [
+      "rough",
+      "weathered",
+      "wall",
+      "stone",
+      "sandstone",
+      "old",
+      "worn",
+      "chipped",
+      "aged",
+      "stonework",
+      "brown",
+      "timeworn"
+    ],
+    "authors": {
+      "Dimitrios Savva": "All"
+    },
+    "info": null,
+    "dimensions": [
+      1529.9999713897705,
+      1529.9999713897705
+    ],
+    "date_published": 1684800000,
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "files_hash": "a336dea63c883feba28f6b0ca94a8795b6b8ed80",
+    "description": "Free 8K sandstone texture. Rough, weathered brown stonework with chipped, timeworn block joints and aged, granular surface for outdoor walls.",
+    "category_id": "711f00d1-14a5-537f-addc-52bc3da7cd0e",
+    "category": "Brick & Block/Stone Block & Paver/Sandstone Brick & Block",
+    "attributes": {
+      "surface_use": "wall",
+      "condition": [
+        "weathered",
+        "worn",
+        "damaged"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "img_version": "345a993c",
+    "download_count": 9427,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/old_sandstone_02.png?width=256&height=256&v=345a993c"
+  },
+  "overgrown_concrete_pavers": {
+    "type": 1,
+    "name": "Overgrown Concrete Pavers",
+    "categories": [
+      "outdoor",
+      "floor"
+    ],
+    "tags": [
+      "rough",
+      "weathered",
+      "uneven",
+      "old",
+      "plant debris",
+      "dirt",
+      "overgrown",
+      "concrete pavers",
+      "pavers",
+      "concrete slab",
+      "garden walkway",
+      "walkway",
+      "squares",
+      "outdoor flooring",
+      "scattered leaves",
+      "twigs"
+    ],
+    "description": "Free 8k texture of overgrown concrete pavers - weathered, rough reddish slabs with moss-filled joints, plant debris, cracks and uneven worn edges.",
+    "authors": {
+      "Dimitrios Savva": "All"
+    },
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "dimensions": [
+      2000,
+      2000
+    ],
+    "files_hash": "c87fa72da7a1ed621205f95c62346eb8dd3a1541",
+    "date_published": 1765756800,
+    "category_id": "ce26ba57-ef4b-54d4-a954-9a85bb053b9e",
+    "category": "Brick & Block/Concrete Block & Paver/Interlocking Pavers",
+    "attributes": {
+      "surface_use": "paving",
+      "condition": [
+        "weathered",
+        "mossy",
+        "cracked",
+        "worn"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "img_version": "2628e5db",
+    "download_count": 3419,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/overgrown_concrete_pavers.png?width=256&height=256&v=2628e5db"
+  },
+  "patterned_slate_tiles": {
+    "type": 1,
+    "name": "Patterned Slate Tiles",
+    "categories": [
+      "floor",
+      "man made"
+    ],
+    "tags": [
+      "weathered",
+      "rough",
+      "tiles",
+      "slates",
+      "slate",
+      "exterior",
+      "tiled",
+      "outdoor",
+      "natural",
+      "stone",
+      "patterned",
+      "stonework"
+    ],
+    "authors": {
+      "Dimitrios Savva": "All"
+    },
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "dimensions": [
+      2200.000047683716,
+      2200.000047683716
+    ],
+    "date_published": 1737590400,
+    "files_hash": "3fec1755f38d89630db44f6788e2b64e6b3ac223",
+    "description": "Free 8K texture of patterned, weathered slate tiles: dark, rough stone slabs with irregular edges, worn cracks, gritty mortar joints and a low, natural surface sheen.",
+    "category_id": "0dc6c67b-4dfa-5355-ad12-9918fc376459",
+    "category": "Stone/Slabs & Tiles/Slate",
+    "attributes": {
+      "surface_use": "floor",
+      "condition": [
+        "weathered",
+        "worn"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "img_version": "eb6d0110",
+    "download_count": 5787,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/patterned_slate_tiles.png?width=256&height=256&v=eb6d0110"
+  },
+  "patterned_terracotta_tiling": {
+    "type": 1,
+    "name": "Patterned Terracotta Tiling",
+    "categories": [
+      "floor",
+      "man made",
+      "clean"
+    ],
+    "category": "Ceramic/Terracotta",
+    "attributes": {
+      "surface_use": "floor",
+      "origin": "man_made",
+      "setting": "either",
+      "condition": [
+        "worn"
+      ]
+    },
+    "tags": [
+      "terracotta",
+      "tiles",
+      "grout lines",
+      "grout",
+      "ceramic tiles",
+      "indoor flooring",
+      "indoor",
+      "geometric pattern",
+      "octagonal tiles",
+      "consistent"
+    ],
+    "description": "Free 8K terracotta tile texture with an octagon-and-dot pattern, warm red slabs with small black insets, slight sheen, worn edges and fine grout lines.",
+    "authors": {
+      "Amal Kumar": "All"
+    },
+    "category_id": "6165a492-c53c-5b5f-96df-20c96a7763df",
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "dimensions": [
+      2151.7231464385986,
+      2151.724338531494
+    ],
+    "files_hash": "c689692c267564cb1cc62566ac35f7725f9da654",
+    "date_published": 1786492800,
+    "img_version": "0c59321c",
+    "download_count": 1160,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/patterned_terracotta_tiling.png?width=256&height=256&v=0c59321c"
+  },
+  "red_sandstone_pavement": {
+    "type": 1,
+    "tags": [
+      "weathered",
+      "plaster",
+      "rock",
+      "sandstone",
+      "concrete",
+      "pavement",
+      "floor",
+      "dirty",
+      "discolored",
+      "brown",
+      "red",
+      "rocks",
+      "pathway",
+      "grey"
+    ],
+    "date_published": 1679961600,
+    "name": "Red Sandstone Pavement",
+    "authors": {
+      "Amal Kumar": "All"
+    },
+    "dimensions": [
+      2150.0000953674316,
+      2150.0000953674316
+    ],
+    "info": null,
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "files_hash": "32d99d2030a56f578ae8d81e478856ed09a0f2d7",
+    "sponsors": [
+      "3237733"
+    ],
+    "description": "Free 8K texture of red sandstone pavement with weathered, discolored blocks, rough grain and eroded mortar joints, showing grit, dirt and muted red-brown-grey tones.",
+    "categories": [
+      "outdoor",
+      "floor",
+      "sandstone",
+      "man made",
+      "rock"
+    ],
+    "category_id": "711f00d1-14a5-537f-addc-52bc3da7cd0e",
+    "category": "Brick & Block/Stone Block & Paver/Sandstone Brick & Block",
+    "attributes": {
+      "surface_use": "paving",
+      "condition": [
+        "weathered",
+        "damaged"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "img_version": "05dad87e",
+    "download_count": 24203,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/red_sandstone_pavement.png?width=256&height=256&v=05dad87e"
+  },
+  "red_sandstone_tiles": {
+    "type": 1,
+    "name": "Red Sandstone Tiles",
+    "categories": [
+      "floor",
+      "outdoor",
+      "man made"
+    ],
+    "tags": [
+      "rough",
+      "paving",
+      "sandstone",
+      "coarse",
+      "exterior",
+      "rough  ",
+      "gritty",
+      "stone tiles",
+      "chipped",
+      "stone blocks"
+    ],
+    "description": "Free 8K texture of red sandstone tiles: dark reddish slabs with layered grain, rough stone relief, worn edges, subtle chips, dirt-stained seams, slight sheen.",
+    "authors": {
+      "Amal Kumar": "All"
+    },
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "dimensions": [
+      2050.408124923706,
+      2050.410032272339
+    ],
+    "files_hash": "394ed70d9fe765e99d9bab67e8a036685eb17f6a",
+    "date_published": 1781654400,
+    "category_id": "711f00d1-14a5-537f-addc-52bc3da7cd0e",
+    "category": "Brick & Block/Stone Block & Paver/Sandstone Brick & Block",
+    "attributes": {
+      "surface_use": "paving",
+      "condition": [
+        "weathered",
+        "worn"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "img_version": "52c243af",
+    "download_count": 1982,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/red_sandstone_tiles.png?width=256&height=256&v=52c243af"
+  },
+  "red_sandstone_wall": {
+    "name": "Red Sandstone Wall",
+    "categories": [
+      "man made",
+      "wall",
+      "outdoor",
+      "dirty",
+      "sandstone"
+    ],
+    "type": 1,
+    "info": null,
+    "authors": {
+      "Amal Kumar": "All"
+    },
+    "tags": [
+      "rough",
+      "uneven",
+      "old",
+      "weathered",
+      "wall",
+      "worn",
+      "chipped",
+      "damaged",
+      "cracked",
+      "discolored",
+      "dirty",
+      "concrete",
+      "sandstone",
+      "crumbling",
+      "brown",
+      "dusty"
+    ],
+    "dimensions": [
+      2000,
+      2000
+    ],
+    "date_published": 1678147200,
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "sponsors": [
+      "7934315",
+      "20953239"
+    ],
+    "files_hash": "1ec500ec43df1fb88ec3f183c88b49a9bb4577ed",
+    "description": "Free 8K texture of a weathered red sandstone wall: rough, uneven block faces with protruding mortar, chipped, cracked, discolored and dusty.",
+    "category_id": "711f00d1-14a5-537f-addc-52bc3da7cd0e",
+    "category": "Brick & Block/Stone Block & Paver/Sandstone Brick & Block",
+    "attributes": {
+      "surface_use": "wall",
+      "condition": [
+        "weathered",
+        "damaged",
+        "cracked",
+        "worn"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "img_version": "8f310cc1",
+    "download_count": 9388,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/red_sandstone_wall.png?width=256&height=256&v=8f310cc1"
+  },
+  "rock_face_04": {
+    "type": 1,
+    "name": "Rock Face 04",
+    "categories": [
+      "outdoor",
+      "natural",
+      "rock"
+    ],
+    "category": "Stone/Rock & Cliffs/Rough Rock Faces",
+    "attributes": {
+      "surface_use": "wall",
+      "origin": "natural",
+      "setting": "outdoor",
+      "condition": [
+        "weathered",
+        "dirty",
+        "cracked"
+      ]
+    },
+    "tags": [
+      "rough",
+      "uneven",
+      "weathered",
+      "old",
+      "cracked",
+      "chipped",
+      "rock face",
+      "rock",
+      "leaves",
+      "dry leaves",
+      "fallen leaves",
+      "cracks",
+      "striated",
+      "geological"
+    ],
+    "description": "Free 8K rock face texture with dark, weathered slabs, deep fractured seams, and leaf litter in crevices. Rough, earthy tones with subtle sheen.",
+    "authors": {
+      "Dimitrios Savva": "All"
+    },
+    "category_id": "bf84369c-cc7c-5347-ad17-173353e859b8",
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "dimensions": [
+      2000,
+      2000
+    ],
+    "files_hash": "cab69c8b2b5c5dc82a8d7a5ae9bd82889894a363",
+    "date_published": 1787529600,
+    "img_version": "815aa0e0",
+    "download_count": 909,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/rock_face_04.png?width=256&height=256&v=815aa0e0"
+  },
+  "rock_pitted_mossy": {
+    "type": 1,
+    "tags": [
+      "cracked",
+      "weathered",
+      "rock face",
+      "rock",
+      "boulder",
+      "red",
+      "discolored",
+      "eroded",
+      "moss",
+      "stone",
+      "uneven",
+      "rough",
+      "orange"
+    ],
+    "name": "Rock Pitted Mossy",
+    "categories": [
+      "outdoor",
+      "rock",
+      "terrain",
+      "natural",
+      "sandstone"
+    ],
+    "authors": {
+      "Dimitrios Savva": "Photography",
+      "Rico Cilliers": "Processing"
+    },
+    "date_published": 1637798400,
+    "sponsors": [
+      "9910225"
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "files_hash": "831788b7bbeb28eb4fdc5a410c6a42a449bb7c45",
+    "description": "Free 8K rock texture showing weathered, pitted sandstone with orange-red tones, a rough uneven surface, deep erosion lines and subtle moss discoloration.",
+    "category_id": "78e4c120-24c3-5f41-b48a-01617c52bc26",
+    "category": "Stone/Rock & Cliffs/Boulder Surfaces",
+    "attributes": {
+      "surface_use": "wall",
+      "condition": [
+        "weathered",
+        "mossy"
+      ],
+      "origin": "natural",
+      "setting": "outdoor"
+    },
+    "img_version": "5ba3c161",
+    "download_count": 77361,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/rock_pitted_mossy.png?width=256&height=256&v=5ba3c161"
+  },
+  "rocks_ground_06": {
+    "type": 1,
+    "date_published": 1601461624,
+    "name": "Rocks Ground 06",
+    "categories": [
+      "terrain",
+      "outdoor",
+      "rock",
+      "natural"
+    ],
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "dimensions": [
+      3000,
+      3000
+    ],
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "files_hash": "785f48b4c1c6275867bd078675a7708fc34c828c",
+    "tags": [
+      "rocks",
+      "rough",
+      "broken",
+      "rock",
+      "uneven",
+      "gravel",
+      "scattered pebbles",
+      "scattered rocks",
+      "coastal",
+      "layered rock"
+    ],
+    "description": "Free 8K texture of rough, layered coastal rock and broken slabs with scattered pebbles, gravel and sandy, weathered surfaces, uneven, coarse, earthy tones.",
+    "attributes": {
+      "surface_use": "ground",
+      "condition": [
+        "weathered"
+      ],
+      "origin": "natural",
+      "setting": "outdoor"
+    },
+    "category_id": "9c496835-a9db-515f-bb54-0382019905d7",
+    "category": "Ground & Terrain/Rocky Ground",
+    "img_version": "e5068954",
+    "download_count": 66277,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/rocks_ground_06.png?width=256&height=256&v=e5068954"
+  },
+  "rocky_terrain": {
+    "name": "Rocky Terrain",
+    "type": 1,
+    "tags": [
+      "rock face",
+      "rocky",
+      "solid rock",
+      "nature",
+      "grass",
+      "terrain",
+      "wilderness",
+      "uneven terrain",
+      "mountain",
+      "rugged",
+      "landscape"
+    ],
+    "authors": {
+      "Amal Kumar": "All"
+    },
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "dimensions": [
+      90000,
+      90000
+    ],
+    "date_published": 1723507200,
+    "categories": [
+      "outdoor",
+      "terrain",
+      "natural",
+      "rock",
+      "aerial"
+    ],
+    "files_hash": "ed4f64ced98e133be04387b75d6e827a375e9b04",
+    "description": "Free 8K texture of rugged rocky terrain with layered stone slabs, compacted soil and grass patches; detailed uneven terrain",
+    "category_id": "ad8bbc58-82b8-5734-a99b-3fbdb7f0163c",
+    "category": "Ground & Terrain/Rocky Ground/Rocky Landscape",
+    "attributes": {
+      "surface_use": "ground",
+      "condition": [
+        "weathered"
+      ],
+      "origin": "natural",
+      "setting": "outdoor",
+      "aerial": true
+    },
+    "img_version": "ee1e6791",
+    "download_count": 81184,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/rocky_terrain.png?width=256&height=256&v=ee1e6791"
+  },
+  "sandstone_blocks_04": {
+    "type": 1,
+    "tags": [
+      "rough",
+      "sandstone",
+      "flat",
+      "uneven",
+      "old"
+    ],
+    "date_published": 1547368261,
+    "name": "Sandstone Blocks 04",
+    "categories": [
+      "wall",
+      "man made",
+      "outdoor",
+      "clean",
+      "brick"
+    ],
+    "dimensions": [
+      3000,
+      3000
+    ],
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "sponsors": [
+      "20953239"
+    ],
+    "files_hash": "9f7a07ce2305d23e0773f9fd18b66e2a9c1279db",
+    "description": "Free 8K texture of weathered sandstone blocks with rough, uneven faces, soft beige tones, thin block joints and subtle erosion on a flat wall surface.",
+    "category_id": "711f00d1-14a5-537f-addc-52bc3da7cd0e",
+    "category": "Brick & Block/Stone Block & Paver/Sandstone Brick & Block",
+    "attributes": {
+      "surface_use": "wall",
+      "condition": [
+        "weathered"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "img_version": "e2f2a20a",
+    "download_count": 41415,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/sandstone_blocks_04.png?width=256&height=256&v=e2f2a20a"
+  },
+  "sandstone_blocks_05": {
+    "type": 1,
+    "tags": [
+      "blocks",
+      "old",
+      "rough",
+      "uneven",
+      "large",
+      "sandstone"
+    ],
+    "date_published": 1542935874,
+    "name": "Sandstone Blocks 05",
+    "categories": [
+      "wall",
+      "man made",
+      "outdoor",
+      "brick"
+    ],
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "dimensions": [
+      3000,
+      3000
+    ],
+    "sponsors": [
+      "59361351"
+    ],
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "files_hash": "b163839c0b009d5faf11ee21603873c4bff5ef7b",
+    "description": "Free 8K texture - weathered sandstone block wall with large, uneven, rough-hewn stones in warm beige tones, pronounced surface relief and porous, eroded edges.",
+    "category_id": "711f00d1-14a5-537f-addc-52bc3da7cd0e",
+    "category": "Brick & Block/Stone Block & Paver/Sandstone Brick & Block",
+    "attributes": {
+      "surface_use": "wall",
+      "condition": [
+        "weathered"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "img_version": "519ac374",
+    "download_count": 101166,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/sandstone_blocks_05.png?width=256&height=256&v=519ac374"
+  },
+  "sandstone_blocks_08": {
+    "type": 1,
+    "tags": [
+      "blocks",
+      "uneven",
+      "large",
+      "sandstone"
+    ],
+    "date_published": 1539053242,
+    "name": "Sandstone Blocks 08",
+    "categories": [
+      "wall",
+      "floor",
+      "man made",
+      "outdoor",
+      "clean",
+      "indoor"
+    ],
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "dimensions": [
+      3000,
+      3000
+    ],
+    "sponsors": [
+      "20953239"
+    ],
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "files_hash": "c0b33b1e055d95bdf78737ef27f3cf9e1bd48d4f",
+    "description": "Free 8K sandstone texture: tan, large uneven blocks with soft rounded edges, shallow joints, subtle tool marks and a light dusty surface.",
+    "category_id": "711f00d1-14a5-537f-addc-52bc3da7cd0e",
+    "category": "Brick & Block/Stone Block & Paver/Sandstone Brick & Block",
+    "attributes": {
+      "surface_use": "wall",
+      "origin": "man_made",
+      "setting": "either",
+      "condition": [
+        "clean"
+      ]
+    },
+    "img_version": "c7e6aab5",
+    "download_count": 61184,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/sandstone_blocks_08.png?width=256&height=256&v=c7e6aab5"
+  },
+  "sandstone_brick_wall_01": {
+    "type": 1,
+    "tags": [
+      "red",
+      "rough",
+      "uneven",
+      "industrial",
+      "baked",
+      "urban",
+      "weathered"
+    ],
+    "name": "Sandstone Brick Wall 01",
+    "categories": [
+      "wall",
+      "brick",
+      "man made",
+      "outdoor",
+      "sandstone"
+    ],
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "date_published": 1634169600,
+    "dimensions": [
+      2000,
+      2000
+    ],
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "files_hash": "d07198d3b906fd46ec1b358d73a9ed14f23ebf57",
+    "description": "Free 8K texture of weathered red sandstone brick wall, rough uneven bricks with chipped edges, gritty mortar and worn concrete bands, baked urban surface.",
+    "category_id": "711f00d1-14a5-537f-addc-52bc3da7cd0e",
+    "category": "Brick & Block/Stone Block & Paver/Sandstone Brick & Block",
+    "attributes": {
+      "surface_use": "wall",
+      "condition": [
+        "weathered",
+        "damaged"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "img_version": "abd20079",
+    "download_count": 21082,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/sandstone_brick_wall_01.png?width=256&height=256&v=abd20079"
+  },
+  "sandstone_cracks": {
+    "type": 1,
+    "tags": [
+      "rough",
+      "dirt",
+      "ground",
+      "sandstone",
+      "cracked",
+      "plaster"
+    ],
+    "date_published": 1541405109,
+    "name": "Sandstone Cracks",
+    "categories": [
+      "wall",
+      "floor",
+      "natural",
+      "man made",
+      "outdoor",
+      "road",
+      "terrain"
+    ],
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "sponsors": [
+      "8571269"
+    ],
+    "dimensions": [
+      2000,
+      2000
+    ],
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "files_hash": "b7905a82d54b5079e40ca178e09f25bf1de5dcca",
+    "description": "Free 8K sandstone cracks texture - rough, sandy surface in warm beige, dusty erosion with fine fissures and plaster-like granular detail.",
+    "category_id": "b79564de-1eea-52fe-b6db-f55024588749",
+    "category": "Stone/Slabs & Tiles/Sandstone",
+    "attributes": {
+      "surface_use": "ground",
+      "condition": [
+        "cracked"
+      ],
+      "origin": "natural",
+      "setting": "outdoor"
+    },
+    "img_version": "5bc18cfd",
+    "download_count": 118621,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/sandstone_cracks.png?width=256&height=256&v=5bc18cfd"
+  },
+  "seaworn_sandstone_brick": {
+    "name": "Seaworn Sandstone Brick",
+    "categories": [
+      "brick",
+      "sandstone",
+      "outdoor",
+      "wall",
+      "man made"
+    ],
+    "type": 1,
+    "authors": {
+      "Dimitrios Savva": "All"
+    },
+    "dimensions": [
+      1690.0001764297485,
+      1690.0001764297485
+    ],
+    "date_published": 1712188800,
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "files_hash": "eea84d17c3eba870e6a845474c1ff09e37b79375",
+    "tags": [
+      "rough",
+      "worn",
+      "precast",
+      "concrete",
+      "blocks",
+      "brick",
+      "bricks",
+      "sandstone",
+      "rustic",
+      "weathered"
+    ],
+    "description": "Free 8K Seaworn Sandstone Brick texture - rough, weathered sandstone bricks with worn edges, sandy grain, subtle erosion and recessed mortar joints.",
+    "category_id": "711f00d1-14a5-537f-addc-52bc3da7cd0e",
+    "category": "Brick & Block/Stone Block & Paver/Sandstone Brick & Block",
+    "attributes": {
+      "surface_use": "wall",
+      "condition": [
+        "weathered",
+        "worn"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "img_version": "adb418e4",
+    "download_count": 42738,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/seaworn_sandstone_brick.png?width=256&height=256&v=adb418e4"
+  },
+  "slab_tiles": {
+    "date_published": 1666051200,
+    "name": "Slab Tiles",
+    "categories": [
+      "floor",
+      "man made",
+      "rock",
+      "indoor"
+    ],
+    "type": 1,
+    "authors": {
+      "Dario Barresi": "Processing",
+      "Dimitrios Savva": "Photography"
+    },
+    "info": null,
+    "dimensions": [
+      2369.999885559082,
+      2370.000123977661
+    ],
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "tags": [
+      "flat",
+      "rocks",
+      "smooth",
+      "floor",
+      "stone",
+      "slates",
+      "tiles"
+    ],
+    "files_hash": "7ff1c0a5b9538fa9feaada26c38e88448de789d4",
+    "description": "Free 8K texture of dark slate slab tiles with brown mortar; smooth, slightly worn stone with a low-gloss, reflective finish.",
+    "category_id": "0dc6c67b-4dfa-5355-ad12-9918fc376459",
+    "category": "Stone/Slabs & Tiles/Slate",
+    "attributes": {
+      "surface_use": "floor",
+      "condition": [
+        "worn"
+      ],
+      "origin": "man_made",
+      "setting": "indoor"
+    },
+    "img_version": "575c51ba",
+    "download_count": 58737,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/slab_tiles.png?width=256&height=256&v=575c51ba"
+  },
+  "slate_driveway": {
+    "name": "Slate Driveway",
+    "type": 1,
+    "tags": [
+      "rough",
+      "old",
+      "worn",
+      "concrete",
+      "slate",
+      "slates",
+      "rock",
+      "exterior",
+      "driveway",
+      "stone",
+      "stonework",
+      "cracked cement"
+    ],
+    "authors": {
+      "Dimitrios Savva": "All"
+    },
+    "info": null,
+    "dimensions": [
+      2090.0001525878906,
+      2090.0001525878906
+    ],
+    "date_published": 1689206400,
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "files_hash": "77614f52692fd140d58e0ac13d47c062b0b01709",
+    "description": "Free 8K texture of a worn slate driveway: dark irregular slate slabs set in rough, cracked cement mortar with weathered edges and soil-filled joints.",
+    "categories": [
+      "man made",
+      "outdoor",
+      "floor"
+    ],
+    "category_id": "0dc6c67b-4dfa-5355-ad12-9918fc376459",
+    "category": "Stone/Slabs & Tiles/Slate",
+    "attributes": {
+      "surface_use": "paving",
+      "condition": [
+        "weathered",
+        "worn",
+        "cracked"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "img_version": "821d2f9b",
+    "download_count": 17642,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/slate_driveway.png?width=256&height=256&v=821d2f9b"
+  },
+  "slate_floor_02": {
+    "name": "Slate Floor 02",
+    "categories": [
+      "floor",
+      "cobblestone",
+      "rock"
+    ],
+    "type": 1,
+    "tags": [
+      "old",
+      "weathered",
+      "worn",
+      "slates",
+      "slate",
+      "floor",
+      "vintage",
+      "rustic",
+      "rustic architecture",
+      "natural",
+      "traditional",
+      "stone floor"
+    ],
+    "authors": {
+      "Dimitrios Savva": "All"
+    },
+    "dimensions": [
+      2000,
+      2000
+    ],
+    "date_published": 1712275200,
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "files_hash": "758e581165d13c5ae4d65a74ebfd1143af550db7",
+    "description": "Free 8K texture of weathered reddish-brown slate floor with irregular stone slabs, worn edges, mortar joints and subtle glossy wear that reveals natural veining.",
+    "category_id": "0dc6c67b-4dfa-5355-ad12-9918fc376459",
+    "category": "Stone/Slabs & Tiles/Slate",
+    "attributes": {
+      "surface_use": "floor",
+      "condition": [
+        "weathered",
+        "worn"
+      ],
+      "origin": "man_made"
+    },
+    "img_version": "87259e4a",
+    "download_count": 15512,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/slate_floor_02.png?width=256&height=256&v=87259e4a"
+  },
+  "stone_tiles_02": {
+    "date_published": 1679788800,
+    "name": "Stone Tiles 02",
+    "categories": [
+      "floor",
+      "rock",
+      "outdoor",
+      "wall"
+    ],
+    "type": 1,
+    "dimensions": [
+      2000,
+      2000
+    ],
+    "info": null,
+    "authors": {
+      "Charlotte Baglioni": "All"
+    },
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "tags": [
+      "uneven",
+      "rock",
+      "stones",
+      "stone",
+      "floor",
+      "tiles",
+      "rocks",
+      "slates"
+    ],
+    "sponsors": [
+      "4714267"
+    ],
+    "files_hash": "746cd3c7d37b94201ed0cb4e9a407e0c7b013caf",
+    "description": "Free 8K stone tile texture featuring uneven slate slabs, rough chiseled surfaces, defined grout joints and subtle weathering, with natural color variation.",
+    "category_id": "0dc6c67b-4dfa-5355-ad12-9918fc376459",
+    "category": "Stone/Slabs & Tiles/Slate",
+    "attributes": {
+      "surface_use": "floor",
+      "condition": [
+        "weathered"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "img_version": "fbbcd60a",
+    "download_count": 131457,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/stone_tiles_02.png?width=256&height=256&v=fbbcd60a"
+  },
+  "white_sandstone_blocks_02": {
+    "date_published": 1530331927,
+    "name": "White Sandstone Blocks 02",
+    "type": 1,
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "dimensions": [
+      2000,
+      2000
+    ],
+    "categories": [
+      "brick",
+      "man made",
+      "outdoor",
+      "wall",
+      "collection: the_shed"
+    ],
+    "tags": [
+      "blocks",
+      "sandstone",
+      "uneven",
+      "damaged"
+    ],
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "files_hash": "311e05c6993568fa9d3f1a0cf24730ca9b0f91d6",
+    "description": "Free 8K texture of white sandstone blocks - uneven, chipped blocks with rough, granular surfaces, deep mortar joints and subtle beige dusting and weathered details.",
+    "category_id": "711f00d1-14a5-537f-addc-52bc3da7cd0e",
+    "category": "Brick & Block/Stone Block & Paver/Sandstone Brick & Block",
+    "collections": [
+      "the_shed"
+    ],
+    "attributes": {
+      "surface_use": "wall",
+      "condition": [
+        "weathered",
+        "damaged"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "img_version": "0b9d17c5",
+    "download_count": 55686,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/white_sandstone_blocks_02.png?width=256&height=256&v=0b9d17c5"
+  },
+  "white_sandstone_bricks": {
+    "date_published": 1529359200,
+    "name": "White Sandstone Bricks",
+    "categories": [
+      "brick",
+      "man made",
+      "outdoor",
+      "wall"
+    ],
+    "type": 1,
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "tags": [
+      "blocks",
+      "sandstone",
+      "uneven",
+      "damaged",
+      "worn",
+      "plastered",
+      "old",
+      "crumbling"
+    ],
+    "dimensions": [
+      2000,
+      2000
+    ],
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "files_hash": "1c3b318fccb3bc0f292ddd3d239eca1b7f25f67a",
+    "description": "Free 8K texture of white sandstone bricks with uneven, worn blocks, crumbling plaster and rough, chipped mortar, aged, dusty surface with weathered relief.",
+    "category_id": "711f00d1-14a5-537f-addc-52bc3da7cd0e",
+    "category": "Brick & Block/Stone Block & Paver/Sandstone Brick & Block",
+    "attributes": {
+      "surface_use": "wall",
+      "condition": [
+        "weathered",
+        "damaged",
+        "worn"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "img_version": "6a89430d",
+    "download_count": 31940,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/white_sandstone_bricks.png?width=256&height=256&v=6a89430d"
+  },
+  "white_sandstone_bricks_03": {
+    "type": 1,
+    "tags": [
+      "blocks",
+      "white",
+      "standstone",
+      "uneven"
+    ],
+    "date_published": 1536368840,
+    "name": "White Sandstone Bricks 03",
+    "categories": [
+      "brick",
+      "man made",
+      "outdoor",
+      "wall",
+      "clean"
+    ],
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "dimensions": [
+      2000,
+      2000
+    ],
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "files_hash": "63dc5741daae0e2eaa78cf765c4c8220cfc6606d",
+    "description": "Free 8K white sandstone brick texture showcasing uneven, weathered blocks with subtle mortar lines, gentle roughness, and light sandy color variation.",
+    "category_id": "711f00d1-14a5-537f-addc-52bc3da7cd0e",
+    "category": "Brick & Block/Stone Block & Paver/Sandstone Brick & Block",
+    "attributes": {
+      "surface_use": "wall",
+      "condition": [
+        "weathered"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "img_version": "f97c27de",
+    "download_count": 47757,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/white_sandstone_bricks_03.png?width=256&height=256&v=f97c27de"
+  },
+  "worn_rock_natural_01": {
+    "name": "Worn Rock Natural 01",
+    "categories": [
+      "outdoor",
+      "natural",
+      "terrain",
+      "rock",
+      "sandstone"
+    ],
+    "type": 1,
+    "tags": [
+      "weathered",
+      "yellow",
+      "rock face",
+      "rock",
+      "flat",
+      "brown",
+      "boulder",
+      "cliff",
+      "chipped",
+      "nature",
+      "costal"
+    ],
+    "info": null,
+    "authors": {
+      "Rob Tuytel": "Processing",
+      "Dimitrios Savva": "Photography"
+    },
+    "dimensions": [
+      2000,
+      2000
+    ],
+    "date_published": 1661385600,
+    "prepaid": true,
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "files_hash": "a5e10beb7649207d76c559cc7f3792e334a1c6d2",
+    "description": "Free 8K texture of weathered yellow-brown sandstone: coarse, chipped and pitted rock face with matte, grainy surface and subtle yellow lichen speckles.",
+    "category_id": "bf84369c-cc7c-5347-ad17-173353e859b8",
+    "category": "Stone/Rock & Cliffs/Rough Rock Faces",
+    "attributes": {
+      "condition": [
+        "weathered",
+        "damaged"
+      ],
+      "origin": "natural",
+      "setting": "outdoor"
+    },
+    "img_version": "f5356574",
+    "download_count": 53734,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/worn_rock_natural_01.png?width=256&height=256&v=f5356574"
+  }
+}

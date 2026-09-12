@@ -1,0 +1,288 @@
+{
+  "triangles": 78926,
+  "positive_dot": 78926,
+  "negative_dot": 0,
+  "degenerate": 0,
+  "top_up_faces": 74525,
+  "minimum_area": 1.3017321103179647e-06,
+  "boundary_edges": 14572,
+  "nonmanifold_overfull_edges": 0,
+  "vertices": 49398,
+  "finite": true,
+  "attribute_lengths_match": true,
+  "indices_valid": true,
+  "normal_length_range": [
+    0.9999998646224859,
+    1.0000001129492753
+  ],
+  "hero_count": 24,
+  "parts": [
+    {
+      "name": "Continuous recessed source stonebed",
+      "triangles": 64256,
+      "welded_boundary_edges": 1068,
+      "overfull_edges": 0,
+      "min_y": -0.063600004,
+      "max_y": -0.024868827,
+      "source_uv_max_error": 2.2813043543123968e-07
+    },
+    {
+      "name": "HeroScanSlab_00_right_lower_flag",
+      "triangles": 690,
+      "welded_boundary_edges": 0,
+      "overfull_edges": 0,
+      "min_y": -0.115000002,
+      "max_y": -0.020861493,
+      "source_uv_max_error": 1.1452173920289965e-07,
+      "signed_closed_volume_m3": 0.12821390673694513
+    },
+    {
+      "name": "HeroScanSlab_01_right_lower_flag",
+      "triangles": 690,
+      "welded_boundary_edges": 0,
+      "overfull_edges": 0,
+      "min_y": -0.115000002,
+      "max_y": -0.010092307,
+      "source_uv_max_error": 5.7521738927590604e-08,
+      "signed_closed_volume_m3": 0.1689194591140321
+    },
+    {
+      "name": "HeroScanSlab_02_right_lower_flag",
+      "triangles": 690,
+      "welded_boundary_edges": 0,
+      "overfull_edges": 0,
+      "min_y": -0.115000002,
+      "max_y": -0.005032655,
+      "source_uv_max_error": 5.7565217481680975e-08,
+      "signed_closed_volume_m3": 0.1795809632031855
+    },
+    {
+      "name": "HeroScanSlab_03_lower_broad_fractured",
+      "triangles": 700,
+      "welded_boundary_edges": 0,
+      "overfull_edges": 0,
+      "min_y": -0.115000002,
+      "max_y": 0.000532856,
+      "source_uv_max_error": 1.1754555728771265e-07,
+      "signed_closed_volume_m3": 0.1378859078021572
+    },
+    {
+      "name": "HeroScanSlab_04_lower_broad_fractured",
+      "triangles": 700,
+      "welded_boundary_edges": 0,
+      "overfull_edges": 0,
+      "min_y": -0.115000002,
+      "max_y": 0.007634147,
+      "source_uv_max_error": 1.4782608692698318e-08,
+      "signed_closed_volume_m3": 0.17774630546954606
+    },
+    {
+      "name": "HeroScanSlab_05_lower_broad_fractured",
+      "triangles": 700,
+      "welded_boundary_edges": 0,
+      "overfull_edges": 0,
+      "min_y": -0.115000002,
+      "max_y": -0.004674301,
+      "source_uv_max_error": 2.8978260790957222e-08,
+      "signed_closed_volume_m3": 0.15944434843853636
+    },
+    {
+      "name": "HeroScanSlab_06_large_upper_left",
+      "triangles": 670,
+      "welded_boundary_edges": 0,
+      "overfull_edges": 0,
+      "min_y": -0.115000002,
+      "max_y": -0.01979278,
+      "source_uv_max_error": 5.7565217481680975e-08,
+      "signed_closed_volume_m3": 0.10974251972037843
+    },
+    {
+      "name": "HeroScanSlab_07_large_upper_left",
+      "triangles": 670,
+      "welded_boundary_edges": 0,
+      "overfull_edges": 0,
+      "min_y": -0.115000002,
+      "max_y": -0.011205559,
+      "source_uv_max_error": 2.8999999956980105e-08,
+      "signed_closed_volume_m3": 0.14474780728025607
+    },
+    {
+      "name": "HeroScanSlab_08_large_upper_left",
+      "triangles": 670,
+      "welded_boundary_edges": 0,
+      "overfull_edges": 0,
+      "min_y": -0.115000002,
+      "max_y": -0.008147553,
+      "source_uv_max_error": 1.1452173964698886e-07,
+      "signed_closed_volume_m3": 0.15380702379587405
+    },
+    {
+      "name": "HeroScanSlab_09_lower_tall",
+      "triangles": 610,
+      "welded_boundary_edges": 0,
+      "overfull_edges": 0,
+      "min_y": -0.115000002,
+      "max_y": 0.002035566,
+      "source_uv_max_error": 1.1937348132207148e-07,
+      "signed_closed_volume_m3": 0.10725404285751486
+    },
+    {
+      "name": "HeroScanSlab_10_lower_tall",
+      "triangles": 610,
+      "welded_boundary_edges": 0,
+      "overfull_edges": 0,
+      "min_y": -0.115000002,
+      "max_y": 0.00988565,
+      "source_uv_max_error": 1.1447826109289849e-07,
+      "signed_closed_volume_m3": 0.13827762241593106
+    },
+    {
+      "name": "HeroScanSlab_11_lower_tall",
+      "triangles": 610,
+      "welded_boundary_edges": 0,
+      "overfull_edges": 0,
+      "min_y": -0.115000002,
+      "max_y": -0.002524196,
+      "source_uv_max_error": 2.8869565182887413e-08,
+      "signed_closed_volume_m3": 0.12418633920760722
+    },
+    {
+      "name": "HeroScanSlab_12_bottom_broad",
+      "triangles": 610,
+      "welded_boundary_edges": 0,
+      "overfull_edges": 0,
+      "min_y": -0.115000002,
+      "max_y": -0.022487432,
+      "source_uv_max_error": 5.7478260817589444e-08,
+      "signed_closed_volume_m3": 0.08090558271892301
+    },
+    {
+      "name": "HeroScanSlab_13_bottom_broad",
+      "triangles": 610,
+      "welded_boundary_edges": 0,
+      "overfull_edges": 0,
+      "min_y": -0.115000002,
+      "max_y": -0.013221867,
+      "source_uv_max_error": 1.1447826109289849e-07,
+      "signed_closed_volume_m3": 0.10694601905748156
+    },
+    {
+      "name": "HeroScanSlab_14_bottom_broad",
+      "triangles": 610,
+      "welded_boundary_edges": 0,
+      "overfull_edges": 0,
+      "min_y": -0.115000002,
+      "max_y": -0.005985249,
+      "source_uv_max_error": 5.747826103963405e-08,
+      "signed_closed_volume_m3": 0.1135213515818611
+    },
+    {
+      "name": "HeroScanSlab_15_lower_right_fractured",
+      "triangles": 560,
+      "welded_boundary_edges": 0,
+      "overfull_edges": 0,
+      "min_y": -0.115000002,
+      "max_y": 0.000754851,
+      "source_uv_max_error": 1.1853718273613367e-07,
+      "signed_closed_volume_m3": 0.08667918331349495
+    },
+    {
+      "name": "HeroScanSlab_16_lower_right_fractured",
+      "triangles": 560,
+      "welded_boundary_edges": 0,
+      "overfull_edges": 0,
+      "min_y": -0.115000002,
+      "max_y": 0.008084902,
+      "source_uv_max_error": 1.1452173920289965e-07,
+      "signed_closed_volume_m3": 0.11177265774812158
+    },
+    {
+      "name": "HeroScanSlab_17_lower_right_fractured",
+      "triangles": 560,
+      "welded_boundary_edges": 0,
+      "overfull_edges": 0,
+      "min_y": -0.115000002,
+      "max_y": -0.005919312,
+      "source_uv_max_error": 5.7521738927590604e-08,
+      "signed_closed_volume_m3": 0.10022589506168172
+    },
+    {
+      "name": "HeroScanSlab_18_lower_left_rectangle",
+      "triangles": 540,
+      "welded_boundary_edges": 0,
+      "overfull_edges": 0,
+      "min_y": -0.115000002,
+      "max_y": -0.023075782,
+      "source_uv_max_error": 1.1452173875881044e-07,
+      "signed_closed_volume_m3": 0.06301997473534002
+    },
+    {
+      "name": "HeroScanSlab_19_lower_left_rectangle",
+      "triangles": 540,
+      "welded_boundary_edges": 0,
+      "overfull_edges": 0,
+      "min_y": -0.115000002,
+      "max_y": -0.011988873,
+      "source_uv_max_error": 5.734782626554136e-08,
+      "signed_closed_volume_m3": 0.08341011859224803
+    },
+    {
+      "name": "HeroScanSlab_20_lower_left_rectangle",
+      "triangles": 540,
+      "welded_boundary_edges": 0,
+      "overfull_edges": 0,
+      "min_y": -0.115000002,
+      "max_y": -0.008887463,
+      "source_uv_max_error": 1.4652173863094475e-08,
+      "signed_closed_volume_m3": 0.08862192877859326
+    },
+    {
+      "name": "HeroScanSlab_21_central_rectangle",
+      "triangles": 510,
+      "welded_boundary_edges": 0,
+      "overfull_edges": 0,
+      "min_y": -0.115000002,
+      "max_y": 0.001791844,
+      "source_uv_max_error": 3.008908977530922e-08,
+      "signed_closed_volume_m3": 0.07497161630209603
+    },
+    {
+      "name": "HeroScanSlab_22_central_rectangle",
+      "triangles": 510,
+      "welded_boundary_edges": 0,
+      "overfull_edges": 0,
+      "min_y": -0.115000002,
+      "max_y": 0.006887954,
+      "source_uv_max_error": 2.8956521846978944e-08,
+      "signed_closed_volume_m3": 0.09676820374538483
+    },
+    {
+      "name": "HeroScanSlab_23_central_rectangle",
+      "triangles": 510,
+      "welded_boundary_edges": 0,
+      "overfull_edges": 0,
+      "min_y": -0.115000002,
+      "max_y": -0.003062826,
+      "source_uv_max_error": 5.760869581372674e-08,
+      "signed_closed_volume_m3": 0.08667986046431272
+    }
+  ],
+  "exposed_stone_count": 10,
+  "fully_submerged_stone_count": 14,
+  "sources_preserved": true,
+  "mesh_sha256": "4f8088145c1a8a065563a1f55f9e30ad00e8f9be93e1cebeaa5af7aea850346f",
+  "world_bounds": [
+    [
+      -8.936228752,
+      -0.115000002,
+      -11.101970673
+    ],
+    [
+      9.040660858,
+      0.00988565,
+      21.067903519
+    ]
+  ],
+  "xz_bound_difference_m": 3.9257841422113415e-10,
+  "passed": true
+}

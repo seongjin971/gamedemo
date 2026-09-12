@@ -1,0 +1,3756 @@
+{
+  "anti_slip_concrete": {
+    "name": "Anti Slip Concrete",
+    "type": 1,
+    "tags": [
+      "rough",
+      "concrete",
+      "antislip",
+      "outdoor",
+      "weathered",
+      "exterior",
+      "scuffed",
+      "chipped",
+      "scratched",
+      "nonslip",
+      "pavement",
+      "rough  ",
+      "coarse"
+    ],
+    "authors": {
+      "Charlotte Baglioni": "All"
+    },
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "dimensions": [
+      2500,
+      2500
+    ],
+    "date_published": 1731542400,
+    "files_hash": "6cb6548b7d539a2af92acae83c8943a7140ed444",
+    "description": "Free 8K texture: weathered anti-slip concrete with raised tactile dots, coarse gritty surface, scuffed, chipped and scratched exterior pavement material.",
+    "categories": [
+      "floor",
+      "man made",
+      "concrete",
+      "plaster-concrete"
+    ],
+    "category_id": "8e19ddef-056e-5554-834d-2fd52f1c17f7",
+    "category": "Concrete/Cast Walls & Floors/Trowel & Brushed Finish",
+    "attributes": {
+      "surface_use": "floor",
+      "condition": [
+        "weathered",
+        "damaged",
+        "worn"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "img_version": "231e4142",
+    "download_count": 4349,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/anti_slip_concrete.png?width=256&height=256&v=231e4142"
+  },
+  "brick_floor_003": {
+    "type": 1,
+    "tags": [
+      "brown",
+      "floor",
+      "pavement"
+    ],
+    "date_published": 1618385199,
+    "name": "Brick Floor 003",
+    "categories": [
+      "floor",
+      "brick",
+      "man made",
+      "outdoor",
+      "indoor",
+      "clean",
+      "wall"
+    ],
+    "authors": {
+      "Rob Tuytel": "Processing",
+      "Dimitrios Savva": "Photography"
+    },
+    "dimensions": [
+      2000,
+      2000
+    ],
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "files_hash": "d678724ce0f1e0b7dda21265e6e2b50e135222dc",
+    "description": "Free 8K texture: clean brown brick floor with rectangular stones, rough chiseled surface, deep mortar joints and subtle edge wear for realistic pavements.",
+    "category_id": "5aa99c3f-7783-51e3-90d1-2c496368ad24",
+    "attributes": {
+      "surface_use": "paving",
+      "condition": [
+        "worn"
+      ],
+      "origin": "man_made",
+      "setting": "either"
+    },
+    "category": "Stone/Cobblestone & Paving/Cut Setts & Pavers",
+    "img_version": "d8e356ba",
+    "download_count": 46338,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/brick_floor_003.png?width=256&height=256&v=d8e356ba"
+  },
+  "brick_pavement": {
+    "name": "Brick Pavement",
+    "categories": [
+      "brick",
+      "cobblestone",
+      "dirty",
+      "man made",
+      "road"
+    ],
+    "type": 1,
+    "tags": [
+      "brick",
+      "pavement",
+      "sidewalk",
+      "bricks",
+      "red brick",
+      "interlocking bricks",
+      "pavement patterned",
+      "patterned",
+      "interlocking",
+      "pavers",
+      "building",
+      "sidewalk texture",
+      "roadway",
+      "concrete",
+      "urban",
+      "architecture",
+      "urban",
+      "city",
+      "street",
+      "walkway",
+      "pathway",
+      "stone pathway"
+    ],
+    "authors": {
+      "Charlotte Baglioni": "All"
+    },
+    "dimensions": [
+      2000,
+      2000
+    ],
+    "date_published": 1712880000,
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "files_hash": "26792d327857a0bf88835c691bfca9684aaf93e5",
+    "description": "Free 8K brick pavement texture: red interlocking pavers with rough, gritty surface, darkened joints and subtle dirt and urban weathering.",
+    "category_id": "ce26ba57-ef4b-54d4-a954-9a85bb053b9e",
+    "category": "Brick & Block/Concrete Block & Paver/Interlocking Pavers",
+    "attributes": {
+      "surface_use": "paving",
+      "condition": [
+        "weathered"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "img_version": "2d25ba3a",
+    "download_count": 9742,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/brick_pavement.png?width=256&height=256&v=2d25ba3a"
+  },
+  "brick_pavement_02": {
+    "name": "Brick Pavement 02",
+    "categories": [
+      "floor",
+      "man made",
+      "brick"
+    ],
+    "type": 1,
+    "tags": [
+      "old",
+      "rough",
+      "brick",
+      "bricks",
+      "pavement",
+      "gray",
+      "outdoor flooring",
+      "urban",
+      "sidewalk"
+    ],
+    "authors": {
+      "Charlotte Baglioni": "All"
+    },
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "dimensions": [
+      2000,
+      2000
+    ],
+    "date_published": 1724284800,
+    "files_hash": "951c8c4a9081b219367935f49911f8960768e656",
+    "description": "Free 8K texture of rough, old gray brick pavement with worn edges, coarse grain and deep mortar joints; uneven, weathered stone look.",
+    "category_id": "9ef0955b-87fa-5826-aa87-98b047ad9143",
+    "category": "Brick & Block/Clay Brick/Running-Bond",
+    "attributes": {
+      "surface_use": "paving",
+      "condition": [
+        "weathered",
+        "worn"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "img_version": "b24b4d1d",
+    "download_count": 49374,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/brick_pavement_02.png?width=256&height=256&v=b24b4d1d"
+  },
+  "brick_pavement_03": {
+    "type": 1,
+    "name": "Brick Pavement 03",
+    "categories": [
+      "floor",
+      "brick",
+      "man made"
+    ],
+    "tags": [
+      "rough",
+      "uneven",
+      "brick",
+      "bricks",
+      "pavement",
+      "paving",
+      "interlocking bricks",
+      "pavement patterned",
+      "sidewalk",
+      "rough  ",
+      "patterned",
+      "interlocking pattern"
+    ],
+    "description": "Free 8k texture of rough interlocking brick pavement with worn, uneven surfaces and dark recessed joints; muted gray-brown concrete bricks.",
+    "authors": {
+      "Charlotte Baglioni": "All"
+    },
+    "max_resolution": [
+      16384,
+      16384
+    ],
+    "dimensions": [
+      2500,
+      2500
+    ],
+    "files_hash": "91d06de3d2f43acd188f51c6925093d9922dcd78",
+    "date_published": 1770854400,
+    "category_id": "ce26ba57-ef4b-54d4-a954-9a85bb053b9e",
+    "category": "Brick & Block/Concrete Block & Paver/Interlocking Pavers",
+    "attributes": {
+      "surface_use": "paving",
+      "condition": [
+        "weathered",
+        "worn"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "img_version": "1e6eb1e0",
+    "download_count": 23133,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/brick_pavement_03.png?width=256&height=256&v=1e6eb1e0"
+  },
+  "castle_brick_01": {
+    "type": 1,
+    "tags": [
+      "rough",
+      "moss",
+      "sewer",
+      "damp",
+      "dark",
+      "wet",
+      "old",
+      "uneven"
+    ],
+    "date_published": 1572583398,
+    "name": "Castle Brick 01",
+    "categories": [
+      "brick",
+      "outdoor",
+      "man made",
+      "wall",
+      "dirty"
+    ],
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "dimensions": [
+      1500,
+      1500
+    ],
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "files_hash": "4fd5d64ea6c01085c31df7bf7fd0aaf76654e2cf",
+    "description": "Free 8K texture of old castle brick: rough, uneven damp bricks with moss, eroded mortar, wet grime and dark, dirty sewer-like weathering.",
+    "category_id": "9ef0955b-87fa-5826-aa87-98b047ad9143",
+    "category": "Brick & Block/Clay Brick/Running-Bond",
+    "attributes": {
+      "surface_use": "wall",
+      "condition": [
+        "weathered",
+        "mossy",
+        "damaged"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "img_version": "54362edf",
+    "download_count": 38657,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/castle_brick_01.png?width=256&height=256&v=54362edf"
+  },
+  "castle_brick_02_red": {
+    "type": 1,
+    "tags": [
+      "rough",
+      "red",
+      "sewer",
+      "damp",
+      "old",
+      "uneven"
+    ],
+    "date_published": 1571797760,
+    "name": "Castle Brick 02 Red",
+    "categories": [
+      "brick",
+      "outdoor",
+      "man made",
+      "wall",
+      "dirty"
+    ],
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "dimensions": [
+      1500,
+      1500
+    ],
+    "sponsors": [
+      "540619",
+      "4714267"
+    ],
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "files_hash": "d4d70e454efd6d2c76008afe609d58c87d54cfb1",
+    "description": "Free 8K texture of old red castle brick with rough, uneven surfaces, damp discoloration, weathered mortar and gritty, dirty detailing.",
+    "category_id": "9ef0955b-87fa-5826-aa87-98b047ad9143",
+    "category": "Brick & Block/Clay Brick/Running-Bond",
+    "attributes": {
+      "surface_use": "wall",
+      "condition": [
+        "weathered",
+        "damaged"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "img_version": "fd920d58",
+    "download_count": 132527,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/castle_brick_02_red.png?width=256&height=256&v=fd920d58"
+  },
+  "castle_brick_02_white": {
+    "type": 1,
+    "tags": [
+      "rough",
+      "painted",
+      "uneven"
+    ],
+    "date_published": 1570062326,
+    "name": "Castle Brick 02 White",
+    "categories": [
+      "brick",
+      "outdoor",
+      "indoor",
+      "wall",
+      "dirty",
+      "man made"
+    ],
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "dimensions": [
+      2500,
+      2500
+    ],
+    "sponsors": [
+      "77433244"
+    ],
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "files_hash": "db6074806ccfbe83174abd51bc3861d6e19b1993",
+    "description": "Free 8K texture of rough, painted castle bricks with uneven, chipped whitewash, exposed red bricks, weathered mortar and dirt.",
+    "category_id": "9ef0955b-87fa-5826-aa87-98b047ad9143",
+    "category": "Brick & Block/Clay Brick/Running-Bond",
+    "attributes": {
+      "surface_use": "wall",
+      "condition": [
+        "painted",
+        "weathered",
+        "damaged"
+      ],
+      "origin": "man_made",
+      "setting": "either"
+    },
+    "img_version": "92bb070d",
+    "download_count": 24138,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/castle_brick_02_white.png?width=256&height=256&v=92bb070d"
+  },
+  "castle_brick_07": {
+    "type": 1,
+    "tags": [
+      "rough",
+      "uneven",
+      "loose",
+      "gaps",
+      "old",
+      "castle"
+    ],
+    "date_published": 1567308640,
+    "name": "Castle Brick 07",
+    "categories": [
+      "brick",
+      "outdoor",
+      "man made",
+      "indoor",
+      "wall",
+      "dirty"
+    ],
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "dimensions": [
+      2500,
+      2500
+    ],
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "files_hash": "5195b81cb1001f8d87ff0406198012a31c10dff7",
+    "description": "Free 8K texture of weathered castle bricks - rough, uneven surfaces with loose mortar, gaps and dirt; deep red-brown tones and worn, chipped edges.",
+    "category_id": "9ef0955b-87fa-5826-aa87-98b047ad9143",
+    "category": "Brick & Block/Clay Brick/Running-Bond",
+    "attributes": {
+      "surface_use": "wall",
+      "condition": [
+        "weathered",
+        "damaged"
+      ],
+      "origin": "man_made",
+      "setting": "either"
+    },
+    "img_version": "adeac9be",
+    "download_count": 64553,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/castle_brick_07.png?width=256&height=256&v=adeac9be"
+  },
+  "castle_brick_broken_06": {
+    "type": 1,
+    "tags": [
+      "rough",
+      "uneven",
+      "cracked",
+      "loose",
+      "gaps",
+      "old",
+      "castle"
+    ],
+    "date_published": 1566174126,
+    "name": "Castle Brick Broken 06",
+    "categories": [
+      "brick",
+      "outdoor",
+      "man made",
+      "indoor",
+      "wall"
+    ],
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "dimensions": [
+      2500,
+      2500
+    ],
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "sponsors": [
+      "119627896",
+      "20953239"
+    ],
+    "files_hash": "3be2c1866505c8ad9fdda72c71c746bdd0381aec",
+    "description": "Free 8K texture of weathered castle brick: rough, uneven, cracked bricks with loose stones and mortar gaps, warm red and gray tones and deep surface relief.",
+    "category_id": "9ef0955b-87fa-5826-aa87-98b047ad9143",
+    "category": "Brick & Block/Clay Brick/Running-Bond",
+    "attributes": {
+      "surface_use": "wall",
+      "condition": [
+        "weathered",
+        "cracked",
+        "damaged"
+      ],
+      "origin": "man_made",
+      "setting": "either"
+    },
+    "img_version": "6600c168",
+    "download_count": 43740,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/castle_brick_broken_06.png?width=256&height=256&v=6600c168"
+  },
+  "castle_wall_slates": {
+    "type": 1,
+    "tags": [
+      "wall",
+      "rough",
+      "blocks",
+      "stacked",
+      "old",
+      "castle",
+      "medieval"
+    ],
+    "date_published": 1568855551,
+    "name": "Castle Wall Slates",
+    "categories": [
+      "rock",
+      "outdoor",
+      "wall",
+      "clean",
+      "man made"
+    ],
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "dimensions": [
+      2500,
+      2500
+    ],
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "sponsors": [
+      "26820710"
+    ],
+    "files_hash": "aed373c9c14d89c082783202d576ee49be2a5045",
+    "description": "Free 8K texture of castle slate wall: stacked, weathered stone blocks with rough chiseled edges, mortar, beige-gray-brown colors and deep crevices.",
+    "category_id": "bc20bc70-284a-5f14-93eb-78274f6a1fa9",
+    "category": "Brick & Block/Stone Block & Paver/Ashlar & Coursed Stone",
+    "attributes": {
+      "surface_use": "wall",
+      "condition": [
+        "weathered"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "img_version": "56b1ac3a",
+    "download_count": 97689,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/castle_wall_slates.png?width=256&height=256&v=56b1ac3a"
+  },
+  "castle_wall_varriation": {
+    "type": 1,
+    "tags": [
+      "wall",
+      "rough",
+      "blocks",
+      "old",
+      "castle"
+    ],
+    "date_published": 1570676861,
+    "categories": [
+      "rock",
+      "wall",
+      "outdoor",
+      "clean",
+      "man made"
+    ],
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "name": "Castle Wall Variation",
+    "dimensions": [
+      2000,
+      2000
+    ],
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "sponsors": [
+      "4047949",
+      "4714267"
+    ],
+    "files_hash": "ee6d2ac06b3ffeddcc317661897db55d28b040fd",
+    "description": "Free 8K texture of weathered castle wall: rough, irregular stone blocks with deep mortar joints, varied warm greys and rusty browns, strong surface relief.",
+    "category_id": "7b0fe897-0a1b-5b8b-9d28-7c5928b4b614",
+    "category": "Stone/Walls & Rubble/Fortress & Castle Walls",
+    "attributes": {
+      "surface_use": "wall",
+      "condition": [
+        "weathered"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "img_version": "3d6e26b0",
+    "download_count": 45651,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/castle_wall_varriation.png?width=256&height=256&v=3d6e26b0"
+  },
+  "checkered_pavement_tiles": {
+    "type": 1,
+    "name": "Checkered Pavement Tiles",
+    "tags": [
+      "rough",
+      "outdoor",
+      "outdoor flooring",
+      "concrete",
+      "tiled",
+      "pavement",
+      "urban",
+      "sidewalk",
+      "rough  ",
+      "checkerboard",
+      "sidewalk texture",
+      "pavement patterned",
+      "pavers",
+      "square pattern"
+    ],
+    "authors": {
+      "Amal Kumar": "All"
+    },
+    "max_resolution": [
+      16384,
+      16384
+    ],
+    "dimensions": [
+      2000,
+      2000
+    ],
+    "files_hash": "4e77026e2a69f31aa3ce40ce35a908665c2a5e5c",
+    "date_published": 1755561600,
+    "description": "Free 16K texture: rough, weathered concrete checkered pavement tiles - square pavers with grime, wear and grout; ideal for urban sidewalks and outdoor floors.",
+    "categories": [
+      "floor",
+      "man made",
+      "tiles"
+    ],
+    "category_id": "ce26ba57-ef4b-54d4-a954-9a85bb053b9e",
+    "category": "Brick & Block/Concrete Block & Paver/Interlocking Pavers",
+    "attributes": {
+      "surface_use": "paving",
+      "condition": [
+        "weathered",
+        "worn"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "img_version": "fe94904b",
+    "download_count": 24877,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/checkered_pavement_tiles.png?width=256&height=256&v=fe94904b"
+  },
+  "cobblestone_01": {
+    "type": 1,
+    "tags": [
+      "cobblestone",
+      "old",
+      "garden",
+      "moss"
+    ],
+    "date_published": 1529359200,
+    "name": "Cobblestone 01",
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "dimensions": [
+      2400.0000953674316,
+      2400.0000953674316
+    ],
+    "categories": [
+      "floor",
+      "man made",
+      "outdoor",
+      "dirty",
+      "cobblestone"
+    ],
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "files_hash": "b38b64aeccd1acb8b06d33f82b03e4f9862766fe",
+    "description": "Free 8K texture of aged cobblestone: worn, rounded stones with dirt-filled joints and moss in crevices; rough, weathered surfaces with subtle damp sheen.",
+    "attributes": {
+      "surface_use": "paving",
+      "condition": [
+        "weathered",
+        "worn",
+        "mossy"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "category_id": "5aa99c3f-7783-51e3-90d1-2c496368ad24",
+    "category": "Stone/Cobblestone & Paving/Cut Setts & Pavers",
+    "img_version": "f85419b3",
+    "download_count": 32531,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/cobblestone_01.png?width=256&height=256&v=f85419b3"
+  },
+  "cobblestone_02": {
+    "name": "Cobblestone 02",
+    "type": 1,
+    "tags": [
+      "cobblestone",
+      "path",
+      "footpath",
+      "stones",
+      "pebbles",
+      "dirty",
+      "walkway",
+      "garden walkway",
+      "outdoors",
+      "dry"
+    ],
+    "authors": {
+      "Amal Kumar": "All"
+    },
+    "info": null,
+    "dimensions": [
+      1799.9995946884155,
+      1799.9995946884155
+    ],
+    "date_published": 1696464000,
+    "categories": [
+      "man made",
+      "floor",
+      "outdoor",
+      "cobblestone"
+    ],
+    "max_resolution": [
+      16384,
+      16384
+    ],
+    "files_hash": "b3831d19cdfdb8277b2f945c1652618345468505",
+    "description": "Free 16K texture of small rounded cobblestones set in compacted dirt - tightly packed pebbles, warm brown tones, dry roughness and subtle grime.",
+    "category_id": "e68bcb96-6d27-562a-bac7-d821ebdaa2a7",
+    "attributes": {
+      "surface_use": "paving",
+      "condition": [
+        "weathered",
+        "worn"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "category": "Stone/Cobblestone & Paving/Rounded Cobbles & Pebbles",
+    "img_version": "5bf6fb2b",
+    "download_count": 6438,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/cobblestone_02.png?width=256&height=256&v=5bf6fb2b"
+  },
+  "cobblestone_03": {
+    "name": "Cobblestone 03",
+    "type": 1,
+    "tags": [
+      "rough",
+      "weathered",
+      "concrete",
+      "cobblestone",
+      "walkway",
+      "pavement",
+      "outdoor",
+      "floor",
+      "outdoor flooring",
+      "pavement patterned"
+    ],
+    "authors": {
+      "Charlotte Baglioni": "All"
+    },
+    "info": null,
+    "dimensions": [
+      1999.9996423721313,
+      1999.9996423721313
+    ],
+    "date_published": 1697673600,
+    "categories": [
+      "floor",
+      "man made",
+      "dirty",
+      "cobblestone"
+    ],
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "files_hash": "e792e3fc8796341f183821ee88cb5973886b71de",
+    "description": "Free 8K texture of weathered concrete cobblestone: rough square pavers with deep dark grout, dusty outdoor pavement showing worn, uneven surface detail.",
+    "category_id": "ce26ba57-ef4b-54d4-a954-9a85bb053b9e",
+    "category": "Brick & Block/Concrete Block & Paver/Interlocking Pavers",
+    "attributes": {
+      "surface_use": "paving",
+      "condition": [
+        "weathered",
+        "worn"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "img_version": "64883406",
+    "download_count": 20619,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/cobblestone_03.png?width=256&height=256&v=64883406"
+  },
+  "cobblestone_04": {
+    "type": 1,
+    "name": "Cobblestone 04",
+    "categories": [
+      "floor",
+      "man made",
+      "cobblestone",
+      "plaster-concrete",
+      "concrete"
+    ],
+    "tags": [
+      "rough",
+      "concrete",
+      "uneven",
+      "weathered",
+      "exterior",
+      "cobblestone",
+      "paving",
+      "stonework",
+      "square",
+      "grid",
+      "weatherbeaten",
+      "coarse",
+      "rough  ",
+      "timeworn",
+      "stone blocks"
+    ],
+    "description": "Free 16K cobblestone texture of square set blocks with rough, pitted surfaces and sandy grout. Gray-brown tones, chipped edges, matte finish.",
+    "authors": {
+      "Charlotte Baglioni": "All"
+    },
+    "category_id": "5aa99c3f-7783-51e3-90d1-2c496368ad24",
+    "attributes": {
+      "surface_use": "paving",
+      "condition": [
+        "weathered",
+        "worn"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "max_resolution": [
+      16384,
+      16384
+    ],
+    "dimensions": [
+      2019.9999809265137,
+      2019.9999809265137
+    ],
+    "files_hash": "b759abf25e034fd6f575c110515469c17d9e4307",
+    "date_published": 1785801600,
+    "category": "Stone/Cobblestone & Paving/Cut Setts & Pavers",
+    "img_version": "7b147454",
+    "download_count": 862,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/cobblestone_04.png?width=256&height=256&v=7b147454"
+  },
+  "cobblestone_05": {
+    "type": 1,
+    "tags": [
+      "cobblestone",
+      "old",
+      "garden",
+      "pathway",
+      "moss",
+      "pavement"
+    ],
+    "date_published": 1529359200,
+    "name": "Cobblestone 05",
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "dimensions": [
+      2400.0000953674316,
+      2400.0000953674316
+    ],
+    "sponsors": [
+      "59361351",
+      "7934315"
+    ],
+    "categories": [
+      "floor",
+      "man made",
+      "outdoor",
+      "dirty",
+      "road",
+      "cobblestone"
+    ],
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "files_hash": "6a3be9faa99dc73865cb941e3ded4c0350086fd3",
+    "description": "Free 8K texture of old cobblestone pavement: irregular worn stones, muddy joints with moss, rough weathered surfaces and subtle height variation.",
+    "attributes": {
+      "surface_use": "paving",
+      "condition": [
+        "weathered",
+        "worn",
+        "mossy"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "category_id": "5aa99c3f-7783-51e3-90d1-2c496368ad24",
+    "category": "Stone/Cobblestone & Paving/Cut Setts & Pavers",
+    "img_version": "dc9c3fd2",
+    "download_count": 26091,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/cobblestone_05.png?width=256&height=256&v=dc9c3fd2"
+  },
+  "cobblestone_color": {
+    "type": 1,
+    "tags": [
+      "cobblestone",
+      "old",
+      "moss",
+      "pavement"
+    ],
+    "date_published": 1529359200,
+    "name": "Cobblestone Color",
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "sponsors": [
+      "3237733"
+    ],
+    "dimensions": [
+      2400.0000953674316,
+      2400.0000953674316
+    ],
+    "categories": [
+      "floor",
+      "man made",
+      "outdoor",
+      "dirty",
+      "cobblestone"
+    ],
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "files_hash": "b829b803d7c29ca4d6fa532ddf5e917a31677c0a",
+    "description": "Free 8K texture of aged cobblestone pavement: weathered stone blocks, dirt-filled joints and moss tufts with varied, rough, slightly worn surfaces.",
+    "attributes": {
+      "surface_use": "paving",
+      "condition": [
+        "weathered",
+        "worn",
+        "mossy"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "category_id": "5aa99c3f-7783-51e3-90d1-2c496368ad24",
+    "category": "Stone/Cobblestone & Paving/Cut Setts & Pavers",
+    "img_version": "bf0d4a38",
+    "download_count": 43142,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/cobblestone_color.png?width=256&height=256&v=bf0d4a38"
+  },
+  "cobblestone_embedded_asphalt": {
+    "name": "Cobblestone Embedded Asphalt",
+    "categories": [
+      "floor",
+      "man made",
+      "asphalt"
+    ],
+    "type": 1,
+    "tags": [
+      "rocks",
+      "asphalt",
+      "rocky",
+      "stone",
+      "coarse",
+      "gravelly",
+      "gravelly ground",
+      "gritty texture",
+      "rough",
+      "gravelly texture",
+      "rugged"
+    ],
+    "authors": {
+      "Amal Kumar": "All"
+    },
+    "max_resolution": [
+      16384,
+      16384
+    ],
+    "dimensions": [
+      1899.999976158142,
+      1899.999976158142
+    ],
+    "date_published": 1710969949,
+    "files_hash": "149d271ee8b5d3d09e518cec5ff37ed8c643fa12",
+    "description": "Free 16K texture of rough uneven cobblestones embedded in a grimy asphalt surface.",
+    "category_id": "e9a8aa14-832b-50b9-bda6-23df093c0caa",
+    "category": "Asphalt & Bitumen/Asphalt/Aggregate-Embedded Asphalt",
+    "attributes": {
+      "surface_use": "floor",
+      "condition": [
+        "weathered",
+        "worn"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "img_version": "1313a5f7",
+    "download_count": 6694,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/cobblestone_embedded_asphalt.png?width=256&height=256&v=1313a5f7"
+  },
+  "cobblestone_floor_001": {
+    "type": 1,
+    "tags": [
+      "cobblestone",
+      "mud",
+      "path",
+      "pathway",
+      "uneven",
+      "medieval"
+    ],
+    "date_published": 1595528089,
+    "name": "Cobblestone Floor 001",
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "dimensions": [
+      2400.0000953674316,
+      2400.0000953674316
+    ],
+    "categories": [
+      "road",
+      "man made",
+      "outdoor",
+      "dirty",
+      "floor",
+      "cobblestone"
+    ],
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "sponsors": [
+      "118714804"
+    ],
+    "files_hash": "41439589d13c50ea939f76751b9a9c1664e96d60",
+    "description": "Free 8K texture of uneven medieval cobblestone floor: worn stones, mud-filled joints, scattered moss and dirt, rough matte stone with subtle sheen.",
+    "attributes": {
+      "surface_use": "paving",
+      "condition": [
+        "weathered",
+        "worn",
+        "mossy"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "category_id": "5aa99c3f-7783-51e3-90d1-2c496368ad24",
+    "category": "Stone/Cobblestone & Paving/Cut Setts & Pavers",
+    "img_version": "5481568e",
+    "download_count": 27308,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/cobblestone_floor_001.png?width=256&height=256&v=5481568e"
+  },
+  "cobblestone_floor_01": {
+    "type": 1,
+    "tags": [
+      "cobblestone",
+      "mud",
+      "path",
+      "pavement"
+    ],
+    "date_published": 1579253697,
+    "name": "Cobblestone Floor 01",
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "categories": [
+      "outdoor",
+      "floor",
+      "man made",
+      "dirty",
+      "cobblestone"
+    ],
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "files_hash": "b6301f6e235a8137ade2e98b52ca4dcff326becb",
+    "description": "Free 8K cobblestone texture with worn square stones, muddy joints, rough chipped surfaces and muted earthy color variation.",
+    "attributes": {
+      "surface_use": "paving",
+      "condition": [
+        "weathered",
+        "worn",
+        "damaged"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "category_id": "99762fb0-f134-5cd9-93f7-5b876875f7c9",
+    "category": "Stone/Cobblestone & Paving/Rough & Irregular Setts",
+    "img_version": "abde493d",
+    "download_count": 18712,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/cobblestone_floor_01.png?width=256&height=256&v=abde493d"
+  },
+  "cobblestone_floor_02": {
+    "type": 1,
+    "tags": [
+      "cobblestone",
+      "plastered",
+      "cracked",
+      "fixed",
+      "smooth",
+      "pavement"
+    ],
+    "date_published": 1529359200,
+    "name": "Cobblestone Floor 02",
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "dimensions": [
+      2000,
+      2000
+    ],
+    "categories": [
+      "floor",
+      "outdoor",
+      "man made",
+      "cobblestone"
+    ],
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "files_hash": "a90c0a7eb5cb36d3366d3bf4362f8cbce3f85c3c",
+    "description": "Free 8K cobblestone floor texture of smooth, worn square stones with plastered mortar, subtle cracks and a weathered brown-grey appearance.",
+    "category_id": "5aa99c3f-7783-51e3-90d1-2c496368ad24",
+    "attributes": {
+      "surface_use": "paving",
+      "condition": [
+        "weathered",
+        "worn",
+        "cracked"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "category": "Stone/Cobblestone & Paving/Cut Setts & Pavers",
+    "img_version": "384f374d",
+    "download_count": 23842,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/cobblestone_floor_02.png?width=256&height=256&v=384f374d"
+  },
+  "cobblestone_floor_03": {
+    "type": 1,
+    "tags": [
+      "cobblestone",
+      "plastered",
+      "mud",
+      "moss",
+      "pavement"
+    ],
+    "date_published": 1529359200,
+    "name": "Cobblestone Floor 03",
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "dimensions": [
+      2400.0000953674316,
+      2400.0000953674316
+    ],
+    "sponsors": [
+      "3267566"
+    ],
+    "categories": [
+      "floor",
+      "outdoor",
+      "dirty",
+      "man made",
+      "cobblestone"
+    ],
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "files_hash": "1245575829b7b814bb94635b25337ec56d3cde7b",
+    "description": "Free 8K cobblestone texture with weathered square stones, muddy recessed joints, moss-filled crevices, plaster residues and a rough, uneven, dirty surface.",
+    "category_id": "5aa99c3f-7783-51e3-90d1-2c496368ad24",
+    "attributes": {
+      "surface_use": "paving",
+      "condition": [
+        "weathered",
+        "mossy",
+        "damaged"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "category": "Stone/Cobblestone & Paving/Cut Setts & Pavers",
+    "img_version": "88f6eb6a",
+    "download_count": 24398,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/cobblestone_floor_03.png?width=256&height=256&v=88f6eb6a"
+  },
+  "cobblestone_floor_04": {
+    "type": 1,
+    "tags": [
+      "cobblestone",
+      "moss",
+      "damp",
+      "wet"
+    ],
+    "date_published": 1560989332,
+    "name": "Cobblestone Floor 04",
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "sponsors": [
+      "3237733"
+    ],
+    "dimensions": [
+      1500,
+      1500
+    ],
+    "categories": [
+      "floor",
+      "outdoor",
+      "dirty",
+      "man made",
+      "cobblestone"
+    ],
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "files_hash": "6e3f61fcc650eb9e004c0596cb35f87c4dcf9e1b",
+    "description": "Free 8K cobblestone texture showing damp, moss-filled joints and worn, slightly glossy stones with soil and small plants between uneven man-made cobbles.",
+    "category_id": "99762fb0-f134-5cd9-93f7-5b876875f7c9",
+    "attributes": {
+      "surface_use": "paving",
+      "condition": [
+        "weathered",
+        "mossy",
+        "worn"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "category": "Stone/Cobblestone & Paving/Rough & Irregular Setts",
+    "img_version": "1b93f088",
+    "download_count": 67943,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/cobblestone_floor_04.png?width=256&height=256&v=1b93f088"
+  },
+  "cobblestone_floor_05": {
+    "type": 1,
+    "tags": [
+      "cobblestone",
+      "uneven",
+      "old",
+      "pavement"
+    ],
+    "date_published": 1529359200,
+    "name": "Cobblestone Floor 05",
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "dimensions": [
+      2000,
+      2000
+    ],
+    "categories": [
+      "floor",
+      "outdoor",
+      "dirty",
+      "man made",
+      "road",
+      "cobblestone"
+    ],
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "files_hash": "987e845045914f5e9016705384f289f5507ba2ce",
+    "description": "Free 8K texture of uneven, aged cobblestone with worn, rounded stones, deep dirt-filled joints and subtle moss; rough, matte stone surface.",
+    "attributes": {
+      "surface_use": "paving",
+      "condition": [
+        "weathered",
+        "worn"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "category_id": "5aa99c3f-7783-51e3-90d1-2c496368ad24",
+    "category": "Stone/Cobblestone & Paving/Cut Setts & Pavers",
+    "img_version": "725f377e",
+    "download_count": 21386,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/cobblestone_floor_05.png?width=256&height=256&v=725f377e"
+  },
+  "cobblestone_floor_06": {
+    "name": "Cobblestone Floor 06",
+    "categories": [
+      "floor",
+      "cobblestone",
+      "man made",
+      "dirty"
+    ],
+    "type": 1,
+    "tags": [
+      "old",
+      "rough",
+      "weathered",
+      "dirty",
+      "pavement"
+    ],
+    "authors": {
+      "Amal Kumar": "All"
+    },
+    "dimensions": [
+      2000,
+      2000
+    ],
+    "date_published": 1710806400,
+    "max_resolution": [
+      16384,
+      16384
+    ],
+    "files_hash": "c7caf568f2097cac1c1d8327f9f65dea4054f2c8",
+    "description": "Free 16K texture of weathered cobblestone floor: rough, uneven stones with deep mortar joints, dark dirt and a damp, grungy layered surface.",
+    "category_id": "99762fb0-f134-5cd9-93f7-5b876875f7c9",
+    "attributes": {
+      "surface_use": "paving",
+      "condition": [
+        "weathered",
+        "worn",
+        "damaged"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "category": "Stone/Cobblestone & Paving/Rough & Irregular Setts",
+    "img_version": "b41c39f8",
+    "download_count": 11859,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/cobblestone_floor_06.png?width=256&height=256&v=b41c39f8"
+  },
+  "cobblestone_floor_07": {
+    "type": 1,
+    "tags": [
+      "cobblestone",
+      "stacked",
+      "moss",
+      "old",
+      "damp",
+      "garden",
+      "pavement"
+    ],
+    "date_published": 1529359200,
+    "name": "Cobblestone Floor 07",
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "dimensions": [
+      2000,
+      2000
+    ],
+    "categories": [
+      "floor",
+      "outdoor",
+      "man made",
+      "dirty",
+      "cobblestone"
+    ],
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "files_hash": "5107ce96e302e12d3dfdc5cb0eb59cfe64857315",
+    "description": "Free 8K cobblestone texture: stacked, weathered stones with rounded edges, damp sheen, moss-filled joints and gritty dirt, creating a low-relief outdoor material.",
+    "attributes": {
+      "surface_use": "paving",
+      "condition": [
+        "weathered",
+        "mossy",
+        "worn"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "category_id": "5aa99c3f-7783-51e3-90d1-2c496368ad24",
+    "category": "Stone/Cobblestone & Paving/Cut Setts & Pavers",
+    "img_version": "6af20323",
+    "download_count": 30138,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/cobblestone_floor_07.png?width=256&height=256&v=6af20323"
+  },
+  "cobblestone_floor_08": {
+    "type": 1,
+    "tags": [
+      "cobblestone",
+      "smooth",
+      "old",
+      "moss",
+      "pavement"
+    ],
+    "date_published": 1595315950,
+    "name": "Cobblestone Floor 08",
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "dimensions": [
+      2000,
+      2000
+    ],
+    "categories": [
+      "road",
+      "floor",
+      "man made",
+      "dirty",
+      "cobblestone"
+    ],
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "files_hash": "85bbc0135f89f1d31303c43f7ce640d4d81f4d68",
+    "description": "Free 8K cobblestone texture: smooth, worn rectangular stones with rounded edges, dirt-filled joints and patches of green moss, muted grey-beige tones and subtle wear sheen.",
+    "category_id": "5aa99c3f-7783-51e3-90d1-2c496368ad24",
+    "attributes": {
+      "surface_use": "paving",
+      "condition": [
+        "weathered",
+        "worn",
+        "mossy"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "category": "Stone/Cobblestone & Paving/Cut Setts & Pavers",
+    "img_version": "551eeca1",
+    "download_count": 51522,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/cobblestone_floor_08.png?width=256&height=256&v=551eeca1"
+  },
+  "cobblestone_floor_09": {
+    "type": 1,
+    "name": "Cobblestone Floor 09",
+    "categories": [
+      "floor",
+      "cobblestone"
+    ],
+    "tags": [
+      "weathered",
+      "uneven",
+      "floor",
+      "cobblestone",
+      "cobblestones",
+      "stone pavement",
+      "gritty",
+      "stones",
+      "pavement",
+      "pavement patterned",
+      "pattern"
+    ],
+    "description": "Free 16k texture of a weathered, uneven cobblestone floor - rough, worn square stones with deep mortar joints, subtle dirt fill and a low, slightly gritty sheen.",
+    "authors": {
+      "Charlotte Baglioni": "All"
+    },
+    "max_resolution": [
+      16384,
+      16384
+    ],
+    "dimensions": [
+      2174.999952316284,
+      2174.999952316284
+    ],
+    "files_hash": "45d5179040168d8aaf2388d8e29cb0b337b96ce7",
+    "date_published": 1769040000,
+    "category_id": "5aa99c3f-7783-51e3-90d1-2c496368ad24",
+    "attributes": {
+      "surface_use": "paving",
+      "condition": [
+        "weathered",
+        "worn"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "category": "Stone/Cobblestone & Paving/Cut Setts & Pavers",
+    "info": "This surface is from the entrance corridor of the house I grew up in. The house got sold recently, and I wanted to immortalize some of its beautiful surfaces.",
+    "img_version": "6499c97a",
+    "download_count": 10253,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/cobblestone_floor_09.png?width=256&height=256&v=6499c97a"
+  },
+  "cobblestone_floor_13": {
+    "type": 1,
+    "tags": [
+      "cobblestone",
+      "farm",
+      "rural",
+      "old"
+    ],
+    "date_published": 1529359200,
+    "name": "Cobblestone Floor 13",
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "sponsors": [
+      "100707845"
+    ],
+    "categories": [
+      "floor",
+      "outdoor",
+      "man made",
+      "dirty",
+      "cobblestone"
+    ],
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "dimensions": [
+      2000,
+      2000
+    ],
+    "files_hash": "52c5e426a08c8564a0bdb0d62530a6a08e5a13d9",
+    "description": "Free 8K texture of old farm cobblestones set in compacted dirt, featuring rounded, weathered stones, dirt-filled joints, subtle moss, and rough, worn surfaces.",
+    "category_id": "e68bcb96-6d27-562a-bac7-d821ebdaa2a7",
+    "attributes": {
+      "surface_use": "paving",
+      "condition": [
+        "weathered",
+        "worn",
+        "mossy"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "category": "Stone/Cobblestone & Paving/Rounded Cobbles & Pebbles",
+    "img_version": "8030c1e3",
+    "download_count": 24773,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/cobblestone_floor_13.png?width=256&height=256&v=8030c1e3"
+  },
+  "cobblestone_large_01": {
+    "type": 1,
+    "tags": [
+      "cobblestone",
+      "farm",
+      "old",
+      "village",
+      "path",
+      "dry",
+      "mud"
+    ],
+    "date_published": 1564876127,
+    "name": "Cobblestone Large 01",
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "sponsors": [
+      "44302755"
+    ],
+    "dimensions": [
+      4000,
+      4000
+    ],
+    "categories": [
+      "floor",
+      "outdoor",
+      "man made",
+      "road",
+      "cobblestone"
+    ],
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "files_hash": "0309a2fae6ac2be688c4d4118b792172e40bf2a1",
+    "description": "Free 8K texture of aged cobblestone: rounded weathered stones set in dry muddy joints with cracked dirt and grass tufts, rough worn surface and earthy tones.",
+    "attributes": {
+      "surface_use": "paving",
+      "condition": [
+        "weathered",
+        "worn"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "category_id": "99762fb0-f134-5cd9-93f7-5b876875f7c9",
+    "category": "Stone/Cobblestone & Paving/Rough & Irregular Setts",
+    "img_version": "1fb2fba3",
+    "download_count": 32401,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/cobblestone_large_01.png?width=256&height=256&v=1fb2fba3"
+  },
+  "cobblestone_pavement": {
+    "type": 1,
+    "name": "Cobblestone Pavement",
+    "categories": [
+      "floor",
+      "cobblestone"
+    ],
+    "tags": [
+      "cobblestone",
+      "cobblestones",
+      "rocks",
+      "squares",
+      "stone slabs",
+      "stone pavement",
+      "grout lines",
+      "rough",
+      "weathered surface",
+      "weathered",
+      "uneven surface",
+      "sidewalk",
+      "sidewalk texture"
+    ],
+    "description": "Free 16k texture of weathered square cobblestones with brown-gray tones, worn edges, surface roughness, height variation and narrow mortar joints.",
+    "authors": {
+      "Charlotte Baglioni": "All"
+    },
+    "max_resolution": [
+      16384,
+      16384
+    ],
+    "dimensions": [
+      2500,
+      2500
+    ],
+    "files_hash": "3f11562d404f47762e6681dab9c9743454bce163",
+    "date_published": 1764892800,
+    "category_id": "5aa99c3f-7783-51e3-90d1-2c496368ad24",
+    "attributes": {
+      "surface_use": "paving",
+      "condition": [
+        "weathered",
+        "worn"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "category": "Stone/Cobblestone & Paving/Cut Setts & Pavers",
+    "img_version": "ee7889fa",
+    "download_count": 11471,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/cobblestone_pavement.png?width=256&height=256&v=ee7889fa"
+  },
+  "cobblestone_square": {
+    "type": 1,
+    "tags": [
+      "cobblestone",
+      "mud",
+      "moss",
+      "smooth"
+    ],
+    "date_published": 1529359200,
+    "name": "Cobblestone Square",
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "categories": [
+      "floor",
+      "outdoor",
+      "man made",
+      "dirty",
+      "cobblestone"
+    ],
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "files_hash": "74c13bc8bb403beac42187ed50abc2435162c2f6",
+    "description": "Free 8K texture of weathered square cobblestones with muddy joints, scattered moss, worn smooth tops and gritty dirt-filled crevices.",
+    "category_id": "5aa99c3f-7783-51e3-90d1-2c496368ad24",
+    "attributes": {
+      "surface_use": "paving",
+      "condition": [
+        "weathered",
+        "mossy",
+        "worn"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "category": "Stone/Cobblestone & Paving/Cut Setts & Pavers",
+    "img_version": "5e5a007d",
+    "download_count": 23945,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/cobblestone_square.png?width=256&height=256&v=5e5a007d"
+  },
+  "concrete_pavement": {
+    "name": "Concrete Pavement",
+    "type": 1,
+    "tags": [
+      "rough",
+      "urban",
+      "concrete",
+      "floor",
+      "rough  ",
+      "exterior",
+      "pavers",
+      "outdoor flooring",
+      "cement",
+      "flat",
+      "coarse",
+      "pavement",
+      "sidewalk"
+    ],
+    "authors": {
+      "Charlotte Baglioni": "All"
+    },
+    "info": null,
+    "dimensions": [
+      1800.0000715255737,
+      1800.0000715255737
+    ],
+    "date_published": 1708387200,
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "files_hash": "13659c72c1314d12b0c5cd809f89ccc9fec09cbf",
+    "description": "Free 8K concrete texture of rough, coarse rectangular pavement pavers with sandy aggregate, subtle wear and flat matte finish in warm gray-beige tones.",
+    "categories": [
+      "floor",
+      "man made",
+      "concrete",
+      "plaster-concrete"
+    ],
+    "category_id": "3d66fbeb-75a0-5a98-97b4-d2630544da3f",
+    "category": "Brick & Block/Concrete Block & Paver",
+    "attributes": {
+      "surface_use": "paving",
+      "condition": [
+        "worn"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "img_version": "5ab61f2c",
+    "download_count": 51366,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/concrete_pavement.png?width=256&height=256&v=5ab61f2c"
+  },
+  "concrete_pavement_02": {
+    "name": "Concrete Pavement 02",
+    "categories": [
+      "outdoor",
+      "road",
+      "cobblestone"
+    ],
+    "type": 1,
+    "tags": [
+      "concrete",
+      "sidewalk",
+      "urban",
+      "city",
+      "pavement",
+      "street",
+      "cityscape",
+      "infrastructure",
+      "walkway",
+      "sidewalk texture",
+      "footpath"
+    ],
+    "authors": {
+      "Charlotte Baglioni": "All"
+    },
+    "dimensions": [
+      1800.0000715255737,
+      1800.0000715255737
+    ],
+    "date_published": 1711670400,
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "files_hash": "0530cbdb94063d5899fabae01578b92009e02e5b",
+    "description": "Free 8K concrete pavement material: square sidewalk slabs with fine gritty texture, shallow grout lines, light staining and a matte, slightly worn urban finish.",
+    "category_id": "3d66fbeb-75a0-5a98-97b4-d2630544da3f",
+    "category": "Brick & Block/Concrete Block & Paver",
+    "attributes": {
+      "surface_use": "paving",
+      "condition": [
+        "worn"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "img_version": "20819352",
+    "download_count": 23724,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/concrete_pavement_02.png?width=256&height=256&v=20819352"
+  },
+  "concrete_pavement_03": {
+    "type": 1,
+    "name": "Concrete Pavement 03",
+    "tags": [
+      "rough",
+      "outdoor",
+      "outdoor flooring",
+      "concrete",
+      "tiled",
+      "pavement",
+      "urban",
+      "sidewalk",
+      "rough  ",
+      "checkerboard",
+      "sidewalk texture"
+    ],
+    "authors": {
+      "Charlotte Baglioni": "All"
+    },
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "dimensions": [
+      2099.9999046325684,
+      2099.9999046325684
+    ],
+    "date_published": 1751328000,
+    "files_hash": "42f98717ea51090ed7d0a0dcd72e27108fff63e7",
+    "description": "Free 8K concrete pavement texture featuring rough, tiled checkerboard sidewalk panels with subtle color variation, gritty surface and shallow grout lines.",
+    "categories": [
+      "floor",
+      "man made",
+      "concrete",
+      "outdoor",
+      "plaster-concrete"
+    ],
+    "category_id": "3d66fbeb-75a0-5a98-97b4-d2630544da3f",
+    "category": "Brick & Block/Concrete Block & Paver",
+    "attributes": {
+      "surface_use": "paving",
+      "condition": [
+        "worn"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "img_version": "cecca09c",
+    "download_count": 9007,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/concrete_pavement_03.png?width=256&height=256&v=cecca09c"
+  },
+  "concrete_pavers": {
+    "name": "Concrete Pavers",
+    "categories": [
+      "floor",
+      "man made"
+    ],
+    "type": 1,
+    "tags": [
+      "interlocking",
+      "pavers",
+      "pavement",
+      "outdoor",
+      "interlocking bricks",
+      "concrete",
+      "stamped concrete",
+      "precast",
+      "pavement patterned",
+      "patterned",
+      "sidewalk texture",
+      "patterned concrete"
+    ],
+    "authors": {
+      "Amal Kumar": "All"
+    },
+    "max_resolution": [
+      16384,
+      16384
+    ],
+    "dimensions": [
+      1920.0000762939453,
+      1920.0000762939453
+    ],
+    "date_published": 1715040000,
+    "files_hash": "a40f838a871f7b23be44f38becdabce97eb76b3b",
+    "description": "Free 16K texture of interlocking concrete pavers with worn, slightly rough surface, recessed joints and subtle dirt staining on patterned pavement.",
+    "category_id": "ce26ba57-ef4b-54d4-a954-9a85bb053b9e",
+    "category": "Brick & Block/Concrete Block & Paver/Interlocking Pavers",
+    "attributes": {
+      "surface_use": "paving",
+      "condition": [
+        "worn"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "img_version": "7367fec9",
+    "download_count": 20850,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/concrete_pavers.png?width=256&height=256&v=7367fec9"
+  },
+  "defense_wall_02": {
+    "type": 1,
+    "tags": [
+      "rough",
+      "wall",
+      "bricks",
+      "castle",
+      "fort"
+    ],
+    "date_published": 1606897008,
+    "name": "Defense Wall 02",
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "dimensions": [
+      12000.000953674316,
+      12000.000953674316
+    ],
+    "sponsors": [
+      "11167855"
+    ],
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "files_hash": "1644479946541b2fb2f08d980f80214affffcd17",
+    "description": "Free 8K texture of a weathered castle defense wall, rough layered stone bricks with eroded mortar, jagged edges and subtle mossy, earthy tones.",
+    "categories": [
+      "outdoor",
+      "wall",
+      "rock",
+      "man made",
+      "aerial"
+    ],
+    "category_id": "7b0fe897-0a1b-5b8b-9d28-7c5928b4b614",
+    "category": "Stone/Walls & Rubble/Fortress & Castle Walls",
+    "attributes": {
+      "surface_use": "wall",
+      "condition": [
+        "weathered",
+        "mossy"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor",
+      "aerial": true
+    },
+    "img_version": "402401b3",
+    "download_count": 16202,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/defense_wall_02.png?width=256&height=256&v=402401b3"
+  },
+  "floor_pattern_01": {
+    "type": 1,
+    "tags": [
+      "cobblestone",
+      "moss",
+      "castle",
+      "fort",
+      "pavement"
+    ],
+    "date_published": 1529359200,
+    "name": "Floor Pattern 01",
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "dimensions": [
+      1200.0000476837158,
+      1200.0000476837158
+    ],
+    "categories": [
+      "floor",
+      "road",
+      "outdoor",
+      "man made",
+      "dirty",
+      "cobblestone"
+    ],
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "files_hash": "12cfc871ce9ea63e2403feb6c9be3f54ffe72a3d",
+    "description": "Free 8K cobblestone texture - weathered, irregular gray-brown stones with dirt-filled joints and patches of moss, rough and slightly uneven paving surface.",
+    "attributes": {
+      "surface_use": "paving",
+      "condition": [
+        "weathered",
+        "mossy"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "category_id": "5aa99c3f-7783-51e3-90d1-2c496368ad24",
+    "category": "Stone/Cobblestone & Paving/Cut Setts & Pavers",
+    "img_version": "90d6eaea",
+    "download_count": 35834,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/floor_pattern_01.png?width=256&height=256&v=90d6eaea"
+  },
+  "floor_pattern_02": {
+    "type": 1,
+    "date_published": 1560723479,
+    "name": "Floor Pattern 02",
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "dimensions": [
+      1200.0000476837158,
+      1200.0000476837158
+    ],
+    "sponsors": [
+      "4714267"
+    ],
+    "categories": [
+      "floor",
+      "road",
+      "outdoor",
+      "man made",
+      "cobblestone"
+    ],
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "files_hash": "52c0752a275ed966b3f6d4fcd64e034f9c00d45e",
+    "tags": [
+      "pavement",
+      "cobblestone",
+      "patterned stone",
+      "pavement patterned",
+      "pavers",
+      "decorative paving",
+      "historical style",
+      "sidewalk"
+    ],
+    "description": "Free 8K texture of aged cobblestone pavers with irregular square stones, worn edges, dirt-filled joints and moss; rough, weathered stone surface.",
+    "category_id": "5aa99c3f-7783-51e3-90d1-2c496368ad24",
+    "attributes": {
+      "surface_use": "paving",
+      "condition": [
+        "weathered",
+        "worn",
+        "mossy"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "category": "Stone/Cobblestone & Paving/Cut Setts & Pavers",
+    "img_version": "4efd3ee7",
+    "download_count": 45348,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/floor_pattern_02.png?width=256&height=256&v=4efd3ee7"
+  },
+  "floor_pavement": {
+    "date_published": 1654819200,
+    "name": "Floor Pavement",
+    "categories": [
+      "man made",
+      "dirty",
+      "brick",
+      "floor",
+      "outdoor"
+    ],
+    "type": 1,
+    "tags": [
+      "ground",
+      "sidewalk",
+      "cracked",
+      "damaged",
+      "floor",
+      "pavement",
+      "cement",
+      "square"
+    ],
+    "dimensions": [
+      2000,
+      2000
+    ],
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "files_hash": "b2418e783b15c1c20c38de8bfc2dfcb851cb5c7a",
+    "description": "Free 8K texture of square concrete pavement: worn, cracked tiles with grout lines, chipped edges, subtle dirt, and a rough, low-relief surface.",
+    "authors": {
+      "Dario Barresi": "processing",
+      "Charlotte Baglioni": "photography"
+    },
+    "category_id": "ce26ba57-ef4b-54d4-a954-9a85bb053b9e",
+    "category": "Brick & Block/Concrete Block & Paver/Interlocking Pavers",
+    "attributes": {
+      "surface_use": "paving",
+      "condition": [
+        "worn",
+        "cracked",
+        "damaged"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "img_version": "3f98b8c6",
+    "download_count": 49922,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/floor_pavement.png?width=256&height=256&v=3f98b8c6"
+  },
+  "grass_concrete_pavement": {
+    "name": "Grass Concrete Pavement",
+    "type": 1,
+    "tags": [
+      "rough",
+      "uneven",
+      "weathered",
+      "old",
+      "discolored",
+      "grass",
+      "dead grass",
+      "dry",
+      "grey",
+      "pavement",
+      "concrete",
+      "blocks",
+      "worn"
+    ],
+    "authors": {
+      "Charlotte Baglioni": "All"
+    },
+    "info": null,
+    "dimensions": [
+      1970.0000286102295,
+      1970.0000286102295
+    ],
+    "date_published": 1689379200,
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "files_hash": "4245fbdce5c13b847dff4639b60207f92e6e2e1d",
+    "description": "Free 8K texture of rough, weathered concrete blocks set in dry, discolored grass - uneven, worn grey pavers with fibrous dead turf and subtle green moss.",
+    "categories": [
+      "man made",
+      "outdoor",
+      "cobblestone"
+    ],
+    "category_id": "ce26ba57-ef4b-54d4-a954-9a85bb053b9e",
+    "category": "Brick & Block/Concrete Block & Paver/Interlocking Pavers",
+    "attributes": {
+      "surface_use": "paving",
+      "condition": [
+        "weathered",
+        "worn",
+        "mossy"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "img_version": "4ece8d4c",
+    "download_count": 3238,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/grass_concrete_pavement.png?width=256&height=256&v=4ece8d4c"
+  },
+  "grassy_cobblestone": {
+    "date_published": 1658188800,
+    "name": "Grassy Cobblestone",
+    "type": 1,
+    "authors": {
+      "Dario Barresi": "Processing ",
+      "Charlotte Baglioni": "Photography"
+    },
+    "dimensions": [
+      2000,
+      2000
+    ],
+    "categories": [
+      "natural",
+      "sand",
+      "outdoor",
+      "floor",
+      "cobblestone"
+    ],
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "tags": [
+      "ground",
+      "dirt",
+      "rock",
+      "grass",
+      "dirty",
+      "path",
+      "trampled",
+      "pathway"
+    ],
+    "files_hash": "6093a2264b43e4fe5a7b6ab741894ae3e7b9163c",
+    "description": "Free 8K texture of grassy cobblestone: weathered stone pavers with dirt-filled seams, scattered moss and trampled grass, with pronounced height and roughness.",
+    "category_id": "99762fb0-f134-5cd9-93f7-5b876875f7c9",
+    "attributes": {
+      "surface_use": "paving",
+      "condition": [
+        "weathered",
+        "mossy"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "category": "Stone/Cobblestone & Paving/Rough & Irregular Setts",
+    "img_version": "74e599ff",
+    "download_count": 53978,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/grassy_cobblestone.png?width=256&height=256&v=74e599ff"
+  },
+  "gravel_concrete_03": {
+    "name": "Gravel Concrete 03",
+    "type": 1,
+    "tags": [
+      "rough",
+      "weathered",
+      "old",
+      "urban",
+      "sidewalk",
+      "gravel",
+      "concrete",
+      "coarse",
+      "rough  ",
+      "pavement",
+      "exterior",
+      "gritty"
+    ],
+    "authors": {
+      "Charlotte Baglioni": "All"
+    },
+    "info": null,
+    "dimensions": [
+      2099.9999046325684,
+      2099.9999046325684
+    ],
+    "date_published": 1708560000,
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "files_hash": "19b25602548875bf68347636407538922bcebef7",
+    "description": "Free 8K weathered gravel concrete texture - coarse, gritty grey pavement with visible aggregate, worn pores and subtle stains.",
+    "categories": [
+      "floor",
+      "man made",
+      "concrete",
+      "plaster-concrete"
+    ],
+    "category_id": "70d3bf8f-46b0-5250-a419-61cbf068f448",
+    "category": "Concrete/Cast Walls & Floors/Exposed Aggregate",
+    "attributes": {
+      "surface_use": "paving",
+      "condition": [
+        "weathered"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "img_version": "819523ce",
+    "download_count": 96780,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/gravel_concrete_03.png?width=256&height=256&v=819523ce"
+  },
+  "gravel_concrete_04": {
+    "type": 1,
+    "name": "Gravel Concrete 04",
+    "tags": [
+      "rough",
+      "weathered",
+      "old",
+      "urban",
+      "sidewalk",
+      "gravel",
+      "concrete",
+      "coarse",
+      "rough  ",
+      "pavement",
+      "exterior",
+      "gritty",
+      "rough surface",
+      "granular"
+    ],
+    "authors": {
+      "Dimitrios Savva": "All"
+    },
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "dimensions": [
+      2000,
+      2000
+    ],
+    "files_hash": "7207731b077be96e71b4bf548b0bc8b3bbafef15",
+    "date_published": 1756339200,
+    "description": "Free 8K gravel concrete texture: coarse, weathered sidewalk concrete with gritty, granular surface - great for urban floors, pavements and exterior scenes.",
+    "categories": [
+      "floor",
+      "man made",
+      "concrete",
+      "plaster-concrete"
+    ],
+    "category_id": "70d3bf8f-46b0-5250-a419-61cbf068f448",
+    "category": "Concrete/Cast Walls & Floors/Exposed Aggregate",
+    "attributes": {
+      "surface_use": "paving",
+      "condition": [
+        "weathered"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "img_version": "6004f558",
+    "download_count": 6995,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/gravel_concrete_04.png?width=256&height=256&v=6004f558"
+  },
+  "grey_cartago_02": {
+    "name": "Grey Cartago 02",
+    "categories": [
+      "floor",
+      "man made"
+    ],
+    "type": 1,
+    "tags": [
+      "tiles",
+      "grey",
+      "cartago",
+      "stones",
+      "smooth",
+      "hard",
+      "modern",
+      "durable",
+      "patio",
+      "courtyard",
+      "durable flooring",
+      "waterproof tiles"
+    ],
+    "info": null,
+    "dimensions": [
+      1700.0000476837158,
+      1700.0000476837158
+    ],
+    "date_published": 1710460800,
+    "max_resolution": [
+      16384,
+      16384
+    ],
+    "authors": {
+      "Jenelle van Heerden": "Processing",
+      "Lucas S\u00e1nchez Ros": "Photography"
+    },
+    "files_hash": "1dcc1714a50e86042e30da43cdd33c099f636132",
+    "description": "Free 16K natural stone floor texture: smooth, hard stone tiles with rust accents - modern, waterproof flooring for patios, courtyards and durable indoor use.",
+    "category_id": "db1d43cc-c340-5d57-b85c-a4ccbdab9ec8",
+    "category": "Stone/Slabs & Tiles/Polished Stone",
+    "attributes": {
+      "surface_use": "floor",
+      "condition": [
+        "clean"
+      ],
+      "origin": "man_made"
+    },
+    "img_version": "3c9072e9",
+    "download_count": 18279,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/grey_cartago_02.png?width=256&height=256&v=3c9072e9"
+  },
+  "herringbone_brick": {
+    "name": "Herringbone Brick",
+    "categories": [
+      "man made",
+      "outdoor",
+      "floor",
+      "brick"
+    ],
+    "type": 1,
+    "tags": [
+      "herringbone",
+      "interlocking bricks",
+      "worndown",
+      "brick",
+      "bricks",
+      "pavement",
+      "sidewalk",
+      "street",
+      "ground",
+      "pavement patterned",
+      "sidewalk texture"
+    ],
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "max_resolution": [
+      16384,
+      16384
+    ],
+    "dimensions": [
+      1800.0000715255737,
+      1800.0000715255737
+    ],
+    "date_published": 1719878400,
+    "files_hash": "35839bb8404a01da9c6e7c1e234165e415dbd6ee",
+    "description": "Free 16K texture of worn herringbone brick pavement with weathered, rough surfaces, visible mortar joints and subtle dirt and moisture-darkened crevices.",
+    "category_id": "fd95b70a-91f7-556e-a9d5-e1d6fe6637be",
+    "category": "Brick & Block/Clay Brick/Herringbone",
+    "attributes": {
+      "surface_use": "paving",
+      "condition": [
+        "weathered",
+        "worn"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "img_version": "efe44b20",
+    "download_count": 8726,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/herringbone_brick.png?width=256&height=256&v=efe44b20"
+  },
+  "herringbone_pavement": {
+    "name": "Herringbone Pavement",
+    "categories": [
+      "floor",
+      "man made",
+      "brick",
+      "outdoor"
+    ],
+    "type": 1,
+    "tags": [
+      "rough",
+      "herringbone",
+      "brick",
+      "bricks",
+      "pavement",
+      "pavement patterned",
+      "patterned",
+      "urban",
+      "sidewalk",
+      "interlocking bricks",
+      "city"
+    ],
+    "authors": {
+      "Charlotte Baglioni": "All"
+    },
+    "info": null,
+    "dimensions": [
+      1999.9996423721313,
+      1999.9996423721313
+    ],
+    "date_published": 1705363200,
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "files_hash": "3582ed854fbc504491f048d688a60d79595c5817",
+    "description": "Free 8K texture: rough herringbone brick pavement with narrow interlocking bricks, worn edges, visible mortar joints and subtle surface dirt.",
+    "category_id": "fd95b70a-91f7-556e-a9d5-e1d6fe6637be",
+    "category": "Brick & Block/Clay Brick/Herringbone",
+    "attributes": {
+      "surface_use": "paving",
+      "condition": [
+        "weathered",
+        "worn"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "img_version": "53acf0b5",
+    "download_count": 31358,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/herringbone_pavement.png?width=256&height=256&v=53acf0b5"
+  },
+  "herringbone_pavement_02": {
+    "type": 1,
+    "name": "Herringbone Pavement 02",
+    "categories": [
+      "outdoor",
+      "road",
+      "man made",
+      "dirty"
+    ],
+    "tags": [
+      "weathered",
+      "rough",
+      "discolored",
+      "exterior",
+      "coarse",
+      "weatherbeaten",
+      "driveway texture",
+      "timeworn",
+      "hard surface",
+      "pathway"
+    ],
+    "authors": {
+      "Amal Kumar": "All"
+    },
+    "max_resolution": [
+      16384,
+      16384
+    ],
+    "dimensions": [
+      2480.0000190734863,
+      2480.0000190734863
+    ],
+    "date_published": 1735776000,
+    "files_hash": "7a4685ef27bedf61849d2abf39126c5f62027de0",
+    "description": "Free 16K texture: weathered herringbone pavement - coarse, timeworn concrete bricks with discolored red diagonal rows, rough edges and dirt-filled joints.",
+    "category_id": "a993f2ab-6503-53e4-a548-9a509c81f7e1",
+    "category": "Brick & Block/Concrete Block & Paver/Herringbone Pavers",
+    "attributes": {
+      "surface_use": "paving",
+      "condition": [
+        "weathered",
+        "worn",
+        "damaged"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "img_version": "aaafa8b8",
+    "download_count": 4406,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/herringbone_pavement_02.png?width=256&height=256&v=aaafa8b8"
+  },
+  "herringbone_pavement_03": {
+    "type": 1,
+    "name": "Herringbone Pavement 03",
+    "categories": [
+      "dirty",
+      "brick",
+      "outdoor"
+    ],
+    "tags": [
+      "weathered",
+      "worn",
+      "rough",
+      "discolored",
+      "damaged",
+      "dirty",
+      "aged",
+      "timeworn",
+      "moss",
+      "trampled",
+      "dirt",
+      "pavement",
+      "weatherbeaten",
+      "mosscovered",
+      "mossy",
+      "driveway texture"
+    ],
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "max_resolution": [
+      16384,
+      16384
+    ],
+    "dimensions": [
+      2400.0000953674316,
+      2400.0000953674316
+    ],
+    "date_published": 1735603200,
+    "files_hash": "80bb0785ed6ee0d579f664e54233265d6a8c007e",
+    "description": "Free 16K herringbone pavement texture showing weathered, darkened bricks with rough, worn surfaces, dirt-filled joints and subtle age discoloration.",
+    "category_id": "fd95b70a-91f7-556e-a9d5-e1d6fe6637be",
+    "category": "Brick & Block/Clay Brick/Herringbone",
+    "attributes": {
+      "surface_use": "paving",
+      "condition": [
+        "weathered",
+        "worn",
+        "damaged",
+        "mossy"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "img_version": "92690897",
+    "download_count": 11337,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/herringbone_pavement_03.png?width=256&height=256&v=92690897"
+  },
+  "herringbone_pavement_04": {
+    "type": 1,
+    "name": "Herringbone Pavement 04",
+    "categories": [
+      "man made",
+      "road",
+      "outdoor"
+    ],
+    "tags": [
+      "weathered",
+      "rough",
+      "discolored",
+      "dirty",
+      "coarse",
+      "outdoor",
+      "aged",
+      "weatherbeaten",
+      "timeworn",
+      "driveway texture",
+      "rough  ",
+      "pavement",
+      "rugged",
+      "pathway"
+    ],
+    "authors": {
+      "Charlotte Baglioni": "All"
+    },
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "dimensions": [
+      1800.0000715255737,
+      1800.0000715255737
+    ],
+    "date_published": 1735171200,
+    "files_hash": "1b7da9f0c890209eb96fb22c7899f7c8798a704c",
+    "description": "Free 8K texture: weathered herringbone pavement with coarse grooves, discolored, dirt-filled seams and a rough, timeworn outdoor surface.",
+    "category_id": "a993f2ab-6503-53e4-a548-9a509c81f7e1",
+    "category": "Brick & Block/Concrete Block & Paver/Herringbone Pavers",
+    "attributes": {
+      "surface_use": "paving",
+      "condition": [
+        "weathered",
+        "worn",
+        "damaged"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "img_version": "24dc451c",
+    "download_count": 1223,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/herringbone_pavement_04.png?width=256&height=256&v=24dc451c"
+  },
+  "monastery_stone_floor": {
+    "date_published": 1682553600,
+    "name": "Monastery Stone Floor",
+    "categories": [
+      "rock",
+      "outdoor",
+      "floor",
+      "man made"
+    ],
+    "type": 1,
+    "authors": {
+      "Amal Kumar": "All"
+    },
+    "info": null,
+    "dimensions": [
+      1799.9999523162842,
+      1799.9999523162842
+    ],
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "tags": [
+      "rock",
+      "rocks",
+      "stone",
+      "floor",
+      "pathway",
+      "slates",
+      "slate",
+      "path",
+      "walkway",
+      "weathered"
+    ],
+    "files_hash": "2b15d54cd0518be212cf14f320c761ab33e71ea6",
+    "description": "Free 8K texture of a weathered monastery stone floor: irregular slate slabs, rough chipped edges, worn faces and gritty mortar joints with dirt.",
+    "category_id": "0dc6c67b-4dfa-5355-ad12-9918fc376459",
+    "category": "Stone/Slabs & Tiles/Slate",
+    "attributes": {
+      "surface_use": "floor",
+      "condition": [
+        "weathered",
+        "worn",
+        "damaged"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "img_version": "1108252e",
+    "download_count": 55856,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/monastery_stone_floor.png?width=256&height=256&v=1108252e"
+  },
+  "mossy_cobblestone": {
+    "type": 1,
+    "tags": [
+      "weathered",
+      "stone",
+      "earthy",
+      "moss",
+      "cobblestone",
+      "walkway",
+      "stonework",
+      "outdoor flooring",
+      "pathway"
+    ],
+    "date_published": 1687564800,
+    "name": "Mossy Cobblestone",
+    "authors": {
+      "S\u01a1n Nguy\u1ec5n": "All"
+    },
+    "info": null,
+    "dimensions": [
+      2000,
+      2000
+    ],
+    "categories": [
+      "floor",
+      "outdoor",
+      "man made",
+      "cobblestone"
+    ],
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "files_hash": "2653c16e98cf832106d334c38812cd8387844aae",
+    "description": "Free 8K texture of weathered cobblestone: irregular, worn stone blocks with earthy tones, rough surfaces and vivid green moss filling the joints and crevices.",
+    "attributes": {
+      "surface_use": "paving",
+      "condition": [
+        "weathered",
+        "mossy",
+        "worn"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "category_id": "5aa99c3f-7783-51e3-90d1-2c496368ad24",
+    "category": "Stone/Cobblestone & Paving/Cut Setts & Pavers",
+    "img_version": "e93cd626",
+    "download_count": 32829,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/mossy_cobblestone.png?width=256&height=256&v=e93cd626"
+  },
+  "patterned_brick_floor": {
+    "name": "Patterned Brick Floor",
+    "categories": [
+      "man made",
+      "outdoor",
+      "floor"
+    ],
+    "type": 1,
+    "tags": [
+      "bricks",
+      "gray",
+      "grey",
+      "concrete",
+      "pattern",
+      "pavement patterned",
+      "walkway"
+    ],
+    "authors": {
+      "Charlotte Baglioni": "All"
+    },
+    "info": null,
+    "dimensions": [
+      1810.9997510910034,
+      1810.9997510910034
+    ],
+    "date_published": 1693267200,
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "files_hash": "63494a0e4843398bd640beadfdd19d9745e37fad",
+    "description": "Free 8K texture: patterned gray concrete brick pavement with staggered rectangular blocks, fine gritty surface, subtle weathering and recessed grout lines.",
+    "category_id": "92b71894-91d3-5943-a35a-29645474eb3b",
+    "category": "Brick & Block/Concrete Block & Paver/Concrete Brick",
+    "attributes": {
+      "surface_use": "paving",
+      "condition": [
+        "weathered"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "img_version": "c7e43138",
+    "download_count": 56571,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/patterned_brick_floor.png?width=256&height=256&v=c7e43138"
+  },
+  "patterned_cobblestone": {
+    "name": "Patterned Cobblestone",
+    "type": 1,
+    "tags": [
+      "uneven",
+      "weathered",
+      "cobblestone",
+      "walkway",
+      "bricks",
+      "pattern",
+      "pavement",
+      "ground",
+      "pathway",
+      "driveway stones",
+      "pavement patterned",
+      "outdoor"
+    ],
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "info": null,
+    "dimensions": [
+      2499.999523162842,
+      2499.999523162842
+    ],
+    "date_published": 1691020800,
+    "categories": [
+      "man made",
+      "outdoor",
+      "cobblestone",
+      "floor",
+      "brick"
+    ],
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "files_hash": "b56fd1b5cd5581645f98f645305349d57f42239e",
+    "description": "Free 8K texture of patterned cobblestone: uneven, weathered stone blocks with rough, chipped surfaces, dark mossy joints and subtle dirt for outdoor pavement.",
+    "category_id": "5aa99c3f-7783-51e3-90d1-2c496368ad24",
+    "attributes": {
+      "surface_use": "paving",
+      "condition": [
+        "weathered",
+        "mossy"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "category": "Stone/Cobblestone & Paving/Cut Setts & Pavers",
+    "img_version": "8dac72aa",
+    "download_count": 32770,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/patterned_cobblestone.png?width=256&height=256&v=8dac72aa"
+  },
+  "patterned_cobblestone_02": {
+    "name": "Patterned Cobblestone 02",
+    "categories": [
+      "floor",
+      "cobblestone"
+    ],
+    "type": 1,
+    "tags": [
+      "weathered",
+      "rough",
+      "cobblestone",
+      "cobblestones",
+      "pattern",
+      "pavement patterned",
+      "patterned",
+      "stones",
+      "stone",
+      "outdoor",
+      "rugged"
+    ],
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "max_resolution": [
+      16384,
+      16384
+    ],
+    "dimensions": [
+      2099.9999046325684,
+      2099.9999046325684
+    ],
+    "date_published": 1719446400,
+    "files_hash": "8fe0fb6fa7b22f0b4ff25b7c8aa4818920a2d964",
+    "description": "Free 16K cobblestone texture showing weathered, rough patterned stones set in mossy mortar lines with varied earthy tones and gritty surface detail.",
+    "attributes": {
+      "surface_use": "paving",
+      "condition": [
+        "weathered",
+        "mossy"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "category_id": "e68bcb96-6d27-562a-bac7-d821ebdaa2a7",
+    "category": "Stone/Cobblestone & Paving/Rounded Cobbles & Pebbles",
+    "img_version": "5e1bfcea",
+    "download_count": 6461,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/patterned_cobblestone_02.png?width=256&height=256&v=5e1bfcea"
+  },
+  "pavement_01": {
+    "type": 1,
+    "date_published": 1560816694,
+    "name": "Pavement 01",
+    "categories": [
+      "floor",
+      "outdoor",
+      "man made"
+    ],
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "dimensions": [
+      1500,
+      1500
+    ],
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "files_hash": "3ea9fc2ab5ba88ce7627dabe1cf8c9ba07a23f81",
+    "tags": [
+      "pavement",
+      "square",
+      "pattern",
+      "worn",
+      "uneven",
+      "stone",
+      "stone tiles",
+      "grid",
+      "roughhewn",
+      "blocks"
+    ],
+    "description": "Free 8K texture of worn square stone tiles in a roughhewn grid, uneven chisel-marked blocks with deep grout lines and weathered gray-brown stone.",
+    "category_id": "ed387a11-4ceb-5ff1-ab45-46a821ddbd0e",
+    "category": "Stone/Slabs & Tiles/Flagstones",
+    "attributes": {
+      "surface_use": "paving",
+      "condition": [
+        "worn",
+        "weathered"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "img_version": "aa4dd547",
+    "download_count": 35532,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/pavement_01.png?width=256&height=256&v=aa4dd547"
+  },
+  "pavement_02": {
+    "date_published": 1676332800,
+    "name": "Pavement 02",
+    "categories": [
+      "outdoor",
+      "man made",
+      "floor",
+      "plaster-concrete",
+      "plaster"
+    ],
+    "type": 1,
+    "info": null,
+    "authors": {
+      "Dario Barresi": "Processing",
+      "Charlotte Baglioni": "Photography"
+    },
+    "dimensions": [
+      2119.999647140503,
+      2119.999885559082
+    ],
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "tags": [
+      "worn",
+      "floor",
+      "sidewalk",
+      "pavement",
+      "flat",
+      "dirty",
+      "city",
+      "textured",
+      "paving",
+      "ground"
+    ],
+    "files_hash": "118276f4f44c24ffcff3c88664b905160bf0c243",
+    "description": "Free 8K texture of worn concrete paving stones with coarse, weathered surfaces in warm gray and terracotta tones, defined grout lines and light dirt.",
+    "category_id": "095573e6-25a6-59a5-b88e-6911bbfbc472",
+    "category": "Brick & Block/Concrete Block & Paver/Cast-Stone Block",
+    "attributes": {
+      "surface_use": "paving",
+      "condition": [
+        "worn",
+        "weathered"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "img_version": "9247a600",
+    "download_count": 61281,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/pavement_02.png?width=256&height=256&v=9247a600"
+  },
+  "pavement_03": {
+    "name": "Pavement 03",
+    "categories": [
+      "outdoor",
+      "man made",
+      "floor",
+      "brick"
+    ],
+    "type": 1,
+    "info": null,
+    "tags": [
+      "rough",
+      "weathered",
+      "sidewalk",
+      "brick",
+      "bricks",
+      "cement",
+      "pavement"
+    ],
+    "authors": {
+      "Dario Barresi": "Processing",
+      "Charlotte Baglioni": "Photography"
+    },
+    "date_published": 1676505600,
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "description": "Free 8K texture: weathered brick pavement with rough, gritty cement surface, subtle color variation, worn edges and detailed micro-roughness.",
+    "dimensions": [
+      1999.9996423721313,
+      1999.9996423721313
+    ],
+    "files_hash": "fa92de6f161ec360cacda4518d75dbdd250ee8d2",
+    "category_id": "9ef0955b-87fa-5826-aa87-98b047ad9143",
+    "category": "Brick & Block/Clay Brick/Running-Bond",
+    "attributes": {
+      "surface_use": "paving",
+      "condition": [
+        "weathered",
+        "worn"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "img_version": "2b1dc9e7",
+    "download_count": 60239,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/pavement_03.png?width=256&height=256&v=2b1dc9e7"
+  },
+  "pavement_04": {
+    "date_published": 1681948800,
+    "name": "Pavement 04",
+    "categories": [
+      "outdoor",
+      "man made",
+      "floor",
+      "brick"
+    ],
+    "type": 1,
+    "info": null,
+    "dimensions": [
+      3099.9999046325684,
+      3099.9999046325684
+    ],
+    "tags": [
+      "grey",
+      "brick",
+      "bricks",
+      "pavement",
+      "floor",
+      "sidewalk",
+      "dry",
+      "synthetic"
+    ],
+    "authors": {
+      "Jan Burghardt": "All"
+    },
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "files_hash": "ec2841c9caa9dbd70bcbb6cd8103b449ff5ad2fa",
+    "description": "Free 8K texture of dark grey rectangular pavement bricks with tight mortar joints, subtle granular surface and low sheen, slightly rough and dry.",
+    "category_id": "92b71894-91d3-5943-a35a-29645474eb3b",
+    "category": "Brick & Block/Concrete Block & Paver/Concrete Brick",
+    "attributes": {
+      "surface_use": "paving",
+      "origin": "man_made",
+      "setting": "outdoor",
+      "condition": [
+        "clean"
+      ]
+    },
+    "img_version": "40b562a0",
+    "download_count": 44516,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/pavement_04.png?width=256&height=256&v=40b562a0"
+  },
+  "pavement_05": {
+    "date_published": 1679184000,
+    "name": "Pavement 05",
+    "type": 1,
+    "dimensions": [
+      3449.9998092651367,
+      3449.9998092651367
+    ],
+    "info": null,
+    "tags": [
+      "stones",
+      "path",
+      "floor",
+      "pavement",
+      "sidewalk",
+      "pathway",
+      "cobblestone",
+      "stone",
+      "paving",
+      "brick",
+      "bricks",
+      "walkway"
+    ],
+    "authors": {
+      "Jan Burghardt": "All"
+    },
+    "sponsors": [
+      "42579608"
+    ],
+    "categories": [
+      "outdoor",
+      "man made",
+      "floor",
+      "brick",
+      "cobblestone"
+    ],
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "files_hash": "6d22d37ab955ac5c07f47dbe0fe0dd8d4c4e00ac",
+    "description": "Free 8K texture of compact cobblestone pavement with uniform square stones, rounded edges, shallow mortar joints and a slightly gritty, matte stone surface.",
+    "category_id": "5aa99c3f-7783-51e3-90d1-2c496368ad24",
+    "category": "Stone/Cobblestone & Paving/Cut Setts & Pavers",
+    "attributes": {
+      "surface_use": "paving",
+      "origin": "man_made",
+      "setting": "outdoor",
+      "condition": [
+        "clean"
+      ]
+    },
+    "img_version": "e4bff07a",
+    "download_count": 18844,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/pavement_05.png?width=256&height=256&v=e4bff07a"
+  },
+  "pavement_06": {
+    "type": 1,
+    "name": "Pavement 06",
+    "categories": [
+      "dirty",
+      "brick",
+      "floor",
+      "man made"
+    ],
+    "tags": [
+      "rough",
+      "exterior",
+      "outdoor",
+      "walkway",
+      "pavers",
+      "outdoor flooring",
+      "urban",
+      "footpath",
+      "cityscape",
+      "interlocking bricks",
+      "sidewalk",
+      "antislip"
+    ],
+    "authors": {
+      "Jan Martens": "All"
+    },
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "dimensions": [
+      1800.0000715255737,
+      1800.0000715255737
+    ],
+    "date_published": 1732752000,
+    "donated": true,
+    "files_hash": "39c8a7130cf65f67558dfcea04b9b1be49360de3",
+    "description": "Free 8K texture of rough brown-red interlocking brick pavement with gritty anti-slip surface, subtle wear, dirt-filled joints and low sheen.",
+    "category_id": "ce26ba57-ef4b-54d4-a954-9a85bb053b9e",
+    "category": "Brick & Block/Concrete Block & Paver/Interlocking Pavers",
+    "attributes": {
+      "surface_use": "paving",
+      "condition": [
+        "weathered",
+        "worn"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "img_version": "2670d423",
+    "download_count": 13875,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/pavement_06.png?width=256&height=256&v=2670d423"
+  },
+  "pebble_embedded_concrete": {
+    "type": 1,
+    "name": "Pebble Embedded Concrete",
+    "categories": [
+      "floor",
+      "outdoor",
+      "man made"
+    ],
+    "tags": [
+      "embedded pebble",
+      "concrete",
+      "pavers",
+      "rough",
+      "outdoor",
+      "durable",
+      "pavement",
+      "coarse",
+      "outdoor flooring",
+      "cement",
+      "stone embedded",
+      "rough  ",
+      "rough concrete",
+      "pebbled surface",
+      "gritty",
+      "abrasive"
+    ],
+    "authors": {
+      "Charlotte Baglioni": "All"
+    },
+    "max_resolution": [
+      16384,
+      16384
+    ],
+    "dimensions": [
+      2599.9999046325684,
+      2599.9999046325684
+    ],
+    "files_hash": "e08b296b9216e769422031d658e5082340dc4d7a",
+    "date_published": 1758153600,
+    "description": "Free 16K texture: gritty, pebble-embedded concrete with a coarse, durable pavement surface - ideal for outdoor flooring, pavers, and rough man-made scenes.",
+    "category_id": "70d3bf8f-46b0-5250-a419-61cbf068f448",
+    "category": "Concrete/Cast Walls & Floors/Exposed Aggregate",
+    "attributes": {
+      "surface_use": "paving",
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "img_version": "e84043de",
+    "download_count": 2232,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/pebble_embedded_concrete.png?width=256&height=256&v=e84043de"
+  },
+  "pebble_embedded_concrete_02": {
+    "type": 1,
+    "name": "Pebble Embedded Concrete 02",
+    "categories": [
+      "floor",
+      "outdoor",
+      "man made"
+    ],
+    "tags": [
+      "embedded pebble",
+      "concrete",
+      "concrete tiles",
+      "pavers",
+      "rough",
+      "outdoor",
+      "durable",
+      "pavement",
+      "coarse"
+    ],
+    "authors": {
+      "Charlotte Baglioni": "All"
+    },
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "dimensions": [
+      2150.0000953674316,
+      2150.0000953674316
+    ],
+    "date_published": 1753315200,
+    "files_hash": "fb049959e1d2186223e230e63e637aefd70c1d1f",
+    "description": "Free 8K texture of pebble-embedded concrete tiles, coarse and rough outdoor pavers with visible grout and a durable pavement surface.",
+    "category_id": "095573e6-25a6-59a5-b88e-6911bbfbc472",
+    "category": "Brick & Block/Concrete Block & Paver/Cast-Stone Block",
+    "attributes": {
+      "surface_use": "paving",
+      "origin": "man_made",
+      "setting": "outdoor",
+      "condition": [
+        "clean"
+      ]
+    },
+    "img_version": "ba8b9e6e",
+    "download_count": 7029,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/pebble_embedded_concrete_02.png?width=256&height=256&v=ba8b9e6e"
+  },
+  "pebble_embedded_pavement": {
+    "name": "Pebble Embedded Pavement",
+    "type": 1,
+    "tags": [
+      "pebbles",
+      "pebble",
+      "concrete",
+      "bumpy",
+      "walkway",
+      "outdoor",
+      "embedded pebble",
+      "cemented floor",
+      "outdoor walkway",
+      "pavement",
+      "rough",
+      "coarse"
+    ],
+    "authors": {
+      "Charlotte Baglioni": "All"
+    },
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "dimensions": [
+      1800.0000715255737,
+      1800.0000715255737
+    ],
+    "date_published": 1716249600,
+    "files_hash": "15cc8ba729bd8b6e9194db8ec2d1b4470a93af9e",
+    "description": "Free 8K texture of pebble-embedded concrete: coarse, rough, cemented surface with small rounded stones recessed in weathered outdoor pavement.",
+    "categories": [
+      "floor",
+      "man made",
+      "outdoor",
+      "concrete",
+      "plaster-concrete"
+    ],
+    "category_id": "70d3bf8f-46b0-5250-a419-61cbf068f448",
+    "category": "Concrete/Cast Walls & Floors/Exposed Aggregate",
+    "attributes": {
+      "surface_use": "paving",
+      "condition": [
+        "weathered"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "img_version": "11d74e13",
+    "download_count": 4429,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/pebble_embedded_pavement.png?width=256&height=256&v=11d74e13"
+  },
+  "red_sandstone_pavement": {
+    "type": 1,
+    "tags": [
+      "weathered",
+      "plaster",
+      "rock",
+      "sandstone",
+      "concrete",
+      "pavement",
+      "floor",
+      "dirty",
+      "discolored",
+      "brown",
+      "red",
+      "rocks",
+      "pathway",
+      "grey"
+    ],
+    "date_published": 1679961600,
+    "name": "Red Sandstone Pavement",
+    "authors": {
+      "Amal Kumar": "All"
+    },
+    "dimensions": [
+      2150.0000953674316,
+      2150.0000953674316
+    ],
+    "info": null,
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "files_hash": "32d99d2030a56f578ae8d81e478856ed09a0f2d7",
+    "sponsors": [
+      "3237733"
+    ],
+    "description": "Free 8K texture of red sandstone pavement with weathered, discolored blocks, rough grain and eroded mortar joints, showing grit, dirt and muted red-brown-grey tones.",
+    "categories": [
+      "outdoor",
+      "floor",
+      "sandstone",
+      "man made",
+      "rock"
+    ],
+    "category_id": "711f00d1-14a5-537f-addc-52bc3da7cd0e",
+    "category": "Brick & Block/Stone Block & Paver/Sandstone Brick & Block",
+    "attributes": {
+      "surface_use": "paving",
+      "condition": [
+        "weathered",
+        "damaged"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "img_version": "05dad87e",
+    "download_count": 24203,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/red_sandstone_pavement.png?width=256&height=256&v=05dad87e"
+  },
+  "slate_floor": {
+    "type": 1,
+    "tags": [
+      "slates",
+      "slate",
+      "shiny",
+      "coated",
+      "polished",
+      "reflective",
+      "stone",
+      "flooring",
+      "interior design",
+      "stone tile"
+    ],
+    "date_published": 1690416000,
+    "name": "Slate Floor",
+    "categories": [
+      "floor",
+      "man made"
+    ],
+    "authors": {
+      "Dimitrios Savva": "All"
+    },
+    "info": null,
+    "dimensions": [
+      2289.9999618530273,
+      2290.0002002716064
+    ],
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "files_hash": "a32f79680e8da88837ab9b12e1bc76dcc38ceb64",
+    "description": "Free 8K texture of polished dark slate flooring with a coated, glossy finish, visible grout and subtle scratches, rich stone grain and reflective highlights.",
+    "category_id": "0dc6c67b-4dfa-5355-ad12-9918fc376459",
+    "category": "Stone/Slabs & Tiles/Slate",
+    "attributes": {
+      "surface_use": "floor",
+      "condition": [
+        "worn"
+      ],
+      "origin": "man_made"
+    },
+    "img_version": "7e58c77d",
+    "download_count": 16340,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/slate_floor.png?width=256&height=256&v=7e58c77d"
+  },
+  "slate_floor_02": {
+    "name": "Slate Floor 02",
+    "categories": [
+      "floor",
+      "cobblestone",
+      "rock"
+    ],
+    "type": 1,
+    "tags": [
+      "old",
+      "weathered",
+      "worn",
+      "slates",
+      "slate",
+      "floor",
+      "vintage",
+      "rustic",
+      "rustic architecture",
+      "natural",
+      "traditional",
+      "stone floor"
+    ],
+    "authors": {
+      "Dimitrios Savva": "All"
+    },
+    "dimensions": [
+      2000,
+      2000
+    ],
+    "date_published": 1712275200,
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "files_hash": "758e581165d13c5ae4d65a74ebfd1143af550db7",
+    "description": "Free 8K texture of weathered reddish-brown slate floor with irregular stone slabs, worn edges, mortar joints and subtle glossy wear that reveals natural veining.",
+    "category_id": "0dc6c67b-4dfa-5355-ad12-9918fc376459",
+    "category": "Stone/Slabs & Tiles/Slate",
+    "attributes": {
+      "surface_use": "floor",
+      "condition": [
+        "weathered",
+        "worn"
+      ],
+      "origin": "man_made"
+    },
+    "img_version": "87259e4a",
+    "download_count": 15512,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/slate_floor_02.png?width=256&height=256&v=87259e4a"
+  },
+  "slate_floor_03": {
+    "type": 1,
+    "name": "Slate Floor 03",
+    "categories": [
+      "floor",
+      "man made",
+      "indoor"
+    ],
+    "tags": [
+      "slates",
+      "slate",
+      "floor",
+      "rustic architecture",
+      "vintage",
+      "stone floor",
+      "rustic",
+      "mosaic",
+      "stone",
+      "stone tile"
+    ],
+    "authors": {
+      "Dimitrios Savva": "All"
+    },
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "dimensions": [
+      2000,
+      2000
+    ],
+    "date_published": 1751500800,
+    "files_hash": "ee507a4fc019173222b0d90bdbb6f9034b2b0578",
+    "description": "Free 8K slate floor texture with worn, rustic stone tiles, rough relief and patched mosaic look - ideal for vintage indoor flooring.",
+    "category_id": "0dc6c67b-4dfa-5355-ad12-9918fc376459",
+    "category": "Stone/Slabs & Tiles/Slate",
+    "attributes": {
+      "surface_use": "floor",
+      "condition": [
+        "worn"
+      ],
+      "origin": "man_made",
+      "setting": "indoor"
+    },
+    "download_count": 3554,
+    "img_version": "002cbde9",
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/slate_floor_03.png?width=256&height=256&v=002cbde9"
+  },
+  "square_cobblestone": {
+    "date_published": 1681516800,
+    "name": "Square Cobblestone",
+    "type": 1,
+    "tags": [
+      "weathered",
+      "worn",
+      "chipped",
+      "discolored",
+      "grey",
+      "concrete",
+      "cobblestone",
+      "cement",
+      "dry",
+      "dirty",
+      "pavement",
+      "street"
+    ],
+    "authors": {
+      "S\u01a1n Nguy\u1ec5n": "All"
+    },
+    "info": null,
+    "dimensions": [
+      2000,
+      2000
+    ],
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "files_hash": "e4ad8dad020e48b6d179024bd541f35f915d91dd",
+    "description": "Free 8K cobblestone texture showcasing grey, weathered concrete squares with chipped edges, dry dirt in joints, subtle discoloration and worn surface details.",
+    "categories": [
+      "outdoor",
+      "rock",
+      "floor",
+      "man made",
+      "cobblestone"
+    ],
+    "category_id": "5aa99c3f-7783-51e3-90d1-2c496368ad24",
+    "attributes": {
+      "surface_use": "paving",
+      "condition": [
+        "weathered",
+        "worn"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "category": "Stone/Cobblestone & Paving/Cut Setts & Pavers",
+    "download_count": 15808,
+    "img_version": "a33bb853",
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/square_cobblestone.png?width=256&height=256&v=a33bb853"
+  },
+  "stone_floor": {
+    "date_published": 1678320000,
+    "name": "Stone Floor",
+    "type": 1,
+    "authors": {
+      "Dimitrios Savva": "All"
+    },
+    "dimensions": [
+      1849.9999046325684,
+      1849.9999046325684
+    ],
+    "info": null,
+    "tags": [
+      "rough",
+      "old",
+      "uneven",
+      "worn",
+      "brown",
+      "dirty",
+      "dry",
+      "rock",
+      "floor",
+      "pathway",
+      "paving",
+      "stone",
+      "cobblestone"
+    ],
+    "categories": [
+      "outdoor",
+      "man made",
+      "floor",
+      "rock",
+      "cobblestone"
+    ],
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "files_hash": "582d5abd87d939a6a15b53b816bd82027b04ad1e",
+    "description": "Free 8K texture of old brown cobblestone floor, rough uneven worn stones with dry dirt-filled joints and subtle grime for a weathered paved surface.",
+    "attributes": {
+      "surface_use": "floor",
+      "condition": [
+        "worn"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "category_id": "5aa99c3f-7783-51e3-90d1-2c496368ad24",
+    "category": "Stone/Cobblestone & Paving/Cut Setts & Pavers",
+    "img_version": "ae9298d4",
+    "download_count": 9901,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/stone_floor.png?width=256&height=256&v=ae9298d4"
+  },
+  "stone_pathway_02": {
+    "type": 1,
+    "name": "Stone Pathway 02",
+    "categories": [
+      "floor",
+      "outdoor",
+      "cobblestone"
+    ],
+    "tags": [
+      "rough",
+      "weathered",
+      "leaves",
+      "fallen leaves",
+      "plant debris",
+      "stones",
+      "cobblestone",
+      "garden walkway",
+      "stone pathway",
+      "path",
+      "cobblestones",
+      "scattered leaves",
+      "rough  ",
+      "damp"
+    ],
+    "description": "Free 8k material: weathered cobblestone pathway texture with rough, uneven stones, damp sheen, worn edges and scattered fallen leaves and plant debris.",
+    "authors": {
+      "Amal Kumar": "All"
+    },
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "dimensions": [
+      1950.0000476837158,
+      1950.0000476837158
+    ],
+    "files_hash": "2fde04b9e79075a3481c600d5ba1a7df48561046",
+    "date_published": 1761782400,
+    "category_id": "99762fb0-f134-5cd9-93f7-5b876875f7c9",
+    "attributes": {
+      "surface_use": "paving",
+      "condition": [
+        "weathered",
+        "worn"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "category": "Stone/Cobblestone & Paving/Rough & Irregular Setts",
+    "img_version": "2830fd6b",
+    "download_count": 15969,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/stone_pathway_02.png?width=256&height=256&v=2830fd6b"
+  },
+  "stone_tiles_03": {
+    "name": "Stone Tiles 03",
+    "categories": [
+      "outdoor",
+      "man made",
+      "floor",
+      "rock"
+    ],
+    "type": 1,
+    "tags": [
+      "rough",
+      "weathered",
+      "dirty",
+      "stones",
+      "dirt",
+      "leaves",
+      "pathway",
+      "rocks",
+      "worn",
+      "floor",
+      "walkway"
+    ],
+    "authors": {
+      "eye-candy.xyz": "All"
+    },
+    "info": null,
+    "dimensions": [
+      1919.9998378753662,
+      1919.9998378753662
+    ],
+    "date_published": 1682208000,
+    "max_resolution": [
+      8192,
+      8192
+    ],
+    "files_hash": "5274d05ab272fbf81afe0cd0375dbe0210719068",
+    "description": "Free 8K texture of weathered stone tiles with rough, worn cobblestones, dirt and moss-filled joints, scattered leaf debris and gritty, aged surface detail.",
+    "attributes": {
+      "surface_use": "paving",
+      "condition": [
+        "weathered",
+        "worn",
+        "mossy"
+      ],
+      "origin": "man_made",
+      "setting": "outdoor"
+    },
+    "category_id": "5aa99c3f-7783-51e3-90d1-2c496368ad24",
+    "category": "Stone/Cobblestone & Paving/Cut Setts & Pavers",
+    "img_version": "0ab7f795",
+    "download_count": 24546,
+    "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/stone_tiles_03.png?width=256&height=256&v=0ab7f795"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "coordinate_basis":"Actual Tiles130 Color/AO image, top-left origin, reference dimensions 2048x1024; originals are4096x2048",
+  "method":"Manually selected large source-stone contours; AO plus local height-gradient refines each boundary within a narrow corridor. Interior small cracks are retained as grain rather than extra stone labels.",
+  "slabs":[
+    {"id":"large_upper_left","seed":[145,135],"polygon":[[4,7],[281,5],[282,269],[8,278]]},
+    {"id":"central_rectangle","seed":[1080,398],"polygon":[[990,294],[1173,294],[1183,392],[1169,517],[1002,518],[985,468]]},
+    {"id":"lower_broad_fractured","seed":[641,658],"polygon":[[497,544],[650,540],[693,594],[784,600],[808,623],[810,717],[766,740],[753,815],[503,821],[488,799]]},
+    {"id":"lower_tall","seed":[904,670],"polygon":[[830,540],[1031,540],[1044,566],[1024,647],[1056,734],[1050,809],[836,816],[821,790]]},
+    {"id":"lower_left_rectangle","seed":[285,627],"polygon":[[148,541],[305,549],[436,588],[438,662],[373,713],[161,711],[147,694]]},
+    {"id":"lower_right_fractured","seed":[1250,711],"polygon":[[1174,602],[1352,600],[1383,635],[1384,711],[1353,816],[1156,818],[1135,782],[1176,730],[1129,703]]},
+    {"id":"bottom_broad","seed":[828,932],"polygon":[[691,844],[819,830],[908,853],[1000,883],[1035,1017],[689,1018],[679,989]]},
+    {"id":"right_lower_flag","seed":[1669,853],"polygon":[[1562,722],[1775,715],[1844,807],[1833,946],[1805,1017],[1542,1017],[1507,947]]},
+    {"id":"upper_middle_flag","seed":[918,100],"polygon":[[835,8],[992,8],[1020,42],[1057,109],[1037,166],[918,179],[844,153],[824,102]]},
+    {"id":"middle_left_tall","seed":[406,406],"polygon":[[339,298],[468,295],[487,361],[486,517],[345,527],[326,465]]}
+  ]
+}

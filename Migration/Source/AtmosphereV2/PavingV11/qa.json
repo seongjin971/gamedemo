@@ -1,0 +1,116 @@
+{
+  "maps": {
+    "Tiles130_4K-PNG_AmbientOcclusion.png": {
+      "dimensions": [
+        4096,
+        2048
+      ],
+      "decoded_mode": "L",
+      "decode_pass": true,
+      "extrema": [
+        0,
+        255
+      ]
+    },
+    "Tiles130_4K-PNG_Color.png": {
+      "dimensions": [
+        4096,
+        2048
+      ],
+      "decoded_mode": "RGB",
+      "decode_pass": true,
+      "extrema": [
+        [
+          7,
+          255
+        ],
+        [
+          1,
+          255
+        ],
+        [
+          0,
+          255
+        ]
+      ]
+    },
+    "Tiles130_4K-PNG_Displacement.png": {
+      "dimensions": [
+        4096,
+        2048
+      ],
+      "decoded_mode": "I;16",
+      "decode_pass": true,
+      "extrema": [
+        0,
+        65535
+      ]
+    },
+    "Tiles130_4K-PNG_NormalDX.png": {
+      "dimensions": [
+        4096,
+        2048
+      ],
+      "decoded_mode": "RGB",
+      "decode_pass": true,
+      "extrema": [
+        [
+          0,
+          254
+        ],
+        [
+          0,
+          254
+        ],
+        [
+          136,
+          255
+        ]
+      ]
+    },
+    "Tiles130_4K-PNG_NormalGL.png": {
+      "dimensions": [
+        4096,
+        2048
+      ],
+      "decoded_mode": "RGB",
+      "decode_pass": true,
+      "extrema": [
+        [
+          0,
+          254
+        ],
+        [
+          1,
+          255
+        ],
+        [
+          136,
+          255
+        ]
+      ]
+    },
+    "Tiles130_4K-PNG_Roughness.png": {
+      "dimensions": [
+        4096,
+        2048
+      ],
+      "decoded_mode": "L",
+      "decode_pass": true,
+      "extrema": [
+        69,
+        207
+      ]
+    }
+  },
+  "read_only_existing_sha256": {
+    "Migration/Source/AtmosphereV2/PavingV10/paving-v10-mesh.json": "e9dace2039a9fb50ce028aa3b7cbff1f06893421dfa2d896e19c38f48d34c240",
+    "Migration/Reference/concept.png": "6ee39038bfb8ca1dec92a9ff5ae66222044652fc2a455f7797d6d5b4203049e2",
+    "Migration/Evidence/AtmosphereV2/candidate-36/full.png": "71583c7f9c969dd7f83dc38b249b18c1f3cd685ca583ef46c7e9d9c4acb8a26f",
+    "Migration/Evidence/AtmosphereV2/candidate-36/zoom.png": "85946b223b90863b3716c16de8076beeb0bff7d22c98c43c63e8ece1856a446a",
+    "Migration/Evidence/AtmosphereV2/verdict-unity-6.md": "a591d40845853f21a2111d7a896a2ce74be4a57e4a7076d2bd0ca88492c8e38b"
+  },
+  "v10_matches_delivered_hash": true,
+  "no_mesh_created": true,
+  "no_unity_integration": true
+}

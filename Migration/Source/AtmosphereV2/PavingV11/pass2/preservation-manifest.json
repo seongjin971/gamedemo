@@ -1,0 +1,16 @@
+{
+  "build.log": "0d65830147d89bcf62b38f0d042a683d41f04a4345d144c2f945f8c608d7e3fe",
+  "build_heightfield_v11.py": "048d94a5e06356a6cb75d0d1b22fa60da04500c90d32f5cd72b20a8aa5b998f2",
+  "BUILD_REPORT.md": "47dc5a423d0510d1ec6f018dc7d1042972d8746203112d84ef791f3db0ffc042",
+  "export-qa.json": "f1359339d60cc8d216f5102fa66e572d8dc87aa4e35bac6e9f56e25a0c9fafcd",
+  "heightfield-metadata.json": "1d68c1b30b898f83fdb6f41b3cbc1d508a82c88953989a089eafbe90ad56a177",
+  "paving-v11-mesh.json": "6eca1cb9d1ce32764074f350de1ced3d43e197cb1db2308235deccf83640cb77",
+  "paving-v11.blend": "999e1751fcb69754f801611dc1e40c175df1bb6157f340ce256dd94a42e2827d",
+  "validate_heightfield.py": "a40ae059bbb78b26ced736865be72462d48285df1544ba5b2311d2db8fb59033",
+  "previews\\after-v11-neutral-close.png": "29335b6b5f36d44c7b7d10e6f31309bea0f090a7f50f8da5492fbf0c7ddf1452",
+  "previews\\after-v11-neutral-full.png": "5542b6683df3b7a3f565c6a5b3b4d45f66795e6026e24e877bfe340941c9cf3c",
+  "previews\\after-v11-textured-close.png": "4083814ad6156c918d2ac88118fc99833d88c7710ae50be05664c0d0696a69ce",
+  "previews\\after-v11-textured-full.png": "bfc738103c8a5b9160a04be8db7499fdd12ae2c5aa51d38e188f67e5924ccc27",
+  "previews\\before-v10-neutral-close.png": "46a6fb73506819408e5f01bcfd53d6fd4bf081255149e5e84a78946dd41566fd",
+  "previews\\before-v10-neutral-full.png": "9b607c3736b76cb65e855f4f7f3533aaa99c966353a710d2ac5ec3b2eedf7a6f"
+}
