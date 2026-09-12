@@ -1,0 +1,1127 @@
+{
+  "status": "PASS",
+  "exact_untouched_stair_bodies": 45,
+  "exact_hero_instances": 8,
+  "exact_facade_removals": 63,
+  "bridge_sha256": "0da895372621f8bc9f651e19332bb57cc5c8f40f060881b5b4310449d6a52af9",
+  "meshes": [
+    {
+      "file": "facade-v16-mesh.json",
+      "sha256": "555a7f39273c6c73e479fc1ec8a2b648d453f91d8058ba00c9c9e62ec2816cff",
+      "triangles": 50320,
+      "vertices": 150960,
+      "bounds": [
+        [
+          -9.799092603464794,
+          -3.4060000512599946,
+          -3.791320960679955
+        ],
+        [
+          -9.225349936642285,
+          -0.2939999964237213,
+          4.695362059793932
+        ]
+      ],
+      "minimum_normal_dot": 1.215373293941612e-07,
+      "float32_minimum_normal_dot": 1.3006078214756412e-07,
+      "float32_bad_winding_or_degenerate": 0,
+      "parts": [
+        {
+          "name": "Running bond 0-0",
+          "triangles": 1092,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.21253651167386156
+        },
+        {
+          "name": "Running bond 0-1",
+          "triangles": 968,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.26981299073703174
+        },
+        {
+          "name": "Running bond 0-2",
+          "triangles": 938,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.25611372783375624
+        },
+        {
+          "name": "Running bond 0-3",
+          "triangles": 936,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.27813598418495494
+        },
+        {
+          "name": "Running bond 0-4",
+          "triangles": 1026,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.2388176248843464
+        },
+        {
+          "name": "Running bond 0-5",
+          "triangles": 1002,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.27865307391344246
+        },
+        {
+          "name": "Running bond 0-6",
+          "triangles": 1026,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.3225997299087145
+        },
+        {
+          "name": "Running bond 1-0",
+          "triangles": 858,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.34790415114766393
+        },
+        {
+          "name": "Running bond 1-1",
+          "triangles": 964,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.274761467588774
+        },
+        {
+          "name": "Running bond 1-2",
+          "triangles": 1088,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.4573848734501193
+        },
+        {
+          "name": "Running bond 1-3",
+          "triangles": 894,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.3200314460286835
+        },
+        {
+          "name": "Running bond 1-4",
+          "triangles": 934,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.2761670140984614
+        },
+        {
+          "name": "Running bond 1-5",
+          "triangles": 888,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.260225293680167
+        },
+        {
+          "name": "Running bond 1-6",
+          "triangles": 1022,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.21727301938565344
+        },
+        {
+          "name": "Running bond 2-0",
+          "triangles": 1076,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.22015257619008408
+        },
+        {
+          "name": "Running bond 2-1",
+          "triangles": 974,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.2544693977468606
+        },
+        {
+          "name": "Running bond 2-2",
+          "triangles": 1120,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.12528171280658618
+        },
+        {
+          "name": "Running bond 2-4",
+          "triangles": 1120,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.1808016968572331
+        },
+        {
+          "name": "Running bond 2-5",
+          "triangles": 838,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.29133447022820524
+        },
+        {
+          "name": "Running bond 2-6",
+          "triangles": 1092,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.268086728516819
+        },
+        {
+          "name": "Running bond 2-7",
+          "triangles": 958,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.32428179600296936
+        },
+        {
+          "name": "Running bond 3-0",
+          "triangles": 1058,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.32913957846081016
+        },
+        {
+          "name": "Running bond 3-1",
+          "triangles": 1006,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.2755867158022219
+        },
+        {
+          "name": "Running bond 3-2",
+          "triangles": 988,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.2905212250782019
+        },
+        {
+          "name": "Running bond 3-3",
+          "triangles": 982,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.2557507064492926
+        },
+        {
+          "name": "Running bond 3-4",
+          "triangles": 996,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.29437350497783754
+        },
+        {
+          "name": "Running bond 3-5",
+          "triangles": 1104,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.24629892371068576
+        },
+        {
+          "name": "Running bond 3-6",
+          "triangles": 1030,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.22556202772895162
+        },
+        {
+          "name": "Running bond 4-0",
+          "triangles": 1000,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.22273879818058587
+        },
+        {
+          "name": "Running bond 4-1",
+          "triangles": 1018,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.24078357382805496
+        },
+        {
+          "name": "Running bond 4-2",
+          "triangles": 974,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.2503384162623488
+        },
+        {
+          "name": "Running bond 4-3",
+          "triangles": 924,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.258650301208655
+        },
+        {
+          "name": "Running bond 4-4",
+          "triangles": 1066,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.2473341660259698
+        },
+        {
+          "name": "Running bond 4-5",
+          "triangles": 1150,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.4563055691929219
+        },
+        {
+          "name": "Running bond 4-6",
+          "triangles": 982,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.05187103286024297
+        },
+        {
+          "name": "Running bond 4-7",
+          "triangles": 900,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.31701131533454047
+        },
+        {
+          "name": "Running bond 5-0",
+          "triangles": 920,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.35547652225645326
+        },
+        {
+          "name": "Running bond 5-1",
+          "triangles": 958,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.26077092965334653
+        },
+        {
+          "name": "Running bond 5-2",
+          "triangles": 1026,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.2668056383401722
+        },
+        {
+          "name": "Running bond 5-3",
+          "triangles": 1036,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.28831107436264986
+        },
+        {
+          "name": "Running bond 5-4",
+          "triangles": 1074,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.1311967458676909
+        },
+        {
+          "name": "Running bond 5-6",
+          "triangles": 1010,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.19814726501756233
+        },
+        {
+          "name": "Running bond 5-7",
+          "triangles": 1026,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.19717815200557198
+        },
+        {
+          "name": "Running bond 6-0",
+          "triangles": 1108,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.2215849111588827
+        },
+        {
+          "name": "Running bond 6-1",
+          "triangles": 1004,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.24648064520180757
+        },
+        {
+          "name": "Running bond 6-2",
+          "triangles": 1016,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.2706407284754782
+        },
+        {
+          "name": "Running bond 6-3",
+          "triangles": 996,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.272452090154891
+        },
+        {
+          "name": "Running bond 6-4",
+          "triangles": 1078,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.25857781354966863
+        },
+        {
+          "name": "Running bond 6-5",
+          "triangles": 1028,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.29531494702760375
+        },
+        {
+          "name": "Running bond 6-6",
+          "triangles": 1048,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.3048811231492576
+        }
+      ]
+    },
+    {
+      "file": "stairs-v16-mesh.json",
+      "sha256": "44c94c919172bf93ce134bd13ec1eb09121ea5f05f822eb65e4298e3413ffa5b",
+      "triangles": 71736,
+      "vertices": 144708,
+      "bounds": [
+        [
+          -6.781499892473221,
+          0.009999999999999953,
+          -6.398135662078857
+        ],
+        [
+          1.1615000069141388,
+          2.9419901371002197,
+          -1.459
+        ]
+      ],
+      "minimum_normal_dot": 8.141448701840016e-09,
+      "float32_minimum_normal_dot": 8.141448701840016e-09,
+      "float32_bad_winding_or_degenerate": 0,
+      "parts": [
+        {
+          "name": "Preserved V13 row 1 tone 0.9180271369967543",
+          "triangles": 764,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.164937575227283
+        },
+        {
+          "name": "Preserved V13 row 1 tone 0.9698120156994765",
+          "triangles": 764,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.13946252046091787
+        },
+        {
+          "name": "Preserved V13 row 1 tone 0.9521048638322105",
+          "triangles": 718,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.13594694496578857
+        },
+        {
+          "name": "Preserved V13 row 1 tone 1.0020211153479777",
+          "triangles": 562,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.15630479611725065
+        },
+        {
+          "name": "Preserved V13 row 1 tone 1.0140160688708668",
+          "triangles": 764,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.14106379146178216
+        },
+        {
+          "name": "Preserved V13 row 1 tone 0.9217306441920173",
+          "triangles": 706,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.14309672975323076
+        },
+        {
+          "name": "Preserved V13 row 1 tone 0.9568254815709317",
+          "triangles": 764,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.13808233245062987
+        },
+        {
+          "name": "Preserved V13 row 1 tone 1.025025532229433",
+          "triangles": 764,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.14220537593204052
+        },
+        {
+          "name": "Preserved V13 row 1 tone 0.9437036328539661",
+          "triangles": 754,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.11574903540482823
+        },
+        {
+          "name": "Preserved V13 row 3 tone 0.9517828039186647",
+          "triangles": 764,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.16995995025629884
+        },
+        {
+          "name": "Preserved V13 row 3 tone 1.0070400583849661",
+          "triangles": 730,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.15093043239711398
+        },
+        {
+          "name": "Preserved V13 row 3 tone 0.9888844382296933",
+          "triangles": 764,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.1400120041693195
+        },
+        {
+          "name": "Preserved V13 row 3 tone 1.0380918187443018",
+          "triangles": 764,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.1356564525776839
+        },
+        {
+          "name": "Preserved V13 row 3 tone 0.9115936140113625",
+          "triangles": 714,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.14881243649122455
+        },
+        {
+          "name": "Preserved V13 row 3 tone 0.9575593127306583",
+          "triangles": 562,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.13179283545230067
+        },
+        {
+          "name": "Preserved V13 row 3 tone 0.9447955005958472",
+          "triangles": 764,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.13533314032296898
+        },
+        {
+          "name": "Preserved V13 row 3 tone 0.9391105293861832",
+          "triangles": 710,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.14984281699640858
+        },
+        {
+          "name": "Preserved V13 row 3 tone 0.9767163760602267",
+          "triangles": 764,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.11702697026020893
+        },
+        {
+          "name": "Preserved V13 row 5 tone 0.9645406985128613",
+          "triangles": 706,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.17818111536717796
+        },
+        {
+          "name": "Preserved V13 row 5 tone 0.9199291838304043",
+          "triangles": 562,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.13424044164946256
+        },
+        {
+          "name": "Preserved V13 row 5 tone 1.0204428998273263",
+          "triangles": 764,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.1459297479132356
+        },
+        {
+          "name": "Preserved V13 row 5 tone 0.9749213752265755",
+          "triangles": 720,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.14135798649228853
+        },
+        {
+          "name": "Preserved V13 row 5 tone 0.9201479700885071",
+          "triangles": 764,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.13997094392828535
+        },
+        {
+          "name": "Preserved V13 row 5 tone 0.9967143001746837",
+          "triangles": 764,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.14639280116407016
+        },
+        {
+          "name": "Preserved V13 row 5 tone 0.9256994861077918",
+          "triangles": 708,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.13720534325649794
+        },
+        {
+          "name": "Preserved V13 row 5 tone 0.9355926754387529",
+          "triangles": 562,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.1404783246237902
+        },
+        {
+          "name": "Preserved V13 row 5 tone 1.0387211307385285",
+          "triangles": 764,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.11363173617462229
+        },
+        {
+          "name": "Preserved V13 row 7 tone 1.0272741709773843",
+          "triangles": 764,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.1690842168269214
+        },
+        {
+          "name": "Preserved V13 row 7 tone 0.945945251152528",
+          "triangles": 764,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.14114426413374057
+        },
+        {
+          "name": "Preserved V13 row 7 tone 0.9687393607800734",
+          "triangles": 734,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.14073352419681187
+        },
+        {
+          "name": "Preserved V13 row 7 tone 0.9744266770105315",
+          "triangles": 562,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.1539579638016821
+        },
+        {
+          "name": "Preserved V13 row 7 tone 1.0057141482098921",
+          "triangles": 764,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.13947062752589295
+        },
+        {
+          "name": "Preserved V13 row 7 tone 0.9424986569008191",
+          "triangles": 724,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.13924745187869875
+        },
+        {
+          "name": "Preserved V13 row 7 tone 1.0197996798615347",
+          "triangles": 764,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.12722944546339887
+        },
+        {
+          "name": "Preserved V13 row 7 tone 0.9711922588313062",
+          "triangles": 764,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.14222133195903777
+        },
+        {
+          "name": "Preserved V13 row 7 tone 1.0119057733171857",
+          "triangles": 710,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.12238569494299911
+        },
+        {
+          "name": "Preserved V13 row 9 tone 0.9472762254004938",
+          "triangles": 764,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.16392188361947127
+        },
+        {
+          "name": "Preserved V13 row 9 tone 0.9430082429795016",
+          "triangles": 726,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.1516215022851626
+        },
+        {
+          "name": "Preserved V13 row 9 tone 0.9998804993076769",
+          "triangles": 764,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.1465027055010335
+        },
+        {
+          "name": "Preserved V13 row 9 tone 0.9479012994340733",
+          "triangles": 764,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.13910335754891376
+        },
+        {
+          "name": "Preserved V13 row 9 tone 0.9972252617096802",
+          "triangles": 726,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.1392803885039037
+        },
+        {
+          "name": "Preserved V13 row 9 tone 0.9411562109231059",
+          "triangles": 562,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.1401971458026254
+        },
+        {
+          "name": "Preserved V13 row 9 tone 0.9472542763723919",
+          "triangles": 764,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.14243357073219473
+        },
+        {
+          "name": "Preserved V13 row 9 tone 1.0105099618934286",
+          "triangles": 724,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.13910882746557326
+        },
+        {
+          "name": "Preserved V13 row 9 tone 0.9913919748635431",
+          "triangles": 764,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.11792400797324332
+        },
+        {
+          "name": "Lithic stair 00-00",
+          "triangles": 794,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.19968004306138623
+        },
+        {
+          "name": "Lithic stair 00-01",
+          "triangles": 836,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.1342498943330764
+        },
+        {
+          "name": "Lithic stair 00-02",
+          "triangles": 664,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.29501431154498226
+        },
+        {
+          "name": "Lithic stair 00-03",
+          "triangles": 920,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.1478607165298752
+        },
+        {
+          "name": "Lithic stair 00-04",
+          "triangles": 956,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.06699348404996681
+        },
+        {
+          "name": "Lithic stair 00-05",
+          "triangles": 958,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.06398657741467896
+        },
+        {
+          "name": "Lithic stair 00-06",
+          "triangles": 928,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.13253827614077415
+        },
+        {
+          "name": "Lithic stair 00-07",
+          "triangles": 874,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.1475115814730176
+        },
+        {
+          "name": "Lithic stair 00-08",
+          "triangles": 924,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.08331662844762923
+        },
+        {
+          "name": "Lithic stair 02-00",
+          "triangles": 856,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.14171135093124354
+        },
+        {
+          "name": "Lithic stair 02-01",
+          "triangles": 914,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.14709491156045496
+        },
+        {
+          "name": "Lithic stair 02-02",
+          "triangles": 856,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.14256298791572844
+        },
+        {
+          "name": "Lithic stair 02-03",
+          "triangles": 836,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.13206292610796685
+        },
+        {
+          "name": "Lithic stair 02-04",
+          "triangles": 984,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.14517591700479981
+        },
+        {
+          "name": "Lithic stair 02-05",
+          "triangles": 834,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.1323733590767948
+        },
+        {
+          "name": "Lithic stair 02-06",
+          "triangles": 916,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.13294767299511612
+        },
+        {
+          "name": "Lithic stair 02-07",
+          "triangles": 838,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.15161603011276542
+        },
+        {
+          "name": "Lithic stair 02-08",
+          "triangles": 836,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.14562787576939185
+        },
+        {
+          "name": "Lithic stair 04-00",
+          "triangles": 778,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.20351645783700975
+        },
+        {
+          "name": "Lithic stair 04-01",
+          "triangles": 838,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.13528608589657706
+        },
+        {
+          "name": "Lithic stair 04-02",
+          "triangles": 662,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.2838122908689787
+        },
+        {
+          "name": "Lithic stair 04-03",
+          "triangles": 928,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.14691048466923354
+        },
+        {
+          "name": "Lithic stair 04-04",
+          "triangles": 924,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.06967667044809606
+        },
+        {
+          "name": "Lithic stair 04-05",
+          "triangles": 990,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.0668549178149397
+        },
+        {
+          "name": "Lithic stair 04-06",
+          "triangles": 920,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.136458296959065
+        },
+        {
+          "name": "Lithic stair 04-07",
+          "triangles": 882,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.1417210430344574
+        },
+        {
+          "name": "Lithic stair 04-08",
+          "triangles": 968,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.08338613935877288
+        },
+        {
+          "name": "Lithic stair 06-00",
+          "triangles": 938,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.14006881819021175
+        },
+        {
+          "name": "Lithic stair 06-01",
+          "triangles": 844,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.14163042326646305
+        },
+        {
+          "name": "Lithic stair 06-02",
+          "triangles": 854,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.13169230367898552
+        },
+        {
+          "name": "Lithic stair 06-03",
+          "triangles": 872,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.15313488855994942
+        },
+        {
+          "name": "Lithic stair 06-04",
+          "triangles": 914,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.14244694176122505
+        },
+        {
+          "name": "Lithic stair 06-05",
+          "triangles": 892,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.13689577937051348
+        },
+        {
+          "name": "Lithic stair 06-06",
+          "triangles": 960,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.12467526813839298
+        },
+        {
+          "name": "Lithic stair 06-07",
+          "triangles": 766,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.145409383502508
+        },
+        {
+          "name": "Lithic stair 06-08",
+          "triangles": 894,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.15321708840047207
+        },
+        {
+          "name": "Lithic stair 08-00",
+          "triangles": 762,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.1901789201797309
+        },
+        {
+          "name": "Lithic stair 08-01",
+          "triangles": 868,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.14420594180772386
+        },
+        {
+          "name": "Lithic stair 08-02",
+          "triangles": 596,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.29590537784705995
+        },
+        {
+          "name": "Lithic stair 08-03",
+          "triangles": 860,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.13499594809265267
+        },
+        {
+          "name": "Lithic stair 08-04",
+          "triangles": 912,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.06796203014514897
+        },
+        {
+          "name": "Lithic stair 08-05",
+          "triangles": 934,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.0655504813029945
+        },
+        {
+          "name": "Lithic stair 08-06",
+          "triangles": 876,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.14613525440454392
+        },
+        {
+          "name": "Lithic stair 08-07",
+          "triangles": 910,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.13352684511462964
+        },
+        {
+          "name": "Lithic stair 08-08",
+          "triangles": 952,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.0909676271735574
+        }
+      ]
+    },
+    {
+      "file": "hero-v16-0.json",
+      "sha256": "99fc5813b26347f9cbab5764543e108b42aaff3d4d7742bfe90011a2f369ce6c",
+      "triangles": 898,
+      "vertices": 2694,
+      "bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ],
+      "minimum_normal_dot": 4.9405642409057243e-05,
+      "float32_minimum_normal_dot": 4.9404764894844826e-05,
+      "float32_bad_winding_or_degenerate": 0,
+      "parts": [
+        {
+          "name": "Lower visible hero 0",
+          "triangles": 898,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.9687257641152905
+        }
+      ]
+    },
+    {
+      "file": "hero-v16-1.json",
+      "sha256": "a97e3fe285c0bc01e6f294a244ea066284ade69052d7c3a2e10617dd74c8449f",
+      "triangles": 918,
+      "vertices": 2754,
+      "bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ],
+      "minimum_normal_dot": 1.1468178850247445e-05,
+      "float32_minimum_normal_dot": 1.1468280705080937e-05,
+      "float32_bad_winding_or_degenerate": 0,
+      "parts": [
+        {
+          "name": "Lower visible hero 1",
+          "triangles": 918,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.9679998855176294
+        }
+      ]
+    },
+    {
+      "file": "hero-v16-2.json",
+      "sha256": "e94847c53bfe8562df782177ba53b5ec167f2ca546213bcd79b159cebe547370",
+      "triangles": 1050,
+      "vertices": 3150,
+      "bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ],
+      "minimum_normal_dot": 3.693943376580704e-05,
+      "float32_minimum_normal_dot": 3.694239287467152e-05,
+      "float32_bad_winding_or_degenerate": 0,
+      "parts": [
+        {
+          "name": "Lower visible hero 2",
+          "triangles": 1050,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.9701277510372782
+        }
+      ]
+    },
+    {
+      "file": "hero-v16-3.json",
+      "sha256": "38ddc9c419e6e4baa8c9f9e16856cc1070b0a7f930c0d1b4c29caf96c7d8d7e4",
+      "triangles": 1110,
+      "vertices": 3330,
+      "bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ],
+      "minimum_normal_dot": 4.652550789606153e-06,
+      "float32_minimum_normal_dot": 4.6422462892569185e-06,
+      "float32_bad_winding_or_degenerate": 0,
+      "parts": [
+        {
+          "name": "Lower visible hero 3",
+          "triangles": 1110,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.9683202918569306
+        }
+      ]
+    },
+    {
+      "file": "hero-v16-4.json",
+      "sha256": "e3470642c7b402fc51468bf271dc80a1be302b63ba5bebf36136012a9f91032c",
+      "triangles": 1044,
+      "vertices": 3132,
+      "bounds": [
+        [
+          -0.5000000000000001,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ],
+      "minimum_normal_dot": 1.981363420023605e-05,
+      "float32_minimum_normal_dot": 1.981435114924094e-05,
+      "float32_bad_winding_or_degenerate": 0,
+      "parts": [
+        {
+          "name": "Lower visible hero 4",
+          "triangles": 1044,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.9707827675581614
+        }
+      ]
+    },
+    {
+      "file": "hero-v16-5.json",
+      "sha256": "ec10ea20e4746efd922a38aa947008b8f4678e7d1b10fe07cc45f0ccdf42a8de",
+      "triangles": 1138,
+      "vertices": 3414,
+      "bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ],
+      "minimum_normal_dot": 9.683431129273182e-06,
+      "float32_minimum_normal_dot": 9.675824946163575e-06,
+      "float32_bad_winding_or_degenerate": 0,
+      "parts": [
+        {
+          "name": "Lower visible hero 5",
+          "triangles": 1138,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.9689299234863119
+        }
+      ]
+    },
+    {
+      "file": "hero-v16-6.json",
+      "sha256": "cf4a109bd904bca1dc4ce7914cae043a0800a5950f8f680e9e1fe68299d42f78",
+      "triangles": 824,
+      "vertices": 2472,
+      "bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ],
+      "minimum_normal_dot": 2.3706393231629266e-06,
+      "float32_minimum_normal_dot": 2.370609390665628e-06,
+      "float32_bad_winding_or_degenerate": 0,
+      "parts": [
+        {
+          "name": "Lower visible hero 6",
+          "triangles": 824,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.9515563914454743
+        }
+      ]
+    },
+    {
+      "file": "hero-v16-7.json",
+      "sha256": "5174e0de9f18c8c5e608a5f3165d947ba09117300d44dd5b8f0d3fc65a4ebf3c",
+      "triangles": 920,
+      "vertices": 2760,
+      "bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ],
+      "minimum_normal_dot": 1.3964969811405508e-06,
+      "float32_minimum_normal_dot": 1.3942558855588142e-06,
+      "float32_bad_winding_or_degenerate": 0,
+      "parts": [
+        {
+          "name": "Lower visible hero 7",
+          "triangles": 920,
+          "closed_edge_errors": 0,
+          "volume_m3_or_normalized": 0.9403287661336183
+        }
+      ]
+    }
+  ]
+}

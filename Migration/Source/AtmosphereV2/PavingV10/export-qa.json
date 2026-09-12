@@ -1,0 +1,83 @@
+{
+  "contract": "Actual working native StoneV7 (plus TreeV10 when present) uses cross(edge1,edge2) dot supplied normals > 0. The prior negative-dot clockwise check was incorrect and failed actual Unity.",
+  "current": {
+    "path": "Migration\\Source\\AtmosphereV2\\PavingV10\\paving-v10-mesh.json",
+    "sha256": "e9dace2039a9fb50ce028aa3b7cbff1f06893421dfa2d896e19c38f48d34c240",
+    "triangles": 114550,
+    "vertices": 191943,
+    "finite": true,
+    "valid_indices": true,
+    "cross_dot_normal_positive": 114550,
+    "cross_dot_normal_negative": 0,
+    "cross_dot_normal_tangent": 0,
+    "degenerate_triangles": 0,
+    "minimum_triangle_area": 4.279831955500413e-08,
+    "provided_top_normals_positive_y_and_geometric_top_up": 45535,
+    "provided_top_normals_positive_y_but_geometric_top_down": 0,
+    "normal_length_min_max": [
+      0.9999998379948367,
+      1.0000001517395871
+    ]
+  },
+  "actual_working_source_comparison": [
+    {
+      "path": "Migration\\Source\\AtmosphereV2\\StoneV7\\runtime\\30387f49-1a6e-42e9-80e4-01b8c8c559c1.json",
+      "sha256": "4d7013209937393d30f09e67ece7e67f0d430369e9545233a39919ef53e36916",
+      "triangles": 624,
+      "vertices": 462,
+      "finite": true,
+      "valid_indices": true,
+      "cross_dot_normal_positive": 624,
+      "cross_dot_normal_negative": 0,
+      "cross_dot_normal_tangent": 0,
+      "degenerate_triangles": 0,
+      "minimum_triangle_area": 3.804832205267568e-05,
+      "provided_top_normals_positive_y_and_geometric_top_up": 85,
+      "provided_top_normals_positive_y_but_geometric_top_down": 0,
+      "normal_length_min_max": [
+        0.9999998968182939,
+        1.0000000965458349
+      ]
+    },
+    {
+      "path": "Migration\\Source\\AtmosphereV2\\StoneV7\\runtime\\740f8589-aea6-4e9f-831f-6adbdb49ada3.json",
+      "sha256": "6918aab1e506927cff7fa8ec5255e2d8c88950c0ba53f39805e11a00190575a9",
+      "triangles": 896,
+      "vertices": 663,
+      "finite": true,
+      "valid_indices": true,
+      "cross_dot_normal_positive": 896,
+      "cross_dot_normal_negative": 0,
+      "cross_dot_normal_tangent": 0,
+      "degenerate_triangles": 0,
+      "minimum_triangle_area": 3.689216181347636e-05,
+      "provided_top_normals_positive_y_and_geometric_top_up": 265,
+      "provided_top_normals_positive_y_but_geometric_top_down": 0,
+      "normal_length_min_max": [
+        0.999999906590395,
+        1.0000000886644853
+      ]
+    },
+    {
+      "path": "Migration\\Source\\AtmosphereV2\\TreeV10\\tree-v10-mesh.json",
+      "sha256": "67a756730db9df492229eecd027fd07f991fed42ec6516086ea595e4e356d763",
+      "triangles": 90768,
+      "vertices": 52628,
+      "finite": true,
+      "valid_indices": true,
+      "cross_dot_normal_positive": 90768,
+      "cross_dot_normal_negative": 0,
+      "cross_dot_normal_tangent": 0,
+      "degenerate_triangles": 0,
+      "minimum_triangle_area": 2.39186303142065e-09,
+      "provided_top_normals_positive_y_and_geometric_top_up": 1461,
+      "provided_top_normals_positive_y_but_geometric_top_down": 0,
+      "normal_length_min_max": [
+        0.9999998736679154,
+        1.0000001212784972
+      ]
+    }
+  ],
+  "matches_working_source_sign": true,
+  "native_visual_verification": "Pending root Unity reimport/capture; this numeric check does not assert live visibility."
+}

@@ -1,0 +1,34 @@
+{
+  "triangle_count": 120972,
+  "vertices": 132121,
+  "zero_area_triangles": 0,
+  "winding_normal_disagreements_unity_clockwise": 0,
+  "normal_length_min_max": [
+    0.9999998424737343,
+    1.0000001480764222
+  ],
+  "world_bounds": [
+    [
+      -8.93622875213623,
+      -0.15676355361938477,
+      -11.101970672607422
+    ],
+    [
+      9.040660858154297,
+      -0.023653939366340637,
+      21.067903518676758
+    ]
+  ],
+  "water_clearance_m": 0.019653939366340637,
+  "preserved_sources": 13,
+  "total_sources": 13,
+  "mesh_sha256": "7ed61525ea3f00054dbe04649f1d4d0e4078f483f9ad30f9820894b8a881a7f9",
+  "stats": {
+    "large_slabs": 30,
+    "fracture_divisions": 23,
+    "chipped_stones": 142,
+    "t_junction_layout": true,
+    "two_course_merged_slabs": 6
+  },
+  "stone_count": 426
+}

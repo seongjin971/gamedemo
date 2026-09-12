@@ -1,0 +1,60 @@
+{
+  "triangles": 155742,
+  "positive_dot": 155742,
+  "negative_dot": 0,
+  "degenerate": 0,
+  "top_up_faces": 155742,
+  "minimum_area": 7.157708752234455e-08,
+  "boundary_edges": 1628,
+  "nonmanifold_overfull_edges": 0,
+  "vertices": 78686,
+  "finite": true,
+  "attribute_lengths_match": true,
+  "indices_in_bounds": true,
+  "normal_length_range": [
+    0.9999998913164863,
+    1.0000001086258756
+  ],
+  "all_colors_one": true,
+  "uv_max_error": 5.434782623936485e-10,
+  "independent_pillow_height_samples": 6053,
+  "max_height_sample_error_m": 5.0019886912999745e-09,
+  "world_bounds": [
+    [
+      -8.936228752,
+      -0.059662172,
+      -11.101970673
+    ],
+    [
+      9.040660858,
+      -0.024723317,
+      21.067903519
+    ]
+  ],
+  "exact_v10_outer_xz_within_1nm": true,
+  "minimum_water_clearance_m": 0.020723317,
+  "working_source_comparison": {
+    "path": "C:\\Users\\brian\\Dev\\active\\Dream Loop Astra\\Migration\\Source\\AtmosphereV2\\StoneV7\\runtime\\30387f49-1a6e-42e9-80e4-01b8c8c559c1.json",
+    "sha256": "4d7013209937393d30f09e67ece7e67f0d430369e9545233a39919ef53e36916",
+    "orientation": {
+      "triangles": 624,
+      "positive_dot": 624,
+      "negative_dot": 0,
+      "degenerate": 0,
+      "top_up_faces": 323,
+      "minimum_area": 3.804832205267568e-05,
+      "boundary_edges": 258,
+      "nonmanifold_overfull_edges": 0
+    }
+  },
+  "downloaded_sources_preserved": true,
+  "v10_preserved": true,
+  "mesh_sha256": "8ba9fdd42a16f79f8c8f130161fed056d8043ffff1419ce4a23f024b8d5f757b",
+  "period_change_previous_sha256": "6eca1cb9d1ce32764074f350de1ced3d43e197cb1db2308235deccf83640cb77",
+  "topology_preserved_from_pass2": true,
+  "xz_preserved_from_pass2": true,
+  "uv_halved_from_pass2_max_error": 5.000000413701855e-10,
+  "changed_height_vertices_from_pass2": 78685,
+  "pass2_archive_preserved": true,
+  "passed": true
+}

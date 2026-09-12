@@ -1,0 +1,197 @@
+{
+  "source_asset": "ambientCG Tiles130",
+  "source_dimensions_m": [
+    2.3,
+    1.15
+  ],
+  "art_scale": 4.0,
+  "period_m": [
+    9.2,
+    4.6
+  ],
+  "uv_formula": "u=UnityWorldX/9.2; v=UnityWorldZ/4.6; continuous unbounded; no per-row offsets",
+  "height_formula": "Y=-0.0236+0.040*(bilinearRepeat(Displacement,uv)-1); no scene-wide normalization",
+  "height_amplitude_m": 0.04,
+  "height_amplitude_is_measured": false,
+  "maximum_height_cap_m": -0.0236,
+  "water_plane_y_m": -0.004,
+  "normal_contract": "unit vertex normals derived from displaced geometry; source NormalGL remains separate tangent-space detail",
+  "normal_map_preview_strength": 0.45,
+  "normal_map_preview_note": "4K NormalGL only in textured preview. Geometry export contains no texture normals.",
+  "vertices": 78686,
+  "triangles": 155742,
+  "grid_base_step_m": 0.08800000000000001,
+  "grid_note": "Uniform base lattice plus exact mask-boundary coordinates; no displaced UV phase boundaries.",
+  "world_bounds": [
+    [
+      -8.93622875213623,
+      -0.0596621718226108,
+      -11.101970672607422
+    ],
+    [
+      9.040660858154297,
+      -0.024723316980922904,
+      21.067903518676758
+    ]
+  ],
+  "v10_world_bounds": [
+    [
+      -8.93622875213623,
+      -0.15676355361938477,
+      -11.101970672607422
+    ],
+    [
+      9.040660858154297,
+      -0.023654913529753685,
+      21.067903518676758
+    ]
+  ],
+  "coverage_rectangles_xz": [
+    [
+      -8.93622875213623,
+      9.040660858154297,
+      -1.5679986476898193,
+      21.067903518676758
+    ],
+    [
+      1.448383092880249,
+      2.7455639839172363,
+      -11.101970672607422,
+      -10.086207389831543
+    ],
+    [
+      3.9363176822662354,
+      6.460177421569824,
+      -11.101970672607422,
+      -10.086207389831543
+    ],
+    [
+      7.65500020980835,
+      8.945000648498535,
+      -11.101970672607422,
+      -10.086207389831543
+    ],
+    [
+      1.4508123397827148,
+      8.946941375732422,
+      -10.129295349121094,
+      -9.106940269470215
+    ],
+    [
+      1.4559457302093506,
+      8.948421478271484,
+      -9.146763801574707,
+      -8.134673118591309
+    ],
+    [
+      -8.91006851196289,
+      -6.139259338378906,
+      -8.142038345336914,
+      -7.156435966491699
+    ],
+    [
+      1.8151062726974487,
+      9.014326095581055,
+      -8.142038345336914,
+      -7.156435966491699
+    ],
+    [
+      -8.920419692993164,
+      -6.563912868499756,
+      -7.200838565826416,
+      -6.20786190032959
+    ],
+    [
+      1.7175514698028564,
+      9.016331672668457,
+      -7.200838565826416,
+      -6.20786190032959
+    ],
+    [
+      -8.905893325805664,
+      -6.948287487030029,
+      -6.2670745849609375,
+      -5.276412487030029
+    ],
+    [
+      1.4839831590652466,
+      9.011821746826172,
+      -6.2670745849609375,
+      -5.276412487030029
+    ],
+    [
+      -8.91274642944336,
+      -6.476523399353027,
+      -5.323942184448242,
+      -4.335672855377197
+    ],
+    [
+      1.4717144966125488,
+      9.016103744506836,
+      -5.323942184448242,
+      -4.335672855377197
+    ],
+    [
+      -8.93622875213623,
+      -7.149026393890381,
+      -4.383514404296875,
+      -3.3947384357452393
+    ],
+    [
+      0.8156105875968933,
+      9.017638206481934,
+      -4.383514404296875,
+      -3.3947384357452393
+    ],
+    [
+      -8.902299880981445,
+      -5.977105617523193,
+      -3.4411299228668213,
+      -2.4571053981781006
+    ],
+    [
+      0.8401466012001038,
+      9.023880004882812,
+      -3.4411299228668213,
+      -2.4571053981781006
+    ],
+    [
+      -8.788553237915039,
+      -7.495656967163086,
+      -2.4984312057495117,
+      -1.5679986476898193
+    ],
+    [
+      0.9116489291191101,
+      9.017218589782715,
+      -2.4984312057495117,
+      -1.5679986476898193
+    ]
+  ],
+  "coverage_area_m2": 492.3011608457811,
+  "coverage_note": "Union of V10 front and 19 rear rectangles, clipped to actual V10 outer XZ AABB. Rear staircase void and missing patches preserved; internal stone joints become continuous filled stonebed.",
+  "surface_topology": "Open heightfield surface with outer and inherited hole boundaries; no underside or new stair/upper-landing geometry.",
+  "source_sha256": {
+    "Migration\\Source\\AtmosphereV2\\PavingV10\\paving-v10-mesh.json": "e9dace2039a9fb50ce028aa3b7cbff1f06893421dfa2d896e19c38f48d34c240",
+    "Migration\\Source\\AtmosphereV2\\PavingV10\\paving-v10-report.json": "6448b6398b3eddd2a902dfafe302d281950300dce75f7019165a9346584083ba",
+    "Migration\\Source\\AtmosphereV2\\PavingV11\\maps\\Tiles130.png": "b71b09d7b310d9ea30a577676d8d05a169c3358509690c3c0fb200a3af9725b5",
+    "Migration\\Source\\AtmosphereV2\\PavingV11\\maps\\Tiles130_4K-PNG_AmbientOcclusion.png": "be3e43c7ad924e63ad89780d648372e56caa2ea955d71898b501b501154d1256",
+    "Migration\\Source\\AtmosphereV2\\PavingV11\\maps\\Tiles130_4K-PNG_Color.png": "a36e645334bf20a89946488858147e95ad7a083ae4ffef8d4b4ef9f219a332c7",
+    "Migration\\Source\\AtmosphereV2\\PavingV11\\maps\\Tiles130_4K-PNG_Displacement.png": "d1bc0b0a0a44f2eb322414a2afdeb55186160035151c7a0247202f232bbb4b66",
+    "Migration\\Source\\AtmosphereV2\\PavingV11\\maps\\Tiles130_4K-PNG_NormalDX.png": "6f57b8f05be86d0bec9ce464c5a424a82d1b23a6d5dd7cc202f36e91eef6d6ab",
+    "Migration\\Source\\AtmosphereV2\\PavingV11\\maps\\Tiles130_4K-PNG_NormalGL.png": "d44ff5dc7885a24febbb32b4c2ac8f91f5049cb966b13f52093c9ccd88c33078",
+    "Migration\\Source\\AtmosphereV2\\PavingV11\\maps\\Tiles130_4K-PNG_Roughness.png": "87b4479dcc41718af41961d95047183e0a19d9e19dc5ec764c48e2a121ac69b8"
+  },
+  "source_preserved": {
+    "Migration\\Source\\AtmosphereV2\\PavingV10\\paving-v10-mesh.json": true,
+    "Migration\\Source\\AtmosphereV2\\PavingV10\\paving-v10-report.json": true,
+    "Migration\\Source\\AtmosphereV2\\PavingV11\\maps\\Tiles130.png": true,
+    "Migration\\Source\\AtmosphereV2\\PavingV11\\maps\\Tiles130_4K-PNG_AmbientOcclusion.png": true,
+    "Migration\\Source\\AtmosphereV2\\PavingV11\\maps\\Tiles130_4K-PNG_Color.png": true,
+    "Migration\\Source\\AtmosphereV2\\PavingV11\\maps\\Tiles130_4K-PNG_Displacement.png": true,
+    "Migration\\Source\\AtmosphereV2\\PavingV11\\maps\\Tiles130_4K-PNG_NormalDX.png": true,
+    "Migration\\Source\\AtmosphereV2\\PavingV11\\maps\\Tiles130_4K-PNG_NormalGL.png": true,
+    "Migration\\Source\\AtmosphereV2\\PavingV11\\maps\\Tiles130_4K-PNG_Roughness.png": true
+  },
+  "mesh_sha256": "8ba9fdd42a16f79f8c8f130161fed056d8043ffff1419ce4a23f024b8d5f757b"
+}

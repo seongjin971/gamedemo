@@ -1,0 +1,190 @@
+{
+  "status": "NATIVE_DIAGNOSTIC_PROTOTYPE_READY_NOT_VISUAL_SUCCESS",
+  "meshes": [
+    {
+      "file": "facade-v16-mesh.json",
+      "sha256": "555a7f39273c6c73e479fc1ec8a2b648d453f91d8058ba00c9c9e62ec2816cff",
+      "triangles": 50320,
+      "bounds": [
+        [
+          -9.799092603464794,
+          -3.4060000512599946,
+          -3.791320960679955
+        ],
+        [
+          -9.225349936642285,
+          -0.2939999964237213,
+          4.695362059793932
+        ]
+      ]
+    },
+    {
+      "file": "stairs-v16-mesh.json",
+      "sha256": "44c94c919172bf93ce134bd13ec1eb09121ea5f05f822eb65e4298e3413ffa5b",
+      "triangles": 71736,
+      "bounds": [
+        [
+          -6.781499892473221,
+          0.009999999999999953,
+          -6.398135662078857
+        ],
+        [
+          1.1615000069141388,
+          2.9419901371002197,
+          -1.459
+        ]
+      ]
+    },
+    {
+      "file": "hero-v16-0.json",
+      "sha256": "99fc5813b26347f9cbab5764543e108b42aaff3d4d7742bfe90011a2f369ce6c",
+      "triangles": 898,
+      "bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ]
+    },
+    {
+      "file": "hero-v16-1.json",
+      "sha256": "a97e3fe285c0bc01e6f294a244ea066284ade69052d7c3a2e10617dd74c8449f",
+      "triangles": 918,
+      "bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ]
+    },
+    {
+      "file": "hero-v16-2.json",
+      "sha256": "e94847c53bfe8562df782177ba53b5ec167f2ca546213bcd79b159cebe547370",
+      "triangles": 1050,
+      "bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ]
+    },
+    {
+      "file": "hero-v16-3.json",
+      "sha256": "38ddc9c419e6e4baa8c9f9e16856cc1070b0a7f930c0d1b4c29caf96c7d8d7e4",
+      "triangles": 1110,
+      "bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ]
+    },
+    {
+      "file": "hero-v16-4.json",
+      "sha256": "e3470642c7b402fc51468bf271dc80a1be302b63ba5bebf36136012a9f91032c",
+      "triangles": 1044,
+      "bounds": [
+        [
+          -0.5000000000000001,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ]
+    },
+    {
+      "file": "hero-v16-5.json",
+      "sha256": "ec10ea20e4746efd922a38aa947008b8f4678e7d1b10fe07cc45f0ccdf42a8de",
+      "triangles": 1138,
+      "bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ]
+    },
+    {
+      "file": "hero-v16-6.json",
+      "sha256": "cf4a109bd904bca1dc4ce7914cae043a0800a5950f8f680e9e1fe68299d42f78",
+      "triangles": 824,
+      "bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ]
+    },
+    {
+      "file": "hero-v16-7.json",
+      "sha256": "5174e0de9f18c8c5e608a5f3165d947ba09117300d44dd5b8f0d3fc65a4ebf3c",
+      "triangles": 920,
+      "bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ]
+    }
+  ],
+  "stair_preserved_bodies": 45,
+  "hero_overrides_added": 8,
+  "facade_removed": 63,
+  "facade_new_bodies": 50,
+  "facade_paths": {
+    "InstallStone": 54,
+    "RestoreFoundations": 9
+  },
+  "support_samples": 12240,
+  "minimum_nominal_support_margin_m": 0.008053572754804339,
+  "visual_limits": [
+    "Long horizontal riser rhythm persists",
+    "Many pier silhouettes still clean",
+    "Actual Unity comparison pending"
+  ]
+}

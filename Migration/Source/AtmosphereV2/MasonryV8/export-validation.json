@@ -1,0 +1,109 @@
+{
+  "all_sources_preserved": true,
+  "meshes": [
+    {
+      "id": "masonry-v8-0",
+      "sha256": "64e0fc308238c185302deaa44c9933cfaf36043b22e9e5200ff8667272f94df5",
+      "triangles": 686,
+      "budget_pass": true,
+      "indices_valid": true,
+      "array_lengths_valid": true,
+      "unit_bounds_exact": true,
+      "normals_unit": true,
+      "opposed_geometric_normals": 0,
+      "subprecision_triangles": 0,
+      "closed_after_seam_welding": true
+    },
+    {
+      "id": "masonry-v8-1",
+      "sha256": "e84eca1f05b9a50fc1f53ee9bb080086bc4a90f7c275f6e922704c7a9d192144",
+      "triangles": 686,
+      "budget_pass": true,
+      "indices_valid": true,
+      "array_lengths_valid": true,
+      "unit_bounds_exact": true,
+      "normals_unit": true,
+      "opposed_geometric_normals": 0,
+      "subprecision_triangles": 0,
+      "closed_after_seam_welding": true
+    },
+    {
+      "id": "masonry-v8-2",
+      "sha256": "d8cbaaf122a941dea6c3dce10041f134d9ed60e267a42fc25363c9e4a4afe98a",
+      "triangles": 686,
+      "budget_pass": true,
+      "indices_valid": true,
+      "array_lengths_valid": true,
+      "unit_bounds_exact": true,
+      "normals_unit": true,
+      "opposed_geometric_normals": 0,
+      "subprecision_triangles": 0,
+      "closed_after_seam_welding": true
+    },
+    {
+      "id": "masonry-v8-3",
+      "sha256": "69c0884673e8d1247d6d05ce4d076ccbb4942ff7780131b6f191bec98294542c",
+      "triangles": 686,
+      "budget_pass": true,
+      "indices_valid": true,
+      "array_lengths_valid": true,
+      "unit_bounds_exact": true,
+      "normals_unit": true,
+      "opposed_geometric_normals": 0,
+      "subprecision_triangles": 0,
+      "closed_after_seam_welding": true
+    },
+    {
+      "id": "masonry-v8-4",
+      "sha256": "460bae289063b491a160450423fad761d4fd72d55d8a2bca238f6ff25c91095a",
+      "triangles": 678,
+      "budget_pass": true,
+      "indices_valid": true,
+      "array_lengths_valid": true,
+      "unit_bounds_exact": true,
+      "normals_unit": true,
+      "opposed_geometric_normals": 0,
+      "subprecision_triangles": 0,
+      "closed_after_seam_welding": true
+    },
+    {
+      "id": "masonry-v8-5",
+      "sha256": "09fd288e0775b5940dcfa7ba5bf04cae3e77399ff61f8a214bb5560a5623158c",
+      "triangles": 686,
+      "budget_pass": true,
+      "indices_valid": true,
+      "array_lengths_valid": true,
+      "unit_bounds_exact": true,
+      "normals_unit": true,
+      "opposed_geometric_normals": 0,
+      "subprecision_triangles": 0,
+      "closed_after_seam_welding": true
+    },
+    {
+      "id": "facade-v8-0",
+      "sha256": "ea1c2791bf9e54ea5f880f8983a0d535e6b9b5b94e13de65eced4f9456bc0367",
+      "triangles": 116,
+      "budget_pass": true,
+      "indices_valid": true,
+      "array_lengths_valid": true,
+      "unit_bounds_exact": true,
+      "normals_unit": true,
+      "opposed_geometric_normals": 0,
+      "subprecision_triangles": 0,
+      "closed_after_seam_welding": true
+    },
+    {
+      "id": "facade-v8-1",
+      "sha256": "c224fc9954f28978fc6421c2f57d187220a7402c816e3151031c28a2c84ccdff",
+      "triangles": 116,
+      "budget_pass": true,
+      "indices_valid": true,
+      "array_lengths_valid": true,
+      "unit_bounds_exact": true,
+      "normals_unit": true,
+      "opposed_geometric_normals": 0,
+      "subprecision_triangles": 0,
+      "closed_after_seam_welding": true
+    }
+  ]
+}

@@ -1,0 +1,387 @@
+{
+  "source": ".dream-loop\\unity-atmosphere-v2\\stone-v7\\runtime\\stone-v7-runtime.blend",
+  "source_sha256": {
+    ".dream-loop\\unity-atmosphere-v2\\stone-v7\\runtime\\stone-v7-runtime.blend": "cf23422b5d967775c8b0d88958fdde76d225953d2f4eebd8e22e774c9b729704",
+    ".dream-loop\\unity-atmosphere-v2\\stone-v7\\stone-v7.blend": "216ce05f8da91a7828c38f4c4451380fadd43e4cabaeecc24292ca767b837b67",
+    "ArtSource\\stone-v5.blend": "ed89ec8342ebd04e152889eb1ba6c6685cf46ac92b349b4f0d4087e89091c0c1",
+    "public\\models\\stone-v5.glb": "2d190893fa70835e7a6aed197e9f3c9dfc235dce151a044beafacfbe91786565",
+    "Migration\\Source\\AtmosphereV2\\Stone\\30387f49-1a6e-42e9-80e4-01b8c8c559c1.json": "ae61fe6aa8184df440a9824cc3f7a1c15af605d3d159dcb5a57204b4121459eb",
+    "Migration\\Source\\AtmosphereV2\\Stone\\4bbd6673-eca6-49ea-bb85-529da237542a.json": "ab701d0a21c0ea113396d970345bff0e4a344467faab3a000e6be5a4f99375db",
+    "Migration\\Source\\AtmosphereV2\\Stone\\4bf543ce-10f0-4018-88ca-18754deeeb53.json": "4f526a48021678117f954395468c02a86be496eed33a41e7c33bebfd5b6c22b6",
+    "Migration\\Source\\AtmosphereV2\\Stone\\639f340b-3b93-4211-a7ff-cd35c89a1f9f.json": "51017af35b25cc81d8206f2871f638c350f929d3d1503eadb33c5b6649d5f22f",
+    "Migration\\Source\\AtmosphereV2\\Stone\\740f8589-aea6-4e9f-831f-6adbdb49ada3.json": "f534e4aaea54b6b90b8c9f61bdb1f41daa51cef0b5f7498b21728d905af60d73",
+    "Migration\\Source\\AtmosphereV2\\Stone\\7a2d80e2-5804-4629-8fcd-a6045025c7c6.json": "acb413f0397888ad0cdab6f858825d082250054026b3c6e31d749e7642c857b3",
+    "Migration\\Source\\AtmosphereV2\\Stone\\7b9ce760-2f47-40f1-98d7-6b4e0aadc2e5.json": "12d8a24e067c45f08c42cc9674aa46c11909569017d4cb1cb16ee40e1b90ad20",
+    "Migration\\Source\\AtmosphereV2\\Stone\\b761423f-facb-4ef9-9d08-71d49f2eb0d8.json": "e5941d9f6bee8d5028efd126dc5316b1ceea88181424f3d735d21ba5cb07c594",
+    "Migration\\Source\\AtmosphereV2\\Stone\\build_stone_v6.py": "08c41333f850dc983d79af6f5f3c2a6e6a477729b45714774b28ff6c8cda904f",
+    "Migration\\Source\\AtmosphereV2\\Stone\\c9afbeaf-3585-4c29-a0e1-fcd500940346.json": "9a305863afe10be114339e4ed7fd95fcf0f16032277d226e3461e53a7a16019e",
+    "Migration\\Source\\AtmosphereV2\\Stone\\f01cf337-cea7-42b3-b142-24f2fc145766.json": "dda063e4c84992476c9e5b14e8abb2391bc13df595c03ef9c4583fe7f3a45e92",
+    "Migration\\Source\\AtmosphereV2\\Stone\\stone-v6-report.json": "44db15fa37c175e8b2bcea86b0f6495a78915ef70aeccb93295cd130ccc039e3",
+    "Migration\\Source\\AtmosphereV2\\Stone\\stone-v6.blend": "7541403fcb669dd1b0cade10f2419584878f8ac07a693f6ad785609559eaa7ed"
+  },
+  "all_sources_preserved": true,
+  "export_basis": "alreadyUnity positions/normals (-x,z,-y), triangle winding (0,2,1); no object transform baked",
+  "total_triangles": 4340,
+  "meshes": [
+    {
+      "id": "masonry-v8-0",
+      "source": "Masonry_Broken",
+      "triangles": 686,
+      "vertices": 557,
+      "authored_triangles_before_budget": 698,
+      "budget": 700,
+      "unit_bounds_exact": true,
+      "unity_bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ],
+      "nonmanifold_edges_welded": 0,
+      "normal_fallback_corners": 0,
+      "finite": true,
+      "edge_damage": [
+        [
+          1,
+          -1,
+          -0.38,
+          0.4,
+          0.24,
+          0.18,
+          0.115
+        ],
+        [
+          0,
+          1,
+          0.2,
+          -0.26,
+          0.14,
+          0.16,
+          0.075
+        ]
+      ],
+      "face_concavity": 0.012
+    },
+    {
+      "id": "masonry-v8-1",
+      "source": "Masonry_Quarried",
+      "triangles": 686,
+      "vertices": 539,
+      "authored_triangles_before_budget": 702,
+      "budget": 700,
+      "unit_bounds_exact": true,
+      "unity_bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ],
+      "nonmanifold_edges_welded": 0,
+      "normal_fallback_corners": 0,
+      "finite": true,
+      "edge_damage": [
+        [
+          1,
+          -1,
+          0.4,
+          0.02,
+          0.18,
+          0.28,
+          0.11
+        ],
+        [
+          1,
+          -1,
+          -0.1,
+          0.48,
+          0.25,
+          0.11,
+          0.072
+        ]
+      ],
+      "face_concavity": 0.014
+    },
+    {
+      "id": "masonry-v8-2",
+      "source": "Masonry_Broken",
+      "triangles": 686,
+      "vertices": 568,
+      "authored_triangles_before_budget": 732,
+      "budget": 700,
+      "unit_bounds_exact": true,
+      "unity_bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ],
+      "nonmanifold_edges_welded": 0,
+      "normal_fallback_corners": 0,
+      "finite": true,
+      "edge_damage": [
+        [
+          1,
+          -1,
+          -0.25,
+          -0.46,
+          0.24,
+          0.16,
+          0.125
+        ],
+        [
+          0,
+          1,
+          -0.4,
+          0.29,
+          0.18,
+          0.2,
+          0.103
+        ]
+      ],
+      "face_concavity": 0.016
+    },
+    {
+      "id": "masonry-v8-3",
+      "source": "Masonry_Quarried",
+      "triangles": 686,
+      "vertices": 547,
+      "authored_triangles_before_budget": 720,
+      "budget": 700,
+      "unit_bounds_exact": true,
+      "unity_bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ],
+      "nonmanifold_edges_welded": 0,
+      "normal_fallback_corners": 0,
+      "finite": true,
+      "edge_damage": [
+        [
+          1,
+          -1,
+          0.26,
+          0.46,
+          0.3,
+          0.15,
+          0.122
+        ],
+        [
+          0,
+          -1,
+          -0.05,
+          -0.36,
+          0.17,
+          0.22,
+          0.094
+        ]
+      ],
+      "face_concavity": 0.018000000000000002
+    },
+    {
+      "id": "masonry-v8-4",
+      "source": "Masonry_Broken",
+      "triangles": 678,
+      "vertices": 548,
+      "authored_triangles_before_budget": 678,
+      "budget": 700,
+      "unit_bounds_exact": true,
+      "unity_bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ],
+      "nonmanifold_edges_welded": 0,
+      "normal_fallback_corners": 0,
+      "finite": true,
+      "edge_damage": [
+        [
+          1,
+          -1,
+          -0.46,
+          0.12,
+          0.16,
+          0.3,
+          0.126
+        ],
+        [
+          0,
+          1,
+          0.18,
+          0.48,
+          0.21,
+          0.14,
+          0.102
+        ]
+      ],
+      "face_concavity": 0.012
+    },
+    {
+      "id": "masonry-v8-5",
+      "source": "Masonry_Quarried",
+      "triangles": 686,
+      "vertices": 548,
+      "authored_triangles_before_budget": 694,
+      "budget": 700,
+      "unit_bounds_exact": true,
+      "unity_bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ],
+      "nonmanifold_edges_welded": 0,
+      "normal_fallback_corners": 0,
+      "finite": true,
+      "edge_damage": [
+        [
+          1,
+          -1,
+          0.35,
+          -0.37,
+          0.23,
+          0.22,
+          0.14
+        ],
+        [
+          1,
+          -1,
+          -0.33,
+          0.48,
+          0.16,
+          0.13,
+          0.105
+        ]
+      ],
+      "face_concavity": 0.014
+    },
+    {
+      "id": "facade-v8-0",
+      "source": "Masonry_Broken",
+      "triangles": 116,
+      "vertices": 118,
+      "authored_triangles_before_budget": 676,
+      "budget": 120,
+      "unit_bounds_exact": true,
+      "unity_bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ],
+      "nonmanifold_edges_welded": 0,
+      "normal_fallback_corners": 0,
+      "finite": true,
+      "edge_damage": [
+        [
+          1,
+          -1,
+          -0.42,
+          0.42,
+          0.24,
+          0.17,
+          0.1
+        ],
+        [
+          0,
+          1,
+          -0.38,
+          -0.41,
+          0.18,
+          0.16,
+          0.075
+        ]
+      ],
+      "face_concavity": 0.016
+    },
+    {
+      "id": "facade-v8-1",
+      "source": "Masonry_Quarried",
+      "triangles": 116,
+      "vertices": 114,
+      "authored_triangles_before_budget": 680,
+      "budget": 120,
+      "unit_bounds_exact": true,
+      "unity_bounds": [
+        [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ],
+      "nonmanifold_edges_welded": 0,
+      "normal_fallback_corners": 0,
+      "finite": true,
+      "edge_damage": [
+        [
+          1,
+          -1,
+          0.42,
+          -0.39,
+          0.23,
+          0.19,
+          0.105
+        ],
+        [
+          1,
+          -1,
+          -0.25,
+          0.47,
+          0.19,
+          0.13,
+          0.08
+        ]
+      ],
+      "face_concavity": 0.018000000000000002
+    }
+  ]
+}

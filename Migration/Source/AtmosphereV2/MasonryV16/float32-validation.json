@@ -1,0 +1,72 @@
+[
+  {
+    "file": "facade-v16-mesh.json",
+    "float32_nonpositive_dots": 0,
+    "unity_negative_threshold": 0,
+    "float32_degenerate": 0,
+    "minimum_dot": 1.3006078214756412e-07
+  },
+  {
+    "file": "stairs-v16-mesh.json",
+    "float32_nonpositive_dots": 0,
+    "unity_negative_threshold": 0,
+    "float32_degenerate": 0,
+    "minimum_dot": 8.141448701840016e-09
+  },
+  {
+    "file": "hero-v16-0.json",
+    "float32_nonpositive_dots": 0,
+    "unity_negative_threshold": 0,
+    "float32_degenerate": 0,
+    "minimum_dot": 4.9404764894844826e-05
+  },
+  {
+    "file": "hero-v16-1.json",
+    "float32_nonpositive_dots": 0,
+    "unity_negative_threshold": 0,
+    "float32_degenerate": 0,
+    "minimum_dot": 1.1468280705080937e-05
+  },
+  {
+    "file": "hero-v16-2.json",
+    "float32_nonpositive_dots": 0,
+    "unity_negative_threshold": 0,
+    "float32_degenerate": 0,
+    "minimum_dot": 3.694239287467152e-05
+  },
+  {
+    "file": "hero-v16-3.json",
+    "float32_nonpositive_dots": 0,
+    "unity_negative_threshold": 0,
+    "float32_degenerate": 0,
+    "minimum_dot": 4.6422462892569185e-06
+  },
+  {
+    "file": "hero-v16-4.json",
+    "float32_nonpositive_dots": 0,
+    "unity_negative_threshold": 0,
+    "float32_degenerate": 0,
+    "minimum_dot": 1.981435114924094e-05
+  },
+  {
+    "file": "hero-v16-5.json",
+    "float32_nonpositive_dots": 0,
+    "unity_negative_threshold": 0,
+    "float32_degenerate": 0,
+    "minimum_dot": 9.675824946163575e-06
+  },
+  {
+    "file": "hero-v16-6.json",
+    "float32_nonpositive_dots": 0,
+    "unity_negative_threshold": 0,
+    "float32_degenerate": 0,
+    "minimum_dot": 2.370609390665628e-06
+  },
+  {
+    "file": "hero-v16-7.json",
+    "float32_nonpositive_dots": 0,
+    "unity_negative_threshold": 0,
+    "float32_degenerate": 0,
+    "minimum_dot": 1.3942558855588142e-06
+  }
+]

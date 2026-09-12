@@ -1,0 +1,114 @@
+{
+  "asset_id": "Tiles130",
+  "provider": "ambientCG",
+  "asset_url": "https://ambientcg.com/a/Tiles130",
+  "license": "CC0-1.0",
+  "license_url": "https://docs.ambientcg.com/license/",
+  "creation_method": "PBRPhotogrammetry",
+  "method_description": "Displacement generated using photogrammetry.",
+  "api_url": "https://ambientcg.com/api/v2/full_json?id=Tiles130&include=downloadData,displayData,dimensionsData,imageData,tagData",
+  "download_url": "https://ambientcg.com/get?file=Tiles130_4K-PNG.zip",
+  "resolved_download_url": "https://acg-download.struffelproductions.com/file/ambientCG-Web/download/Tiles130_kKh5DrlZ/Tiles130_4K-PNG.zip",
+  "retrieved_utc": "2026-09-08T15:53:43.607350+00:00",
+  "source_dimensions_m": [
+    2.3,
+    1.15
+  ],
+  "dimension_source": "https://ambientcg.com/view?id=Tiles130",
+  "vertical_physical_scale_m": null,
+  "vertical_scale_note": "API dimensionZ=0; no calibrated height amplitude supplied.",
+  "archive_size_matches_api": true,
+  "zip_crc_verified": true,
+  "provider_hash_available": false,
+  "bytes_modified": false,
+  "files": [
+    {
+      "path": "maps/Tiles130.png",
+      "bytes": 428146,
+      "sha256": "b71b09d7b310d9ea30a577676d8d05a169c3358509690c3c0fb200a3af9725b5",
+      "width": 512,
+      "height": 512,
+      "png_bit_depth": 8,
+      "png_color_type": 6
+    },
+    {
+      "path": "maps/Tiles130_4K-PNG.blend",
+      "bytes": 1109844,
+      "sha256": "b0a5b8ec7445797c05c9ee6f10180e207f3702505212d1643520a9f11177125e"
+    },
+    {
+      "path": "maps/Tiles130_4K-PNG.mtlx",
+      "bytes": 2257,
+      "sha256": "ed8acefef090c259e8314e12d67f14bc51a66f1c5e63c426c6d9da557c6c5e54"
+    },
+    {
+      "path": "maps/Tiles130_4K-PNG.tres",
+      "bytes": 1015,
+      "sha256": "02022acb8336793f29a59cfb311d0eb17a94a861c2e22314b8ddac72ab8d36a1"
+    },
+    {
+      "path": "maps/Tiles130_4K-PNG.usdc",
+      "bytes": 3019,
+      "sha256": "a91c1e20c08a4cacb0578bd8ac009fc487d3ac336d16960b23680eb7d4ee2eaa"
+    },
+    {
+      "path": "maps/Tiles130_4K-PNG_AmbientOcclusion.png",
+      "bytes": 4685616,
+      "sha256": "be3e43c7ad924e63ad89780d648372e56caa2ea955d71898b501b501154d1256",
+      "width": 4096,
+      "height": 2048,
+      "png_bit_depth": 8,
+      "png_color_type": 0
+    },
+    {
+      "path": "maps/Tiles130_4K-PNG_Color.png",
+      "bytes": 15941954,
+      "sha256": "a36e645334bf20a89946488858147e95ad7a083ae4ffef8d4b4ef9f219a332c7",
+      "width": 4096,
+      "height": 2048,
+      "png_bit_depth": 8,
+      "png_color_type": 2
+    },
+    {
+      "path": "maps/Tiles130_4K-PNG_Displacement.png",
+      "bytes": 11877493,
+      "sha256": "d1bc0b0a0a44f2eb322414a2afdeb55186160035151c7a0247202f232bbb4b66",
+      "width": 4096,
+      "height": 2048,
+      "png_bit_depth": 16,
+      "png_color_type": 0
+    },
+    {
+      "path": "maps/Tiles130_4K-PNG_NormalDX.png",
+      "bytes": 42206510,
+      "sha256": "6f57b8f05be86d0bec9ce464c5a424a82d1b23a6d5dd7cc202f36e91eef6d6ab",
+      "width": 4096,
+      "height": 2048,
+      "png_bit_depth": 16,
+      "png_color_type": 2
+    },
+    {
+      "path": "maps/Tiles130_4K-PNG_NormalGL.png",
+      "bytes": 42206360,
+      "sha256": "d44ff5dc7885a24febbb32b4c2ac8f91f5049cb966b13f52093c9ccd88c33078",
+      "width": 4096,
+      "height": 2048,
+      "png_bit_depth": 16,
+      "png_color_type": 2
+    },
+    {
+      "path": "maps/Tiles130_4K-PNG_Roughness.png",
+      "bytes": 3130499,
+      "sha256": "87b4479dcc41718af41961d95047183e0a19d9e19dc5ec764c48e2a121ac69b8",
+      "width": 4096,
+      "height": 2048,
+      "png_bit_depth": 8,
+      "png_color_type": 0
+    },
+    {
+      "path": "source/Tiles130_4K-PNG.zip",
+      "bytes": 121594785,
+      "sha256": "04c1e1f32dfb7e81ef3fbcca1e5d8e8c565fb7f218fa1dcc9d0bd6b137bfc457"
+    }
+  ]
+}

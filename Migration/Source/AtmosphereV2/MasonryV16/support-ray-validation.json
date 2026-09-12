@@ -1,0 +1,326 @@
+{
+  "samples": 12240,
+  "minimum_nominal_support_front_margin_m": 0.008053572754804339,
+  "violations": [],
+  "normal_angle_median": 5.988169387247485,
+  "normal_angle_p90": 31.40435535614957,
+  "fraction_angles_14_to_25": 0.1730392156862745,
+  "parts": [
+    {
+      "name": "Lithic stair 00-00",
+      "minimum_nominal_margin": 0.011269081255250724,
+      "normal_angle_median": 4.850423203084051,
+      "normal_angle_p90": 24.951648451373956,
+      "fraction_angles_14_to_25": 0.09558823529411764
+    },
+    {
+      "name": "Lithic stair 00-01",
+      "minimum_nominal_margin": 0.010204366942682341,
+      "normal_angle_median": 4.215984170370238,
+      "normal_angle_p90": 19.284834982469693,
+      "fraction_angles_14_to_25": 0.14338235294117646
+    },
+    {
+      "name": "Lithic stair 00-02",
+      "minimum_nominal_margin": 0.01200000000000001,
+      "normal_angle_median": 3.767715515664996,
+      "normal_angle_p90": 21.005815004204422,
+      "fraction_angles_14_to_25": 0.22426470588235295
+    },
+    {
+      "name": "Lithic stair 00-03",
+      "minimum_nominal_margin": 0.011278701124036727,
+      "normal_angle_median": 2.8795484917256697,
+      "normal_angle_p90": 20.007836216613015,
+      "fraction_angles_14_to_25": 0.1323529411764706
+    },
+    {
+      "name": "Lithic stair 00-04",
+      "minimum_nominal_margin": 0.010759073217491144,
+      "normal_angle_median": 8.064377184826526,
+      "normal_angle_p90": 38.57210481498073,
+      "fraction_angles_14_to_25": 0.18382352941176472
+    },
+    {
+      "name": "Lithic stair 00-05",
+      "minimum_nominal_margin": 0.008770258894829075,
+      "normal_angle_median": 15.366326879324491,
+      "normal_angle_p90": 30.091271241139253,
+      "fraction_angles_14_to_25": 0.43014705882352944
+    },
+    {
+      "name": "Lithic stair 00-06",
+      "minimum_nominal_margin": 0.009993541533789063,
+      "normal_angle_median": 8.22364566864046,
+      "normal_angle_p90": 42.26725222557524,
+      "fraction_angles_14_to_25": 0.15441176470588236
+    },
+    {
+      "name": "Lithic stair 00-07",
+      "minimum_nominal_margin": 0.011011739133647946,
+      "normal_angle_median": 5.233854762031309,
+      "normal_angle_p90": 35.77872303727923,
+      "fraction_angles_14_to_25": 0.13970588235294118
+    },
+    {
+      "name": "Lithic stair 00-08",
+      "minimum_nominal_margin": 0.011058956735960912,
+      "normal_angle_median": 4.038326620583528,
+      "normal_angle_p90": 27.73350499945407,
+      "fraction_angles_14_to_25": 0.20220588235294118
+    },
+    {
+      "name": "Lithic stair 02-00",
+      "minimum_nominal_margin": 0.011456453305163983,
+      "normal_angle_median": 5.628989955327435,
+      "normal_angle_p90": 24.380527344156427,
+      "fraction_angles_14_to_25": 0.23161764705882354
+    },
+    {
+      "name": "Lithic stair 02-01",
+      "minimum_nominal_margin": 0.010648286837715126,
+      "normal_angle_median": 8.136814568085146,
+      "normal_angle_p90": 47.72339801752643,
+      "fraction_angles_14_to_25": 0.10661764705882353
+    },
+    {
+      "name": "Lithic stair 02-02",
+      "minimum_nominal_margin": 0.010838542712042099,
+      "normal_angle_median": 1.5531648670942997,
+      "normal_angle_p90": 21.349615932987092,
+      "fraction_angles_14_to_25": 0.125
+    },
+    {
+      "name": "Lithic stair 02-03",
+      "minimum_nominal_margin": 0.010861751587593726,
+      "normal_angle_median": 3.345203538704223,
+      "normal_angle_p90": 33.63752047864899,
+      "fraction_angles_14_to_25": 0.16176470588235295
+    },
+    {
+      "name": "Lithic stair 02-04",
+      "minimum_nominal_margin": 0.011255341965217713,
+      "normal_angle_median": 4.296337774900614,
+      "normal_angle_p90": 20.90210105524619,
+      "fraction_angles_14_to_25": 0.17279411764705882
+    },
+    {
+      "name": "Lithic stair 02-05",
+      "minimum_nominal_margin": 0.01020186013364821,
+      "normal_angle_median": 7.092883121632797,
+      "normal_angle_p90": 37.07705680196917,
+      "fraction_angles_14_to_25": 0.11764705882352941
+    },
+    {
+      "name": "Lithic stair 02-06",
+      "minimum_nominal_margin": 0.011881865875682518,
+      "normal_angle_median": 4.916700528438133,
+      "normal_angle_p90": 28.657098449322163,
+      "fraction_angles_14_to_25": 0.1323529411764706
+    },
+    {
+      "name": "Lithic stair 02-07",
+      "minimum_nominal_margin": 0.01082810438558024,
+      "normal_angle_median": 4.411227458750854,
+      "normal_angle_p90": 21.623931077556147,
+      "fraction_angles_14_to_25": 0.2426470588235294
+    },
+    {
+      "name": "Lithic stair 02-08",
+      "minimum_nominal_margin": 0.009725148074350987,
+      "normal_angle_median": 6.388403586580296,
+      "normal_angle_p90": 37.757797995403614,
+      "fraction_angles_14_to_25": 0.13602941176470587
+    },
+    {
+      "name": "Lithic stair 04-00",
+      "minimum_nominal_margin": 0.011077799209236794,
+      "normal_angle_median": 7.705922350508136,
+      "normal_angle_p90": 33.29889929946518,
+      "fraction_angles_14_to_25": 0.15441176470588236
+    },
+    {
+      "name": "Lithic stair 04-01",
+      "minimum_nominal_margin": 0.011849560405625681,
+      "normal_angle_median": 8.671160604634355,
+      "normal_angle_p90": 29.817139933268304,
+      "fraction_angles_14_to_25": 0.23161764705882354
+    },
+    {
+      "name": "Lithic stair 04-02",
+      "minimum_nominal_margin": 0.011268354987772788,
+      "normal_angle_median": 4.2014340828520895,
+      "normal_angle_p90": 19.950417399250945,
+      "fraction_angles_14_to_25": 0.15073529411764705
+    },
+    {
+      "name": "Lithic stair 04-03",
+      "minimum_nominal_margin": 0.008053572754804339,
+      "normal_angle_median": 1.3134426695023325,
+      "normal_angle_p90": 23.01160912840993,
+      "fraction_angles_14_to_25": 0.13602941176470587
+    },
+    {
+      "name": "Lithic stair 04-04",
+      "minimum_nominal_margin": 0.011898841489863976,
+      "normal_angle_median": 3.290318169619867,
+      "normal_angle_p90": 30.406295869948003,
+      "fraction_angles_14_to_25": 0.16176470588235295
+    },
+    {
+      "name": "Lithic stair 04-05",
+      "minimum_nominal_margin": 0.01053805938859087,
+      "normal_angle_median": 10.498878001897245,
+      "normal_angle_p90": 47.10409887148127,
+      "fraction_angles_14_to_25": 0.21691176470588236
+    },
+    {
+      "name": "Lithic stair 04-06",
+      "minimum_nominal_margin": 0.00985927305901324,
+      "normal_angle_median": 6.938633459468479,
+      "normal_angle_p90": 38.948613820148516,
+      "fraction_angles_14_to_25": 0.16911764705882354
+    },
+    {
+      "name": "Lithic stair 04-07",
+      "minimum_nominal_margin": 0.010234241230258512,
+      "normal_angle_median": 5.35355893839999,
+      "normal_angle_p90": 24.45002934589504,
+      "fraction_angles_14_to_25": 0.22426470588235295
+    },
+    {
+      "name": "Lithic stair 04-08",
+      "minimum_nominal_margin": 0.009706184147387109,
+      "normal_angle_median": 10.843498592843126,
+      "normal_angle_p90": 44.54660734068777,
+      "fraction_angles_14_to_25": 0.12867647058823528
+    },
+    {
+      "name": "Lithic stair 06-00",
+      "minimum_nominal_margin": 0.010377222891007065,
+      "normal_angle_median": 6.068760344896731,
+      "normal_angle_p90": 34.37424355538655,
+      "fraction_angles_14_to_25": 0.1323529411764706
+    },
+    {
+      "name": "Lithic stair 06-01",
+      "minimum_nominal_margin": 0.010377337492266214,
+      "normal_angle_median": 5.074431626708522,
+      "normal_angle_p90": 22.049355302704,
+      "fraction_angles_14_to_25": 0.15441176470588236
+    },
+    {
+      "name": "Lithic stair 06-02",
+      "minimum_nominal_margin": 0.010994613660811225,
+      "normal_angle_median": 8.077102377745323,
+      "normal_angle_p90": 30.316438411545498,
+      "fraction_angles_14_to_25": 0.1948529411764706
+    },
+    {
+      "name": "Lithic stair 06-03",
+      "minimum_nominal_margin": 0.011439661268843437,
+      "normal_angle_median": 5.2631389937095365,
+      "normal_angle_p90": 28.63652532061258,
+      "fraction_angles_14_to_25": 0.1875
+    },
+    {
+      "name": "Lithic stair 06-04",
+      "minimum_nominal_margin": 0.009978120811294566,
+      "normal_angle_median": 3.7554744567635474,
+      "normal_angle_p90": 28.50734379640857,
+      "fraction_angles_14_to_25": 0.11029411764705882
+    },
+    {
+      "name": "Lithic stair 06-05",
+      "minimum_nominal_margin": 0.01101759183843587,
+      "normal_angle_median": 5.725430584619448,
+      "normal_angle_p90": 21.162473505138944,
+      "fraction_angles_14_to_25": 0.20220588235294118
+    },
+    {
+      "name": "Lithic stair 06-06",
+      "minimum_nominal_margin": 0.010479878539109144,
+      "normal_angle_median": 6.477066112039849,
+      "normal_angle_p90": 36.80654751900615,
+      "fraction_angles_14_to_25": 0.15808823529411764
+    },
+    {
+      "name": "Lithic stair 06-07",
+      "minimum_nominal_margin": 0.012378941751483907,
+      "normal_angle_median": 0.6584415758170544,
+      "normal_angle_p90": 21.80018692598784,
+      "fraction_angles_14_to_25": 0.16911764705882354
+    },
+    {
+      "name": "Lithic stair 06-08",
+      "minimum_nominal_margin": 0.010271044794018636,
+      "normal_angle_median": 6.004548858023025,
+      "normal_angle_p90": 25.11443835599284,
+      "fraction_angles_14_to_25": 0.1875
+    },
+    {
+      "name": "Lithic stair 08-00",
+      "minimum_nominal_margin": 0.010184481198665551,
+      "normal_angle_median": 4.5106736580811315,
+      "normal_angle_p90": 21.44038244054405,
+      "fraction_angles_14_to_25": 0.16911764705882354
+    },
+    {
+      "name": "Lithic stair 08-01",
+      "minimum_nominal_margin": 0.010361838618988095,
+      "normal_angle_median": 6.714549599703362,
+      "normal_angle_p90": 41.167710876980124,
+      "fraction_angles_14_to_25": 0.20955882352941177
+    },
+    {
+      "name": "Lithic stair 08-02",
+      "minimum_nominal_margin": 0.01110403625518952,
+      "normal_angle_median": 5.258406275449638,
+      "normal_angle_p90": 28.726036080937593,
+      "fraction_angles_14_to_25": 0.11029411764705882
+    },
+    {
+      "name": "Lithic stair 08-03",
+      "minimum_nominal_margin": 0.010059431337086977,
+      "normal_angle_median": 6.907796389692227,
+      "normal_angle_p90": 35.89698648393148,
+      "fraction_angles_14_to_25": 0.17279411764705882
+    },
+    {
+      "name": "Lithic stair 08-04",
+      "minimum_nominal_margin": 0.01052891737315953,
+      "normal_angle_median": 9.059353785576686,
+      "normal_angle_p90": 39.3464570212627,
+      "fraction_angles_14_to_25": 0.22058823529411764
+    },
+    {
+      "name": "Lithic stair 08-05",
+      "minimum_nominal_margin": 0.009533801075869874,
+      "normal_angle_median": 9.059880678270735,
+      "normal_angle_p90": 38.1802305168787,
+      "fraction_angles_14_to_25": 0.1948529411764706
+    },
+    {
+      "name": "Lithic stair 08-06",
+      "minimum_nominal_margin": 0.010770898066709833,
+      "normal_angle_median": 6.327575077676598,
+      "normal_angle_p90": 26.688732763154544,
+      "fraction_angles_14_to_25": 0.22426470588235295
+    },
+    {
+      "name": "Lithic stair 08-07",
+      "minimum_nominal_margin": 0.009063798160857672,
+      "normal_angle_median": 8.511655072023913,
+      "normal_angle_p90": 37.62945361659979,
+      "fraction_angles_14_to_25": 0.15441176470588236
+    },
+    {
+      "name": "Lithic stair 08-08",
+      "minimum_nominal_margin": 0.009677514513311003,
+      "normal_angle_median": 4.636835433075876,
+      "normal_angle_p90": 22.451526321555555,
+      "fraction_angles_14_to_25": 0.12867647058823528
+    }
+  ],
+  "interpretation": "First +Z surface ray sampled beneath original support top; nominal source support box, not a native shadow or all-points proof."
+}
