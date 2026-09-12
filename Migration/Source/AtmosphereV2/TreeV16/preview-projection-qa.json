@@ -1,0 +1,329 @@
+{
+  "coordinateBridge": "Native world (-x,-z,y), reflected context; camera proper RH look-at",
+  "checks": [
+    {
+      "view": "full",
+      "state": "before",
+      "landmarkNativeWorld": [
+        7.199999809265137,
+        0.0,
+        3.700000047683716
+      ],
+      "expectedUnityViewport": [
+        0.2663133779034265,
+        0.4169054178481406
+      ],
+      "actualBlenderViewport": [
+        0.26631343364715576,
+        0.4169052243232727
+      ],
+      "maxError": 1.935248679085788e-07
+    },
+    {
+      "view": "full",
+      "state": "before",
+      "landmarkNativeWorld": [
+        0.0,
+        2.9000000953674316,
+        0.699999988079071
+      ],
+      "expectedUnityViewport": [
+        0.5000000286327749,
+        0.5000000214745812
+      ],
+      "actualBlenderViewport": [
+        0.5000001192092896,
+        0.4999997913837433
+      ],
+      "maxError": 2.3009083793823493e-07
+    },
+    {
+      "view": "full",
+      "state": "before",
+      "landmarkNativeWorld": [
+        -4.0,
+        0.0,
+        8.0
+      ],
+      "expectedUnityViewport": [
+        0.5103098319213722,
+        0.15483369784997708
+      ],
+      "actualBlenderViewport": [
+        0.5103098750114441,
+        0.15483355522155762
+      ],
+      "maxError": 1.4262841946388605e-07
+    },
+    {
+      "view": "zoom",
+      "state": "before",
+      "landmarkNativeWorld": [
+        7.199999809265137,
+        0.0,
+        3.700000047683716
+      ],
+      "expectedUnityViewport": [
+        0.20517346353241894,
+        0.3951652104204351
+      ],
+      "actualBlenderViewport": [
+        0.2051735520362854,
+        0.39516496658325195
+      ],
+      "maxError": 2.438371831670061e-07
+    },
+    {
+      "view": "zoom",
+      "state": "before",
+      "landmarkNativeWorld": [
+        0.0,
+        2.9000000953674316,
+        0.699999988079071
+      ],
+      "expectedUnityViewport": [
+        0.5000000361240271,
+        0.5000000270930204
+      ],
+      "actualBlenderViewport": [
+        0.5000001192092896,
+        0.4999997317790985
+      ],
+      "maxError": 2.953139218719869e-07
+    },
+    {
+      "view": "zoom",
+      "state": "before",
+      "landmarkNativeWorld": [
+        -4.0,
+        0.0,
+        8.0
+      ],
+      "expectedUnityViewport": [
+        0.5130072145751028,
+        0.0645271241664887
+      ],
+      "actualBlenderViewport": [
+        0.5130072832107544,
+        0.06452693045139313
+      ],
+      "maxError": 1.9371509557553068e-07
+    },
+    {
+      "view": "glare-orbit",
+      "state": "before",
+      "landmarkNativeWorld": [
+        7.199999809265137,
+        0.0,
+        3.700000047683716
+      ],
+      "expectedUnityViewport": [
+        0.3157181496543453,
+        0.5485479491446935
+      ],
+      "actualBlenderViewport": [
+        0.3157183527946472,
+        0.5485479235649109
+      ],
+      "maxError": 2.031403019131517e-07
+    },
+    {
+      "view": "glare-orbit",
+      "state": "before",
+      "landmarkNativeWorld": [
+        0.0,
+        2.9000000953674316,
+        0.699999988079071
+      ],
+      "expectedUnityViewport": [
+        0.5,
+        0.49999995705083905
+      ],
+      "actualBlenderViewport": [
+        0.5000001788139343,
+        0.49999991059303284
+      ],
+      "maxError": 1.7881393432617188e-07
+    },
+    {
+      "view": "glare-orbit",
+      "state": "before",
+      "landmarkNativeWorld": [
+        -4.0,
+        0.0,
+        8.0
+      ],
+      "expectedUnityViewport": [
+        0.3675561262168944,
+        0.18988488545586818
+      ],
+      "actualBlenderViewport": [
+        0.36755630373954773,
+        0.18988481163978577
+      ],
+      "maxError": 1.7752265335513329e-07
+    },
+    {
+      "view": "full",
+      "state": "after",
+      "landmarkNativeWorld": [
+        7.199999809265137,
+        0.0,
+        3.700000047683716
+      ],
+      "expectedUnityViewport": [
+        0.2663133779034265,
+        0.4169054178481406
+      ],
+      "actualBlenderViewport": [
+        0.26631343364715576,
+        0.4169052243232727
+      ],
+      "maxError": 1.935248679085788e-07
+    },
+    {
+      "view": "full",
+      "state": "after",
+      "landmarkNativeWorld": [
+        0.0,
+        2.9000000953674316,
+        0.699999988079071
+      ],
+      "expectedUnityViewport": [
+        0.5000000286327749,
+        0.5000000214745812
+      ],
+      "actualBlenderViewport": [
+        0.5000001192092896,
+        0.4999997913837433
+      ],
+      "maxError": 2.3009083793823493e-07
+    },
+    {
+      "view": "full",
+      "state": "after",
+      "landmarkNativeWorld": [
+        -4.0,
+        0.0,
+        8.0
+      ],
+      "expectedUnityViewport": [
+        0.5103098319213722,
+        0.15483369784997708
+      ],
+      "actualBlenderViewport": [
+        0.5103098750114441,
+        0.15483355522155762
+      ],
+      "maxError": 1.4262841946388605e-07
+    },
+    {
+      "view": "zoom",
+      "state": "after",
+      "landmarkNativeWorld": [
+        7.199999809265137,
+        0.0,
+        3.700000047683716
+      ],
+      "expectedUnityViewport": [
+        0.20517346353241894,
+        0.3951652104204351
+      ],
+      "actualBlenderViewport": [
+        0.2051735520362854,
+        0.39516496658325195
+      ],
+      "maxError": 2.438371831670061e-07
+    },
+    {
+      "view": "zoom",
+      "state": "after",
+      "landmarkNativeWorld": [
+        0.0,
+        2.9000000953674316,
+        0.699999988079071
+      ],
+      "expectedUnityViewport": [
+        0.5000000361240271,
+        0.5000000270930204
+      ],
+      "actualBlenderViewport": [
+        0.5000001192092896,
+        0.4999997317790985
+      ],
+      "maxError": 2.953139218719869e-07
+    },
+    {
+      "view": "zoom",
+      "state": "after",
+      "landmarkNativeWorld": [
+        -4.0,
+        0.0,
+        8.0
+      ],
+      "expectedUnityViewport": [
+        0.5130072145751028,
+        0.0645271241664887
+      ],
+      "actualBlenderViewport": [
+        0.5130072832107544,
+        0.06452693045139313
+      ],
+      "maxError": 1.9371509557553068e-07
+    },
+    {
+      "view": "glare-orbit",
+      "state": "after",
+      "landmarkNativeWorld": [
+        7.199999809265137,
+        0.0,
+        3.700000047683716
+      ],
+      "expectedUnityViewport": [
+        0.3157181496543453,
+        0.5485479491446935
+      ],
+      "actualBlenderViewport": [
+        0.3157183527946472,
+        0.5485479235649109
+      ],
+      "maxError": 2.031403019131517e-07
+    },
+    {
+      "view": "glare-orbit",
+      "state": "after",
+      "landmarkNativeWorld": [
+        0.0,
+        2.9000000953674316,
+        0.699999988079071
+      ],
+      "expectedUnityViewport": [
+        0.5,
+        0.49999995705083905
+      ],
+      "actualBlenderViewport": [
+        0.5000001788139343,
+        0.49999991059303284
+      ],
+      "maxError": 1.7881393432617188e-07
+    },
+    {
+      "view": "glare-orbit",
+      "state": "after",
+      "landmarkNativeWorld": [
+        -4.0,
+        0.0,
+        8.0
+      ],
+      "expectedUnityViewport": [
+        0.3675561262168944,
+        0.18988488545586818
+      ],
+      "actualBlenderViewport": [
+        0.36755630373954773,
+        0.18988481163978577
+      ],
+      "maxError": 1.7752265335513329e-07
+    }
+  ]
+}

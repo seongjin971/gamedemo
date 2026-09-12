@@ -1,0 +1,44 @@
+{
+  "finite_values": true,
+  "valid_indices": true,
+  "normals_unit": true,
+  "normal_length_range": [
+    0.9999998781483602,
+    1.0000001322242102
+  ],
+  "source_sha256_preserved": true,
+  "vertices": 45536,
+  "triangles": 74671,
+  "triangle_delta": 23017,
+  "triangle_percent_increase": 44.55995663452976,
+  "unity_source_bounds": [
+    [
+      -2.950007200241089,
+      -0.16721206903457642,
+      -1.375244379043579
+    ],
+    [
+      3.3400042057037354,
+      6.5100016593933105,
+      1.4600813388824463
+    ]
+  ],
+  "unity_target_bounds": [
+    [
+      -2.9500038623809814,
+      -0.1641639918088913,
+      -1.375244379043579
+    ],
+    [
+      3.3400042057037354,
+      6.5100016593933105,
+      1.4600813388824463
+    ]
+  ],
+  "basis": "Blender(x,y,z) -> Unity(-x,z,-y)",
+  "winding": "[0,2,1]",
+  "thick_terminal_taper_fraction": 0.28,
+  "distinct_bark_plates": 639,
+  "buttresses": 4,
+  "fine_split_replacements": 8
+}

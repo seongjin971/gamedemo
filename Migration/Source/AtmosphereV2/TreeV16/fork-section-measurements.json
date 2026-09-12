@@ -1,0 +1,191 @@
+[
+  {
+    "region": "lower_left",
+    "selection": "Entire radial core including outer bark up to documented radius; axial .20-.78. No deformation-weight filtering.",
+    "coreRadiusLocal": 0.68,
+    "triangleCornerSamples": 29646,
+    "medianRadiusReductionPercent": 18.00000487033424,
+    "radiusRatio10to90": [
+      0.786694445086547,
+      0.822560047736344
+    ],
+    "sections": [
+      {
+        "progress": [
+          0.22,
+          0.32
+        ],
+        "samples": 8832,
+        "beforeRadius95": 0.6368915038646668,
+        "afterRadius95": 0.5222511228742904,
+        "outer95ReductionPercent": 17.999985915142037
+      },
+      {
+        "progress": [
+          0.32,
+          0.42000000000000004
+        ],
+        "samples": 6126,
+        "beforeRadius95": 0.6242785301620919,
+        "afterRadius95": 0.5119083257203281,
+        "outer95ReductionPercent": 18.000011054775065
+      },
+      {
+        "progress": [
+          0.42,
+          0.52
+        ],
+        "samples": 3865,
+        "beforeRadius95": 0.3362583367568043,
+        "afterRadius95": 0.2727796522370759,
+        "outer95ReductionPercent": 18.877951140773874
+      },
+      {
+        "progress": [
+          0.52,
+          0.62
+        ],
+        "samples": 4067,
+        "beforeRadius95": 0.3467793444534142,
+        "afterRadius95": 0.2843590528200095,
+        "outer95ReductionPercent": 18.000002777498224
+      },
+      {
+        "progress": [
+          0.62,
+          0.72
+        ],
+        "samples": 2786,
+        "beforeRadius95": 0.3117342195821744,
+        "afterRadius95": 0.2556220659237484,
+        "outer95ReductionPercent": 17.999998118151606
+      }
+    ]
+  },
+  {
+    "region": "lower_right",
+    "selection": "Entire radial core including outer bark up to documented radius; axial .20-.78. No deformation-weight filtering.",
+    "coreRadiusLocal": 0.64,
+    "triangleCornerSamples": 20241,
+    "medianRadiusReductionPercent": 18.000004278471593,
+    "radiusRatio10to90": [
+      0.809828708228473,
+      0.8200964801785418
+    ],
+    "sections": [
+      {
+        "progress": [
+          0.22,
+          0.32
+        ],
+        "samples": 4175,
+        "beforeRadius95": 0.47847698759910195,
+        "afterRadius95": 0.391083615458775,
+        "outer95ReductionPercent": 18.2649060258569
+      },
+      {
+        "progress": [
+          0.32,
+          0.42000000000000004
+        ],
+        "samples": 2639,
+        "beforeRadius95": 0.5000992939134675,
+        "afterRadius95": 0.40896723963413123,
+        "outer95ReductionPercent": 18.2227920311971
+      },
+      {
+        "progress": [
+          0.42,
+          0.52
+        ],
+        "samples": 4003,
+        "beforeRadius95": 0.4242539247854506,
+        "afterRadius95": 0.34788822919825346,
+        "outer95ReductionPercent": 17.999997436868973
+      },
+      {
+        "progress": [
+          0.52,
+          0.62
+        ],
+        "samples": 3978,
+        "beforeRadius95": 0.5898506597669633,
+        "afterRadius95": 0.48367755911902166,
+        "outer95ReductionPercent": 17.99999692971238
+      },
+      {
+        "progress": [
+          0.62,
+          0.72
+        ],
+        "samples": 1911,
+        "beforeRadius95": 0.24631723563129365,
+        "afterRadius95": 0.2019801300276671,
+        "outer95ReductionPercent": 18.000001295075307
+      }
+    ]
+  },
+  {
+    "region": "upper_left",
+    "selection": "Entire radial core including outer bark up to documented radius; axial .20-.78. No deformation-weight filtering.",
+    "coreRadiusLocal": 0.65,
+    "triangleCornerSamples": 32825,
+    "medianRadiusReductionPercent": 17.999998403698946,
+    "radiusRatio10to90": [
+      0.7944656513154303,
+      0.8635479028174479
+    ],
+    "sections": [
+      {
+        "progress": [
+          0.22,
+          0.32
+        ],
+        "samples": 10021,
+        "beforeRadius95": 0.6072285046926001,
+        "afterRadius95": 0.49016042954025557,
+        "outer95ReductionPercent": 19.279080979837804
+      },
+      {
+        "progress": [
+          0.32,
+          0.42000000000000004
+        ],
+        "samples": 13447,
+        "beforeRadius95": 0.6187879102998071,
+        "afterRadius95": 0.5449586239702549,
+        "outer95ReductionPercent": 11.93127485211878
+      },
+      {
+        "progress": [
+          0.42,
+          0.52
+        ],
+        "samples": 3639,
+        "beforeRadius95": 0.6056480102973805,
+        "afterRadius95": 0.5391430634922746,
+        "outer95ReductionPercent": 10.980791759301113
+      },
+      {
+        "progress": [
+          0.52,
+          0.62
+        ],
+        "samples": 2293,
+        "beforeRadius95": 0.2840800497691216,
+        "afterRadius95": 0.23294567242989708,
+        "outer95ReductionPercent": 17.99998886961003
+      },
+      {
+        "progress": [
+          0.62,
+          0.72
+        ],
+        "samples": 956,
+        "beforeRadius95": 0.23015583964265776,
+        "afterRadius95": 0.18872777819263187,
+        "outer95ReductionPercent": 18.00000448146244
+      }
+    ]
+  }
+]

@@ -1,0 +1,169 @@
+{
+  "status": "GEOMETRY_QA_PENDING_PREVIEW",
+  "sourceHashes": {
+    "C:\\Users\\brian\\Dev\\active\\Dream Loop Astra\\Migration\\Source\\AtmosphereV2\\TreeV12\\derivative\\tree-v12.blend": "d1e7905e40b85fbb76115cd398536cc8a710c264a1e2efbf2900895414a35b39",
+    "C:\\Users\\brian\\Dev\\active\\Dream Loop Astra\\Migration\\Source\\AtmosphereV2\\TreeV12\\derivative\\tree-v12-mesh.json": "9c9e1f1ee6e6ad97eee8172ce2caf9f500354810e82d792c85d0bfc66d655cc9",
+    "C:\\Users\\brian\\Dev\\active\\Dream Loop Astra\\Migration\\Source\\AtmosphereV2\\PavingV15\\paving-v15-mesh.json": "630a8d5fcc54f38825fcdbf7fb401cd9768894d67b1b7d3e8b4f91cf329242ce",
+    "C:\\Users\\brian\\Dev\\active\\Dream Loop Astra\\Migration\\Source\\AtmosphereV2\\ContactV14\\contact-v14-deposits.json": "db43062755e611af95441466b4c55dc7d9a998ce2ace3e14c5aba41d5763026e",
+    "C:\\Users\\brian\\Dev\\active\\Dream Loop Astra\\Migration\\Source\\AtmosphereV2\\ContactV14\\contact-v14-rubble.json": "7edb648a785c17c25611014ed090792e0b00888ea7d299ac5eb0c4ae808d87c8",
+    "C:\\Users\\brian\\Dev\\active\\Dream Loop Astra\\Migration\\Source\\AtmosphereV2\\ContactV14\\contact-v14.blend": "9deedabfe1e08916512231311d53b18a59b46343806399bd29296bf90557e775"
+  },
+  "treeExport": {
+    "file": "tree-v16-mesh.json",
+    "triangles": 157999,
+    "vertices": 136881,
+    "zeroAreaDiscarded": 0,
+    "faceNormalFallbacks": 128,
+    "boundsUnity": [
+      [
+        -3.120192050933838,
+        3.1798081398010254
+      ],
+      [
+        -0.9500572681427002,
+        6.340000152587891
+      ],
+      [
+        -1.7493997812271118,
+        1.3373063802719116
+      ]
+    ],
+    "sha256": "d10d3ff1ee21c1596f934238ec3cbb1706d71ed4263f6254d55dd0d169cdbc1f"
+  },
+  "rootPlans": [
+    {
+      "root": 1,
+      "role": "floor",
+      "sourceCenterlineEndRadiusLocal": 1.76,
+      "descentStartRadiusLocal": 1.32,
+      "fullDescentRadiusLocal": 1.584,
+      "terminalVertexSamples": 181,
+      "supportSamples": 181,
+      "unsupportedTerminalSamples": 0,
+      "minimumActualSupportWorldY": -0.06360030174255371,
+      "conservativeTargetTopWorldY": -0.10860030174255371,
+      "downwardTranslationLocal": 0.2446120761205695,
+      "minimumTerminalBurialBelowActualSupportMeters": 0.10550920486450192,
+      "terminalWorldBounds": [
+        [
+          8.454384931284727,
+          -0.4750735156051814,
+          5.767230827954053
+        ],
+        [
+          9.056814841627636,
+          -0.10860030174255368,
+          6.304459070002515
+        ]
+      ]
+    },
+    {
+      "root": 2,
+      "role": "floor",
+      "sourceCenterlineEndRadiusLocal": 1.6,
+      "descentStartRadiusLocal": 1.2000000000000002,
+      "fullDescentRadiusLocal": 1.4400000000000002,
+      "terminalVertexSamples": 143,
+      "supportSamples": 143,
+      "unsupportedTerminalSamples": 0,
+      "minimumActualSupportWorldY": -0.06354761123657227,
+      "conservativeTargetTopWorldY": -0.10854761123657226,
+      "downwardTranslationLocal": 0.3641888740434812,
+      "minimumTerminalBurialBelowActualSupportMeters": 0.05074517250061038,
+      "terminalWorldBounds": [
+        [
+          4.67456277356455,
+          -0.681352883130312,
+          4.42931908123714
+        ],
+        [
+          5.176200002891093,
+          -0.10854761123657229,
+          5.191160487616347
+        ]
+      ]
+    },
+    {
+      "root": 3,
+      "role": "floor",
+      "sourceCenterlineEndRadiusLocal": 1.73,
+      "descentStartRadiusLocal": 1.2974999999999999,
+      "fullDescentRadiusLocal": 1.557,
+      "terminalVertexSamples": 52,
+      "supportSamples": 52,
+      "unsupportedTerminalSamples": 0,
+      "minimumActualSupportWorldY": -0.012178421020507812,
+      "conservativeTargetTopWorldY": -0.05717842102050781,
+      "downwardTranslationLocal": 0.23124759605509698,
+      "minimumTerminalBurialBelowActualSupportMeters": 0.04681126594543458,
+      "terminalWorldBounds": [
+        [
+          5.338340338850512,
+          -0.4426370983198285,
+          1.3572620220358824
+        ],
+        [
+          5.810098416751035,
+          -0.057178421020507825,
+          1.6823218258834811
+        ]
+      ]
+    },
+    {
+      "root": 4,
+      "role": "parapet",
+      "sourceCenterlineEndRadiusLocal": 1.75,
+      "descentStartRadiusLocal": 1.3125,
+      "fullDescentRadiusLocal": 1.575,
+      "terminalVertexSamples": 170,
+      "supportSamples": 170,
+      "unsupportedTerminalSamples": 0,
+      "minimumActualSupportWorldY": -0.0635995864868164,
+      "conservativeTargetTopWorldY": -0.1085995864868164,
+      "downwardTranslationLocal": 0.20520974402827336,
+      "minimumTerminalBurialBelowActualSupportMeters": 0.0681139010190964,
+      "terminalWorldBounds": [
+        [
+          8.224998940450547,
+          -0.4053392956405878,
+          1.6885285317210257
+        ],
+        [
+          8.499546980928038,
+          -0.10859958648681642,
+          1.9625913602682816
+        ]
+      ]
+    }
+  ],
+  "rootRadialExtension": 0,
+  "parapetRootRetractionLocal": 0.34,
+  "parapetRootTurnRadians": -0.5,
+  "selectedShortSpikes": 40,
+  "detectedShortSpikes": 119,
+  "minimumDeformationJacobian": 0.14624623571280124,
+  "normalCorrections": 222,
+  "sourceUVAndTopologyExact": true,
+  "originalTRS": {
+    "position": [
+      7.2,
+      0,
+      3.7
+    ],
+    "scale": [
+      1.73,
+      1.73,
+      1.73
+    ],
+    "quaternion": [
+      0,
+      -0.04997916927067833,
+      0,
+      0.9987502603949663
+    ]
+  },
+  "meshLocalYawDegrees": -20,
+  "unchangedSourceVertices": 62174,
+  "forkTargetReduction": 0.18,
+  "notes": "Three floor roots and separate parapet corridor. No original source or Unity edits. Native support/cover review and nav regeneration still required."
+}

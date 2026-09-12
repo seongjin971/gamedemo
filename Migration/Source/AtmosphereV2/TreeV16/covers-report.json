@@ -1,0 +1,146 @@
+{
+  "worldSpaceIdentity": true,
+  "coordinateBasis": "Native Unity world x,y,z. Blender x,z,-y conversion preserves orientation; no extra reflection.",
+  "sourcePaving": "PavingV15",
+  "pieces": [
+    {
+      "name": "TreeV16 root 1 broken slab cover",
+      "centerWorldXZ": [
+        8.752146082716365,
+        6.0683672744750226
+      ],
+      "actualFloorSupportMinMax": [
+        -0.06360006332397461,
+        -0.0014958381652832031
+      ],
+      "baseWorldY": -0.009495838165283203,
+      "nominalLength": 0.47,
+      "nominalWidth": 0.34,
+      "nominalHeight": 0.065
+    },
+    {
+      "name": "TreeV16 root 1 entry earth",
+      "centerWorldXZ": [
+        8.560911310124272,
+        6.050221703344568
+      ],
+      "actualFloorSupportMinMax": [
+        -0.03125262260437012,
+        -0.0020394325256347656
+      ],
+      "baseWorldY": -0.010039432525634766,
+      "nominalLength": 0.58,
+      "nominalWidth": 0.42,
+      "nominalHeight": 0.035
+    },
+    {
+      "name": "TreeV16 root 2 broken slab cover",
+      "centerWorldXZ": [
+        4.883080035068662,
+        4.821870515568783
+      ],
+      "actualFloorSupportMinMax": [
+        -0.06332516670227051,
+        -0.013974905014038086
+      ],
+      "baseWorldY": -0.021974905014038086,
+      "nominalLength": 0.56,
+      "nominalWidth": 0.39,
+      "nominalHeight": 0.065
+    },
+    {
+      "name": "TreeV16 root 2 entry earth",
+      "centerWorldXZ": [
+        4.925713906990644,
+        4.63456767799033
+      ],
+      "actualFloorSupportMinMax": [
+        -0.06322669982910156,
+        0.0036699771881103516
+      ],
+      "baseWorldY": -0.004330022811889649,
+      "nominalLength": 0.58,
+      "nominalWidth": 0.42,
+      "nominalHeight": 0.035
+    },
+    {
+      "name": "TreeV16 root 3 broken slab cover",
+      "centerWorldXZ": [
+        5.46777669885067,
+        1.521307434591948
+      ],
+      "actualFloorSupportMinMax": [
+        -0.013567209243774414,
+        -0.00909876823425293
+      ],
+      "baseWorldY": -0.01709876823425293,
+      "nominalLength": 0.47,
+      "nominalWidth": 0.34,
+      "nominalHeight": 0.065
+    },
+    {
+      "name": "TreeV16 root 3 entry earth",
+      "centerWorldXZ": [
+        5.659869555510761,
+        1.5218857253196332
+      ],
+      "actualFloorSupportMinMax": [
+        -0.014319896697998047,
+        -0.008092641830444336
+      ],
+      "baseWorldY": -0.016092641830444336,
+      "nominalLength": 0.58,
+      "nominalWidth": 0.42,
+      "nominalHeight": 0.035
+    }
+  ],
+  "exports": [
+    {
+      "file": "tree-v16-covers.json",
+      "parts": [
+        {
+          "name": "TreeV16 root 1 broken slab cover",
+          "indexStart": 0,
+          "indexCount": 72
+        },
+        {
+          "name": "TreeV16 root 2 broken slab cover",
+          "indexStart": 72,
+          "indexCount": 72
+        },
+        {
+          "name": "TreeV16 root 3 broken slab cover",
+          "indexStart": 144,
+          "indexCount": 72
+        }
+      ],
+      "sha256": "1c5ca68388f7c10455713da6f1b2e2d5dda3be0aa071534a2374cb4ec687f907",
+      "triangles": 72
+    },
+    {
+      "file": "tree-v16-soil.json",
+      "parts": [
+        {
+          "name": "TreeV16 root 1 entry earth",
+          "indexStart": 0,
+          "indexCount": 72
+        },
+        {
+          "name": "TreeV16 root 2 entry earth",
+          "indexStart": 72,
+          "indexCount": 72
+        },
+        {
+          "name": "TreeV16 root 3 entry earth",
+          "indexStart": 144,
+          "indexCount": 72
+        }
+      ],
+      "sha256": "6199c456367d7357f429a6208ba819739610ec1aaeb22d72341b5a04e0c0ad95",
+      "triangles": 72
+    }
+  ],
+  "contact14Preserved": true,
+  "possibleOverlap": "Existing Root soil contact 1/2/3 deposits are retained in preview. Small overlap is intentional layering; no original IDs requested for removal. Review for double ledges in native view.",
+  "parapetCover": "Existing actual parapet stones cover root4. No floating horizontal cover outside the floor."
+}

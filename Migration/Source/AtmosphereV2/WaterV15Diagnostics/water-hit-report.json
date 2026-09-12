@@ -1,0 +1,835 @@
+{
+  "schema_version": 1,
+  "inputs": {
+    "Unity\\Vesper\\Assets\\Vesper\\Scenes\\VesperAtmosphereV2.unity": "dad6fc7988faf693d31670b34e91ca2ea10ac7deae4f8e0c542c3bf999dd293e",
+    "Migration\\Source\\AtmosphereV2\\PavingV14\\paving-v14-mesh.json": "00ee641f13bdc841a4d0fd531379380a33952ee8f952133e750380e9e4be5c59",
+    "Unity\\Vesper\\Assets\\Vesper\\AtmosphereV2\\Textures\\courtyard-wet-mask.png": "17381ad2c046421189a74f01c3f02c5c9a2a518de32498fe92a0955b88fd7853"
+  },
+  "water_y": -0.004,
+  "reflection_plane_y": -0.005,
+  "mask_size": [
+    1254,
+    1254
+  ],
+  "formula": "Pvirtual=(Px,2*hReflection-Py,Pz); t=(hWater-Pvirtual.y)/cameraForward.y; W=Pvirtual+t*cameraForward",
+  "views": [
+    {
+      "name": "full",
+      "angle_radians": 0.46,
+      "elevation_radians": 0.72,
+      "orthographic_size": 11.10236220472441,
+      "camera_forward": [
+        0.3337627302579327,
+        -0.6593846719714731,
+        -0.6736574012506975
+      ],
+      "fresnel": 0.029470185592175093,
+      "emitters": [
+        {
+          "name": "left",
+          "world_center": [
+            -6.9,
+            2.016031,
+            -1.45
+          ],
+          "virtual_center": [
+            -6.9,
+            -2.0260309999999997,
+            -1.45
+          ],
+          "water_hit": [
+            -7.923497536283912,
+            -0.0040000000000000036,
+            0.6157989283185519
+          ],
+          "samples": [
+            {
+              "name": "center",
+              "world": [
+                -7.923497536283912,
+                -0.004,
+                0.6157989283185519
+              ],
+              "mask": {
+                "uv": [
+                  0.8735276409046617,
+                  0.6686231181415941
+                ],
+                "red_samples": [
+                  0.3849920331753845,
+                  0.9491073434091563,
+                  0.0014227954623984823
+                ],
+                "coverage": 1,
+                "inside_water_quad": true
+              },
+              "floor": {
+                "y": -0.008373405802756475,
+                "triangle": 46201,
+                "water_minus_floor_m": 0.0043734058027564745,
+                "floor_above_water": false
+              }
+            },
+            {
+              "name": "near_east",
+              "world": [
+                -7.773497536283911,
+                -0.004,
+                0.6157989283185519
+              ],
+              "mask": {
+                "uv": [
+                  0.8651943075713284,
+                  0.6686231181415941
+                ],
+                "red_samples": [
+                  0.0,
+                  0.9695150814319841,
+                  0.07045719301711853
+                ],
+                "coverage": 1,
+                "inside_water_quad": true
+              },
+              "floor": {
+                "y": -0.009660508619871416,
+                "triangle": 46179,
+                "water_minus_floor_m": 0.005660508619871416,
+                "floor_above_water": false
+              }
+            },
+            {
+              "name": "near_northwest",
+              "world": [
+                -7.998497536283912,
+                -0.004,
+                0.7457027388865518
+              ],
+              "mask": {
+                "uv": [
+                  0.8776943075713284,
+                  0.6636268177351327
+                ],
+                "red_samples": [
+                  0.0998820742383371,
+                  0.9776940021966418,
+                  0.00392156862745098
+                ],
+                "coverage": 1,
+                "inside_water_quad": true
+              },
+              "floor": {
+                "y": -0.008075799112647903,
+                "triangle": 46203,
+                "water_minus_floor_m": 0.004075799112647903,
+                "floor_above_water": false
+              }
+            },
+            {
+              "name": "near_southwest",
+              "world": [
+                -7.998497536283912,
+                -0.004,
+                0.4858951177505519
+              ],
+              "mask": {
+                "uv": [
+                  0.8776943075713284,
+                  0.6736194185480557
+                ],
+                "red_samples": [
+                  0.4185810616246541,
+                  0.980076127661599,
+                  0.0008578465069093658
+                ],
+                "coverage": 1,
+                "inside_water_quad": true
+              },
+              "floor": {
+                "y": -0.06331989384288166,
+                "triangle": 10803,
+                "water_minus_floor_m": 0.05931989384288165,
+                "floor_above_water": false
+              }
+            }
+          ]
+        },
+        {
+          "name": "right",
+          "world_center": [
+            1.65,
+            2.0200698,
+            -1.45
+          ],
+          "virtual_center": [
+            1.65,
+            -2.0300697999999997,
+            -1.45
+          ],
+          "water_hit": [
+            0.6244581321259479,
+            -0.0040000000000000036,
+            0.6199251502764216
+          ],
+          "samples": [
+            {
+              "name": "center",
+              "world": [
+                0.6244581321259479,
+                -0.004,
+                0.6199251502764216
+              ],
+              "mask": {
+                "uv": [
+                  0.39864121488189175,
+                  0.6684644172970607
+                ],
+                "red_samples": [
+                  0.9690089658859826,
+                  0.8862408325215811,
+                  0.9695996016641495
+                ],
+                "coverage": 1,
+                "inside_water_quad": true
+              },
+              "floor": {
+                "y": -0.005465780428918873,
+                "triangle": 77283,
+                "water_minus_floor_m": 0.0014657804289188725,
+                "floor_above_water": false
+              }
+            },
+            {
+              "name": "near_east",
+              "world": [
+                0.7744581321259479,
+                -0.004,
+                0.6199251502764216
+              ],
+              "mask": {
+                "uv": [
+                  0.39030788154855844,
+                  0.6684644172970607
+                ],
+                "red_samples": [
+                  0.9872851332136952,
+                  0.9739764289862306,
+                  0.9766140396356453
+                ],
+                "coverage": 1,
+                "inside_water_quad": true
+              },
+              "floor": {
+                "y": -0.009457448759124614,
+                "triangle": 77284,
+                "water_minus_floor_m": 0.005457448759124614,
+                "floor_above_water": false
+              }
+            },
+            {
+              "name": "near_northwest",
+              "world": [
+                0.549458132125948,
+                -0.004,
+                0.7498289608444215
+              ],
+              "mask": {
+                "uv": [
+                  0.40280788154855846,
+                  0.6634681168905991
+                ],
+                "red_samples": [
+                  0.9760388155188093,
+                  0.8443283399530714,
+                  0.9443410904398328
+                ],
+                "coverage": 1,
+                "inside_water_quad": true
+              },
+              "floor": {
+                "y": 0.004758654765511734,
+                "triangle": 77214,
+                "water_minus_floor_m": -0.008758654765511735,
+                "floor_above_water": true
+              }
+            },
+            {
+              "name": "near_southwest",
+              "world": [
+                0.549458132125948,
+                -0.004,
+                0.4900213397084216
+              ],
+              "mask": {
+                "uv": [
+                  0.40280788154855846,
+                  0.6734607177035222
+                ],
+                "red_samples": [
+                  0.8771351018014982,
+                  0.9725419790838373,
+                  0.976355515836567
+                ],
+                "coverage": 1,
+                "inside_water_quad": true
+              },
+              "floor": {
+                "y": -0.06286800521769591,
+                "triangle": 10901,
+                "water_minus_floor_m": 0.058868005217695904,
+                "floor_above_water": false
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "orbit",
+      "angle_radians": 0.7,
+      "elevation_radians": 0.85,
+      "orthographic_size": 11.10236220472441,
+      "camera_forward": [
+        0.42517281585787886,
+        -0.7512804051402927,
+        -0.5047829528695674
+      ],
+      "fresnel": 0.025928014204562273,
+      "emitters": [
+        {
+          "name": "left",
+          "world_center": [
+            -6.9,
+            2.016031,
+            -1.45
+          ],
+          "virtual_center": [
+            -6.9,
+            -2.0260309999999997,
+            -1.45
+          ],
+          "water_hit": [
+            -8.044329877552684,
+            -0.0040000000000000036,
+            -0.09140369961705175
+          ],
+          "samples": [
+            {
+              "name": "center",
+              "world": [
+                -8.044329877552684,
+                -0.004,
+                -0.09140369961705175
+              ],
+              "mask": {
+                "uv": [
+                  0.8802405487529269,
+                  0.6958232192160405
+                ],
+                "red_samples": [
+                  0.48267285696229906,
+                  0.9647318726201372,
+                  0.0
+                ],
+                "coverage": 1,
+                "inside_water_quad": true
+              },
+              "floor": {
+                "y": -0.024721597869452154,
+                "triangle": 38222,
+                "water_minus_floor_m": 0.020721597869452154,
+                "floor_above_water": false
+              }
+            },
+            {
+              "name": "near_east",
+              "world": [
+                -7.894329877552684,
+                -0.004,
+                -0.09140369961705175
+              ],
+              "mask": {
+                "uv": [
+                  0.8719072154195935,
+                  0.6958232192160405
+                ],
+                "red_samples": [
+                  0.007339796612432467,
+                  0.957243086347692,
+                  0.0
+                ],
+                "coverage": 1,
+                "inside_water_quad": true
+              },
+              "floor": {
+                "y": -0.05999624901960933,
+                "triangle": 10054,
+                "water_minus_floor_m": 0.055996249019609326,
+                "floor_above_water": false
+              }
+            },
+            {
+              "name": "near_northwest",
+              "world": [
+                -8.119329877552683,
+                -0.004,
+                0.03850011095094824
+              ],
+              "mask": {
+                "uv": [
+                  0.8844072154195936,
+                  0.6908269188095789
+                ],
+                "red_samples": [
+                  0.5196772480901588,
+                  0.9776376516823929,
+                  7.923264602509296e-05
+                ],
+                "coverage": 1,
+                "inside_water_quad": true
+              },
+              "floor": {
+                "y": -0.0635973513147047,
+                "triangle": 10301,
+                "water_minus_floor_m": 0.0595973513147047,
+                "floor_above_water": false
+              }
+            },
+            {
+              "name": "near_southwest",
+              "world": [
+                -8.119329877552683,
+                -0.004,
+                -0.22130751018505174
+              ],
+              "mask": {
+                "uv": [
+                  0.8844072154195936,
+                  0.700819519622502
+                ],
+                "red_samples": [
+                  0.9272902477252689,
+                  0.9713578300973548,
+                  0.0
+                ],
+                "coverage": 1,
+                "inside_water_quad": true
+              },
+              "floor": {
+                "y": -0.024372445778069983,
+                "triangle": 38213,
+                "water_minus_floor_m": 0.020372445778069983,
+                "floor_above_water": false
+              }
+            }
+          ]
+        },
+        {
+          "name": "right",
+          "world_center": [
+            1.65,
+            2.0200698,
+            -1.45
+          ],
+          "virtual_center": [
+            1.65,
+            -2.0300697999999997,
+            -1.45
+          ],
+          "water_hit": [
+            0.5033844406207459,
+            -0.0040000000000000036,
+            -0.08869004253761692
+          ],
+          "samples": [
+            {
+              "name": "center",
+              "world": [
+                0.5033844406207459,
+                -0.004,
+                -0.08869004253761692
+              ],
+              "mask": {
+                "uv": [
+                  0.4053675310766252,
+                  0.6957188477899083
+                ],
+                "red_samples": [
+                  0.717807674241649,
+                  0.0014716089508537518,
+                  0.9723497469595132
+                ],
+                "coverage": 1,
+                "inside_water_quad": true
+              },
+              "floor": {
+                "y": -0.010243790440863295,
+                "triangle": 70388,
+                "water_minus_floor_m": 0.006243790440863295,
+                "floor_above_water": false
+              }
+            },
+            {
+              "name": "near_east",
+              "world": [
+                0.653384440620746,
+                -0.004,
+                -0.08869004253761692
+              ],
+              "mask": {
+                "uv": [
+                  0.39703419774329185,
+                  0.6957188477899083
+                ],
+                "red_samples": [
+                  0.0028849124695203053,
+                  0.008187337453942014,
+                  0.9634796697330733
+                ],
+                "coverage": 1,
+                "inside_water_quad": true
+              },
+              "floor": {
+                "y": -0.009377469731553015,
+                "triangle": 70388,
+                "water_minus_floor_m": 0.005377469731553015,
+                "floor_above_water": false
+              }
+            },
+            {
+              "name": "near_northwest",
+              "world": [
+                0.42838444062074593,
+                -0.004,
+                0.04121376803038307
+              ],
+              "mask": {
+                "uv": [
+                  0.4095341977432919,
+                  0.6907225473834468
+                ],
+                "red_samples": [
+                  0.05690068511267869,
+                  0.4061738274969835,
+                  0.31167304641684324
+                ],
+                "coverage": 0.07773463577768,
+                "inside_water_quad": true
+              },
+              "floor": {
+                "y": -0.063600004,
+                "triangle": 10399,
+                "water_minus_floor_m": 0.059600004,
+                "floor_above_water": false
+              }
+            },
+            {
+              "name": "near_southwest",
+              "world": [
+                0.42838444062074593,
+                -0.004,
+                -0.2185938531056169
+              ],
+              "mask": {
+                "uv": [
+                  0.4095341977432919,
+                  0.7007151481963698
+                ],
+                "red_samples": [
+                  0.4493846011252292,
+                  0.0036343886822276985,
+                  0.9782316877410264
+                ],
+                "coverage": 1,
+                "inside_water_quad": true
+              },
+              "floor": {
+                "y": -0.011118365822054381,
+                "triangle": 70376,
+                "water_minus_floor_m": 0.007118365822054381,
+                "floor_above_water": false
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "zoom",
+      "angle_radians": 0.46,
+      "elevation_radians": 0.72,
+      "orthographic_size": 8.8,
+      "camera_forward": [
+        0.3337627302579327,
+        -0.6593846719714731,
+        -0.6736574012506975
+      ],
+      "fresnel": 0.029470185592175093,
+      "emitters": [
+        {
+          "name": "left",
+          "world_center": [
+            -6.9,
+            2.016031,
+            -1.45
+          ],
+          "virtual_center": [
+            -6.9,
+            -2.0260309999999997,
+            -1.45
+          ],
+          "water_hit": [
+            -7.923497536283912,
+            -0.0040000000000000036,
+            0.6157989283185519
+          ],
+          "samples": [
+            {
+              "name": "center",
+              "world": [
+                -7.923497536283912,
+                -0.004,
+                0.6157989283185519
+              ],
+              "mask": {
+                "uv": [
+                  0.8735276409046617,
+                  0.6686231181415941
+                ],
+                "red_samples": [
+                  0.3849920331753845,
+                  0.9491073434091563,
+                  0.0014227954623984823
+                ],
+                "coverage": 1,
+                "inside_water_quad": true
+              },
+              "floor": {
+                "y": -0.008373405802756475,
+                "triangle": 46201,
+                "water_minus_floor_m": 0.0043734058027564745,
+                "floor_above_water": false
+              }
+            },
+            {
+              "name": "near_east",
+              "world": [
+                -7.773497536283911,
+                -0.004,
+                0.6157989283185519
+              ],
+              "mask": {
+                "uv": [
+                  0.8651943075713284,
+                  0.6686231181415941
+                ],
+                "red_samples": [
+                  0.0,
+                  0.9695150814319841,
+                  0.07045719301711853
+                ],
+                "coverage": 1,
+                "inside_water_quad": true
+              },
+              "floor": {
+                "y": -0.009660508619871416,
+                "triangle": 46179,
+                "water_minus_floor_m": 0.005660508619871416,
+                "floor_above_water": false
+              }
+            },
+            {
+              "name": "near_northwest",
+              "world": [
+                -7.998497536283912,
+                -0.004,
+                0.7457027388865518
+              ],
+              "mask": {
+                "uv": [
+                  0.8776943075713284,
+                  0.6636268177351327
+                ],
+                "red_samples": [
+                  0.0998820742383371,
+                  0.9776940021966418,
+                  0.00392156862745098
+                ],
+                "coverage": 1,
+                "inside_water_quad": true
+              },
+              "floor": {
+                "y": -0.008075799112647903,
+                "triangle": 46203,
+                "water_minus_floor_m": 0.004075799112647903,
+                "floor_above_water": false
+              }
+            },
+            {
+              "name": "near_southwest",
+              "world": [
+                -7.998497536283912,
+                -0.004,
+                0.4858951177505519
+              ],
+              "mask": {
+                "uv": [
+                  0.8776943075713284,
+                  0.6736194185480557
+                ],
+                "red_samples": [
+                  0.4185810616246541,
+                  0.980076127661599,
+                  0.0008578465069093658
+                ],
+                "coverage": 1,
+                "inside_water_quad": true
+              },
+              "floor": {
+                "y": -0.06331989384288166,
+                "triangle": 10803,
+                "water_minus_floor_m": 0.05931989384288165,
+                "floor_above_water": false
+              }
+            }
+          ]
+        },
+        {
+          "name": "right",
+          "world_center": [
+            1.65,
+            2.0200698,
+            -1.45
+          ],
+          "virtual_center": [
+            1.65,
+            -2.0300697999999997,
+            -1.45
+          ],
+          "water_hit": [
+            0.6244581321259479,
+            -0.0040000000000000036,
+            0.6199251502764216
+          ],
+          "samples": [
+            {
+              "name": "center",
+              "world": [
+                0.6244581321259479,
+                -0.004,
+                0.6199251502764216
+              ],
+              "mask": {
+                "uv": [
+                  0.39864121488189175,
+                  0.6684644172970607
+                ],
+                "red_samples": [
+                  0.9690089658859826,
+                  0.8862408325215811,
+                  0.9695996016641495
+                ],
+                "coverage": 1,
+                "inside_water_quad": true
+              },
+              "floor": {
+                "y": -0.005465780428918873,
+                "triangle": 77283,
+                "water_minus_floor_m": 0.0014657804289188725,
+                "floor_above_water": false
+              }
+            },
+            {
+              "name": "near_east",
+              "world": [
+                0.7744581321259479,
+                -0.004,
+                0.6199251502764216
+              ],
+              "mask": {
+                "uv": [
+                  0.39030788154855844,
+                  0.6684644172970607
+                ],
+                "red_samples": [
+                  0.9872851332136952,
+                  0.9739764289862306,
+                  0.9766140396356453
+                ],
+                "coverage": 1,
+                "inside_water_quad": true
+              },
+              "floor": {
+                "y": -0.009457448759124614,
+                "triangle": 77284,
+                "water_minus_floor_m": 0.005457448759124614,
+                "floor_above_water": false
+              }
+            },
+            {
+              "name": "near_northwest",
+              "world": [
+                0.549458132125948,
+                -0.004,
+                0.7498289608444215
+              ],
+              "mask": {
+                "uv": [
+                  0.40280788154855846,
+                  0.6634681168905991
+                ],
+                "red_samples": [
+                  0.9760388155188093,
+                  0.8443283399530714,
+                  0.9443410904398328
+                ],
+                "coverage": 1,
+                "inside_water_quad": true
+              },
+              "floor": {
+                "y": 0.004758654765511734,
+                "triangle": 77214,
+                "water_minus_floor_m": -0.008758654765511735,
+                "floor_above_water": true
+              }
+            },
+            {
+              "name": "near_southwest",
+              "world": [
+                0.549458132125948,
+                -0.004,
+                0.4900213397084216
+              ],
+              "mask": {
+                "uv": [
+                  0.40280788154855846,
+                  0.6734607177035222
+                ],
+                "red_samples": [
+                  0.8771351018014982,
+                  0.9725419790838373,
+                  0.976355515836567
+                ],
+                "coverage": 1,
+                "inside_water_quad": true
+              },
+              "floor": {
+                "y": -0.06286800521769591,
+                "triangle": 10901,
+                "water_minus_floor_m": 0.058868005217695904,
+                "floor_above_water": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Serialized flame transform centers, not brightest texels or runtime sprite displacement.",
+    "Base-mip linear red bilinear samples; actual GPU derivative/mips/filter precision may differ.",
+    "Vertical source-mesh top Y does not prove camera-ray visibility or account for other scene geometry.",
+    "Full and zoom have identical orthographic view direction so their world intersections match.",
+    "Sky radiance and actual reflected HDR values require matched native captures; PNG clips HDR values.",
+    "The .001m reflection-plane/water-plane difference is retained, not silently corrected."
+  ]
+}

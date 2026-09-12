@@ -1,0 +1,182 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "file": "tree-v16-mesh.json",
+      "triangles": 157999,
+      "vertices": 136881,
+      "minArea": 3.6539771467874677e-07,
+      "minFaceMeanNormalAlignment": 0.00027677157765578045,
+      "nonpositiveFaceMeanNormals": 0,
+      "maxUnitNormalError": 2.1436812347452872e-07,
+      "bounds": [
+        [
+          -3.120192050933838,
+          -0.9500572681427002,
+          -1.7493997812271118
+        ],
+        [
+          3.1798081398010254,
+          6.340000152587891,
+          1.3373063802719116
+        ]
+      ],
+      "sha256": "d10d3ff1ee21c1596f934238ec3cbb1706d71ed4263f6254d55dd0d169cdbc1f"
+    },
+    {
+      "file": "tree-v16-covers.json",
+      "triangles": 72,
+      "vertices": 216,
+      "minArea": 0.0026211550221211894,
+      "minFaceMeanNormalAlignment": 0.9999999999999931,
+      "nonpositiveFaceMeanNormals": 0,
+      "maxUnitNormalError": 1.0698425823019164e-07,
+      "bounds": [
+        [
+          4.674380779266357,
+          -0.0716000646352768,
+          1.3446348905563354
+        ],
+        [
+          8.99650764465332,
+          0.053180184215307236,
+          6.231817722320557
+        ]
+      ],
+      "sha256": "1c5ca68388f7c10455713da6f1b2e2d5dda3be0aa071534a2374cb4ec687f907"
+    },
+    {
+      "file": "tree-v16-soil.json",
+      "triangles": 72,
+      "vertices": 216,
+      "minArea": 0.0018419091691112158,
+      "minFaceMeanNormalAlignment": 0.9999999999999792,
+      "nonpositiveFaceMeanNormals": 0,
+      "maxUnitNormalError": 1.2424833850666062e-07,
+      "bounds": [
+        [
+          4.701722145080566,
+          -0.07122670114040375,
+          1.303642988204956
+        ],
+        [
+          8.862476348876953,
+          0.02918643318116665,
+          6.2521467208862305
+        ]
+      ],
+      "sha256": "6199c456367d7357f429a6208ba819739610ec1aaeb22d72341b5a04e0c0ad95"
+    }
+  ],
+  "sourceTriangleUVExact": true,
+  "upperCrownAbove4_9LocalExact": true,
+  "sourceInputsUnchanged": true,
+  "rootTopEnvelopeTests": [
+    {
+      "root": 1,
+      "role": "floor",
+      "sourceCenterlineEndRadiusLocal": 1.76,
+      "descentStartRadiusLocal": 1.32,
+      "fullDescentRadiusLocal": 1.584,
+      "terminalVertexSamples": 181,
+      "supportSamples": 181,
+      "unsupportedTerminalSamples": 0,
+      "minimumActualSupportWorldY": -0.06360030174255371,
+      "conservativeTargetTopWorldY": -0.10860030174255371,
+      "downwardTranslationLocal": 0.2446120761205695,
+      "minimumTerminalBurialBelowActualSupportMeters": 0.10550920486450192,
+      "terminalWorldBounds": [
+        [
+          8.454384931284727,
+          -0.4750735156051814,
+          5.767230827954053
+        ],
+        [
+          9.056814841627636,
+          -0.10860030174255368,
+          6.304459070002515
+        ]
+      ]
+    },
+    {
+      "root": 2,
+      "role": "floor",
+      "sourceCenterlineEndRadiusLocal": 1.6,
+      "descentStartRadiusLocal": 1.2000000000000002,
+      "fullDescentRadiusLocal": 1.4400000000000002,
+      "terminalVertexSamples": 143,
+      "supportSamples": 143,
+      "unsupportedTerminalSamples": 0,
+      "minimumActualSupportWorldY": -0.06354761123657227,
+      "conservativeTargetTopWorldY": -0.10854761123657226,
+      "downwardTranslationLocal": 0.3641888740434812,
+      "minimumTerminalBurialBelowActualSupportMeters": 0.05074517250061038,
+      "terminalWorldBounds": [
+        [
+          4.67456277356455,
+          -0.681352883130312,
+          4.42931908123714
+        ],
+        [
+          5.176200002891093,
+          -0.10854761123657229,
+          5.191160487616347
+        ]
+      ]
+    },
+    {
+      "root": 3,
+      "role": "floor",
+      "sourceCenterlineEndRadiusLocal": 1.73,
+      "descentStartRadiusLocal": 1.2974999999999999,
+      "fullDescentRadiusLocal": 1.557,
+      "terminalVertexSamples": 52,
+      "supportSamples": 52,
+      "unsupportedTerminalSamples": 0,
+      "minimumActualSupportWorldY": -0.012178421020507812,
+      "conservativeTargetTopWorldY": -0.05717842102050781,
+      "downwardTranslationLocal": 0.23124759605509698,
+      "minimumTerminalBurialBelowActualSupportMeters": 0.04681126594543458,
+      "terminalWorldBounds": [
+        [
+          5.338340338850512,
+          -0.4426370983198285,
+          1.3572620220358824
+        ],
+        [
+          5.810098416751035,
+          -0.057178421020507825,
+          1.6823218258834811
+        ]
+      ]
+    },
+    {
+      "root": 4,
+      "role": "parapet",
+      "sourceCenterlineEndRadiusLocal": 1.75,
+      "descentStartRadiusLocal": 1.3125,
+      "fullDescentRadiusLocal": 1.575,
+      "terminalVertexSamples": 170,
+      "supportSamples": 170,
+      "unsupportedTerminalSamples": 0,
+      "minimumActualSupportWorldY": -0.0635995864868164,
+      "conservativeTargetTopWorldY": -0.1085995864868164,
+      "downwardTranslationLocal": 0.20520974402827336,
+      "minimumTerminalBurialBelowActualSupportMeters": 0.0681139010190964,
+      "terminalWorldBounds": [
+        [
+          8.224998940450547,
+          -0.4053392956405878,
+          1.6885285317210257
+        ],
+        [
+          8.499546980928038,
+          -0.10859958648681642,
+          1.9625913602682816
+        ]
+      ]
+    }
+  ],
+  "nativeNavRecheckRequired": true,
+  "visualAcceptance": "Pending actual direct preview review"
+}

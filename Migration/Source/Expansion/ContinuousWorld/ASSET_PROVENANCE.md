@@ -1,0 +1,28 @@
+# ContinuousWorld asset provenance
+
+- Existing P1 traveler and Mixamo idle/walk/run: reused read-only from delivered P2 scene.
+- Accepted overview: Higgsfield job `10a6ea42-e9b6-4ca1-b928-f53b541b31e8`; copied to `.dream-loop/continuous-world/concept-overview.png`.
+- WorldSurfaceAtlas.png: built-in imagegen, generated 2026-09-10 in this run; source `C:/Users/brian/.codex/generated_images/01a086f4-d35c-7ca1-a21b-eeb5c5694712/exec-9f73cec5-d702-429a-aea6-8db09cb34c9a.png`. Four quadrant albedo resource: soil / limestone / bark / snow. Imported without image edits; shaders may address atlas quadrants. No external stock source.
+- EnvironmentKit: locally authored Blender source, FBX and manifests in sibling EnvironmentKit folder. Independent mesh generation worker. Unity materials and placement are verified separately.
+- FirBranches.png: built-in imagegen RGBA branch atlas generated in this run, source `exec-2433c863-7786-4c18-a39f-91947ff3a6c1.png` in the same generated_images session folder. Imported without image edits; intended for curved radial needle cards on a woody 3D tree.
+- BirchBranches.png: built-in imagegen RGBA branch atlas, source `exec-ad006ea0-f958-4180-8316-7739ec8c7b87.png` in the same session folder. Four airy leafy twig sprays for modeled birch branch cards; source image remains unchanged.
+- River/Rain/PassWind.wav: authored periodic spectral synthesis in create_ambience.py,32seconds each. These are synthetic ambient beds, not field recordings. No stock recording or music source.
+- Waterside game-camera target: Higgsfield job577104a6-d650-457d-b582-9387a4b42946. Input is our A01 actual bridge capture plus the accepted overview. Requested nano_banana_pro; returned job metadata reports nano_banana_2. Stored `.dream-loop/continuous-world/concept-waterside.png`. It is a design target, not a Unity result.
+- User follow-up explicitly authorizes unrestricted use of available Higgsfield credits for this map's quality; CLI/MCP/plugin permitted, no repeated approval. Initial balance read 2526 credits. No top-up or subscription changes authorized or performed. 3D request accidentally sent to image tool was rejected before job submission; no generated asset from that call.
+
+Generated 3D outputs, job IDs, credit costs and adoption are recorded in HiggsfieldAssets by the asset worker. A generated source is not automatically an adopted Unity asset.
+- Ruins camera target: MCP Nano Banana Pro job4a6eb56c-2add-4353-9212-209b3647c467, confirmed input62496e5c-281f-4db1-9791-e7ea19c706e5 is our C01/view-180 screenshot. Actual3:2 reference-assisted output saved concept-ruins.png. Earlier CLI jobfe64385d-1787-4d4f-8991-65734cd56371 ignored reference/aspect parameters and returned1:1/no inputs; preserved job record but not used as target.
+- B07 independent water still judge2.3/10, no completed shape gate. C03/C04 structural changes address rock banks, paved approach, visible arch, tree placement; no improved score is claimed before a new independent review.
+- C03 weather/shelter QA:43checks,0failures/errors,38.68m actual motor traversal from screen-derived synthetic clicks. This is technical proof, not native device or user visual acceptance.
+- Dedicated SnowSurface.png and LimestoneSurface.png: Higgsfield batchjobs39350cf9-05da-4782-a309-ec32753ed980 /8183c615-0a89-4324-984b-00b3de6e3ae7. RequestedNanoBananaPro, returnedNanoBanana2,2048x2048. OriginalPNGbytesdownloadedunaltered; full-surface textures avoidmipbleedingacrossatlasquadrants. UnitymayuseMirrorwrap,notimageediting.
+- Snow game-camera target: job44960f88-6cdb-4002-a48c-5781b305b6ed,input27aeb8b2-685e-43e0-88c5-9de22e2dd05f isD01/view-342. Reference-assisted3:2target,notUnityresult.
+- MossSurface.png: Higgsfield NanoBananaPro job b0b09e9e-314a-4e65-9e7c-ab9b3e740ff5,2048square, downloaded original PNG unchanged. New local AbbeyRubbleV2 geometry uses this localized moss map. Prior scoped credit audit84 active-run credits; this additional image charge must be added from final ledger.
+
+## Final additions, 2026-09-10
+
+- Moss charge was reconciled at 2 credits, balance 2442→2440; evidence `.dream-loop/continuous-world/assets/final-evidence/moss-credit-addendum.json`.
+- PackedAlpineSnow.png / WetAbbeyLimestone.png: Nano Banana Pro jobs `d687ef50-6053-491e-aa08-b1f3311bbbb0` / `7919d6e6-4163-4598-af27-7622d9839b90`, 2 credits each. Original opaque 2048×2048 PNGs remain unchanged; source prompts, job metadata, hashes, pixel audit and staged-copy audit are in `MaterialTexturesV2/`. Both are imported in D08 onward. Snow texture is localized to the traveled corridor. Limestone has a documented repeated half-frame motif; generated seamlessness is not claimed as proven.
+- Final recorded balance 2436; active-run use **90 credits** from 2526. Recorded jobs including the earlier overview total 92 credits; the overview's 2 credits are outside this run. No top-up or subscription change.
+- BridgeHeroV3 is a separately authored Blender asset used D08 onward, with 14 m deck, enlarged under-deck opening and preserved above-deck V2 geometry. Original V2 and prior diagnostics remain preserved. Unity terrain clearance and visible arch were verified separately from model ray audits.
+- AbbeyRubbleV2 and FirSnowV2 sources and FBX audits remain in `EnvironmentKit/`. FirSnowV2 retains the recovered D01 snow object transforms. Numeric geometry/coverage results do not constitute scene visual acceptance.
+- Final independent still scores at this checkpoint: water D09 3.7/10 (Tier 1), ruins D09 2.5/10 (no shape gate pass), snow D08 5.5/10 (Tier 2). These are bounded native Unity still reviews, not full-map acceptance or browser-derived scores.

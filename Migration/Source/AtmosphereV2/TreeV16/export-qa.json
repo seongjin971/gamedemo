@@ -1,0 +1,182 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "file": "tree-v16-mesh.json",
+      "triangles": 157999,
+      "vertices": 136927,
+      "minArea": 3.6539771467874677e-07,
+      "minFaceMeanNormalAlignment": 0.0003981791532810198,
+      "nonpositiveFaceMeanNormals": 0,
+      "maxUnitNormalError": 2.1436812347452872e-07,
+      "bounds": [
+        [
+          -3.120192050933838,
+          -0.7840885519981384,
+          -1.7493997812271118
+        ],
+        [
+          3.1798081398010254,
+          6.340000152587891,
+          1.2875685691833496
+        ]
+      ],
+      "sha256": "c2a16a66af7845927b48cef2c1ed37199a47a6d14e0ba7151e17dffe466e5121"
+    },
+    {
+      "file": "tree-v16-covers.json",
+      "triangles": 72,
+      "vertices": 216,
+      "minArea": 0.0026211550221211894,
+      "minFaceMeanNormalAlignment": 0.9999999999999931,
+      "nonpositiveFaceMeanNormals": 0,
+      "maxUnitNormalError": 1.0698425823019164e-07,
+      "bounds": [
+        [
+          4.674380779266357,
+          -0.0716000646352768,
+          1.3446348905563354
+        ],
+        [
+          8.99650764465332,
+          0.053180184215307236,
+          6.231817722320557
+        ]
+      ],
+      "sha256": "1c5ca68388f7c10455713da6f1b2e2d5dda3be0aa071534a2374cb4ec687f907"
+    },
+    {
+      "file": "tree-v16-soil.json",
+      "triangles": 72,
+      "vertices": 216,
+      "minArea": 0.0018419091691112158,
+      "minFaceMeanNormalAlignment": 0.9999999999999792,
+      "nonpositiveFaceMeanNormals": 0,
+      "maxUnitNormalError": 1.2424833850666062e-07,
+      "bounds": [
+        [
+          4.701722145080566,
+          -0.07122670114040375,
+          1.303642988204956
+        ],
+        [
+          8.862476348876953,
+          0.02918643318116665,
+          6.2521467208862305
+        ]
+      ],
+      "sha256": "6199c456367d7357f429a6208ba819739610ec1aaeb22d72341b5a04e0c0ad95"
+    }
+  ],
+  "sourceTriangleUVExact": true,
+  "upperCrownAbove4_9LocalExact": true,
+  "sourceInputsUnchanged": true,
+  "rootTopEnvelopeTests": [
+    {
+      "root": 1,
+      "role": "floor",
+      "sourceCenterlineEndRadiusLocal": 1.76,
+      "descentStartRadiusLocal": 1.32,
+      "fullDescentRadiusLocal": 1.584,
+      "terminalVertexSamples": 181,
+      "supportSamples": 181,
+      "unsupportedTerminalSamples": 0,
+      "minimumActualSupportWorldY": -0.06360030174255371,
+      "minimumSupportMinus45mmWorldY": -0.10860030174255371,
+      "downwardTranslationLocal": 0.17677690738370652,
+      "minimumTerminalBurialBelowActualSupportMeters": 0.044999999999999964,
+      "terminalWorldBounds": [
+        [
+          8.563299699383133,
+          -0.3483776413854211,
+          5.8764880501608525
+        ],
+        [
+          8.935287610815381,
+          -0.04786960601806637,
+          6.281423401081916
+        ]
+      ]
+    },
+    {
+      "root": 2,
+      "role": "floor",
+      "sourceCenterlineEndRadiusLocal": 1.6,
+      "descentStartRadiusLocal": 1.2000000000000002,
+      "fullDescentRadiusLocal": 1.4400000000000002,
+      "terminalVertexSamples": 143,
+      "supportSamples": 143,
+      "unsupportedTerminalSamples": 0,
+      "minimumActualSupportWorldY": -0.06069493293762207,
+      "minimumSupportMinus45mmWorldY": -0.10569493293762207,
+      "downwardTranslationLocal": 0.30684318771941127,
+      "minimumTerminalBurialBelowActualSupportMeters": 0.04500000000000001,
+      "terminalWorldBounds": [
+        [
+          4.6977512106695105,
+          -0.5729097422033549,
+          4.587843991388146
+        ],
+        [
+          5.0662092965396806,
+          -0.1032094192504883,
+          5.034599535508997
+        ]
+      ]
+    },
+    {
+      "root": 3,
+      "role": "floor",
+      "sourceCenterlineEndRadiusLocal": 1.73,
+      "descentStartRadiusLocal": 1.2974999999999999,
+      "fullDescentRadiusLocal": 1.557,
+      "terminalVertexSamples": 52,
+      "supportSamples": 52,
+      "unsupportedTerminalSamples": 0,
+      "minimumActualSupportWorldY": -0.012250661849975586,
+      "minimumSupportMinus45mmWorldY": -0.057250661849975584,
+      "downwardTranslationLocal": 0.19443526142766712,
+      "minimumTerminalBurialBelowActualSupportMeters": 0.04500000000000006,
+      "terminalWorldBounds": [
+        [
+          5.392148390014562,
+          -0.37128758312836296,
+          1.3957875284461392
+        ],
+        [
+          5.682164576733652,
+          -0.05521146774291998,
+          1.6326099239678067
+        ]
+      ]
+    },
+    {
+      "root": 4,
+      "role": "parapet",
+      "sourceCenterlineEndRadiusLocal": 1.75,
+      "descentStartRadiusLocal": 1.3125,
+      "fullDescentRadiusLocal": 1.575,
+      "terminalVertexSamples": 170,
+      "supportSamples": 170,
+      "unsupportedTerminalSamples": 0,
+      "minimumActualSupportWorldY": -0.0635995864868164,
+      "minimumSupportMinus45mmWorldY": -0.1085995864868164,
+      "downwardTranslationLocal": 0.16901094724196639,
+      "minimumTerminalBurialBelowActualSupportMeters": 0.045,
+      "terminalWorldBounds": [
+        [
+          8.224998940450547,
+          -0.3336569723107826,
+          1.6885285317210257
+        ],
+        [
+          8.499546980928038,
+          -0.08851220157498524,
+          1.9625913602682816
+        ]
+      ]
+    }
+  ],
+  "nativeNavRecheckRequired": true,
+  "visualAcceptance": "Source previews directly reviewed; READY_FOR_NATIVE_CANDIDATE. Native visual/nav acceptance pending; see SELF_REVIEW.md."
+}

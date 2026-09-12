@@ -1,0 +1,62 @@
+{
+  "note": "Art-directed root-corridor centerline hints near start of burial; transform through existing tree GameObject including local yaw. Not automatic terrain anchors or proven paving-gap alignment.",
+  "coordinateBasis": "Native Unity local, already (-x,z,-y)",
+  "roots": [
+    {
+      "root": 1,
+      "localContactHint": [
+        0.9854220663742893,
+        0,
+        0.5928265775946837
+      ],
+      "localDirection": [
+        0.8568887533689473,
+        0,
+        0.5155013718214642
+      ],
+      "angularWidthRadians": 0.35
+    },
+    {
+      "root": 2,
+      "localContactHint": [
+        -0.714851463511264,
+        0,
+        0.9008259460716058
+      ],
+      "localDirection": [
+        -0.6216099682706644,
+        0,
+        0.7833269096274834
+      ],
+      "angularWidthRadians": 0.3
+    },
+    {
+      "root": 3,
+      "localContactHint": [
+        -1.0355141677055784,
+        0,
+        -0.5002103642279148
+      ],
+      "localDirection": [
+        -0.9004471023526769,
+        0,
+        -0.43496553411123023
+      ],
+      "angularWidthRadians": 0.32
+    },
+    {
+      "root": 4,
+      "localContactHint": [
+        0.6294613153023115,
+        0,
+        -0.9624336094182723
+      ],
+      "localDirection": [
+        0.547357665480271,
+        0,
+        -0.8368987907984977
+      ],
+      "angularWidthRadians": 0.4
+    }
+  ]
+}

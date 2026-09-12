@@ -1,0 +1,134 @@
+{
+  "passed": true,
+  "measuredForkRadii": [
+    {
+      "region": "lower_left",
+      "sampledTriangleCorners": 24538,
+      "medianPerpendicularRadiusRatio": 0.8199999181526656,
+      "medianReductionPercent": 18.00000818473344,
+      "ratio10to90Percentile": [
+        0.7828256695475044,
+        0.8200322527474421
+      ]
+    },
+    {
+      "region": "lower_right",
+      "sampledTriangleCorners": 14097,
+      "medianPerpendicularRadiusRatio": 0.8199999775530119,
+      "medianReductionPercent": 18.00000224469881,
+      "ratio10to90Percentile": [
+        0.8128225447177418,
+        0.8200002464144512
+      ]
+    },
+    {
+      "region": "upper_right",
+      "sampledTriangleCorners": 22251,
+      "medianPerpendicularRadiusRatio": 0.8167631252621146,
+      "medianReductionPercent": 18.323687473788542,
+      "ratio10to90Percentile": [
+        0.7606710364395589,
+        0.8202152048922002
+      ]
+    },
+    {
+      "region": "upper_left",
+      "sampledTriangleCorners": 19914,
+      "medianPerpendicularRadiusRatio": 0.8160356475032783,
+      "medianReductionPercent": 18.396435249672173,
+      "ratio10to90Percentile": [
+        0.7547856524307021,
+        0.8659064582792967
+      ]
+    }
+  ],
+  "sourceTriangleUVExact": true,
+  "visibleFaceOrientationMinimum": -0.9945521715663059,
+  "visibleFacesRotatedOver90Degrees": 46,
+  "vertices": 136093,
+  "triangles": 157999,
+  "minimumArea": 2.9745413716197407e-07,
+  "minimumFaceMeanNormalAlignment": 6.01432626441626e-05,
+  "strictNonpositiveDots": 0,
+  "unityThresholdOutliers": 0,
+  "maximumNormalLengthError": 2.0547543799764867e-07,
+  "nativeBounds": [
+    [
+      -3.120192050933838,
+      -0.8775767683982849,
+      -1.3115289211273193
+    ],
+    [
+      3.1798081398010254,
+      6.340000152587891,
+      1.3115289211273193
+    ]
+  ],
+  "uvBounds": [
+    [
+      1.5999999959603883e-05,
+      5.812279414385557e-05
+    ],
+    [
+      0.9999843239784241,
+      0.9999693632125854
+    ]
+  ],
+  "whiteVertexColors": true,
+  "preservedV11Files": {
+    "build-derivative.log": true,
+    "BUILDER.md": true,
+    "build_tree_v11.py": true,
+    "creation-started.json": true,
+    "download-manifest.json": true,
+    "inspect_tree_v11.py": true,
+    "meshy_asset.py": true,
+    "original-inspection.json": true,
+    "preview-back.png": true,
+    "preview-front.png": true,
+    "preview-left.png": true,
+    "preview-right.png": true,
+    "PROMPT.md": true,
+    "protected-input-hashes.json": true,
+    "reference-tree.png": true,
+    "request-metadata.json": true,
+    "SELF_REVIEW.md": true,
+    "task-created.json": true,
+    "task-status.json": true,
+    "texture-0-base_color.png": true,
+    "texture-0-metallic.png": true,
+    "texture-0-normal.png": true,
+    "texture-0-roughness.png": true,
+    "tree-v11-original.glb": true,
+    "validate_tree_v11.py": true,
+    "derivative/art-directed-back.png": true,
+    "derivative/art-directed-front.png": true,
+    "derivative/art-directed-isometric.png": true,
+    "derivative/art-directed-left.png": true,
+    "derivative/art-directed-right.png": true,
+    "derivative/build-report.json": true,
+    "derivative/export-qa.json": true,
+    "derivative/final-manifest.json": true,
+    "derivative/original-back.png": true,
+    "derivative/original-front.png": true,
+    "derivative/original-isometric.png": true,
+    "derivative/original-left.png": true,
+    "derivative/original-right.png": true,
+    "derivative/reduced-base-back.png": true,
+    "derivative/reduced-base-front.png": true,
+    "derivative/reduced-base-isometric.png": true,
+    "derivative/reduced-base-left.png": true,
+    "derivative/reduced-base-right.png": true,
+    "derivative/tree-v11-art-directed-mesh.json": true,
+    "derivative/tree-v11-art-directed.blend": true,
+    "derivative/tree-v11-art-directed.blend1": true,
+    "derivative/tree-v11-base-mesh.json": true,
+    "derivative/tree-v11-reduced-base.blend": true,
+    "derivative/tree-v11-reduced-base.blend1": true
+  },
+  "sha256": {
+    "tree-v12-mesh.json": "90eaf9987eb60936375c6c71a15489963d992128dbb98911724c27dc3c318fdf",
+    "tree-v12.blend": "ac2ac04252f1ceeec802507e129219f0e7d583cafbf04d7e33bb82837b129365",
+    "build_tree_v12.py": "3152db6929aac11712d5c948cdc591747f07aedfbe5c9465c2b3adea3a740ccb"
+  }
+}

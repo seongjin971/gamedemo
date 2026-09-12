@@ -1,0 +1,30 @@
+{
+  "name": "CW_AbbeyRubbleMound3m",
+  "triangles": 19356,
+  "zero_area_triangles": 0,
+  "bounds_source_xyz": [
+    [
+      -1.5,
+      -0.9762959480285645,
+      0.0
+    ],
+    [
+      1.5,
+      0.9762959480285645,
+      0.7297679781913757
+    ]
+  ],
+  "bounds_unity_width_height_depth": [
+    3.0,
+    0.7297679781913757,
+    1.952591896057129
+  ],
+  "materials": [
+    "ChapelRubbleStone",
+    "ChapelMoss"
+  ],
+  "uv": "UV0 0..1 per chunk. ChapelRubbleStone: parent atlas stone quadrant ST OR full LimestoneSurface. ChapelMoss: parent supplied moss material; UV0 0..1.",
+  "pivot": "ground center; Blender X width Y depth Z up in metres. FBX root -90 degrees X; preserve root in wrapper.",
+  "construction": "124 distinct angular fragments in a shallow scattered mound. No smooth balls, regular brick grid, or all-green rock surfaces.",
+  "physics": "Decorative only. Parent owns walking collision and keeps path clear."
+}

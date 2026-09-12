@@ -1,0 +1,105 @@
+{
+  "passed": true,
+  "models": {
+    "CW_AbbeyRubbleMound3m": {
+      "passed": true,
+      "triangles": 19356,
+      "zero_area_triangles": 0,
+      "explicit_triangles": true,
+      "bounds_source_xyz": [
+        [
+          -1.5,
+          -0.9762959480285645,
+          1.211480196161574e-07
+        ],
+        [
+          1.5,
+          0.9762960076332092,
+          0.7297680377960205
+        ]
+      ],
+      "reimport_bounds_error": 1.211480196161574e-07,
+      "uv_bounds_per_material": {
+        "ChapelRubbleStone": [
+          0.0020901253446936607,
+          0.9978837966918945,
+          0.001955407904461026,
+          0.9979711771011353
+        ],
+        "ChapelMoss": [
+          0.0005804706597700715,
+          0.9984977841377258,
+          0.0005805115797556937,
+          0.9994194507598877
+        ]
+      },
+      "fbx_root_rotations": [
+        [
+          -90.00000933466734,
+          0.0,
+          0.0
+        ]
+      ],
+      "material_statistics": {
+        "ChapelRubbleStone": {
+          "triangles": 13938,
+          "surface_area_m2": 49.845107114875724
+        },
+        "ChapelMoss": {
+          "triangles": 5418,
+          "surface_area_m2": 2.0353781839094154
+        }
+      }
+    },
+    "CW_AbbeyRubbleStrip6m": {
+      "passed": true,
+      "triangles": 21115,
+      "zero_area_triangles": 0,
+      "explicit_triangles": true,
+      "bounds_source_xyz": [
+        [
+          -3.0,
+          -0.7120872735977173,
+          5.940207969956646e-08
+        ],
+        [
+          3.0,
+          0.7120872735977173,
+          0.5499999523162842
+        ]
+      ],
+      "reimport_bounds_error": 5.960464477539063e-08,
+      "uv_bounds_per_material": {
+        "ChapelRubbleStone.001": [
+          0.0020220347214490175,
+          0.9979382753372192,
+          0.001984386006370187,
+          0.9978723526000977
+        ],
+        "ChapelMoss.001": [
+          0.0006242523668333888,
+          0.9986110925674438,
+          0.0006242655799724162,
+          0.9993757009506226
+        ]
+      },
+      "fbx_root_rotations": [
+        [
+          -90.00000933466734,
+          0.0,
+          0.0
+        ]
+      ],
+      "material_statistics": {
+        "ChapelRubbleStone.001": {
+          "triangles": 15175,
+          "surface_area_m2": 46.662347687622855
+        },
+        "ChapelMoss.001": {
+          "triangles": 5940,
+          "surface_area_m2": 1.910866916462055
+        }
+      }
+    }
+  }
+}
