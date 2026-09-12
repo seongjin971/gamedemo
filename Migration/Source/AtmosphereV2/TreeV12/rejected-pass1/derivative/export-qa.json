@@ -1,0 +1,89 @@
+{
+  "passed": true,
+  "vertices": 137115,
+  "triangles": 157999,
+  "minimumArea": 2.339926154413209e-07,
+  "minimumFaceMeanNormalAlignment": 5.543156848569216e-06,
+  "strictNonpositiveDots": 0,
+  "unityThresholdOutliers": 0,
+  "maximumNormalLengthError": 2.3714472163760547e-07,
+  "nativeBounds": [
+    [
+      -3.120192050933838,
+      -0.7005187273025513,
+      -1.3115289211273193
+    ],
+    [
+      3.1798081398010254,
+      6.340000152587891,
+      1.3115289211273193
+    ]
+  ],
+  "uvBounds": [
+    [
+      1.5999999959603883e-05,
+      5.812279414385557e-05
+    ],
+    [
+      0.9999843239784241,
+      0.9999693632125854
+    ]
+  ],
+  "whiteVertexColors": true,
+  "preservedV11Files": {
+    "build-derivative.log": true,
+    "BUILDER.md": true,
+    "build_tree_v11.py": true,
+    "creation-started.json": true,
+    "download-manifest.json": true,
+    "inspect_tree_v11.py": true,
+    "meshy_asset.py": true,
+    "original-inspection.json": true,
+    "preview-back.png": true,
+    "preview-front.png": true,
+    "preview-left.png": true,
+    "preview-right.png": true,
+    "PROMPT.md": true,
+    "protected-input-hashes.json": true,
+    "reference-tree.png": true,
+    "request-metadata.json": true,
+    "SELF_REVIEW.md": true,
+    "task-created.json": true,
+    "task-status.json": true,
+    "texture-0-base_color.png": true,
+    "texture-0-metallic.png": true,
+    "texture-0-normal.png": true,
+    "texture-0-roughness.png": true,
+    "tree-v11-original.glb": true,
+    "validate_tree_v11.py": true,
+    "derivative\\art-directed-back.png": true,
+    "derivative\\art-directed-front.png": true,
+    "derivative\\art-directed-isometric.png": true,
+    "derivative\\art-directed-left.png": true,
+    "derivative\\art-directed-right.png": true,
+    "derivative\\build-report.json": true,
+    "derivative\\export-qa.json": true,
+    "derivative\\final-manifest.json": true,
+    "derivative\\original-back.png": true,
+    "derivative\\original-front.png": true,
+    "derivative\\original-isometric.png": true,
+    "derivative\\original-left.png": true,
+    "derivative\\original-right.png": true,
+    "derivative\\reduced-base-back.png": true,
+    "derivative\\reduced-base-front.png": true,
+    "derivative\\reduced-base-isometric.png": true,
+    "derivative\\reduced-base-left.png": true,
+    "derivative\\reduced-base-right.png": true,
+    "derivative\\tree-v11-art-directed-mesh.json": true,
+    "derivative\\tree-v11-art-directed.blend": true,
+    "derivative\\tree-v11-art-directed.blend1": true,
+    "derivative\\tree-v11-base-mesh.json": true,
+    "derivative\\tree-v11-reduced-base.blend": true,
+    "derivative\\tree-v11-reduced-base.blend1": true
+  },
+  "sha256": {
+    "tree-v12-mesh.json": "a0623ec547f53865e3220d192f03310aa9e06147f15e199eefe0e1374792709c",
+    "tree-v12.blend": "471dbb81ffe7cee814cf8496d856e49c962b0fb6fa7ba66351a9274751237413",
+    "build_tree_v12.py": "68d5e63cadff692ff925f43e22f16c60a22b0e79aab782c4430d7c276aad1df4"
+  }
+}

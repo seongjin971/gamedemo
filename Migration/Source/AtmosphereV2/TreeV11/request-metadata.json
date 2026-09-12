@@ -1,0 +1,21 @@
+{
+  "parameters": {
+    "model_type": "standard",
+    "ai_model": "meshy-7",
+    "ultra_mode": true,
+    "should_texture": true,
+    "enable_pbr": true,
+    "texture_resolution": "4k",
+    "should_remesh": false,
+    "image_enhancement": false,
+    "target_formats": [
+      "glb"
+    ],
+    "multi_view_thumbnails": true
+  },
+  "image": "reference-tree.png",
+  "image_sha256": "4edd6564f599e2c2ca3b8284423e8a644b36cb8e470e4c7723b900cd36c94b9b",
+  "expected_credits": 35,
+  "api_docs": "https://docs.meshy.ai/en/api/image-to-3d",
+  "pricing_docs": "https://docs.meshy.ai/en/api/pricing"
+}

@@ -1,0 +1,51 @@
+{
+  "task_id": "01a081af-3cd5-7223-a3cf-715978cae838",
+  "source": "Meshy generated from local imagegen reference",
+  "files": [
+    {
+      "file": "tree-v11-original.glb",
+      "bytes": 122475180,
+      "sha256": "48dd5e75d9c022dd77edeefc776f3ac1f209417812048914a8895ec781e0db79"
+    },
+    {
+      "file": "preview-back.png",
+      "bytes": 162061,
+      "sha256": "d8f193b301808d5acbb622577eff73fe3201ac25e5b60116c5d5e299e647880a"
+    },
+    {
+      "file": "preview-front.png",
+      "bytes": 167279,
+      "sha256": "a13425c903dd7e78dc7bdefe470f11da82b93bcad31266dd78fe8ba006f980d3"
+    },
+    {
+      "file": "preview-left.png",
+      "bytes": 102155,
+      "sha256": "cb33f3cf23e9d84b763d6d2936d3673e0c007e0c2ab7c96454ed5d5ecc6d25d4"
+    },
+    {
+      "file": "preview-right.png",
+      "bytes": 97182,
+      "sha256": "7bec6e0208661a0389c3be5548ac4a8f5c92ba8eb31dcb299a0c5a89e4bb265a"
+    },
+    {
+      "file": "texture-0-base_color.png",
+      "bytes": 29806157,
+      "sha256": "016209f75bfab4499543ece59dda9117a890e7b66c5f0d9753b27fc9c22f2fc6"
+    },
+    {
+      "file": "texture-0-metallic.png",
+      "bytes": 592671,
+      "sha256": "89ce0ff577427ffadac0adba507729a8f32e8a8986fff37a66b49d615d72a8c8"
+    },
+    {
+      "file": "texture-0-roughness.png",
+      "bytes": 1736533,
+      "sha256": "f87493d3ded80a90158718d88a01fc1f6d382b33059cc547eda4fee755bd8183"
+    },
+    {
+      "file": "texture-0-normal.png",
+      "bytes": 27775722,
+      "sha256": "0a65fd07dbd85f2c618d3d68ba79108d871bf0abf50a0aab73627bbc9fbd7b4b"
+    }
+  ]
+}

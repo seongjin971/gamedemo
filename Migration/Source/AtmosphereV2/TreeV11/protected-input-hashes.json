@@ -1,0 +1,19 @@
+{
+  "creation-started.json": "7ed6a636d1ea2828ab7d8254cb9c548114ce90dfe1a4d703c7e6e3e5f6e05127",
+  "download-manifest.json": "0bd03dc8351bce5a627fbd3d0fdb6e49a77dc8c04499f7ee6810805e76c2b305",
+  "meshy_asset.py": "b4a6c1776fc5b32493346a3976930d46e59346361ea2230b22565056dfeb9190",
+  "preview-back.png": "d8f193b301808d5acbb622577eff73fe3201ac25e5b60116c5d5e299e647880a",
+  "preview-front.png": "a13425c903dd7e78dc7bdefe470f11da82b93bcad31266dd78fe8ba006f980d3",
+  "preview-left.png": "cb33f3cf23e9d84b763d6d2936d3673e0c007e0c2ab7c96454ed5d5ecc6d25d4",
+  "preview-right.png": "7bec6e0208661a0389c3be5548ac4a8f5c92ba8eb31dcb299a0c5a89e4bb265a",
+  "PROMPT.md": "2afffeafdad5f205b21dec21628bff1fdb8d6e544413fe9cf5f85e66aa1fcd68",
+  "reference-tree.png": "4edd6564f599e2c2ca3b8284423e8a644b36cb8e470e4c7723b900cd36c94b9b",
+  "request-metadata.json": "e25cd768d93ce5f3e8c3ac3f3f89b916ba2b55545137bd0ecec15850d1e8bdc4",
+  "task-created.json": "808051a4211da89398297799526bbc23327db810d12d3ece676c78ebe7b831ab",
+  "task-status.json": "d616367d990b0768c8d0f8e679e3c6e2df4b584d7b776dfe7c54ff4adf2ddb2d",
+  "texture-0-base_color.png": "016209f75bfab4499543ece59dda9117a890e7b66c5f0d9753b27fc9c22f2fc6",
+  "texture-0-metallic.png": "89ce0ff577427ffadac0adba507729a8f32e8a8986fff37a66b49d615d72a8c8",
+  "texture-0-normal.png": "0a65fd07dbd85f2c618d3d68ba79108d871bf0abf50a0aab73627bbc9fbd7b4b",
+  "texture-0-roughness.png": "f87493d3ded80a90158718d88a01fc1f6d382b33059cc547eda4fee755bd8183",
+  "tree-v11-original.glb": "48dd5e75d9c022dd77edeefc776f3ac1f209417812048914a8895ec781e0db79"
+}

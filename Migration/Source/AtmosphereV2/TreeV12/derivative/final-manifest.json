@@ -1,0 +1,86 @@
+{
+  "BUILDER.md": {
+    "bytes": 4814,
+    "sha256": "f8c3ded75b9f6f7256cdeb6be9641c3595cb7b2516e0b9e726e9fa614148c144"
+  },
+  "build_tree_v12.py": {
+    "bytes": 11413,
+    "sha256": "fd4e31a8c1e9465c603a5178995d0f8099834f4a796c2afc0e443b9007d8666f"
+  },
+  "measure_root_footprint.py": {
+    "bytes": 2766,
+    "sha256": "6b18a709302d6e5441ca6ee28530b3533d9fa08487ec6d3e04689eae6b7b99d5"
+  },
+  "protected-v11-hashes.json": {
+    "bytes": 4937,
+    "sha256": "c6c0e74e361acef80d9541eed5ff182d8cb8cf00675b4e4c39467a5cbc28ea09"
+  },
+  "render_final_tree_v12.py": {
+    "bytes": 1220,
+    "sha256": "30cce0137342455bad9946eff47525ff395a87d0f79935379b0476ce6fe9ca62"
+  },
+  "root-contact-hints.json": {
+    "bytes": 1424,
+    "sha256": "89cc636618d1fb0bbf9dc8026df0d5280cbb9187eee105f70258a0528b426573"
+  },
+  "SELF_REVIEW.md": {
+    "bytes": 4297,
+    "sha256": "7b4f7979da5424c8d98a89dcbdfa45e571c4ada173b29576840f9ac18c2c8c3a"
+  },
+  "validate_tree_v12.py": {
+    "bytes": 3837,
+    "sha256": "505a39f4fbae81b01052f046c0a56573ef4a28b38f006668c6095e43a81c2f5a"
+  },
+  "derivative/after-arc-left.png": {
+    "bytes": 1520486,
+    "sha256": "8165e4c580c74663619c9c038f15671f6b99749df38486a6d64ac57d1f66c9b0"
+  },
+  "derivative/after-arc-right.png": {
+    "bytes": 1494274,
+    "sha256": "30ff5dfaf8fc71ccb3e913d1b5029a98283a2337a55d54551d8a560ae1694156"
+  },
+  "derivative/after-front.png": {
+    "bytes": 1487969,
+    "sha256": "c6129b0c4db3f4f99e934f8db4f0136235c6b924456bbc250682ea037d74b70f"
+  },
+  "derivative/after-roots.png": {
+    "bytes": 1996046,
+    "sha256": "427b0264972f5a0678857221c0df7410ecf4c4e2db28aa28626e6d6214a94c59"
+  },
+  "derivative/before-arc-left.png": {
+    "bytes": 1509650,
+    "sha256": "2350cf981299bc55873171139cd1ff98d5fd0accb273fc51d3bb6603b06919b0"
+  },
+  "derivative/before-arc-right.png": {
+    "bytes": 1485491,
+    "sha256": "c3bfb083f1877bf43ea2ea65bdc2622a15f49f5523cd38fcc977767b77f32214"
+  },
+  "derivative/before-front.png": {
+    "bytes": 1478498,
+    "sha256": "5c3986af4a16f867eef1cc5c231b9954191b32737ec71a00edd023befdb6b9b7"
+  },
+  "derivative/before-roots.png": {
+    "bytes": 1981172,
+    "sha256": "4a534db446f12d2f5a4890ccc6d3875df69591ae75510b1a68b54aedac3c549d"
+  },
+  "derivative/build-report.json": {
+    "bytes": 6817,
+    "sha256": "8fed35b1e8f129dc1f8c89949d80b525c6fa98a45a817f170e01b3b7b8009b07"
+  },
+  "derivative/export-qa.json": {
+    "bytes": 4389,
+    "sha256": "93d3e51a4224c5b7d72e7a4b68304250a2c72067ea8ab06a20e32cfb8a7a83be"
+  },
+  "derivative/root-footprint-and-contacts.json": {
+    "bytes": 11993,
+    "sha256": "098c3d2968a9246d0e5ec58c466141702ad26507871ae30720f403022e5c9d90"
+  },
+  "derivative/tree-v12-mesh.json": {
+    "bytes": 25290329,
+    "sha256": "9c9e1f1ee6e6ad97eee8172ce2caf9f500354810e82d792c85d0bfc66d655cc9"
+  },
+  "derivative/tree-v12.blend": {
+    "bytes": 41812666,
+    "sha256": "d1e7905e40b85fbb76115cd398536cc8a710c264a1e2efbf2900895414a35b39"
+  }
+}
