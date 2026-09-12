@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0a161b" />
+    <title>VESPER — The Last Sanctuary</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath fill='none' stroke='%23c7a56f' stroke-width='3' d='M32 4 56 32 32 60 8 32Z M32 16v32M20 32h24'/%3E%3C/svg%3E" />
+  </head>
+  <body>
+    <canvas id="scene" aria-label="Interactive sanctuary. Click the stone courtyard to walk, drag to orbit, scroll to zoom." tabindex="0"></canvas>
+    <div class="vignette"></div>
+    <header id="title"><div class="eyebrow"><span></span> A REALTIME FANTASY STUDY</div><h1>VESPER</h1><div class="subtitle">THE LAST SANCTUARY</div></header>
+    <aside class="top-right"><span class="live-dot"></span><span>LIVE WORLD</span><span class="separator">/</span><span id="fps">— FPS</span></aside>
+    <div id="loading"><div class="sigil">◇</div><p>Awakening the sanctuary</p><span>STONE · EMBER · MIST</span></div>
+    <div id="toast" role="status"></div>
+    <footer><div class="location"><span class="location-mark">◇</span><div><strong>THE SUNKEN CATHEDRAL</strong><span>Beyond the veil, a light remains.</span></div></div><div class="controls"><span><i>↖</i> Click to walk</span><span><i>↔</i> Drag to orbit</span><span><i>↕</i> Scroll to zoom</span></div><div class="actions"><button id="reset" title="Reset view (R)">↺<span>Reset view</span></button><button id="hide" title="Hide interface (H)">◫<span>Hide UI</span></button><button id="capture" title="Save screenshot and diagnostic evidence">↓<span>Capture</span></button></div></footer>
+    <div id="qa" hidden></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,5 @@
+@echo off
+setlocal
+set "VESPER_WEATHER_EXE=%~dp0Unity\Vesper\Builds\VesperWeatherWorld_W05\VesperLinear.exe"
+if not exist "%VESPER_WEATHER_EXE%" exit /b 1
+start "" "%VESPER_WEATHER_EXE%" -screen-width 1920 -screen-height 1080 -screen-fullscreen 1 -window-mode exclusive -force-d3d12
