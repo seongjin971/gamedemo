@@ -1,0 +1,30 @@
+{
+  "name": "CW_CardedAlpineFir_LOD1",
+  "height": 9,
+  "max_width": 5,
+  "branch_count": 92,
+  "card_count": 109,
+  "triangles": {
+    "CW_CardedAlpineFir_LOD1_Wood": 1964,
+    "CW_CardedAlpineFir_LOD1_Needles": 4312
+  },
+  "origin": "ground center",
+  "source_axes": "Z-up",
+  "fbx_axes": "Y-up/-Z-forward",
+  "materials": {
+    "CW_FirNeedles": {
+      "texture": "Unity\\Vesper\\Assets\\Vesper\\Expansion\\ContinuousWorld\\Art\\Textures\\FirBranches.png",
+      "uv": "already selects four atlas quadrants; do not remap",
+      "alpha_cutoff": 0.35,
+      "cull": "Off",
+      "rendering": "opaque alpha clip, not blended transparency"
+    },
+    "CW_FirBark": {
+      "texture": "Unity\\Vesper\\Assets\\Vesper\\Expansion\\ContinuousWorld\\Art\\Textures\\WorldSurfaceAtlas.png",
+      "uv": "already selects bottom-left bark quadrant; do not remap"
+    }
+  },
+  "texture_sha256": "8f95ebbd5aacadbb3108679b6783ea6824b3cbe1ec162267c03c95b818ae2814",
+  "lod": 1,
+  "snow": "no synthetic snow plates; parent may add location-based frost material after visual review"
+}

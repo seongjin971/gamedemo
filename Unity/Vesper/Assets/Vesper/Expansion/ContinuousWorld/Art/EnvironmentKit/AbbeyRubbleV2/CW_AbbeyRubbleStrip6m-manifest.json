@@ -1,0 +1,30 @@
+{
+  "name": "CW_AbbeyRubbleStrip6m",
+  "triangles": 21115,
+  "zero_area_triangles": 0,
+  "bounds_source_xyz": [
+    [
+      -3.0,
+      -0.7120872735977173,
+      0.0
+    ],
+    [
+      3.0,
+      0.7120872735977173,
+      0.550000011920929
+    ]
+  ],
+  "bounds_unity_width_height_depth": [
+    6.0,
+    0.550000011920929,
+    1.4241745471954346
+  ],
+  "materials": [
+    "ChapelRubbleStone",
+    "ChapelMoss"
+  ],
+  "uv": "UV0 0..1 per chunk. ChapelRubbleStone: parent atlas stone quadrant ST OR full LimestoneSurface. ChapelMoss: parent supplied moss material; UV0 0..1.",
+  "pivot": "ground center; Blender X width Y depth Z up in metres. FBX root -90 degrees X; preserve root in wrapper.",
+  "construction": "136 distinct plane-clipped angular limestone chunks with chamfered fracture arrises, irregular low overlapping pockets and smaller peripheral chips; small moss cushions hug selected upward facets, leaving most broken stone exposed.",
+  "physics": "Decorative only. Parent owns walking collision and keeps path clear."
+}

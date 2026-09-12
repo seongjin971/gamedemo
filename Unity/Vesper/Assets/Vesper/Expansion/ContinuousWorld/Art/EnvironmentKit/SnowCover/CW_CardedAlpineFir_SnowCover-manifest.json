@@ -1,0 +1,36 @@
+{
+  "name": "CW_CardedAlpineFir_SnowCover",
+  "paired_model": "CW_CardedAlpineFir",
+  "paired_fbx": "Unity\\Vesper\\Assets\\Vesper\\Expansion\\ContinuousWorld\\Art\\EnvironmentKit\\FoliageFir\\CW_CardedAlpineFir.fbx",
+  "paired_fbx_sha256": "6e6e2beb8f723858264f49905535a6fa44a179d3d61dc0d2f004c76cea797213",
+  "source_rock_bounds": [
+    [
+      -2.5,
+      -2.379147529602051,
+      -0.007079622242599726
+    ],
+    [
+      2.365339756011963,
+      2.383755922317505,
+      9.0
+    ]
+  ],
+  "cap_bounds": [
+    [
+      -1.8282617330551147,
+      -1.7122973203659058,
+      0.8710519671440125
+    ],
+    [
+      1.9759639501571655,
+      2.013533115386963,
+      7.79323148727417
+    ]
+  ],
+  "triangles": 10134,
+  "snow_branch_groups": 33,
+  "material": "CW_SettledSnow",
+  "uv": "0..1; parent material ST selects WSA bottom-right snow",
+  "placement": "Identical wrapper transform and original pivot as paired fir, preserving -90 X root. These are sparse pockets, not full-branch blankets.",
+  "lod1_triangles": 4991
+}

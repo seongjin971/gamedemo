@@ -1,0 +1,129 @@
+{
+  "name": "CW_ChapelBrokenWall6m",
+  "triangles": 4357,
+  "zero_area_triangles": 0,
+  "bounds_source_xyz": [
+    [
+      -3.0,
+      -0.6499999761581421,
+      0.0
+    ],
+    [
+      3.0,
+      0.6460065841674805,
+      2.799084424972534
+    ]
+  ],
+  "materials": [
+    "CW_ChapelStone",
+    "CW_ChapelStoneLight",
+    "CW_ChapelMortar",
+    "CW_WetMoss"
+  ],
+  "uv": "0..1 individual stone UV0; parent WSA stone-quadrant ST. CW_WetMoss uses moss/soil quadrant via parent existing Moss slot.",
+  "pivot": "ground center; preserve original -90X FBX root via wrapper transform",
+  "source_axes": "X width, Y wall thickness, Z height, metres",
+  "wall_body_width": 6,
+  "wall_body_thickness": 0.6,
+  "height_range": [
+    0.6,
+    2.8
+  ],
+  "broken_profile_xz": [
+    [
+      -3,
+      2.8
+    ],
+    [
+      -2.69,
+      2.76
+    ],
+    [
+      -2.53,
+      2.36
+    ],
+    [
+      -2.14,
+      2.29
+    ],
+    [
+      -1.98,
+      2.48
+    ],
+    [
+      -1.58,
+      1.99
+    ],
+    [
+      -1.23,
+      1.83
+    ],
+    [
+      -0.96,
+      1.94
+    ],
+    [
+      -0.77,
+      1.32
+    ],
+    [
+      -0.35,
+      1.36
+    ],
+    [
+      0,
+      0.78
+    ],
+    [
+      0.48,
+      0.75
+    ],
+    [
+      0.68,
+      0.99
+    ],
+    [
+      1.14,
+      1.09
+    ],
+    [
+      1.45,
+      1.27
+    ],
+    [
+      1.78,
+      0.91
+    ],
+    [
+      2.02,
+      0.88
+    ],
+    [
+      2.29,
+      0.72
+    ],
+    [
+      2.54,
+      0.84
+    ],
+    [
+      2.75,
+      0.61
+    ],
+    [
+      3,
+      0.3
+    ],
+    [
+      2.86,
+      0
+    ],
+    [
+      -3,
+      0
+    ]
+  ],
+  "rubble_toe_depth_max": 1.3,
+  "opening": "no complete window arch; low wall with true broken silhouette and surviving sill/jamb fragments",
+  "placement_note": "Tall left end descends toward right; rotate/mirror placement if needed. Keep central walking gap between separate instances."
+}

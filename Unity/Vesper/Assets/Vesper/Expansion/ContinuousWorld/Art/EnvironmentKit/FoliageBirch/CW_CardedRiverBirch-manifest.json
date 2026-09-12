@@ -1,0 +1,40 @@
+{
+  "name": "CW_CardedRiverBirch",
+  "height": 7.2,
+  "max_width": 4.8,
+  "branch_count": 31,
+  "card_count": 192,
+  "triangles": {
+    "CW_CardedRiverBirch_WhiteBark": 976,
+    "CW_CardedRiverBirch_FineTwigs": 2604,
+    "CW_CardedRiverBirch_Leaves": 6144
+  },
+  "source_axes": "Z-up",
+  "fbx_axes": "Y-up/-Z-forward; preserve root X=-90 degrees",
+  "pivot": "ground center",
+  "lod": 0,
+  "materials": {
+    "CW_BirchLeaves": {
+      "texture": "Unity\\Vesper\\Assets\\Vesper\\Expansion\\ContinuousWorld\\Art\\Textures\\BirchBranches.png",
+      "uv": "already addresses four quadrants; no ST remap",
+      "alpha_cutoff": 0.4,
+      "cull": "Off"
+    },
+    "CW_WhiteBirchBark": {
+      "texture": "Unity\\Vesper\\Assets\\Vesper\\Expansion\\ContinuousWorld\\Art\\EnvironmentKit\\FoliageBirch\\BirchBark.png",
+      "uv": "0..1 full dedicated birch bark texture; no ST remap"
+    },
+    "CW_BirchTwigs": {
+      "color": [
+        0.16,
+        0.13,
+        0.1
+      ],
+      "roughness": 0.97
+    }
+  },
+  "branch_atlas_sha256": "5e82098a6c3e21c1f7ff9ac192f56a7b965c9393ff6c0bbe85bbfb40e8f44ca9",
+  "bark_texture_sha256": "718afc1b58a91ffa0879264a422ccb1533676ad3bc3a2b083bcd3c549a9967bd",
+  "bark_source_job": "f37da558-07d4-4b9d-832c-94ab5c605428",
+  "bark_credits": 2
+}

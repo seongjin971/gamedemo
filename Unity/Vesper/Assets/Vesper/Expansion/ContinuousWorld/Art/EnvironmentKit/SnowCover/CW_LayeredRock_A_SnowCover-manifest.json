@@ -1,0 +1,40 @@
+{
+  "name": "CW_LayeredRock_A_SnowCover",
+  "paired_model": "CW_LayeredRock_A",
+  "paired_fbx": "Unity\\Vesper\\Assets\\Vesper\\Expansion\\ContinuousWorld\\Art\\EnvironmentKit\\CW_LayeredRock_A.fbx",
+  "paired_fbx_sha256": "b70256b9385ea4bc11d4b602444b6c0facbf5ce4afd836b2814f1f59465cd0c7",
+  "source_axes": "Z-up; same normalized source coordinates and pivot as paired model",
+  "fbx_axes": "Y-up/-Z-forward; root X=-90 degrees",
+  "placement": "Instantiate rock and cap under identical world wrapper transforms; preserve each imported FBX root conversion. Do not rotate twice by parenting cap beneath an already converted mesh node.",
+  "source_rock_bounds": [
+    [
+      -2.138852119445801,
+      -1.7843338251113892,
+      -0.07586415857076645
+    ],
+    [
+      2.0893843173980713,
+      1.6819888353347778,
+      2.608839273452759
+    ]
+  ],
+  "cap_bounds": [
+    [
+      -2.0261852741241455,
+      -1.7911466360092163,
+      1.418439507484436
+    ],
+    [
+      2.0778861045837402,
+      1.4725326299667358,
+      2.724468946456909
+    ]
+  ],
+  "selected_shelf_components": 1,
+  "triangles": 12530,
+  "zero_area_triangles": 0,
+  "material": "CW_SettledSnow",
+  "uv": "0..1 UV0; parent material ST selects WSA bottom-right snow quadrant",
+  "nominal_snow_depth": 0.12,
+  "lod1_triangles": 6264
+}

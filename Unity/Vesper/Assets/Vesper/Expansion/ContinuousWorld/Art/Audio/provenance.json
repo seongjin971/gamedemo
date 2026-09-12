@@ -1,0 +1,29 @@
+{
+  "River": {
+    "samples": 705600,
+    "seconds": 32,
+    "rate": 22050,
+    "peak": 0.65,
+    "rms": 0.12464673653309184,
+    "loopSampleDelta": -2040,
+    "source": "Authored periodic environmental synthesis"
+  },
+  "Rain": {
+    "samples": 705600,
+    "seconds": 32,
+    "rate": 22050,
+    "peak": 0.65,
+    "rms": 0.12246124722500296,
+    "loopSampleDelta": 3219,
+    "source": "Authored periodic environmental synthesis"
+  },
+  "PassWind": {
+    "samples": 705600,
+    "seconds": 32,
+    "rate": 22050,
+    "peak": 0.65,
+    "rms": 0.11522693076778276,
+    "loopSampleDelta": 42,
+    "source": "Authored periodic environmental synthesis"
+  }
+}
