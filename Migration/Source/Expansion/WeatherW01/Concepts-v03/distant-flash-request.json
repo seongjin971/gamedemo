@@ -1,0 +1,22 @@
+{
+  "params": {
+    "model": "gpt_image_2",
+    "aspect_ratio": "16:9",
+    "resolution": "2k",
+    "quality": "high",
+    "count": 1,
+    "use_unlim": false,
+    "medias": [
+      {
+        "role": "image",
+        "value": "6998a5c0-97cb-4776-81ed-646694198342"
+      },
+      {
+        "role": "image",
+        "value": "6f69ebb1-6cf9-490e-a1f8-07506295ca0d"
+      }
+    ],
+    "prompt": "Create ONE additional edited variation of reference image 1, the VESPER rainy ruined abbey. Preserve its exact high oblique top-down gameplay camera, image framing, modest ruined chapel on the left, sheltered tiny amber lamp, trees and rocks, straight continuous wet path, rain, and the same small adventurer at the same position and scale. The requested change is the FEELING OF DISTANT THUNDERSTORM LIGHT: a cloud flash occurs far away, hundreds of meters beyond the upper-right background and completely outside the visible frame. No electrical discharge itself can be seen. There must be absolutely NO visible lightning bolt, zigzag, branch, streak of electricity, beam, light shaft, laser, glowing object, point of impact, explosion, or sun. Capture a single fleeting moment when that distant flash lights the BACKGROUND RAIN AND MIST and faintly spills into the abbey surroundings. Establish convincing distance: softly brighten the far upper-right treetops and the rain haze behind them with a broad, low-intensity pale blue-gray glow; silhouetted distant foliage partially conceals the glow. Let only a restrained secondary shimmer reach the upper chapel edges and wet stones farther along the path. Keep the nearby path, lower frame, character and most of the chapel noticeably darker, at the ordinary rainy ambient exposure shown in reference image 2. The distant flash must not wash the entire foreground bright like the first reference, and must not resemble an on-site spotlight. Gentle continuous spatial falloff, natural layered atmospheric depth, cold transient bounced light with muted reflective highlights and preserved shadow detail. The whole scene should feel like hearing a low far-away rumble while the environment briefly responds to a remote flash; this is a still IMAGE and contains no sound or text. Keep the established base darkness rather than making a pitch-black night. Do not tilt the camera upward or invent a cinematic horizon to show the sky; express the offscreen storm with lighting and background atmosphere in the existing gameplay view. Preserve believable real-time stylized-realistic game materials, detailed wet earth and stones, legible straight route and small character silhouette. One full-frame landscape image, no collage, no captions, no interface, no border."
+  },
+  "scope": "Additional distant thunder flash image only; keep previous flash variant and all game artifacts."
+}

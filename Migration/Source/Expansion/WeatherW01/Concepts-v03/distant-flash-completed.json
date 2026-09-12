@@ -1,0 +1,20 @@
+{
+  "jobs": [
+    {
+      "index": 1,
+      "job_id": "286d540e-0c85-47ac-87e4-b6f65d02bcb4",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3HqrOQdfhs3psNu8LvY0hv7gvNL/hf_20260911_132557_286d540e-0c85-47ac-87e4-b6f65d02bcb4.png"
+    }
+  ],
+  "summary": {
+    "total": 1,
+    "completed": 1,
+    "failed": 0,
+    "active": 0,
+    "errors": 0
+  },
+  "all_terminal": true
+}

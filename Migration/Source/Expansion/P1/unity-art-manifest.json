@@ -1,0 +1,22 @@
+[
+  {
+    "file": "Adventurer.fbx",
+    "sha256": "eb6b99008472c335031d8808f5ed1d4ae8971dfbadc6b973047fa9eb496c3cd0",
+    "bytes": 2566108
+  },
+  {
+    "file": "Albedo.png",
+    "sha256": "d1e12c9c7645302eff1b002b1386c24041b684b62e60d52427143a02b5f14600",
+    "bytes": 5734430
+  },
+  {
+    "file": "MetallicSmoothness.png",
+    "sha256": "0da0098f34968462783f5ffdb247fb747507554497798a6e7da6ea4901236db8",
+    "bytes": 1476062
+  },
+  {
+    "file": "Normal.png",
+    "sha256": "65eb398717ed68f0d003bf86ae436f24851bdd9017969d13a64f7b33e1117318",
+    "bytes": 5357078
+  }
+]

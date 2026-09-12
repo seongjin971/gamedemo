@@ -1,0 +1,70 @@
+{
+  "requests": [
+    {
+      "index": 1,
+      "params": {
+        "model": "gpt_image_2",
+        "aspect_ratio": "16:9",
+        "resolution": "2k",
+        "quality": "high",
+        "count": 1,
+        "use_unlim": false,
+        "medias": [
+          {
+            "role": "image",
+            "value": "eb303da0-339c-42ba-bd85-8c7fa837bacf"
+          },
+          {
+            "role": "image",
+            "value": "6f69ebb1-6cf9-490e-a1f8-07506295ca0d"
+          }
+        ],
+        "prompt": "Create ONE standalone full-frame 16:9 game environment concept still for the existing VESPER Unity game. This is one image, NOT a collage, triptych, contact sheet, or split panel. Keep the high oblique top-down/isometric gameplay camera and the practical believable stylized-realistic 3D game rendering of the supplied screenshots. No cinematic horizon shot, no change to first-person, no large hero portrait. Keep the same single small dark-haired adventurer, muted teal shoulder cape, pale sleeves, dark trousers and boots, at the reference character scale near the center. Keep one continuous straight walkable path, clearly legible from the foreground through the background, with organic soft road edges and natural soil/stone transitions. Remove the UI labels and instruction text; no writing, titles, logos, borders or watermarks. Preserve grounded geometry and achievable real-time game detail. Scene 1: a NEW forest segment added before the existing rainy ruins. Reference image 1 gives the forest, path, character and camera language. Reference image 2 is the STRICT BASELINE for darkness and exposure. Match that existing rainy-abbey screenshot's base brightness; do not make this scene darker. This is the tense moment BEFORE rain begins: NO falling rain, no lightning, no rain splash rings, no puddle-covered road. Design a distinct wind-swept grove along the same straight route: clustered birches and dark oaks, a few wind-bent high branches and scattered airborne dry leaves, worn earthy track with sparse embedded weathered stones, mossy boulders and subdued undergrowth. The forest feels covered by heavy approaching storm clouds through broad soft cloud shadow and muted gray-green ambient light, with a thin low haze between the trunks. There is no need to expose a sky in this downward-facing camera. Preserve useful readable ground texture and the adventurer silhouette. A fresh believable adjacent section, consistent with the existing world, not merely a rain removal edit of the original frame. Show restrained environmental tension and depth without sunlight beams or pitch-black shadows."
+      }
+    },
+    {
+      "index": 2,
+      "params": {
+        "model": "gpt_image_2",
+        "aspect_ratio": "16:9",
+        "resolution": "2k",
+        "quality": "high",
+        "count": 1,
+        "use_unlim": false,
+        "medias": [
+          {
+            "role": "image",
+            "value": "6f69ebb1-6cf9-490e-a1f8-07506295ca0d"
+          }
+        ],
+        "prompt": "Create ONE standalone full-frame 16:9 game environment concept still for the existing VESPER Unity game. This is one image, NOT a collage, triptych, contact sheet, or split panel. Keep the high oblique top-down/isometric gameplay camera and the practical believable stylized-realistic 3D game rendering of the supplied screenshots. No cinematic horizon shot, no change to first-person, no large hero portrait. Keep the same single small dark-haired adventurer, muted teal shoulder cape, pale sleeves, dark trousers and boots, at the reference character scale near the center. Keep one continuous straight walkable path, clearly legible from the foreground through the background, with organic soft road edges and natural soil/stone transitions. Remove the UI labels and instruction text; no writing, titles, logos, borders or watermarks. Preserve grounded geometry and achievable real-time game detail. Scene 2: the EXISTING rainy abbey during a brief thunderstorm lightning flash. Preserve the reference layout closely: the modest roofless ruined stone chapel and small surviving timber canopy on the left, its tiny warm sheltered lamp, straight wet stone-and-earth road through the center, trees and rocks on the right, same small adventurer and camera. Keep the environment's BASE ambient brightness at the reference level. Show a single short cool-white lightning event: a slim branching lightning arc only partly visible near the distant upper edge above the trees, and a restrained directional flash lighting the upper chapel stones, wet road highlights, a few tree edges and the character's shoulders. The whole image must NOT become a daylight scene or a white flash. Retain detailed dark midtones across most of the frame, with concentrated luminous highlights that clearly communicate the moment of lightning. Visible wind-slanted fine rain streaks, small natural ground splashes, shallow wet reflections integrated with muddy seams. No flames, explosions, road impact crater, glowing magic, or huge new buildings. This is a visual thunder cue made from lightning and its physically coherent illumination."
+      }
+    },
+    {
+      "index": 3,
+      "params": {
+        "model": "gpt_image_2",
+        "aspect_ratio": "16:9",
+        "resolution": "2k",
+        "quality": "high",
+        "count": 1,
+        "use_unlim": false,
+        "medias": [
+          {
+            "role": "image",
+            "value": "f9fc3497-6be2-4117-8afb-9ff516e688cb"
+          },
+          {
+            "role": "image",
+            "value": "6f69ebb1-6cf9-490e-a1f8-07506295ca0d"
+          }
+        ],
+        "prompt": "Create ONE standalone full-frame 16:9 game environment concept still for the existing VESPER Unity game. This is one image, NOT a collage, triptych, contact sheet, or split panel. Keep the high oblique top-down/isometric gameplay camera and the practical believable stylized-realistic 3D game rendering of the supplied screenshots. No cinematic horizon shot, no change to first-person, no large hero portrait. Keep the same single small dark-haired adventurer, muted teal shoulder cape, pale sleeves, dark trousers and boots, at the reference character scale near the center. Keep one continuous straight walkable path, clearly legible from the foreground through the background, with organic soft road edges and natural soil/stone transitions. Remove the UI labels and instruction text; no writing, titles, logos, borders or watermarks. Preserve grounded geometry and achievable real-time game detail. Scene 3: convert the EXISTING snowy mountain pass into a dark, clouded NIGHT BLIZZARD. Reference image 1 is for EXACT snowy pass layout, snow-laden firs, layered rock outcrops, continuous uphill path, character and camera only; do NOT retain its bright daylight lighting. Reference image 2 is the STRICT brightness/exposure anchor: the new snow-night scene must remain approximately as readable and as dark as that existing rainy abbey, NOT darker. Replace sunny white snow with muted slate-blue and gray snow lit by soft cold cloud-filtered night ambient light, preserving readable midtones and the dark adventurer outline. Show a clearly strong side-blowing snowstorm with layered small diagonal snow streaks, a few larger soft nearby flakes, drifting ribbons of fine spindrift sliding close to the ground, and wind-tugged fir branches. A rolling gust crosses the rear of the path, while the foreground and center walking route stay clearly legible. The broad worn snow trail continues naturally through the frame with sparse dark stone and slush showing near the edges; no abruptly ending narrow paved strip. Maintain the original trees, rock massing and scale. No daylight sun, warm sunset, visible giant moon, aurora, lightning, rain or total whiteout. Atmosphere comes from cold hue, obscured distance and visibly driven snow rather than crushing the exposure."
+      }
+    }
+  ],
+  "baseline_credits": 2313,
+  "estimated_credits_each": 6.5,
+  "estimated_total": 19.5,
+  "scope": "Three separate concept images only; no Unity edits or imports."
+}

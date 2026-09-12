@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: StairsV11
+  m_Shader: {fileID: 4800000, guid: 43b06ade72e65784ba4e8091553b6844, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _PHOTOGRAPHIC_STONE
+  m_InvalidKeywords:
+  - _EMISSION
+  - _NORMALMAP
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 6bf78015eee399746be55fb69f620fa6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: d83e82aca93a9b546ac49088ff46f754, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMap:
+        m_Texture: {fileID: 2800000, guid: cc4436e4d7ea7da4cb71085dc2526b27, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormal:
+        m_Texture: {fileID: 2800000, guid: 025ee5e922d141540bc44f781ef94a05, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MicroNormal:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RoughnessMap:
+        m_Texture: {fileID: 2800000, guid: 1e4162ac231365e44aeef5857a6eae17, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneAO:
+        m_Texture: {fileID: 2800000, guid: 0647187256f22fa4592b3750b0e5aa2b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WetMask:
+        m_Texture: {fileID: 2800000, guid: b49e984f76b8786498642fc26301b7c6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BumpScale: 0.656
+    - _Cull: 2
+    - _Distant: 0
+    - _Metallic: 0.03
+    - _PatinaStrength: 0.6
+    - _Photographic: 1
+    - _ReflectionDistortion: 0.0022
+    - _ReflectionHeightRange: 0.22
+    - _ReflectionStrength: 0
+    - _Smoothness: 0.48000002
+    - _WaterLayer: 0
+    - _Wetness: 0.35
+    - _Wind: 0
+    - _WorldScale: 0.18
+    m_Colors:
+    - _BaseColor: {r: 0.35, g: 0.38, b: 0.4, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

@@ -1,0 +1,20 @@
+﻿[
+    {
+        "name":  "01-prestorm-forest.png",
+        "path":  "C:\\Users\\brian\\Dev\\active\\Dream Loop Astra\\Migration\\Source\\Expansion\\WeatherW01\\Concepts-v01\\01-prestorm-forest.png",
+        "bytes":  7688111,
+        "sha256":  "92347333ff9fb6d4cf1e5c354394cc2ecab452e67b8d7007cdc408436d2e149a"
+    },
+    {
+        "name":  "02-lightning-abbey.png",
+        "path":  "C:\\Users\\brian\\Dev\\active\\Dream Loop Astra\\Migration\\Source\\Expansion\\WeatherW01\\Concepts-v01\\02-lightning-abbey.png",
+        "bytes":  7876673,
+        "sha256":  "9f91943309561fee2caf9f91cba3ff7fa2c5c2e94d65f3c00ad526c8bafb966b"
+    },
+    {
+        "name":  "03-night-blizzard.png",
+        "path":  "C:\\Users\\brian\\Dev\\active\\Dream Loop Astra\\Migration\\Source\\Expansion\\WeatherW01\\Concepts-v01\\03-night-blizzard.png",
+        "bytes":  6167105,
+        "sha256":  "95ee606f08f7d0f2de3fa42b234932061f91e2c1695ee788039fd0d3767f48b9"
+    }
+]

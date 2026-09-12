@@ -1,0 +1,38 @@
+{
+  "results": [
+    {
+      "id": "6998a5c0-97cb-4776-81ed-646694198342",
+      "type": "image",
+      "status": "pending",
+      "model": "gpt_image_2",
+      "params": {
+        "prompt": "Edit reference image 1, the existing VESPER rainy ruined abbey concept, to change ONLY how the thunderstorm flash is expressed. The user explicitly wants NO visible lightning bolt at all, just the surroundings briefly flashing brighter. Completely remove the bright branching white lightning lines in the upper right, and reconstruct the ordinary wet ground, foliage and rain behind them. There must be NO bolt, zigzag, electrical arc, branching vein, beam, glowing symbol, point of impact or visible electrical discharge anywhere. Instead portray ONE instant of diffuse cloud-to-cloud sheet-lightning illumination whose light source is entirely OUTSIDE THE FRAME. A broad soft cool-white atmospheric flash spreads across the scene: stone wall faces and the roof edges brighten softly, wet paving and muddy puddle surfaces catch a wide subdued shimmer, rain droplets and tree foliage momentarily catch pale light. The flash should read as the environment briefly going 'flash, flash' when animated later, not as a visible object or ray. This output is ONE ordinary still image of a single flash moment, not a sequence or comparison panel. Preserve the exact high oblique gameplay camera, framing, ruined chapel and tiny warm sheltered lamp on the left, straight path, foliage, rocks, rain and same small adventurer at the same location and scale. Reference image 2 anchors the underlying rainy ambient darkness; retain that base mood with temporarily lifted cool midtones and highlights during this flash. Keep surfaces detailed and the road readable, no blown-out white screen, no new architecture, no change to time of day, no cinematic sky or horizon, no text or interface. A believable real-time game lighting cue, subtle broad environmental illumination with absolutely no visible lightning shape.",
+        "aspect_ratio": "16:9",
+        "reference_images": [
+          "d897a351-8d68-48c6-959b-6e57a24900f4",
+          "6f69ebb1-6cf9-490e-a1f8-07506295ca0d"
+        ],
+        "resolution": "2k",
+        "quality": "high",
+        "medias": [
+          {
+            "role": "image",
+            "data": {
+              "id": "d897a351-8d68-48c6-959b-6e57a24900f4",
+              "type": "image_job",
+              "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3HqrOQdfhs3psNu8LvY0hv7gvNL/hf_20260911_130349_d897a351-8d68-48c6-959b-6e57a24900f4.png"
+            }
+          },
+          {
+            "role": "image",
+            "data": {
+              "id": "6f69ebb1-6cf9-490e-a1f8-07506295ca0d",
+              "type": "media_input",
+              "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3HqrOQdfhs3psNu8LvY0hv7gvNL/6f69ebb1-6cf9-490e-a1f8-07506295ca0d.png"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
