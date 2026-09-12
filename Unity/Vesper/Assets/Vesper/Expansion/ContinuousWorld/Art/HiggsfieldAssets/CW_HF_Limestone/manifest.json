@@ -1,0 +1,121 @@
+{
+  "name": "CW_HF_Limestone",
+  "source_glb": "rock.glb",
+  "source_job": {
+    "created_at": "2026-09-09T16:33:54.740001Z",
+    "display_name": "Text to 3D",
+    "id": "dda3a429-d355-404d-81e1-39eba93618df",
+    "job_type": "tripo_3d",
+    "min_result_url": null,
+    "params": {
+      "auto_size": true,
+      "face_limit": 45000,
+      "folder_id": null,
+      "geometry_quality": "detailed",
+      "negative_prompt": "toy, low-poly, stylized, cartoon, smooth plastic, rounded stacked stones, identical layers, geometric cube, flat sliced planes, uniform green blanket, building, terrain base, trees",
+      "pbr": true,
+      "prompt": "Single photorealistic game environment asset: a massive irregular weathered limestone outcrop, approximately 5 meters wide and 3 meters tall, one cohesive naturally fractured rock formation with asymmetric stepped shelves, chipped jagged edges, layered sediment seams, deep narrow crevices and eroded crumbling corners. Muted grey beige limestone, dark mineral deposits and damp cracks, patchy natural olive moss concentrated in shaded crevices and horizontal ledges, tiny sparse grass tufts. Rich realistic fine PBR rock surface texture, albedo with natural color variation and physically plausible roughness. Geological realism, scanned AAA game environment quality. Freestanding isolated outcrop, complete underside, usable as a single 3D environment prop, no scenery, no pedestal, no people, no text.",
+      "seed": null,
+      "texture": true,
+      "texture_quality": "detailed"
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3HqrOQdfhs3psNu8LvY0hv7gvNL/hf_20260909_163354_dda3a429-d355-404d-81e1-39eba93618df.glb",
+    "status": "completed"
+  },
+  "normalization": {
+    "uniform_scale": 10.069466238733366,
+    "source_min": [
+      -0.24815206229686737,
+      -0.3399963974952698,
+      -0.2999556362628937
+    ],
+    "source_max": [
+      0.2483985871076584,
+      0.33988451957702637,
+      0.30004432797431946
+    ],
+    "source_ground_pivot": [
+      0.0001232624053955078,
+      -5.59389591217041e-05,
+      -0.2999556362628937
+    ]
+  },
+  "source_axes": "+Z up",
+  "fbx_axes": "+Y up, -Z forward",
+  "materials": [
+    {
+      "name": "CW_HF_Limestone_Material0",
+      "source_name": "tripo_material_00cef5b3-9a37-4f7a-be96-567bbf1d1adc",
+      "texture_inputs": {
+        "Base Color": [
+          "CW_HF_Limestone_Texture0.png"
+        ],
+        "Metallic": [
+          "CW_HF_Limestone_Texture2.png"
+        ],
+        "Roughness": [
+          "CW_HF_Limestone_Texture2.png"
+        ],
+        "Normal": [
+          "CW_HF_Limestone_Texture1.png"
+        ],
+        "Alpha": [],
+        "UnityMetallicSmoothness": [
+          "CW_HF_Limestone_MetallicSmoothness0.png"
+        ]
+      },
+      "double_sided_recommended": false
+    }
+  ],
+  "textures": [
+    {
+      "source_image": "Color_00cef5b3-9a37-4f7a-be96-567bbf1d1adc",
+      "file": "CW_HF_Limestone_Texture0.png",
+      "size": [
+        4096,
+        4096
+      ],
+      "colorspace": "sRGB"
+    },
+    {
+      "source_image": "NormalGL_00cef5b3-9a37-4f7a-be96-567bbf1d1adc",
+      "file": "CW_HF_Limestone_Texture1.png",
+      "size": [
+        4096,
+        4096
+      ],
+      "colorspace": "Non-Color"
+    },
+    {
+      "source_image": "ORM_00cef5b3-9a37-4f7a-be96-567bbf1d1adc",
+      "file": "CW_HF_Limestone_Texture2.png",
+      "size": [
+        4096,
+        4096
+      ],
+      "colorspace": "Non-Color"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "CW_HF_Limestone",
+      "triangles": 44752,
+      "zero_area_triangles": 0,
+      "uv_layers": 1,
+      "all_triangular": true
+    }
+  ],
+  "bounds_source_xyz": [
+    [
+      -2.5,
+      -3.4230191707611084,
+      0.0
+    ],
+    [
+      2.5,
+      3.4230191707611084,
+      6.041679382324219
+    ]
+  ],
+  "lod1_triangles": 17900
+}
