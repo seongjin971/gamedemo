@@ -1,27 +1,57 @@
-﻿node_modules/
-dist/
-.dream-loop/
+# Browser dependencies and generated output
+/node_modules/
+/dist/
+/.github-export/
+
+# Unity generated output (preserve Assets, Packages, ProjectSettings and .meta)
 Unity/Vesper/[Ll]ibrary/
 Unity/Vesper/[Tt]emp/
 Unity/Vesper/[Oo]bj/
 Unity/Vesper/[Ll]ogs/
 Unity/Vesper/[Uu]ser[Ss]ettings/
+Unity/Vesper/[Bb]uild/
 Unity/Vesper/[Bb]uilds/
+Unity/Vesper/[Mm]emoryCaptures/
+Unity/Vesper/[Rr]ecordings/
 Unity/Vesper/.vs/
 Unity/Vesper/*.csproj
 Unity/Vesper/*.sln*
-Migration/Source/**/__pycache__/
-Migration/Source/**/*.blend1
 
-# Developer handoff: credentials and local editor artifacts
+# Historical evidence: retain reports/data; archive repeated media locally.
+# Tracked files stay in source history. Tools/export_github.py filters these
+# using --no-index when making a new upload snapshot.
+/Migration/Evidence/**/*
+!/Migration/Evidence/**/
+!/Migration/Evidence/**/*.md
+!/Migration/Evidence/**/*.json
+!/Migration/Evidence/**/*.csv
+!/Migration/Evidence/**/*.txt
+!/Migration/Evidence/**/*.html
+!/Migration/Evidence/**/*.cmd
+!/Migration/Evidence/**/*.cs
+
+# Current W10 evidence, including its six full-resolution screenshots.
+!/Migration/Evidence/Expansion/WeatherWorld/W10/**
+
+# Local sessions, editor files and authoring backups (including nested copies)
+.dream-loop/
+.vs/
+.idea/
+__pycache__/
+*.py[cod]
+*.blend[0-9]*
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local environment and credentials
 .env
 .env.*
 !.env.example
 !.env.sample
-**/__pycache__/
-*.pyc
-*.blend1
-*.blend2
 *.pfx
 *.p12
 *.key

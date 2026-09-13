@@ -1,84 +1,50 @@
-# VESPER — 개발 인수인계
+# VESPER — The Last Sanctuary
 
-현재 개발 기준은 **Weather World W10**입니다. 강가 → 어두운 숲 → 비 오는 폐허 → 밤 눈보라 설산을 걷는 Unity 데모이며, Q/E 시점 회전과 클릭 이동을 사용합니다. 음향은 없습니다.
+강가에서 어두운 숲과 비 오는 폐허를 지나 밤 눈보라 설산으로 이어지는 Unity 탐험 데모입니다. 현재 개발 시작점은 **Weather World W10**이며 게임 내 음향은 아직 연결하지 않았습니다. 환경음·발소리 WAV 76개를 `sfx/`에 개발용 원본으로 함께 제공합니다.
 
-**처음 받았다면 [HANDOFF.md](HANDOFF.md)를 먼저 읽으세요.** 최신 상태는 [CHECKPOINT.md](CHECKPOINT.md) 최상단, 조작은 [PLAY_WEATHER.md](PLAY_WEATHER.md), 기존 검증은 [W10 보고서](Migration/Evidence/Expansion/WeatherWorld/W10/REPORT.md)에 있습니다.
-
-## Unity에서 이어서 작업하기
-
-1. Git과 Git LFS를 설치하고 아래 명령으로 받습니다.
-
-   ```sh
-   git lfs install
-   git clone https://github.com/seongjin971/gamedemo.git
-   cd gamedemo
-   git lfs pull
-   ```
-
-2. Unity Hub에서 **Unity 6000.5.7f1**과 Windows Build Support를 설치합니다.
-3. Hub의 Add로 **`Unity/Vesper` 폴더**를 열고 패키지 설치 및 에셋 가져오기를 기다립니다.
-4. **`Assets/Vesper/Scenes/Expansion/VesperWeatherWorld_W10.unity`**를 열고 Play를 누릅니다.
-
-실행 파일은 저장소에 포함되지 않습니다. Windows 빌드 방법은 [HANDOFF.md](HANDOFF.md)에 있습니다. 기존 빌드 목록의 초기 장면을 그대로 빌드하면 W10이 실행되지 않으므로 장면을 직접 지정해야 합니다.
-
-전체 Unity 소스·장면·메타데이터·자산, 제작 원본, 브라우저 데모, 상태 문서와 최신 W10 검증 자료를 포함합니다. 캐시·실행 빌드·과거 반복 캡처/녹화는 제외했습니다. 이 저장소는 2026-09-12 현재 파일의 전달용 스냅샷이며, 원본 PC의 과거 Git 이력은 별도로 보존되어 있습니다.
+**처음 받았다면 [개발 인계 문서](HANDOFF.md)를 먼저 읽으세요.** 최신 상태는 [CHECKPOINT.md](CHECKPOINT.md) 최상단에 있습니다.
 
 ![W10 실제 실행 화면](Migration/Evidence/Expansion/WeatherWorld/W10/input-qa-visible/start-qe-help.png)
 
----
+## Unity 실행
 
-아래는 초기 브라우저 데모의 역사 설명입니다. Unity 개발 기준은 위의 W10과 HANDOFF.md이며, 아래 원본 요청의 시간·자산 제한은 후속 Unity 작업 조건이 아닙니다. 초기 태그와 `unity-migration` 브랜치는 원본 PC의 Git 이력을 가리키며 이 전달용 저장소에는 포함되지 않습니다.
+1. Git LFS를 설치하고 `git clone https://github.com/seongjin971/gamedemo.git`로 받은 뒤 저장소에서 `git lfs pull`을 실행합니다.
+2. Unity Hub에서 **Unity 6000.5.7f1**로 **`Unity/Vesper`** 폴더를 엽니다.
+3. **`Assets/Vesper/Scenes/Expansion/VesperWeatherWorld_W10.unity`**를 열고 Play를 누릅니다.
 
-## Preserved browser version
+클릭 이동 · **Q/E** 좌우 회전 · 휠 확대/축소 · **Shift** 달리기 · **R** 시작점 복귀. 자세한 조작은 [PLAY_WEATHER.md](PLAY_WEATHER.md)에 있습니다.
 
-A live Three.js fantasy graphics demo made from the installed Dream Loop README's Example prompt. All models were authored locally in Blender or code. The slate texture and target reference were generated for this project; no stock models, textures, fonts, HDRIs, or other art assets were downloaded.
+실행 파일은 Git에 포함되지 않습니다. Windows 빌드 절차는 [HANDOFF.md](HANDOFF.md#windows-빌드)를 따르세요. 기존 빌드 목록은 초기 장면을 가리키므로 **W10 장면을 직접 지정**해야 합니다.
 
-The browser version is preserved at Git tag `browser-baseline-2026-09-08` (`2413d5d`). The `unity-migration` branch adds a separate Unity URP comparison project in `Unity/Vesper`; see [Migration/README.md](Migration/README.md) for its scene, controls, evidence and remaining work. `preview.png` continues to show the browser baseline.
+## 저장소 구성
 
-## Run
+| 경로 | 내용 |
+| --- | --- |
+| `Unity/Vesper` | 현재 프로젝트와 보존된 이전 장면·공유 자산 |
+| `sfx` | 환경음·발소리 WAV 76개, 약 118MB. Unity 미연결 원본 |
+| `Migration/Source`, `ArtSource` | 제작 원본, 변환·검증 도구, 출처 기록 |
+| `Migration/Evidence` | 과거 보고서·검증 데이터와 최신 W10 실행 화면 |
+| `src`, `public`, `tests` | 초기 Three.js 브라우저 데모 |
+| `Tools/export_github.py` | 원본 이력을 보존하면서 재업로드용 폴더 생성 |
 
-```sh
-npm install
-npm run dev
+이전 버전 자산을 현재 장면도 참조하므로 Unity 폴더를 버전명만 보고 삭제하지 마세요. 캐시·실행 빌드·반복 캡처·개인 환경 파일은 업로드 대상에서 제외합니다. 100 MiB를 넘는 제작 원본 2개는 Git LFS를 사용합니다.
+
+## 재업로드 준비
+
+원본 작업 폴더에서 다음 명령으로 별도 전달 폴더를 만듭니다. Python 3.11 이상과 Git이 필요하며, 출력 경로는 새 경로여야 합니다.
+
+```powershell
+python -B Tools/export_github.py --output .github-export/gamedemo-20260913
 ```
 
-Open **http://127.0.0.1:5173/** in Chrome. The server binds to loopback only.
+기존 추적 파일에도 제외 규칙을 적용하고 복사본의 SHA-256을 확인합니다. 원본 `.git` 이력과 로컬 보관 파일은 보존됩니다. 실제 업로드 방법과 기존 저장소 갱신 시 주의점은 [HANDOFF.md](HANDOFF.md#github-재업로드용-폴더-만들기)에 있습니다.
 
-```sh
-npm run build
-npm run preview
-node --test
-```
+## 검증 기록
 
-## Controls
+[W10 보고서](Migration/Evidence/Expansion/WeatherWorld/W10/REPORT.md)에 기존 빌드·입력 검사와 실제 실행 화면이 있습니다. 과거 환경의 검증이며, 새 PC의 Unity 가져오기·Play·직접 조작 및 사용자 최종 수락은 별도로 확인합니다.
 
-- **Click** the courtyard: the knight walks there, navigating around obstacles.
-- **Drag**: orbit the camera. Vertical dragging changes elevation within limits.
-- **Scroll**: zoom in or out.
-- **R**: return character and camera to the initial view.
-- **H**: hide/show the interface.
-- **P** or **Capture**: save a rendered screenshot and measurements locally during development; download a PNG in a production preview.
-- **D**: show/hide diagnostic measurements.
-- **B**: run a development render-throughput benchmark (separate from display FPS).
-- **N**: benchmark orbiting-camera render throughput during development.
-- **V**: save cached-AO versus freshly rendered AO comparisons for small orbit, walk, and zoom changes during development.
-- **U**: export the loaded scene geometry, transforms, materials and a matching comparison capture to the local evidence sink during development. This does not modify the Unity project automatically.
+## 초기 브라우저 데모
 
-The camera follows the knight slowly. Movement stays inside a small courtyard even though the ruined city extends far beyond it. This is a visual demo with no combat, enemies, objectives, or progression.
+저장소 루트에서 `npm ci`, `npm run dev` 후 Chrome으로 `http://127.0.0.1:5173/`을 엽니다. `npm run build`, `node --test`로 빌드·단위 검사를 실행할 수 있습니다. Node.js 22.12 이상을 사용할 수 있으며 현재 작업 환경은 24 계열입니다.
 
-## Source Example, verbatim
-
-> Build me a graphics demo: isometric camera, voxel-ish art style with realistic shading and reflective wet floors, a character in an interesting scene. Fantasy setting (think Elden Ring, Diablo). Three.js in browser, >60fps. Don't download assets. Time limit of 1 hour. Controls: click to move the character, camera lazy-follows; drag to rotate camera; scroll to zoom in/out. No gameplay for now. World should feel alive: motion, animations, subtle environmental behaviors. Area around player should look expansive, but only allow movement in a limited space. No need to confirm the art with me or ask questions, just go!
-
-Source: `C:/Users/brian/.codex/skills/dream-loop/README.md`, Example section.
-
-## Rendering and assets
-
-- Orthographic camera, physically based stone/metal/cloth, generated stone and bark surface maps, custom chipped masonry, real planar wet-floor reflections, warm animated firelight, restrained bloom, and SMAA.
-- Locally authored knight, gnarled tree and fractured stone in `public/models/`.
-- Animated gait and cloak, breathing/head motion, generated flame sprites with animated distortion, rising embers, floating rune rings, drifting dust/haze and wind in grasses.
-- Thousands of stones use instancing; distant geometry is simplified and does not cast shadows onto the playable court.
-- Source modeling scripts, `.blend` files, generation prompts, concept target, screenshots, diagnostics and independent visual verdicts are retained in the ignored `.dream-loop/` directory.
-- The far city is a generated panoramic matte that scrolls with orbit; the playable courtyard, surrounding nearer ruins, tree, knight and reflections are real-time 3D.
-
-The frame counter reports measured browser presentation cadence. It cannot exceed the connected display's refresh rate. See `VALIDATION.md` for the measured result and remaining visual differences; a numerical or automated result is not user visual acceptance.
+브라우저는 초기 안뜰 데모이며 Unity W10과 별개입니다. 원본 요청·조작·렌더링 설명은 [브라우저 기준 문서](docs/BROWSER_BASELINE.md)에 보존했습니다. `preview.png`도 초기 브라우저 화면입니다.
