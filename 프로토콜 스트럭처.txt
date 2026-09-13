@@ -1,0 +1,237 @@
+[Wwise 연동에 필요한 게임 정보]
+
+목적:
+게임의 현재 상태 정보를 Wwise로 전달해서
+발소리, 지역 앰비언스, 날씨, 시간대, 위치 기반 환경음을
+동적으로 변화시키려고 함.
+
+
+1. Material / 바닥 재질 정보
+
+플레이어가 현재 밟고 있는 바닥의 재질 정보를 전달.
+
+필요한 값:
+
+- Mud
+- Gravel
+- Snow
+- Rock
+
+예:
+SurfaceType = Mud
+SurfaceType = Gravel
+SurfaceType = Snow
+SurfaceType = Rock
+
+용도:
+플레이어 발소리를 바닥 재질에 따라 변경.
+
+Wwise에서는
+Switch : SurfaceType
+으로 사용할 예정.
+
+예)
+SurfaceType = Mud
+→ 진흙 발소리
+
+SurfaceType = Snow
+→ 눈 발소리
+
+
+--------------------------------------------------
+
+
+2. Time / 게임 내 시간 정보
+
+현재 게임 내 시간 정보를 연속적인 숫자값으로 전달.
+
+예:
+
+TimeOfDay = 0.0 ~ 24.0
+
+0.0  = 00:00
+6.0  = 06:00
+12.0 = 12:00
+18.0 = 18:00
+24.0 = 24:00
+
+게임에서 기존에 사용하고 있는 시간 시스템이 있다면
+그 시간값을 그대로 받아도 됨.
+
+용도:
+시간 변화에 따라 Wwise의 환경음 변화.
+
+예)
+
+낮
+→ 새소리 증가
+
+밤
+→ 새소리 감소
+→ 야간 벌레 / 귀뚜라미 등의 소리 증가
+
+Wwise에서는
+RTPC : TimeOfDay
+로 사용할 예정.
+
+
+--------------------------------------------------
+
+
+3. Weather / 비의 강도 정보
+
+비가 오는지/안 오는지의 단순 Boolean 값이 아니라
+현재 비의 강도를 연속적인 숫자값으로 전달.
+
+필요한 값:
+
+RainIntensity = 0.0 ~ 1.0
+
+예:
+
+0.0 = 비 없음
+0.2 = 아주 약한 비
+0.4 = 약한 비
+0.7 = 강한 비
+1.0 = 폭우
+
+정확히 몇 단계인지는 중요하지 않고
+0~1 사이에서 현재 비의 세기를 알 수 있으면 됨.
+
+용도:
+비의 강도에 따라 Wwise에서
+Rain Ambient의 볼륨 및 여러 Rain Layer를 자연스럽게 변화시킴.
+
+예)
+
+RainIntensity = 0.0
+→ 비 소리 없음
+
+RainIntensity 증가
+→ 약한 빗소리 증가
+
+더 증가
+→ 강한 비 Layer 추가
+
+1.0 근처
+→ 강한 빗소리 / 폭우 상태
+
+Wwise에서는
+RTPC : RainIntensity
+로 사용할 예정.
+
+
+--------------------------------------------------
+
+
+4. State / 현재 지역 정보
+
+플레이어가 현재 어느 지역에 있는지 전달.
+
+필요한 값:
+
+- Forest
+- SnowMountain
+
+예:
+
+Area = Forest
+Area = SnowMountain
+
+용도:
+지역에 따라 기본 환경음(Ambience)을 변경.
+
+예)
+
+Forest
+→ 숲 앰비언스
+
+SnowMountain
+→ 설산 앰비언스
+
+Wwise에서는
+State : Area
+로 사용할 예정.
+
+
+--------------------------------------------------
+
+
+5. Lake Object / 호수 오브젝트 정보
+
+숲 지역의 길을 진행하다 보면
+다리를 건너는 구간에 호수가 하나 있음.
+
+이 호수에서 위치 기반 Water Ambient를 재생하고 싶음.
+
+목표:
+
+플레이어가 호수에서 멀리 있을 때
+→ 물소리가 들리지 않음
+
+호수에 가까워질수록
+→ 물소리가 점점 커짐
+
+호수 / 다리 근처
+→ 물소리가 잘 들림
+
+호수를 지나서 멀어지면
+→ 다시 점점 작아지고 들리지 않음
+
+
+필요한 것:
+
+호수 위치에
+Lake Ambient용 GameObject / BP 등의 오브젝트 필요.
+
+해당 오브젝트를 Wwise Game Object로 사용할 수 있도록 연결하고
+
+예:
+
+Play_Lake_Ambience
+
+같은 Wwise Event를
+해당 위치에서 재생할 수 있으면 됨.
+
+플레이어와 호수의 거리에 따른
+볼륨 변화 자체는 Wwise의
+
+3D Positioning
++
+Attenuation
+
+으로 처리할 예정.
+
+따라서 별도로
+"호수 가까움 = true / false"
+같은 값은 필요하지 않고,
+
+Wwise에서 소리를 발생시킬 수 있는
+호수 위치의 오브젝트 정보가 있으면 됨.
+
+
+--------------------------------------------------
+
+
+[정리]
+
+1. SurfaceType
+Mud / Gravel / Snow / Rock
+→ Wwise Switch
+
+2. TimeOfDay
+0.0 ~ 24.0
+→ Wwise RTPC
+
+3. RainIntensity
+0.0 ~ 1.0
+→ Wwise RTPC
+
+4. Area
+Forest / SnowMountain
+→ Wwise State
+
+5. Lake Object
+호수 위치에 Wwise Game Object 등록
+→ Play_Lake_Ambience
+→ 거리 변화는 Wwise Attenuation으로 처리
