@@ -4,7 +4,7 @@
 
 **처음 받았다면 [개발 인계 문서](HANDOFF.md)를 먼저 읽으세요.** 최신 상태는 [CHECKPOINT.md](CHECKPOINT.md) 최상단에 있습니다.
 
-Wwise W11 연동 코드·음원 매핑 준비본과 남은 환경 설정은 [Wwise 작업 인계](WWISE_HANDOFF.md)에 있습니다. 실제 음향 재생 검증은 아직 완료되지 않았으며 현재 플레이 기준은 W10입니다.
+Wwise W11 장면·음원 매핑과 Unity 상태 검사 42개 결과는 [Wwise 작업 인계](WWISE_HANDOFF.md)에 있습니다. Wwise 설치와 실제 음향 재생 검증은 남아 있으며 현재 플레이 기준은 W10입니다.
 
 ![W10 실제 실행 화면](Migration/Evidence/Expansion/WeatherWorld/W10/input-qa-visible/start-qe-help.png)
 

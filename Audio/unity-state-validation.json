@@ -1,0 +1,140 @@
+{
+    "scope": "Unity Editor Play Mode at a controlled 60 Hz simulation step: game-state inputs and foot contacts; no audible playback or rendering verification",
+    "unityVersion": "6000.5.7f1",
+    "failures": 0,
+    "walkContacts": 4,
+    "runContacts": 6,
+    "calibratedPhases": [
+        0.32499998807907107,
+        0.8416666388511658,
+        0.3916666805744171,
+        0.8833333253860474
+    ],
+    "checks": [
+        "PASS Actual animation clips and foot bones calibrated",
+        "PASS Left and right foot contacts have distinct phases",
+        "PASS Ground support at 0m",
+        "PASS Gravel/Forest at 0m",
+        "PASS RTPC ranges at 0m",
+        "PASS Ground support at 25m",
+        "PASS Rock/Forest at 25m",
+        "PASS RTPC ranges at 25m",
+        "PASS Lake emitter remains at the surveyed water position",
+        "PASS Camera zoom/orbit preserves player-based listener distance and follows camera orientation",
+        "PASS Ground support at 150m",
+        "PASS Mud/Forest at 150m",
+        "PASS RTPC ranges at 150m",
+        "PASS Rain grows in Rainwood",
+        "PASS Ground support at 192m",
+        "PASS Rock/Forest at 192m",
+        "PASS RTPC ranges at 192m",
+        "PASS Global rain remains active at the abbey",
+        "PASS Ground support at 323m",
+        "PASS Snow/SnowMountain at 323m",
+        "PASS RTPC ranges at 323m",
+        "PASS Rain clears in the snow region",
+        "PASS Area stays SnowMountain inside hysteresis band",
+        "PASS Area returns to Forest past lower boundary",
+        "PASS Area stays Forest inside hysteresis band",
+        "PASS Area enters SnowMountain past upper boundary",
+        "PASS R reset refreshes area and weather",
+        "PASS Idle animation does not emit footsteps",
+        "PASS No false ground support while airborne",
+        "PASS Walk route accepted: ",
+        "PASS Walk arrived on supported ground: ",
+        "PASS Walk produces bounded foot contacts",
+        "PASS Moving contacts use the abbey stone surface",
+        "PASS Left/right contacts occur at distinct instants",
+        "PASS Stopping movement stops contact emission",
+        "PASS Run route accepted: ",
+        "PASS Run arrived on supported ground: ",
+        "PASS Movement actually entered the run animation",
+        "PASS Run produces bounded foot contacts",
+        "PASS Moving contacts use the abbey stone surface",
+        "PASS Left/right contacts occur at distinct instants",
+        "PASS Stopping movement stops contact emission"
+    ],
+    "errors": [],
+    "samples": [
+        {
+            "progress": 0.0,
+            "timeOfDay": 8.0,
+            "rainIntensity": 0.0,
+            "surface": "Gravel",
+            "area": "Forest",
+            "grounded": true
+        },
+        {
+            "progress": 25.0,
+            "timeOfDay": 11.888053894042969,
+            "rainIntensity": 0.0,
+            "surface": "Rock",
+            "area": "Forest",
+            "grounded": true
+        },
+        {
+            "progress": 150.0,
+            "timeOfDay": 20.756467819213868,
+            "rainIntensity": 0.756468653678894,
+            "surface": "Mud",
+            "area": "Forest",
+            "grounded": true
+        },
+        {
+            "progress": 192.0,
+            "timeOfDay": 21.27204704284668,
+            "rainIntensity": 1.0,
+            "surface": "Rock",
+            "area": "Forest",
+            "grounded": true
+        },
+        {
+            "progress": 323.0,
+            "timeOfDay": 23.0,
+            "rainIntensity": 0.0,
+            "surface": "Snow",
+            "area": "SnowMountain",
+            "grounded": true
+        }
+    ],
+    "movements": [
+        {
+            "running": false,
+            "finalPosition": {
+                "x": 0.0,
+                "y": 2.200000047683716,
+                "z": -197.97622680664063
+            },
+            "target": 198.0,
+            "maxRunBlend": 0.0,
+            "safetyStops": 0,
+            "lastReject": "",
+            "contactTimes": [
+                88.06666564941406,
+                88.69999694824219,
+                89.30000305175781,
+                89.93333435058594
+            ]
+        },
+        {
+            "running": true,
+            "finalPosition": {
+                "x": 0.0,
+                "y": 2.200000047683716,
+                "z": -203.9825439453125
+            },
+            "target": 204.0,
+            "maxRunBlend": 1.0,
+            "safetyStops": 0,
+            "lastReject": "",
+            "contactTimes": [
+                105.83333587646485,
+                106.4000015258789,
+                106.86666870117188,
+                107.30000305175781,
+                107.75,
+                108.19999694824219
+            ]
+        }
+    ]
+}

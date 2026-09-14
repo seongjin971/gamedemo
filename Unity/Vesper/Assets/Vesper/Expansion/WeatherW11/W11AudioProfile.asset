@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8c3dc3d9e80537894ae91d8eba65bb9, type: 3}
+  m_Name: W11AudioProfile
+  m_EditorClassIdentifier: Assembly-CSharp::Vesper.Expansion.WeatherW11.WorldAudioProfile
+  timeKeys:
+  - progress: 0
+    hour: 8
+  - progress: 55
+    hour: 17
+  - progress: 112
+    hour: 20
+  - progress: 168
+    hour: 21
+  - progress: 238
+    hour: 22
+  - progress: 303
+    hour: 23
+  snowMountainBoundary: 270.5
+  areaHysteresis: 2
+  snowSurfaceThreshold: 0.55
+  mudRainThreshold: 0.35
+  regions:
+  - description: Abbey stone trail
+    start: 168
+    end: 224
+    halfWidth: 2.3
+    surface: 3
+  leftWalkContact: 0.325
+  rightWalkContact: 0.84166664
+  leftRunContact: 0.39166668
+  rightRunContact: 0.8833333
+  contactsCalibrated: 1
+  syncInterval: 0.05
+  bankName: Vesper_W11
+  footstepEvent: Play_Footstep
+  ambienceEvent: Play_World_Ambience
+  lakeEvent: Play_Lake_Ambience

@@ -27,7 +27,7 @@ def main():
         references += list(package.glob(pattern))
     sources = list((ROOT / "Unity/Vesper/Assets/Vesper/Expansion/WeatherW11").rglob("*.cs"))
     sources += [ROOT / "Unity/Vesper/Assets/Vesper/Expansion/WeatherW10/Runtime" / name for name in
-                ["WorldMotor.cs", "WorldEnvironment.cs", "WorldLayout.cs", "WorldAnimation.cs", "WorldRunInput.cs"]]
+                ["WorldMotor.cs", "WorldEnvironment.cs", "WorldLayout.cs", "WorldAnimation.cs", "WorldRunInput.cs", "WorldCamera.cs"]]
     sources += [ROOT / "Unity/Vesper/Assets/Vesper/Expansion/LinearWorld/Runtime/WorldLayout.cs",
                 ROOT / "Unity/Vesper/Assets/Vesper/Runtime/VesperPlanarReflection.cs"]
     with tempfile.TemporaryDirectory(prefix="vesper-audio-compile-") as temp:

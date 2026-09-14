@@ -157,6 +157,22 @@ namespace Vesper.Expansion.WeatherW11.Editor {
             try { Prepare(); ValidateScene(); EditorApplication.Exit(0); }
             catch (Exception e) { Debug.LogException(e); EditorApplication.Exit(1); }
         }
+        public static void ValidateStateBatch() {
+            try {
+                if (!Environment.GetCommandLineArgs().Contains("-w11StateQA"))
+                    throw new InvalidOperationException("Pass -w11StateQA followed by the output JSON path.");
+                EditorSceneManager.OpenScene(ScenePath); ValidateScene();
+                // Let startup services (including the search index) finish before domain reload.
+                double readyAt = EditorApplication.timeSinceStartup + 3;
+                EditorApplication.CallbackFunction start = null;
+                start = () => {
+                    if (EditorApplication.timeSinceStartup < readyAt || EditorApplication.isUpdating || EditorApplication.isCompiling) return;
+                    EditorApplication.update -= start;
+                    EditorApplication.EnterPlaymode();
+                };
+                EditorApplication.update += start;
+            } catch (Exception e) { Debug.LogException(e); EditorApplication.Exit(1); }
+        }
         public static void ValidateScene() {
             var scene = SceneManager.GetActiveScene();
             if (scene.path != ScenePath) throw new InvalidOperationException("W11 is not open.");
@@ -164,8 +180,15 @@ namespace Vesper.Expansion.WeatherW11.Editor {
             foreach (var t in all) if (GameObjectUtility.GetMonoBehavioursWithMissingScriptCount(t.gameObject) != 0)
                 throw new InvalidOperationException("Missing script: " + t.name);
             var bridge = UnityEngine.Object.FindAnyObjectByType<WwiseAudioBridge>();
-            if (!bridge || !bridge.state || !bridge.footsteps || !bridge.playerEmitter || !bridge.lakeEmitter || !bridge.listener)
+            if (!bridge || !bridge.state || !bridge.footsteps || !bridge.playerEmitter || !bridge.ambienceEmitter || !bridge.lakeEmitter || !bridge.listener)
                 throw new InvalidOperationException("Incomplete audio references.");
+            if (!bridge.state.profile || !bridge.state.motor || !bridge.state.environment ||
+                bridge.footsteps.state != bridge.state || !bridge.footsteps.animationSource ||
+                !bridge.footsteps.leftFoot || !bridge.footsteps.rightFoot)
+                throw new InvalidOperationException("Incomplete game-state or foot-contact references.");
+            var listener = bridge.listener.GetComponent<WorldAudioListener>();
+            if (!listener || listener.player != bridge.state.motor.transform || !listener.view)
+                throw new InvalidOperationException("Incomplete listener follow references.");
             if (!bridge.state.profile.Validate(out var error)) throw new InvalidOperationException(error);
             Debug.Log("W11 scene references validated. Wwise playback is a separate runtime check.");
         }
