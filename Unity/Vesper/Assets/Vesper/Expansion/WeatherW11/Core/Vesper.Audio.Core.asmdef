@@ -1,0 +1,5 @@
+{
+  "name": "Vesper.Audio.Core",
+  "rootNamespace": "Vesper.Expansion.WeatherW11",
+  "noEngineReferences": true
+}

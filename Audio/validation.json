@@ -1,0 +1,29 @@
+{
+  "recorded_at_utc": "2026-09-14T00:41:56.647330+00:00",
+  "base_commit": "8fc50948e7725cd54ff14159beb0137b52a6589f",
+  "status": "SOURCE_PREPARED_RUNTIME_BLOCKED",
+  "unity_editor_installed": "6000.5.7f1",
+  "audio_model_assertions_passed": 40,
+  "authoring_plan_tests_passed": 6,
+  "source_compile": {
+    "passed": true,
+    "source_file_count": 16,
+    "wwise_enabled": false,
+    "warnings_as_errors": true,
+    "references": "Installed Unity 6000.5.7f1 and bundled cross-platform template URP assemblies"
+  },
+  "wav_files_mapped_and_hash_checked": 76,
+  "unity_batch_attempt": {
+    "exit_code": 198,
+    "error": "No valid Unity Editor license found. Please activate your license."
+  },
+  "w11_scene_created": false,
+  "wwise_sdk_installed": false,
+  "wwise_sdk_branch_compiled": false,
+  "authoring_plan_applied": false,
+  "soundbanks_generated": false,
+  "audible_playback_verified": false,
+  "windows_player_built": false,
+  "remote_write_permission": "READ",
+  "pushed": false
+}

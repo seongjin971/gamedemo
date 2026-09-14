@@ -1,0 +1,1891 @@
+{
+  "status": "AUTHORING_PLAN_NOT_APPLIED",
+  "bank": "Vesper_W11",
+  "scope": "Creates game syncs, imports, containers, events and bank membership. Authoring settings below must be completed before banks are generated.",
+  "calls": [
+    {
+      "uri": "ak.wwise.core.object.create",
+      "args": {
+        "parent": "\\Actor-Mixer Hierarchy",
+        "type": "WorkUnit",
+        "name": "Vesper_W11",
+        "onNameConflict": "fail"
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.create",
+      "args": {
+        "parent": "\\Events",
+        "type": "WorkUnit",
+        "name": "Vesper_W11",
+        "onNameConflict": "fail"
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.create",
+      "args": {
+        "parent": "\\Switches",
+        "type": "WorkUnit",
+        "name": "Vesper_W11",
+        "onNameConflict": "fail"
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.create",
+      "args": {
+        "parent": "\\States",
+        "type": "WorkUnit",
+        "name": "Vesper_W11",
+        "onNameConflict": "fail"
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.create",
+      "args": {
+        "parent": "\\Game Parameters",
+        "type": "WorkUnit",
+        "name": "Vesper_W11",
+        "onNameConflict": "fail"
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.create",
+      "args": {
+        "parent": "\\SoundBanks",
+        "type": "WorkUnit",
+        "name": "Vesper_W11",
+        "onNameConflict": "fail"
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.create",
+      "args": {
+        "parent": "\\Switches\\Vesper_W11",
+        "type": "SwitchGroup",
+        "name": "SurfaceType",
+        "onNameConflict": "fail"
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.create",
+      "args": {
+        "parent": "\\Switches\\Vesper_W11\\SurfaceType",
+        "type": "Switch",
+        "name": "Mud",
+        "onNameConflict": "fail"
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.create",
+      "args": {
+        "parent": "\\Switches\\Vesper_W11\\SurfaceType",
+        "type": "Switch",
+        "name": "Gravel",
+        "onNameConflict": "fail"
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.create",
+      "args": {
+        "parent": "\\Switches\\Vesper_W11\\SurfaceType",
+        "type": "Switch",
+        "name": "Snow",
+        "onNameConflict": "fail"
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.create",
+      "args": {
+        "parent": "\\Switches\\Vesper_W11\\SurfaceType",
+        "type": "Switch",
+        "name": "Rock",
+        "onNameConflict": "fail"
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.create",
+      "args": {
+        "parent": "\\States\\Vesper_W11",
+        "type": "StateGroup",
+        "name": "Area",
+        "onNameConflict": "fail"
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.create",
+      "args": {
+        "parent": "\\States\\Vesper_W11\\Area",
+        "type": "State",
+        "name": "Forest",
+        "onNameConflict": "fail"
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.create",
+      "args": {
+        "parent": "\\States\\Vesper_W11\\Area",
+        "type": "State",
+        "name": "SnowMountain",
+        "onNameConflict": "fail"
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.create",
+      "args": {
+        "parent": "\\Game Parameters\\Vesper_W11",
+        "type": "GameParameter",
+        "name": "TimeOfDay",
+        "onNameConflict": "fail",
+        "@Min": 0,
+        "@Max": 24,
+        "@InitialValue": 8
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.create",
+      "args": {
+        "parent": "\\Game Parameters\\Vesper_W11",
+        "type": "GameParameter",
+        "name": "RainIntensity",
+        "onNameConflict": "fail",
+        "@Min": 0,
+        "@Max": 1,
+        "@InitialValue": 0
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.create",
+      "args": {
+        "parent": "\\Actor-Mixer Hierarchy\\Vesper_W11",
+        "type": "SwitchContainer",
+        "name": "Footsteps",
+        "onNameConflict": "fail"
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.setReference",
+      "args": {
+        "object": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps",
+        "reference": "SwitchGroupOrStateGroup",
+        "value": "\\Switches\\Vesper_W11\\SurfaceType"
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.setReference",
+      "args": {
+        "object": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps",
+        "reference": "DefaultSwitchOrState",
+        "value": "\\Switches\\Vesper_W11\\SurfaceType\\Gravel"
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.create",
+      "args": {
+        "parent": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps",
+        "type": "RandomSequenceContainer",
+        "name": "Mud",
+        "onNameConflict": "fail",
+        "@RandomOrSequence": 0,
+        "@PlayMechanismStepOrContinuous": 0
+      }
+    },
+    {
+      "uri": "ak.wwise.core.audio.import",
+      "args": {
+        "importOperation": "createNew",
+        "default": {
+          "importLanguage": "SFX"
+        },
+        "imports": [
+          {
+            "audioFile": "sfx/footstep/footstep wet/footstep wet.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Mud\\<Sound SFX>footstep_wet_1"
+          },
+          {
+            "audioFile": "sfx/footstep/footstep wet/footstep wet2.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Mud\\<Sound SFX>footstep_wet2_2"
+          },
+          {
+            "audioFile": "sfx/footstep/footstep wet/footstep wet3.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Mud\\<Sound SFX>footstep_wet3_3"
+          },
+          {
+            "audioFile": "sfx/footstep/footstep wet/footstep wet4.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Mud\\<Sound SFX>footstep_wet4_4"
+          }
+        ]
+      }
+    },
+    {
+      "uri": "ak.wwise.core.switchContainer.addAssignment",
+      "args": {
+        "child": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Mud",
+        "stateOrSwitch": "\\Switches\\Vesper_W11\\SurfaceType\\Mud"
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.create",
+      "args": {
+        "parent": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps",
+        "type": "RandomSequenceContainer",
+        "name": "Gravel",
+        "onNameConflict": "fail",
+        "@RandomOrSequence": 0,
+        "@PlayMechanismStepOrContinuous": 0
+      }
+    },
+    {
+      "uri": "ak.wwise.core.audio.import",
+      "args": {
+        "importOperation": "createNew",
+        "default": {
+          "importLanguage": "SFX"
+        },
+        "imports": [
+          {
+            "audioFile": "sfx/footstep/footstep gravel/footstep gravel-01.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Gravel\\<Sound SFX>footstep_gravel_01_1"
+          },
+          {
+            "audioFile": "sfx/footstep/footstep gravel/footstep gravel-02.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Gravel\\<Sound SFX>footstep_gravel_02_2"
+          },
+          {
+            "audioFile": "sfx/footstep/footstep gravel/footstep gravel-03.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Gravel\\<Sound SFX>footstep_gravel_03_3"
+          },
+          {
+            "audioFile": "sfx/footstep/footstep gravel/footstep gravel-04.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Gravel\\<Sound SFX>footstep_gravel_04_4"
+          },
+          {
+            "audioFile": "sfx/footstep/footstep gravel/footstep gravel.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Gravel\\<Sound SFX>footstep_gravel_5"
+          }
+        ]
+      }
+    },
+    {
+      "uri": "ak.wwise.core.switchContainer.addAssignment",
+      "args": {
+        "child": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Gravel",
+        "stateOrSwitch": "\\Switches\\Vesper_W11\\SurfaceType\\Gravel"
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.create",
+      "args": {
+        "parent": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps",
+        "type": "RandomSequenceContainer",
+        "name": "Snow",
+        "onNameConflict": "fail",
+        "@RandomOrSequence": 0,
+        "@PlayMechanismStepOrContinuous": 0
+      }
+    },
+    {
+      "uri": "ak.wwise.core.audio.import",
+      "args": {
+        "importOperation": "createNew",
+        "default": {
+          "importLanguage": "SFX"
+        },
+        "imports": [
+          {
+            "audioFile": "sfx/footstep/footstep snow/footstep snow-01.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Snow\\<Sound SFX>footstep_snow_01_1"
+          },
+          {
+            "audioFile": "sfx/footstep/footstep snow/footstep snow-02.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Snow\\<Sound SFX>footstep_snow_02_2"
+          },
+          {
+            "audioFile": "sfx/footstep/footstep snow/footstep snow-03.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Snow\\<Sound SFX>footstep_snow_03_3"
+          },
+          {
+            "audioFile": "sfx/footstep/footstep snow/footstep snow.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Snow\\<Sound SFX>footstep_snow_4"
+          }
+        ]
+      }
+    },
+    {
+      "uri": "ak.wwise.core.switchContainer.addAssignment",
+      "args": {
+        "child": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Snow",
+        "stateOrSwitch": "\\Switches\\Vesper_W11\\SurfaceType\\Snow"
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.create",
+      "args": {
+        "parent": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps",
+        "type": "RandomSequenceContainer",
+        "name": "Rock",
+        "onNameConflict": "fail",
+        "@RandomOrSequence": 0,
+        "@PlayMechanismStepOrContinuous": 0
+      }
+    },
+    {
+      "uri": "ak.wwise.core.audio.import",
+      "args": {
+        "importOperation": "createNew",
+        "default": {
+          "importLanguage": "SFX"
+        },
+        "imports": [
+          {
+            "audioFile": "sfx/footstep/footstep rock/footstep rock.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Rock\\<Sound SFX>footstep_rock_1"
+          },
+          {
+            "audioFile": "sfx/footstep/footstep rock/footstep rock2.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Rock\\<Sound SFX>footstep_rock2_2"
+          },
+          {
+            "audioFile": "sfx/footstep/footstep rock/footstep rock3.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Rock\\<Sound SFX>footstep_rock3_3"
+          },
+          {
+            "audioFile": "sfx/footstep/footstep rock/footstep rock4.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Rock\\<Sound SFX>footstep_rock4_4"
+          },
+          {
+            "audioFile": "sfx/footstep/footstep rock/footstep rock5.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Rock\\<Sound SFX>footstep_rock5_5"
+          },
+          {
+            "audioFile": "sfx/footstep/footstep rock/footstep rock6.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Rock\\<Sound SFX>footstep_rock6_6"
+          },
+          {
+            "audioFile": "sfx/footstep/footstep rock/footstep rock7.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Rock\\<Sound SFX>footstep_rock7_7"
+          }
+        ]
+      }
+    },
+    {
+      "uri": "ak.wwise.core.switchContainer.addAssignment",
+      "args": {
+        "child": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Rock",
+        "stateOrSwitch": "\\Switches\\Vesper_W11\\SurfaceType\\Rock"
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.create",
+      "args": {
+        "parent": "\\Actor-Mixer Hierarchy\\Vesper_W11",
+        "type": "SwitchContainer",
+        "name": "World_Ambience",
+        "onNameConflict": "fail"
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.setReference",
+      "args": {
+        "object": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience",
+        "reference": "SwitchGroupOrStateGroup",
+        "value": "\\States\\Vesper_W11\\Area"
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.setReference",
+      "args": {
+        "object": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience",
+        "reference": "DefaultSwitchOrState",
+        "value": "\\States\\Vesper_W11\\Area\\Forest"
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.create",
+      "args": {
+        "parent": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience",
+        "type": "BlendContainer",
+        "name": "Forest",
+        "onNameConflict": "fail"
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.create",
+      "args": {
+        "parent": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience",
+        "type": "BlendContainer",
+        "name": "SnowMountain",
+        "onNameConflict": "fail"
+      }
+    },
+    {
+      "uri": "ak.wwise.core.switchContainer.addAssignment",
+      "args": {
+        "child": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\Forest",
+        "stateOrSwitch": "\\States\\Vesper_W11\\Area\\Forest"
+      }
+    },
+    {
+      "uri": "ak.wwise.core.switchContainer.addAssignment",
+      "args": {
+        "child": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\SnowMountain",
+        "stateOrSwitch": "\\States\\Vesper_W11\\Area\\SnowMountain"
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.create",
+      "args": {
+        "parent": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\Forest",
+        "type": "RandomSequenceContainer",
+        "name": "Day_Wind",
+        "onNameConflict": "fail",
+        "@RandomOrSequence": 0,
+        "@PlayMechanismStepOrContinuous": 0
+      }
+    },
+    {
+      "uri": "ak.wwise.core.audio.import",
+      "args": {
+        "importOperation": "createNew",
+        "default": {
+          "importLanguage": "SFX"
+        },
+        "imports": [
+          {
+            "audioFile": "sfx/ambience/morning/background/wind1.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\Forest\\Day_Wind\\<Sound SFX>wind1_1"
+          },
+          {
+            "audioFile": "sfx/ambience/morning/background/wind2.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\Forest\\Day_Wind\\<Sound SFX>wind2_2"
+          }
+        ]
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.setProperty",
+      "args": {
+        "object": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\Forest\\Day_Wind\\wind1_1",
+        "property": "IsLoopingEnabled",
+        "value": true
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.setProperty",
+      "args": {
+        "object": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\Forest\\Day_Wind\\wind2_2",
+        "property": "IsLoopingEnabled",
+        "value": true
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.create",
+      "args": {
+        "parent": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\Forest",
+        "type": "RandomSequenceContainer",
+        "name": "Night_Bed",
+        "onNameConflict": "fail",
+        "@RandomOrSequence": 0,
+        "@PlayMechanismStepOrContinuous": 0
+      }
+    },
+    {
+      "uri": "ak.wwise.core.audio.import",
+      "args": {
+        "importOperation": "createNew",
+        "default": {
+          "importLanguage": "SFX"
+        },
+        "imports": [
+          {
+            "audioFile": "sfx/ambience/night/background/night background-01.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\Forest\\Night_Bed\\<Sound SFX>night_background_01_1"
+          },
+          {
+            "audioFile": "sfx/ambience/night/background/night background-02.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\Forest\\Night_Bed\\<Sound SFX>night_background_02_2"
+          },
+          {
+            "audioFile": "sfx/ambience/night/background/night background.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\Forest\\Night_Bed\\<Sound SFX>night_background_3"
+          }
+        ]
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.setProperty",
+      "args": {
+        "object": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\Forest\\Night_Bed\\night_background_01_1",
+        "property": "IsLoopingEnabled",
+        "value": true
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.setProperty",
+      "args": {
+        "object": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\Forest\\Night_Bed\\night_background_02_2",
+        "property": "IsLoopingEnabled",
+        "value": true
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.setProperty",
+      "args": {
+        "object": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\Forest\\Night_Bed\\night_background_3",
+        "property": "IsLoopingEnabled",
+        "value": true
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.create",
+      "args": {
+        "parent": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\Forest",
+        "type": "RandomSequenceContainer",
+        "name": "Rain_Bed",
+        "onNameConflict": "fail",
+        "@RandomOrSequence": 0,
+        "@PlayMechanismStepOrContinuous": 0
+      }
+    },
+    {
+      "uri": "ak.wwise.core.audio.import",
+      "args": {
+        "importOperation": "createNew",
+        "default": {
+          "importLanguage": "SFX"
+        },
+        "imports": [
+          {
+            "audioFile": "sfx/ambience/rainnight/background/background-01.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\Forest\\Rain_Bed\\<Sound SFX>background_01_1"
+          },
+          {
+            "audioFile": "sfx/ambience/rainnight/background/background-02.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\Forest\\Rain_Bed\\<Sound SFX>background_02_2"
+          },
+          {
+            "audioFile": "sfx/ambience/rainnight/background/background.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\Forest\\Rain_Bed\\<Sound SFX>background_3"
+          }
+        ]
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.setProperty",
+      "args": {
+        "object": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\Forest\\Rain_Bed\\background_01_1",
+        "property": "IsLoopingEnabled",
+        "value": true
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.setProperty",
+      "args": {
+        "object": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\Forest\\Rain_Bed\\background_02_2",
+        "property": "IsLoopingEnabled",
+        "value": true
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.setProperty",
+      "args": {
+        "object": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\Forest\\Rain_Bed\\background_3",
+        "property": "IsLoopingEnabled",
+        "value": true
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.create",
+      "args": {
+        "parent": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\Forest",
+        "type": "RandomSequenceContainer",
+        "name": "Rain_Heavy",
+        "onNameConflict": "fail",
+        "@RandomOrSequence": 0,
+        "@PlayMechanismStepOrContinuous": 0
+      }
+    },
+    {
+      "uri": "ak.wwise.core.audio.import",
+      "args": {
+        "importOperation": "createNew",
+        "default": {
+          "importLanguage": "SFX"
+        },
+        "imports": [
+          {
+            "audioFile": "sfx/ambience/rainnight/rainbackground/rainbackground-01.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\Forest\\Rain_Heavy\\<Sound SFX>rainbackground_01_1"
+          },
+          {
+            "audioFile": "sfx/ambience/rainnight/rainbackground/rainbackground.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\Forest\\Rain_Heavy\\<Sound SFX>rainbackground_2"
+          }
+        ]
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.setProperty",
+      "args": {
+        "object": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\Forest\\Rain_Heavy\\rainbackground_01_1",
+        "property": "IsLoopingEnabled",
+        "value": true
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.setProperty",
+      "args": {
+        "object": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\Forest\\Rain_Heavy\\rainbackground_2",
+        "property": "IsLoopingEnabled",
+        "value": true
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.create",
+      "args": {
+        "parent": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\SnowMountain",
+        "type": "RandomSequenceContainer",
+        "name": "Snow_Wind",
+        "onNameConflict": "fail",
+        "@RandomOrSequence": 0,
+        "@PlayMechanismStepOrContinuous": 0
+      }
+    },
+    {
+      "uri": "ak.wwise.core.audio.import",
+      "args": {
+        "importOperation": "createNew",
+        "default": {
+          "importLanguage": "SFX"
+        },
+        "imports": [
+          {
+            "audioFile": "sfx/ambience/snow/background/background-01.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\SnowMountain\\Snow_Wind\\<Sound SFX>background_01_1"
+          },
+          {
+            "audioFile": "sfx/ambience/snow/background/background-02.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\SnowMountain\\Snow_Wind\\<Sound SFX>background_02_2"
+          },
+          {
+            "audioFile": "sfx/ambience/snow/background/background-03.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\SnowMountain\\Snow_Wind\\<Sound SFX>background_03_3"
+          },
+          {
+            "audioFile": "sfx/ambience/snow/background/background.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\SnowMountain\\Snow_Wind\\<Sound SFX>background_4"
+          }
+        ]
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.setProperty",
+      "args": {
+        "object": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\SnowMountain\\Snow_Wind\\background_01_1",
+        "property": "IsLoopingEnabled",
+        "value": true
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.setProperty",
+      "args": {
+        "object": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\SnowMountain\\Snow_Wind\\background_02_2",
+        "property": "IsLoopingEnabled",
+        "value": true
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.setProperty",
+      "args": {
+        "object": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\SnowMountain\\Snow_Wind\\background_03_3",
+        "property": "IsLoopingEnabled",
+        "value": true
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.setProperty",
+      "args": {
+        "object": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\SnowMountain\\Snow_Wind\\background_4",
+        "property": "IsLoopingEnabled",
+        "value": true
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.create",
+      "args": {
+        "parent": "\\Actor-Mixer Hierarchy\\Vesper_W11",
+        "type": "RandomSequenceContainer",
+        "name": "Lake_Ambience",
+        "onNameConflict": "fail",
+        "@RandomOrSequence": 0,
+        "@PlayMechanismStepOrContinuous": 0
+      }
+    },
+    {
+      "uri": "ak.wwise.core.audio.import",
+      "args": {
+        "importOperation": "createNew",
+        "default": {
+          "importLanguage": "SFX"
+        },
+        "imports": [
+          {
+            "audioFile": "sfx/ambience/morning/object/ojriver.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Lake_Ambience\\<Sound SFX>ojriver_1"
+          }
+        ]
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.setProperty",
+      "args": {
+        "object": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Lake_Ambience\\ojriver_1",
+        "property": "IsLoopingEnabled",
+        "value": true
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.create",
+      "args": {
+        "parent": "\\Actor-Mixer Hierarchy\\Vesper_W11",
+        "type": "ActorMixer",
+        "name": "Source_Library",
+        "onNameConflict": "fail"
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.create",
+      "args": {
+        "parent": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library",
+        "type": "RandomSequenceContainer",
+        "name": "ambience_morning_random_one_shot_bird",
+        "onNameConflict": "fail",
+        "@RandomOrSequence": 0,
+        "@PlayMechanismStepOrContinuous": 0
+      }
+    },
+    {
+      "uri": "ak.wwise.core.audio.import",
+      "args": {
+        "importOperation": "createNew",
+        "default": {
+          "importLanguage": "SFX"
+        },
+        "imports": [
+          {
+            "audioFile": "sfx/ambience/morning/random one shot/bird/rdbird-01.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_morning_random_one_shot_bird\\<Sound SFX>rdbird_01_1"
+          },
+          {
+            "audioFile": "sfx/ambience/morning/random one shot/bird/rdbird-02.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_morning_random_one_shot_bird\\<Sound SFX>rdbird_02_2"
+          },
+          {
+            "audioFile": "sfx/ambience/morning/random one shot/bird/rdbird-03.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_morning_random_one_shot_bird\\<Sound SFX>rdbird_03_3"
+          },
+          {
+            "audioFile": "sfx/ambience/morning/random one shot/bird/rdbird.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_morning_random_one_shot_bird\\<Sound SFX>rdbird_4"
+          }
+        ]
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.create",
+      "args": {
+        "parent": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library",
+        "type": "RandomSequenceContainer",
+        "name": "ambience_morning_random_one_shot_bug",
+        "onNameConflict": "fail",
+        "@RandomOrSequence": 0,
+        "@PlayMechanismStepOrContinuous": 0
+      }
+    },
+    {
+      "uri": "ak.wwise.core.audio.import",
+      "args": {
+        "importOperation": "createNew",
+        "default": {
+          "importLanguage": "SFX"
+        },
+        "imports": [
+          {
+            "audioFile": "sfx/ambience/morning/random one shot/bug/rdbug-01.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_morning_random_one_shot_bug\\<Sound SFX>rdbug_01_1"
+          },
+          {
+            "audioFile": "sfx/ambience/morning/random one shot/bug/rdbug.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_morning_random_one_shot_bug\\<Sound SFX>rdbug_2"
+          }
+        ]
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.create",
+      "args": {
+        "parent": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library",
+        "type": "RandomSequenceContainer",
+        "name": "ambience_morning_random_one_shot_grass",
+        "onNameConflict": "fail",
+        "@RandomOrSequence": 0,
+        "@PlayMechanismStepOrContinuous": 0
+      }
+    },
+    {
+      "uri": "ak.wwise.core.audio.import",
+      "args": {
+        "importOperation": "createNew",
+        "default": {
+          "importLanguage": "SFX"
+        },
+        "imports": [
+          {
+            "audioFile": "sfx/ambience/morning/random one shot/grass/rdgrass-01.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_morning_random_one_shot_grass\\<Sound SFX>rdgrass_01_1"
+          },
+          {
+            "audioFile": "sfx/ambience/morning/random one shot/grass/rdgrass.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_morning_random_one_shot_grass\\<Sound SFX>rdgrass_2"
+          }
+        ]
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.create",
+      "args": {
+        "parent": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library",
+        "type": "RandomSequenceContainer",
+        "name": "ambience_morning_random_one_shot_wind",
+        "onNameConflict": "fail",
+        "@RandomOrSequence": 0,
+        "@PlayMechanismStepOrContinuous": 0
+      }
+    },
+    {
+      "uri": "ak.wwise.core.audio.import",
+      "args": {
+        "importOperation": "createNew",
+        "default": {
+          "importLanguage": "SFX"
+        },
+        "imports": [
+          {
+            "audioFile": "sfx/ambience/morning/random one shot/wind/rdwind1.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_morning_random_one_shot_wind\\<Sound SFX>rdwind1_1"
+          },
+          {
+            "audioFile": "sfx/ambience/morning/random one shot/wind/rdwind2.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_morning_random_one_shot_wind\\<Sound SFX>rdwind2_2"
+          },
+          {
+            "audioFile": "sfx/ambience/morning/random one shot/wind/rdwind3.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_morning_random_one_shot_wind\\<Sound SFX>rdwind3_3"
+          }
+        ]
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.create",
+      "args": {
+        "parent": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library",
+        "type": "RandomSequenceContainer",
+        "name": "ambience_night_oneshot_bug",
+        "onNameConflict": "fail",
+        "@RandomOrSequence": 0,
+        "@PlayMechanismStepOrContinuous": 0
+      }
+    },
+    {
+      "uri": "ak.wwise.core.audio.import",
+      "args": {
+        "importOperation": "createNew",
+        "default": {
+          "importLanguage": "SFX"
+        },
+        "imports": [
+          {
+            "audioFile": "sfx/ambience/night/oneshot/bug/rdbug-01.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_night_oneshot_bug\\<Sound SFX>rdbug_01_1"
+          },
+          {
+            "audioFile": "sfx/ambience/night/oneshot/bug/rdbug-02.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_night_oneshot_bug\\<Sound SFX>rdbug_02_2"
+          },
+          {
+            "audioFile": "sfx/ambience/night/oneshot/bug/rdbug.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_night_oneshot_bug\\<Sound SFX>rdbug_3"
+          }
+        ]
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.create",
+      "args": {
+        "parent": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library",
+        "type": "RandomSequenceContainer",
+        "name": "ambience_night_oneshot_owl",
+        "onNameConflict": "fail",
+        "@RandomOrSequence": 0,
+        "@PlayMechanismStepOrContinuous": 0
+      }
+    },
+    {
+      "uri": "ak.wwise.core.audio.import",
+      "args": {
+        "importOperation": "createNew",
+        "default": {
+          "importLanguage": "SFX"
+        },
+        "imports": [
+          {
+            "audioFile": "sfx/ambience/night/oneshot/owl/rdowl-01.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_night_oneshot_owl\\<Sound SFX>rdowl_01_1"
+          },
+          {
+            "audioFile": "sfx/ambience/night/oneshot/owl/rdowl.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_night_oneshot_owl\\<Sound SFX>rdowl_2"
+          }
+        ]
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.create",
+      "args": {
+        "parent": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library",
+        "type": "RandomSequenceContainer",
+        "name": "ambience_night_oneshot_wolf",
+        "onNameConflict": "fail",
+        "@RandomOrSequence": 0,
+        "@PlayMechanismStepOrContinuous": 0
+      }
+    },
+    {
+      "uri": "ak.wwise.core.audio.import",
+      "args": {
+        "importOperation": "createNew",
+        "default": {
+          "importLanguage": "SFX"
+        },
+        "imports": [
+          {
+            "audioFile": "sfx/ambience/night/oneshot/wolf/rdwolf.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_night_oneshot_wolf\\<Sound SFX>rdwolf_1"
+          }
+        ]
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.create",
+      "args": {
+        "parent": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library",
+        "type": "RandomSequenceContainer",
+        "name": "ambience_rainnight_random_randomgrass",
+        "onNameConflict": "fail",
+        "@RandomOrSequence": 0,
+        "@PlayMechanismStepOrContinuous": 0
+      }
+    },
+    {
+      "uri": "ak.wwise.core.audio.import",
+      "args": {
+        "importOperation": "createNew",
+        "default": {
+          "importLanguage": "SFX"
+        },
+        "imports": [
+          {
+            "audioFile": "sfx/ambience/rainnight/random/randomgrass/rdgrass-01.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_rainnight_random_randomgrass\\<Sound SFX>rdgrass_01_1"
+          },
+          {
+            "audioFile": "sfx/ambience/rainnight/random/randomgrass/rdgrass-02.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_rainnight_random_randomgrass\\<Sound SFX>rdgrass_02_2"
+          },
+          {
+            "audioFile": "sfx/ambience/rainnight/random/randomgrass/rdgrass.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_rainnight_random_randomgrass\\<Sound SFX>rdgrass_3"
+          }
+        ]
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.create",
+      "args": {
+        "parent": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library",
+        "type": "RandomSequenceContainer",
+        "name": "ambience_rainnight_random_randomwind",
+        "onNameConflict": "fail",
+        "@RandomOrSequence": 0,
+        "@PlayMechanismStepOrContinuous": 0
+      }
+    },
+    {
+      "uri": "ak.wwise.core.audio.import",
+      "args": {
+        "importOperation": "createNew",
+        "default": {
+          "importLanguage": "SFX"
+        },
+        "imports": [
+          {
+            "audioFile": "sfx/ambience/rainnight/random/randomwind/rdwind-01.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_rainnight_random_randomwind\\<Sound SFX>rdwind_01_1"
+          },
+          {
+            "audioFile": "sfx/ambience/rainnight/random/randomwind/rdwind-02.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_rainnight_random_randomwind\\<Sound SFX>rdwind_02_2"
+          },
+          {
+            "audioFile": "sfx/ambience/rainnight/random/randomwind/rdwind.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_rainnight_random_randomwind\\<Sound SFX>rdwind_3"
+          }
+        ]
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.create",
+      "args": {
+        "parent": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library",
+        "type": "RandomSequenceContainer",
+        "name": "ambience_rainnight_thunder",
+        "onNameConflict": "fail",
+        "@RandomOrSequence": 0,
+        "@PlayMechanismStepOrContinuous": 0
+      }
+    },
+    {
+      "uri": "ak.wwise.core.audio.import",
+      "args": {
+        "importOperation": "createNew",
+        "default": {
+          "importLanguage": "SFX"
+        },
+        "imports": [
+          {
+            "audioFile": "sfx/ambience/rainnight/thunder/thunder-01.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_rainnight_thunder\\<Sound SFX>thunder_01_1"
+          },
+          {
+            "audioFile": "sfx/ambience/rainnight/thunder/thunder-02.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_rainnight_thunder\\<Sound SFX>thunder_02_2"
+          },
+          {
+            "audioFile": "sfx/ambience/rainnight/thunder/thunder.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_rainnight_thunder\\<Sound SFX>thunder_3"
+          }
+        ]
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.create",
+      "args": {
+        "parent": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library",
+        "type": "RandomSequenceContainer",
+        "name": "ambience_snow_random_randomwind",
+        "onNameConflict": "fail",
+        "@RandomOrSequence": 0,
+        "@PlayMechanismStepOrContinuous": 0
+      }
+    },
+    {
+      "uri": "ak.wwise.core.audio.import",
+      "args": {
+        "importOperation": "createNew",
+        "default": {
+          "importLanguage": "SFX"
+        },
+        "imports": [
+          {
+            "audioFile": "sfx/ambience/snow/random/randomwind/rdwind-01.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_snow_random_randomwind\\<Sound SFX>rdwind_01_1"
+          },
+          {
+            "audioFile": "sfx/ambience/snow/random/randomwind/rdwind-02.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_snow_random_randomwind\\<Sound SFX>rdwind_02_2"
+          },
+          {
+            "audioFile": "sfx/ambience/snow/random/randomwind/rdwind-03.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_snow_random_randomwind\\<Sound SFX>rdwind_03_3"
+          },
+          {
+            "audioFile": "sfx/ambience/snow/random/randomwind/rdwind-04.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_snow_random_randomwind\\<Sound SFX>rdwind_04_4"
+          },
+          {
+            "audioFile": "sfx/ambience/snow/random/randomwind/rdwind-05.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_snow_random_randomwind\\<Sound SFX>rdwind_05_5"
+          },
+          {
+            "audioFile": "sfx/ambience/snow/random/randomwind/rdwind-06.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_snow_random_randomwind\\<Sound SFX>rdwind_06_6"
+          },
+          {
+            "audioFile": "sfx/ambience/snow/random/randomwind/rdwind-07.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_snow_random_randomwind\\<Sound SFX>rdwind_07_7"
+          },
+          {
+            "audioFile": "sfx/ambience/snow/random/randomwind/rdwind.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_snow_random_randomwind\\<Sound SFX>rdwind_8"
+          }
+        ]
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.create",
+      "args": {
+        "parent": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library",
+        "type": "RandomSequenceContainer",
+        "name": "ambience_snow_random_randomwolf",
+        "onNameConflict": "fail",
+        "@RandomOrSequence": 0,
+        "@PlayMechanismStepOrContinuous": 0
+      }
+    },
+    {
+      "uri": "ak.wwise.core.audio.import",
+      "args": {
+        "importOperation": "createNew",
+        "default": {
+          "importLanguage": "SFX"
+        },
+        "imports": [
+          {
+            "audioFile": "sfx/ambience/snow/random/randomwolf/rdwolf.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_snow_random_randomwolf\\<Sound SFX>rdwolf_1"
+          }
+        ]
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.create",
+      "args": {
+        "parent": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library",
+        "type": "RandomSequenceContainer",
+        "name": "footstep_footstep_concreate",
+        "onNameConflict": "fail",
+        "@RandomOrSequence": 0,
+        "@PlayMechanismStepOrContinuous": 0
+      }
+    },
+    {
+      "uri": "ak.wwise.core.audio.import",
+      "args": {
+        "importOperation": "createNew",
+        "default": {
+          "importLanguage": "SFX"
+        },
+        "imports": [
+          {
+            "audioFile": "sfx/footstep/footstep concreate/footstep concreate-01.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\footstep_footstep_concreate\\<Sound SFX>footstep_concreate_01_1"
+          },
+          {
+            "audioFile": "sfx/footstep/footstep concreate/footstep concreate-02.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\footstep_footstep_concreate\\<Sound SFX>footstep_concreate_02_2"
+          },
+          {
+            "audioFile": "sfx/footstep/footstep concreate/footstep concreate-03.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\footstep_footstep_concreate\\<Sound SFX>footstep_concreate_03_3"
+          },
+          {
+            "audioFile": "sfx/footstep/footstep concreate/footstep concreate-04.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\footstep_footstep_concreate\\<Sound SFX>footstep_concreate_04_4"
+          },
+          {
+            "audioFile": "sfx/footstep/footstep concreate/footstep concreate-05.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\footstep_footstep_concreate\\<Sound SFX>footstep_concreate_05_5"
+          },
+          {
+            "audioFile": "sfx/footstep/footstep concreate/footstep concreate.wav",
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\footstep_footstep_concreate\\<Sound SFX>footstep_concreate_6"
+          }
+        ]
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.create",
+      "args": {
+        "parent": "\\Events\\Vesper_W11",
+        "type": "Event",
+        "name": "Play_Footstep",
+        "onNameConflict": "fail"
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.create",
+      "args": {
+        "parent": "\\Events\\Vesper_W11\\Play_Footstep",
+        "type": "Action",
+        "name": "Play",
+        "onNameConflict": "fail",
+        "@ActionType": 1,
+        "@Target": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps"
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.create",
+      "args": {
+        "parent": "\\Events\\Vesper_W11",
+        "type": "Event",
+        "name": "Play_World_Ambience",
+        "onNameConflict": "fail"
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.create",
+      "args": {
+        "parent": "\\Events\\Vesper_W11\\Play_World_Ambience",
+        "type": "Action",
+        "name": "Play",
+        "onNameConflict": "fail",
+        "@ActionType": 1,
+        "@Target": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience"
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.create",
+      "args": {
+        "parent": "\\Events\\Vesper_W11",
+        "type": "Event",
+        "name": "Play_Lake_Ambience",
+        "onNameConflict": "fail"
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.create",
+      "args": {
+        "parent": "\\Events\\Vesper_W11\\Play_Lake_Ambience",
+        "type": "Action",
+        "name": "Play",
+        "onNameConflict": "fail",
+        "@ActionType": 1,
+        "@Target": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Lake_Ambience"
+      }
+    },
+    {
+      "uri": "ak.wwise.core.object.create",
+      "args": {
+        "parent": "\\SoundBanks\\Vesper_W11",
+        "type": "SoundBank",
+        "name": "Vesper_W11",
+        "onNameConflict": "fail"
+      }
+    },
+    {
+      "uri": "ak.wwise.core.soundbank.setInclusions",
+      "args": {
+        "soundbank": "\\SoundBanks\\Vesper_W11\\Vesper_W11",
+        "operation": "add",
+        "inclusions": [
+          {
+            "object": "\\Events\\Vesper_W11\\Play_Footstep",
+            "filter": [
+              "events",
+              "structures",
+              "media"
+            ]
+          },
+          {
+            "object": "\\Events\\Vesper_W11\\Play_World_Ambience",
+            "filter": [
+              "events",
+              "structures",
+              "media"
+            ]
+          },
+          {
+            "object": "\\Events\\Vesper_W11\\Play_Lake_Ambience",
+            "filter": [
+              "events",
+              "structures",
+              "media"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "media": [
+    {
+      "source": "sfx/footstep/footstep wet/footstep wet.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Mud\\<Sound SFX>footstep_wet_1",
+      "loop": false,
+      "sha256": "80bd119669b912e8863cef32c7e38022fe33057197dfd75c7b6f7fecefa50c73"
+    },
+    {
+      "source": "sfx/footstep/footstep wet/footstep wet2.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Mud\\<Sound SFX>footstep_wet2_2",
+      "loop": false,
+      "sha256": "958f23dba2dc027e778b1ecc142fd636b4be737fec115d86bca9ddb9cb8d1924"
+    },
+    {
+      "source": "sfx/footstep/footstep wet/footstep wet3.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Mud\\<Sound SFX>footstep_wet3_3",
+      "loop": false,
+      "sha256": "7a8270921fadd819a2be3bed9da2a96385cefcca299ba67274ec283d22bf29e6"
+    },
+    {
+      "source": "sfx/footstep/footstep wet/footstep wet4.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Mud\\<Sound SFX>footstep_wet4_4",
+      "loop": false,
+      "sha256": "c8c65790b579d9bf79eb06da8ff794801537e015c265feebbf4bfe25db0f22db"
+    },
+    {
+      "source": "sfx/footstep/footstep gravel/footstep gravel-01.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Gravel\\<Sound SFX>footstep_gravel_01_1",
+      "loop": false,
+      "sha256": "28d826de602933169435f8a5c81b1bd8ad4206c46a82b9da59de7963f9270a1d"
+    },
+    {
+      "source": "sfx/footstep/footstep gravel/footstep gravel-02.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Gravel\\<Sound SFX>footstep_gravel_02_2",
+      "loop": false,
+      "sha256": "d9c146a77b0991b9fa1287d1b6244a6ed97917f78cafd920d0c4bb432b5ca741"
+    },
+    {
+      "source": "sfx/footstep/footstep gravel/footstep gravel-03.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Gravel\\<Sound SFX>footstep_gravel_03_3",
+      "loop": false,
+      "sha256": "da7c73e2617162a77c995f3607fbe6905085ce7b5f3e3150dbc5ec9fd13b7a82"
+    },
+    {
+      "source": "sfx/footstep/footstep gravel/footstep gravel-04.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Gravel\\<Sound SFX>footstep_gravel_04_4",
+      "loop": false,
+      "sha256": "3a6a25d0dfbce4aef2a118cf9f9a548ab9c80d2b780e62bda436501b3f94ea0b"
+    },
+    {
+      "source": "sfx/footstep/footstep gravel/footstep gravel.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Gravel\\<Sound SFX>footstep_gravel_5",
+      "loop": false,
+      "sha256": "e2a7d6f22b5874c524c1e20d8a9f264610d20010285a416f3eb32d22bd732dd2"
+    },
+    {
+      "source": "sfx/footstep/footstep snow/footstep snow-01.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Snow\\<Sound SFX>footstep_snow_01_1",
+      "loop": false,
+      "sha256": "f7623d1406222b7eb11e4c857771558023119f3756f3986b388b9b75982759ff"
+    },
+    {
+      "source": "sfx/footstep/footstep snow/footstep snow-02.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Snow\\<Sound SFX>footstep_snow_02_2",
+      "loop": false,
+      "sha256": "101275339ff9f0d36a085d5de39aafff4d98cf90ec042aeefd95e4d8b9d0fe0d"
+    },
+    {
+      "source": "sfx/footstep/footstep snow/footstep snow-03.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Snow\\<Sound SFX>footstep_snow_03_3",
+      "loop": false,
+      "sha256": "9df96119a4f0e136d3f5b3b83135434761b6ab75de70b5a763fd88b50eedd82b"
+    },
+    {
+      "source": "sfx/footstep/footstep snow/footstep snow.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Snow\\<Sound SFX>footstep_snow_4",
+      "loop": false,
+      "sha256": "748c0ad0f56831f62e3f7c7be128ff38e8353816af17fb8ad9c4dbf349b6b1f4"
+    },
+    {
+      "source": "sfx/footstep/footstep rock/footstep rock.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Rock\\<Sound SFX>footstep_rock_1",
+      "loop": false,
+      "sha256": "2c3a0ba9ba25560502e69cf18b49eab9b3b0a3909454818f1b16bbde7540b609"
+    },
+    {
+      "source": "sfx/footstep/footstep rock/footstep rock2.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Rock\\<Sound SFX>footstep_rock2_2",
+      "loop": false,
+      "sha256": "0f13803e3bfa03cb4e15abbe203be5942f7fd94ff58d02449d0b9307569be471"
+    },
+    {
+      "source": "sfx/footstep/footstep rock/footstep rock3.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Rock\\<Sound SFX>footstep_rock3_3",
+      "loop": false,
+      "sha256": "bee02d50183ce438de1d6d39d20913ff78972e75e3374c067aaded04254a124c"
+    },
+    {
+      "source": "sfx/footstep/footstep rock/footstep rock4.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Rock\\<Sound SFX>footstep_rock4_4",
+      "loop": false,
+      "sha256": "c5bf8d5d983b25d6facb25a9194dcee5c5645709814f2b8b13b330c6ded8abc4"
+    },
+    {
+      "source": "sfx/footstep/footstep rock/footstep rock5.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Rock\\<Sound SFX>footstep_rock5_5",
+      "loop": false,
+      "sha256": "236bbe218ab8897c193eb3f1960c4d746e550091e466ae6c61614f647d34fb91"
+    },
+    {
+      "source": "sfx/footstep/footstep rock/footstep rock6.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Rock\\<Sound SFX>footstep_rock6_6",
+      "loop": false,
+      "sha256": "7d8dfe61ea46bd6a12ae342ab09560b315681c77348d838ca69a07170c99560e"
+    },
+    {
+      "source": "sfx/footstep/footstep rock/footstep rock7.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Rock\\<Sound SFX>footstep_rock7_7",
+      "loop": false,
+      "sha256": "68ec051ee61d2129fbd16541b6f9791630d5f66de0a1012c3a50fb2b6c4a3e54"
+    },
+    {
+      "source": "sfx/ambience/morning/background/wind1.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\Forest\\Day_Wind\\<Sound SFX>wind1_1",
+      "loop": true,
+      "sha256": "95c72b1d7212bc0a9cc7ba99dcc4c5ba232b39b7249ca286b05274027501145d"
+    },
+    {
+      "source": "sfx/ambience/morning/background/wind2.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\Forest\\Day_Wind\\<Sound SFX>wind2_2",
+      "loop": true,
+      "sha256": "a5c02ed596349b46e7da9044070eb3f14fdabd7af79447aac6bda1f2e2574335"
+    },
+    {
+      "source": "sfx/ambience/night/background/night background-01.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\Forest\\Night_Bed\\<Sound SFX>night_background_01_1",
+      "loop": true,
+      "sha256": "c0694658031f4c93a10aa7c5307be5ae92f0ef5d5d977f23c949868ca2bc0b1d"
+    },
+    {
+      "source": "sfx/ambience/night/background/night background-02.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\Forest\\Night_Bed\\<Sound SFX>night_background_02_2",
+      "loop": true,
+      "sha256": "9f5b48fc9cc87a44eed1d9e93b82c20587c764249ad9a06caed59db780a09189"
+    },
+    {
+      "source": "sfx/ambience/night/background/night background.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\Forest\\Night_Bed\\<Sound SFX>night_background_3",
+      "loop": true,
+      "sha256": "bd0ecf946227bf0e47baf540fa1217a76dede63146691da404a467c48dce7159"
+    },
+    {
+      "source": "sfx/ambience/rainnight/background/background-01.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\Forest\\Rain_Bed\\<Sound SFX>background_01_1",
+      "loop": true,
+      "sha256": "eb92d23338f3438d24f3a2ad1ba7c61a4ff86a4acf6ebdf78e717410b45e237d"
+    },
+    {
+      "source": "sfx/ambience/rainnight/background/background-02.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\Forest\\Rain_Bed\\<Sound SFX>background_02_2",
+      "loop": true,
+      "sha256": "85e783c55daf232a4eb54aa0539fd0c523864ab94a65b8b4de3c2b0740cc219d"
+    },
+    {
+      "source": "sfx/ambience/rainnight/background/background.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\Forest\\Rain_Bed\\<Sound SFX>background_3",
+      "loop": true,
+      "sha256": "8da8b27274f6cf2aad1af75a9a5e93bd6c50b9702d893dc75afbb25a509069da"
+    },
+    {
+      "source": "sfx/ambience/rainnight/rainbackground/rainbackground-01.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\Forest\\Rain_Heavy\\<Sound SFX>rainbackground_01_1",
+      "loop": true,
+      "sha256": "3d9d9a3df7cef6c382fc34eca0c4bd873039f939aa5d827c95b500aa60c131d6"
+    },
+    {
+      "source": "sfx/ambience/rainnight/rainbackground/rainbackground.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\Forest\\Rain_Heavy\\<Sound SFX>rainbackground_2",
+      "loop": true,
+      "sha256": "773296a05f344740b769d05809af9d19bc4ff0a8dd584cc8e267ee8d934dcc13"
+    },
+    {
+      "source": "sfx/ambience/snow/background/background-01.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\SnowMountain\\Snow_Wind\\<Sound SFX>background_01_1",
+      "loop": true,
+      "sha256": "119475a22fb1724540cc511ecbeb1dd96d5402ae7173bd4e262085560c63efd4"
+    },
+    {
+      "source": "sfx/ambience/snow/background/background-02.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\SnowMountain\\Snow_Wind\\<Sound SFX>background_02_2",
+      "loop": true,
+      "sha256": "82d5f938e3f7a565a8ce1ab6729f6fd58a4775b2460020afd3370827f422c9cc"
+    },
+    {
+      "source": "sfx/ambience/snow/background/background-03.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\SnowMountain\\Snow_Wind\\<Sound SFX>background_03_3",
+      "loop": true,
+      "sha256": "7f949dec2ef31c162b9f170e2d3d8a5c090e185a5aa2b12a0a33ea7cfa09cdfa"
+    },
+    {
+      "source": "sfx/ambience/snow/background/background.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\SnowMountain\\Snow_Wind\\<Sound SFX>background_4",
+      "loop": true,
+      "sha256": "cf7a6f9d7f8087b2ab96c021d92308fb3440272c966f7dc92979567438fbf46e"
+    },
+    {
+      "source": "sfx/ambience/morning/object/ojriver.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Lake_Ambience\\<Sound SFX>ojriver_1",
+      "loop": true,
+      "sha256": "ddf2318336d17d164d908a22b45b79af1cfa5da540e7373af520148f3cf75622"
+    },
+    {
+      "source": "sfx/ambience/morning/random one shot/bird/rdbird-01.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_morning_random_one_shot_bird\\<Sound SFX>rdbird_01_1",
+      "loop": false,
+      "sha256": "ecb6487cc4d13c50a1817e8c1dd42835cf90ac92eae88abce2a3a23c12ff26fa"
+    },
+    {
+      "source": "sfx/ambience/morning/random one shot/bird/rdbird-02.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_morning_random_one_shot_bird\\<Sound SFX>rdbird_02_2",
+      "loop": false,
+      "sha256": "0d89127c4e130d227bfdfa7436fddbc6593ffbee6d4593411a93890a5ad533d4"
+    },
+    {
+      "source": "sfx/ambience/morning/random one shot/bird/rdbird-03.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_morning_random_one_shot_bird\\<Sound SFX>rdbird_03_3",
+      "loop": false,
+      "sha256": "efc8b247cfce4b792a8d4a4aada630c91a2c565d56dfd3bb1b693b9a45216733"
+    },
+    {
+      "source": "sfx/ambience/morning/random one shot/bird/rdbird.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_morning_random_one_shot_bird\\<Sound SFX>rdbird_4",
+      "loop": false,
+      "sha256": "19dd15c61d4eaddde141908abc6f535d2742146937cd5a8e9ebde8bbc6b66d60"
+    },
+    {
+      "source": "sfx/ambience/morning/random one shot/bug/rdbug-01.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_morning_random_one_shot_bug\\<Sound SFX>rdbug_01_1",
+      "loop": false,
+      "sha256": "6225069e6ee863f6043a984676e4aa1d9c56119c50dcb51a752ac9d5de97ded8"
+    },
+    {
+      "source": "sfx/ambience/morning/random one shot/bug/rdbug.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_morning_random_one_shot_bug\\<Sound SFX>rdbug_2",
+      "loop": false,
+      "sha256": "3001aa836aa78ab298e08253905775b75f4518eb1900bab8d649dee1ff8ef988"
+    },
+    {
+      "source": "sfx/ambience/morning/random one shot/grass/rdgrass-01.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_morning_random_one_shot_grass\\<Sound SFX>rdgrass_01_1",
+      "loop": false,
+      "sha256": "7d6100c74222f5eb1d2718e6dfa31b1c3e8e5c0f9af00e647118ba9e7fd3364d"
+    },
+    {
+      "source": "sfx/ambience/morning/random one shot/grass/rdgrass.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_morning_random_one_shot_grass\\<Sound SFX>rdgrass_2",
+      "loop": false,
+      "sha256": "7275f2f274ae9a91141105716e91628e626d519edeaa2a9f37c0401fadd05188"
+    },
+    {
+      "source": "sfx/ambience/morning/random one shot/wind/rdwind1.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_morning_random_one_shot_wind\\<Sound SFX>rdwind1_1",
+      "loop": false,
+      "sha256": "d0a73436efaba51ccdf37104020baef378bf60f13bd7491678fc516fa21189b4"
+    },
+    {
+      "source": "sfx/ambience/morning/random one shot/wind/rdwind2.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_morning_random_one_shot_wind\\<Sound SFX>rdwind2_2",
+      "loop": false,
+      "sha256": "076affa8ee022a196cea9d64480e911d624b6bfe4e9b56f28d634df07ff49f07"
+    },
+    {
+      "source": "sfx/ambience/morning/random one shot/wind/rdwind3.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_morning_random_one_shot_wind\\<Sound SFX>rdwind3_3",
+      "loop": false,
+      "sha256": "507930196fe6b081805dd1c8bb92e158e93faab0170e103e68ae835f7b7dd00d"
+    },
+    {
+      "source": "sfx/ambience/night/oneshot/bug/rdbug-01.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_night_oneshot_bug\\<Sound SFX>rdbug_01_1",
+      "loop": false,
+      "sha256": "c3011b4181178bf90a45416a893b760bacf4b5ce0b71d3e6cad6c4bcd8ae2556"
+    },
+    {
+      "source": "sfx/ambience/night/oneshot/bug/rdbug-02.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_night_oneshot_bug\\<Sound SFX>rdbug_02_2",
+      "loop": false,
+      "sha256": "62ec3e3f2d32f2b97b174d16b76ca50587a355f3127dbed3e42eea716c57af61"
+    },
+    {
+      "source": "sfx/ambience/night/oneshot/bug/rdbug.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_night_oneshot_bug\\<Sound SFX>rdbug_3",
+      "loop": false,
+      "sha256": "6d1d9437007e791ce69bc60134422821ab7b3c9b72ce5da97247b8b593f431a8"
+    },
+    {
+      "source": "sfx/ambience/night/oneshot/owl/rdowl-01.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_night_oneshot_owl\\<Sound SFX>rdowl_01_1",
+      "loop": false,
+      "sha256": "651156a5bfd4c526ec530aaf0e1c5b372be73c8cfe477ea566bb40ca61a4e123"
+    },
+    {
+      "source": "sfx/ambience/night/oneshot/owl/rdowl.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_night_oneshot_owl\\<Sound SFX>rdowl_2",
+      "loop": false,
+      "sha256": "88c9d92bbf356c813012f6f94c01cb6df7ff2da359edcc679899732cf194ebef"
+    },
+    {
+      "source": "sfx/ambience/night/oneshot/wolf/rdwolf.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_night_oneshot_wolf\\<Sound SFX>rdwolf_1",
+      "loop": false,
+      "sha256": "d14e86bc1cb89fb187af1a96ef04d5d121ce2e29cfd7b249a76bd6fc572ab09f"
+    },
+    {
+      "source": "sfx/ambience/rainnight/random/randomgrass/rdgrass-01.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_rainnight_random_randomgrass\\<Sound SFX>rdgrass_01_1",
+      "loop": false,
+      "sha256": "321d17901af0442a602f5b79e579e963bd7d7927c201a5f0e31cf46babf0aebe"
+    },
+    {
+      "source": "sfx/ambience/rainnight/random/randomgrass/rdgrass-02.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_rainnight_random_randomgrass\\<Sound SFX>rdgrass_02_2",
+      "loop": false,
+      "sha256": "61b34509e00e2a6fc058d3e22a91a4be3b98e0288ced671492a77bc4377c6ec6"
+    },
+    {
+      "source": "sfx/ambience/rainnight/random/randomgrass/rdgrass.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_rainnight_random_randomgrass\\<Sound SFX>rdgrass_3",
+      "loop": false,
+      "sha256": "007c09ab34d6c1a50f311a72e05a745f3ce8779c5ee76cda7a0360be14bd43fe"
+    },
+    {
+      "source": "sfx/ambience/rainnight/random/randomwind/rdwind-01.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_rainnight_random_randomwind\\<Sound SFX>rdwind_01_1",
+      "loop": false,
+      "sha256": "abcf4c8cb6bab17d612629cd4b1770c76e37ca1856efad8cbcf9695d660a3703"
+    },
+    {
+      "source": "sfx/ambience/rainnight/random/randomwind/rdwind-02.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_rainnight_random_randomwind\\<Sound SFX>rdwind_02_2",
+      "loop": false,
+      "sha256": "2fab93c9ec2d9288e2c7b1565808b2a8bba0ff5f4c903cae1919a340611e93dd"
+    },
+    {
+      "source": "sfx/ambience/rainnight/random/randomwind/rdwind.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_rainnight_random_randomwind\\<Sound SFX>rdwind_3",
+      "loop": false,
+      "sha256": "693dbb6979dee44f8061f732802403852162c3a781757e2bb78774325f8a4d8d"
+    },
+    {
+      "source": "sfx/ambience/rainnight/thunder/thunder-01.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_rainnight_thunder\\<Sound SFX>thunder_01_1",
+      "loop": false,
+      "sha256": "48a03ff24d82eed9b530f1bc0d070bbc8538b721ca268dcb60a5287ba8ccbb19"
+    },
+    {
+      "source": "sfx/ambience/rainnight/thunder/thunder-02.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_rainnight_thunder\\<Sound SFX>thunder_02_2",
+      "loop": false,
+      "sha256": "89051970259b6c1b7054574982333ad92a0915124cb236b885f2879de266b2c4"
+    },
+    {
+      "source": "sfx/ambience/rainnight/thunder/thunder.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_rainnight_thunder\\<Sound SFX>thunder_3",
+      "loop": false,
+      "sha256": "ba9e903e4f51c2652301da3a8a491cdaf8ea1eb8108e9b586d9281d9ae06b710"
+    },
+    {
+      "source": "sfx/ambience/snow/random/randomwind/rdwind-01.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_snow_random_randomwind\\<Sound SFX>rdwind_01_1",
+      "loop": false,
+      "sha256": "366a7c1c5e4320abfc333341859fa8d46ca66c947f6975236cc767ba680638f1"
+    },
+    {
+      "source": "sfx/ambience/snow/random/randomwind/rdwind-02.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_snow_random_randomwind\\<Sound SFX>rdwind_02_2",
+      "loop": false,
+      "sha256": "c57c34644a8e4578e15e50053131702af49edfe901cc30efaf2c5007fcb4dbbd"
+    },
+    {
+      "source": "sfx/ambience/snow/random/randomwind/rdwind-03.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_snow_random_randomwind\\<Sound SFX>rdwind_03_3",
+      "loop": false,
+      "sha256": "971890d41b59f41f1bbf7b50026c46f9171ecb1e8454fd5868c0b0efd06cd7d8"
+    },
+    {
+      "source": "sfx/ambience/snow/random/randomwind/rdwind-04.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_snow_random_randomwind\\<Sound SFX>rdwind_04_4",
+      "loop": false,
+      "sha256": "6b13556cd043695eb19243073e033d88197df5f6eed73215337c0ce5374120b2"
+    },
+    {
+      "source": "sfx/ambience/snow/random/randomwind/rdwind-05.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_snow_random_randomwind\\<Sound SFX>rdwind_05_5",
+      "loop": false,
+      "sha256": "ff421708fe875c268c316b6a18d4f1d8ca863a62ff4fb4174e20b276356379e4"
+    },
+    {
+      "source": "sfx/ambience/snow/random/randomwind/rdwind-06.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_snow_random_randomwind\\<Sound SFX>rdwind_06_6",
+      "loop": false,
+      "sha256": "1180910163af10170f1936185a858e0bce88a5577ac3db47bfad468bf144f878"
+    },
+    {
+      "source": "sfx/ambience/snow/random/randomwind/rdwind-07.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_snow_random_randomwind\\<Sound SFX>rdwind_07_7",
+      "loop": false,
+      "sha256": "0036983e293537323573bdd2082e6e7d0728a3c7f929566419fc7e6c2e03f62d"
+    },
+    {
+      "source": "sfx/ambience/snow/random/randomwind/rdwind.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_snow_random_randomwind\\<Sound SFX>rdwind_8",
+      "loop": false,
+      "sha256": "286989a650829d5846d52d4115c8e53917e23fdad0993373fc03bd98e8fd9c1f"
+    },
+    {
+      "source": "sfx/ambience/snow/random/randomwolf/rdwolf.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_snow_random_randomwolf\\<Sound SFX>rdwolf_1",
+      "loop": false,
+      "sha256": "47a63c8c74d07287d1360f10f6276e43cdf66c2caf6d2eaa71199f8debf9f781"
+    },
+    {
+      "source": "sfx/footstep/footstep concreate/footstep concreate-01.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\footstep_footstep_concreate\\<Sound SFX>footstep_concreate_01_1",
+      "loop": false,
+      "sha256": "186ae952e921f540667e47f673c766424002ae58d1b2c4e4997f3ad2e27b18c3"
+    },
+    {
+      "source": "sfx/footstep/footstep concreate/footstep concreate-02.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\footstep_footstep_concreate\\<Sound SFX>footstep_concreate_02_2",
+      "loop": false,
+      "sha256": "e5c1b545c9081fa66fbfd723b393110827baf94d08252b9c638e2a6068ecd255"
+    },
+    {
+      "source": "sfx/footstep/footstep concreate/footstep concreate-03.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\footstep_footstep_concreate\\<Sound SFX>footstep_concreate_03_3",
+      "loop": false,
+      "sha256": "23f70fe3a0f80046c49e2a5d44ddd6840e855999931dd42858f8c0c3bf00f5ea"
+    },
+    {
+      "source": "sfx/footstep/footstep concreate/footstep concreate-04.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\footstep_footstep_concreate\\<Sound SFX>footstep_concreate_04_4",
+      "loop": false,
+      "sha256": "331d2e8199d689db914e6d1b0822ade4e94c3e798ecf3acbfce1d75e78f2c56e"
+    },
+    {
+      "source": "sfx/footstep/footstep concreate/footstep concreate-05.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\footstep_footstep_concreate\\<Sound SFX>footstep_concreate_05_5",
+      "loop": false,
+      "sha256": "f337d2f597a0133b6bfe3418f8cf66d909c6cc3c27df1d55cfc34abfd632156a"
+    },
+    {
+      "source": "sfx/footstep/footstep concreate/footstep concreate.wav",
+      "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\footstep_footstep_concreate\\<Sound SFX>footstep_concreate_6",
+      "loop": false,
+      "sha256": "4805be801720ec255824ad57fca368786e510e36fa8738c5f68cf0dfe9814059"
+    }
+  ],
+  "rtpc_volume_curves_to_author": [
+    {
+      "object": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\Forest\\Day_Wind",
+      "rtpc": "TimeOfDay",
+      "property": "Volume",
+      "points": [
+        [
+          0,
+          -96
+        ],
+        [
+          5,
+          -24
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          16,
+          0
+        ],
+        [
+          19,
+          -96
+        ],
+        [
+          24,
+          -96
+        ]
+      ]
+    },
+    {
+      "object": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\Forest\\Night_Bed",
+      "rtpc": "TimeOfDay",
+      "property": "Volume",
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          8,
+          -96
+        ],
+        [
+          17,
+          -96
+        ],
+        [
+          20,
+          0
+        ],
+        [
+          24,
+          0
+        ]
+      ]
+    },
+    {
+      "object": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\Forest\\Rain_Bed",
+      "rtpc": "RainIntensity",
+      "property": "Volume",
+      "points": [
+        [
+          0,
+          -96
+        ],
+        [
+          0.15,
+          -24
+        ],
+        [
+          0.5,
+          -8
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "object": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\Forest\\Rain_Heavy",
+      "rtpc": "RainIntensity",
+      "property": "Volume",
+      "points": [
+        [
+          0,
+          -96
+        ],
+        [
+          0.4,
+          -96
+        ],
+        [
+          0.7,
+          -10
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "object": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\SnowMountain\\Snow_Wind",
+      "rtpc": null,
+      "property": "Volume",
+      "points": []
+    }
+  ],
+  "authoring_required": [
+    "Set World_Ambience Switch Container to Continuous; set Forest/SnowMountain crossfades to 1.5 seconds.",
+    "Apply each RTPC Volume curve listed in rtpc_volume_curves_to_author before auditioning the combined mix.",
+    "Set Lake_Ambience to game-defined 3D positioning and attenuation: 0m=0dB, 8m=-3dB, 20m=-18dB, 40m=-96dB.",
+    "Audition wet footstep files as the proposed Mud mapping. Concrete files are imported to Source_Library, not mixed into Rock.",
+    "Author sparse random bird/bug/owl/wind cues from Source_Library, with TimeOfDay/RainIntensity gating. Thunder needs visual flash synchronization if enabled.",
+    "Generate Mac/Windows banks, copy all generated media and metadata into Unity Assets/StreamingAssets/Audio/GeneratedSoundBanks/<platform>, and configure Wwise's bank base path accordingly.",
+    "Validate actual Unity SDK compilation, Wwise Profiler values, audible playback and Windows player before claiming completion."
+  ]
+}
