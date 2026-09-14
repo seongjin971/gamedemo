@@ -1,0 +1,7 @@
+{
+  "scope": "W11 scene transitive YAML and importer GUID references, all asset GUID duplicates; compiled code checked by Unity separately",
+  "assetMetadataFiles": 6310,
+  "reachableAssets": 223,
+  "missingReferences": [],
+  "duplicateAssetGuids": {}
+}

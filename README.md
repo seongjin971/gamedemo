@@ -4,19 +4,19 @@
 
 **처음 받았다면 [개발 인계 문서](HANDOFF.md)를 먼저 읽으세요.** 최신 상태는 [CHECKPOINT.md](CHECKPOINT.md) 최상단에 있습니다.
 
-Wwise 2025.1.10 연결과 Unity 실행 검사 59개, 실제 오디오 출력 검증 결과는 [Wwise 작업 인계](WWISE_HANDOFF.md)에 있습니다. 기존 W10 장면도 보존돼 있습니다.
+Wwise 2025.1.10 연결과 Unity 실행 검사 88개, 실제 오디오 출력 검증 결과는 [Wwise 작업 인계](WWISE_HANDOFF.md)에 있습니다. 기존 W10 장면도 보존돼 있습니다.
 
 ![W10 실제 실행 화면](Migration/Evidence/Expansion/WeatherWorld/W10/input-qa-visible/start-qe-help.png)
 
 ## Unity 실행
 
-1. Git LFS를 설치하고 `git clone https://github.com/seongjin971/gamedemo.git`로 받은 뒤 저장소에서 `git lfs pull`을 실행합니다.
+1. Git LFS를 설치하고 `git clone --branch feat/wwise-w11 https://github.com/seongjin971/gamedemo.git`로 받은 뒤 저장소에서 `git lfs pull`을 실행합니다.
 2. Unity Hub에서 **Unity 6000.5.7f1**로 **`Unity/Vesper`** 폴더를 엽니다.
 3. **`Assets/Vesper/Scenes/Expansion/VesperWeatherWorld_W11.unity`**를 열고 Play를 누릅니다.
 
 클릭 이동 · **Q/E** 좌우 회전 · 휠 확대/축소 · **Shift** 달리기 · **R** 시작점 복귀. 자세한 조작은 [PLAY_WEATHER.md](PLAY_WEATHER.md)에 있습니다.
 
-실행 파일은 Git에 포함되지 않습니다. W11 Windows 빌드는 Unity 메뉴 **Vesper > W11 Audio > 4 Build Windows Player**를 사용합니다. 기존 기본 빌드 목록과 W10은 변경하지 않습니다.
+실행 파일은 Git에 포함되지 않습니다. W11 Windows 빌드는 Unity 메뉴 **Vesper > W11 Audio > 4 Build Windows Player**를 사용합니다. 기본 빌드 목록도 W11 장면을 가리킵니다. 기존 W10 장면은 보존돼 있습니다.
 
 ## 저장소 구성
 
@@ -43,6 +43,8 @@ python -B Tools/export_github.py --output .github-export/gamedemo-20260913
 기존 추적 파일에도 제외 규칙을 적용하고 복사본의 SHA-256을 확인합니다. 원본 `.git` 이력과 로컬 보관 파일은 보존됩니다. 실제 업로드 방법과 기존 저장소 갱신 시 주의점은 [HANDOFF.md](HANDOFF.md#github-재업로드용-폴더-만들기)에 있습니다.
 
 ## 검증 기록
+
+[W11 전수 점검 결과](Audio/AUDIT.md): Unity 실행 88개, 빌드 설정 9개, Python 회귀 검사 16개 및 브라우저 테스트 5개 통과. Windows 재빌드와 네 종류 발소리의 개별 출력도 확인했습니다.
 
 [W10 보고서](Migration/Evidence/Expansion/WeatherWorld/W10/REPORT.md)에 기존 빌드·입력 검사와 실제 실행 화면이 있습니다. 과거 환경의 검증이며, 새 PC의 Unity 가져오기·Play·직접 조작 및 사용자 최종 수락은 별도로 확인합니다.
 

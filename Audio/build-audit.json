@@ -1,0 +1,14 @@
+{
+    "checks": [
+        "PASS bank platform: StandaloneWindows",
+        "PASS bank platform: StandaloneWindows64",
+        "PASS bank platform: StandaloneOSX",
+        "PASS unsupported Linux target is rejected",
+        "PASS complete Mac banks",
+        "PASS complete Windows banks",
+        "PASS missing bank is rejected",
+        "PASS empty, invalid and truncated banks are rejected",
+        "PASS default build scene is W11"
+    ],
+    "windowsBuildSucceeded": true
+}

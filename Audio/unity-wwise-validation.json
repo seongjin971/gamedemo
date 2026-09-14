@@ -56,20 +56,49 @@
         "PASS Walk route accepted: ",
         "PASS Walk arrived on supported ground: ",
         "PASS Walk produces bounded foot contacts",
-        "PASS Moving contacts use the abbey stone surface",
+        "PASS Moving contacts use Rock surface",
         "PASS Left/right contacts occur at distinct instants",
         "PASS Stopping movement stops contact emission",
         "PASS Run route accepted: ",
         "PASS Run arrived on supported ground: ",
         "PASS Movement actually entered the run animation",
         "PASS Run produces bounded foot contacts",
-        "PASS Moving contacts use the abbey stone surface",
+        "PASS Moving contacts use Rock surface",
         "PASS Left/right contacts occur at distinct instants",
         "PASS Stopping movement stops contact emission",
         "PASS Walking/running contacts post Wwise events without errors",
         "PASS Only one world ambience event remains after region changes and R reset",
         "PASS Disabling the bridge stops its world ambience",
-        "PASS Re-enabling reloads banks and starts each ambience once"
+        "PASS Re-enabling reloads banks and starts each ambience once",
+        "PASS Isolated Gravel footstep capture starts",
+        "PASS Walk route accepted: ",
+        "PASS Walk arrived on supported ground: ",
+        "PASS Walk produces bounded foot contacts",
+        "PASS Moving contacts use Gravel surface",
+        "PASS Left/right contacts occur at distinct instants",
+        "PASS Stopping movement stops contact emission",
+        "PASS Isolated Rock footstep capture starts",
+        "PASS Walk route accepted: ",
+        "PASS Walk arrived on supported ground: ",
+        "PASS Walk produces bounded foot contacts",
+        "PASS Moving contacts use Rock surface",
+        "PASS Left/right contacts occur at distinct instants",
+        "PASS Stopping movement stops contact emission",
+        "PASS Isolated Mud footstep capture starts",
+        "PASS Walk route accepted: ",
+        "PASS Walk arrived on supported ground: ",
+        "PASS Walk produces bounded foot contacts",
+        "PASS Moving contacts use Mud surface",
+        "PASS Left/right contacts occur at distinct instants",
+        "PASS Stopping movement stops contact emission",
+        "PASS Isolated Snow footstep capture starts",
+        "PASS Walk route accepted: ",
+        "PASS Walk arrived on supported ground: ",
+        "PASS Walk produces bounded foot contacts",
+        "PASS Moving contacts use Snow surface",
+        "PASS Left/right contacts occur at distinct instants",
+        "PASS Stopping movement stops contact emission",
+        "PASS Ambience resumes after isolated footstep checks"
     ],
     "errors": [],
     "samples": [
@@ -127,10 +156,10 @@
             "safetyStops": 0,
             "lastReject": "",
             "contactTimes": [
-                4.766666889190674,
-                5.400000095367432,
-                6.0,
-                6.633333206176758
+                285.2833251953125,
+                285.9166564941406,
+                286.51666259765627,
+                287.1499938964844
             ]
         },
         {
@@ -145,17 +174,96 @@
             "safetyStops": 0,
             "lastReject": "",
             "contactTimes": [
-                7.900000095367432,
-                8.466666221618653,
-                8.933333396911621,
-                9.366666793823243,
-                9.816666603088379,
-                10.266666412353516
+                301.0333251953125,
+                301.6000061035156,
+                302.0666809082031,
+                302.5,
+                302.95001220703127,
+                303.3999938964844
+            ]
+        },
+        {
+            "running": false,
+            "finalPosition": {
+                "x": 0.0,
+                "y": 0.800000011920929,
+                "z": -5.9782843589782719
+            },
+            "target": 6.0,
+            "maxRunBlend": 0.0,
+            "safetyStops": 0,
+            "lastReject": "",
+            "contactTimes": [
+                341.6166687011719,
+                342.25,
+                342.8500061035156,
+                343.48333740234377
+            ]
+        },
+        {
+            "running": false,
+            "finalPosition": {
+                "x": 0.0,
+                "y": 1.9000000953674317,
+                "z": -27.97736167907715
+            },
+            "target": 28.0,
+            "maxRunBlend": 0.0,
+            "safetyStops": 0,
+            "lastReject": "",
+            "contactTimes": [
+                426.25,
+                426.8833312988281,
+                427.48333740234377,
+                428.1166687011719
+            ]
+        },
+        {
+            "running": false,
+            "finalPosition": {
+                "x": 0.0,
+                "y": 2.200000047683716,
+                "z": -155.97622680664063
+            },
+            "target": 156.0,
+            "maxRunBlend": 0.0,
+            "safetyStops": 0,
+            "lastReject": "",
+            "contactTimes": [
+                510.8999938964844,
+                511.54998779296877,
+                512.1333618164063,
+                512.7666625976563,
+                513.3833618164063
+            ]
+        },
+        {
+            "running": false,
+            "finalPosition": {
+                "x": 0.0,
+                "y": 13.84598159790039,
+                "z": -323.9807434082031
+            },
+            "target": 324.0,
+            "maxRunBlend": 0.0,
+            "safetyStops": 0,
+            "lastReject": "",
+            "contactTimes": [
+                544.6333618164063,
+                545.2333374023438,
+                545.8666381835938,
+                546.4500122070313
             ]
         }
     ],
     "wwiseReady": true,
-    "wwiseEvents": 14,
+    "wwiseEvents": 33,
     "wwiseErrors": 0,
-    "outputCapture": "/Users/ai/gamedemo/Audio/unity-wwise-validation.wav"
+    "outputCapture": "/Users/ai/gamedemo/Audio/unity-wwise-validation.wav",
+    "footstepCaptures": [
+        "/Users/ai/gamedemo/Audio/unity-wwise-validation-footsteps-Gravel.wav",
+        "/Users/ai/gamedemo/Audio/unity-wwise-validation-footsteps-Rock.wav",
+        "/Users/ai/gamedemo/Audio/unity-wwise-validation-footsteps-Mud.wav",
+        "/Users/ai/gamedemo/Audio/unity-wwise-validation-footsteps-Snow.wav"
+    ]
 }

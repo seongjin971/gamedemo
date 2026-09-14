@@ -2,9 +2,9 @@
 
 **WWISE_CONNECTED / ENGINE_OUTPUT_VERIFIED.** Unity 6000.5.7f1 + Wwise 2025.1.10.9233 + Unity Integration 2025.1.10.4304. W11 장면에서 바닥별 발소리, 시간·비 강도별 환경음, 숲/설산 전환, 호수 3D 감쇠를 연결했습니다. Unity Hub의 Vesper → W11 장면 → Play로 실행합니다.
 
-실제 SDK Play Mode 검사 59개 PASS, 오류 0, 정상 종료. Wwise 엔진 출력 WAV의 비무음 신호와 클리핑 0을 확인했습니다. 사람의 최종 청음·Windows 실행은 별도입니다. 음원 76개 원본 해시 일치, Mac/Windows Bank에 활성 음원 67개 포함. 천둥·concrete는 라이브러리에 보관합니다.
+실제 SDK Play Mode 검사 88개 PASS, 오류 0, 정상 종료. Wwise 엔진 출력 WAV 및 네 종류 발소리 개별 녹음의 비무음 신호와 클리핑 0을 확인했습니다. 사람의 최종 청음·Windows 실행은 별도입니다. 음원 76개 원본 해시 일치, Mac/Windows Bank에 활성 음원 67개 포함. 천둥·concrete는 라이브러리에 보관합니다.
 
-[실행·작업 인계](WWISE_HANDOFF.md), [검증 상태](Audio/validation.json), [실행 검사](Audio/unity-wwise-validation.json), [출력 신호](Audio/output-signal-validation.json). 로컬 브랜치 `feat/wwise-w11`; 원격 업로드 전입니다. 아래 기록은 이전 W10 이하의 보존 기록입니다.
+[실행·작업 인계](WWISE_HANDOFF.md), [검증 상태](Audio/validation.json), [실행 검사](Audio/unity-wwise-validation.json), [출력 신호](Audio/output-signal-validation.json). 브랜치 `feat/wwise-w11`에 Wwise 연결과 후속 전수 점검 수정을 함께 관리합니다. [점검 결과](Audio/AUDIT.md): 자산 참조, 빌드 설정 검사 9개, Python 검사 16개, 브라우저 검사 5개 및 Windows 재빌드 통과. 아래 기록은 이전 W10 이하의 보존 기록입니다.
 
 ---
 

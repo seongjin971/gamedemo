@@ -1,4 +1,4 @@
-> **W11 업데이트:** 현재 브랜치의 Wwise 연결·실행 방법은 [WWISE_HANDOFF.md](WWISE_HANDOFF.md)를 보세요. 아래는 W10 기준의 기존 개발 인계 기록입니다.
+> **현재 시작점은 W11입니다.** `feat/wwise-w11` 브랜치를 받은 뒤 Unity Hub에서 `Unity/Vesper`를 열고 `VesperWeatherWorld_W11.unity`를 실행하세요. Wwise 연결·Windows 빌드는 [WWISE_HANDOFF.md](WWISE_HANDOFF.md), 최신 검증은 [전수 점검 결과](Audio/AUDIT.md)를 보세요. 기본 빌드 장면도 W11입니다. 아래는 W10 당시의 보존 기록입니다.
 
 # VESPER 개발 인계 — 2026-09-13
 

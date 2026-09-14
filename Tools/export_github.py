@@ -45,6 +45,26 @@ def select_files():
     return selected, sorted(ignored)
 
 
+def unity_requirements(sources):
+    """Check importable assets; native bundle contents are not separate Unity assets."""
+    candidates = [source.relative_to(ROOT).as_posix() for source in sources]
+    ignored = set(filter(None, git(
+        "check-ignore", "--no-index", "--stdin", "-z",
+        data=("\0".join(candidates) + "\0").encode("utf-8"), allowed=(0, 1)
+    ).decode("utf-8").split("\0")))
+    required = set()
+    for source, rel in zip(sources, candidates):
+        if rel in ignored:
+            continue
+        if source.is_file():
+            required.add(rel)
+        if rel.startswith("Unity/Vesper/Assets/") and source.suffix != ".meta":
+            parents = source.relative_to(ROOT / "Unity/Vesper/Assets").parents
+            if not any(p.suffix in {".bundle", ".framework"} for p in parents):
+                required.add(rel + ".meta")
+    return required
+
+
 def preflight(selected):
     paths = set(selected)
     required = [
@@ -53,21 +73,17 @@ def preflight(selected):
         "Unity/Vesper/Packages/packages-lock.json",
         "Unity/Vesper/ProjectSettings/ProjectVersion.txt",
         "Unity/Vesper/Assets/Vesper/Scenes/Expansion/VesperWeatherWorld_W10.unity",
+        "Unity/Vesper/Assets/Vesper/Scenes/Expansion/VesperWeatherWorld_W11.unity",
+        "Audio/VesperAudio/VesperAudio.wproj", "WWISE_HANDOFF.md",
     ]
     missing = [p for p in required if p not in paths]
     # Preserve the complete Unity project, including previous scenes and GUIDs.
-    unity_files = []
+    unity_sources = []
     for folder in ("Assets", "Packages", "ProjectSettings"):
-        for source in (ROOT / "Unity/Vesper" / folder).rglob("*"):
-            if source.is_file():
-                rel = source.relative_to(ROOT).as_posix()
-                unity_files.append(rel)
-                if rel not in paths:
-                    missing.append(rel)
-            if folder == "Assets" and source.suffix != ".meta":
-                rel = source.relative_to(ROOT).as_posix() + ".meta"
-                if rel not in paths:
-                    missing.append(rel)
+        unity_sources.extend((ROOT / "Unity/Vesper" / folder).rglob("*"))
+    missing.extend(sorted(unity_requirements(unity_sources) - paths))
+    unity_files = [p for p in selected if any(p.startswith("Unity/Vesper/" + folder + "/")
+                                           for folder in ("Assets", "Packages", "ProjectSettings"))]
     if missing:
         raise RuntimeError("Required files or Unity metadata missing: " + repr(missing[:20]))
     large = [p for p in selected if (ROOT / p).stat().st_size > 100 * 1024 * 1024]

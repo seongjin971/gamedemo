@@ -1,8 +1,8 @@
 # Wwise W11 실행 및 작업 기록
 
-**Wwise 2025.1.10.9233을 Unity 6000.5.7f1에 연결했습니다.** 실제 Unity Play Mode에서 Bank 로딩·게임 동기화·발소리 이벤트·재시작 검사 59개가 통과했고, Wwise 출력 WAV에 무음이 아닌 신호가 기록됐습니다. 사람이 듣고 진행하는 최종 음량·음색 조정은 별도입니다.
+**Wwise 2025.1.10.9233을 Unity 6000.5.7f1에 연결했습니다.** 실제 Unity Play Mode에서 Bank 로딩·게임 동기화·발소리 이벤트·재시작 검사 88개가 통과했고, Wwise 출력 WAV에 무음이 아닌 신호가 기록됐습니다. 사람이 듣고 진행하는 최종 음량·음색 조정은 별도입니다.
 
-작업 브랜치는 `feat/wwise-w11`, 기준은 W10의 `8fc50948e7725cd54ff14159beb0137b52a6589f`입니다. GitHub에는 아직 올리지 않았습니다.
+작업 브랜치는 `feat/wwise-w11`, 기준은 W10의 `8fc50948e7725cd54ff14159beb0137b52a6589f`입니다. Wwise 연결 커밋은 `15159e3`이며, 후속 전수 점검 수정도 같은 브랜치에 포함합니다. 자세한 내용은 [점검 결과](Audio/AUDIT.md)에 정리했습니다.
 
 ## 실행
 
@@ -38,11 +38,11 @@
 
 - SDK 활성 상태의 실제 Unity 프로젝트 컴파일·장면 참조 검사 통과.
 - Metal Toolchain 설치 후 일반 Editor 화면에서 W11 장면 렌더링과 `Wwise connected`, 대기 중 이벤트 2개·오류 0을 확인했습니다. [실행 화면](Audio/wwise-editor-verified.png).
-- Unity Play Mode **59개 검사 통과, 실패 0, 오류 0, 프로세스 종료 코드 0**. 엔진에서 RTPC/State/Switch 값을 다시 읽어 확인하고, 보행·달리기 이벤트와 비활성화/재활성화 후 중복 재생을 검사했습니다.
+- Unity Play Mode **88개 검사 통과, 실패 0, 오류 0, 프로세스 종료 코드 0**. 엔진에서 RTPC/State/Switch 값을 다시 읽어 확인하고, 보행·달리기 이벤트와 비활성화/재활성화 후 중복 재생을 검사했습니다. 후속 검사는 그래픽 없이 수행했으며 일반 Editor 렌더링은 위의 이전 확인 기록입니다.
 - Wwise에서 Mac/Windows SoundBank 생성: **경고 0, 오류 0**. 플랫폼별 `Init.bnk`, `Vesper_W11.bnk`와 메타데이터가 `Assets/StreamingAssets/Audio/GeneratedSoundBanks/`에 있습니다. 67개 음원은 Bank 내부에 포함되므로 별도 WEM 복사가 필요하지 않습니다.
-- Wwise 엔진 출력 캡처: 48kHz 스테레오, 약 14.43초, peak -29.61dBFS, 무음 아님, 클리핑 0. 이 수치는 사람의 청음 평가를 대신하지 않습니다.
-- Windows x64 Mono 빌드 성공, 종료 코드 0. 실행 파일·Wwise 네이티브 DLL과 Windows Bank 포함 및 Bank 해시 일치를 확인했습니다. Mac에서 사용하는 빌드 도구의 미지원 레이 트레이싱 셰이더 경고는 있었으며 Windows에서 직접 실행한 결과는 아닙니다.
-- authoring 계획 회귀 검사 **8개 통과**. 초기 구현의 Random/Sequence 및 Step/Continuous 열거값 오류와 같은 이름의 WAV 충돌을 수정했습니다.
+- Wwise 엔진 출력 캡처: 48kHz 스테레오, 약 6.57초, peak -28.62dBFS, 무음 아님, 클리핑 0. Gravel/Mud/Rock/Snow 발소리도 환경음 없이 따로 녹음하여 모두 비무음·클리핑 0을 확인했습니다. 이 수치는 사람의 청음 평가를 대신하지 않습니다.
+- 빌드 설정 검사 9개와 Windows x64 Mono 재빌드 성공, 종료 코드 0. 실행 파일·Wwise 네이티브 DLL과 Windows Bank 포함 및 Bank 해시 일치를 확인했습니다. Windows에서 직접 실행한 결과는 아닙니다.
+- Python 회귀 검사 **16개 통과**: authoring 계획 8개, Unity 전달 파일 검사 4개, 출력 캡처 판정 4개. 초기 구현의 Random/Sequence 및 Step/Continuous 열거값 오류와 같은 이름의 WAV 충돌을 수정했습니다.
 - 기존 엔진 독립 상태 검사 40개와 최초 Unity 상태 검사 42개도 이전 작업에서 통과했습니다.
 
 보고서: [전체 상태](Audio/validation.json), [Unity/Wwise 실행 검사](Audio/unity-wwise-validation.json), [음원·Bank·출력 신호 검사](Audio/output-signal-validation.json), [Bank 생성 로그](Audio/soundbank-generation.json). 실제 캡처 파일은 로컬 `Audio/unity-wwise-validation.wav`에 있습니다.
@@ -54,17 +54,22 @@
 이미 작성된 Wwise 프로젝트가 포함돼 있으므로 일반 실행에는 아래 authoring 명령이 필요하지 않습니다. 최초 scaffold 생성 도구는 이름 충돌을 만나면 중단하며 기존 작업을 덮어쓰지 않습니다. 가져오기는 WwiseConsole에서 하나의 undo 작업으로 묶이지 않으므로, 새 프로젝트에 적용하고 실패하면 저장 상태를 확인합니다.
 
 ```sh
+# 음향 편집용 Python 환경은 각 PC에서 한 번 준비 (macOS 예시)
+python3 -m venv .wwise-venv
+source .wwise-venv/bin/activate
+python -m pip install waapi-client==0.8
+
 # WAAPI를 쓰려면 먼저 실행하고 다른 터미널에서 아래 명령을 사용
 '/Applications/Audiokinetic/Wwise_2025.1.10.9233/Wwise.app/Contents/Tools/WwiseConsole.sh' \
   waapi-server "$PWD/Audio/VesperAudio/VesperAudio.wproj" --wamp-port 8085 --http-port 8095
 
 # 새 프로젝트의 scaffold가 필요할 때만 사용
 python3 Tools/prepare_wwise.py
-/tmp/vesper-waapi-env/bin/python Tools/prepare_wwise.py \
+python Tools/prepare_wwise.py \
   --apply --project Audio/VesperAudio/VesperAudio.wproj --url ws://127.0.0.1:8085/waapi
 
 # 명시한 프로젝트가 WAAPI 서버에 열려 있을 때 W11 음향 설정 적용
-/tmp/vesper-waapi-env/bin/python Tools/author_wwise_mix.py \
+python Tools/author_wwise_mix.py \
   --project Audio/VesperAudio/VesperAudio.wproj --url ws://127.0.0.1:8085/waapi
 
 # Wwise 프로젝트를 저장한 뒤 Bank 생성
@@ -72,7 +77,6 @@ python3 Tools/prepare_wwise.py
   generate-soundbank "$PWD/Audio/VesperAudio/VesperAudio.wproj" --platform Mac Windows
 
 python3 -m unittest discover -s Tools/tests -p 'test_*.py' -v
-python3 Tools/validate_wwise_assets.py --capture Audio/unity-wwise-validation.wav
 
 # Unity를 닫고 실행
 '/Applications/Unity/Hub/Editor/6000.5.7f1/Unity.app/Contents/MacOS/Unity' \
@@ -81,9 +85,13 @@ python3 Tools/validate_wwise_assets.py --capture Audio/unity-wwise-validation.wa
   -executeMethod Vesper.Expansion.WeatherW11.Editor.WeatherW11Setup.ValidateStateBatch \
   -w11StateQA "$PWD/Audio/unity-wwise-validation.json" -w11AudioQA \
   -logFile /tmp/vesper-w11-audio-validation.log
+
+# 위 Unity 검사에서 새로 생성한 캡처 측정
+python3 Tools/validate_wwise_assets.py --capture Audio/unity-wwise-validation.wav \
+  --footstep-captures Audio/unity-wwise-validation-footsteps-*.wav
 ```
 
-Windows 빌드는 Unity 메뉴 `Vesper > W11 Audio > 4 Build Windows Player`를 사용합니다. 결과 경로는 `Unity/Vesper/Builds/VesperWeatherWorld_W11/VesperAudio.exe`입니다. Windows에서의 실행·청음은 이 Mac에서 검증하지 않았습니다.
+기본 Build Profiles의 활성 장면도 W11로 설정했습니다. Mac/Windows 이외 대상과 누락·빈 파일·잘린 Bank는 빌드 전에 오류로 처리합니다. Windows 빌드는 Unity 메뉴 `Vesper > W11 Audio > 4 Build Windows Player`를 사용합니다. 결과 경로는 `Unity/Vesper/Builds/VesperWeatherWorld_W11/VesperAudio.exe`입니다. Windows에서의 실행·청음은 이 Mac에서 검증하지 않았습니다.
 
 Wwise 설치 시 생성된 빈 기본 프로젝트와 설치 ZIP은 `/Users/ai/.local/share/VesperWwiseBackups/20260914/integration`에 보관했습니다. 실제 연결은 저장소의 `Audio/VesperAudio`를 사용합니다. SDK 설명서·디버그 심볼·authoring 캐시는 로컬에 두고 Git에서는 제외합니다.
 

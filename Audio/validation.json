@@ -1,5 +1,5 @@
 {
-  "recorded_at_utc": "2026-09-14T02:08:04.236101+00:00",
+  "recorded_at_utc": "2026-09-14T07:10:19.605887+00:00",
   "base_commit": "8fc50948e7725cd54ff14159beb0137b52a6589f",
   "status": "WWISE_CONNECTED_AUDIO_OUTPUT_VERIFIED_WINDOWS_BUILT",
   "unity_editor_installed": "6000.5.7f1",
@@ -24,8 +24,6 @@
   "soundbanks_generated": true,
   "audible_playback_verified": false,
   "windows_player_built": true,
-  "remote_write_permission": "READ",
-  "pushed": false,
   "unity_license_active": true,
   "unity_play_mode": {
     "exit_code": 0,
@@ -45,14 +43,14 @@
   "unity_hub_project_registered": true,
   "wwise_play_mode": {
     "exit_code": 0,
-    "checks_passed": 59,
+    "checks_passed": 88,
     "failures": 0,
     "errors": 0,
     "report": "Audio/unity-wwise-validation.json",
     "output_signal_report": "Audio/output-signal-validation.json",
     "engine_output_verified": true,
     "human_listening_verified": false,
-    "graphics": "Normal Unity Editor with Metal; sound assertions passed. Shader toolchain installed afterward for editor rendering."
+    "graphics": "Null (batchmode -nographics -wwiseEnableWithNoGraphics); earlier rendered Editor check preserved separately"
   },
   "audible_playback_note": "Non-silent Wwise engine output was recorded and measured; human listening review has not been performed.",
   "windows_runtime_verified": false,
@@ -72,5 +70,18 @@
     "errors": 0,
     "screenshot": "Audio/wwise-editor-verified.png",
     "metal_toolchain": "17C7003j"
-  }
+  },
+  "integration_commit": "15159e362f9827597b6350d6a7aff72a2beb777c",
+  "python_regression_tests_passed": 16,
+  "build_guard_checks_passed": 9,
+  "browser_tests_passed": 5,
+  "browser_build_passed": true,
+  "isolated_footstep_outputs_verified": [
+    "Gravel",
+    "Mud",
+    "Rock",
+    "Snow"
+  ],
+  "project_reference_audit": "Audio/project-reference-audit.json",
+  "audit_report": "Audio/AUDIT.md"
 }

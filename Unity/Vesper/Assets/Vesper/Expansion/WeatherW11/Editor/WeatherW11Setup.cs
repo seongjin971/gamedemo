@@ -123,7 +123,7 @@ namespace Vesper.Expansion.WeatherW11.Editor {
             if (!UnityEngine.Object.FindAnyObjectByType<AkInitializer>()) bridge.gameObject.AddComponent<AkInitializer>();
             foreach (var emitter in new[] { bridge.playerEmitter, bridge.ambienceEmitter, bridge.lakeEmitter, bridge.listener })
                 if (!emitter.GetComponent<AkGameObj>()) emitter.AddComponent<AkGameObj>();
-            foreach (var other in UnityEngine.Object.FindObjectsByType<AkAudioListener>(FindObjectsSortMode.None))
+            foreach (var other in UnityEngine.Object.FindObjectsByType<AkAudioListener>())
                 if (other.gameObject != bridge.listener) UnityEngine.Object.DestroyImmediate(other);
             if (!bridge.listener.GetComponent<AkAudioListener>()) bridge.listener.AddComponent<AkAudioListener>();
 #endif
@@ -131,6 +131,7 @@ namespace Vesper.Expansion.WeatherW11.Editor {
 
         [MenuItem("Vesper/W11 Audio/4 Build Windows Player")]
         public static void BuildWindows() {
+            if (!EditorSceneManager.SaveCurrentModifiedScenesIfUserWantsTo()) return;
             ValidateBanks("Windows");
             if (!BuildPipeline.IsBuildTargetSupported(BuildTargetGroup.Standalone, BuildTarget.StandaloneWindows64))
                 throw new InvalidOperationException("Install Windows Build Support for this Unity Editor.");
@@ -142,6 +143,8 @@ namespace Vesper.Expansion.WeatherW11.Editor {
             if (report.summary.result != BuildResult.Succeeded) throw new InvalidOperationException("W11 build failed: " + report.summary.result);
         }
         public static void ValidateBanks(string platform) {
+            if (platform != "Mac" && platform != "Windows")
+                throw new BuildFailedException("W11 includes Wwise plug-ins and SoundBanks for Mac and Windows only: " + platform);
 #if !VESPER_WWISE
             throw new BuildFailedException("W11 sound build requires the Wwise SDK. The no-SDK editor mode is a state preview only.");
 #else
@@ -149,8 +152,36 @@ namespace Vesper.Expansion.WeatherW11.Editor {
             if (!profile || !profile.Validate(out _)) throw new BuildFailedException("Invalid W11 audio profile.");
             string dir = "Assets/StreamingAssets/Audio/GeneratedSoundBanks/" + platform;
             foreach (var name in new[] { "Init", profile.bankName })
-                if (!File.Exists(dir + "/" + name + ".bnk")) throw new BuildFailedException("Missing bank: " + dir + "/" + name + ".bnk");
+                ValidateBankFile(dir + "/" + name + ".bnk");
 #endif
+        }
+
+        public static string BankPlatform(BuildTarget target) {
+            switch (target) {
+                case BuildTarget.StandaloneWindows:
+                case BuildTarget.StandaloneWindows64: return "Windows";
+                case BuildTarget.StandaloneOSX: return "Mac";
+                default: throw new BuildFailedException("W11 has no Wwise plug-ins or SoundBanks for " + target);
+            }
+        }
+
+        public static void ValidateBankFile(string path) {
+            if (!File.Exists(path)) throw new BuildFailedException("Missing bank: " + path);
+            using (var stream = File.OpenRead(path))
+            using (var reader = new BinaryReader(stream)) {
+                if (stream.Length < 16 || reader.ReadUInt32() != 0x44484B42)
+                    throw new BuildFailedException("Invalid Wwise bank header: " + path);
+                stream.Position = 0;
+                while (stream.Position < stream.Length) {
+                    if (stream.Length - stream.Position < 8)
+                        throw new BuildFailedException("Truncated Wwise bank chunk: " + path);
+                    reader.ReadUInt32();
+                    uint size = reader.ReadUInt32();
+                    if (size > stream.Length - stream.Position)
+                        throw new BuildFailedException("Truncated Wwise bank data: " + path);
+                    stream.Position += size;
+                }
+            }
         }
 
         public static void PrepareBatch() {
@@ -180,13 +211,62 @@ namespace Vesper.Expansion.WeatherW11.Editor {
                 EditorApplication.update += start;
             } catch (Exception e) { Debug.LogException(e); EditorApplication.Exit(1); }
         }
-        public static void ValidateScene() {
-            var scene = SceneManager.GetActiveScene();
+
+        [Serializable] sealed class BuildAudit {
+            public string[] checks;
+            public bool windowsBuildSucceeded;
+        }
+        public static void AuditBuildBatch() {
+            try {
+                EditorSceneManager.OpenScene(ScenePath); ValidateScene();
+                var checks = new System.Collections.Generic.List<string>();
+                foreach (var target in new[] { BuildTarget.StandaloneWindows, BuildTarget.StandaloneWindows64, BuildTarget.StandaloneOSX }) {
+                    string expected = target == BuildTarget.StandaloneOSX ? "Mac" : "Windows";
+                    if (BankPlatform(target) != expected) throw new Exception("Wrong bank platform: " + target);
+                    checks.Add("PASS bank platform: " + target);
+                }
+                RequireBuildRejection(() => BankPlatform(BuildTarget.StandaloneLinux64));
+                checks.Add("PASS unsupported Linux target is rejected");
+                foreach (var platform in new[] { "Mac", "Windows" }) {
+                    ValidateBanks(platform); checks.Add("PASS complete " + platform + " banks");
+                }
+                string temp = Path.Combine(Path.GetTempPath(), "vesper-bank-audit-" + Guid.NewGuid() + ".bnk");
+                try {
+                    RequireBuildRejection(() => ValidateBankFile(temp));
+                    checks.Add("PASS missing bank is rejected");
+                    foreach (var data in new[] {
+                        new byte[0], new byte[16],
+                        new byte[] { 66, 75, 72, 68, 32, 0, 0, 0, 1, 2, 3, 4, 5, 6, 7, 8 }
+                    }) {
+                        File.WriteAllBytes(temp, data);
+                        RequireBuildRejection(() => ValidateBankFile(temp));
+                    }
+                    checks.Add("PASS empty, invalid and truncated banks are rejected");
+                } finally { if (File.Exists(temp)) File.Delete(temp); }
+                var enabled = EditorBuildSettings.scenes.Where(s => s.enabled).ToArray();
+                if (enabled.Length != 1 || enabled[0].path != ScenePath) throw new Exception("Default build scene must be W11.");
+                checks.Add("PASS default build scene is W11");
+                BuildWindows();
+                var audit = new BuildAudit { checks = checks.ToArray(), windowsBuildSucceeded = true };
+                File.WriteAllText(Path.GetFullPath("../../Audio/build-audit.json"), JsonUtility.ToJson(audit, true));
+                Debug.Log("W11 build audit: " + checks.Count + " checks passed; Windows player built.");
+                EditorApplication.Exit(0);
+            } catch (Exception e) { Debug.LogException(e); EditorApplication.Exit(1); }
+        }
+        static void RequireBuildRejection(Action operation) {
+            try { operation(); }
+            catch (BuildFailedException) { return; }
+            throw new Exception("Invalid build input was accepted.");
+        }
+        public static void ValidateScene() { ValidateScene(SceneManager.GetActiveScene()); }
+        public static void ValidateScene(Scene scene) {
             if (scene.path != ScenePath) throw new InvalidOperationException("W11 is not open.");
             var all = scene.GetRootGameObjects().SelectMany(g => g.GetComponentsInChildren<Transform>(true)).ToArray();
             foreach (var t in all) if (GameObjectUtility.GetMonoBehavioursWithMissingScriptCount(t.gameObject) != 0)
                 throw new InvalidOperationException("Missing script: " + t.name);
-            var bridge = UnityEngine.Object.FindAnyObjectByType<WwiseAudioBridge>();
+            var bridges = all.Select(t => t.GetComponent<WwiseAudioBridge>()).Where(b => b).ToArray();
+            if (bridges.Length != 1) throw new InvalidOperationException("W11 requires exactly one audio bridge.");
+            var bridge = bridges[0];
             if (!bridge || !bridge.state || !bridge.footsteps || !bridge.playerEmitter || !bridge.ambienceEmitter || !bridge.lakeEmitter || !bridge.listener)
                 throw new InvalidOperationException("Incomplete audio references.");
             if (!bridge.state.profile || !bridge.state.motor || !bridge.state.environment ||
@@ -197,6 +277,15 @@ namespace Vesper.Expansion.WeatherW11.Editor {
             if (!listener || listener.player != bridge.state.motor.transform || !listener.view)
                 throw new InvalidOperationException("Incomplete listener follow references.");
             if (!bridge.state.profile.Validate(out var error)) throw new InvalidOperationException(error);
+#if VESPER_WWISE
+            var initializers = all.Select(t => t.GetComponent<AkInitializer>()).Where(a => a && a.isActiveAndEnabled).ToArray();
+            var listeners = all.Select(t => t.GetComponent<AkAudioListener>()).Where(a => a && a.isActiveAndEnabled).ToArray();
+            if (initializers.Length != 1 || listeners.Length != 1 || listeners[0].gameObject != bridge.listener)
+                throw new InvalidOperationException("W11 requires one active Wwise initializer and its player listener.");
+            foreach (var emitter in new[] { bridge.playerEmitter, bridge.ambienceEmitter, bridge.lakeEmitter, bridge.listener })
+                if (!emitter.activeInHierarchy || !emitter.TryGetComponent<AkGameObj>(out var akObject) || !akObject.enabled)
+                    throw new InvalidOperationException("Missing or disabled Wwise game object: " + emitter.name);
+#endif
             Debug.Log("W11 scene references validated. Wwise playback is a separate runtime check.");
         }
     }
@@ -205,7 +294,8 @@ namespace Vesper.Expansion.WeatherW11.Editor {
         public int callbackOrder => 0;
         public void OnProcessScene(Scene scene, BuildReport report) {
             if (report == null || scene.path != WeatherW11Setup.ScenePath) return;
-            WeatherW11Setup.ValidateBanks(report.summary.platform == BuildTarget.StandaloneWindows64 ? "Windows" : "Mac");
+            WeatherW11Setup.ValidateBanks(WeatherW11Setup.BankPlatform(report.summary.platform));
+            WeatherW11Setup.ValidateScene(scene);
         }
     }
 }

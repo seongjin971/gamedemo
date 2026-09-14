@@ -72,3 +72,4 @@ Desktop.ini
 *.dSYM.meta
 # The capture is available locally; its measured signal report is versioned.
 /Audio/unity-wwise-validation*.wav
+/.wwise-venv/

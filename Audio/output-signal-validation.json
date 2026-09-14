@@ -18,9 +18,43 @@
   "outputSignal": {
     "channels": 2,
     "sampleRate": 48000,
-    "seconds": 14.432,
-    "peakDbFS": -29.608413055146997,
-    "rmsDbFS": -49.0452299528729,
+    "seconds": 6.570666666666667,
+    "peakDbFS": -28.61747314050774,
+    "rmsDbFS": -49.98343228813895,
     "clippedSamples": 0
+  },
+  "isolatedFootsteps": {
+    "Gravel": {
+      "channels": 2,
+      "sampleRate": 48000,
+      "seconds": 1.0666666666666667,
+      "peakDbFS": -29.608413055146997,
+      "rmsDbFS": -45.35779974114882,
+      "clippedSamples": 0
+    },
+    "Mud": {
+      "channels": 2,
+      "sampleRate": 48000,
+      "seconds": 1.0986666666666667,
+      "peakDbFS": -24.937439261537495,
+      "rmsDbFS": -49.25950307806395,
+      "clippedSamples": 0
+    },
+    "Rock": {
+      "channels": 2,
+      "sampleRate": 48000,
+      "seconds": 1.056,
+      "peakDbFS": -29.910065065617513,
+      "rmsDbFS": -46.777131483209416,
+      "clippedSamples": 0
+    },
+    "Snow": {
+      "channels": 2,
+      "sampleRate": 48000,
+      "seconds": 1.0773333333333333,
+      "peakDbFS": -30.54674189382732,
+      "rmsDbFS": -47.702896448926055,
+      "clippedSamples": 0
+    }
   }
 }

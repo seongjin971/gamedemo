@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Vesper/Scenes/VesperMigrationSlice.unity
-    guid: 4ca6949ed5a5ee44894ad3e856be0d7c
+    path: Assets/Vesper/Scenes/Expansion/VesperWeatherWorld_W11.unity
+    guid: 9a32f0ec9d72040809b559039b860ea2
   m_configObjects: {}

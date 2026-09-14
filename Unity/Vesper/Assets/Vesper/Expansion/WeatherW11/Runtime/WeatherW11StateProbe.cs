@@ -8,8 +8,8 @@ using UnityEngine;
 using W10 = Vesper.Expansion.WeatherW10;
 
 namespace Vesper.Expansion.WeatherW11 {
-    // Explicit batch-only probe. It exercises the real scene, navigation and animation;
-    // it does not establish that Wwise received events or produced audible output.
+    // Explicit opt-in probe. Audio QA also queries Wwise and records engine output.
+    // Captured signal measurements do not replace human listening.
     public sealed class WeatherW11StateProbe : MonoBehaviour {
         [Serializable] public class Sample {
             public float progress, timeOfDay, rainIntensity;
@@ -27,6 +27,7 @@ namespace Vesper.Expansion.WeatherW11 {
             public bool wwiseReady;
             public int wwiseEvents, wwiseErrors;
             public string outputCapture;
+            public string[] footstepCaptures;
         }
         [Serializable] public class Movement {
             public bool running;
@@ -51,7 +52,10 @@ namespace Vesper.Expansion.WeatherW11 {
         string output;
         float deadline;
         bool finished;
-        bool audioQA, capturing;
+        bool audioQA;
+#if VESPER_WWISE
+        bool capturing;
+#endif
 
         [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]
         static void Install() {
@@ -142,8 +146,8 @@ namespace Vesper.Expansion.WeatherW11 {
             }
 #endif
         }
-        IEnumerator Move(bool running, float target) {
-            yield return Place(192);
+        IEnumerator Move(bool running, float target, float start = 192, SurfaceType surface = SurfaceType.Rock) {
+            yield return Place(start);
             run.SetRunning(running);
             contactTimes.Clear(); contactSurfaces.Clear();
             int stops = motor.SafetyStops;
@@ -164,7 +168,7 @@ namespace Vesper.Expansion.WeatherW11 {
             int count = contactTimes.Count;
             if (running) report.runContacts = count; else report.walkContacts = count;
             Check(count >= 2 && count < 40, (running ? "Run" : "Walk") + " produces bounded foot contacts");
-            Check(contactSurfaces.TrueForAll(s => s == SurfaceType.Rock), "Moving contacts use the abbey stone surface");
+            Check(contactSurfaces.TrueForAll(s => s == surface), "Moving contacts use " + surface + " surface");
             bool distinct = true;
             for (int i = 1; i < count; i++) distinct &= contactTimes[i] - contactTimes[i - 1] > .06f;
             Check(distinct, "Left/right contacts occur at distinct instants");
@@ -172,9 +176,35 @@ namespace Vesper.Expansion.WeatherW11 {
             yield return new WaitForSecondsRealtime(.5f);
             Check(feet.ContactCount == stopped, "Stopping movement stops contact emission");
         }
+#if VESPER_WWISE
+        IEnumerator CaptureFootsteps() {
+            if (capturing) { AkUnitySoundEngine.StopOutputCapture(); capturing = false; }
+            AkUnitySoundEngine.StopAll(bridge.ambienceEmitter);
+            AkUnitySoundEngine.StopAll(bridge.lakeEmitter);
+            yield return new WaitForSecondsRealtime(.3f);
+            var captures = new List<string>();
+            var surfaces = new[] { SurfaceType.Gravel, SurfaceType.Rock, SurfaceType.Mud, SurfaceType.Snow };
+            var starts = new[] { 0f, 22f, 150f, 318f };
+            int walkContacts = report.walkContacts, runContacts = report.runContacts;
+            for (int i = 0; i < surfaces.Length; i++) {
+                string path = Path.Combine(Path.GetDirectoryName(output), Path.GetFileNameWithoutExtension(output) + "-footsteps-" + surfaces[i] + ".wav");
+                capturing = AkUnitySoundEngine.StartOutputCapture(path) == AKRESULT.AK_Success;
+                Check(capturing, "Isolated " + surfaces[i] + " footstep capture starts");
+                if (!capturing) continue;
+                captures.Add(path);
+                yield return Move(false, starts[i] + 6, starts[i], surfaces[i]);
+                yield return new WaitForSecondsRealtime(.5f);
+                AkUnitySoundEngine.StopOutputCapture(); capturing = false;
+            }
+            report.walkContacts = walkContacts; report.runContacts = runContacts;
+            report.footstepCaptures = captures.ToArray();
+            bridge.enabled = false; yield return null;
+            bridge.enabled = true; yield return new WaitForSecondsRealtime(.5f);
+            Check(bridge.Ready && bridge.ErrorCount == 0, "Ambience resumes after isolated footstep checks");
+        }
+#endif
         IEnumerator Start() {
-            // Null graphics can otherwise run at thousands of FPS, where the inherited
-            // motor's initial displacement rounds to zero at large world coordinates.
+            // Keep navigation/animation deterministic even with null graphics.
             Time.captureDeltaTime = 1f / 60;
             yield return null;
             state = FindAnyObjectByType<WorldAudioState>(); feet = FindAnyObjectByType<WorldFootsteps>();
@@ -253,6 +283,7 @@ namespace Vesper.Expansion.WeatherW11 {
                 bridge.enabled = true; yield return new WaitForSecondsRealtime(.5f);
                 Check(bridge.Ready && bridge.PostedEvents == before + 2 && bridge.ErrorCount == 0,
                     "Re-enabling reloads banks and starts each ambience once");
+                yield return CaptureFootsteps();
             }
 #endif
             Finish();
