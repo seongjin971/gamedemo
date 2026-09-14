@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{18B261FD-0D3E-40D9-A3AC-CEACF2A5E194}" SchemaVersion="133">
+	<Events>
+		<WorkUnit Name="Vesper_W11" ID="{18B261FD-0D3E-40D9-A3AC-CEACF2A5E194}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Footstep" ID="{7D57ED3E-FEF2-4E88-A6FA-3690648A82DE}">
+					<ChildrenList>
+						<Action Name="Play" ID="{B44A67E1-0399-4654-827F-E5D3AB3EE1EB}" ShortID="325540766">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{725CC4E2-0DE4-4796-A8F7-C4B16B485D3B}" WorkUnitID="{1824C200-BC86-457A-B9E8-873F0F08A171}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_World_Ambience" ID="{E6FEF526-621D-40BC-9453-1BAAE8D59297}">
+					<ChildrenList>
+						<Action Name="Play" ID="{CB3B24D8-5952-47FE-9BF6-080816BD261D}" ShortID="170159575">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="World_Ambience" ID="{12C0C8C3-1F4E-4FA8-9D36-DC65C86B77CE}" WorkUnitID="{1824C200-BC86-457A-B9E8-873F0F08A171}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Lake_Ambience" ID="{E48727B4-C3B3-41C9-BD86-23519B0050A6}">
+					<ChildrenList>
+						<Action Name="Play" ID="{1A5C9C65-E624-4F60-8688-27D25B395F02}" ShortID="565597969">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Lake_Ambience" ID="{A2AB835F-A22E-4C79-A1CA-8649FB36C0CD}" WorkUnitID="{1824C200-BC86-457A-B9E8-873F0F08A171}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

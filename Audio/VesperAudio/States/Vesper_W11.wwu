@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{42411EFA-62E3-4AD3-8D53-4DD7C733B047}" SchemaVersion="133">
+	<States>
+		<WorkUnit Name="Vesper_W11" ID="{42411EFA-62E3-4AD3-8D53-4DD7C733B047}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Area" ID="{B4A2132C-093D-46F9-966B-3B047F822555}">
+					<ChildrenList>
+						<State Name="None" ID="{883B6543-32FA-4241-BB35-4973912F45C0}"/>
+						<State Name="Forest" ID="{6C30AF87-3705-4F08-A85C-2ED326B39D8D}"/>
+						<State Name="SnowMountain" ID="{656DD9D3-A298-4C20-902B-4AE897F19316}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

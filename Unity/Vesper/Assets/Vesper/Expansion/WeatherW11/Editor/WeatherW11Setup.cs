@@ -157,6 +157,13 @@ namespace Vesper.Expansion.WeatherW11.Editor {
             try { Prepare(); ValidateScene(); EditorApplication.Exit(0); }
             catch (Exception e) { Debug.LogException(e); EditorApplication.Exit(1); }
         }
+        public static void ConnectBatch() {
+            try {
+                EditorSceneManager.OpenScene(ScenePath);
+                Connect(); ValidateScene(); AssetDatabase.SaveAssets();
+                EditorApplication.Exit(0);
+            } catch (Exception e) { Debug.LogException(e); EditorApplication.Exit(1); }
+        }
         public static void ValidateStateBatch() {
             try {
                 if (!Environment.GetCommandLineArgs().Contains("-w11StateQA"))

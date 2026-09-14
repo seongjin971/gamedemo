@@ -185,8 +185,8 @@
         "type": "RandomSequenceContainer",
         "name": "Mud",
         "onNameConflict": "fail",
-        "@RandomOrSequence": 0,
-        "@PlayMechanismStepOrContinuous": 0
+        "@RandomOrSequence": 1,
+        "@PlayMechanismStepOrContinuous": 1
       }
     },
     {
@@ -199,19 +199,23 @@
         "imports": [
           {
             "audioFile": "sfx/footstep/footstep wet/footstep wet.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Mud\\<Sound SFX>footstep_wet_1"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Mud\\<Sound SFX>footstep_wet_1",
+            "originalsSubFolder": "Vesper_W11/footstep/footstep wet"
           },
           {
             "audioFile": "sfx/footstep/footstep wet/footstep wet2.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Mud\\<Sound SFX>footstep_wet2_2"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Mud\\<Sound SFX>footstep_wet2_2",
+            "originalsSubFolder": "Vesper_W11/footstep/footstep wet"
           },
           {
             "audioFile": "sfx/footstep/footstep wet/footstep wet3.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Mud\\<Sound SFX>footstep_wet3_3"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Mud\\<Sound SFX>footstep_wet3_3",
+            "originalsSubFolder": "Vesper_W11/footstep/footstep wet"
           },
           {
             "audioFile": "sfx/footstep/footstep wet/footstep wet4.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Mud\\<Sound SFX>footstep_wet4_4"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Mud\\<Sound SFX>footstep_wet4_4",
+            "originalsSubFolder": "Vesper_W11/footstep/footstep wet"
           }
         ]
       }
@@ -230,8 +234,8 @@
         "type": "RandomSequenceContainer",
         "name": "Gravel",
         "onNameConflict": "fail",
-        "@RandomOrSequence": 0,
-        "@PlayMechanismStepOrContinuous": 0
+        "@RandomOrSequence": 1,
+        "@PlayMechanismStepOrContinuous": 1
       }
     },
     {
@@ -244,23 +248,28 @@
         "imports": [
           {
             "audioFile": "sfx/footstep/footstep gravel/footstep gravel-01.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Gravel\\<Sound SFX>footstep_gravel_01_1"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Gravel\\<Sound SFX>footstep_gravel_01_1",
+            "originalsSubFolder": "Vesper_W11/footstep/footstep gravel"
           },
           {
             "audioFile": "sfx/footstep/footstep gravel/footstep gravel-02.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Gravel\\<Sound SFX>footstep_gravel_02_2"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Gravel\\<Sound SFX>footstep_gravel_02_2",
+            "originalsSubFolder": "Vesper_W11/footstep/footstep gravel"
           },
           {
             "audioFile": "sfx/footstep/footstep gravel/footstep gravel-03.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Gravel\\<Sound SFX>footstep_gravel_03_3"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Gravel\\<Sound SFX>footstep_gravel_03_3",
+            "originalsSubFolder": "Vesper_W11/footstep/footstep gravel"
           },
           {
             "audioFile": "sfx/footstep/footstep gravel/footstep gravel-04.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Gravel\\<Sound SFX>footstep_gravel_04_4"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Gravel\\<Sound SFX>footstep_gravel_04_4",
+            "originalsSubFolder": "Vesper_W11/footstep/footstep gravel"
           },
           {
             "audioFile": "sfx/footstep/footstep gravel/footstep gravel.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Gravel\\<Sound SFX>footstep_gravel_5"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Gravel\\<Sound SFX>footstep_gravel_5",
+            "originalsSubFolder": "Vesper_W11/footstep/footstep gravel"
           }
         ]
       }
@@ -279,8 +288,8 @@
         "type": "RandomSequenceContainer",
         "name": "Snow",
         "onNameConflict": "fail",
-        "@RandomOrSequence": 0,
-        "@PlayMechanismStepOrContinuous": 0
+        "@RandomOrSequence": 1,
+        "@PlayMechanismStepOrContinuous": 1
       }
     },
     {
@@ -293,19 +302,23 @@
         "imports": [
           {
             "audioFile": "sfx/footstep/footstep snow/footstep snow-01.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Snow\\<Sound SFX>footstep_snow_01_1"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Snow\\<Sound SFX>footstep_snow_01_1",
+            "originalsSubFolder": "Vesper_W11/footstep/footstep snow"
           },
           {
             "audioFile": "sfx/footstep/footstep snow/footstep snow-02.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Snow\\<Sound SFX>footstep_snow_02_2"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Snow\\<Sound SFX>footstep_snow_02_2",
+            "originalsSubFolder": "Vesper_W11/footstep/footstep snow"
           },
           {
             "audioFile": "sfx/footstep/footstep snow/footstep snow-03.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Snow\\<Sound SFX>footstep_snow_03_3"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Snow\\<Sound SFX>footstep_snow_03_3",
+            "originalsSubFolder": "Vesper_W11/footstep/footstep snow"
           },
           {
             "audioFile": "sfx/footstep/footstep snow/footstep snow.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Snow\\<Sound SFX>footstep_snow_4"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Snow\\<Sound SFX>footstep_snow_4",
+            "originalsSubFolder": "Vesper_W11/footstep/footstep snow"
           }
         ]
       }
@@ -324,8 +337,8 @@
         "type": "RandomSequenceContainer",
         "name": "Rock",
         "onNameConflict": "fail",
-        "@RandomOrSequence": 0,
-        "@PlayMechanismStepOrContinuous": 0
+        "@RandomOrSequence": 1,
+        "@PlayMechanismStepOrContinuous": 1
       }
     },
     {
@@ -338,31 +351,38 @@
         "imports": [
           {
             "audioFile": "sfx/footstep/footstep rock/footstep rock.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Rock\\<Sound SFX>footstep_rock_1"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Rock\\<Sound SFX>footstep_rock_1",
+            "originalsSubFolder": "Vesper_W11/footstep/footstep rock"
           },
           {
             "audioFile": "sfx/footstep/footstep rock/footstep rock2.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Rock\\<Sound SFX>footstep_rock2_2"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Rock\\<Sound SFX>footstep_rock2_2",
+            "originalsSubFolder": "Vesper_W11/footstep/footstep rock"
           },
           {
             "audioFile": "sfx/footstep/footstep rock/footstep rock3.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Rock\\<Sound SFX>footstep_rock3_3"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Rock\\<Sound SFX>footstep_rock3_3",
+            "originalsSubFolder": "Vesper_W11/footstep/footstep rock"
           },
           {
             "audioFile": "sfx/footstep/footstep rock/footstep rock4.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Rock\\<Sound SFX>footstep_rock4_4"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Rock\\<Sound SFX>footstep_rock4_4",
+            "originalsSubFolder": "Vesper_W11/footstep/footstep rock"
           },
           {
             "audioFile": "sfx/footstep/footstep rock/footstep rock5.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Rock\\<Sound SFX>footstep_rock5_5"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Rock\\<Sound SFX>footstep_rock5_5",
+            "originalsSubFolder": "Vesper_W11/footstep/footstep rock"
           },
           {
             "audioFile": "sfx/footstep/footstep rock/footstep rock6.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Rock\\<Sound SFX>footstep_rock6_6"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Rock\\<Sound SFX>footstep_rock6_6",
+            "originalsSubFolder": "Vesper_W11/footstep/footstep rock"
           },
           {
             "audioFile": "sfx/footstep/footstep rock/footstep rock7.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Rock\\<Sound SFX>footstep_rock7_7"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Footsteps\\Rock\\<Sound SFX>footstep_rock7_7",
+            "originalsSubFolder": "Vesper_W11/footstep/footstep rock"
           }
         ]
       }
@@ -438,8 +458,8 @@
         "type": "RandomSequenceContainer",
         "name": "Day_Wind",
         "onNameConflict": "fail",
-        "@RandomOrSequence": 0,
-        "@PlayMechanismStepOrContinuous": 0
+        "@RandomOrSequence": 1,
+        "@PlayMechanismStepOrContinuous": 1
       }
     },
     {
@@ -452,11 +472,13 @@
         "imports": [
           {
             "audioFile": "sfx/ambience/morning/background/wind1.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\Forest\\Day_Wind\\<Sound SFX>wind1_1"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\Forest\\Day_Wind\\<Sound SFX>wind1_1",
+            "originalsSubFolder": "Vesper_W11/ambience/morning/background"
           },
           {
             "audioFile": "sfx/ambience/morning/background/wind2.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\Forest\\Day_Wind\\<Sound SFX>wind2_2"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\Forest\\Day_Wind\\<Sound SFX>wind2_2",
+            "originalsSubFolder": "Vesper_W11/ambience/morning/background"
           }
         ]
       }
@@ -484,8 +506,8 @@
         "type": "RandomSequenceContainer",
         "name": "Night_Bed",
         "onNameConflict": "fail",
-        "@RandomOrSequence": 0,
-        "@PlayMechanismStepOrContinuous": 0
+        "@RandomOrSequence": 1,
+        "@PlayMechanismStepOrContinuous": 1
       }
     },
     {
@@ -498,15 +520,18 @@
         "imports": [
           {
             "audioFile": "sfx/ambience/night/background/night background-01.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\Forest\\Night_Bed\\<Sound SFX>night_background_01_1"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\Forest\\Night_Bed\\<Sound SFX>night_background_01_1",
+            "originalsSubFolder": "Vesper_W11/ambience/night/background"
           },
           {
             "audioFile": "sfx/ambience/night/background/night background-02.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\Forest\\Night_Bed\\<Sound SFX>night_background_02_2"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\Forest\\Night_Bed\\<Sound SFX>night_background_02_2",
+            "originalsSubFolder": "Vesper_W11/ambience/night/background"
           },
           {
             "audioFile": "sfx/ambience/night/background/night background.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\Forest\\Night_Bed\\<Sound SFX>night_background_3"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\Forest\\Night_Bed\\<Sound SFX>night_background_3",
+            "originalsSubFolder": "Vesper_W11/ambience/night/background"
           }
         ]
       }
@@ -542,8 +567,8 @@
         "type": "RandomSequenceContainer",
         "name": "Rain_Bed",
         "onNameConflict": "fail",
-        "@RandomOrSequence": 0,
-        "@PlayMechanismStepOrContinuous": 0
+        "@RandomOrSequence": 1,
+        "@PlayMechanismStepOrContinuous": 1
       }
     },
     {
@@ -556,15 +581,18 @@
         "imports": [
           {
             "audioFile": "sfx/ambience/rainnight/background/background-01.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\Forest\\Rain_Bed\\<Sound SFX>background_01_1"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\Forest\\Rain_Bed\\<Sound SFX>background_01_1",
+            "originalsSubFolder": "Vesper_W11/ambience/rainnight/background"
           },
           {
             "audioFile": "sfx/ambience/rainnight/background/background-02.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\Forest\\Rain_Bed\\<Sound SFX>background_02_2"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\Forest\\Rain_Bed\\<Sound SFX>background_02_2",
+            "originalsSubFolder": "Vesper_W11/ambience/rainnight/background"
           },
           {
             "audioFile": "sfx/ambience/rainnight/background/background.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\Forest\\Rain_Bed\\<Sound SFX>background_3"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\Forest\\Rain_Bed\\<Sound SFX>background_3",
+            "originalsSubFolder": "Vesper_W11/ambience/rainnight/background"
           }
         ]
       }
@@ -600,8 +628,8 @@
         "type": "RandomSequenceContainer",
         "name": "Rain_Heavy",
         "onNameConflict": "fail",
-        "@RandomOrSequence": 0,
-        "@PlayMechanismStepOrContinuous": 0
+        "@RandomOrSequence": 1,
+        "@PlayMechanismStepOrContinuous": 1
       }
     },
     {
@@ -614,11 +642,13 @@
         "imports": [
           {
             "audioFile": "sfx/ambience/rainnight/rainbackground/rainbackground-01.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\Forest\\Rain_Heavy\\<Sound SFX>rainbackground_01_1"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\Forest\\Rain_Heavy\\<Sound SFX>rainbackground_01_1",
+            "originalsSubFolder": "Vesper_W11/ambience/rainnight/rainbackground"
           },
           {
             "audioFile": "sfx/ambience/rainnight/rainbackground/rainbackground.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\Forest\\Rain_Heavy\\<Sound SFX>rainbackground_2"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\Forest\\Rain_Heavy\\<Sound SFX>rainbackground_2",
+            "originalsSubFolder": "Vesper_W11/ambience/rainnight/rainbackground"
           }
         ]
       }
@@ -646,8 +676,8 @@
         "type": "RandomSequenceContainer",
         "name": "Snow_Wind",
         "onNameConflict": "fail",
-        "@RandomOrSequence": 0,
-        "@PlayMechanismStepOrContinuous": 0
+        "@RandomOrSequence": 1,
+        "@PlayMechanismStepOrContinuous": 1
       }
     },
     {
@@ -660,19 +690,23 @@
         "imports": [
           {
             "audioFile": "sfx/ambience/snow/background/background-01.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\SnowMountain\\Snow_Wind\\<Sound SFX>background_01_1"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\SnowMountain\\Snow_Wind\\<Sound SFX>background_01_1",
+            "originalsSubFolder": "Vesper_W11/ambience/snow/background"
           },
           {
             "audioFile": "sfx/ambience/snow/background/background-02.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\SnowMountain\\Snow_Wind\\<Sound SFX>background_02_2"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\SnowMountain\\Snow_Wind\\<Sound SFX>background_02_2",
+            "originalsSubFolder": "Vesper_W11/ambience/snow/background"
           },
           {
             "audioFile": "sfx/ambience/snow/background/background-03.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\SnowMountain\\Snow_Wind\\<Sound SFX>background_03_3"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\SnowMountain\\Snow_Wind\\<Sound SFX>background_03_3",
+            "originalsSubFolder": "Vesper_W11/ambience/snow/background"
           },
           {
             "audioFile": "sfx/ambience/snow/background/background.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\SnowMountain\\Snow_Wind\\<Sound SFX>background_4"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\World_Ambience\\SnowMountain\\Snow_Wind\\<Sound SFX>background_4",
+            "originalsSubFolder": "Vesper_W11/ambience/snow/background"
           }
         ]
       }
@@ -716,8 +750,8 @@
         "type": "RandomSequenceContainer",
         "name": "Lake_Ambience",
         "onNameConflict": "fail",
-        "@RandomOrSequence": 0,
-        "@PlayMechanismStepOrContinuous": 0
+        "@RandomOrSequence": 1,
+        "@PlayMechanismStepOrContinuous": 1
       }
     },
     {
@@ -730,7 +764,8 @@
         "imports": [
           {
             "audioFile": "sfx/ambience/morning/object/ojriver.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Lake_Ambience\\<Sound SFX>ojriver_1"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Lake_Ambience\\<Sound SFX>ojriver_1",
+            "originalsSubFolder": "Vesper_W11/ambience/morning/object"
           }
         ]
       }
@@ -759,8 +794,8 @@
         "type": "RandomSequenceContainer",
         "name": "ambience_morning_random_one_shot_bird",
         "onNameConflict": "fail",
-        "@RandomOrSequence": 0,
-        "@PlayMechanismStepOrContinuous": 0
+        "@RandomOrSequence": 1,
+        "@PlayMechanismStepOrContinuous": 1
       }
     },
     {
@@ -773,19 +808,23 @@
         "imports": [
           {
             "audioFile": "sfx/ambience/morning/random one shot/bird/rdbird-01.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_morning_random_one_shot_bird\\<Sound SFX>rdbird_01_1"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_morning_random_one_shot_bird\\<Sound SFX>rdbird_01_1",
+            "originalsSubFolder": "Vesper_W11/ambience/morning/random one shot/bird"
           },
           {
             "audioFile": "sfx/ambience/morning/random one shot/bird/rdbird-02.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_morning_random_one_shot_bird\\<Sound SFX>rdbird_02_2"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_morning_random_one_shot_bird\\<Sound SFX>rdbird_02_2",
+            "originalsSubFolder": "Vesper_W11/ambience/morning/random one shot/bird"
           },
           {
             "audioFile": "sfx/ambience/morning/random one shot/bird/rdbird-03.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_morning_random_one_shot_bird\\<Sound SFX>rdbird_03_3"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_morning_random_one_shot_bird\\<Sound SFX>rdbird_03_3",
+            "originalsSubFolder": "Vesper_W11/ambience/morning/random one shot/bird"
           },
           {
             "audioFile": "sfx/ambience/morning/random one shot/bird/rdbird.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_morning_random_one_shot_bird\\<Sound SFX>rdbird_4"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_morning_random_one_shot_bird\\<Sound SFX>rdbird_4",
+            "originalsSubFolder": "Vesper_W11/ambience/morning/random one shot/bird"
           }
         ]
       }
@@ -797,8 +836,8 @@
         "type": "RandomSequenceContainer",
         "name": "ambience_morning_random_one_shot_bug",
         "onNameConflict": "fail",
-        "@RandomOrSequence": 0,
-        "@PlayMechanismStepOrContinuous": 0
+        "@RandomOrSequence": 1,
+        "@PlayMechanismStepOrContinuous": 1
       }
     },
     {
@@ -811,11 +850,13 @@
         "imports": [
           {
             "audioFile": "sfx/ambience/morning/random one shot/bug/rdbug-01.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_morning_random_one_shot_bug\\<Sound SFX>rdbug_01_1"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_morning_random_one_shot_bug\\<Sound SFX>rdbug_01_1",
+            "originalsSubFolder": "Vesper_W11/ambience/morning/random one shot/bug"
           },
           {
             "audioFile": "sfx/ambience/morning/random one shot/bug/rdbug.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_morning_random_one_shot_bug\\<Sound SFX>rdbug_2"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_morning_random_one_shot_bug\\<Sound SFX>rdbug_2",
+            "originalsSubFolder": "Vesper_W11/ambience/morning/random one shot/bug"
           }
         ]
       }
@@ -827,8 +868,8 @@
         "type": "RandomSequenceContainer",
         "name": "ambience_morning_random_one_shot_grass",
         "onNameConflict": "fail",
-        "@RandomOrSequence": 0,
-        "@PlayMechanismStepOrContinuous": 0
+        "@RandomOrSequence": 1,
+        "@PlayMechanismStepOrContinuous": 1
       }
     },
     {
@@ -841,11 +882,13 @@
         "imports": [
           {
             "audioFile": "sfx/ambience/morning/random one shot/grass/rdgrass-01.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_morning_random_one_shot_grass\\<Sound SFX>rdgrass_01_1"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_morning_random_one_shot_grass\\<Sound SFX>rdgrass_01_1",
+            "originalsSubFolder": "Vesper_W11/ambience/morning/random one shot/grass"
           },
           {
             "audioFile": "sfx/ambience/morning/random one shot/grass/rdgrass.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_morning_random_one_shot_grass\\<Sound SFX>rdgrass_2"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_morning_random_one_shot_grass\\<Sound SFX>rdgrass_2",
+            "originalsSubFolder": "Vesper_W11/ambience/morning/random one shot/grass"
           }
         ]
       }
@@ -857,8 +900,8 @@
         "type": "RandomSequenceContainer",
         "name": "ambience_morning_random_one_shot_wind",
         "onNameConflict": "fail",
-        "@RandomOrSequence": 0,
-        "@PlayMechanismStepOrContinuous": 0
+        "@RandomOrSequence": 1,
+        "@PlayMechanismStepOrContinuous": 1
       }
     },
     {
@@ -871,15 +914,18 @@
         "imports": [
           {
             "audioFile": "sfx/ambience/morning/random one shot/wind/rdwind1.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_morning_random_one_shot_wind\\<Sound SFX>rdwind1_1"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_morning_random_one_shot_wind\\<Sound SFX>rdwind1_1",
+            "originalsSubFolder": "Vesper_W11/ambience/morning/random one shot/wind"
           },
           {
             "audioFile": "sfx/ambience/morning/random one shot/wind/rdwind2.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_morning_random_one_shot_wind\\<Sound SFX>rdwind2_2"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_morning_random_one_shot_wind\\<Sound SFX>rdwind2_2",
+            "originalsSubFolder": "Vesper_W11/ambience/morning/random one shot/wind"
           },
           {
             "audioFile": "sfx/ambience/morning/random one shot/wind/rdwind3.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_morning_random_one_shot_wind\\<Sound SFX>rdwind3_3"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_morning_random_one_shot_wind\\<Sound SFX>rdwind3_3",
+            "originalsSubFolder": "Vesper_W11/ambience/morning/random one shot/wind"
           }
         ]
       }
@@ -891,8 +937,8 @@
         "type": "RandomSequenceContainer",
         "name": "ambience_night_oneshot_bug",
         "onNameConflict": "fail",
-        "@RandomOrSequence": 0,
-        "@PlayMechanismStepOrContinuous": 0
+        "@RandomOrSequence": 1,
+        "@PlayMechanismStepOrContinuous": 1
       }
     },
     {
@@ -905,15 +951,18 @@
         "imports": [
           {
             "audioFile": "sfx/ambience/night/oneshot/bug/rdbug-01.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_night_oneshot_bug\\<Sound SFX>rdbug_01_1"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_night_oneshot_bug\\<Sound SFX>rdbug_01_1",
+            "originalsSubFolder": "Vesper_W11/ambience/night/oneshot/bug"
           },
           {
             "audioFile": "sfx/ambience/night/oneshot/bug/rdbug-02.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_night_oneshot_bug\\<Sound SFX>rdbug_02_2"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_night_oneshot_bug\\<Sound SFX>rdbug_02_2",
+            "originalsSubFolder": "Vesper_W11/ambience/night/oneshot/bug"
           },
           {
             "audioFile": "sfx/ambience/night/oneshot/bug/rdbug.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_night_oneshot_bug\\<Sound SFX>rdbug_3"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_night_oneshot_bug\\<Sound SFX>rdbug_3",
+            "originalsSubFolder": "Vesper_W11/ambience/night/oneshot/bug"
           }
         ]
       }
@@ -925,8 +974,8 @@
         "type": "RandomSequenceContainer",
         "name": "ambience_night_oneshot_owl",
         "onNameConflict": "fail",
-        "@RandomOrSequence": 0,
-        "@PlayMechanismStepOrContinuous": 0
+        "@RandomOrSequence": 1,
+        "@PlayMechanismStepOrContinuous": 1
       }
     },
     {
@@ -939,11 +988,13 @@
         "imports": [
           {
             "audioFile": "sfx/ambience/night/oneshot/owl/rdowl-01.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_night_oneshot_owl\\<Sound SFX>rdowl_01_1"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_night_oneshot_owl\\<Sound SFX>rdowl_01_1",
+            "originalsSubFolder": "Vesper_W11/ambience/night/oneshot/owl"
           },
           {
             "audioFile": "sfx/ambience/night/oneshot/owl/rdowl.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_night_oneshot_owl\\<Sound SFX>rdowl_2"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_night_oneshot_owl\\<Sound SFX>rdowl_2",
+            "originalsSubFolder": "Vesper_W11/ambience/night/oneshot/owl"
           }
         ]
       }
@@ -955,8 +1006,8 @@
         "type": "RandomSequenceContainer",
         "name": "ambience_night_oneshot_wolf",
         "onNameConflict": "fail",
-        "@RandomOrSequence": 0,
-        "@PlayMechanismStepOrContinuous": 0
+        "@RandomOrSequence": 1,
+        "@PlayMechanismStepOrContinuous": 1
       }
     },
     {
@@ -969,7 +1020,8 @@
         "imports": [
           {
             "audioFile": "sfx/ambience/night/oneshot/wolf/rdwolf.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_night_oneshot_wolf\\<Sound SFX>rdwolf_1"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_night_oneshot_wolf\\<Sound SFX>rdwolf_1",
+            "originalsSubFolder": "Vesper_W11/ambience/night/oneshot/wolf"
           }
         ]
       }
@@ -981,8 +1033,8 @@
         "type": "RandomSequenceContainer",
         "name": "ambience_rainnight_random_randomgrass",
         "onNameConflict": "fail",
-        "@RandomOrSequence": 0,
-        "@PlayMechanismStepOrContinuous": 0
+        "@RandomOrSequence": 1,
+        "@PlayMechanismStepOrContinuous": 1
       }
     },
     {
@@ -995,15 +1047,18 @@
         "imports": [
           {
             "audioFile": "sfx/ambience/rainnight/random/randomgrass/rdgrass-01.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_rainnight_random_randomgrass\\<Sound SFX>rdgrass_01_1"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_rainnight_random_randomgrass\\<Sound SFX>rdgrass_01_1",
+            "originalsSubFolder": "Vesper_W11/ambience/rainnight/random/randomgrass"
           },
           {
             "audioFile": "sfx/ambience/rainnight/random/randomgrass/rdgrass-02.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_rainnight_random_randomgrass\\<Sound SFX>rdgrass_02_2"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_rainnight_random_randomgrass\\<Sound SFX>rdgrass_02_2",
+            "originalsSubFolder": "Vesper_W11/ambience/rainnight/random/randomgrass"
           },
           {
             "audioFile": "sfx/ambience/rainnight/random/randomgrass/rdgrass.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_rainnight_random_randomgrass\\<Sound SFX>rdgrass_3"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_rainnight_random_randomgrass\\<Sound SFX>rdgrass_3",
+            "originalsSubFolder": "Vesper_W11/ambience/rainnight/random/randomgrass"
           }
         ]
       }
@@ -1015,8 +1070,8 @@
         "type": "RandomSequenceContainer",
         "name": "ambience_rainnight_random_randomwind",
         "onNameConflict": "fail",
-        "@RandomOrSequence": 0,
-        "@PlayMechanismStepOrContinuous": 0
+        "@RandomOrSequence": 1,
+        "@PlayMechanismStepOrContinuous": 1
       }
     },
     {
@@ -1029,15 +1084,18 @@
         "imports": [
           {
             "audioFile": "sfx/ambience/rainnight/random/randomwind/rdwind-01.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_rainnight_random_randomwind\\<Sound SFX>rdwind_01_1"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_rainnight_random_randomwind\\<Sound SFX>rdwind_01_1",
+            "originalsSubFolder": "Vesper_W11/ambience/rainnight/random/randomwind"
           },
           {
             "audioFile": "sfx/ambience/rainnight/random/randomwind/rdwind-02.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_rainnight_random_randomwind\\<Sound SFX>rdwind_02_2"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_rainnight_random_randomwind\\<Sound SFX>rdwind_02_2",
+            "originalsSubFolder": "Vesper_W11/ambience/rainnight/random/randomwind"
           },
           {
             "audioFile": "sfx/ambience/rainnight/random/randomwind/rdwind.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_rainnight_random_randomwind\\<Sound SFX>rdwind_3"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_rainnight_random_randomwind\\<Sound SFX>rdwind_3",
+            "originalsSubFolder": "Vesper_W11/ambience/rainnight/random/randomwind"
           }
         ]
       }
@@ -1049,8 +1107,8 @@
         "type": "RandomSequenceContainer",
         "name": "ambience_rainnight_thunder",
         "onNameConflict": "fail",
-        "@RandomOrSequence": 0,
-        "@PlayMechanismStepOrContinuous": 0
+        "@RandomOrSequence": 1,
+        "@PlayMechanismStepOrContinuous": 1
       }
     },
     {
@@ -1063,15 +1121,18 @@
         "imports": [
           {
             "audioFile": "sfx/ambience/rainnight/thunder/thunder-01.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_rainnight_thunder\\<Sound SFX>thunder_01_1"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_rainnight_thunder\\<Sound SFX>thunder_01_1",
+            "originalsSubFolder": "Vesper_W11/ambience/rainnight/thunder"
           },
           {
             "audioFile": "sfx/ambience/rainnight/thunder/thunder-02.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_rainnight_thunder\\<Sound SFX>thunder_02_2"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_rainnight_thunder\\<Sound SFX>thunder_02_2",
+            "originalsSubFolder": "Vesper_W11/ambience/rainnight/thunder"
           },
           {
             "audioFile": "sfx/ambience/rainnight/thunder/thunder.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_rainnight_thunder\\<Sound SFX>thunder_3"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_rainnight_thunder\\<Sound SFX>thunder_3",
+            "originalsSubFolder": "Vesper_W11/ambience/rainnight/thunder"
           }
         ]
       }
@@ -1083,8 +1144,8 @@
         "type": "RandomSequenceContainer",
         "name": "ambience_snow_random_randomwind",
         "onNameConflict": "fail",
-        "@RandomOrSequence": 0,
-        "@PlayMechanismStepOrContinuous": 0
+        "@RandomOrSequence": 1,
+        "@PlayMechanismStepOrContinuous": 1
       }
     },
     {
@@ -1097,35 +1158,43 @@
         "imports": [
           {
             "audioFile": "sfx/ambience/snow/random/randomwind/rdwind-01.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_snow_random_randomwind\\<Sound SFX>rdwind_01_1"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_snow_random_randomwind\\<Sound SFX>rdwind_01_1",
+            "originalsSubFolder": "Vesper_W11/ambience/snow/random/randomwind"
           },
           {
             "audioFile": "sfx/ambience/snow/random/randomwind/rdwind-02.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_snow_random_randomwind\\<Sound SFX>rdwind_02_2"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_snow_random_randomwind\\<Sound SFX>rdwind_02_2",
+            "originalsSubFolder": "Vesper_W11/ambience/snow/random/randomwind"
           },
           {
             "audioFile": "sfx/ambience/snow/random/randomwind/rdwind-03.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_snow_random_randomwind\\<Sound SFX>rdwind_03_3"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_snow_random_randomwind\\<Sound SFX>rdwind_03_3",
+            "originalsSubFolder": "Vesper_W11/ambience/snow/random/randomwind"
           },
           {
             "audioFile": "sfx/ambience/snow/random/randomwind/rdwind-04.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_snow_random_randomwind\\<Sound SFX>rdwind_04_4"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_snow_random_randomwind\\<Sound SFX>rdwind_04_4",
+            "originalsSubFolder": "Vesper_W11/ambience/snow/random/randomwind"
           },
           {
             "audioFile": "sfx/ambience/snow/random/randomwind/rdwind-05.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_snow_random_randomwind\\<Sound SFX>rdwind_05_5"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_snow_random_randomwind\\<Sound SFX>rdwind_05_5",
+            "originalsSubFolder": "Vesper_W11/ambience/snow/random/randomwind"
           },
           {
             "audioFile": "sfx/ambience/snow/random/randomwind/rdwind-06.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_snow_random_randomwind\\<Sound SFX>rdwind_06_6"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_snow_random_randomwind\\<Sound SFX>rdwind_06_6",
+            "originalsSubFolder": "Vesper_W11/ambience/snow/random/randomwind"
           },
           {
             "audioFile": "sfx/ambience/snow/random/randomwind/rdwind-07.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_snow_random_randomwind\\<Sound SFX>rdwind_07_7"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_snow_random_randomwind\\<Sound SFX>rdwind_07_7",
+            "originalsSubFolder": "Vesper_W11/ambience/snow/random/randomwind"
           },
           {
             "audioFile": "sfx/ambience/snow/random/randomwind/rdwind.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_snow_random_randomwind\\<Sound SFX>rdwind_8"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_snow_random_randomwind\\<Sound SFX>rdwind_8",
+            "originalsSubFolder": "Vesper_W11/ambience/snow/random/randomwind"
           }
         ]
       }
@@ -1137,8 +1206,8 @@
         "type": "RandomSequenceContainer",
         "name": "ambience_snow_random_randomwolf",
         "onNameConflict": "fail",
-        "@RandomOrSequence": 0,
-        "@PlayMechanismStepOrContinuous": 0
+        "@RandomOrSequence": 1,
+        "@PlayMechanismStepOrContinuous": 1
       }
     },
     {
@@ -1151,7 +1220,8 @@
         "imports": [
           {
             "audioFile": "sfx/ambience/snow/random/randomwolf/rdwolf.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_snow_random_randomwolf\\<Sound SFX>rdwolf_1"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\ambience_snow_random_randomwolf\\<Sound SFX>rdwolf_1",
+            "originalsSubFolder": "Vesper_W11/ambience/snow/random/randomwolf"
           }
         ]
       }
@@ -1163,8 +1233,8 @@
         "type": "RandomSequenceContainer",
         "name": "footstep_footstep_concreate",
         "onNameConflict": "fail",
-        "@RandomOrSequence": 0,
-        "@PlayMechanismStepOrContinuous": 0
+        "@RandomOrSequence": 1,
+        "@PlayMechanismStepOrContinuous": 1
       }
     },
     {
@@ -1177,27 +1247,33 @@
         "imports": [
           {
             "audioFile": "sfx/footstep/footstep concreate/footstep concreate-01.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\footstep_footstep_concreate\\<Sound SFX>footstep_concreate_01_1"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\footstep_footstep_concreate\\<Sound SFX>footstep_concreate_01_1",
+            "originalsSubFolder": "Vesper_W11/footstep/footstep concreate"
           },
           {
             "audioFile": "sfx/footstep/footstep concreate/footstep concreate-02.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\footstep_footstep_concreate\\<Sound SFX>footstep_concreate_02_2"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\footstep_footstep_concreate\\<Sound SFX>footstep_concreate_02_2",
+            "originalsSubFolder": "Vesper_W11/footstep/footstep concreate"
           },
           {
             "audioFile": "sfx/footstep/footstep concreate/footstep concreate-03.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\footstep_footstep_concreate\\<Sound SFX>footstep_concreate_03_3"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\footstep_footstep_concreate\\<Sound SFX>footstep_concreate_03_3",
+            "originalsSubFolder": "Vesper_W11/footstep/footstep concreate"
           },
           {
             "audioFile": "sfx/footstep/footstep concreate/footstep concreate-04.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\footstep_footstep_concreate\\<Sound SFX>footstep_concreate_04_4"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\footstep_footstep_concreate\\<Sound SFX>footstep_concreate_04_4",
+            "originalsSubFolder": "Vesper_W11/footstep/footstep concreate"
           },
           {
             "audioFile": "sfx/footstep/footstep concreate/footstep concreate-05.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\footstep_footstep_concreate\\<Sound SFX>footstep_concreate_05_5"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\footstep_footstep_concreate\\<Sound SFX>footstep_concreate_05_5",
+            "originalsSubFolder": "Vesper_W11/footstep/footstep concreate"
           },
           {
             "audioFile": "sfx/footstep/footstep concreate/footstep concreate.wav",
-            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\footstep_footstep_concreate\\<Sound SFX>footstep_concreate_6"
+            "objectPath": "\\Actor-Mixer Hierarchy\\Vesper_W11\\Source_Library\\footstep_footstep_concreate\\<Sound SFX>footstep_concreate_6",
+            "originalsSubFolder": "Vesper_W11/footstep/footstep concreate"
           }
         ]
       }

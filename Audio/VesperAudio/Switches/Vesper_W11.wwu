@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7CC76243-C551-445C-BEFE-5225AB9D38A2}" SchemaVersion="133">
+	<Switches>
+		<WorkUnit Name="Vesper_W11" ID="{7CC76243-C551-445C-BEFE-5225AB9D38A2}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="SurfaceType" ID="{84893217-FFF8-406B-8A82-B46C911D34FF}">
+					<ChildrenList>
+						<Switch Name="Mud" ID="{C170B4D5-FF72-4981-8F03-13ECD6C6D1EA}"/>
+						<Switch Name="Gravel" ID="{6F2EDE6E-81AF-4EDA-ADA8-9D0B4F91EA74}"/>
+						<Switch Name="Snow" ID="{CF277941-BA27-4536-B544-D5061A52DD74}"/>
+						<Switch Name="Rock" ID="{970FFD1B-D2C4-49C5-AB6F-369F22D9B43D}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

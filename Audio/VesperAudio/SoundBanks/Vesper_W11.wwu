@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{90B0C6C6-6AB0-4C8A-BB3E-58AB1566FF84}" SchemaVersion="133">
+	<SoundBanks>
+		<WorkUnit Name="Vesper_W11" ID="{90B0C6C6-6AB0-4C8A-BB3E-58AB1566FF84}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Vesper_W11" ID="{F74412AD-0C2A-4BB1-9D28-B46009EAFDAD}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_World_Ambience" ID="{E6FEF526-621D-40BC-9453-1BAAE8D59297}" WorkUnitID="{18B261FD-0D3E-40D9-A3AC-CEACF2A5E194}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Lake_Ambience" ID="{E48727B4-C3B3-41C9-BD86-23519B0050A6}" WorkUnitID="{18B261FD-0D3E-40D9-A3AC-CEACF2A5E194}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Footstep" ID="{7D57ED3E-FEF2-4E88-A6FA-3690648A82DE}" WorkUnitID="{18B261FD-0D3E-40D9-A3AC-CEACF2A5E194}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

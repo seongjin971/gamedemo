@@ -6659,6 +6659,8 @@ GameObject:
   m_Component:
   - component: {fileID: 38990021}
   - component: {fileID: 38990020}
+  - component: {fileID: 38990023}
+  - component: {fileID: 38990022}
   m_Layer: 0
   m_Name: Player Audio Listener
   m_TagString: Untagged
@@ -6695,6 +6697,46 @@ Transform:
   m_Children: []
   m_Father: {fileID: 432147326}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &38990022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 38990019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04d15408b0c9c4f41969890591cb5309, type: 3}
+  m_Name:
+  m_EditorClassIdentifier: AK.Wwise.Unity.MonoBehaviour::AkAudioListener
+  isDefaultListener: 1
+  bOverrideScalingFactor: 0
+  scalingFactor: -1
+  listenerId: 0
+--- !u!114 &38990023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 38990019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 486db4a2897f04d71a668ffa382ad2f3, type: 3}
+  m_Name:
+  m_EditorClassIdentifier: AK.Wwise.Unity.MonoBehaviour::AkGameObj
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  usePositionOffsetData: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  scalingFactor: 1
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!1 &39398367
 GameObject:
   m_ObjectHideFlags: 0
@@ -81030,6 +81072,7 @@ GameObject:
   - component: {fileID: 432147324}
   - component: {fileID: 432147323}
   - component: {fileID: 432147322}
+  - component: {fileID: 432147327}
   m_Layer: 0
   m_Name: W11 Audio
   m_TagString: Untagged
@@ -81120,6 +81163,31 @@ Transform:
   - {fileID: 38990021}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &432147327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 432147321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48dd2a2678f66429bacca4e162e66968, type: 3}
+  m_Name:
+  m_EditorClassIdentifier: AK.Wwise.Unity.MonoBehaviour::AkInitializer
+  InitializationSettings: {fileID: 0}
+  basePath:
+  language:
+  defaultPoolSize: 0
+  lowerPoolSize: 0
+  streamingPoolSize: 0
+  memoryCutoffThreshold: 0
+  monitorPoolSize: 0
+  monitorQueuePoolSize: 0
+  callbackManagerBufferSize: 0
+  spatialAudioPoolSize: 0
+  maxSoundPropagationDepth: 0
+  engineLogging: 0
 --- !u!1 &432763788
 GameObject:
   m_ObjectHideFlags: 0
@@ -228046,6 +228114,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1201476977}
+  - component: {fileID: 1201476978}
   m_Layer: 0
   m_Name: Lake Ambience Emitter
   m_TagString: Untagged
@@ -228068,6 +228137,30 @@ Transform:
   m_Children: []
   m_Father: {fileID: 432147326}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1201476978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1201476976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 486db4a2897f04d71a668ffa382ad2f3, type: 3}
+  m_Name:
+  m_EditorClassIdentifier: AK.Wwise.Unity.MonoBehaviour::AkGameObj
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  usePositionOffsetData: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  scalingFactor: 1
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!1001 &1201481257
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -331819,6 +331912,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1710701100}
+  - component: {fileID: 1710701101}
   m_Layer: 0
   m_Name: Player Audio Emitter
   m_TagString: Untagged
@@ -331841,6 +331935,30 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1061984178}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1710701101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1710701099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 486db4a2897f04d71a668ffa382ad2f3, type: 3}
+  m_Name:
+  m_EditorClassIdentifier: AK.Wwise.Unity.MonoBehaviour::AkGameObj
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  usePositionOffsetData: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  scalingFactor: 1
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!1 &1711261202
 GameObject:
   m_ObjectHideFlags: 0
@@ -355105,6 +355223,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1818717470}
+  - component: {fileID: 1818717471}
   m_Layer: 0
   m_Name: World Ambience Emitter
   m_TagString: Untagged
@@ -355127,6 +355246,30 @@ Transform:
   m_Children: []
   m_Father: {fileID: 432147326}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1818717471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818717469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 486db4a2897f04d71a668ffa382ad2f3, type: 3}
+  m_Name:
+  m_EditorClassIdentifier: AK.Wwise.Unity.MonoBehaviour::AkGameObj
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  usePositionOffsetData: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  scalingFactor: 1
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!1001 &1818901602
 PrefabInstance:
   m_ObjectHideFlags: 0

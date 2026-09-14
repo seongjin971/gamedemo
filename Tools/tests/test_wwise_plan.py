@@ -29,6 +29,20 @@ class AuthoringPlanTests(unittest.TestCase):
         self.assertEqual({x["stateOrSwitch"].split("\\")[-1] for x in foot}, {"Mud", "Gravel", "Snow", "Rock"})
         self.assertFalse(any(m["loop"] for m in self.plan["media"] if "\\Footsteps\\" in m["objectPath"]))
 
+    def test_duplicate_source_basenames_keep_distinct_originals_paths(self):
+        destinations = []
+        for call in self.plan["calls"]:
+            for entry in call["args"].get("imports", []):
+                destinations.append(entry["originalsSubFolder"] + "/" + pathlib.Path(entry["audioFile"]).name)
+        self.assertEqual(len(destinations), len(set(destinations)))
+
+    def test_footstep_pools_play_one_sample_per_contact(self):
+        pools = [c["args"] for c in self.plan["calls"] if c["args"].get("type") == "RandomSequenceContainer"
+                 and c["args"].get("parent", "").endswith("\\Footsteps")]
+        self.assertEqual(len(pools), 4)
+        self.assertTrue(all(p["@PlayMechanismStepOrContinuous"] == 1 for p in pools))
+        self.assertTrue(all(p["@RandomOrSequence"] == 1 for p in pools))
+
     def test_parameter_ranges_match_protocol(self):
         parameters = {x["args"]["name"]: x["args"] for x in self.plan["calls"] if x["args"].get("type") == "GameParameter"}
         self.assertEqual((parameters["TimeOfDay"]["@Min"], parameters["TimeOfDay"]["@Max"]), (0, 24))

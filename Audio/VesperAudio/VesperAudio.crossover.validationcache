@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationCache Version="1" SchemaVersion="133">
+	<ValidationCacheItem File="Y:\gamedemo\Audio\VesperAudio\Attenuations\Default Work Unit.wwu" DateLow="1789350043" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\gamedemo\Audio\VesperAudio\Attenuations\Factory Attenuations.wwu" DateLow="1789349717" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\gamedemo\Audio\VesperAudio\Busses\Default Work Unit.wwu" DateLow="1789350043" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\gamedemo\Audio\VesperAudio\Containers\Default Work Unit.wwu" DateLow="1789350043" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\gamedemo\Audio\VesperAudio\Control Surface Sessions\Default Work Unit.wwu" DateLow="1789350043" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\gamedemo\Audio\VesperAudio\Conversion Settings\Default Work Unit.wwu" DateLow="1789350043" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\gamedemo\Audio\VesperAudio\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1789349717" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\gamedemo\Audio\VesperAudio\Devices\Default Work Unit.wwu" DateLow="1789350043" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\gamedemo\Audio\VesperAudio\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1789350043" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\gamedemo\Audio\VesperAudio\Effects\Default Work Unit.wwu" DateLow="1789350043" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\gamedemo\Audio\VesperAudio\Effects\Factory Effects.wwu" DateLow="1789349717" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\gamedemo\Audio\VesperAudio\Events\Default Work Unit.wwu" DateLow="1789350043" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\gamedemo\Audio\VesperAudio\Game Parameters\Default Work Unit.wwu" DateLow="1789350043" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\gamedemo\Audio\VesperAudio\Metadata\Default Work Unit.wwu" DateLow="1789350043" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\gamedemo\Audio\VesperAudio\Mixing Sessions\Default Work Unit.wwu" DateLow="1789350043" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\gamedemo\Audio\VesperAudio\Modulators\Default Work Unit.wwu" DateLow="1789350043" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\gamedemo\Audio\VesperAudio\Presets\Default Work Unit.wwu" DateLow="1789350043" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\gamedemo\Audio\VesperAudio\Presets\Factory Spatial Audio.wwu" DateLow="1789349717" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\gamedemo\Audio\VesperAudio\Queries\Default Work Unit.wwu" DateLow="1789350043" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\gamedemo\Audio\VesperAudio\Queries\Factory Queries.wwu" DateLow="1789349717" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\gamedemo\Audio\VesperAudio\Sidechain Mixes\Default Work Unit.wwu" DateLow="1789350043" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\gamedemo\Audio\VesperAudio\SoundBanks\Default Work Unit.wwu" DateLow="1789350043" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\gamedemo\Audio\VesperAudio\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1789350043" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\gamedemo\Audio\VesperAudio\States\Default Work Unit.wwu" DateLow="1789350043" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\gamedemo\Audio\VesperAudio\Switches\Default Work Unit.wwu" DateLow="1789350043" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\gamedemo\Audio\VesperAudio\Triggers\Default Work Unit.wwu" DateLow="1789350043" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\gamedemo\Audio\VesperAudio\VesperAudio.wproj" DateLow="1789350043" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\gamedemo\Audio\VesperAudio\Virtual Acoustics\Default Work Unit.wwu" DateLow="1789350043" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Library\Application Support\Audiokinetic\MediaPool\2\MediaPoolQuery.wsettings" DateLow="1789350043" DateHigh="0"/>
+</ValidationCache>

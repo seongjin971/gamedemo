@@ -1,0 +1,80 @@
+{
+  "logs": [
+    {
+      "severity": "Message",
+      "message": "Using SoundBank settings from: Project Settings",
+      "time": 1789350960,
+      "messageId": "OverrideProjectSoundBankSettings"
+    },
+    {
+      "severity": "Message",
+      "message": "Using External Sources output paths from: Project Settings",
+      "time": 1789350960,
+      "messageId": "OverrideProjectExternalSourcesOutputPaths"
+    },
+    {
+      "severity": "Message",
+      "message": "Using SoundBank paths from: Project Settings",
+      "time": 1789350960,
+      "messageId": "OverrideProjectSoundBankPaths"
+    },
+    {
+      "severity": "Message",
+      "message": "Using Source Control for Generated Files: False",
+      "time": 1789350960,
+      "messageId": "UseSourceControlGeneratedFiles"
+    },
+    {
+      "severity": "Message",
+      "message": "External Sources output path: Y:\\gamedemo\\Audio\\VesperAudio\\GeneratedSoundBanks\\Windows",
+      "platform": {
+        "id": "{72250D87-CAC9-413E-9314-B4DCBB5722C6}",
+        "name": "Windows"
+      },
+      "time": 1789350960,
+      "messageId": "ExternalSourcesOutputPath"
+    },
+    {
+      "severity": "Message",
+      "message": "SoundBanks output path: Y:\\gamedemo\\Unity\\Vesper\\Assets\\StreamingAssets\\Audio\\GeneratedSoundBanks\\Windows\\",
+      "platform": {
+        "id": "{72250D87-CAC9-413E-9314-B4DCBB5722C6}",
+        "name": "Windows"
+      },
+      "time": 1789350960,
+      "messageId": "SoundBanksOutputPath"
+    },
+    {
+      "severity": "Message",
+      "message": "External Sources output path: Y:\\gamedemo\\Audio\\VesperAudio\\GeneratedSoundBanks\\Mac",
+      "platform": {
+        "id": "{B7F9ABCF-F1B9-44B7-8439-1463BC510467}",
+        "name": "Mac"
+      },
+      "time": 1789350960,
+      "messageId": "ExternalSourcesOutputPath"
+    },
+    {
+      "severity": "Message",
+      "message": "SoundBanks output path: Y:\\gamedemo\\Unity\\Vesper\\Assets\\StreamingAssets\\Audio\\GeneratedSoundBanks\\Mac\\",
+      "platform": {
+        "id": "{B7F9ABCF-F1B9-44B7-8439-1463BC510467}",
+        "name": "Mac"
+      },
+      "time": 1789350960,
+      "messageId": "SoundBanksOutputPath"
+    },
+    {
+      "severity": "Message",
+      "message": "Root output path: Y:\\gamedemo\\Unity\\Vesper\\Assets\\StreamingAssets\\Audio\\GeneratedSoundBanks\\",
+      "time": 1789350960,
+      "messageId": "RootOutputPath"
+    },
+    {
+      "severity": "Message",
+      "message": "9 message(s), 0 warning(s), 0 error(s), 0 fatal error(s)",
+      "time": 1789350960,
+      "messageId": ""
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="172">
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{22083B6D-9555-EF77-7690-9575444975B2}">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" ObjectPath="\Devices\Default Work Unit\No_Output" GUID="{61DBEA01-720B-4049-ACA0-46597E80A24F}" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" ObjectPath="\Devices\Default Work Unit\System" GUID="{E3F8F0C4-91D2-469A-97DA-6774611F9330}" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="2246998526" Name="Main Audio Bus" ObjectPath="\Busses\Default Work Unit\Main Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+			</Busses>
+			<GameParameters>
+				<GameParameter Id="1866329414" Name="RainIntensity" ObjectPath="\Game Parameters\Vesper_W11\RainIntensity" GUID="{5F2625ED-4A05-4AEF-BDD8-75B8D2AEEC25}"/>
+				<GameParameter Id="3729505769" Name="TimeOfDay" ObjectPath="\Game Parameters\Vesper_W11\TimeOfDay" GUID="{77E4BEE5-0880-4CC6-841E-CD2E1A8D0D62}"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="3686139462" Name="Area" ObjectPath="\States\Vesper_W11\Area" GUID="{B4A2132C-093D-46F9-966B-3B047F822555}">
+					<States>
+						<State Id="491961918" Name="Forest" ObjectPath="\States\Vesper_W11\Area\Forest" GUID="{6C30AF87-3705-4F08-A85C-2ED326B39D8D}"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Vesper_W11\Area\None" GUID="{883B6543-32FA-4241-BB35-4973912F45C0}"/>
+						<State Id="4106755421" Name="SnowMountain" ObjectPath="\States\Vesper_W11\Area\SnowMountain" GUID="{656DD9D3-A298-4C20-902B-4AE897F19316}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="63790334" Name="SurfaceType" ObjectPath="\Switches\Vesper_W11\SurfaceType" GUID="{84893217-FFF8-406B-8A82-B46C911D34FF}">
+					<Switches>
+						<Switch Id="712897245" Name="Mud" ObjectPath="\Switches\Vesper_W11\SurfaceType\Mud" GUID="{C170B4D5-FF72-4981-8F03-13ECD6C6D1EA}"/>
+						<Switch Id="787898836" Name="Snow" ObjectPath="\Switches\Vesper_W11\SurfaceType\Snow" GUID="{CF277941-BA27-4536-B544-D5061A52DD74}"/>
+						<Switch Id="2144363834" Name="Rock" ObjectPath="\Switches\Vesper_W11\SurfaceType\Rock" GUID="{970FFD1B-D2C4-49C5-AB6F-369F22D9B43D}"/>
+						<Switch Id="2185786256" Name="Gravel" ObjectPath="\Switches\Vesper_W11\SurfaceType\Gravel" GUID="{6F2EDE6E-81AF-4EDA-ADA8-9D0B4F91EA74}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{C7F70CB0-A12C-4EF5-E962-E207EEA78F49}</FileHash>
+</SoundBanksInfo>

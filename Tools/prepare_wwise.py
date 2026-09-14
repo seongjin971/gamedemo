@@ -47,7 +47,7 @@ def plan(root=ROOT):
 
     def pool(where, name, relative_folder, loop=False):
         path = create(where, "RandomSequenceContainer", name,
-                      **{"@RandomOrSequence": 0, "@PlayMechanismStepOrContinuous": 0})
+                      **{"@RandomOrSequence": 1, "@PlayMechanismStepOrContinuous": 1})
         files = sorted((root / "sfx" / relative_folder).glob("*.wav"))
         if not files:
             raise ValueError("No WAV files: " + relative_folder)
@@ -58,7 +58,8 @@ def plan(root=ROOT):
             name = re.sub(r"[^a-zA-Z0-9_]", "_", file.stem) + "_" + str(i + 1)
             obj = path + "\\<Sound SFX>" + name
             # Paths remain portable in the reviewed plan; they become absolute only during apply.
-            imports.append({"audioFile": relative, "objectPath": obj})
+            imports.append({"audioFile": relative, "objectPath": obj,
+                            "originalsSubFolder": "Vesper_W11/" + relative_folder})
             media.append({"source": relative, "objectPath": obj, "loop": loop,
                           "sha256": hashlib.sha256(file.read_bytes()).hexdigest()})
         call("audio.import", importOperation="createNew", default={"importLanguage": "SFX"}, imports=imports)
@@ -121,16 +122,25 @@ def plan(root=ROOT):
     }
 
 
-def apply(data, expected_project):
+def native_project_path(value):
+    """Normalize the drive mappings used by Audiokinetic's macOS Wine wrapper."""
+    if value.startswith("Y:\\"):
+        return pathlib.Path.home() / value[3:].replace("\\", "/")
+    if value.startswith("Z:\\"):
+        return pathlib.Path("/") / value[3:].replace("\\", "/")
+    return pathlib.Path(value)
+
+
+def apply(data, expected_project, url="ws://127.0.0.1:8080/waapi"):
     try:
         from waapi import WaapiClient
     except ImportError as exc:
         raise RuntimeError("Install the official waapi-client package in a Python virtual environment first.") from exc
     expected = expected_project.resolve()
-    with WaapiClient() as client:
+    with WaapiClient(url, allow_exception=True) as client:
         result = client.call("ak.wwise.core.object.get", {"from": {"ofType": ["Project"]}}, options={"return": ["filePath"]})
         projects = result.get("return", []) if result else []
-        if len(projects) != 1 or pathlib.Path(projects[0]["filePath"]).resolve() != expected:
+        if len(projects) != 1 or native_project_path(projects[0]["filePath"]).resolve() != expected:
             raise RuntimeError("Open the explicitly specified Wwise project before applying the plan.")
         # Never merge a partially applied plan or overwrite an existing project's work units.
         existing = client.call("ak.wwise.core.object.get", {"from": {"ofType": ["WorkUnit"]}}, options={"return": ["name", "path"]})
@@ -142,18 +152,14 @@ def apply(data, expected_project):
                               options={"return": ["name", "path"]})
         if not objects or any(x["name"] in reserved for x in objects["return"]):
             raise RuntimeError("A protocol name already exists (or inspection failed). Reconcile existing sound-design work before importing.")
-        client.call("ak.wwise.core.undo.beginGroup", {})
-        try:
-            for item in data["calls"]:
-                args = json.loads(json.dumps(item["args"]))
-                for entry in args.get("imports", []):
-                    entry["audioFile"] = str((ROOT / entry["audioFile"]).resolve())
-                if client.call(item["uri"], args) is None:
-                    raise RuntimeError("WAAPI failed: " + item["uri"])
-            client.call("ak.wwise.core.undo.endGroup", {"displayName": "Create Vesper W11 audio scaffold"})
-        except Exception:
-            client.call("ak.wwise.core.undo.cancelGroup", {})
-            raise
+        # Audio import commits its own undo operation in WwiseConsole. Do not
+        # promise an atomic cross-import undo group: stop and expose any failure.
+        for item in data["calls"]:
+            args = json.loads(json.dumps(item["args"]))
+            for entry in args.get("imports", []):
+                entry["audioFile"] = str((ROOT / entry["audioFile"]).resolve())
+            if client.call(item["uri"], args) is None:
+                raise RuntimeError("WAAPI failed: " + item["uri"])
         client.call("ak.wwise.core.project.save", {})
 
 
@@ -162,6 +168,7 @@ def main():
     parser.add_argument("--output", type=pathlib.Path, default=ROOT / "Audio/wwise-authoring-plan.json")
     parser.add_argument("--apply", action="store_true")
     parser.add_argument("--project", type=pathlib.Path, help="Exact .wproj path, required for --apply")
+    parser.add_argument("--url", default="ws://127.0.0.1:8080/waapi")
     args = parser.parse_args()
     data = plan()
     args.output.parent.mkdir(parents=True, exist_ok=True)
@@ -170,7 +177,7 @@ def main():
     if args.apply:
         if not args.project:
             parser.error("--apply requires --project")
-        apply(data, args.project)
+        apply(data, args.project, args.url)
         print("Scaffold applied. Complete the listed authoring settings before generating banks.")
 
 if __name__ == "__main__":

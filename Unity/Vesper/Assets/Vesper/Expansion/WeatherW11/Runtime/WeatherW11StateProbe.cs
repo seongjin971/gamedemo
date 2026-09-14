@@ -24,6 +24,9 @@ namespace Vesper.Expansion.WeatherW11 {
             public string[] checks, errors;
             public Sample[] samples;
             public Movement[] movements;
+            public bool wwiseReady;
+            public int wwiseEvents, wwiseErrors;
+            public string outputCapture;
         }
         [Serializable] public class Movement {
             public bool running;
@@ -48,6 +51,7 @@ namespace Vesper.Expansion.WeatherW11 {
         string output;
         float deadline;
         bool finished;
+        bool audioQA, capturing;
 
         [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]
         static void Install() {
@@ -59,6 +63,7 @@ namespace Vesper.Expansion.WeatherW11 {
             }
             var probe = new GameObject("W11 state validation").AddComponent<WeatherW11StateProbe>();
             probe.output = Path.GetFullPath(args[index + 1]);
+            probe.audioQA = Array.IndexOf(args, "-w11AudioQA") >= 0;
             Directory.CreateDirectory(Path.GetDirectoryName(probe.output));
             probe.deadline = Time.realtimeSinceStartup + 120;
         }
@@ -83,12 +88,25 @@ namespace Vesper.Expansion.WeatherW11 {
         void Finish() {
             if (finished) return;
             finished = true;
+#if VESPER_WWISE
+            if (capturing) { AkUnitySoundEngine.StopOutputCapture(); capturing = false; }
+#endif
+            if (bridge) { report.wwiseReady = bridge.Ready; report.wwiseEvents = bridge.PostedEvents; report.wwiseErrors = bridge.ErrorCount; }
             report.unityVersion = Application.unityVersion;
             report.checks = checks.ToArray(); report.errors = errors.ToArray(); report.samples = samples.ToArray();
             report.movements = movements.ToArray();
             File.WriteAllText(output, JsonUtility.ToJson(report, true));
             Debug.Log($"W11 state probe: {checks.Count} checks, {report.failures} failures, {errors.Count} errors. {output}");
-            EditorApplication.Exit(report.failures == 0 && errors.Count == 0 ? 0 : 1);
+            int exitCode = report.failures == 0 && errors.Count == 0 ? 0 : 1;
+            // Complete Play Mode teardown before unloading the native audio plug-in.
+            EditorApplication.CallbackFunction exit = null;
+            exit = () => {
+                if (EditorApplication.isPlayingOrWillChangePlaymode) return;
+                EditorApplication.update -= exit;
+                EditorApplication.Exit(exitCode);
+            };
+            EditorApplication.update += exit;
+            EditorApplication.ExitPlaymode();
         }
         IEnumerator Place(float progress) {
             motor.Stop(); motor.transform.SetPositionAndRotation(W10.WorldLayout.Point(progress), Quaternion.Euler(0, 180, 0));
@@ -105,6 +123,24 @@ namespace Vesper.Expansion.WeatherW11 {
             Check(value.surface == surface && value.area == area, $"{surface}/{area} at {progress}m");
             Check(value.timeOfDay >= 0 && value.timeOfDay < 24 && value.rainIntensity >= 0 && value.rainIntensity <= 1,
                 $"RTPC ranges at {progress}m");
+#if VESPER_WWISE
+            if (audioQA) {
+                yield return new WaitForSecondsRealtime(.75f);
+                int kind = 1;
+                var rainResult = AkUnitySoundEngine.GetRTPCValue("RainIntensity", bridge.playerEmitter, 0, out float rain, ref kind);
+                kind = 1;
+                var timeResult = AkUnitySoundEngine.GetRTPCValue("TimeOfDay", bridge.playerEmitter, 0, out float time, ref kind);
+                Check(rainResult == AKRESULT.AK_Success && timeResult == AKRESULT.AK_Success &&
+                    Mathf.Abs(rain - value.rainIntensity) < .006f && Mathf.Abs(time - value.timeOfDay) < .011f,
+                    $"Wwise receives rain/time RTPCs at {progress}m");
+                var areaResult = AkUnitySoundEngine.GetState("Area", out uint areaId);
+                var surfaceResult = AkUnitySoundEngine.GetSwitch("SurfaceType", bridge.playerEmitter, out uint surfaceId);
+                Check(areaResult == AKRESULT.AK_Success && surfaceResult == AKRESULT.AK_Success &&
+                    areaId == AkUnitySoundEngine.GetIDFromString(value.area.ToString()) &&
+                    surfaceId == AkUnitySoundEngine.GetIDFromString(value.surface.ToString()),
+                    $"Wwise receives area/surface syncs at {progress}m");
+            }
+#endif
         }
         IEnumerator Move(bool running, float target) {
             yield return Place(192);
@@ -116,7 +152,7 @@ namespace Vesper.Expansion.WeatherW11 {
             float until = Time.realtimeSinceStartup + 20;
             float maxRunBlend = 0;
             while (motor.IsWalking && Time.realtimeSinceStartup < until) {
-                yield return null;
+                if (audioQA) yield return new WaitForSecondsRealtime(1f / 60); else yield return null;
                 maxRunBlend = Mathf.Max(maxRunBlend, feet.animationSource.RunBlend);
             }
             movements.Add(new Movement { running = running, finalPosition = motor.transform.position, target = target,
@@ -147,6 +183,24 @@ namespace Vesper.Expansion.WeatherW11 {
             motor = state.motor; run = motor.GetComponent<W10.WorldRunInput>();
             cameraControl.nativeInput = false; run.keyboardEnabled = false; feet.Contact += Contact;
             var p = state.profile;
+#if VESPER_WWISE
+            if (audioQA) {
+                report.scope = "Unity Play Mode: actual Wwise SDK, bank loading, engine sync queries, footstep events, restart and master output WAV capture; no human listening or Windows runtime verification";
+                float readyDeadline = Time.realtimeSinceStartup + 18;
+                while (!bridge.Ready && bridge.ErrorCount == 0 && Time.realtimeSinceStartup < readyDeadline) yield return null;
+                Check(bridge.Ready && bridge.ErrorCount == 0, "Wwise initializes and loads Init/Vesper_W11 banks: " + bridge.Status);
+                if (!bridge.Ready) { Finish(); yield break; }
+                Check(bridge.PostedEvents == 2, "World and lake ambience each start once");
+                // The batch editor has no focused window. Keep the normal game
+                // focus policy intact and override it only for this explicit probe.
+                AkWwiseInitializationSettings.ActivePlatformSettings.SuspendAudioDuringFocusLoss = false;
+                AkUnitySoundEngine.WakeupFromSuspend();
+                yield return new WaitForSecondsRealtime(.2f);
+                report.outputCapture = Path.ChangeExtension(output, ".wav");
+                capturing = AkUnitySoundEngine.StartOutputCapture(report.outputCapture) == AKRESULT.AK_Success;
+                Check(capturing, "Wwise master output capture starts");
+            }
+#endif
             report.calibratedPhases = new[] { p.leftWalkContact, p.rightWalkContact, p.leftRunContact, p.rightRunContact };
             Check(p.contactsCalibrated && feet.leftFoot && feet.rightFoot, "Actual animation clips and foot bones calibrated");
             Check(Mathf.Abs(p.leftWalkContact - p.rightWalkContact) > .2f && Mathf.Abs(p.leftRunContact - p.rightRunContact) > .2f,
@@ -185,6 +239,22 @@ namespace Vesper.Expansion.WeatherW11 {
             Check(!state.Current.grounded, "No false ground support while airborne");
             yield return Move(false, 198);
             yield return Move(true, 204);
+#if VESPER_WWISE
+            if (audioQA) {
+                Check(bridge.Ready && bridge.ErrorCount == 0 && bridge.PostedEvents >= 2 + report.walkContacts + report.runContacts,
+                    "Walking/running contacts post Wwise events without errors");
+                uint count = 16; var ids = new uint[count];
+                AkUnitySoundEngine.GetPlayingIDsFromGameObject(bridge.ambienceEmitter, ref count, ids);
+                Check(count == 1, "Only one world ambience event remains after region changes and R reset");
+                int before = bridge.PostedEvents;
+                bridge.enabled = false; yield return new WaitForSecondsRealtime(.2f);
+                count = 16; AkUnitySoundEngine.GetPlayingIDsFromGameObject(bridge.ambienceEmitter, ref count, ids);
+                Check(count == 0, "Disabling the bridge stops its world ambience");
+                bridge.enabled = true; yield return new WaitForSecondsRealtime(.5f);
+                Check(bridge.Ready && bridge.PostedEvents == before + 2 && bridge.ErrorCount == 0,
+                    "Re-enabling reloads banks and starts each ambience once");
+            }
+#endif
             Finish();
         }
     }

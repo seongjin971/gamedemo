@@ -1,10 +1,10 @@
 # VESPER — The Last Sanctuary
 
-강가에서 어두운 숲과 비 오는 폐허를 지나 밤 눈보라 설산으로 이어지는 Unity 탐험 데모입니다. 현재 개발 시작점은 **Weather World W10**이며 게임 내 음향은 아직 연결하지 않았습니다. 환경음·발소리 WAV 76개를 `sfx/`에 개발용 원본으로 함께 제공합니다.
+강가에서 어두운 숲과 비 오는 폐허를 지나 밤 눈보라 설산으로 이어지는 Unity 탐험 데모입니다. 현재 브랜치는 **Weather World W11**이며 Wwise 발소리·환경음을 연결했습니다. 환경음·발소리 WAV 76개를 `sfx/`에 개발용 원본으로 함께 제공합니다.
 
 **처음 받았다면 [개발 인계 문서](HANDOFF.md)를 먼저 읽으세요.** 최신 상태는 [CHECKPOINT.md](CHECKPOINT.md) 최상단에 있습니다.
 
-Wwise W11 장면·음원 매핑과 Unity 상태 검사 42개 결과는 [Wwise 작업 인계](WWISE_HANDOFF.md)에 있습니다. Wwise 설치와 실제 음향 재생 검증은 남아 있으며 현재 플레이 기준은 W10입니다.
+Wwise 2025.1.10 연결과 Unity 실행 검사 59개, 실제 오디오 출력 검증 결과는 [Wwise 작업 인계](WWISE_HANDOFF.md)에 있습니다. 기존 W10 장면도 보존돼 있습니다.
 
 ![W10 실제 실행 화면](Migration/Evidence/Expansion/WeatherWorld/W10/input-qa-visible/start-qe-help.png)
 
@@ -12,18 +12,19 @@ Wwise W11 장면·음원 매핑과 Unity 상태 검사 42개 결과는 [Wwise �
 
 1. Git LFS를 설치하고 `git clone https://github.com/seongjin971/gamedemo.git`로 받은 뒤 저장소에서 `git lfs pull`을 실행합니다.
 2. Unity Hub에서 **Unity 6000.5.7f1**로 **`Unity/Vesper`** 폴더를 엽니다.
-3. **`Assets/Vesper/Scenes/Expansion/VesperWeatherWorld_W10.unity`**를 열고 Play를 누릅니다.
+3. **`Assets/Vesper/Scenes/Expansion/VesperWeatherWorld_W11.unity`**를 열고 Play를 누릅니다.
 
 클릭 이동 · **Q/E** 좌우 회전 · 휠 확대/축소 · **Shift** 달리기 · **R** 시작점 복귀. 자세한 조작은 [PLAY_WEATHER.md](PLAY_WEATHER.md)에 있습니다.
 
-실행 파일은 Git에 포함되지 않습니다. Windows 빌드 절차는 [HANDOFF.md](HANDOFF.md#windows-빌드)를 따르세요. 기존 빌드 목록은 초기 장면을 가리키므로 **W10 장면을 직접 지정**해야 합니다.
+실행 파일은 Git에 포함되지 않습니다. W11 Windows 빌드는 Unity 메뉴 **Vesper > W11 Audio > 4 Build Windows Player**를 사용합니다. 기존 기본 빌드 목록과 W10은 변경하지 않습니다.
 
 ## 저장소 구성
 
 | 경로 | 내용 |
 | --- | --- |
 | `Unity/Vesper` | 현재 프로젝트와 보존된 이전 장면·공유 자산 |
-| `sfx` | 환경음·발소리 WAV 76개, 약 118MB. Unity 미연결 원본 |
+| `Audio/VesperAudio` | Wwise 프로젝트·컨테이너·이벤트·게임 싱크와 가져온 원본 |
+| `sfx` | 환경음·발소리 WAV 76개, 약 118MB. Wwise 가져오기에 사용한 원본 |
 | `Migration/Source`, `ArtSource` | 제작 원본, 변환·검증 도구, 출처 기록 |
 | `Migration/Evidence` | 과거 보고서·검증 데이터와 최신 W10 실행 화면 |
 | `src`, `public`, `tests` | 초기 Three.js 브라우저 데모 |

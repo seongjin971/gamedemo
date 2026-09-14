@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{41E83976-3BBC-4AED-9F7E-409233EAE693}" SchemaVersion="133">
+	<GameParameters>
+		<WorkUnit Name="Vesper_W11" ID="{41E83976-3BBC-4AED-9F7E-409233EAE693}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="TimeOfDay" ID="{77E4BEE5-0880-4CC6-841E-CD2E1A8D0D62}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="8"/>
+						<Property Name="Max" Type="Real64" Value="24"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RainIntensity" ID="{5F2625ED-4A05-4AEF-BDD8-75B8D2AEEC25}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

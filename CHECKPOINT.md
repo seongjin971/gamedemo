@@ -1,3 +1,13 @@
+# 최신 전달 — Wwise 인게임 연결 W11 (2026-09-14)
+
+**WWISE_CONNECTED / ENGINE_OUTPUT_VERIFIED.** Unity 6000.5.7f1 + Wwise 2025.1.10.9233 + Unity Integration 2025.1.10.4304. W11 장면에서 바닥별 발소리, 시간·비 강도별 환경음, 숲/설산 전환, 호수 3D 감쇠를 연결했습니다. Unity Hub의 Vesper → W11 장면 → Play로 실행합니다.
+
+실제 SDK Play Mode 검사 59개 PASS, 오류 0, 정상 종료. Wwise 엔진 출력 WAV의 비무음 신호와 클리핑 0을 확인했습니다. 사람의 최종 청음·Windows 실행은 별도입니다. 음원 76개 원본 해시 일치, Mac/Windows Bank에 활성 음원 67개 포함. 천둥·concrete는 라이브러리에 보관합니다.
+
+[실행·작업 인계](WWISE_HANDOFF.md), [검증 상태](Audio/validation.json), [실행 검사](Audio/unity-wwise-validation.json), [출력 신호](Audio/output-signal-validation.json). 로컬 브랜치 `feat/wwise-w11`; 원격 업로드 전입니다. 아래 기록은 이전 W10 이하의 보존 기록입니다.
+
+---
+
 # 최신 전달 — Q/E 전용 시점 회전 W10
 
 **WEATHER_W10_READY_FOR_USER_REVIEW / QE_ONLY_ORBIT / NO_AUDIO.** W09 기준 후속 조작 수정. 마우스 드래그 회전을 제거하고 Q/E를 누를 때만 좌우 회전한다. 상하 각도 고정, 버튼 해제 지점으로 클릭 이동, 휠/Shift 유지, R 시작점 복귀 때 선택 각도 유지. 게임 안내 갱신.

@@ -1,0 +1,26 @@
+{
+  "sourceFilesVerified": 76,
+  "footstepPools": 4,
+  "regionCrossfadeSeconds": 1.5,
+  "lakeMaxDistance": 40,
+  "banks": {
+    "Mac": {
+      "mediaCount": 67,
+      "bytes": 74275108,
+      "sha256": "47b9dcac2e406807a6d125d2d2c40bdbc3c7811136cde16523b0020fce0a993e"
+    },
+    "Windows": {
+      "mediaCount": 67,
+      "bytes": 74275108,
+      "sha256": "47b9dcac2e406807a6d125d2d2c40bdbc3c7811136cde16523b0020fce0a993e"
+    }
+  },
+  "outputSignal": {
+    "channels": 2,
+    "sampleRate": 48000,
+    "seconds": 14.432,
+    "peakDbFS": -29.608413055146997,
+    "rmsDbFS": -49.0452299528729,
+    "clippedSamples": 0
+  }
+}

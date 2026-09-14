@@ -1,10 +1,10 @@
 {
-  "recorded_at_utc": "2026-09-14T01:00:27.326289+00:00",
+  "recorded_at_utc": "2026-09-14T02:08:04.236101+00:00",
   "base_commit": "8fc50948e7725cd54ff14159beb0137b52a6589f",
-  "status": "UNITY_STATE_VERIFIED_WWISE_INSTALL_PENDING",
+  "status": "WWISE_CONNECTED_AUDIO_OUTPUT_VERIFIED_WINDOWS_BUILT",
   "unity_editor_installed": "6000.5.7f1",
   "audio_model_assertions_passed": 40,
-  "authoring_plan_tests_passed": 6,
+  "authoring_plan_tests_passed": 8,
   "source_compile": {
     "passed": true,
     "source_file_count": 18,
@@ -18,12 +18,12 @@
     "operation": "PrepareBatch: W11 scene, profile, clip contact calibration and reference validation"
   },
   "w11_scene_created": true,
-  "wwise_sdk_installed": false,
-  "wwise_sdk_branch_compiled": false,
-  "authoring_plan_applied": false,
-  "soundbanks_generated": false,
+  "wwise_sdk_installed": true,
+  "wwise_sdk_branch_compiled": true,
+  "authoring_plan_applied": true,
+  "soundbanks_generated": true,
   "audible_playback_verified": false,
-  "windows_player_built": false,
+  "windows_player_built": true,
   "remote_write_permission": "READ",
   "pushed": false,
   "unity_license_active": true,
@@ -39,5 +39,38 @@
   },
   "foot_contacts_calibrated_from_clips": true,
   "waapi_client_version": "0.8",
-  "waapi_live_connection_verified": false
+  "waapi_live_connection_verified": true,
+  "wwise_version": "2025.1.10.9233",
+  "unity_integration_version": "2025.1.10.4304",
+  "unity_hub_project_registered": true,
+  "wwise_play_mode": {
+    "exit_code": 0,
+    "checks_passed": 59,
+    "failures": 0,
+    "errors": 0,
+    "report": "Audio/unity-wwise-validation.json",
+    "output_signal_report": "Audio/output-signal-validation.json",
+    "engine_output_verified": true,
+    "human_listening_verified": false,
+    "graphics": "Normal Unity Editor with Metal; sound assertions passed. Shader toolchain installed afterward for editor rendering."
+  },
+  "audible_playback_note": "Non-silent Wwise engine output was recorded and measured; human listening review has not been performed.",
+  "windows_runtime_verified": false,
+  "windows_build": {
+    "exit_code": 0,
+    "path": "Unity/Vesper/Builds/VesperWeatherWorld_W11/VesperAudio.exe",
+    "files": 213,
+    "bytes": 366000568,
+    "bank_hashes_match": true,
+    "runtime_verified": false
+  },
+  "metal_toolchain_installed": "17C7003j",
+  "editor_visible_check": {
+    "scene": "VesperWeatherWorld_W11",
+    "status": "Wwise connected",
+    "events_at_idle": 2,
+    "errors": 0,
+    "screenshot": "Audio/wwise-editor-verified.png",
+    "metal_toolchain": "17C7003j"
+  }
 }

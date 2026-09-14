@@ -1,0 +1,930 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "979826602",
+    "Type": "User",
+    "GUID": "{F74412AD-0C2A-4BB1-9D28-B46009EAFDAD}",
+    "Language": "SFX",
+    "Hash": "{C1EAC71E-2130-8BC2-2F1A-542927554DD7}",
+    "ObjectPath": "\\SoundBanks\\Vesper_W11\\Vesper_W11",
+    "ShortName": "Vesper_W11",
+    "Path": "Vesper_W11.bnk",
+    "Media": [
+     {
+      "Id": "15838892",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\ambience\\snow\\random\\randomwind\\rdwind-01.wav",
+      "CachePath": "F9/{F9925D6C-7004-C119-AE26-35FA292BC96A}.wem"
+     },
+     {
+      "Id": "24526420",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\footstep\\footstep rock\\footstep rock6.wav",
+      "CachePath": "C5/{C5C32DE9-4A8D-73AA-08A8-25B750922350}.wem"
+     },
+     {
+      "Id": "26697983",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\footstep\\footstep rock\\footstep rock2.wav",
+      "CachePath": "27/{279D7B7B-6018-A52D-A0DD-93CBADFD5F02}.wem"
+     },
+     {
+      "Id": "47026132",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\footstep\\footstep rock\\footstep rock.wav",
+      "CachePath": "47/{47FD45F4-4052-C238-8254-3E8A6C8BE764}.wem"
+     },
+     {
+      "Id": "47517527",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\ambience\\rainnight\\background\\background-01.wav",
+      "CachePath": "67/{671C127F-ACD4-1C63-7D72-EDF7CCC05D69}.wem"
+     },
+     {
+      "Id": "49324607",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\ambience\\snow\\background\\background-01.wav",
+      "CachePath": "0E/{0ECDE263-477C-C511-0128-5C6D0D53757C}.wem"
+     },
+     {
+      "Id": "70164096",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\ambience\\morning\\random one shot\\wind\\rdwind3.wav",
+      "CachePath": "A4/{A4F7017B-7983-C299-2F2C-5B7586D06808}.wem"
+     },
+     {
+      "Id": "89783744",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\ambience\\night\\background\\night background.wav",
+      "CachePath": "52/{52535179-4DE3-1D80-9C06-F10747392CD8}.wem"
+     },
+     {
+      "Id": "110322067",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\footstep\\footstep gravel\\footstep gravel-03.wav",
+      "CachePath": "99/{99BC24A9-C875-E744-173B-CC3399ABFB85}.wem"
+     },
+     {
+      "Id": "114518460",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\ambience\\rainnight\\background\\background-02.wav",
+      "CachePath": "F4/{F4BA1D37-236A-8D71-A32E-5F72DC0B6774}.wem"
+     },
+     {
+      "Id": "126859189",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\footstep\\footstep snow\\footstep snow.wav",
+      "CachePath": "05/{05C1340A-9361-5432-C55B-03668562704F}.wem"
+     },
+     {
+      "Id": "153742970",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\ambience\\rainnight\\random\\randomwind\\rdwind.wav",
+      "CachePath": "59/{59448CE3-6E8D-5EA0-9A05-C97B89332161}.wem"
+     },
+     {
+      "Id": "162827648",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\footstep\\footstep snow\\footstep snow-02.wav",
+      "CachePath": "C8/{C8F6E7BC-2C1E-8AC4-0DB3-7B4FE3405CCF}.wem"
+     },
+     {
+      "Id": "164250302",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\ambience\\night\\oneshot\\bug\\rdbug-02.wav",
+      "CachePath": "64/{64625732-44A6-33BF-71A9-F5B60FB9DDCE}.wem"
+     },
+     {
+      "Id": "175173937",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\ambience\\rainnight\\random\\randomgrass\\rdgrass-01.wav",
+      "CachePath": "35/{35DDC87B-4CD1-5F58-F6B6-63D8FBBF464F}.wem"
+     },
+     {
+      "Id": "180142408",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\footstep\\footstep wet\\footstep wet3.wav",
+      "CachePath": "F6/{F66827BC-5E25-952B-CB52-2B28D2D017CF}.wem"
+     },
+     {
+      "Id": "206100557",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\ambience\\night\\background\\night background-02.wav",
+      "CachePath": "2F/{2FA48337-D8D3-B12D-3B14-549A2888D09B}.wem"
+     },
+     {
+      "Id": "231306724",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\ambience\\night\\background\\night background-01.wav",
+      "CachePath": "F2/{F29B5EC1-7A56-D21A-BF0D-771F2DAEFF01}.wem"
+     },
+     {
+      "Id": "231365238",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\ambience\\snow\\random\\randomwind\\rdwind-03.wav",
+      "CachePath": "43/{430228CD-C624-80CB-CA78-A35E915A981D}.wem"
+     },
+     {
+      "Id": "238731827",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\ambience\\morning\\random one shot\\bird\\rdbird-03.wav",
+      "CachePath": "C5/{C541994A-A156-2AA4-992C-1A9B3C2A926A}.wem"
+     },
+     {
+      "Id": "238764432",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\ambience\\snow\\background\\background.wav",
+      "CachePath": "70/{70553BBA-81D8-F32B-30D5-F44FB4E54AB4}.wem"
+     },
+     {
+      "Id": "255166649",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\footstep\\footstep rock\\footstep rock5.wav",
+      "CachePath": "2F/{2F88A3B0-4BC6-C292-5963-8D454F16F086}.wem"
+     },
+     {
+      "Id": "299384836",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\ambience\\morning\\random one shot\\wind\\rdwind2.wav",
+      "CachePath": "98/{98475761-BEB7-CC0F-789D-0B0122819663}.wem"
+     },
+     {
+      "Id": "306718504",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\footstep\\footstep rock\\footstep rock4.wav",
+      "CachePath": "D2/{D266F3BB-B9F0-334A-DBDF-95FCA5EF51B8}.wem"
+     },
+     {
+      "Id": "326468663",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\ambience\\night\\oneshot\\wolf\\rdwolf.wav",
+      "CachePath": "7A/{7A6AF264-1E80-A510-46E6-E07664E86A91}.wem"
+     },
+     {
+      "Id": "346735029",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\ambience\\morning\\random one shot\\bug\\rdbug-01.wav",
+      "CachePath": "0D/{0D32DF32-6719-6752-66DD-95C51CE03811}.wem"
+     },
+     {
+      "Id": "380272471",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\ambience\\morning\\background\\wind2.wav",
+      "CachePath": "14/{14A4AE50-FD4B-A3B6-0AA3-8ABFF050E708}.wem"
+     },
+     {
+      "Id": "389876883",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\footstep\\footstep snow\\footstep snow-01.wav",
+      "CachePath": "27/{279EE2AB-687F-9C87-FA0E-87039868AE86}.wem"
+     },
+     {
+      "Id": "397751079",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\ambience\\rainnight\\random\\randomgrass\\rdgrass-02.wav",
+      "CachePath": "E0/{E00CBED2-34AC-B0AC-FE55-283EBDD767C8}.wem"
+     },
+     {
+      "Id": "428445492",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\ambience\\night\\oneshot\\bug\\rdbug-01.wav",
+      "CachePath": "34/{345FFBFB-A87F-A78E-E825-E1AE4DE8EE36}.wem"
+     },
+     {
+      "Id": "443876435",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\footstep\\footstep rock\\footstep rock7.wav",
+      "CachePath": "46/{46197943-7B8B-C70C-8236-4B9DEAE22294}.wem"
+     },
+     {
+      "Id": "447424440",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\ambience\\rainnight\\random\\randomwind\\rdwind-01.wav",
+      "CachePath": "A0/{A0F1FD39-98AD-1343-F282-CE0F153867F0}.wem"
+     },
+     {
+      "Id": "461851726",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\footstep\\footstep gravel\\footstep gravel-01.wav",
+      "CachePath": "2B/{2BBA1A78-BA39-BF2C-5FFF-3B9E3BFBF053}.wem"
+     },
+     {
+      "Id": "465984354",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\ambience\\night\\oneshot\\owl\\rdowl.wav",
+      "CachePath": "3F/{3FF83BDB-3DD1-6C31-5B7F-10D7C3CE62DD}.wem"
+     },
+     {
+      "Id": "466994095",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\ambience\\morning\\random one shot\\bird\\rdbird-01.wav",
+      "CachePath": "86/{86882C39-BE8C-E3B3-97FB-DD08EB1B8125}.wem"
+     },
+     {
+      "Id": "550067335",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\ambience\\morning\\random one shot\\grass\\rdgrass-01.wav",
+      "CachePath": "E1/{E14D3731-9A9C-4221-2E71-222D460E252B}.wem"
+     },
+     {
+      "Id": "550835230",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\ambience\\rainnight\\random\\randomwind\\rdwind-02.wav",
+      "CachePath": "8E/{8E13ED91-FB65-850A-316B-48FEBD651107}.wem"
+     },
+     {
+      "Id": "551137995",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\ambience\\snow\\random\\randomwolf\\rdwolf.wav",
+      "CachePath": "7C/{7CE0B194-5EAA-5FC0-0F30-27126F57925F}.wem"
+     },
+     {
+      "Id": "574758917",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\footstep\\footstep gravel\\footstep gravel-02.wav",
+      "CachePath": "75/{75971A22-2835-9110-48DF-070BAAD35A3F}.wem"
+     },
+     {
+      "Id": "582190481",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\footstep\\footstep wet\\footstep wet2.wav",
+      "CachePath": "6E/{6E857B80-F35C-5104-49CF-B4EA58016D23}.wem"
+     },
+     {
+      "Id": "606925433",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\ambience\\rainnight\\rainbackground\\rainbackground-01.wav",
+      "CachePath": "6E/{6ED373DC-D8EC-49B1-3E2E-97BA21880187}.wem"
+     },
+     {
+      "Id": "623044456",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\ambience\\rainnight\\background\\background.wav",
+      "CachePath": "1F/{1F0DB1C3-C47B-E7CB-6665-6FA7C48FD83E}.wem"
+     },
+     {
+      "Id": "651873864",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\footstep\\footstep gravel\\footstep gravel-04.wav",
+      "CachePath": "15/{15E13C32-9697-99EE-EC4C-1544967C9529}.wem"
+     },
+     {
+      "Id": "652031760",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\ambience\\snow\\background\\background-03.wav",
+      "CachePath": "BF/{BF4B6900-9408-F4F1-7E6C-3C5FF43C3BD8}.wem"
+     },
+     {
+      "Id": "668502983",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\ambience\\snow\\random\\randomwind\\rdwind.wav",
+      "CachePath": "14/{143490F8-D5CF-3D6A-4096-6F810904333D}.wem"
+     },
+     {
+      "Id": "680322870",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\ambience\\snow\\random\\randomwind\\rdwind-05.wav",
+      "CachePath": "62/{62390A15-9E48-E5ED-D4A7-8A4144DCC7C3}.wem"
+     },
+     {
+      "Id": "686412050",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\ambience\\morning\\random one shot\\bug\\rdbug.wav",
+      "CachePath": "0A/{0A5D76B6-7E95-AD44-4137-F51A35B6805C}.wem"
+     },
+     {
+      "Id": "687710507",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\ambience\\morning\\random one shot\\grass\\rdgrass.wav",
+      "CachePath": "93/{93CA1A13-C9CE-1A87-94FA-12A1489FEC50}.wem"
+     },
+     {
+      "Id": "691276197",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\ambience\\morning\\object\\ojriver.wav",
+      "CachePath": "13/{1387D774-6A94-5A83-E8E2-F24912A6481B}.wem"
+     },
+     {
+      "Id": "698984493",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\ambience\\rainnight\\rainbackground\\rainbackground.wav",
+      "CachePath": "DB/{DB4CEED2-BD15-02E3-7683-C3C47F7496D5}.wem"
+     },
+     {
+      "Id": "758969944",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\ambience\\snow\\background\\background-02.wav",
+      "CachePath": "0F/{0F715D7B-419D-79C1-68C7-0A66A494B2F8}.wem"
+     },
+     {
+      "Id": "762505329",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\ambience\\snow\\random\\randomwind\\rdwind-06.wav",
+      "CachePath": "24/{24C4C612-BE2D-3457-7F8A-39D2FB81E8C0}.wem"
+     },
+     {
+      "Id": "818668366",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\ambience\\snow\\random\\randomwind\\rdwind-04.wav",
+      "CachePath": "F3/{F3CB4E94-64DA-E72B-EBE7-FD69872318B9}.wem"
+     },
+     {
+      "Id": "824123375",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\footstep\\footstep gravel\\footstep gravel.wav",
+      "CachePath": "3C/{3C6E9624-23EB-489A-BAB2-4A30A0CC166F}.wem"
+     },
+     {
+      "Id": "830203912",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\ambience\\morning\\random one shot\\bird\\rdbird-02.wav",
+      "CachePath": "73/{73A11CE6-AD4F-576D-33BD-CCF91F007112}.wem"
+     },
+     {
+      "Id": "873003008",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\ambience\\morning\\random one shot\\wind\\rdwind1.wav",
+      "CachePath": "43/{43075A59-E9E2-B13E-EBE6-B538FAD82FA0}.wem"
+     },
+     {
+      "Id": "881409903",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\ambience\\snow\\random\\randomwind\\rdwind-02.wav",
+      "CachePath": "30/{305CEAB4-3E19-0E4C-FA03-DCD985545437}.wem"
+     },
+     {
+      "Id": "898112094",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\ambience\\morning\\background\\wind1.wav",
+      "CachePath": "11/{111A047F-26E0-284A-6BF2-3FB7DA261BA5}.wem"
+     },
+     {
+      "Id": "904345040",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\footstep\\footstep wet\\footstep wet4.wav",
+      "CachePath": "EF/{EFD4192D-63A0-9C81-106F-55821BB7402A}.wem"
+     },
+     {
+      "Id": "920295052",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\ambience\\morning\\random one shot\\bird\\rdbird.wav",
+      "CachePath": "D3/{D310E02D-2AE7-A5D9-5527-D4FF570C670C}.wem"
+     },
+     {
+      "Id": "941576130",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\ambience\\rainnight\\random\\randomgrass\\rdgrass.wav",
+      "CachePath": "C0/{C04C06C7-74F0-99FB-6238-230103CAB547}.wem"
+     },
+     {
+      "Id": "952004669",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\footstep\\footstep snow\\footstep snow-03.wav",
+      "CachePath": "A3/{A368F861-EBF9-7EEA-3E6C-B28F58692E00}.wem"
+     },
+     {
+      "Id": "985289014",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\ambience\\snow\\random\\randomwind\\rdwind-07.wav",
+      "CachePath": "EE/{EEBF9058-5C5C-3D44-7D55-165E721E41A9}.wem"
+     },
+     {
+      "Id": "988426885",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\ambience\\night\\oneshot\\owl\\rdowl-01.wav",
+      "CachePath": "7F/{7F77081C-63B4-3ABA-25B7-2137B7F9667C}.wem"
+     },
+     {
+      "Id": "1032187304",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\footstep\\footstep wet\\footstep wet.wav",
+      "CachePath": "3D/{3D7D681A-DB47-6848-D60D-EB41991673F3}.wem"
+     },
+     {
+      "Id": "1036007746",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\footstep\\footstep rock\\footstep rock3.wav",
+      "CachePath": "C9/{C941180F-2FB7-27A7-C15D-2B8D3D84E8C0}.wem"
+     },
+     {
+      "Id": "1040447623",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\ambience\\night\\oneshot\\bug\\rdbug.wav",
+      "CachePath": "32/{323D1098-B33C-48E9-6AAC-A3C14CC301ED}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1602358412",
+      "Name": "Play_Footstep",
+      "ObjectPath": "\\Events\\Vesper_W11\\Play_Footstep",
+      "GUID": "{7D57ED3E-FEF2-4E88-A6FA-3690648A82DE}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.32197917",
+      "DurationMax": "1.3682916",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "63790334",
+         "Id": "2144363834",
+         "GUID": "{970FFD1B-D2C4-49C5-AB6F-369F22D9B43D}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "24526420"
+         },
+         {
+          "Id": "26697983"
+         },
+         {
+          "Id": "47026132"
+         },
+         {
+          "Id": "255166649"
+         },
+         {
+          "Id": "306718504"
+         },
+         {
+          "Id": "443876435"
+         },
+         {
+          "Id": "1036007746"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "63790334",
+         "Id": "787898836",
+         "GUID": "{CF277941-BA27-4536-B544-D5061A52DD74}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "126859189"
+         },
+         {
+          "Id": "162827648"
+         },
+         {
+          "Id": "389876883"
+         },
+         {
+          "Id": "952004669"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "63790334",
+         "Id": "2185786256",
+         "GUID": "{6F2EDE6E-81AF-4EDA-ADA8-9D0B4F91EA74}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "110322067"
+         },
+         {
+          "Id": "461851726"
+         },
+         {
+          "Id": "574758917"
+         },
+         {
+          "Id": "651873864"
+         },
+         {
+          "Id": "824123375"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "63790334",
+         "Id": "712897245",
+         "GUID": "{C170B4D5-FF72-4981-8F03-13ECD6C6D1EA}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "180142408"
+         },
+         {
+          "Id": "582190481"
+         },
+         {
+          "Id": "904345040"
+         },
+         {
+          "Id": "1032187304"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "1923763734",
+      "Name": "Play_Lake_Ambience",
+      "ObjectPath": "\\Events\\Vesper_W11\\Play_Lake_Ambience",
+      "GUID": "{E48727B4-C3B3-41C9-BD86-23519B0050A6}",
+      "MaxAttenuation": "40",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "691276197"
+       }
+      ]
+     },
+     {
+      "Id": "193927641",
+      "Name": "Play_World_Ambience",
+      "ObjectPath": "\\Events\\Vesper_W11\\Play_World_Ambience",
+      "GUID": "{E6FEF526-621D-40BC-9453-1BAAE8D59297}",
+      "DurationType": "Infinite",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "3686139462",
+         "Id": "491961918",
+         "GUID": "{6C30AF87-3705-4F08-A85C-2ED326B39D8D}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "47517527"
+         },
+         {
+          "Id": "70164096"
+         },
+         {
+          "Id": "89783744"
+         },
+         {
+          "Id": "114518460"
+         },
+         {
+          "Id": "153742970"
+         },
+         {
+          "Id": "164250302"
+         },
+         {
+          "Id": "175173937"
+         },
+         {
+          "Id": "206100557"
+         },
+         {
+          "Id": "231306724"
+         },
+         {
+          "Id": "238731827"
+         },
+         {
+          "Id": "299384836"
+         },
+         {
+          "Id": "326468663"
+         },
+         {
+          "Id": "346735029"
+         },
+         {
+          "Id": "380272471"
+         },
+         {
+          "Id": "397751079"
+         },
+         {
+          "Id": "428445492"
+         },
+         {
+          "Id": "447424440"
+         },
+         {
+          "Id": "465984354"
+         },
+         {
+          "Id": "466994095"
+         },
+         {
+          "Id": "550067335"
+         },
+         {
+          "Id": "550835230"
+         },
+         {
+          "Id": "606925433"
+         },
+         {
+          "Id": "623044456"
+         },
+         {
+          "Id": "686412050"
+         },
+         {
+          "Id": "687710507"
+         },
+         {
+          "Id": "698984493"
+         },
+         {
+          "Id": "830203912"
+         },
+         {
+          "Id": "873003008"
+         },
+         {
+          "Id": "898112094"
+         },
+         {
+          "Id": "920295052"
+         },
+         {
+          "Id": "941576130"
+         },
+         {
+          "Id": "988426885"
+         },
+         {
+          "Id": "1040447623"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "3686139462",
+         "Id": "4106755421",
+         "GUID": "{656DD9D3-A298-4C20-902B-4AE897F19316}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "15838892"
+         },
+         {
+          "Id": "49324607"
+         },
+         {
+          "Id": "231365238"
+         },
+         {
+          "Id": "238764432"
+         },
+         {
+          "Id": "551137995"
+         },
+         {
+          "Id": "652031760"
+         },
+         {
+          "Id": "668502983"
+         },
+         {
+          "Id": "680322870"
+         },
+         {
+          "Id": "758969944"
+         },
+         {
+          "Id": "762505329"
+         },
+         {
+          "Id": "818668366"
+         },
+         {
+          "Id": "881409903"
+         },
+         {
+          "Id": "985289014"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1866329414",
+      "Name": "RainIntensity",
+      "ObjectPath": "\\Game Parameters\\Vesper_W11\\RainIntensity",
+      "GUID": "{5F2625ED-4A05-4AEF-BDD8-75B8D2AEEC25}"
+     },
+     {
+      "Id": "3729505769",
+      "Name": "TimeOfDay",
+      "ObjectPath": "\\Game Parameters\\Vesper_W11\\TimeOfDay",
+      "GUID": "{77E4BEE5-0880-4CC6-841E-CD2E1A8D0D62}"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "3686139462",
+      "Name": "Area",
+      "ObjectPath": "\\States\\Vesper_W11\\Area",
+      "GUID": "{B4A2132C-093D-46F9-966B-3B047F822555}",
+      "States": [
+       {
+        "Id": "491961918",
+        "Name": "Forest",
+        "ObjectPath": "\\States\\Vesper_W11\\Area\\Forest",
+        "GUID": "{6C30AF87-3705-4F08-A85C-2ED326B39D8D}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Vesper_W11\\Area\\None",
+        "GUID": "{883B6543-32FA-4241-BB35-4973912F45C0}"
+       },
+       {
+        "Id": "4106755421",
+        "Name": "SnowMountain",
+        "ObjectPath": "\\States\\Vesper_W11\\Area\\SnowMountain",
+        "GUID": "{656DD9D3-A298-4C20-902B-4AE897F19316}"
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "63790334",
+      "Name": "SurfaceType",
+      "ObjectPath": "\\Switches\\Vesper_W11\\SurfaceType",
+      "GUID": "{84893217-FFF8-406B-8A82-B46C911D34FF}",
+      "Switches": [
+       {
+        "Id": "712897245",
+        "Name": "Mud",
+        "ObjectPath": "\\Switches\\Vesper_W11\\SurfaceType\\Mud",
+        "GUID": "{C170B4D5-FF72-4981-8F03-13ECD6C6D1EA}"
+       },
+       {
+        "Id": "787898836",
+        "Name": "Snow",
+        "ObjectPath": "\\Switches\\Vesper_W11\\SurfaceType\\Snow",
+        "GUID": "{CF277941-BA27-4536-B544-D5061A52DD74}"
+       },
+       {
+        "Id": "2144363834",
+        "Name": "Rock",
+        "ObjectPath": "\\Switches\\Vesper_W11\\SurfaceType\\Rock",
+        "GUID": "{970FFD1B-D2C4-49C5-AB6F-369F22D9B43D}"
+       },
+       {
+        "Id": "2185786256",
+        "Name": "Gravel",
+        "ObjectPath": "\\Switches\\Vesper_W11\\SurfaceType\\Gravel",
+        "GUID": "{6F2EDE6E-81AF-4EDA-ADA8-9D0B4F91EA74}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{39675823-A05A-E079-F8CD-1CF417DF6C86}"
+ }
+}

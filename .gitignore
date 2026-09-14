@@ -56,3 +56,19 @@ Desktop.ini
 *.p12
 *.key
 *.pem
+
+# Wwise local authoring cache, downloaded SDK documentation and debug symbols.
+/Audio/VesperAudio/.cache/
+/Audio/VesperAudio/.backup/
+/Audio/VesperAudio/*.wsettings
+/Audio/VesperAudio/*.akd
+/Audio/VesperAudio/*.prof
+/Unity/Vesper_WwiseIntegrationTemp/
+/Unity/Vesper/Assets/Wwise/Documentation/
+/Unity/Vesper/Assets/Wwise/Documentation.meta
+*.pdb
+*.pdb.meta
+*.dSYM/
+*.dSYM.meta
+# The capture is available locally; its measured signal report is versioned.
+/Audio/unity-wwise-validation*.wav
