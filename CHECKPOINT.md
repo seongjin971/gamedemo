@@ -1,4 +1,12 @@
-# 최신 전달 — Wwise 인게임 연결 W11 (2026-09-14)
+# 최신 전달 — 새 PC 자동 설정 브릿지 (2026-09-15)
+
+다른 개발자가 `feat/wwise-w11`을 받아 Unity 6000.5.7f1로 `Unity/Vesper`를 열면 경로·SDK 활성화·Bank 준비 상태를 자동 확인합니다. 처음 열린 빈 장면은 W11로 전환합니다. 플레이에는 별도 Wwise Authoring 실행이 필요하지 않으며, 음향 편집용 설치 경로는 PC별로 찾습니다.
+
+[새 PC 실행 안내](Audio/ONBOARDING.md), [자동 설정 검사](Audio/bootstrap-validation.json), [새 체크아웃의 실제 Wwise 실행 검사](Audio/fresh-clone-wwise-validation.json), [출력 신호](Audio/fresh-clone-output-validation.json). Unity 설치·라이선스 활성화는 각 PC에서 먼저 진행합니다. 아래는 이전 구현·점검 기록입니다.
+
+---
+
+# Wwise 인게임 연결 W11 (2026-09-14)
 
 **WWISE_CONNECTED / ENGINE_OUTPUT_VERIFIED.** Unity 6000.5.7f1 + Wwise 2025.1.10.9233 + Unity Integration 2025.1.10.4304. W11 장면에서 바닥별 발소리, 시간·비 강도별 환경음, 숲/설산 전환, 호수 3D 감쇠를 연결했습니다. Unity Hub의 Vesper → W11 장면 → Play로 실행합니다.
 

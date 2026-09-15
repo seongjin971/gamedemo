@@ -1,5 +1,5 @@
 {
-  "recorded_at_utc": "2026-09-14T07:10:19.605887+00:00",
+  "recorded_at_utc": "2026-09-15T00:29:54.834736+00:00",
   "base_commit": "8fc50948e7725cd54ff14159beb0137b52a6589f",
   "status": "WWISE_CONNECTED_AUDIO_OUTPUT_VERIFIED_WINDOWS_BUILT",
   "unity_editor_installed": "6000.5.7f1",
@@ -7,7 +7,7 @@
   "authoring_plan_tests_passed": 8,
   "source_compile": {
     "passed": true,
-    "source_file_count": 18,
+    "source_file_count": 20,
     "wwise_enabled": false,
     "warnings_as_errors": true,
     "references": "Installed Unity 6000.5.7f1 and bundled cross-platform template URP assemblies"
@@ -83,5 +83,20 @@
     "Snow"
   ],
   "project_reference_audit": "Audio/project-reference-audit.json",
-  "audit_report": "Audio/AUDIT.md"
+  "audit_report": "Audio/AUDIT.md",
+  "bootstrap": {
+    "implemented": true,
+    "fresh_checkout_checks_passed": 25,
+    "fresh_checkout_play_mode_checks_passed": 88,
+    "fresh_checkout_authoring_discovery_disabled": true,
+    "report": "Audio/bootstrap-validation.json",
+    "play_mode_report": "Audio/fresh-clone-wwise-validation.json",
+    "output_signal_report": "Audio/fresh-clone-output-validation.json",
+    "setup_guide": "Audio/ONBOARDING.md",
+    "windows_runtime_verified": false,
+    "authoring_discovery_checks_passed": 5,
+    "authoring_discovery_report": "Audio/authoring-discovery-validation.json",
+    "fresh_checkout_windows_build_succeeded": true,
+    "fresh_checkout_build_report": "Audio/fresh-clone-build-validation.json"
+  }
 }

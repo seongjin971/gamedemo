@@ -1,0 +1,60 @@
+{
+  "sourceFilesVerified": 76,
+  "footstepPools": 4,
+  "regionCrossfadeSeconds": 1.5,
+  "lakeMaxDistance": 40,
+  "banks": {
+    "Mac": {
+      "mediaCount": 67,
+      "bytes": 74275108,
+      "sha256": "47b9dcac2e406807a6d125d2d2c40bdbc3c7811136cde16523b0020fce0a993e"
+    },
+    "Windows": {
+      "mediaCount": 67,
+      "bytes": 74275108,
+      "sha256": "47b9dcac2e406807a6d125d2d2c40bdbc3c7811136cde16523b0020fce0a993e"
+    }
+  },
+  "outputSignal": {
+    "channels": 2,
+    "sampleRate": 48000,
+    "seconds": 6.549333333333333,
+    "peakDbFS": -26.798762431925404,
+    "rmsDbFS": -50.319239626017094,
+    "clippedSamples": 0
+  },
+  "isolatedFootsteps": {
+    "Gravel": {
+      "channels": 2,
+      "sampleRate": 48000,
+      "seconds": 1.0666666666666667,
+      "peakDbFS": -28.653291292865358,
+      "rmsDbFS": -46.819434356822384,
+      "clippedSamples": 0
+    },
+    "Mud": {
+      "channels": 2,
+      "sampleRate": 48000,
+      "seconds": 1.0986666666666667,
+      "peakDbFS": -24.086641845944246,
+      "rmsDbFS": -48.94151901262625,
+      "clippedSamples": 0
+    },
+    "Rock": {
+      "channels": 2,
+      "sampleRate": 48000,
+      "seconds": 1.056,
+      "peakDbFS": -31.03324215228325,
+      "rmsDbFS": -48.667525349906285,
+      "clippedSamples": 0
+    },
+    "Snow": {
+      "channels": 2,
+      "sampleRate": 48000,
+      "seconds": 1.0666666666666667,
+      "peakDbFS": -30.317688934674713,
+      "rmsDbFS": -48.26456113204848,
+      "clippedSamples": 0
+    }
+  }
+}

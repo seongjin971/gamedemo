@@ -1,0 +1,21 @@
+{
+  "checks": [
+    "PASS bank platform: StandaloneWindows",
+    "PASS bank platform: StandaloneWindows64",
+    "PASS bank platform: StandaloneOSX",
+    "PASS unsupported Linux target is rejected",
+    "PASS complete Mac banks",
+    "PASS complete Windows banks",
+    "PASS missing bank is rejected",
+    "PASS empty, invalid and truncated banks are rejected",
+    "PASS default build scene is W11"
+  ],
+  "windowsBuildSucceeded": true,
+  "scope": "Windows x64 Mono build from relocated checkout; shared Authoring installation paths empty",
+  "bankHashes": {
+    "Init.bnk": "a31a82436dd8fa992588bd8a4bd0a60cf65065e087c02163e01278839438fcbf",
+    "Vesper_W11.bnk": "47b9dcac2e406807a6d125d2d2c40bdbc3c7811136cde16523b0020fce0a993e"
+  },
+  "nativeDllIncluded": true,
+  "windowsRuntimeVerified": false
+}

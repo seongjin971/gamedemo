@@ -1,0 +1,12 @@
+{
+    "scope": "Installed Authoring discovery on OSXEditor; no Authoring launch or Windows execution",
+    "unityVersion": "6000.5.7f1",
+    "checks": [
+        "PASS Existing project remains ready after setup",
+        "PASS Installed matching Authoring is discovered and version-checked",
+        "PASS Official Integration receives the local Authoring path",
+        "PASS Authoring discovery leaves shared installation paths empty",
+        "PASS Repeated Authoring discovery preserves shared settings"
+    ],
+    "failures": 0
+}

@@ -6,6 +6,8 @@
 
 ## 실행
 
+다른 개발자 PC의 설치·자동 설정 절차는 [새 PC 실행 안내](Audio/ONBOARDING.md)에 있습니다. Unity 실행 시 자동 브릿지가 경로·SDK 활성화·Bank 준비 상태를 확인합니다. 플레이에는 Wwise Authoring 설치나 동시 실행이 필요하지 않습니다.
+
 1. Unity Hub의 **Vesper** 프로젝트를 엽니다. 로컬 경로: `/Users/ai/gamedemo/Unity/Vesper`.
 2. `Assets/Vesper/Scenes/Expansion/VesperWeatherWorld_W11.unity`를 엽니다. 메뉴 `Vesper > W11 Audio > 1 Prepare or Open Scene`으로도 열 수 있습니다.
 3. Play를 누릅니다. 화면의 오디오 상태가 `Wwise connected`가 되면 연결된 상태입니다. 기존 이동·달리기·카메라 조작과 R 복귀를 그대로 사용합니다.

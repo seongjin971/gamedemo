@@ -11,7 +11,7 @@
   <LoadSoundEngineInEditMode>true</LoadSoundEngineInEditMode>
   <ShowMissingRigidBodyWarning>true</ShowMissingRigidBodyWarning>
   <ShowSpatialAudioWarningMsg>true</ShowSpatialAudioWarningMsg>
-  <WwiseInstallationPathMac>/Applications/Audiokinetic/Wwise_2025.1.10.9233/Wwise.app</WwiseInstallationPathMac>
+  <WwiseInstallationPathMac />
   <WwiseInstallationPathWindows />
   <WwiseProjectPath>../../../Audio/VesperAudio/VesperAudio.wproj</WwiseProjectPath>
   <UseWaapi>true</UseWaapi>

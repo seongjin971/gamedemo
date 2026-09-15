@@ -1,4 +1,4 @@
-> **현재 시작점은 W11입니다.** `feat/wwise-w11` 브랜치를 받은 뒤 Unity Hub에서 `Unity/Vesper`를 열고 `VesperWeatherWorld_W11.unity`를 실행하세요. Wwise 연결·Windows 빌드는 [WWISE_HANDOFF.md](WWISE_HANDOFF.md), 최신 검증은 [전수 점검 결과](Audio/AUDIT.md)를 보세요. 기본 빌드 장면도 W11입니다. 아래는 W10 당시의 보존 기록입니다.
+> **현재 시작점은 W11입니다.** 새 PC는 [자동 설정·실행 안내](Audio/ONBOARDING.md)를 따라 `feat/wwise-w11` 브랜치를 받고 Unity Hub에서 `Unity/Vesper`를 엽니다. 경로와 SDK 활성화는 자동 준비되며 플레이에는 Wwise Authoring 실행이 필요하지 않습니다. Wwise 연결·Windows 빌드는 [WWISE_HANDOFF.md](WWISE_HANDOFF.md), 검증은 [전수 점검 결과](Audio/AUDIT.md)를 보세요. 아래는 W10 당시의 보존 기록입니다.
 
 # VESPER 개발 인계 — 2026-09-13
 

@@ -1,0 +1,32 @@
+{
+    "scope": "Fresh relocated checkout without Library or UserSettings; automatic setup, missing SDK define recovery, Authoring unavailable, followed by actual Wwise Play Mode validation",
+    "unityVersion": "6000.5.7f1",
+    "checks": [
+        "PASS Authoring discovery is disabled for the fresh-checkout test",
+        "PASS Automatic post-import setup completes",
+        "PASS Gameplay setup succeeds without a Wwise Authoring executable",
+        "PASS SDK define is restored automatically after importing",
+        "PASS Fresh project automatically opens W11",
+        "PASS Relative Wwise project path resolves in a relocated folder with spaces",
+        "PASS Official Integration uses the relocated Wwise project",
+        "PASS Bundled banks need no Authoring or copy step",
+        "PASS Bundled Mac bank chunks are complete",
+        "PASS Bundled Windows bank chunks are complete",
+        "PASS W11 initializer, listener, emitters and game-state references are valid",
+        "PASS Repeated setup leaves shared settings and authored scene unchanged",
+        "PASS Shared XML contains no machine-specific installation paths",
+        "PASS Stale computer paths and conflicting auto-generation are repaired",
+        "PASS Repaired settings use bundled banks and the authored player listener",
+        "PASS Unrelated developer preferences are preserved",
+        "PASS Portable settings normalization is idempotent",
+        "PASS Empty build list is initialized to W11",
+        "PASS A developer's custom build list is preserved",
+        "PASS Unsaved scene work is never replaced automatically",
+        "PASS An existing saved scene is preserved on later opens",
+        "PASS A mismatched Authoring version is rejected",
+        "PASS Matching Authoring can be found in a custom path with spaces",
+        "PASS A missing Authoring installation is not treated as installed",
+        "PASS Windows paths with spaces are passed as one argument"
+    ],
+    "failures": 0
+}

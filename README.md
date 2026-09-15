@@ -4,6 +4,8 @@
 
 **처음 받았다면 [개발 인계 문서](HANDOFF.md)를 먼저 읽으세요.** 최신 상태는 [CHECKPOINT.md](CHECKPOINT.md) 최상단에 있습니다.
 
+**다른 PC의 실행·자동 설정은 [새 PC 실행 안내](Audio/ONBOARDING.md)를 보세요.** Unity를 열면 Wwise 경로와 SDK 활성화를 자동 준비합니다. 플레이에는 Wwise Authoring 실행이 필요하지 않습니다.
+
 Wwise 2025.1.10 연결과 Unity 실행 검사 88개, 실제 오디오 출력 검증 결과는 [Wwise 작업 인계](WWISE_HANDOFF.md)에 있습니다. 기존 W10 장면도 보존돼 있습니다.
 
 ![W10 실제 실행 화면](Migration/Evidence/Expansion/WeatherWorld/W10/input-qa-visible/start-qe-help.png)
@@ -12,7 +14,7 @@ Wwise 2025.1.10 연결과 Unity 실행 검사 88개, 실제 오디오 출력 검
 
 1. Git LFS를 설치하고 `git clone --branch feat/wwise-w11 https://github.com/seongjin971/gamedemo.git`로 받은 뒤 저장소에서 `git lfs pull`을 실행합니다.
 2. Unity Hub에서 **Unity 6000.5.7f1**로 **`Unity/Vesper`** 폴더를 엽니다.
-3. **`Assets/Vesper/Scenes/Expansion/VesperWeatherWorld_W11.unity`**를 열고 Play를 누릅니다.
+3. 첫 가져오기가 끝나면 자동 설정 창을 확인합니다. 처음 열린 빈 장면은 W11로 전환됩니다. 이미 작업 중인 장면이 있으면 **Vesper > W11 Audio > Setup Status > W11 장면 열기**를 누르고 Play합니다.
 
 클릭 이동 · **Q/E** 좌우 회전 · 휠 확대/축소 · **Shift** 달리기 · **R** 시작점 복귀. 자세한 조작은 [PLAY_WEATHER.md](PLAY_WEATHER.md)에 있습니다.
 
