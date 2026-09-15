@@ -6707,7 +6707,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 04d15408b0c9c4f41969890591cb5309, type: 3}
-  m_Name:
+  m_Name: 
   m_EditorClassIdentifier: AK.Wwise.Unity.MonoBehaviour::AkAudioListener
   isDefaultListener: 1
   bOverrideScalingFactor: 0
@@ -6723,7 +6723,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 486db4a2897f04d71a668ffa382ad2f3, type: 3}
-  m_Name:
+  m_Name: 
   m_EditorClassIdentifier: AK.Wwise.Unity.MonoBehaviour::AkGameObj
   m_listeners:
     initialListenerList: []
@@ -40043,6 +40043,54 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b54ba2db494237e4fa4d053334e86c3b, type: 3}
   m_PrefabInstance: {fileID: 231697287}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &231716921
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 231716922}
+  - component: {fileID: 231716923}
+  m_Layer: 0
+  m_Name: WILLOWBANK
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &231716922
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 231716921}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.9000001, z: -27.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1499020835}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &231716923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 231716921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 058722407adf040879b2a36b7a6c4b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Vesper.SoundDirector.SoundTarget
+  id: dbe9ecf8c2144201b081d2d9922cc130
+  description: "\uC232 \uCD08\uC785\uACFC \uAC15\uAC00. \uC544\uCE68\uC758 \uD3B8\uC548\uD55C
+    \uC0B0\uCC45, \uB098\uBB47\uC78E\uACFC \uC0C8\uC18C\uB9AC."
+  suggestedRadius: 46.75
 --- !u!1001 &232099607
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -81173,11 +81221,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 48dd2a2678f66429bacca4e162e66968, type: 3}
-  m_Name:
+  m_Name: 
   m_EditorClassIdentifier: AK.Wwise.Unity.MonoBehaviour::AkInitializer
-  InitializationSettings: {fileID: 0}
-  basePath:
-  language:
+  InitializationSettings: {fileID: 11400000, guid: 179ff79fb17ca4d88b8cbd8adaec637d, type: 2}
+  basePath: 
+  language: 
   defaultPoolSize: 0
   lowerPoolSize: 0
   streamingPoolSize: 0
@@ -90479,6 +90527,54 @@ Transform:
   - {fileID: 23113171}
   m_Father: {fileID: 325883598}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &478341933
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 478341934}
+  - component: {fileID: 478341935}
+  m_Layer: 0
+  m_Name: RAINWOOD
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &478341934
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 478341933}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 2.031313, z: -140}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1499020835}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &478341935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 478341933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 058722407adf040879b2a36b7a6c4b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Vesper.SoundDirector.SoundTarget
+  id: 2bd01bc013de43faab2c95b3c3895e0d
+  description: "\uC5B4\uB450\uC6B4 \uBE44 \uC624\uB294 \uC232. \uD3D0\uD5C8\uB85C
+    \uC811\uADFC\uD558\uB294 \uAE38."
+  suggestedRadius: 47.600002
 --- !u!1001 &478614150
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -204892,6 +204988,54 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1085539744
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1085539745}
+  - component: {fileID: 1085539746}
+  m_Layer: 0
+  m_Name: NIGHTFALL ASCENT
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1085539745
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1085539744}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 5.9368887, z: -270.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1499020835}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1085539746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1085539744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 058722407adf040879b2a36b7a6c4b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Vesper.SoundDirector.SoundTarget
+  id: 87a5aa13900d4a6ca3a33bfbc28b722e
+  description: "\uC124\uC0B0\uC73C\uB85C \uC624\uB974\uB294 \uAE38. \uBC24, \uCC28\uAC00\uC6B4
+    \uBC14\uB78C, \uB208\uC774 \uC2DC\uC791\uB428."
+  suggestedRadius: 55.25
 --- !u!1001 &1086529522
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -228147,7 +228291,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 486db4a2897f04d71a668ffa382ad2f3, type: 3}
-  m_Name:
+  m_Name: 
   m_EditorClassIdentifier: AK.Wwise.Unity.MonoBehaviour::AkGameObj
   m_listeners:
     initialListenerList: []
@@ -254401,6 +254545,54 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1351272772}
   m_Mesh: {fileID: -5095313644724450711, guid: 69971d53125b0234aa33e5b2e7652f39, type: 3}
+--- !u!1 &1351392168
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1351392169}
+  - component: {fileID: 1351392170}
+  m_Layer: 0
+  m_Name: VESPER ABBEY
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1351392169
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1351392168}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 2.2, z: -203}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1499020835}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1351392170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1351392168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 058722407adf040879b2a36b7a6c4b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Vesper.SoundDirector.SoundTarget
+  id: b436441cfefa43e2aa9b4e1c876b91d7
+  description: "\uC218\uB3C4\uC6D0 \uD3D0\uD5C8\uC640 \uB3CC\uAE38. \uBC24, \uACE0\uB9BD\uAC10,
+    \uBD88\uC548\uD55C \uC815\uC801\uACFC \uBC14\uB78C."
+  suggestedRadius: 59.5
 --- !u!1 &1351582194
 GameObject:
   m_ObjectHideFlags: 0
@@ -271683,6 +271875,55 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b54ba2db494237e4fa4d053334e86c3b, type: 3}
   m_PrefabInstance: {fileID: 1450692002}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1451444284
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1451444285}
+  - component: {fileID: 1451444286}
+  m_Layer: 0
+  m_Name: River at Willowbank
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1451444285
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1451444284}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.55, z: -25}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1499020835}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1451444286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1451444284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 058722407adf040879b2a36b7a6c4b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Vesper.SoundDirector.SoundTarget
+  id: e8f17bad26114d3d9134a96399365541
+  description: "\uAC15\uACFC \uD638\uC218\uC758 \uBB3C\uC18C\uB9AC. \uC774 \uC704\uCE58\uC5D0
+    \uAC00\uAE4C\uC6B8 \uB54C\uB9CC \uB4E4\uB824\uC57C \uD558\uB294 \uAD6D\uC18C
+    \uC218\uC6D0."
+  suggestedRadius: 35
 --- !u!1001 &1451502517
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -286165,6 +286406,74 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1498406846}
   m_Mesh: {fileID: -4405067197847881229, guid: 69971d53125b0234aa33e5b2e7652f39, type: 3}
+--- !u!1 &1499020832
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1499020835}
+  - component: {fileID: 1499020834}
+  - component: {fileID: 1499020833}
+  m_Layer: 0
+  m_Name: Vesper Sound Director
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1499020833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1499020832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8096d7ad813364b5baf2a4789fdd55dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Vesper.SoundDirector.DirectorOverlay
+--- !u!114 &1499020834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1499020832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1baa6810a0dca4768b1f7f52dee308ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Vesper.SoundDirector.SoundDirectorPlayer
+  profile: {fileID: 11400000, guid: aea31b458a3e14ef98661a3c7cb73dbe, type: 2}
+  listener: {fileID: 38990021}
+  existingAudio: {fileID: 432147323}
+  useDirection: 1
+--- !u!4 &1499020835
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1499020832}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 231716922}
+  - {fileID: 1840658731}
+  - {fileID: 478341934}
+  - {fileID: 1351392169}
+  - {fileID: 1085539745}
+  - {fileID: 2040597636}
+  - {fileID: 1451444285}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1499128358
 GameObject:
   m_ObjectHideFlags: 0
@@ -331945,7 +332254,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 486db4a2897f04d71a668ffa382ad2f3, type: 3}
-  m_Name:
+  m_Name: 
   m_EditorClassIdentifier: AK.Wwise.Unity.MonoBehaviour::AkGameObj
   m_listeners:
     initialListenerList: []
@@ -355256,7 +355565,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 486db4a2897f04d71a668ffa382ad2f3, type: 3}
-  m_Name:
+  m_Name: 
   m_EditorClassIdentifier: AK.Wwise.Unity.MonoBehaviour::AkGameObj
   m_listeners:
     initialListenerList: []
@@ -358706,6 +359015,54 @@ Transform:
   - {fileID: 1061905395}
   m_Father: {fileID: 325883598}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1840658730
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1840658731}
+  - component: {fileID: 1840658732}
+  m_Layer: 0
+  m_Name: STORMWATCH GROVE
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1840658731
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1840658730}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.1495556, z: -83.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1499020835}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1840658732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1840658730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 058722407adf040879b2a36b7a6c4b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Vesper.SoundDirector.SoundTarget
+  id: 62b7e8277458431cacdfb69003a18700
+  description: "\uBE44\uAC00 \uC2DC\uC791\uB418\uB294 \uC232. \uBC14\uB78C\uACFC
+    \uC816\uC740 \uB098\uBB34, \uC800\uB141\uC73C\uB85C \uBCC0\uD558\uB294 \uAD6C\uAC04."
+  suggestedRadius: 48.45
 --- !u!1001 &1841990308
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -398387,6 +398744,54 @@ Transform:
   - {fileID: 29345752}
   m_Father: {fileID: 325883598}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2040597635
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2040597636}
+  - component: {fileID: 2040597637}
+  m_Layer: 0
+  m_Name: MIDNIGHT PASS
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2040597636
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2040597635}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 14.530247, z: -331.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1499020835}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2040597637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2040597635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 058722407adf040879b2a36b7a6c4b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Vesper.SoundDirector.SoundTarget
+  id: 3b6d3ba171d7463ea239ea2c55933a70
+  description: "\uB208 \uB36E\uC778 \uC0B0\uAE38. \uD55C\uBC24\uC911, \uAC15\uD55C
+    \uCD94\uC704\uC640 \uBA3C \uC57C\uC0DD\uB3D9\uBB3C \uC18C\uB9AC."
+  suggestedRadius: 48.45
 --- !u!1001 &2040775882
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -417154,3 +417559,4 @@ SceneRoots:
   - {fileID: 1085432615}
   - {fileID: 1153501270}
   - {fileID: 432147326}
+  - {fileID: 1499020835}

@@ -1,4 +1,4 @@
-> **현재 시작점은 W11입니다.** 새 PC는 [자동 설정·실행 안내](Audio/ONBOARDING.md)를 따라 `feat/wwise-w11` 브랜치를 받고 Unity Hub에서 `Unity/Vesper`를 엽니다. 경로와 SDK 활성화는 자동 준비되며 플레이에는 Wwise Authoring 실행이 필요하지 않습니다. Wwise 연결·Windows 빌드는 [WWISE_HANDOFF.md](WWISE_HANDOFF.md), 검증은 [전수 점검 결과](Audio/AUDIT.md)를 보세요. 아래는 W10 당시의 보존 기록입니다.
+> **현재 개발 방향은 Vesper Sound Director MVP입니다.** Unity의 **Vesper → Sound Director → Open**에서 자연어 사운드 계획을 설계·검토·적용하고 A/B로 비교합니다. W11과 별도 Sound Lab 장면을 제공합니다. [제품 사용 방법과 검증 범위](Audio/SOUND_DIRECTOR.md)를 먼저 읽으세요. 실제 AI 호출에는 OpenAI API 키가 필요하며 포함된 초기 연출은 **수동 예제**입니다. 새 PC는 [자동 설정·실행 안내](Audio/ONBOARDING.md)를 따라 `feat/wwise-w11`을 받고 Unity Hub에서 `Unity/Vesper`를 엽니다. 아래는 이전 W10 개발 기록입니다.
 
 # VESPER 개발 인계 — 2026-09-13
 

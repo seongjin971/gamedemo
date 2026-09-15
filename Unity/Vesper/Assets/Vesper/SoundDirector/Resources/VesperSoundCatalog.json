@@ -1,0 +1,595 @@
+{
+  "version": 1,
+  "revision": "5d8b47dc739eedb356d946c6637f5532bdcaeee56ef6dd000cd83e03e912a40e",
+  "bankName": "Vesper_Director",
+  "mediaBankName": "Vesper_W11",
+  "sounds": [
+    {
+      "id": "day_wind",
+      "description": "Soft daytime wind bed; calm outdoor forest",
+      "loop": true,
+      "available": true,
+      "eventName": "SD_Play_day_wind",
+      "files": [
+        {
+          "path": "sfx/ambience/morning/background/wind1.wav",
+          "sha256": "95c72b1d7212bc0a9cc7ba99dcc4c5ba232b39b7249ca286b05274027501145d",
+          "seconds": 14.379
+        },
+        {
+          "path": "sfx/ambience/morning/background/wind2.wav",
+          "sha256": "a5c02ed596349b46e7da9044070eb3f14fdabd7af79447aac6bda1f2e2574335",
+          "seconds": 14.629
+        }
+      ]
+    },
+    {
+      "id": "river",
+      "description": "Flowing river water; local water source, pond or lakeside",
+      "loop": true,
+      "available": true,
+      "eventName": "SD_Play_river",
+      "files": [
+        {
+          "path": "sfx/ambience/morning/object/ojriver.wav",
+          "sha256": "ddf2318336d17d164d908a22b45b79af1cfa5da540e7373af520148f3cf75622",
+          "seconds": 11.334
+        }
+      ]
+    },
+    {
+      "id": "birds",
+      "description": "Short daytime bird calls; lively, safe woodland",
+      "loop": false,
+      "available": true,
+      "eventName": "SD_Play_birds",
+      "files": [
+        {
+          "path": "sfx/ambience/morning/random one shot/bird/rdbird-01.wav",
+          "sha256": "ecb6487cc4d13c50a1817e8c1dd42835cf90ac92eae88abce2a3a23c12ff26fa",
+          "seconds": 3.125
+        },
+        {
+          "path": "sfx/ambience/morning/random one shot/bird/rdbird-02.wav",
+          "sha256": "0d89127c4e130d227bfdfa7436fddbc6593ffbee6d4593411a93890a5ad533d4",
+          "seconds": 2.125
+        },
+        {
+          "path": "sfx/ambience/morning/random one shot/bird/rdbird-03.wav",
+          "sha256": "efc8b247cfce4b792a8d4a4aada630c91a2c565d56dfd3bb1b693b9a45216733",
+          "seconds": 2.125
+        },
+        {
+          "path": "sfx/ambience/morning/random one shot/bird/rdbird.wav",
+          "sha256": "19dd15c61d4eaddde141908abc6f535d2742146937cd5a8e9ebde8bbc6b66d60",
+          "seconds": 1.875
+        }
+      ]
+    },
+    {
+      "id": "day_bugs",
+      "description": "Short daytime insect details",
+      "loop": false,
+      "available": true,
+      "eventName": "SD_Play_day_bugs",
+      "files": [
+        {
+          "path": "sfx/ambience/morning/random one shot/bug/rdbug-01.wav",
+          "sha256": "6225069e6ee863f6043a984676e4aa1d9c56119c50dcb51a752ac9d5de97ded8",
+          "seconds": 5.125
+        },
+        {
+          "path": "sfx/ambience/morning/random one shot/bug/rdbug.wav",
+          "sha256": "3001aa836aa78ab298e08253905775b75f4518eb1900bab8d649dee1ff8ef988",
+          "seconds": 5.125
+        }
+      ]
+    },
+    {
+      "id": "grass",
+      "description": "Dry grass rustle; movement and subtle unease",
+      "loop": false,
+      "available": true,
+      "eventName": "SD_Play_grass",
+      "files": [
+        {
+          "path": "sfx/ambience/morning/random one shot/grass/rdgrass-01.wav",
+          "sha256": "7d6100c74222f5eb1d2718e6dfa31b1c3e8e5c0f9af00e647118ba9e7fd3364d",
+          "seconds": 6.875
+        },
+        {
+          "path": "sfx/ambience/morning/random one shot/grass/rdgrass.wav",
+          "sha256": "7275f2f274ae9a91141105716e91628e626d519edeaa2a9f37c0401fadd05188",
+          "seconds": 4.0
+        }
+      ]
+    },
+    {
+      "id": "day_gusts",
+      "description": "Short gusts of wind in daytime woodland",
+      "loop": false,
+      "available": true,
+      "eventName": "SD_Play_day_gusts",
+      "files": [
+        {
+          "path": "sfx/ambience/morning/random one shot/wind/rdwind1.wav",
+          "sha256": "d0a73436efaba51ccdf37104020baef378bf60f13bd7491678fc516fa21189b4",
+          "seconds": 6.25
+        },
+        {
+          "path": "sfx/ambience/morning/random one shot/wind/rdwind2.wav",
+          "sha256": "076affa8ee022a196cea9d64480e911d624b6bfe4e9b56f28d634df07ff49f07",
+          "seconds": 4.375
+        },
+        {
+          "path": "sfx/ambience/morning/random one shot/wind/rdwind3.wav",
+          "sha256": "507930196fe6b081805dd1c8bb92e158e93faab0170e103e68ae835f7b7dd00d",
+          "seconds": 4.375
+        }
+      ]
+    },
+    {
+      "id": "night_bed",
+      "description": "Continuous night ambience; quiet, dark outdoor setting",
+      "loop": true,
+      "available": true,
+      "eventName": "SD_Play_night_bed",
+      "files": [
+        {
+          "path": "sfx/ambience/night/background/night background-01.wav",
+          "sha256": "c0694658031f4c93a10aa7c5307be5ae92f0ef5d5d977f23c949868ca2bc0b1d",
+          "seconds": 13.62
+        },
+        {
+          "path": "sfx/ambience/night/background/night background-02.wav",
+          "sha256": "9f5b48fc9cc87a44eed1d9e93b82c20587c764249ad9a06caed59db780a09189",
+          "seconds": 13.921
+        },
+        {
+          "path": "sfx/ambience/night/background/night background.wav",
+          "sha256": "bd0ecf946227bf0e47baf540fa1217a76dede63146691da404a467c48dce7159",
+          "seconds": 13.844
+        }
+      ]
+    },
+    {
+      "id": "night_bugs",
+      "description": "Night insect calls; intermittent nocturnal detail",
+      "loop": false,
+      "available": true,
+      "eventName": "SD_Play_night_bugs",
+      "files": [
+        {
+          "path": "sfx/ambience/night/oneshot/bug/rdbug-01.wav",
+          "sha256": "c3011b4181178bf90a45416a893b760bacf4b5ce0b71d3e6cad6c4bcd8ae2556",
+          "seconds": 3.141
+        },
+        {
+          "path": "sfx/ambience/night/oneshot/bug/rdbug-02.wav",
+          "sha256": "62ec3e3f2d32f2b97b174d16b76ca50587a355f3127dbed3e42eea716c57af61",
+          "seconds": 3.042
+        },
+        {
+          "path": "sfx/ambience/night/oneshot/bug/rdbug.wav",
+          "sha256": "6d1d9437007e791ce69bc60134422821ab7b3c9b72ce5da97247b8b593f431a8",
+          "seconds": 2.968
+        }
+      ]
+    },
+    {
+      "id": "owls",
+      "description": "Owl calls; sparse nocturnal woodland",
+      "loop": false,
+      "available": true,
+      "eventName": "SD_Play_owls",
+      "files": [
+        {
+          "path": "sfx/ambience/night/oneshot/owl/rdowl-01.wav",
+          "sha256": "651156a5bfd4c526ec530aaf0e1c5b372be73c8cfe477ea566bb40ca61a4e123",
+          "seconds": 2.784
+        },
+        {
+          "path": "sfx/ambience/night/oneshot/owl/rdowl.wav",
+          "sha256": "88c9d92bbf356c813012f6f94c01cb6df7ff2da359edcc679899732cf194ebef",
+          "seconds": 2.556
+        }
+      ]
+    },
+    {
+      "id": "wolves",
+      "description": "Distant wolf calls; danger, isolation, uneasy night",
+      "loop": false,
+      "available": true,
+      "eventName": "SD_Play_wolves",
+      "files": [
+        {
+          "path": "sfx/ambience/night/oneshot/wolf/rdwolf.wav",
+          "sha256": "d14e86bc1cb89fb187af1a96ef04d5d121ce2e29cfd7b249a76bd6fc572ab09f",
+          "seconds": 11.332
+        }
+      ]
+    },
+    {
+      "id": "rain_bed",
+      "description": "Steady rainy night ambience",
+      "loop": true,
+      "available": true,
+      "eventName": "SD_Play_rain_bed",
+      "files": [
+        {
+          "path": "sfx/ambience/rainnight/background/background-01.wav",
+          "sha256": "eb92d23338f3438d24f3a2ad1ba7c61a4ff86a4acf6ebdf78e717410b45e237d",
+          "seconds": 28.616
+        },
+        {
+          "path": "sfx/ambience/rainnight/background/background-02.wav",
+          "sha256": "85e783c55daf232a4eb54aa0539fd0c523864ab94a65b8b4de3c2b0740cc219d",
+          "seconds": 23.25
+        },
+        {
+          "path": "sfx/ambience/rainnight/background/background.wav",
+          "sha256": "8da8b27274f6cf2aad1af75a9a5e93bd6c50b9702d893dc75afbb25a509069da",
+          "seconds": 22.942
+        }
+      ]
+    },
+    {
+      "id": "heavy_rain",
+      "description": "Continuous heavy rainfall; storm without thunder",
+      "loop": true,
+      "available": true,
+      "eventName": "SD_Play_heavy_rain",
+      "files": [
+        {
+          "path": "sfx/ambience/rainnight/rainbackground/rainbackground-01.wav",
+          "sha256": "3d9d9a3df7cef6c382fc34eca0c4bd873039f939aa5d827c95b500aa60c131d6",
+          "seconds": 28.728
+        },
+        {
+          "path": "sfx/ambience/rainnight/rainbackground/rainbackground.wav",
+          "sha256": "773296a05f344740b769d05809af9d19bc4ff0a8dd584cc8e267ee8d934dcc13",
+          "seconds": 28.424
+        }
+      ]
+    },
+    {
+      "id": "wet_grass",
+      "description": "Short wet vegetation rustle",
+      "loop": false,
+      "available": true,
+      "eventName": "SD_Play_wet_grass",
+      "files": [
+        {
+          "path": "sfx/ambience/rainnight/random/randomgrass/rdgrass-01.wav",
+          "sha256": "321d17901af0442a602f5b79e579e963bd7d7927c201a5f0e31cf46babf0aebe",
+          "seconds": 5.578
+        },
+        {
+          "path": "sfx/ambience/rainnight/random/randomgrass/rdgrass-02.wav",
+          "sha256": "61b34509e00e2a6fc058d3e22a91a4be3b98e0288ced671492a77bc4377c6ec6",
+          "seconds": 5.578
+        },
+        {
+          "path": "sfx/ambience/rainnight/random/randomgrass/rdgrass.wav",
+          "sha256": "007c09ab34d6c1a50f311a72e05a745f3ce8779c5ee76cda7a0360be14bd43fe",
+          "seconds": 5.578
+        }
+      ]
+    },
+    {
+      "id": "rain_gusts",
+      "description": "Intermittent windy rain gusts",
+      "loop": false,
+      "available": true,
+      "eventName": "SD_Play_rain_gusts",
+      "files": [
+        {
+          "path": "sfx/ambience/rainnight/random/randomwind/rdwind-01.wav",
+          "sha256": "abcf4c8cb6bab17d612629cd4b1770c76e37ca1856efad8cbcf9695d660a3703",
+          "seconds": 4.83
+        },
+        {
+          "path": "sfx/ambience/rainnight/random/randomwind/rdwind-02.wav",
+          "sha256": "2fab93c9ec2d9288e2c7b1565808b2a8bba0ff5f4c903cae1919a340611e93dd",
+          "seconds": 4.015
+        },
+        {
+          "path": "sfx/ambience/rainnight/random/randomwind/rdwind.wav",
+          "sha256": "693dbb6979dee44f8061f732802403852162c3a781757e2bb78774325f8a4d8d",
+          "seconds": 4.163
+        }
+      ]
+    },
+    {
+      "id": "snow_bed",
+      "description": "Continuous cold wind and snow ambience; exposed mountain",
+      "loop": true,
+      "available": true,
+      "eventName": "SD_Play_snow_bed",
+      "files": [
+        {
+          "path": "sfx/ambience/snow/background/background-01.wav",
+          "sha256": "119475a22fb1724540cc511ecbeb1dd96d5402ae7173bd4e262085560c63efd4",
+          "seconds": 24.5
+        },
+        {
+          "path": "sfx/ambience/snow/background/background-02.wav",
+          "sha256": "82d5f938e3f7a565a8ce1ab6729f6fd58a4775b2460020afd3370827f422c9cc",
+          "seconds": 24.25
+        },
+        {
+          "path": "sfx/ambience/snow/background/background-03.wav",
+          "sha256": "7f949dec2ef31c162b9f170e2d3d8a5c090e185a5aa2b12a0a33ea7cfa09cdfa",
+          "seconds": 26.417
+        },
+        {
+          "path": "sfx/ambience/snow/background/background.wav",
+          "sha256": "cf7a6f9d7f8087b2ab96c021d92308fb3440272c966f7dc92979567438fbf46e",
+          "seconds": 24.25
+        }
+      ]
+    },
+    {
+      "id": "snow_gusts",
+      "description": "Cold mountain wind gusts; bleak, exposed space",
+      "loop": false,
+      "available": true,
+      "eventName": "SD_Play_snow_gusts",
+      "files": [
+        {
+          "path": "sfx/ambience/snow/random/randomwind/rdwind-01.wav",
+          "sha256": "366a7c1c5e4320abfc333341859fa8d46ca66c947f6975236cc767ba680638f1",
+          "seconds": 3.133
+        },
+        {
+          "path": "sfx/ambience/snow/random/randomwind/rdwind-02.wav",
+          "sha256": "c57c34644a8e4578e15e50053131702af49edfe901cc30efaf2c5007fcb4dbbd",
+          "seconds": 3.338
+        },
+        {
+          "path": "sfx/ambience/snow/random/randomwind/rdwind-03.wav",
+          "sha256": "971890d41b59f41f1bbf7b50026c46f9171ecb1e8454fd5868c0b0efd06cd7d8",
+          "seconds": 3.133
+        },
+        {
+          "path": "sfx/ambience/snow/random/randomwind/rdwind-04.wav",
+          "sha256": "6b13556cd043695eb19243073e033d88197df5f6eed73215337c0ce5374120b2",
+          "seconds": 4.033
+        },
+        {
+          "path": "sfx/ambience/snow/random/randomwind/rdwind-05.wav",
+          "sha256": "ff421708fe875c268c316b6a18d4f1d8ca863a62ff4fb4174e20b276356379e4",
+          "seconds": 3.135
+        },
+        {
+          "path": "sfx/ambience/snow/random/randomwind/rdwind-06.wav",
+          "sha256": "1180910163af10170f1936185a858e0bce88a5577ac3db47bfad468bf144f878",
+          "seconds": 4.033
+        },
+        {
+          "path": "sfx/ambience/snow/random/randomwind/rdwind-07.wav",
+          "sha256": "0036983e293537323573bdd2082e6e7d0728a3c7f929566419fc7e6c2e03f62d",
+          "seconds": 3.135
+        },
+        {
+          "path": "sfx/ambience/snow/random/randomwind/rdwind.wav",
+          "sha256": "286989a650829d5846d52d4115c8e53917e23fdad0993373fc03bd98e8fd9c1f",
+          "seconds": 3.338
+        }
+      ]
+    },
+    {
+      "id": "snow_wolves",
+      "description": "Distant wolf call in snowy mountains",
+      "loop": false,
+      "available": true,
+      "eventName": "SD_Play_snow_wolves",
+      "files": [
+        {
+          "path": "sfx/ambience/snow/random/randomwolf/rdwolf.wav",
+          "sha256": "47a63c8c74d07287d1360f10f6276e43cdf66c2caf6d2eaa71199f8debf9f781",
+          "seconds": 12.797
+        }
+      ]
+    },
+    {
+      "id": "thunder",
+      "description": "Thunder; unavailable until synchronized visual lightning exists",
+      "loop": false,
+      "available": false,
+      "eventName": "",
+      "files": [
+        {
+          "path": "sfx/ambience/rainnight/thunder/thunder-01.wav",
+          "sha256": "48a03ff24d82eed9b530f1bc0d070bbc8538b721ca268dcb60a5287ba8ccbb19",
+          "seconds": 7.094
+        },
+        {
+          "path": "sfx/ambience/rainnight/thunder/thunder-02.wav",
+          "sha256": "89051970259b6c1b7054574982333ad92a0915124cb236b885f2879de266b2c4",
+          "seconds": 16.878
+        },
+        {
+          "path": "sfx/ambience/rainnight/thunder/thunder.wav",
+          "sha256": "ba9e903e4f51c2652301da3a8a491cdaf8ea1eb8108e9b586d9281d9ae06b710",
+          "seconds": 17.675
+        }
+      ]
+    },
+    {
+      "id": "footstep_gravel",
+      "description": "gravel footsteps; preserved by the existing animation/contact system",
+      "loop": false,
+      "available": false,
+      "eventName": "",
+      "files": [
+        {
+          "path": "sfx/footstep/footstep gravel/footstep gravel-01.wav",
+          "sha256": "28d826de602933169435f8a5c81b1bd8ad4206c46a82b9da59de7963f9270a1d",
+          "seconds": 0.348
+        },
+        {
+          "path": "sfx/footstep/footstep gravel/footstep gravel-02.wav",
+          "sha256": "d9c146a77b0991b9fa1287d1b6244a6ed97917f78cafd920d0c4bb432b5ca741",
+          "seconds": 0.425
+        },
+        {
+          "path": "sfx/footstep/footstep gravel/footstep gravel-03.wav",
+          "sha256": "da7c73e2617162a77c995f3607fbe6905085ce7b5f3e3150dbc5ec9fd13b7a82",
+          "seconds": 0.468
+        },
+        {
+          "path": "sfx/footstep/footstep gravel/footstep gravel-04.wav",
+          "sha256": "3a6a25d0dfbce4aef2a118cf9f9a548ab9c80d2b780e62bda436501b3f94ea0b",
+          "seconds": 1.368
+        },
+        {
+          "path": "sfx/footstep/footstep gravel/footstep gravel.wav",
+          "sha256": "e2a7d6f22b5874c524c1e20d8a9f264610d20010285a416f3eb32d22bd732dd2",
+          "seconds": 0.596
+        }
+      ]
+    },
+    {
+      "id": "footstep_snow",
+      "description": "snow footsteps; preserved by the existing animation/contact system",
+      "loop": false,
+      "available": false,
+      "eventName": "",
+      "files": [
+        {
+          "path": "sfx/footstep/footstep snow/footstep snow-01.wav",
+          "sha256": "f7623d1406222b7eb11e4c857771558023119f3756f3986b388b9b75982759ff",
+          "seconds": 0.481
+        },
+        {
+          "path": "sfx/footstep/footstep snow/footstep snow-02.wav",
+          "sha256": "101275339ff9f0d36a085d5de39aafff4d98cf90ec042aeefd95e4d8b9d0fe0d",
+          "seconds": 0.431
+        },
+        {
+          "path": "sfx/footstep/footstep snow/footstep snow-03.wav",
+          "sha256": "9df96119a4f0e136d3f5b3b83135434761b6ab75de70b5a763fd88b50eedd82b",
+          "seconds": 0.457
+        },
+        {
+          "path": "sfx/footstep/footstep snow/footstep snow.wav",
+          "sha256": "748c0ad0f56831f62e3f7c7be128ff38e8353816af17fb8ad9c4dbf349b6b1f4",
+          "seconds": 0.415
+        }
+      ]
+    },
+    {
+      "id": "footstep_mud",
+      "description": "mud footsteps; preserved by the existing animation/contact system",
+      "loop": false,
+      "available": false,
+      "eventName": "",
+      "files": [
+        {
+          "path": "sfx/footstep/footstep wet/footstep wet.wav",
+          "sha256": "80bd119669b912e8863cef32c7e38022fe33057197dfd75c7b6f7fecefa50c73",
+          "seconds": 0.476
+        },
+        {
+          "path": "sfx/footstep/footstep wet/footstep wet2.wav",
+          "sha256": "958f23dba2dc027e778b1ecc142fd636b4be737fec115d86bca9ddb9cb8d1924",
+          "seconds": 0.47
+        },
+        {
+          "path": "sfx/footstep/footstep wet/footstep wet3.wav",
+          "sha256": "7a8270921fadd819a2be3bed9da2a96385cefcca299ba67274ec283d22bf29e6",
+          "seconds": 0.407
+        },
+        {
+          "path": "sfx/footstep/footstep wet/footstep wet4.wav",
+          "sha256": "c8c65790b579d9bf79eb06da8ff794801537e015c265feebbf4bfe25db0f22db",
+          "seconds": 0.322
+        }
+      ]
+    },
+    {
+      "id": "footstep_rock",
+      "description": "rock footsteps; preserved by the existing animation/contact system",
+      "loop": false,
+      "available": false,
+      "eventName": "",
+      "files": [
+        {
+          "path": "sfx/footstep/footstep rock/footstep rock.wav",
+          "sha256": "2c3a0ba9ba25560502e69cf18b49eab9b3b0a3909454818f1b16bbde7540b609",
+          "seconds": 0.395
+        },
+        {
+          "path": "sfx/footstep/footstep rock/footstep rock2.wav",
+          "sha256": "0f13803e3bfa03cb4e15abbe203be5942f7fd94ff58d02449d0b9307569be471",
+          "seconds": 0.376
+        },
+        {
+          "path": "sfx/footstep/footstep rock/footstep rock3.wav",
+          "sha256": "bee02d50183ce438de1d6d39d20913ff78972e75e3374c067aaded04254a124c",
+          "seconds": 0.435
+        },
+        {
+          "path": "sfx/footstep/footstep rock/footstep rock4.wav",
+          "sha256": "c5bf8d5d983b25d6facb25a9194dcee5c5645709814f2b8b13b330c6ded8abc4",
+          "seconds": 0.484
+        },
+        {
+          "path": "sfx/footstep/footstep rock/footstep rock5.wav",
+          "sha256": "236bbe218ab8897c193eb3f1960c4d746e550091e466ae6c61614f647d34fb91",
+          "seconds": 0.425
+        },
+        {
+          "path": "sfx/footstep/footstep rock/footstep rock6.wav",
+          "sha256": "7d8dfe61ea46bd6a12ae342ab09560b315681c77348d838ca69a07170c99560e",
+          "seconds": 0.465
+        },
+        {
+          "path": "sfx/footstep/footstep rock/footstep rock7.wav",
+          "sha256": "68ec051ee61d2129fbd16541b6f9791630d5f66de0a1012c3a50fb2b6c4a3e54",
+          "seconds": 0.435
+        }
+      ]
+    },
+    {
+      "id": "footstep_concrete",
+      "description": "concrete footsteps; preserved by the existing animation/contact system",
+      "loop": false,
+      "available": false,
+      "eventName": "",
+      "files": [
+        {
+          "path": "sfx/footstep/footstep concreate/footstep concreate-01.wav",
+          "sha256": "186ae952e921f540667e47f673c766424002ae58d1b2c4e4997f3ad2e27b18c3",
+          "seconds": 0.457
+        },
+        {
+          "path": "sfx/footstep/footstep concreate/footstep concreate-02.wav",
+          "sha256": "e5c1b545c9081fa66fbfd723b393110827baf94d08252b9c638e2a6068ecd255",
+          "seconds": 0.483
+        },
+        {
+          "path": "sfx/footstep/footstep concreate/footstep concreate-03.wav",
+          "sha256": "23f70fe3a0f80046c49e2a5d44ddd6840e855999931dd42858f8c0c3bf00f5ea",
+          "seconds": 0.437
+        },
+        {
+          "path": "sfx/footstep/footstep concreate/footstep concreate-04.wav",
+          "sha256": "331d2e8199d689db914e6d1b0822ade4e94c3e798ecf3acbfce1d75e78f2c56e",
+          "seconds": 0.447
+        },
+        {
+          "path": "sfx/footstep/footstep concreate/footstep concreate-05.wav",
+          "sha256": "f337d2f597a0133b6bfe3418f8cf66d909c6cc3c27df1d55cfc34abfd632156a",
+          "seconds": 0.196
+        },
+        {
+          "path": "sfx/footstep/footstep concreate/footstep concreate.wav",
+          "sha256": "4805be801720ec255824ad57fca368786e510e36fa8738c5f68cf0dfe9814059",
+          "seconds": 0.447
+        }
+      ]
+    }
+  ]
+}

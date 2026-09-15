@@ -1,0 +1,122 @@
+{
+    "scenePath": "Assets/Vesper/Scenes/Expansion/VesperSoundDirector_Lab.unity",
+    "revision": "3eafc0bfc39f74e7d41fe4b631fdb737138196c04fd01fbe20ae957fb0471edc",
+    "catalogRevision": "5d8b47dc739eedb356d946c6637f5532bdcaeee56ef6dd000cd83e03e912a40e",
+    "objectCount": 15,
+    "sceneObjects": [
+        "Abbey ruins",
+        "Explorer",
+        "Forest grove",
+        "Ground",
+        "Pond water",
+        "Sun",
+        "Tree 0",
+        "Tree 1",
+        "Tree 2",
+        "Tree 3",
+        "Tree 4",
+        "Tree 5",
+        "Tree 6",
+        "Vesper Sound Director",
+        "Wwise Initializer"
+    ],
+    "targets": [
+        {
+            "id": "2c056a923cdb40f9b12c7e9fa6a3cc7a",
+            "name": "Abbey ruins",
+            "description": "숲 너머의 버려진 수도원. 고요하고 불안한 폐허.",
+            "position": {
+                "x": 0.0,
+                "y": 3.0,
+                "z": -30.0
+            },
+            "suggestedRadius": 22.0,
+            "materials": [
+                "Abbey_ruins"
+            ]
+        },
+        {
+            "id": "4b3d7975feff4262b16b9bc5c19dc785",
+            "name": "Forest grove",
+            "description": "낮의 작은 숲. 편안한 새소리와 바람.",
+            "position": {
+                "x": -11.0,
+                "y": 3.0,
+                "z": -8.0
+            },
+            "suggestedRadius": 22.0,
+            "materials": [
+                "Forest_grove"
+            ]
+        },
+        {
+            "id": "8e7c25d2373845f6994b1603ddbd2a8b",
+            "name": "Pond water",
+            "description": "작은 연못과 흐르는 물. 가까이에서 들리는 국소 수원.",
+            "position": {
+                "x": 11.0,
+                "y": 0.05000000074505806,
+                "z": -6.0
+            },
+            "suggestedRadius": 22.0,
+            "materials": [
+                "Pond_water"
+            ]
+        }
+    ],
+    "currentPlan": {
+        "version": 1,
+        "sceneRevision": "4378a36d454523024cfa5b958359f5cf9ec2ed69ef28dcd88663e2d9806ddbde",
+        "summary": "숲에서 폐허로 갈수록 어두워지는 연출 · 수동 예제",
+        "layers": [
+            {
+                "targetId": "2c056a923cdb40f9b12c7e9fa6a3cc7a",
+                "soundId": "night_bed",
+                "reason": "장소별 환경음을 배치한 수동 작성 예제",
+                "gainDb": -17.0,
+                "radius": 22.0,
+                "fadeSeconds": 2.0,
+                "intervalSeconds": 30.0
+            },
+            {
+                "targetId": "2c056a923cdb40f9b12c7e9fa6a3cc7a",
+                "soundId": "wolves",
+                "reason": "분위기 차이를 확인하는 간헐적 자연음 예제",
+                "gainDb": -19.0,
+                "radius": 22.0,
+                "fadeSeconds": 2.0,
+                "intervalSeconds": 24.0
+            },
+            {
+                "targetId": "4b3d7975feff4262b16b9bc5c19dc785",
+                "soundId": "day_wind",
+                "reason": "장소별 환경음을 배치한 수동 작성 예제",
+                "gainDb": -17.0,
+                "radius": 22.0,
+                "fadeSeconds": 2.0,
+                "intervalSeconds": 30.0
+            },
+            {
+                "targetId": "4b3d7975feff4262b16b9bc5c19dc785",
+                "soundId": "birds",
+                "reason": "분위기 차이를 확인하는 간헐적 자연음 예제",
+                "gainDb": -20.0,
+                "radius": 22.0,
+                "fadeSeconds": 2.0,
+                "intervalSeconds": 12.0
+            },
+            {
+                "targetId": "8e7c25d2373845f6994b1603ddbd2a8b",
+                "soundId": "river",
+                "reason": "수원 가까이에서만 물소리가 들리는 예제",
+                "gainDb": -12.0,
+                "radius": 22.0,
+                "fadeSeconds": 2.0,
+                "intervalSeconds": 30.0
+            }
+        ],
+        "warnings": [
+            "이 계획은 AI가 생성하지 않은 기능 확인용 예제입니다."
+        ]
+    }
+}

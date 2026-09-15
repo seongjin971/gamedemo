@@ -1,0 +1,2091 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{58453F36-8B31-4AAB-9273-446B178F9118}" SchemaVersion="133">
+	<Containers>
+		<WorkUnit Name="Vesper_Director" ID="{58453F36-8B31-4AAB-9273-446B178F9118}" PersistMode="Standalone">
+			<ChildrenList>
+				<RandomSequenceContainer Name="day_wind" ID="{0F9C0E9F-B2FF-49FF-9F20-F0955FB6E40C}" ShortID="280058353">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+						<Property Name="OverridePositioning" Type="bool" Value="True"/>
+						<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6587C38D-E338-4D10-AB0D-4201CFD43306}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BB4465-B567-44E4-9FC6-E94DFB112045}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Sample_1" ID="{AF60976A-7206-4A90-A816-6F1900AFBDD5}" ShortID="950691434">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6587C38D-E338-4D10-AB0D-4201CFD43306}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BB4465-B567-44E4-9FC6-E94DFB112045}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="wind1" ID="{E887BDE3-E261-4145-9DC1-156E9FCDD598}">
+									<Language>SFX</Language>
+									<AudioFile>Vesper_W11\ambience\morning\background\wind1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="599266480"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="wind1" ID="{E887BDE3-E261-4145-9DC1-156E9FCDD598}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Sample_2" ID="{203BBD22-54BA-48DE-AFCD-28BF66685952}" ShortID="918887904">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6587C38D-E338-4D10-AB0D-4201CFD43306}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BB4465-B567-44E4-9FC6-E94DFB112045}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="wind2" ID="{4CCD2D3E-B99F-4C2B-8D18-50537A7F1759}">
+									<Language>SFX</Language>
+									<AudioFile>Vesper_W11\ambience\morning\background\wind2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="380272471"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="wind2" ID="{4CCD2D3E-B99F-4C2B-8D18-50537A7F1759}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<RTPC Name="" ID="{CA6EDE97-012F-4127-AFAC-2DC290FFB0EB}" ShortID="502109435">
+								<PropertyList>
+									<Property Name="PropertyName" Type="string" Value="Volume"/>
+								</PropertyList>
+								<ReferenceList>
+									<Reference Name="ControlInput">
+										<ObjectRef Name="SD_Gain" ID="{78E5E8EF-192B-43F2-A253-BA0227044F36}" WorkUnitID="{54FDA7E4-17A1-4D7E-B069-50AF3171109E}"/>
+									</Reference>
+									<Reference Name="Curve">
+										<Custom>
+											<Curve Name="" ID="{CCDAFECB-3123-4C29-A5D8-CE8DC25C94BD}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-96</XPos>
+														<YPos>-96</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</Custom>
+									</Reference>
+								</ReferenceList>
+							</RTPC>
+						</ObjectList>
+					</ObjectLists>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="river" ID="{317F185B-20F5-452D-AB52-BB06E52AF368}" ShortID="833406444">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+						<Property Name="OverridePositioning" Type="bool" Value="True"/>
+						<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6587C38D-E338-4D10-AB0D-4201CFD43306}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BB4465-B567-44E4-9FC6-E94DFB112045}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Sample_1" ID="{48B0F507-4729-49A9-8FFD-C08B1DD6294A}" ShortID="738198771">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6587C38D-E338-4D10-AB0D-4201CFD43306}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BB4465-B567-44E4-9FC6-E94DFB112045}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ojriver" ID="{BA337242-57E2-4AE4-A0EE-85F1F16C1314}">
+									<Language>SFX</Language>
+									<AudioFile>Vesper_W11\ambience\morning\object\ojriver.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="537366305"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ojriver" ID="{BA337242-57E2-4AE4-A0EE-85F1F16C1314}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<RTPC Name="" ID="{D43CA037-A9C3-4C37-8DE9-1B51DE318325}" ShortID="857116413">
+								<PropertyList>
+									<Property Name="PropertyName" Type="string" Value="Volume"/>
+								</PropertyList>
+								<ReferenceList>
+									<Reference Name="ControlInput">
+										<ObjectRef Name="SD_Gain" ID="{78E5E8EF-192B-43F2-A253-BA0227044F36}" WorkUnitID="{54FDA7E4-17A1-4D7E-B069-50AF3171109E}"/>
+									</Reference>
+									<Reference Name="Curve">
+										<Custom>
+											<Curve Name="" ID="{574E715F-4A38-4070-9EF0-BAAF3128AFAC}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-96</XPos>
+														<YPos>-96</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</Custom>
+									</Reference>
+								</ReferenceList>
+							</RTPC>
+						</ObjectList>
+					</ObjectLists>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="birds" ID="{9A0D551A-833A-4A9B-9A1A-D47F2A36C54D}" ShortID="842242874">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+						<Property Name="OverridePositioning" Type="bool" Value="True"/>
+						<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6587C38D-E338-4D10-AB0D-4201CFD43306}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BB4465-B567-44E4-9FC6-E94DFB112045}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Sample_1" ID="{53139FFB-6232-448A-83C0-6653ADCBDE18}" ShortID="374973438">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6587C38D-E338-4D10-AB0D-4201CFD43306}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BB4465-B567-44E4-9FC6-E94DFB112045}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="rdbird-01" ID="{AF2DDDFC-89F3-427B-AE97-2D79A8A0F672}">
+									<Language>SFX</Language>
+									<AudioFile>Vesper_W11\ambience\morning\random one shot\bird\rdbird-01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="466994095"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="rdbird-01" ID="{AF2DDDFC-89F3-427B-AE97-2D79A8A0F672}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Sample_2" ID="{F3E85162-A1C2-4DD2-9C59-63A8274CC9BF}" ShortID="464022708">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6587C38D-E338-4D10-AB0D-4201CFD43306}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BB4465-B567-44E4-9FC6-E94DFB112045}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="rdbird-02" ID="{C49E0E59-91B8-4508-AF40-EDF3D7AF0261}">
+									<Language>SFX</Language>
+									<AudioFile>Vesper_W11\ambience\morning\random one shot\bird\rdbird-02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="830203912"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="rdbird-02" ID="{C49E0E59-91B8-4508-AF40-EDF3D7AF0261}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Sample_3" ID="{D538CFEC-C2C0-46C5-B105-B8E14100E6E9}" ShortID="432500152">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6587C38D-E338-4D10-AB0D-4201CFD43306}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BB4465-B567-44E4-9FC6-E94DFB112045}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="rdbird-03" ID="{F17C8058-4F59-4AF6-95EF-70F1212917A4}">
+									<Language>SFX</Language>
+									<AudioFile>Vesper_W11\ambience\morning\random one shot\bird\rdbird-03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="238731827"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="rdbird-03" ID="{F17C8058-4F59-4AF6-95EF-70F1212917A4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Sample_4" ID="{8A179755-0B50-4532-B65E-055F27068A38}" ShortID="274690245">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6587C38D-E338-4D10-AB0D-4201CFD43306}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BB4465-B567-44E4-9FC6-E94DFB112045}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="rdbird" ID="{64A2310D-6054-441A-8BAB-E3790A22607D}">
+									<Language>SFX</Language>
+									<AudioFile>Vesper_W11\ambience\morning\random one shot\bird\rdbird.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="920295052"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="rdbird" ID="{64A2310D-6054-441A-8BAB-E3790A22607D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<RTPC Name="" ID="{FB41399D-54D4-47DA-9FB2-B07CAA5DE417}" ShortID="771022841">
+								<PropertyList>
+									<Property Name="PropertyName" Type="string" Value="Volume"/>
+								</PropertyList>
+								<ReferenceList>
+									<Reference Name="ControlInput">
+										<ObjectRef Name="SD_Gain" ID="{78E5E8EF-192B-43F2-A253-BA0227044F36}" WorkUnitID="{54FDA7E4-17A1-4D7E-B069-50AF3171109E}"/>
+									</Reference>
+									<Reference Name="Curve">
+										<Custom>
+											<Curve Name="" ID="{65EA39AF-C341-40B2-8121-4F98295607D1}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-96</XPos>
+														<YPos>-96</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</Custom>
+									</Reference>
+								</ReferenceList>
+							</RTPC>
+						</ObjectList>
+					</ObjectLists>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="day_bugs" ID="{FF676521-87DA-402B-8D86-429859AE37A6}" ShortID="712314155">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+						<Property Name="OverridePositioning" Type="bool" Value="True"/>
+						<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6587C38D-E338-4D10-AB0D-4201CFD43306}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BB4465-B567-44E4-9FC6-E94DFB112045}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Sample_1" ID="{7A737FF8-8CFD-4EEA-97DD-12213468FBD9}" ShortID="274217293">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6587C38D-E338-4D10-AB0D-4201CFD43306}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BB4465-B567-44E4-9FC6-E94DFB112045}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="rdbug-01" ID="{198514A0-6165-4C28-A0AA-6424788450C9}">
+									<Language>SFX</Language>
+									<AudioFile>Vesper_W11\ambience\morning\random one shot\bug\rdbug-01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="346735029"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="rdbug-01" ID="{198514A0-6165-4C28-A0AA-6424788450C9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Sample_2" ID="{89C63538-1059-4135-AEF5-88D38DCE3EB2}" ShortID="331816539">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6587C38D-E338-4D10-AB0D-4201CFD43306}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BB4465-B567-44E4-9FC6-E94DFB112045}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="rdbug" ID="{A16001E2-07F3-4952-8647-3FAD7D53A8D8}">
+									<Language>SFX</Language>
+									<AudioFile>Vesper_W11\ambience\morning\random one shot\bug\rdbug.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="686412050"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="rdbug" ID="{A16001E2-07F3-4952-8647-3FAD7D53A8D8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<RTPC Name="" ID="{1DD5C9BF-C768-4A01-821F-B32157D00866}" ShortID="563083070">
+								<PropertyList>
+									<Property Name="PropertyName" Type="string" Value="Volume"/>
+								</PropertyList>
+								<ReferenceList>
+									<Reference Name="ControlInput">
+										<ObjectRef Name="SD_Gain" ID="{78E5E8EF-192B-43F2-A253-BA0227044F36}" WorkUnitID="{54FDA7E4-17A1-4D7E-B069-50AF3171109E}"/>
+									</Reference>
+									<Reference Name="Curve">
+										<Custom>
+											<Curve Name="" ID="{22B39BAE-A04D-4CB6-B293-1FADE9243581}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-96</XPos>
+														<YPos>-96</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</Custom>
+									</Reference>
+								</ReferenceList>
+							</RTPC>
+						</ObjectList>
+					</ObjectLists>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="grass" ID="{286DF2BF-4EBA-4449-B520-CE040DCA1F49}" ShortID="491547498">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+						<Property Name="OverridePositioning" Type="bool" Value="True"/>
+						<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6587C38D-E338-4D10-AB0D-4201CFD43306}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BB4465-B567-44E4-9FC6-E94DFB112045}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Sample_1" ID="{31628E1E-541A-4C7E-8A58-6C20AE9F31F8}" ShortID="495750131">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6587C38D-E338-4D10-AB0D-4201CFD43306}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BB4465-B567-44E4-9FC6-E94DFB112045}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="rdgrass-01" ID="{A47F87B4-2E23-4A5B-922B-07F6588CA16E}">
+									<Language>SFX</Language>
+									<AudioFile>Vesper_W11\ambience\morning\random one shot\grass\rdgrass-01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="550067335"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="rdgrass-01" ID="{A47F87B4-2E23-4A5B-922B-07F6588CA16E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Sample_2" ID="{93F0C6AC-6F8F-4388-9D4A-F0A6F0A612DB}" ShortID="781267153">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6587C38D-E338-4D10-AB0D-4201CFD43306}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BB4465-B567-44E4-9FC6-E94DFB112045}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="rdgrass" ID="{A8C56732-79D5-41A3-A318-1B4E4D9A7603}">
+									<Language>SFX</Language>
+									<AudioFile>Vesper_W11\ambience\morning\random one shot\grass\rdgrass.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="687710507"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="rdgrass" ID="{A8C56732-79D5-41A3-A318-1B4E4D9A7603}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<RTPC Name="" ID="{00E85545-A6EB-453F-B12B-641336032685}" ShortID="303653325">
+								<PropertyList>
+									<Property Name="PropertyName" Type="string" Value="Volume"/>
+								</PropertyList>
+								<ReferenceList>
+									<Reference Name="ControlInput">
+										<ObjectRef Name="SD_Gain" ID="{78E5E8EF-192B-43F2-A253-BA0227044F36}" WorkUnitID="{54FDA7E4-17A1-4D7E-B069-50AF3171109E}"/>
+									</Reference>
+									<Reference Name="Curve">
+										<Custom>
+											<Curve Name="" ID="{3C68B678-F756-4CF7-97E1-27E910FDCDED}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-96</XPos>
+														<YPos>-96</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</Custom>
+									</Reference>
+								</ReferenceList>
+							</RTPC>
+						</ObjectList>
+					</ObjectLists>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="day_gusts" ID="{AA8E0DDF-DB11-4B9E-B1DC-5F129591BB7C}" ShortID="474417923">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+						<Property Name="OverridePositioning" Type="bool" Value="True"/>
+						<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6587C38D-E338-4D10-AB0D-4201CFD43306}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BB4465-B567-44E4-9FC6-E94DFB112045}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Sample_1" ID="{41F1949C-43BD-43F8-8B6D-7000B2145EBD}" ShortID="311601013">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6587C38D-E338-4D10-AB0D-4201CFD43306}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BB4465-B567-44E4-9FC6-E94DFB112045}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="rdwind1" ID="{3B45B7A8-56D0-43FA-9165-E47C0588C638}">
+									<Language>SFX</Language>
+									<AudioFile>Vesper_W11\ambience\morning\random one shot\wind\rdwind1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="873003008"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="rdwind1" ID="{3B45B7A8-56D0-43FA-9165-E47C0588C638}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Sample_2" ID="{628BBC67-B964-455F-8F53-64BD2DF133E5}" ShortID="615117494">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6587C38D-E338-4D10-AB0D-4201CFD43306}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BB4465-B567-44E4-9FC6-E94DFB112045}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="rdwind2" ID="{2931ABD1-9D2B-4517-ADAE-DA8013E97690}">
+									<Language>SFX</Language>
+									<AudioFile>Vesper_W11\ambience\morning\random one shot\wind\rdwind2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="299384836"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="rdwind2" ID="{2931ABD1-9D2B-4517-ADAE-DA8013E97690}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Sample_3" ID="{3D5ADA02-57D3-4B98-B0AA-17EEBE48D162}" ShortID="969660720">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6587C38D-E338-4D10-AB0D-4201CFD43306}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BB4465-B567-44E4-9FC6-E94DFB112045}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="rdwind3" ID="{4DF62DD8-0226-4FCE-BCBD-831234B553AF}">
+									<Language>SFX</Language>
+									<AudioFile>Vesper_W11\ambience\morning\random one shot\wind\rdwind3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="70164096"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="rdwind3" ID="{4DF62DD8-0226-4FCE-BCBD-831234B553AF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<RTPC Name="" ID="{1E66BA35-4EB4-462E-B48A-08F68C320144}" ShortID="755824582">
+								<PropertyList>
+									<Property Name="PropertyName" Type="string" Value="Volume"/>
+								</PropertyList>
+								<ReferenceList>
+									<Reference Name="ControlInput">
+										<ObjectRef Name="SD_Gain" ID="{78E5E8EF-192B-43F2-A253-BA0227044F36}" WorkUnitID="{54FDA7E4-17A1-4D7E-B069-50AF3171109E}"/>
+									</Reference>
+									<Reference Name="Curve">
+										<Custom>
+											<Curve Name="" ID="{AC04DD65-9071-4121-A3A4-828F19C23195}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-96</XPos>
+														<YPos>-96</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</Custom>
+									</Reference>
+								</ReferenceList>
+							</RTPC>
+						</ObjectList>
+					</ObjectLists>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="night_bed" ID="{2EC26C7C-F2BB-41FB-BBA5-BDC45D23C1F4}" ShortID="395660618">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+						<Property Name="OverridePositioning" Type="bool" Value="True"/>
+						<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6587C38D-E338-4D10-AB0D-4201CFD43306}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BB4465-B567-44E4-9FC6-E94DFB112045}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Sample_1" ID="{558A302B-D08D-4B9F-B2A4-C1FF3F5082A9}" ShortID="266715726">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6587C38D-E338-4D10-AB0D-4201CFD43306}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BB4465-B567-44E4-9FC6-E94DFB112045}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="night background-01" ID="{7D9FC353-FB75-4C53-8059-36C4FB1AD6ED}">
+									<Language>SFX</Language>
+									<AudioFile>Vesper_W11\ambience\night\background\night background-01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="231306724"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="night background-01" ID="{7D9FC353-FB75-4C53-8059-36C4FB1AD6ED}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Sample_2" ID="{47A6EA8D-3E31-44C7-9526-13C9C1182247}" ShortID="276732515">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6587C38D-E338-4D10-AB0D-4201CFD43306}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BB4465-B567-44E4-9FC6-E94DFB112045}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="night background-02" ID="{C07D7E18-A049-457C-B5B8-1ED68E2876E8}">
+									<Language>SFX</Language>
+									<AudioFile>Vesper_W11\ambience\night\background\night background-02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="206100557"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="night background-02" ID="{C07D7E18-A049-457C-B5B8-1ED68E2876E8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Sample_3" ID="{BBD792E9-4403-47B6-8FFD-F7250A40FD66}" ShortID="674531922">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6587C38D-E338-4D10-AB0D-4201CFD43306}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BB4465-B567-44E4-9FC6-E94DFB112045}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="night background" ID="{4402A006-082A-4F9B-A2E4-B40BD6658A7B}">
+									<Language>SFX</Language>
+									<AudioFile>Vesper_W11\ambience\night\background\night background.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="89783744"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="night background" ID="{4402A006-082A-4F9B-A2E4-B40BD6658A7B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<RTPC Name="" ID="{1A908768-31C9-4DAF-96D0-F484250BBCEC}" ShortID="495665226">
+								<PropertyList>
+									<Property Name="PropertyName" Type="string" Value="Volume"/>
+								</PropertyList>
+								<ReferenceList>
+									<Reference Name="ControlInput">
+										<ObjectRef Name="SD_Gain" ID="{78E5E8EF-192B-43F2-A253-BA0227044F36}" WorkUnitID="{54FDA7E4-17A1-4D7E-B069-50AF3171109E}"/>
+									</Reference>
+									<Reference Name="Curve">
+										<Custom>
+											<Curve Name="" ID="{CDB63C55-E040-45A3-9B85-B4BC49E23C0C}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-96</XPos>
+														<YPos>-96</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</Custom>
+									</Reference>
+								</ReferenceList>
+							</RTPC>
+						</ObjectList>
+					</ObjectLists>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="night_bugs" ID="{493D6957-6030-4641-B783-89FB2491ED85}" ShortID="339229023">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+						<Property Name="OverridePositioning" Type="bool" Value="True"/>
+						<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6587C38D-E338-4D10-AB0D-4201CFD43306}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BB4465-B567-44E4-9FC6-E94DFB112045}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Sample_1" ID="{27148B9D-E19E-42B6-BF1F-A62793CB08A4}" ShortID="118143867">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6587C38D-E338-4D10-AB0D-4201CFD43306}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BB4465-B567-44E4-9FC6-E94DFB112045}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="rdbug-01" ID="{4B9621B0-47CF-43DE-B8CB-EE2904545C83}">
+									<Language>SFX</Language>
+									<AudioFile>Vesper_W11\ambience\night\oneshot\bug\rdbug-01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="428445492"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="rdbug-01" ID="{4B9621B0-47CF-43DE-B8CB-EE2904545C83}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Sample_2" ID="{82175824-3051-4898-BB66-BACE5C11EA2E}" ShortID="163594838">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6587C38D-E338-4D10-AB0D-4201CFD43306}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BB4465-B567-44E4-9FC6-E94DFB112045}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="rdbug-02" ID="{6DB502B1-9913-4B3E-98B8-431FC8767872}">
+									<Language>SFX</Language>
+									<AudioFile>Vesper_W11\ambience\night\oneshot\bug\rdbug-02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="164250302"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="rdbug-02" ID="{6DB502B1-9913-4B3E-98B8-431FC8767872}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Sample_3" ID="{D0D6221B-CDF1-468F-8BC8-62BCFDC5EB53}" ShortID="842981544">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6587C38D-E338-4D10-AB0D-4201CFD43306}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BB4465-B567-44E4-9FC6-E94DFB112045}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="rdbug" ID="{D601E960-DAB6-4A3D-939E-75DE1C8A913B}">
+									<Language>SFX</Language>
+									<AudioFile>Vesper_W11\ambience\night\oneshot\bug\rdbug.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1040447623"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="rdbug" ID="{D601E960-DAB6-4A3D-939E-75DE1C8A913B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<RTPC Name="" ID="{7C91A2AE-6297-4534-99B2-A6529E77DB53}" ShortID="929082511">
+								<PropertyList>
+									<Property Name="PropertyName" Type="string" Value="Volume"/>
+								</PropertyList>
+								<ReferenceList>
+									<Reference Name="ControlInput">
+										<ObjectRef Name="SD_Gain" ID="{78E5E8EF-192B-43F2-A253-BA0227044F36}" WorkUnitID="{54FDA7E4-17A1-4D7E-B069-50AF3171109E}"/>
+									</Reference>
+									<Reference Name="Curve">
+										<Custom>
+											<Curve Name="" ID="{4A1AFF18-6410-4284-A21D-4ADEFE588C1C}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-96</XPos>
+														<YPos>-96</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</Custom>
+									</Reference>
+								</ReferenceList>
+							</RTPC>
+						</ObjectList>
+					</ObjectLists>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="owls" ID="{8B8A425E-F858-46BF-BF61-B8C44A6456CE}" ShortID="333894003">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+						<Property Name="OverridePositioning" Type="bool" Value="True"/>
+						<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6587C38D-E338-4D10-AB0D-4201CFD43306}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BB4465-B567-44E4-9FC6-E94DFB112045}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Sample_1" ID="{128141F3-9E2A-4B5B-B852-35CB38E082EF}" ShortID="140374741">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6587C38D-E338-4D10-AB0D-4201CFD43306}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BB4465-B567-44E4-9FC6-E94DFB112045}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="rdowl-01" ID="{A9D53CD5-C685-44CF-8633-D569E8669D9E}">
+									<Language>SFX</Language>
+									<AudioFile>Vesper_W11\ambience\night\oneshot\owl\rdowl-01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="988426885"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="rdowl-01" ID="{A9D53CD5-C685-44CF-8633-D569E8669D9E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Sample_2" ID="{688A37A8-5BB0-404F-85BA-9BB5CEFDD5C1}" ShortID="1013003418">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6587C38D-E338-4D10-AB0D-4201CFD43306}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BB4465-B567-44E4-9FC6-E94DFB112045}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="rdowl" ID="{10833A09-93A7-4A47-996E-3D05D759E5E1}">
+									<Language>SFX</Language>
+									<AudioFile>Vesper_W11\ambience\night\oneshot\owl\rdowl.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="465984354"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="rdowl" ID="{10833A09-93A7-4A47-996E-3D05D759E5E1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<RTPC Name="" ID="{41FAF610-F56E-46C8-8DCC-27751345ED3F}" ShortID="589222149">
+								<PropertyList>
+									<Property Name="PropertyName" Type="string" Value="Volume"/>
+								</PropertyList>
+								<ReferenceList>
+									<Reference Name="ControlInput">
+										<ObjectRef Name="SD_Gain" ID="{78E5E8EF-192B-43F2-A253-BA0227044F36}" WorkUnitID="{54FDA7E4-17A1-4D7E-B069-50AF3171109E}"/>
+									</Reference>
+									<Reference Name="Curve">
+										<Custom>
+											<Curve Name="" ID="{949E5B94-774A-4738-9855-1D0EC478EF1B}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-96</XPos>
+														<YPos>-96</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</Custom>
+									</Reference>
+								</ReferenceList>
+							</RTPC>
+						</ObjectList>
+					</ObjectLists>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="wolves" ID="{61223241-5345-40DF-85AB-CECC7A13780E}" ShortID="868315044">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+						<Property Name="OverridePositioning" Type="bool" Value="True"/>
+						<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6587C38D-E338-4D10-AB0D-4201CFD43306}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BB4465-B567-44E4-9FC6-E94DFB112045}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Sample_1" ID="{A9BA810D-8C00-49AD-A0EE-79013A9CDD73}" ShortID="838193343">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6587C38D-E338-4D10-AB0D-4201CFD43306}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BB4465-B567-44E4-9FC6-E94DFB112045}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="rdwolf" ID="{86F77F47-F587-4EBA-A203-C1965BC5FADD}">
+									<Language>SFX</Language>
+									<AudioFile>Vesper_W11\ambience\night\oneshot\wolf\rdwolf.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="326468663"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="rdwolf" ID="{86F77F47-F587-4EBA-A203-C1965BC5FADD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<RTPC Name="" ID="{7401CDF1-4AA9-4026-A0CB-171B1B5A4DBF}" ShortID="578370984">
+								<PropertyList>
+									<Property Name="PropertyName" Type="string" Value="Volume"/>
+								</PropertyList>
+								<ReferenceList>
+									<Reference Name="ControlInput">
+										<ObjectRef Name="SD_Gain" ID="{78E5E8EF-192B-43F2-A253-BA0227044F36}" WorkUnitID="{54FDA7E4-17A1-4D7E-B069-50AF3171109E}"/>
+									</Reference>
+									<Reference Name="Curve">
+										<Custom>
+											<Curve Name="" ID="{CDCD1F31-B5E0-47B4-8004-A4011CCC9A48}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-96</XPos>
+														<YPos>-96</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</Custom>
+									</Reference>
+								</ReferenceList>
+							</RTPC>
+						</ObjectList>
+					</ObjectLists>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="rain_bed" ID="{528D4BA6-974D-4A75-A26E-38B56A81914F}" ShortID="286777287">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+						<Property Name="OverridePositioning" Type="bool" Value="True"/>
+						<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6587C38D-E338-4D10-AB0D-4201CFD43306}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BB4465-B567-44E4-9FC6-E94DFB112045}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Sample_1" ID="{1B82963E-BE97-4832-BE1E-158DB52D0F4E}" ShortID="819929330">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6587C38D-E338-4D10-AB0D-4201CFD43306}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BB4465-B567-44E4-9FC6-E94DFB112045}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="background-01" ID="{EF36FFD7-ECFA-4DB5-8E47-52361E111F16}">
+									<Language>SFX</Language>
+									<AudioFile>Vesper_W11\ambience\rainnight\background\background-01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="47517527"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="background-01" ID="{EF36FFD7-ECFA-4DB5-8E47-52361E111F16}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Sample_2" ID="{07C29AC6-A81C-4ABB-81EF-3E7E454426E4}" ShortID="665328339">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6587C38D-E338-4D10-AB0D-4201CFD43306}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BB4465-B567-44E4-9FC6-E94DFB112045}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="background-02" ID="{D7239666-B50D-4E74-B554-622A0A13BEC4}">
+									<Language>SFX</Language>
+									<AudioFile>Vesper_W11\ambience\rainnight\background\background-02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="114518460"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="background-02" ID="{D7239666-B50D-4E74-B554-622A0A13BEC4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Sample_3" ID="{95B280E8-C49A-4FDF-A112-9088762A5578}" ShortID="1037668366">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6587C38D-E338-4D10-AB0D-4201CFD43306}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BB4465-B567-44E4-9FC6-E94DFB112045}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="background" ID="{3A0E380E-6416-4416-94B5-0E598D15804D}">
+									<Language>SFX</Language>
+									<AudioFile>Vesper_W11\ambience\rainnight\background\background.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="623044456"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="background" ID="{3A0E380E-6416-4416-94B5-0E598D15804D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<RTPC Name="" ID="{F0397856-4B43-4E98-8626-359E5B501AA1}" ShortID="562790493">
+								<PropertyList>
+									<Property Name="PropertyName" Type="string" Value="Volume"/>
+								</PropertyList>
+								<ReferenceList>
+									<Reference Name="ControlInput">
+										<ObjectRef Name="SD_Gain" ID="{78E5E8EF-192B-43F2-A253-BA0227044F36}" WorkUnitID="{54FDA7E4-17A1-4D7E-B069-50AF3171109E}"/>
+									</Reference>
+									<Reference Name="Curve">
+										<Custom>
+											<Curve Name="" ID="{DA9F7B4E-EC8C-4E41-A122-5CC7021D24E1}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-96</XPos>
+														<YPos>-96</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</Custom>
+									</Reference>
+								</ReferenceList>
+							</RTPC>
+						</ObjectList>
+					</ObjectLists>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="heavy_rain" ID="{FC268938-9EDD-4F3F-8FC1-6467A84E09EB}" ShortID="764862976">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+						<Property Name="OverridePositioning" Type="bool" Value="True"/>
+						<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6587C38D-E338-4D10-AB0D-4201CFD43306}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BB4465-B567-44E4-9FC6-E94DFB112045}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Sample_1" ID="{2D73E1DA-D25E-49C8-A8BA-A4485301B75A}" ShortID="408448613">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6587C38D-E338-4D10-AB0D-4201CFD43306}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BB4465-B567-44E4-9FC6-E94DFB112045}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="rainbackground-01" ID="{A72B6199-BE56-40E2-9EEB-1CF50EE365F2}">
+									<Language>SFX</Language>
+									<AudioFile>Vesper_W11\ambience\rainnight\rainbackground\rainbackground-01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="297409289"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="rainbackground-01" ID="{A72B6199-BE56-40E2-9EEB-1CF50EE365F2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Sample_2" ID="{88BF20B0-5241-491C-974F-16FD4F4DDFF2}" ShortID="470757892">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6587C38D-E338-4D10-AB0D-4201CFD43306}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BB4465-B567-44E4-9FC6-E94DFB112045}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="rainbackground" ID="{E5D977B4-40EF-40D9-8EC6-2B08A920317B}">
+									<Language>SFX</Language>
+									<AudioFile>Vesper_W11\ambience\rainnight\rainbackground\rainbackground.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="698984493"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="rainbackground" ID="{E5D977B4-40EF-40D9-8EC6-2B08A920317B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<RTPC Name="" ID="{6B7F7A3B-79D7-48E1-99C9-E79B47D2981A}" ShortID="309737478">
+								<PropertyList>
+									<Property Name="PropertyName" Type="string" Value="Volume"/>
+								</PropertyList>
+								<ReferenceList>
+									<Reference Name="ControlInput">
+										<ObjectRef Name="SD_Gain" ID="{78E5E8EF-192B-43F2-A253-BA0227044F36}" WorkUnitID="{54FDA7E4-17A1-4D7E-B069-50AF3171109E}"/>
+									</Reference>
+									<Reference Name="Curve">
+										<Custom>
+											<Curve Name="" ID="{8238CBF8-D30A-43FB-B5CA-22464C232581}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-96</XPos>
+														<YPos>-96</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</Custom>
+									</Reference>
+								</ReferenceList>
+							</RTPC>
+						</ObjectList>
+					</ObjectLists>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="wet_grass" ID="{6D87FE57-8642-4B82-B48D-74E09FF10CAC}" ShortID="7018521">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+						<Property Name="OverridePositioning" Type="bool" Value="True"/>
+						<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6587C38D-E338-4D10-AB0D-4201CFD43306}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BB4465-B567-44E4-9FC6-E94DFB112045}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Sample_1" ID="{F069C947-73F2-4BD1-9167-B5D8715E23CB}" ShortID="683887405">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6587C38D-E338-4D10-AB0D-4201CFD43306}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BB4465-B567-44E4-9FC6-E94DFB112045}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="rdgrass-01" ID="{02FF218D-2E03-4844-9DFD-DEFC65DC0652}">
+									<Language>SFX</Language>
+									<AudioFile>Vesper_W11\ambience\rainnight\random\randomgrass\rdgrass-01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="175173937"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="rdgrass-01" ID="{02FF218D-2E03-4844-9DFD-DEFC65DC0652}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Sample_2" ID="{CD20D16A-A2C3-4B60-B35E-78BB69DC0D59}" ShortID="724710911">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6587C38D-E338-4D10-AB0D-4201CFD43306}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BB4465-B567-44E4-9FC6-E94DFB112045}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="rdgrass-02" ID="{18FEBEB9-7F7B-42EF-BAB9-ED8041513348}">
+									<Language>SFX</Language>
+									<AudioFile>Vesper_W11\ambience\rainnight\random\randomgrass\rdgrass-02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="397751079"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="rdgrass-02" ID="{18FEBEB9-7F7B-42EF-BAB9-ED8041513348}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Sample_3" ID="{B66977F6-6E18-4163-8346-D83DB56AFA5A}" ShortID="180147544">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6587C38D-E338-4D10-AB0D-4201CFD43306}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BB4465-B567-44E4-9FC6-E94DFB112045}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="rdgrass" ID="{DDAD39B0-CFA8-428C-A4DC-33FC481F8850}">
+									<Language>SFX</Language>
+									<AudioFile>Vesper_W11\ambience\rainnight\random\randomgrass\rdgrass.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="941576130"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="rdgrass" ID="{DDAD39B0-CFA8-428C-A4DC-33FC481F8850}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<RTPC Name="" ID="{65640BF7-E380-43CE-8C61-820050EF44CC}" ShortID="843399573">
+								<PropertyList>
+									<Property Name="PropertyName" Type="string" Value="Volume"/>
+								</PropertyList>
+								<ReferenceList>
+									<Reference Name="ControlInput">
+										<ObjectRef Name="SD_Gain" ID="{78E5E8EF-192B-43F2-A253-BA0227044F36}" WorkUnitID="{54FDA7E4-17A1-4D7E-B069-50AF3171109E}"/>
+									</Reference>
+									<Reference Name="Curve">
+										<Custom>
+											<Curve Name="" ID="{A0050171-EC5C-4598-BD2D-DEC589056446}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-96</XPos>
+														<YPos>-96</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</Custom>
+									</Reference>
+								</ReferenceList>
+							</RTPC>
+						</ObjectList>
+					</ObjectLists>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="rain_gusts" ID="{ED902C21-1717-410C-AF29-1745E24258FF}" ShortID="441593991">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+						<Property Name="OverridePositioning" Type="bool" Value="True"/>
+						<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6587C38D-E338-4D10-AB0D-4201CFD43306}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BB4465-B567-44E4-9FC6-E94DFB112045}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Sample_1" ID="{1839ADC5-4C73-4A7B-B1F7-A7F2D77225EB}" ShortID="104616003">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6587C38D-E338-4D10-AB0D-4201CFD43306}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BB4465-B567-44E4-9FC6-E94DFB112045}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="rdwind-01" ID="{9EC6940C-D41C-442D-9039-CAF2BB8F05FC}">
+									<Language>SFX</Language>
+									<AudioFile>Vesper_W11\ambience\rainnight\random\randomwind\rdwind-01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="447424440"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="rdwind-01" ID="{9EC6940C-D41C-442D-9039-CAF2BB8F05FC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Sample_2" ID="{3F028BD4-4E1D-41AB-BC90-6D6EB558CF02}" ShortID="244899245">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6587C38D-E338-4D10-AB0D-4201CFD43306}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BB4465-B567-44E4-9FC6-E94DFB112045}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="rdwind-02" ID="{00409549-A407-46FA-B7D9-00497822F972}">
+									<Language>SFX</Language>
+									<AudioFile>Vesper_W11\ambience\rainnight\random\randomwind\rdwind-02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="550835230"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="rdwind-02" ID="{00409549-A407-46FA-B7D9-00497822F972}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Sample_3" ID="{70407178-A7FD-41E8-8646-533654ECFBA9}" ShortID="642353143">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6587C38D-E338-4D10-AB0D-4201CFD43306}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BB4465-B567-44E4-9FC6-E94DFB112045}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="rdwind" ID="{35AC5934-5E86-4734-A9BC-472690AB11E1}">
+									<Language>SFX</Language>
+									<AudioFile>Vesper_W11\ambience\rainnight\random\randomwind\rdwind.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="153742970"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="rdwind" ID="{35AC5934-5E86-4734-A9BC-472690AB11E1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<RTPC Name="" ID="{B2D84044-CB5D-475F-88CF-BBDE3FD5A630}" ShortID="148940152">
+								<PropertyList>
+									<Property Name="PropertyName" Type="string" Value="Volume"/>
+								</PropertyList>
+								<ReferenceList>
+									<Reference Name="ControlInput">
+										<ObjectRef Name="SD_Gain" ID="{78E5E8EF-192B-43F2-A253-BA0227044F36}" WorkUnitID="{54FDA7E4-17A1-4D7E-B069-50AF3171109E}"/>
+									</Reference>
+									<Reference Name="Curve">
+										<Custom>
+											<Curve Name="" ID="{58E85496-9E30-49A1-9A4A-3F11AD01D1FE}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-96</XPos>
+														<YPos>-96</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</Custom>
+									</Reference>
+								</ReferenceList>
+							</RTPC>
+						</ObjectList>
+					</ObjectLists>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="snow_bed" ID="{4115C00A-BAB7-405B-B30A-20BADAEA017A}" ShortID="419950421">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+						<Property Name="OverridePositioning" Type="bool" Value="True"/>
+						<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6587C38D-E338-4D10-AB0D-4201CFD43306}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BB4465-B567-44E4-9FC6-E94DFB112045}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Sample_1" ID="{FA7F8269-306C-4979-AC80-F949A4352D32}" ShortID="916725283">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6587C38D-E338-4D10-AB0D-4201CFD43306}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BB4465-B567-44E4-9FC6-E94DFB112045}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="background-01" ID="{7348FD6A-F648-4E50-8128-D658F15FD71B}">
+									<Language>SFX</Language>
+									<AudioFile>Vesper_W11\ambience\snow\background\background-01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="49324607"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="background-01" ID="{7348FD6A-F648-4E50-8128-D658F15FD71B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Sample_2" ID="{DAB898D3-C1BF-4577-B0E2-2E34B49AE282}" ShortID="780467045">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6587C38D-E338-4D10-AB0D-4201CFD43306}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BB4465-B567-44E4-9FC6-E94DFB112045}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="background-02" ID="{689BD658-78DD-49A8-8BE4-2697621B1836}">
+									<Language>SFX</Language>
+									<AudioFile>Vesper_W11\ambience\snow\background\background-02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="494349121"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="background-02" ID="{689BD658-78DD-49A8-8BE4-2697621B1836}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Sample_3" ID="{A5B04D5B-01A4-46CE-83BE-B80D1DA2055A}" ShortID="360431372">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6587C38D-E338-4D10-AB0D-4201CFD43306}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BB4465-B567-44E4-9FC6-E94DFB112045}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="background-03" ID="{51E11437-0438-4B62-836D-BD14B3A0BB43}">
+									<Language>SFX</Language>
+									<AudioFile>Vesper_W11\ambience\snow\background\background-03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="544999671"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="background-03" ID="{51E11437-0438-4B62-836D-BD14B3A0BB43}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Sample_4" ID="{1F873878-79BA-47FC-9DBB-C0BE15CD70F0}" ShortID="196000449">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6587C38D-E338-4D10-AB0D-4201CFD43306}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BB4465-B567-44E4-9FC6-E94DFB112045}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="background" ID="{F014AB07-746C-4345-9988-C9BEE1E1CEAC}">
+									<Language>SFX</Language>
+									<AudioFile>Vesper_W11\ambience\snow\background\background.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="238764432"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="background" ID="{F014AB07-746C-4345-9988-C9BEE1E1CEAC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<RTPC Name="" ID="{82DD6947-5F37-40FF-B25C-90CA815C27D5}" ShortID="727129890">
+								<PropertyList>
+									<Property Name="PropertyName" Type="string" Value="Volume"/>
+								</PropertyList>
+								<ReferenceList>
+									<Reference Name="ControlInput">
+										<ObjectRef Name="SD_Gain" ID="{78E5E8EF-192B-43F2-A253-BA0227044F36}" WorkUnitID="{54FDA7E4-17A1-4D7E-B069-50AF3171109E}"/>
+									</Reference>
+									<Reference Name="Curve">
+										<Custom>
+											<Curve Name="" ID="{16A8A95C-AEB2-47BD-B67A-1B759D7B677A}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-96</XPos>
+														<YPos>-96</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</Custom>
+									</Reference>
+								</ReferenceList>
+							</RTPC>
+						</ObjectList>
+					</ObjectLists>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="snow_gusts" ID="{4780E4C1-0C64-4E55-8D67-5BAF47371DDF}" ShortID="899069023">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+						<Property Name="OverridePositioning" Type="bool" Value="True"/>
+						<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6587C38D-E338-4D10-AB0D-4201CFD43306}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BB4465-B567-44E4-9FC6-E94DFB112045}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Sample_1" ID="{FA8BC3DA-1524-467C-B091-60EE6F13539E}" ShortID="925260406">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6587C38D-E338-4D10-AB0D-4201CFD43306}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BB4465-B567-44E4-9FC6-E94DFB112045}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="rdwind-01" ID="{4146E1F2-131A-417F-BB61-BF5CD1052ACC}">
+									<Language>SFX</Language>
+									<AudioFile>Vesper_W11\ambience\snow\random\randomwind\rdwind-01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="15838892"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="rdwind-01" ID="{4146E1F2-131A-417F-BB61-BF5CD1052ACC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Sample_2" ID="{0AD34B98-E8DA-4BFA-92E8-6A024FB288AA}" ShortID="117910663">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6587C38D-E338-4D10-AB0D-4201CFD43306}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BB4465-B567-44E4-9FC6-E94DFB112045}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="rdwind-02" ID="{CA260744-9B81-4488-A9CC-28345509D752}">
+									<Language>SFX</Language>
+									<AudioFile>Vesper_W11\ambience\snow\random\randomwind\rdwind-02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="881409903"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="rdwind-02" ID="{CA260744-9B81-4488-A9CC-28345509D752}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Sample_3" ID="{269B1293-6EEB-4B03-BA92-DEC32DF06BC1}" ShortID="760994492">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6587C38D-E338-4D10-AB0D-4201CFD43306}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BB4465-B567-44E4-9FC6-E94DFB112045}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="rdwind-03" ID="{8CAE5776-834D-47F9-A20E-E0A1E1C83817}">
+									<Language>SFX</Language>
+									<AudioFile>Vesper_W11\ambience\snow\random\randomwind\rdwind-03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="231365238"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="rdwind-03" ID="{8CAE5776-834D-47F9-A20E-E0A1E1C83817}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Sample_4" ID="{56E12ECC-797A-4E14-8F62-E76C8F040440}" ShortID="56978608">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6587C38D-E338-4D10-AB0D-4201CFD43306}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BB4465-B567-44E4-9FC6-E94DFB112045}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="rdwind-04" ID="{1FEB0819-B45D-4F0E-884E-73DEA367894D}">
+									<Language>SFX</Language>
+									<AudioFile>Vesper_W11\ambience\snow\random\randomwind\rdwind-04.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="818668366"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="rdwind-04" ID="{1FEB0819-B45D-4F0E-884E-73DEA367894D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Sample_5" ID="{C81FC75C-2388-4212-84AA-F2B420CD2AF5}" ShortID="141539900">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6587C38D-E338-4D10-AB0D-4201CFD43306}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BB4465-B567-44E4-9FC6-E94DFB112045}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="rdwind-05" ID="{C9624DBD-CE98-49AD-BD7A-0BBEBAA67CEF}">
+									<Language>SFX</Language>
+									<AudioFile>Vesper_W11\ambience\snow\random\randomwind\rdwind-05.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="680322870"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="rdwind-05" ID="{C9624DBD-CE98-49AD-BD7A-0BBEBAA67CEF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Sample_6" ID="{FD902009-1C94-4D75-8E53-486A11516E32}" ShortID="506925103">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6587C38D-E338-4D10-AB0D-4201CFD43306}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BB4465-B567-44E4-9FC6-E94DFB112045}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="rdwind-06" ID="{2F125607-628F-4A65-AD7D-51A42966D52C}">
+									<Language>SFX</Language>
+									<AudioFile>Vesper_W11\ambience\snow\random\randomwind\rdwind-06.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="762505329"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="rdwind-06" ID="{2F125607-628F-4A65-AD7D-51A42966D52C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Sample_7" ID="{CAAB9F6A-7F8F-4B17-9DBF-D2BEB78AD0BC}" ShortID="833824122">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6587C38D-E338-4D10-AB0D-4201CFD43306}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BB4465-B567-44E4-9FC6-E94DFB112045}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="rdwind-07" ID="{A4EAAF08-8DF1-4654-AC21-AF521C666C66}">
+									<Language>SFX</Language>
+									<AudioFile>Vesper_W11\ambience\snow\random\randomwind\rdwind-07.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="985289014"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="rdwind-07" ID="{A4EAAF08-8DF1-4654-AC21-AF521C666C66}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Sample_8" ID="{4188D43F-764F-4A45-BA4A-E8BE60BB2D16}" ShortID="996277263">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6587C38D-E338-4D10-AB0D-4201CFD43306}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BB4465-B567-44E4-9FC6-E94DFB112045}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="rdwind" ID="{387D1D11-32AD-4AC5-8B6B-40D1F9076469}">
+									<Language>SFX</Language>
+									<AudioFile>Vesper_W11\ambience\snow\random\randomwind\rdwind.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="668502983"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="rdwind" ID="{387D1D11-32AD-4AC5-8B6B-40D1F9076469}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<RTPC Name="" ID="{E30EA2A3-9E61-41DE-8238-2A0C98883D54}" ShortID="460266219">
+								<PropertyList>
+									<Property Name="PropertyName" Type="string" Value="Volume"/>
+								</PropertyList>
+								<ReferenceList>
+									<Reference Name="ControlInput">
+										<ObjectRef Name="SD_Gain" ID="{78E5E8EF-192B-43F2-A253-BA0227044F36}" WorkUnitID="{54FDA7E4-17A1-4D7E-B069-50AF3171109E}"/>
+									</Reference>
+									<Reference Name="Curve">
+										<Custom>
+											<Curve Name="" ID="{D8C6013F-915A-414B-B71F-A490B0BA3191}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-96</XPos>
+														<YPos>-96</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</Custom>
+									</Reference>
+								</ReferenceList>
+							</RTPC>
+						</ObjectList>
+					</ObjectLists>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="snow_wolves" ID="{A28B3979-DF0C-447E-9C53-725489D12CE6}" ShortID="137770930">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+						<Property Name="OverridePositioning" Type="bool" Value="True"/>
+						<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6587C38D-E338-4D10-AB0D-4201CFD43306}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BB4465-B567-44E4-9FC6-E94DFB112045}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Sample_1" ID="{7D2CBA00-2993-466F-92CE-60BA031B96C0}" ShortID="204795952">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6587C38D-E338-4D10-AB0D-4201CFD43306}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BB4465-B567-44E4-9FC6-E94DFB112045}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="rdwolf" ID="{04EAC00F-2C86-432F-8F86-275A78F681CB}">
+									<Language>SFX</Language>
+									<AudioFile>Vesper_W11\ambience\snow\random\randomwolf\rdwolf.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="551137995"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="rdwolf" ID="{04EAC00F-2C86-432F-8F86-275A78F681CB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<RTPC Name="" ID="{78786AFC-F734-4C3D-9C7A-A5038995CC2C}" ShortID="834329229">
+								<PropertyList>
+									<Property Name="PropertyName" Type="string" Value="Volume"/>
+								</PropertyList>
+								<ReferenceList>
+									<Reference Name="ControlInput">
+										<ObjectRef Name="SD_Gain" ID="{78E5E8EF-192B-43F2-A253-BA0227044F36}" WorkUnitID="{54FDA7E4-17A1-4D7E-B069-50AF3171109E}"/>
+									</Reference>
+									<Reference Name="Curve">
+										<Custom>
+											<Curve Name="" ID="{A85D0A0F-7840-4D14-A945-A706CAC39383}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-96</XPos>
+														<YPos>-96</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</Custom>
+									</Reference>
+								</ReferenceList>
+							</RTPC>
+						</ObjectList>
+					</ObjectLists>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</Containers>
+</WwiseDocument>

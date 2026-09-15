@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{54FDA7E4-17A1-4D7E-B069-50AF3171109E}" SchemaVersion="133">
+	<GameParameters>
+		<WorkUnit Name="Vesper_Director" ID="{54FDA7E4-17A1-4D7E-B069-50AF3171109E}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="SD_Gain" ID="{78E5E8EF-192B-43F2-A253-BA0227044F36}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="-96"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-96"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

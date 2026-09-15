@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D1D370B7-F0E5-41D0-830C-24D98539C288}" SchemaVersion="133">
+	<SoundBanks>
+		<WorkUnit Name="Vesper_Director" ID="{D1D370B7-F0E5-41D0-830C-24D98539C288}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Vesper_Director" ID="{5AB8290A-A6B1-46C9-93A3-62403370EFA8}">
+					<ObjectInclusionList>
+						<ObjectRef Name="SD_Play_day_wind" ID="{8579C98F-9AF0-41C6-862A-DC705E28F5C6}" WorkUnitID="{BFF26E40-745C-41AD-B850-64E7CCBBB785}" Origin="Manual" Filter="3"/>
+						<ObjectRef Name="SD_Play_heavy_rain" ID="{0ADC2C1C-6A71-4233-812D-17A23B296A96}" WorkUnitID="{BFF26E40-745C-41AD-B850-64E7CCBBB785}" Origin="Manual" Filter="3"/>
+						<ObjectRef Name="SD_Play_night_bed" ID="{4FA5775B-9796-4310-ADBD-040EA1640B39}" WorkUnitID="{BFF26E40-745C-41AD-B850-64E7CCBBB785}" Origin="Manual" Filter="3"/>
+						<ObjectRef Name="SD_Play_night_bugs" ID="{AD0FBB3A-98E1-4337-9777-6760F5249483}" WorkUnitID="{BFF26E40-745C-41AD-B850-64E7CCBBB785}" Origin="Manual" Filter="3"/>
+						<ObjectRef Name="SD_Play_rain_gusts" ID="{1B34CF76-7836-44C0-9DEE-D2DB48B048EB}" WorkUnitID="{BFF26E40-745C-41AD-B850-64E7CCBBB785}" Origin="Manual" Filter="3"/>
+						<ObjectRef Name="SD_Play_snow_gusts" ID="{CCC17665-C476-44C3-9299-48E6D71F23BD}" WorkUnitID="{BFF26E40-745C-41AD-B850-64E7CCBBB785}" Origin="Manual" Filter="3"/>
+						<ObjectRef Name="SD_Play_wolves" ID="{249EEEA4-946F-45B2-A510-3A91A014F423}" WorkUnitID="{BFF26E40-745C-41AD-B850-64E7CCBBB785}" Origin="Manual" Filter="3"/>
+						<ObjectRef Name="SD_Play_day_gusts" ID="{11789D63-7E43-45C9-BDA0-45C6230FD1D9}" WorkUnitID="{BFF26E40-745C-41AD-B850-64E7CCBBB785}" Origin="Manual" Filter="3"/>
+						<ObjectRef Name="SD_Play_rain_bed" ID="{5F4769F7-A512-45E3-8192-F6C69D2CF969}" WorkUnitID="{BFF26E40-745C-41AD-B850-64E7CCBBB785}" Origin="Manual" Filter="3"/>
+						<ObjectRef Name="SD_Play_wet_grass" ID="{EEA297E1-8919-45E9-AED5-D8174022BFA5}" WorkUnitID="{BFF26E40-745C-41AD-B850-64E7CCBBB785}" Origin="Manual" Filter="3"/>
+						<ObjectRef Name="SD_Play_river" ID="{D5F843A0-D731-4833-AAEC-D0A691D212E9}" WorkUnitID="{BFF26E40-745C-41AD-B850-64E7CCBBB785}" Origin="Manual" Filter="3"/>
+						<ObjectRef Name="SD_Play_snow_wolves" ID="{A617E531-FD8C-4A58-97B7-DFF0FA81CB4B}" WorkUnitID="{BFF26E40-745C-41AD-B850-64E7CCBBB785}" Origin="Manual" Filter="3"/>
+						<ObjectRef Name="SD_Play_owls" ID="{52ECED14-FE24-4C09-B91B-FF130B1BFFF9}" WorkUnitID="{BFF26E40-745C-41AD-B850-64E7CCBBB785}" Origin="Manual" Filter="3"/>
+						<ObjectRef Name="SD_Play_birds" ID="{60537ED4-56E3-4C7D-AF78-545105A106C0}" WorkUnitID="{BFF26E40-745C-41AD-B850-64E7CCBBB785}" Origin="Manual" Filter="3"/>
+						<ObjectRef Name="SD_Play_grass" ID="{7FCECBB1-DB3E-4C98-BF2C-8E459C96647D}" WorkUnitID="{BFF26E40-745C-41AD-B850-64E7CCBBB785}" Origin="Manual" Filter="3"/>
+						<ObjectRef Name="SD_Play_snow_bed" ID="{B0A65A79-01FA-4D66-8C7C-AD887F518FC7}" WorkUnitID="{BFF26E40-745C-41AD-B850-64E7CCBBB785}" Origin="Manual" Filter="3"/>
+						<ObjectRef Name="SD_Play_day_bugs" ID="{95CC2495-18B4-4DF0-964D-DB0AD6E8DCB4}" WorkUnitID="{BFF26E40-745C-41AD-B850-64E7CCBBB785}" Origin="Manual" Filter="3"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

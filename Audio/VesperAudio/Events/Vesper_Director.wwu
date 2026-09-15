@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{BFF26E40-745C-41AD-B850-64E7CCBBB785}" SchemaVersion="133">
+	<Events>
+		<WorkUnit Name="Vesper_Director" ID="{BFF26E40-745C-41AD-B850-64E7CCBBB785}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="SD_Play_day_wind" ID="{8579C98F-9AF0-41C6-862A-DC705E28F5C6}">
+					<ChildrenList>
+						<Action Name="Play" ID="{A6784C4B-8F45-403D-897B-B9A3F69A3D50}" ShortID="974825652">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="day_wind" ID="{0F9C0E9F-B2FF-49FF-9F20-F0955FB6E40C}" WorkUnitID="{58453F36-8B31-4AAB-9273-446B178F9118}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SD_Play_river" ID="{D5F843A0-D731-4833-AAEC-D0A691D212E9}">
+					<ChildrenList>
+						<Action Name="Play" ID="{0A9C1BDA-D095-4EA4-A793-C9DA8B9A830D}" ShortID="27805060">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="river" ID="{317F185B-20F5-452D-AB52-BB06E52AF368}" WorkUnitID="{58453F36-8B31-4AAB-9273-446B178F9118}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SD_Play_birds" ID="{60537ED4-56E3-4C7D-AF78-545105A106C0}">
+					<ChildrenList>
+						<Action Name="Play" ID="{84519B3D-8D40-474F-BBCF-772A03963A21}" ShortID="804700268">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="birds" ID="{9A0D551A-833A-4A9B-9A1A-D47F2A36C54D}" WorkUnitID="{58453F36-8B31-4AAB-9273-446B178F9118}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SD_Play_day_bugs" ID="{95CC2495-18B4-4DF0-964D-DB0AD6E8DCB4}">
+					<ChildrenList>
+						<Action Name="Play" ID="{A7A83454-5A86-4DAB-A6B3-F8C21AE91868}" ShortID="247542003">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="day_bugs" ID="{FF676521-87DA-402B-8D86-429859AE37A6}" WorkUnitID="{58453F36-8B31-4AAB-9273-446B178F9118}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SD_Play_grass" ID="{7FCECBB1-DB3E-4C98-BF2C-8E459C96647D}">
+					<ChildrenList>
+						<Action Name="Play" ID="{F6647F26-947B-4267-AE3B-0C9E5C0FA4C5}" ShortID="87592678">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="grass" ID="{286DF2BF-4EBA-4449-B520-CE040DCA1F49}" WorkUnitID="{58453F36-8B31-4AAB-9273-446B178F9118}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SD_Play_day_gusts" ID="{11789D63-7E43-45C9-BDA0-45C6230FD1D9}">
+					<ChildrenList>
+						<Action Name="Play" ID="{99D2833D-1D41-4E27-AD0F-5B379A9E6A94}" ShortID="293143684">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="day_gusts" ID="{AA8E0DDF-DB11-4B9E-B1DC-5F129591BB7C}" WorkUnitID="{58453F36-8B31-4AAB-9273-446B178F9118}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SD_Play_night_bed" ID="{4FA5775B-9796-4310-ADBD-040EA1640B39}">
+					<ChildrenList>
+						<Action Name="Play" ID="{F0EC07BC-63BD-42D4-A1E4-591EB4819E79}" ShortID="384099831">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="night_bed" ID="{2EC26C7C-F2BB-41FB-BBA5-BDC45D23C1F4}" WorkUnitID="{58453F36-8B31-4AAB-9273-446B178F9118}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SD_Play_night_bugs" ID="{AD0FBB3A-98E1-4337-9777-6760F5249483}">
+					<ChildrenList>
+						<Action Name="Play" ID="{E70EF598-7693-4D41-A356-2FBDCC9EF2EB}" ShortID="247532930">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="night_bugs" ID="{493D6957-6030-4641-B783-89FB2491ED85}" WorkUnitID="{58453F36-8B31-4AAB-9273-446B178F9118}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SD_Play_owls" ID="{52ECED14-FE24-4C09-B91B-FF130B1BFFF9}">
+					<ChildrenList>
+						<Action Name="Play" ID="{EC88F3FF-5BB5-4B87-83D4-94BEA03E39F7}" ShortID="464300502">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="owls" ID="{8B8A425E-F858-46BF-BF61-B8C44A6456CE}" WorkUnitID="{58453F36-8B31-4AAB-9273-446B178F9118}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SD_Play_wolves" ID="{249EEEA4-946F-45B2-A510-3A91A014F423}">
+					<ChildrenList>
+						<Action Name="Play" ID="{9FFF203F-6DE8-446F-A39F-C746B33201D2}" ShortID="847279334">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="wolves" ID="{61223241-5345-40DF-85AB-CECC7A13780E}" WorkUnitID="{58453F36-8B31-4AAB-9273-446B178F9118}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SD_Play_rain_bed" ID="{5F4769F7-A512-45E3-8192-F6C69D2CF969}">
+					<ChildrenList>
+						<Action Name="Play" ID="{D64D1D7E-E259-4B2E-9C4C-6631B9CE4FE1}" ShortID="889558349">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="rain_bed" ID="{528D4BA6-974D-4A75-A26E-38B56A81914F}" WorkUnitID="{58453F36-8B31-4AAB-9273-446B178F9118}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SD_Play_heavy_rain" ID="{0ADC2C1C-6A71-4233-812D-17A23B296A96}">
+					<ChildrenList>
+						<Action Name="Play" ID="{3C4A2820-403F-4F8F-ADAC-9CA8A796BFD9}" ShortID="283042626">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="heavy_rain" ID="{FC268938-9EDD-4F3F-8FC1-6467A84E09EB}" WorkUnitID="{58453F36-8B31-4AAB-9273-446B178F9118}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SD_Play_wet_grass" ID="{EEA297E1-8919-45E9-AED5-D8174022BFA5}">
+					<ChildrenList>
+						<Action Name="Play" ID="{C73485A4-92D1-4D52-AFA3-4193D3C40892}" ShortID="583360721">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="wet_grass" ID="{6D87FE57-8642-4B82-B48D-74E09FF10CAC}" WorkUnitID="{58453F36-8B31-4AAB-9273-446B178F9118}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SD_Play_rain_gusts" ID="{1B34CF76-7836-44C0-9DEE-D2DB48B048EB}">
+					<ChildrenList>
+						<Action Name="Play" ID="{345DACEE-3833-43AB-9829-C2B366D46DBA}" ShortID="508584571">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="rain_gusts" ID="{ED902C21-1717-410C-AF29-1745E24258FF}" WorkUnitID="{58453F36-8B31-4AAB-9273-446B178F9118}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SD_Play_snow_bed" ID="{B0A65A79-01FA-4D66-8C7C-AD887F518FC7}">
+					<ChildrenList>
+						<Action Name="Play" ID="{0EBA649E-B8FB-4765-B3CE-AD7CDE76AE00}" ShortID="1042171955">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="snow_bed" ID="{4115C00A-BAB7-405B-B30A-20BADAEA017A}" WorkUnitID="{58453F36-8B31-4AAB-9273-446B178F9118}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SD_Play_snow_gusts" ID="{CCC17665-C476-44C3-9299-48E6D71F23BD}">
+					<ChildrenList>
+						<Action Name="Play" ID="{EADF0BE5-7CBC-4BC6-BEBA-66CE0570C960}" ShortID="41966514">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="snow_gusts" ID="{4780E4C1-0C64-4E55-8D67-5BAF47371DDF}" WorkUnitID="{58453F36-8B31-4AAB-9273-446B178F9118}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SD_Play_snow_wolves" ID="{A617E531-FD8C-4A58-97B7-DFF0FA81CB4B}">
+					<ChildrenList>
+						<Action Name="Play" ID="{961429C6-8934-4938-A80A-7A81E95D2A91}" ShortID="832236408">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="snow_wolves" ID="{A28B3979-DF0C-447E-9C53-725489D12CE6}" WorkUnitID="{58453F36-8B31-4AAB-9273-446B178F9118}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

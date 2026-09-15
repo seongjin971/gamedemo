@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0400f27db01e54738b822b1a509a0a70, type: 3}
+  m_Name: VesperWeatherWorld_W11_Direction
+  m_EditorClassIdentifier: Assembly-CSharp::Vesper.SoundDirector.SoundDirectionProfile
+  plan:
+    version: 1
+    sceneRevision: 120bd9b06995fae68db7530b988af3af52bc6e9b6e636f2d702c0dfadfb4e50f
+    summary: "\uC232\uC5D0\uC11C \uD3D0\uD5C8\uB85C \uAC08\uC218\uB85D \uC5B4\uB450\uC6CC\uC9C0\uB294
+      \uC5F0\uCD9C \xB7 \uC218\uB3D9 \uC608\uC81C"
+    layers:
+    - targetId: 2bd01bc013de43faab2c95b3c3895e0d
+      soundId: night_bed
+      reason: "\uC7A5\uC18C\uBCC4 \uD658\uACBD\uC74C\uC744 \uBC30\uCE58\uD55C \uC218\uB3D9
+        \uC791\uC131 \uC608\uC81C"
+      gainDb: -17
+      radius: 47.600002
+      fadeSeconds: 2
+      intervalSeconds: 30
+    - targetId: 3b6d3ba171d7463ea239ea2c55933a70
+      soundId: snow_bed
+      reason: "\uC7A5\uC18C\uBCC4 \uD658\uACBD\uC74C\uC744 \uBC30\uCE58\uD55C \uC218\uB3D9
+        \uC791\uC131 \uC608\uC81C"
+      gainDb: -17
+      radius: 48.45
+      fadeSeconds: 2
+      intervalSeconds: 30
+    - targetId: 62b7e8277458431cacdfb69003a18700
+      soundId: rain_bed
+      reason: "\uC7A5\uC18C\uBCC4 \uD658\uACBD\uC74C\uC744 \uBC30\uCE58\uD55C \uC218\uB3D9
+        \uC791\uC131 \uC608\uC81C"
+      gainDb: -17
+      radius: 48.45
+      fadeSeconds: 2
+      intervalSeconds: 30
+    - targetId: 87a5aa13900d4a6ca3a33bfbc28b722e
+      soundId: snow_bed
+      reason: "\uC7A5\uC18C\uBCC4 \uD658\uACBD\uC74C\uC744 \uBC30\uCE58\uD55C \uC218\uB3D9
+        \uC791\uC131 \uC608\uC81C"
+      gainDb: -17
+      radius: 55.25
+      fadeSeconds: 2
+      intervalSeconds: 30
+    - targetId: b436441cfefa43e2aa9b4e1c876b91d7
+      soundId: night_bed
+      reason: "\uC7A5\uC18C\uBCC4 \uD658\uACBD\uC74C\uC744 \uBC30\uCE58\uD55C \uC218\uB3D9
+        \uC791\uC131 \uC608\uC81C"
+      gainDb: -17
+      radius: 59.5
+      fadeSeconds: 2
+      intervalSeconds: 30
+    - targetId: b436441cfefa43e2aa9b4e1c876b91d7
+      soundId: wolves
+      reason: "\uBD84\uC704\uAE30 \uCC28\uC774\uB97C \uD655\uC778\uD558\uB294 \uAC04\uD5D0\uC801
+        \uC790\uC5F0\uC74C \uC608\uC81C"
+      gainDb: -19
+      radius: 59.5
+      fadeSeconds: 2
+      intervalSeconds: 24
+    - targetId: dbe9ecf8c2144201b081d2d9922cc130
+      soundId: day_wind
+      reason: "\uC7A5\uC18C\uBCC4 \uD658\uACBD\uC74C\uC744 \uBC30\uCE58\uD55C \uC218\uB3D9
+        \uC791\uC131 \uC608\uC81C"
+      gainDb: -17
+      radius: 46.75
+      fadeSeconds: 2
+      intervalSeconds: 30
+    - targetId: dbe9ecf8c2144201b081d2d9922cc130
+      soundId: birds
+      reason: "\uBD84\uC704\uAE30 \uCC28\uC774\uB97C \uD655\uC778\uD558\uB294 \uAC04\uD5D0\uC801
+        \uC790\uC5F0\uC74C \uC608\uC81C"
+      gainDb: -20
+      radius: 46.75
+      fadeSeconds: 2
+      intervalSeconds: 12
+    - targetId: e8f17bad26114d3d9134a96399365541
+      soundId: river
+      reason: "\uC218\uC6D0 \uAC00\uAE4C\uC774\uC5D0\uC11C\uB9CC \uBB3C\uC18C\uB9AC\uAC00
+        \uB4E4\uB9AC\uB294 \uC608\uC81C"
+      gainDb: -12
+      radius: 22
+      fadeSeconds: 2
+      intervalSeconds: 30
+    warnings:
+    - "\uC774 \uACC4\uD68D\uC740 AI\uAC00 \uC0DD\uC131\uD558\uC9C0 \uC54A\uC740 \uAE30\uB2A5
+      \uD655\uC778\uC6A9 \uC608\uC81C\uC785\uB2C8\uB2E4."
+  source: "Example \xB7 AI \uC544\uB2D8"
+  model: authored-fixture
+  createdUtc: 2026-09-15T01:21:04.1840360Z
+  prompt: "\uC218\uB3D9 \uC791\uC131\uB41C \uAE34\uC7A5\uAC10 \uC2DC\uC5F0 \uC608\uC81C"
+  requestMilliseconds: 0
+  previousState: "{\"plan\":{\"version\":1,\"sceneRevision\":\"78321ecfb0be65014bf8186e8621f7d20a424e0a7c50dca1360bee7caa03e505\",\"summary\":\"\uC232\uC5D0\uC11C
+    \uD3D0\uD5C8\uB85C \uAC08\uC218\uB85D \uC5B4\uB450\uC6CC\uC9C0\uB294 \uC5F0\uCD9C
+    \xB7 \uC218\uB3D9 \uC608\uC81C\",\"layers\":[{\"targetId\":\"2bd01bc013de43faab2c95b3c3895e0d\",\"soundId\":\"night_bed\",\"reason\":\"\uC7A5\uC18C\uBCC4
+    \uD658\uACBD\uC74C\uC744 \uBC30\uCE58\uD55C \uC218\uB3D9 \uC791\uC131 \uC608\uC81C\",\"gainDb\":-17.0,\"radius\":47.60000228881836,\"fadeSeconds\":2.0,\"intervalSeconds\":30.0},{\"targetId\":\"3b6d3ba171d7463ea239ea2c55933a70\",\"soundId\":\"snow_bed\",\"reason\":\"\uC7A5\uC18C\uBCC4
+    \uD658\uACBD\uC74C\uC744 \uBC30\uCE58\uD55C \uC218\uB3D9 \uC791\uC131 \uC608\uC81C\",\"gainDb\":-17.0,\"radius\":48.45000076293945,\"fadeSeconds\":2.0,\"intervalSeconds\":30.0},{\"targetId\":\"62b7e8277458431cacdfb69003a18700\",\"soundId\":\"rain_bed\",\"reason\":\"\uC7A5\uC18C\uBCC4
+    \uD658\uACBD\uC74C\uC744 \uBC30\uCE58\uD55C \uC218\uB3D9 \uC791\uC131 \uC608\uC81C\",\"gainDb\":-17.0,\"radius\":48.45000076293945,\"fadeSeconds\":2.0,\"intervalSeconds\":30.0},{\"targetId\":\"87a5aa13900d4a6ca3a33bfbc28b722e\",\"soundId\":\"snow_bed\",\"reason\":\"\uC7A5\uC18C\uBCC4
+    \uD658\uACBD\uC74C\uC744 \uBC30\uCE58\uD55C \uC218\uB3D9 \uC791\uC131 \uC608\uC81C\",\"gainDb\":-17.0,\"radius\":55.25,\"fadeSeconds\":2.0,\"intervalSeconds\":30.0},{\"targetId\":\"b436441cfefa43e2aa9b4e1c876b91d7\",\"soundId\":\"night_bed\",\"reason\":\"\uC7A5\uC18C\uBCC4
+    \uD658\uACBD\uC74C\uC744 \uBC30\uCE58\uD55C \uC218\uB3D9 \uC791\uC131 \uC608\uC81C\",\"gainDb\":-17.0,\"radius\":59.5,\"fadeSeconds\":2.0,\"intervalSeconds\":30.0},{\"targetId\":\"b436441cfefa43e2aa9b4e1c876b91d7\",\"soundId\":\"wolves\",\"reason\":\"\uBD84\uC704\uAE30
+    \uCC28\uC774\uB97C \uD655\uC778\uD558\uB294 \uAC04\uD5D0\uC801 \uC790\uC5F0\uC74C
+    \uC608\uC81C\",\"gainDb\":-19.0,\"radius\":59.5,\"fadeSeconds\":2.0,\"intervalSeconds\":24.0},{\"targetId\":\"dbe9ecf8c2144201b081d2d9922cc130\",\"soundId\":\"day_wind\",\"reason\":\"\uC7A5\uC18C\uBCC4
+    \uD658\uACBD\uC74C\uC744 \uBC30\uCE58\uD55C \uC218\uB3D9 \uC791\uC131 \uC608\uC81C\",\"gainDb\":-17.0,\"radius\":46.75,\"fadeSeconds\":2.0,\"intervalSeconds\":30.0},{\"targetId\":\"dbe9ecf8c2144201b081d2d9922cc130\",\"soundId\":\"birds\",\"reason\":\"\uBD84\uC704\uAE30
+    \uCC28\uC774\uB97C \uD655\uC778\uD558\uB294 \uAC04\uD5D0\uC801 \uC790\uC5F0\uC74C
+    \uC608\uC81C\",\"gainDb\":-20.0,\"radius\":46.75,\"fadeSeconds\":2.0,\"intervalSeconds\":12.0},{\"targetId\":\"e8f17bad26114d3d9134a96399365541\",\"soundId\":\"river\",\"reason\":\"\uC218\uC6D0
+    \uAC00\uAE4C\uC774\uC5D0\uC11C\uB9CC \uBB3C\uC18C\uB9AC\uAC00 \uB4E4\uB9AC\uB294
+    \uC608\uC81C\",\"gainDb\":-12.0,\"radius\":22.0,\"fadeSeconds\":2.0,\"intervalSeconds\":30.0}],\"warnings\":[\"\uC774
+    \uACC4\uD68D\uC740 AI\uAC00 \uC0DD\uC131\uD558\uC9C0 \uC54A\uC740 \uAE30\uB2A5
+    \uD655\uC778\uC6A9 \uC608\uC81C\uC785\uB2C8\uB2E4.\"]},\"source\":\"Example \xB7
+    AI \uC544\uB2D8\",\"model\":\"authored-fixture\",\"createdUtc\":\"2026-09-15T01:17:57.9897180Z\",\"prompt\":\"\uC218\uB3D9
+    \uC791\uC131\uB41C \uAE34\uC7A5\uAC10 \uC2DC\uC5F0 \uC608\uC81C\",\"requestMilliseconds\":0,\"previousState\":\"\"}"

@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{F74412AD-0C2A-4BB1-9D28-B46009EAFDAD}",
     "Language": "SFX",
-    "Hash": "{C1EAC71E-2130-8BC2-2F1A-542927554DD7}",
+    "Hash": "{6AA90BB7-AE8A-1AD2-E1B3-56C02147D2FC}",
     "ObjectPath": "\\SoundBanks\\Vesper_W11\\Vesper_W11",
     "ShortName": "Vesper_W11",
     "Path": "Vesper_W11.bnk",
@@ -192,6 +192,14 @@
       "CachePath": "2F/{2F88A3B0-4BC6-C292-5963-8D454F16F086}.wem"
      },
      {
+      "Id": "297409289",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\ambience\\rainnight\\rainbackground\\rainbackground-01.wav",
+      "CachePath": "6E/{6ED373DC-D8EC-49B1-3E2E-97BA21880187}.wem"
+     },
+     {
       "Id": "299384836",
       "Language": "SFX",
       "Streaming": "false",
@@ -296,6 +304,30 @@
       "CachePath": "86/{86882C39-BE8C-E3B3-97FB-DD08EB1B8125}.wem"
      },
      {
+      "Id": "494349121",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\ambience\\snow\\background\\background-02.wav",
+      "CachePath": "0F/{0F715D7B-419D-79C1-68C7-0A66A494B2F8}.wem"
+     },
+     {
+      "Id": "537366305",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\ambience\\morning\\object\\ojriver.wav",
+      "CachePath": "13/{1387D774-6A94-5A83-E8E2-F24912A6481B}.wem"
+     },
+     {
+      "Id": "544999671",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vesper_W11\\ambience\\snow\\background\\background-03.wav",
+      "CachePath": "BF/{BF4B6900-9408-F4F1-7E6C-3C5FF43C3BD8}.wem"
+     },
+     {
       "Id": "550067335",
       "Language": "SFX",
       "Streaming": "false",
@@ -336,12 +368,12 @@
       "CachePath": "6E/{6E857B80-F35C-5104-49CF-B4EA58016D23}.wem"
      },
      {
-      "Id": "606925433",
+      "Id": "599266480",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Vesper_W11\\ambience\\rainnight\\rainbackground\\rainbackground-01.wav",
-      "CachePath": "6E/{6ED373DC-D8EC-49B1-3E2E-97BA21880187}.wem"
+      "ShortName": "Vesper_W11\\ambience\\morning\\background\\wind1.wav",
+      "CachePath": "11/{111A047F-26E0-284A-6BF2-3FB7DA261BA5}.wem"
      },
      {
       "Id": "623044456",
@@ -358,14 +390,6 @@
       "Location": "Memory",
       "ShortName": "Vesper_W11\\footstep\\footstep gravel\\footstep gravel-04.wav",
       "CachePath": "15/{15E13C32-9697-99EE-EC4C-1544967C9529}.wem"
-     },
-     {
-      "Id": "652031760",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Vesper_W11\\ambience\\snow\\background\\background-03.wav",
-      "CachePath": "BF/{BF4B6900-9408-F4F1-7E6C-3C5FF43C3BD8}.wem"
      },
      {
       "Id": "668502983",
@@ -400,28 +424,12 @@
       "CachePath": "93/{93CA1A13-C9CE-1A87-94FA-12A1489FEC50}.wem"
      },
      {
-      "Id": "691276197",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Vesper_W11\\ambience\\morning\\object\\ojriver.wav",
-      "CachePath": "13/{1387D774-6A94-5A83-E8E2-F24912A6481B}.wem"
-     },
-     {
       "Id": "698984493",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Vesper_W11\\ambience\\rainnight\\rainbackground\\rainbackground.wav",
       "CachePath": "DB/{DB4CEED2-BD15-02E3-7683-C3C47F7496D5}.wem"
-     },
-     {
-      "Id": "758969944",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Vesper_W11\\ambience\\snow\\background\\background-02.wav",
-      "CachePath": "0F/{0F715D7B-419D-79C1-68C7-0A66A494B2F8}.wem"
      },
      {
       "Id": "762505329",
@@ -470,14 +478,6 @@
       "Location": "Memory",
       "ShortName": "Vesper_W11\\ambience\\snow\\random\\randomwind\\rdwind-02.wav",
       "CachePath": "30/{305CEAB4-3E19-0E4C-FA03-DCD985545437}.wem"
-     },
-     {
-      "Id": "898112094",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Vesper_W11\\ambience\\morning\\background\\wind1.wav",
-      "CachePath": "11/{111A047F-26E0-284A-6BF2-3FB7DA261BA5}.wem"
      },
      {
       "Id": "904345040",
@@ -674,7 +674,7 @@
       "DurationType": "Infinite",
       "MediaRefs": [
        {
-        "Id": "691276197"
+        "Id": "537366305"
        }
       ]
      },
@@ -725,6 +725,9 @@
           "Id": "238731827"
          },
          {
+          "Id": "297409289"
+         },
+         {
           "Id": "299384836"
          },
          {
@@ -758,7 +761,7 @@
           "Id": "550835230"
          },
          {
-          "Id": "606925433"
+          "Id": "599266480"
          },
          {
           "Id": "623044456"
@@ -777,9 +780,6 @@
          },
          {
           "Id": "873003008"
-         },
-         {
-          "Id": "898112094"
          },
          {
           "Id": "920295052"
@@ -816,19 +816,19 @@
           "Id": "238764432"
          },
          {
-          "Id": "551137995"
+          "Id": "494349121"
          },
          {
-          "Id": "652031760"
+          "Id": "544999671"
+         },
+         {
+          "Id": "551137995"
          },
          {
           "Id": "668502983"
          },
          {
           "Id": "680322870"
-         },
-         {
-          "Id": "758969944"
          },
          {
           "Id": "762505329"
@@ -925,6 +925,6 @@
     ]
    }
   ],
-  "FileHash": "{13DF730A-71ED-86C2-162D-177C4510F621}"
+  "FileHash": "{23413BEF-77D5-DF48-A165-DD89128B15C9}"
  }
 }

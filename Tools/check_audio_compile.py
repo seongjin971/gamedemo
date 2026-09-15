@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Compile W11 and its actual W10 dependencies against an installed Unity's assemblies.
+"""Compile W11, Sound Director and actual W10 dependencies against Unity assemblies.
 
 This is a source check without VESPER_WWISE. It does not import the project, run Unity,
 validate the Wwise SDK branch, compile shaders, or build a player.
@@ -26,6 +26,7 @@ def main():
     for pattern in ["Unity.RenderPipelines.*.dll", "Unity.Mathematics.dll", "Unity.Collections.dll", "Unity.Burst.dll"]:
         references += list(package.glob(pattern))
     sources = list((ROOT / "Unity/Vesper/Assets/Vesper/Expansion/WeatherW11").rglob("*.cs"))
+    sources += list((ROOT / "Unity/Vesper/Assets/Vesper/SoundDirector").rglob("*.cs"))
     sources += [ROOT / "Unity/Vesper/Assets/Vesper/Expansion/WeatherW10/Runtime" / name for name in
                 ["WorldMotor.cs", "WorldEnvironment.cs", "WorldLayout.cs", "WorldAnimation.cs", "WorldRunInput.cs", "WorldCamera.cs"]]
     sources += [ROOT / "Unity/Vesper/Assets/Vesper/Expansion/LinearWorld/Runtime/WorldLayout.cs",
@@ -33,7 +34,8 @@ def main():
     with tempfile.TemporaryDirectory(prefix="vesper-audio-compile-") as temp:
         output = pathlib.Path(temp) / "AudioCheck.dll"
         response = pathlib.Path(temp) / "compile.rsp"
-        options = ["-nologo", "-target:library", "-nostdlib+", "-warnaserror+", "-langversion:latest",
+        # Match Unity's serializer/conditional-compilation field warning exclusions.
+        options = ["-nologo", "-target:library", "-nostdlib+", "-warnaserror+", "-nowarn:0649,0169", "-langversion:latest",
                    "-define:UNITY_EDITOR,UNITY_EDITOR_OSX,UNITY_STANDALONE_OSX,UNITY_6000_0_OR_NEWER",
                    '-out:"' + str(output) + '"']
         options += ['-r:"' + str(p) + '"' for p in references]

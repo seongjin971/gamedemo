@@ -74,3 +74,4 @@ Desktop.ini
 /Audio/unity-wwise-validation*.wav
 /Audio/fresh-clone-wwise-validation*.wav
 /.wwise-venv/
+/Audio/Director/*.wav

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="172">
 	<SoundBanks>
-		<SoundBank Id="979826602" Type="User" GUID="{F74412AD-0C2A-4BB1-9D28-B46009EAFDAD}" Language="SFX" Hash="{C1EAC71E-2130-8BC2-2F1A-542927554DD7}">
+		<SoundBank Id="979826602" Type="User" GUID="{F74412AD-0C2A-4BB1-9D28-B46009EAFDAD}" Language="SFX" Hash="{6AA90BB7-AE8A-1AD2-E1B3-56C02147D2FC}">
 			<ObjectPath>\SoundBanks\Vesper_W11\Vesper_W11</ObjectPath>
 			<ShortName>Vesper_W11</ShortName>
 			<Path>Vesper_W11.bnk</Path>
@@ -94,6 +94,10 @@
 					<ShortName>Vesper_W11\footstep\footstep rock\footstep rock5.wav</ShortName>
 					<CachePath>2F/{2F88A3B0-4BC6-C292-5963-8D454F16F086}.wem</CachePath>
 				</File>
+				<File Id="297409289" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Vesper_W11\ambience\rainnight\rainbackground\rainbackground-01.wav</ShortName>
+					<CachePath>6E/{6ED373DC-D8EC-49B1-3E2E-97BA21880187}.wem</CachePath>
+				</File>
 				<File Id="299384836" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Vesper_W11\ambience\morning\random one shot\wind\rdwind2.wav</ShortName>
 					<CachePath>98/{98475761-BEB7-CC0F-789D-0B0122819663}.wem</CachePath>
@@ -146,6 +150,18 @@
 					<ShortName>Vesper_W11\ambience\morning\random one shot\bird\rdbird-01.wav</ShortName>
 					<CachePath>86/{86882C39-BE8C-E3B3-97FB-DD08EB1B8125}.wem</CachePath>
 				</File>
+				<File Id="494349121" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Vesper_W11\ambience\snow\background\background-02.wav</ShortName>
+					<CachePath>0F/{0F715D7B-419D-79C1-68C7-0A66A494B2F8}.wem</CachePath>
+				</File>
+				<File Id="537366305" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Vesper_W11\ambience\morning\object\ojriver.wav</ShortName>
+					<CachePath>13/{1387D774-6A94-5A83-E8E2-F24912A6481B}.wem</CachePath>
+				</File>
+				<File Id="544999671" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Vesper_W11\ambience\snow\background\background-03.wav</ShortName>
+					<CachePath>BF/{BF4B6900-9408-F4F1-7E6C-3C5FF43C3BD8}.wem</CachePath>
+				</File>
 				<File Id="550067335" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Vesper_W11\ambience\morning\random one shot\grass\rdgrass-01.wav</ShortName>
 					<CachePath>E1/{E14D3731-9A9C-4221-2E71-222D460E252B}.wem</CachePath>
@@ -166,9 +182,9 @@
 					<ShortName>Vesper_W11\footstep\footstep wet\footstep wet2.wav</ShortName>
 					<CachePath>6E/{6E857B80-F35C-5104-49CF-B4EA58016D23}.wem</CachePath>
 				</File>
-				<File Id="606925433" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Vesper_W11\ambience\rainnight\rainbackground\rainbackground-01.wav</ShortName>
-					<CachePath>6E/{6ED373DC-D8EC-49B1-3E2E-97BA21880187}.wem</CachePath>
+				<File Id="599266480" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Vesper_W11\ambience\morning\background\wind1.wav</ShortName>
+					<CachePath>11/{111A047F-26E0-284A-6BF2-3FB7DA261BA5}.wem</CachePath>
 				</File>
 				<File Id="623044456" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Vesper_W11\ambience\rainnight\background\background.wav</ShortName>
@@ -177,10 +193,6 @@
 				<File Id="651873864" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Vesper_W11\footstep\footstep gravel\footstep gravel-04.wav</ShortName>
 					<CachePath>15/{15E13C32-9697-99EE-EC4C-1544967C9529}.wem</CachePath>
-				</File>
-				<File Id="652031760" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Vesper_W11\ambience\snow\background\background-03.wav</ShortName>
-					<CachePath>BF/{BF4B6900-9408-F4F1-7E6C-3C5FF43C3BD8}.wem</CachePath>
 				</File>
 				<File Id="668502983" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Vesper_W11\ambience\snow\random\randomwind\rdwind.wav</ShortName>
@@ -198,17 +210,9 @@
 					<ShortName>Vesper_W11\ambience\morning\random one shot\grass\rdgrass.wav</ShortName>
 					<CachePath>93/{93CA1A13-C9CE-1A87-94FA-12A1489FEC50}.wem</CachePath>
 				</File>
-				<File Id="691276197" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Vesper_W11\ambience\morning\object\ojriver.wav</ShortName>
-					<CachePath>13/{1387D774-6A94-5A83-E8E2-F24912A6481B}.wem</CachePath>
-				</File>
 				<File Id="698984493" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Vesper_W11\ambience\rainnight\rainbackground\rainbackground.wav</ShortName>
 					<CachePath>DB/{DB4CEED2-BD15-02E3-7683-C3C47F7496D5}.wem</CachePath>
-				</File>
-				<File Id="758969944" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Vesper_W11\ambience\snow\background\background-02.wav</ShortName>
-					<CachePath>0F/{0F715D7B-419D-79C1-68C7-0A66A494B2F8}.wem</CachePath>
 				</File>
 				<File Id="762505329" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Vesper_W11\ambience\snow\random\randomwind\rdwind-06.wav</ShortName>
@@ -233,10 +237,6 @@
 				<File Id="881409903" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Vesper_W11\ambience\snow\random\randomwind\rdwind-02.wav</ShortName>
 					<CachePath>30/{305CEAB4-3E19-0E4C-FA03-DCD985545437}.wem</CachePath>
-				</File>
-				<File Id="898112094" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Vesper_W11\ambience\morning\background\wind1.wav</ShortName>
-					<CachePath>11/{111A047F-26E0-284A-6BF2-3FB7DA261BA5}.wem</CachePath>
 				</File>
 				<File Id="904345040" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Vesper_W11\footstep\footstep wet\footstep wet4.wav</ShortName>
@@ -322,7 +322,7 @@
 				</Event>
 				<Event Id="1923763734" Name="Play_Lake_Ambience" ObjectPath="\Events\Vesper_W11\Play_Lake_Ambience" GUID="{E48727B4-C3B3-41C9-BD86-23519B0050A6}" MaxAttenuation="40" DurationType="Infinite">
 					<MediaRefs>
-						<MediaRef Id="691276197"/>
+						<MediaRef Id="537366305"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="193927641" Name="Play_World_Ambience" ObjectPath="\Events\Vesper_W11\Play_World_Ambience" GUID="{E6FEF526-621D-40BC-9453-1BAAE8D59297}" DurationType="Infinite">
@@ -340,6 +340,7 @@
 								<MediaRef Id="206100557"/>
 								<MediaRef Id="231306724"/>
 								<MediaRef Id="238731827"/>
+								<MediaRef Id="297409289"/>
 								<MediaRef Id="299384836"/>
 								<MediaRef Id="326468663"/>
 								<MediaRef Id="346735029"/>
@@ -351,14 +352,13 @@
 								<MediaRef Id="466994095"/>
 								<MediaRef Id="550067335"/>
 								<MediaRef Id="550835230"/>
-								<MediaRef Id="606925433"/>
+								<MediaRef Id="599266480"/>
 								<MediaRef Id="623044456"/>
 								<MediaRef Id="686412050"/>
 								<MediaRef Id="687710507"/>
 								<MediaRef Id="698984493"/>
 								<MediaRef Id="830203912"/>
 								<MediaRef Id="873003008"/>
-								<MediaRef Id="898112094"/>
 								<MediaRef Id="920295052"/>
 								<MediaRef Id="941576130"/>
 								<MediaRef Id="988426885"/>
@@ -372,11 +372,11 @@
 								<MediaRef Id="49324607"/>
 								<MediaRef Id="231365238"/>
 								<MediaRef Id="238764432"/>
+								<MediaRef Id="494349121"/>
+								<MediaRef Id="544999671"/>
 								<MediaRef Id="551137995"/>
-								<MediaRef Id="652031760"/>
 								<MediaRef Id="668502983"/>
 								<MediaRef Id="680322870"/>
-								<MediaRef Id="758969944"/>
 								<MediaRef Id="762505329"/>
 								<MediaRef Id="818668366"/>
 								<MediaRef Id="881409903"/>
@@ -411,5 +411,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{152E683A-351C-F14C-2114-DA5B6D75359D}</FileHash>
+	<FileHash>{FAF12751-BF4D-DCAD-0AAD-94010BFA4720}</FileHash>
 </SoundBanksInfo>

@@ -1,5 +1,7 @@
 # 다른 PC에서 W11 실행하기
 
+AI 사운드 디렉터는 Unity의 **Vesper → Sound Director → Open**에서 엽니다. 저장된 예제 재생에는 API 키가 필요하지 않으며, 새 AI 연출을 설계할 때는 연결 설정에 OpenAI API 키를 입력합니다. [제품 사용 안내](SOUND_DIRECTOR.md)
+
 **플레이만 할 때는 Unity만 실행하면 됩니다.** 저장소에 Wwise Unity Integration과 Mac/Windows SoundBank가 포함돼 있어, 별도로 Integration을 다시 설치하거나 Wwise Authoring을 켜거나 Bank를 생성할 필요가 없습니다. Wwise Authoring은 소리·이벤트·믹스를 편집할 때 사용합니다.
 
 ## 처음 한 번 준비

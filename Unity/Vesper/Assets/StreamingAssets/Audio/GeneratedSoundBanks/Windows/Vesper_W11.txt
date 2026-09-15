@@ -47,6 +47,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	238731827	rdbird_03_3	.cache\C5\{C541994A-A156-2AA4-992C-1A9B3C2A926A}.wem		\Containers\Vesper_W11\World_Ambience\Forest\Day_Birds\rdbird_03_3		204096
 	238764432	background_4	.cache\70\{70553BBA-81D8-F32B-30D5-F44FB4E54AB4}.wem		\Containers\Vesper_W11\World_Ambience\SnowMountain\Snow_Wind\background_4		4656096
 	255166649	footstep_rock5_5	.cache\2F\{2F88A3B0-4BC6-C292-5963-8D454F16F086}.wem		\Containers\Vesper_W11\Footsteps\Rock\footstep_rock5_5		40904
+	297409289	rainbackground_01_1	.cache\6E\{6ED373DC-D8EC-49B1-3E2E-97BA21880187}.wem		\Containers\Vesper_W11\World_Ambience\Forest\Rain_Heavy\rainbackground_01_1		5515800
 	299384836	rdwind2_2	.cache\98\{98475761-BEB7-CC0F-789D-0B0122819663}.wem		\Containers\Vesper_W11\World_Ambience\Forest\Day_Gusts\rdwind2_2		420096
 	306718504	footstep_rock4_4	.cache\D2\{D266F3BB-B9F0-334A-DBDF-95FCA5EF51B8}.wem		\Containers\Vesper_W11\Footsteps\Rock\footstep_rock4_4		46598
 	326468663	rdwolf_1	.cache\7A\{7A6AF264-1E80-A510-46E6-E07664E86A91}.wem		\Containers\Vesper_W11\World_Ambience\Forest\Night_Wolves\rdwolf_1		2175836
@@ -60,29 +61,28 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	461851726	footstep_gravel_01_1	.cache\2B\{2BBA1A78-BA39-BF2C-5FFF-3B9E3BFBF053}.wem		\Containers\Vesper_W11\Footsteps\Gravel\footstep_gravel_01_1		66956
 	465984354	rdowl_2	.cache\3F\{3FF83BDB-3DD1-6C31-5B7F-10D7C3CE62DD}.wem		\Containers\Vesper_W11\World_Ambience\Forest\Night_Owls\rdowl_2		490764
 	466994095	rdbird_01_1	.cache\86\{86882C39-BE8C-E3B3-97FB-DD08EB1B8125}.wem		\Containers\Vesper_W11\World_Ambience\Forest\Day_Birds\rdbird_01_1		300096
+	494349121	background_02_2	.cache\0F\{0F715D7B-419D-79C1-68C7-0A66A494B2F8}.wem		\Containers\Vesper_W11\World_Ambience\SnowMountain\Snow_Wind\background_02_2		4656096
+	537366305	ojriver_1	.cache\13\{1387D774-6A94-5A83-E8E2-F24912A6481B}.wem		\Containers\Vesper_W11\Lake_Ambience\ojriver_1		2176216
+	544999671	background_03_3	.cache\BF\{BF4B6900-9408-F4F1-7E6C-3C5FF43C3BD8}.wem		\Containers\Vesper_W11\World_Ambience\SnowMountain\Snow_Wind\background_03_3		2536096
 	550067335	rdgrass_01_1	.cache\E1\{E14D3731-9A9C-4221-2E71-222D460E252B}.wem		\Containers\Vesper_W11\World_Ambience\Forest\Day_Grass\rdgrass_01_1		660096
 	550835230	rdwind_02_2	.cache\8E\{8E13ED91-FB65-850A-316B-48FEBD651107}.wem		\Containers\Vesper_W11\World_Ambience\Forest\Rain_Gusts\rdwind_02_2		385540
 	551137995	rdwolf_1	.cache\7C\{7CE0B194-5EAA-5FC0-0F30-27126F57925F}.wem		\Containers\Vesper_W11\World_Ambience\SnowMountain\Snow_Wolves\rdwolf_1		1228632
 	574758917	footstep_gravel_02_2	.cache\75\{75971A22-2835-9110-48DF-070BAAD35A3F}.wem		\Containers\Vesper_W11\Footsteps\Gravel\footstep_gravel_02_2		81620
 	582190481	footstep_wet2_2	.cache\6E\{6E857B80-F35C-5104-49CF-B4EA58016D23}.wem		\Containers\Vesper_W11\Footsteps\Mud\footstep_wet2_2		45242
-	606925433	rainbackground_01_1	.cache\6E\{6ED373DC-D8EC-49B1-3E2E-97BA21880187}.wem		\Containers\Vesper_W11\World_Ambience\Forest\Rain_Heavy\rainbackground_01_1		5515800
+	599266480	wind1_1	.cache\11\{111A047F-26E0-284A-6BF2-3FB7DA261BA5}.wem		\Containers\Vesper_W11\World_Ambience\Forest\Day_Wind\wind1_1		2760776
 	623044456	background_3	.cache\1F\{1F0DB1C3-C47B-E7CB-6665-6FA7C48FD83E}.wem		\Containers\Vesper_W11\World_Ambience\Forest\Rain_Bed\background_3		4404996
 	651873864	footstep_gravel_04_4	.cache\15\{15E13C32-9697-99EE-EC4C-1544967C9529}.wem		\Containers\Vesper_W11\Footsteps\Gravel\footstep_gravel_04_4		262808
-	652031760	background_03_3	.cache\BF\{BF4B6900-9408-F4F1-7E6C-3C5FF43C3BD8}.wem		\Containers\Vesper_W11\World_Ambience\SnowMountain\Snow_Wind\background_03_3		2536096
 	668502983	rdwind_8	.cache\14\{143490F8-D5CF-3D6A-4096-6F810904333D}.wem		\Containers\Vesper_W11\World_Ambience\SnowMountain\Snow_Gusts\rdwind_8		320538
 	680322870	rdwind_05_5	.cache\62\{62390A15-9E48-E5ED-D4A7-8A4144DCC7C3}.wem		\Containers\Vesper_W11\World_Ambience\SnowMountain\Snow_Gusts\rdwind_05_5		301030
 	686412050	rdbug_2	.cache\0A\{0A5D76B6-7E95-AD44-4137-F51A35B6805C}.wem		\Containers\Vesper_W11\World_Ambience\Forest\Day_Bugs\rdbug_2		492096
 	687710507	rdgrass_2	.cache\93\{93CA1A13-C9CE-1A87-94FA-12A1489FEC50}.wem		\Containers\Vesper_W11\World_Ambience\Forest\Day_Grass\rdgrass_2		384096
-	691276197	ojriver_1	.cache\13\{1387D774-6A94-5A83-E8E2-F24912A6481B}.wem		\Containers\Vesper_W11\Lake_Ambience\ojriver_1		2176216
 	698984493	rainbackground_2	.cache\DB\{DB4CEED2-BD15-02E3-7683-C3C47F7496D5}.wem		\Containers\Vesper_W11\World_Ambience\Forest\Rain_Heavy\rainbackground_2		5457412
-	758969944	background_02_2	.cache\0F\{0F715D7B-419D-79C1-68C7-0A66A494B2F8}.wem		\Containers\Vesper_W11\World_Ambience\SnowMountain\Snow_Wind\background_02_2		4656096
 	762505329	rdwind_06_6	.cache\24\{24C4C612-BE2D-3457-7F8A-39D2FB81E8C0}.wem		\Containers\Vesper_W11\World_Ambience\SnowMountain\Snow_Gusts\rdwind_06_6		387278
 	818668366	rdwind_04_4	.cache\F3\{F3CB4E94-64DA-E72B-EBE7-FD69872318B9}.wem		\Containers\Vesper_W11\World_Ambience\SnowMountain\Snow_Gusts\rdwind_04_4		387278
 	824123375	footstep_gravel_5	.cache\3C\{3C6E9624-23EB-489A-BAB2-4A30A0CC166F}.wem		\Containers\Vesper_W11\Footsteps\Gravel\footstep_gravel_5		114592
 	830203912	rdbird_02_2	.cache\73\{73A11CE6-AD4F-576D-33BD-CCF91F007112}.wem		\Containers\Vesper_W11\World_Ambience\Forest\Day_Birds\rdbird_02_2		204096
 	873003008	rdwind1_1	.cache\43\{43075A59-E9E2-B13E-EBE6-B538FAD82FA0}.wem		\Containers\Vesper_W11\World_Ambience\Forest\Day_Gusts\rdwind1_1		600096
 	881409903	rdwind_02_2	.cache\30\{305CEAB4-3E19-0E4C-FA03-DCD985545437}.wem		\Containers\Vesper_W11\World_Ambience\SnowMountain\Snow_Gusts\rdwind_02_2		320536
-	898112094	wind1_1	.cache\11\{111A047F-26E0-284A-6BF2-3FB7DA261BA5}.wem		\Containers\Vesper_W11\World_Ambience\Forest\Day_Wind\wind1_1		2760776
 	904345040	footstep_wet4_4	.cache\EF\{EFD4192D-63A0-9C81-106F-55821BB7402A}.wem		\Containers\Vesper_W11\Footsteps\Mud\footstep_wet4_4		31006
 	920295052	rdbird_4	.cache\D3\{D310E02D-2AE7-A5D9-5527-D4FF570C670C}.wem		\Containers\Vesper_W11\World_Ambience\Forest\Day_Birds\rdbird_4		180096
 	941576130	rdgrass_3	.cache\C0\{C04C06C7-74F0-99FB-6238-230103CAB547}.wem		\Containers\Vesper_W11\World_Ambience\Forest\Rain_Grass\rdgrass_3		1071120

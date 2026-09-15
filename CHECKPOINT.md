@@ -1,4 +1,14 @@
-# 최신 전달 — 새 PC 자동 설정 브릿지 (2026-09-15)
+# 최신 전달 — Vesper Sound Director MVP (2026-09-15)
+
+Unity의 **Vesper → Sound Director → Open**에서 장면 읽기 → AI 연출 설계 → 변경안 검토 → 적용·A/B·복원을 사용할 수 있습니다. W11의 7개 대상과 별도 Sound Lab의 3개 대상에 같은 계약·실행기를 적용했습니다. 보유 WAV 76개 중 17개 환경음 풀을 AI가 선택하며, 발소리는 기존 게임이 유지합니다. [사용 안내·구현 범위·시연 순서](Audio/SOUND_DIRECTOR.md)
+
+검증: Unity 편집기/모의 API 계약 45개, W11 실제 Wwise 재생 16개, Lab 실제 재생 14개, 원래 게임 회귀 88개 통과. 거리별 물소리의 실제 PCM 출력과 비클리핑, 기존 발소리 네 종류의 개별 출력을 확인했습니다. 35개 소스의 SDK 비활성 컴파일과 Windows 빌드·네이티브 DLL·세 Bank 포함도 확인했습니다. [편집기 검사](Audio/Director/editor-validation.json), [재생·출력 측정](Audio/Director/audio-validation.json), [Windows 빌드](Audio/Director/build-validation.json)
+
+**실제 AI API 호출은 키가 없어 아직 검증하지 못했습니다.** Unity 연결 설정에서 API 키를 입력해야 합니다. 저장소의 초기 연출과 “예제 불러오기”는 `Example · AI 아님`으로 표시하는 수동 예제입니다. 사람의 청취 평가와 Windows 실행도 별도 확인이 필요합니다. 아래는 이전 전달 기록입니다.
+
+---
+
+# 새 PC 자동 설정 브릿지 (2026-09-15)
 
 다른 개발자가 `feat/wwise-w11`을 받아 Unity 6000.5.7f1로 `Unity/Vesper`를 열면 경로·SDK 활성화·Bank 준비 상태를 자동 확인합니다. 처음 열린 빈 장면은 W11로 전환합니다. 플레이에는 별도 Wwise Authoring 실행이 필요하지 않으며, 음향 편집용 설치 경로는 PC별로 찾습니다.
 

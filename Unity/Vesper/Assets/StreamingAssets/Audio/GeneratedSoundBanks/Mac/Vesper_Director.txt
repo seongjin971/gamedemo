@@ -1,0 +1,22 @@
+Event	ID	Name			Wwise Object Path	Notes
+	105733754	SD_Play_river			\Vesper_Director\SD_Play_river	
+	166483746	SD_Play_grass			\Vesper_Director\SD_Play_grass	
+	278767994	SD_Play_rain_bed			\Vesper_Director\SD_Play_rain_bed	
+	1053721484	SD_Play_birds			\Vesper_Director\SD_Play_birds	
+	1326310755	SD_Play_rain_gusts			\Vesper_Director\SD_Play_rain_gusts	
+	1845976100	SD_Play_snow_gusts			\Vesper_Director\SD_Play_snow_gusts	
+	1870378077	SD_Play_snow_bed			\Vesper_Director\SD_Play_snow_bed	
+	1940250954	SD_Play_night_bed			\Vesper_Director\SD_Play_night_bed	
+	1996043688	SD_Play_night_bugs			\Vesper_Director\SD_Play_night_bugs	
+	2081843281	SD_Play_owls			\Vesper_Director\SD_Play_owls	
+	2259052028	SD_Play_snow_wolves			\Vesper_Director\SD_Play_snow_wolves	
+	2854908223	SD_Play_day_gusts			\Vesper_Director\SD_Play_day_gusts	
+	3197355854	SD_Play_heavy_rain			\Vesper_Director\SD_Play_heavy_rain	
+	3343933192	SD_Play_wolves			\Vesper_Director\SD_Play_wolves	
+	3739052175	SD_Play_day_wind			\Vesper_Director\SD_Play_day_wind	
+	3882857679	SD_Play_wet_grass			\Vesper_Director\SD_Play_wet_grass	
+	4071771764	SD_Play_day_bugs			\Vesper_Director\SD_Play_day_bugs	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	984235394	SD_Gain			\Vesper_Director\SD_Gain	
+

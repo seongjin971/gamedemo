@@ -1,0 +1,68 @@
+{
+  "catalogFiles": 76,
+  "availablePools": 17,
+  "banks": {
+    "Mac": {
+      "events": 17,
+      "bytes": 6179,
+      "mediaBank": "Vesper_W11",
+      "sha256": "df04cbbc9d5e5b7d727dc5b4f48d90e460ceb795fca078d6ffbcdfdd3c32de0b"
+    },
+    "Windows": {
+      "events": 17,
+      "bytes": 6179,
+      "mediaBank": "Vesper_W11",
+      "sha256": "df04cbbc9d5e5b7d727dc5b4f48d90e460ceb795fca078d6ffbcdfdd3c32de0b"
+    }
+  },
+  "liveAIValidated": false,
+  "humanListeningValidated": false,
+  "signals": {
+    "w11": {
+      "full-direction": {
+        "seconds": 2.997333333333333,
+        "rms": 0.0007109414077801769,
+        "peak": 0.0037841796875,
+        "clippedSamples": 0
+      },
+      "original": {
+        "seconds": 2.005333333333333,
+        "rms": 0.0005548375807889119,
+        "peak": 0.00250244140625,
+        "clippedSamples": 0
+      },
+      "water-near": {
+        "seconds": 3.008,
+        "rms": 0.0037430209775588543,
+        "peak": 0.01953125,
+        "clippedSamples": 0
+      },
+      "water-far": {
+        "seconds": 2.005333333333333,
+        "rms": 0.0,
+        "peak": 0.0,
+        "clippedSamples": 0
+      }
+    },
+    "lab": {
+      "full-direction": {
+        "seconds": 2.997333333333333,
+        "rms": 0.0019893249214993523,
+        "peak": 0.01385498046875,
+        "clippedSamples": 0
+      },
+      "water-far": {
+        "seconds": 1.9946666666666666,
+        "rms": 0.0,
+        "peak": 0.0,
+        "clippedSamples": 0
+      },
+      "water-near": {
+        "seconds": 2.997333333333333,
+        "rms": 0.0037357952296205345,
+        "peak": 0.019500732421875,
+        "clippedSamples": 0
+      }
+    }
+  }
+}

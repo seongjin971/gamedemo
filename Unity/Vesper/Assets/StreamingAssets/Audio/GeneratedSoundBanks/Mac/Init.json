@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{22083B6D-9555-EF77-7690-9575444975B2}",
+    "Hash": "{5CE14298-0552-38A8-1906-5079EF39281B}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -43,6 +43,12 @@
      }
     ],
     "GameParameters": [
+     {
+      "Id": "984235394",
+      "Name": "SD_Gain",
+      "ObjectPath": "\\Game Parameters\\Vesper_Director\\SD_Gain",
+      "GUID": "{78E5E8EF-192B-43F2-A253-BA0227044F36}"
+     },
      {
       "Id": "1866329414",
       "Name": "RainIntensity",
@@ -120,6 +126,6 @@
     ]
    }
   ],
-  "FileHash": "{50D49046-31BF-4921-66D0-A42107472A7E}"
+  "FileHash": "{E2ED9CB8-F524-7D56-6215-F922D96ECEFE}"
  }
 }

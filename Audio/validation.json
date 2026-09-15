@@ -1,13 +1,13 @@
 {
-  "recorded_at_utc": "2026-09-15T00:29:54.834736+00:00",
+  "recorded_at_utc": "2026-09-15T01:36:11.074109+00:00",
   "base_commit": "8fc50948e7725cd54ff14159beb0137b52a6589f",
-  "status": "WWISE_CONNECTED_AUDIO_OUTPUT_VERIFIED_WINDOWS_BUILT",
+  "status": "SOUND_DIRECTOR_MVP_IMPLEMENTED_LIVE_AI_AWAITING_API_KEY",
   "unity_editor_installed": "6000.5.7f1",
   "audio_model_assertions_passed": 40,
   "authoring_plan_tests_passed": 8,
   "source_compile": {
     "passed": true,
-    "source_file_count": 20,
+    "source_file_count": 35,
     "wwise_enabled": false,
     "warnings_as_errors": true,
     "references": "Installed Unity 6000.5.7f1 and bundled cross-platform template URP assemblies"
@@ -46,21 +46,23 @@
     "checks_passed": 88,
     "failures": 0,
     "errors": 0,
-    "report": "Audio/unity-wwise-validation.json",
+    "report": "Audio/Director/original-regression.json",
     "output_signal_report": "Audio/output-signal-validation.json",
     "engine_output_verified": true,
     "human_listening_verified": false,
-    "graphics": "Null (batchmode -nographics -wwiseEnableWithNoGraphics); earlier rendered Editor check preserved separately"
+    "graphics": "Null (batchmode -nographics -wwiseEnableWithNoGraphics); earlier rendered Editor check preserved separately",
+    "scope": "Original game regression with Director disabled; Director playback is verified separately."
   },
   "audible_playback_note": "Non-silent Wwise engine output was recorded and measured; human listening review has not been performed.",
   "windows_runtime_verified": false,
   "windows_build": {
     "exit_code": 0,
-    "path": "Unity/Vesper/Builds/VesperWeatherWorld_W11/VesperAudio.exe",
-    "files": 213,
-    "bytes": 366000568,
+    "path": "Unity/Vesper/Builds/VesperSoundDirector/VesperDirector.exe",
+    "files": 221,
+    "bytes": 366145821,
     "bank_hashes_match": true,
-    "runtime_verified": false
+    "runtime_verified": false,
+    "report": "Audio/Director/build-validation.json"
   },
   "metal_toolchain_installed": "17C7003j",
   "editor_visible_check": {
@@ -97,6 +99,22 @@
     "authoring_discovery_checks_passed": 5,
     "authoring_discovery_report": "Audio/authoring-discovery-validation.json",
     "fresh_checkout_windows_build_succeeded": true,
-    "fresh_checkout_build_report": "Audio/fresh-clone-build-validation.json"
+    "fresh_checkout_build_report": "Audio/fresh-clone-build-validation.json",
+    "tested_commit": "b460c8086307e3b2c10031e49174f1bdbda44fb1"
+  },
+  "sound_director": {
+    "implemented": true,
+    "live_ai_verified": false,
+    "live_ai_blocker": "No OpenAI API key configured in the implementation environment. Injected HTTP contract tests are not live inference.",
+    "editor_contract_checks_passed": 45,
+    "w11_native_playback_checks_passed": 16,
+    "lab_native_playback_checks_passed": 14,
+    "catalog_files": 76,
+    "available_pools": 17,
+    "original_footsteps_preserved": true,
+    "guide": "Audio/SOUND_DIRECTOR.md",
+    "editor_report": "Audio/Director/editor-validation.json",
+    "audio_report": "Audio/Director/audio-validation.json",
+    "windows_build_report": "Audio/Director/build-validation.json"
   }
 }

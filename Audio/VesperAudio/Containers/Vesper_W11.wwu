@@ -641,7 +641,7 @@
 													<Language>SFX</Language>
 													<AudioFile>Vesper_W11\ambience\morning\background\wind1.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="898112094"/>
+														<MediaID ID="599266480"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -1056,7 +1056,7 @@
 													<Language>SFX</Language>
 													<AudioFile>Vesper_W11\ambience\rainnight\rainbackground\rainbackground-01.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="606925433"/>
+														<MediaID ID="297409289"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -2948,7 +2948,7 @@
 													<Language>SFX</Language>
 													<AudioFile>Vesper_W11\ambience\snow\background\background-02.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="758969944"/>
+														<MediaID ID="494349121"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -2973,7 +2973,7 @@
 													<Language>SFX</Language>
 													<AudioFile>Vesper_W11\ambience\snow\background\background-03.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="652031760"/>
+														<MediaID ID="544999671"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -3406,7 +3406,7 @@
 									<Language>SFX</Language>
 									<AudioFile>Vesper_W11\ambience\morning\object\ojriver.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="691276197"/>
+										<MediaID ID="537366305"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>

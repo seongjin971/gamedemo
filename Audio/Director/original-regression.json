@@ -1,0 +1,269 @@
+{
+  "scope": "Unity Play Mode: actual Wwise SDK, bank loading, engine sync queries, footstep events, restart and master output WAV capture; no human listening or Windows runtime verification",
+  "unityVersion": "6000.5.7f1",
+  "failures": 0,
+  "walkContacts": 4,
+  "runContacts": 6,
+  "calibratedPhases": [
+    0.32499998807907104,
+    0.8416666388511658,
+    0.3916666805744171,
+    0.8833333253860474
+  ],
+  "checks": [
+    "PASS Wwise initializes and loads Init/Vesper_W11 banks: Wwise connected",
+    "PASS World and lake ambience each start once",
+    "PASS Wwise master output capture starts",
+    "PASS Actual animation clips and foot bones calibrated",
+    "PASS Left and right foot contacts have distinct phases",
+    "PASS Ground support at 0m",
+    "PASS Gravel/Forest at 0m",
+    "PASS RTPC ranges at 0m",
+    "PASS Wwise receives rain/time RTPCs at 0m",
+    "PASS Wwise receives area/surface syncs at 0m",
+    "PASS Ground support at 25m",
+    "PASS Rock/Forest at 25m",
+    "PASS RTPC ranges at 25m",
+    "PASS Wwise receives rain/time RTPCs at 25m",
+    "PASS Wwise receives area/surface syncs at 25m",
+    "PASS Lake emitter remains at the surveyed water position",
+    "PASS Camera zoom/orbit preserves player-based listener distance and follows camera orientation",
+    "PASS Ground support at 150m",
+    "PASS Mud/Forest at 150m",
+    "PASS RTPC ranges at 150m",
+    "PASS Wwise receives rain/time RTPCs at 150m",
+    "PASS Wwise receives area/surface syncs at 150m",
+    "PASS Rain grows in Rainwood",
+    "PASS Ground support at 192m",
+    "PASS Rock/Forest at 192m",
+    "PASS RTPC ranges at 192m",
+    "PASS Wwise receives rain/time RTPCs at 192m",
+    "PASS Wwise receives area/surface syncs at 192m",
+    "PASS Global rain remains active at the abbey",
+    "PASS Ground support at 323m",
+    "PASS Snow/SnowMountain at 323m",
+    "PASS RTPC ranges at 323m",
+    "PASS Wwise receives rain/time RTPCs at 323m",
+    "PASS Wwise receives area/surface syncs at 323m",
+    "PASS Rain clears in the snow region",
+    "PASS Area stays SnowMountain inside hysteresis band",
+    "PASS Area returns to Forest past lower boundary",
+    "PASS Area stays Forest inside hysteresis band",
+    "PASS Area enters SnowMountain past upper boundary",
+    "PASS R reset refreshes area and weather",
+    "PASS Idle animation does not emit footsteps",
+    "PASS No false ground support while airborne",
+    "PASS Walk route accepted: ",
+    "PASS Walk arrived on supported ground: ",
+    "PASS Walk produces bounded foot contacts",
+    "PASS Moving contacts use Rock surface",
+    "PASS Left/right contacts occur at distinct instants",
+    "PASS Stopping movement stops contact emission",
+    "PASS Run route accepted: ",
+    "PASS Run arrived on supported ground: ",
+    "PASS Movement actually entered the run animation",
+    "PASS Run produces bounded foot contacts",
+    "PASS Moving contacts use Rock surface",
+    "PASS Left/right contacts occur at distinct instants",
+    "PASS Stopping movement stops contact emission",
+    "PASS Walking/running contacts post Wwise events without errors",
+    "PASS Only one world ambience event remains after region changes and R reset",
+    "PASS Disabling the bridge stops its world ambience",
+    "PASS Re-enabling reloads banks and starts each ambience once",
+    "PASS Isolated Gravel footstep capture starts",
+    "PASS Walk route accepted: ",
+    "PASS Walk arrived on supported ground: ",
+    "PASS Walk produces bounded foot contacts",
+    "PASS Moving contacts use Gravel surface",
+    "PASS Left/right contacts occur at distinct instants",
+    "PASS Stopping movement stops contact emission",
+    "PASS Isolated Rock footstep capture starts",
+    "PASS Walk route accepted: ",
+    "PASS Walk arrived on supported ground: ",
+    "PASS Walk produces bounded foot contacts",
+    "PASS Moving contacts use Rock surface",
+    "PASS Left/right contacts occur at distinct instants",
+    "PASS Stopping movement stops contact emission",
+    "PASS Isolated Mud footstep capture starts",
+    "PASS Walk route accepted: ",
+    "PASS Walk arrived on supported ground: ",
+    "PASS Walk produces bounded foot contacts",
+    "PASS Moving contacts use Mud surface",
+    "PASS Left/right contacts occur at distinct instants",
+    "PASS Stopping movement stops contact emission",
+    "PASS Isolated Snow footstep capture starts",
+    "PASS Walk route accepted: ",
+    "PASS Walk arrived on supported ground: ",
+    "PASS Walk produces bounded foot contacts",
+    "PASS Moving contacts use Snow surface",
+    "PASS Left/right contacts occur at distinct instants",
+    "PASS Stopping movement stops contact emission",
+    "PASS Ambience resumes after isolated footstep checks"
+  ],
+  "errors": [],
+  "samples": [
+    {
+      "progress": 0.0,
+      "timeOfDay": 8.0,
+      "rainIntensity": 0.0,
+      "surface": "Gravel",
+      "area": "Forest",
+      "grounded": true
+    },
+    {
+      "progress": 25.0,
+      "timeOfDay": 11.888053894042969,
+      "rainIntensity": 0.0,
+      "surface": "Rock",
+      "area": "Forest",
+      "grounded": true
+    },
+    {
+      "progress": 150.0,
+      "timeOfDay": 20.756467819213867,
+      "rainIntensity": 0.756468653678894,
+      "surface": "Mud",
+      "area": "Forest",
+      "grounded": true
+    },
+    {
+      "progress": 192.0,
+      "timeOfDay": 21.27204704284668,
+      "rainIntensity": 1.0,
+      "surface": "Rock",
+      "area": "Forest",
+      "grounded": true
+    },
+    {
+      "progress": 323.0,
+      "timeOfDay": 23.0,
+      "rainIntensity": 0.0,
+      "surface": "Snow",
+      "area": "SnowMountain",
+      "grounded": true
+    }
+  ],
+  "movements": [
+    {
+      "running": false,
+      "finalPosition": {
+        "x": 0.0,
+        "y": 2.200000047683716,
+        "z": -197.97622680664062
+      },
+      "target": 198.0,
+      "maxRunBlend": 0.0,
+      "safetyStops": 0,
+      "lastReject": "",
+      "contactTimes": [
+        322.9666748046875,
+        323.6000061035156,
+        324.20001220703125,
+        324.8333435058594
+      ]
+    },
+    {
+      "running": true,
+      "finalPosition": {
+        "x": 0.0,
+        "y": 2.200000047683716,
+        "z": -203.9825439453125
+      },
+      "target": 204.0,
+      "maxRunBlend": 1.0,
+      "safetyStops": 0,
+      "lastReject": "",
+      "contactTimes": [
+        339.29998779296875,
+        339.8666687011719,
+        340.3333435058594,
+        340.76666259765625,
+        341.2166748046875,
+        341.6666564941406
+      ]
+    },
+    {
+      "running": false,
+      "finalPosition": {
+        "x": 0.0,
+        "y": 0.800000011920929,
+        "z": -5.9782843589782715
+      },
+      "target": 6.0,
+      "maxRunBlend": 0.0,
+      "safetyStops": 0,
+      "lastReject": "",
+      "contactTimes": [
+        381.23333740234375,
+        381.8666687011719,
+        382.4666748046875,
+        383.1000061035156
+      ]
+    },
+    {
+      "running": false,
+      "finalPosition": {
+        "x": 0.0,
+        "y": 1.9000000953674316,
+        "z": -27.97736167907715
+      },
+      "target": 28.0,
+      "maxRunBlend": 0.0,
+      "safetyStops": 0,
+      "lastReject": "",
+      "contactTimes": [
+        472.9166564941406,
+        473.54998779296875,
+        474.1499938964844,
+        474.7833251953125
+      ]
+    },
+    {
+      "running": false,
+      "finalPosition": {
+        "x": 0.0,
+        "y": 2.200000047683716,
+        "z": -155.97622680664062
+      },
+      "target": 156.0,
+      "maxRunBlend": 0.0,
+      "safetyStops": 0,
+      "lastReject": "",
+      "contactTimes": [
+        564.6166381835938,
+        565.2666625976562,
+        565.8499755859375,
+        566.4833374023438,
+        567.0999755859375
+      ]
+    },
+    {
+      "running": false,
+      "finalPosition": {
+        "x": 0.0,
+        "y": 13.84598159790039,
+        "z": -323.9807434082031
+      },
+      "target": 324.0,
+      "maxRunBlend": 0.0,
+      "safetyStops": 0,
+      "lastReject": "",
+      "contactTimes": [
+        599.3333129882812,
+        599.933349609375,
+        600.566650390625,
+        601.1500244140625
+      ]
+    }
+  ],
+  "wwiseReady": true,
+  "wwiseEvents": 33,
+  "wwiseErrors": 0,
+  "outputCapture": "Audio/Director/original-regression.wav",
+  "footstepCaptures": [
+    "Audio/Director/original-regression-footsteps-Gravel.wav",
+    "Audio/Director/original-regression-footsteps-Rock.wav",
+    "Audio/Director/original-regression-footsteps-Mud.wav",
+    "Audio/Director/original-regression-footsteps-Snow.wav"
+  ]
+}

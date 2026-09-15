@@ -1,0 +1,21 @@
+{
+  "windowsBuildSucceeded": true,
+  "windowsRuntimeTested": false,
+  "nativeWwisePluginPresent": true,
+  "banks": {
+    "Init": {
+      "bytes": 710,
+      "sha256": "35e6a15f9b92be0462ce856eb458fd2378092aba2ad4880eba18e4f7d2ba0b10"
+    },
+    "Vesper_W11": {
+      "bytes": 74275108,
+      "sha256": "2f3e88734b76122e15651791f48f2c3ecb6d693fea2a94f73b81063eba6f792d"
+    },
+    "Vesper_Director": {
+      "bytes": 6179,
+      "sha256": "df04cbbc9d5e5b7d727dc5b4f48d90e460ceb795fca078d6ffbcdfdd3c32de0b"
+    }
+  },
+  "playerPath": "Unity/Vesper/Builds/VesperSoundDirector/VesperDirector.exe",
+  "note": "Editor AI UI is not included in the runtime build; the saved example plan and A/B playback are included."
+}

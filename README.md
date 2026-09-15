@@ -1,4 +1,8 @@
-# VESPER — The Last Sanctuary
+# VESPER — Sound Director
+
+**Unity 장면과 연출 의도를 실제 Wwise 사운드 계획으로 연결하는 AI 사운드 디렉터 MVP**입니다. Unity에서 **Vesper → Sound Director → Open**으로 사용합니다. 자연어 설계·변경안 검토·적용·A/B·이전 연출 복원과 별도 Sound Lab 장면을 제공합니다. [사용 방법과 검증 범위](Audio/SOUND_DIRECTOR.md)
+
+실제 AI 설계에는 OpenAI API 키가 필요합니다. 포함된 초기 연출과 **예제 불러오기**는 수동 작성된 기능 확인용 예제이며 AI 결과로 표시하지 않습니다.
 
 강가에서 어두운 숲과 비 오는 폐허를 지나 밤 눈보라 설산으로 이어지는 Unity 탐험 데모입니다. 현재 브랜치는 **Weather World W11**이며 Wwise 발소리·환경음을 연결했습니다. 환경음·발소리 WAV 76개를 `sfx/`에 개발용 원본으로 함께 제공합니다.
 

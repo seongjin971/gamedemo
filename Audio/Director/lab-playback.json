@@ -1,0 +1,29 @@
+{
+  "scope": "Real Unity Editor + native Wwise: bank loading, events, per-object RTPC, A/B and isolated water distance captures. No live AI call or human listening.",
+  "scene": "Assets/Vesper/Scenes/Expansion/VesperSoundDirector_Lab.unity",
+  "unityVersion": "6000.5.7f1",
+  "failures": 0,
+  "postedEvents": 7,
+  "checks": [
+    "PASS Native Wwise initialized and all Director loops posted",
+    "PASS Every planned layer has its own registered emitter",
+    "PASS B audition reaches full direction mix",
+    "PASS Start real Wwise output capture: full-direction",
+    "PASS A audition restores original ambience",
+    "PASS A audition actually mutes Director output in Wwise",
+    "PASS A/B switching does not repost continuous loops",
+    "PASS A second valid plan reloads as a single isolated water layer",
+    "PASS Near water: real per-emitter RTPC is audible; AK_Success, -8 dB, distance 2, envelope 1, mix 1",
+    "PASS Start real Wwise output capture: water-near",
+    "PASS Beyond water radius: real per-emitter RTPC reaches silence",
+    "PASS Start real Wwise output capture: water-far",
+    "PASS Disabling releases owned voices and restores baseline",
+    "PASS Re-enable rebuilds the plan without duplicate voices or Wwise errors"
+  ],
+  "errors": [],
+  "captures": [
+    "Audio/Director/lab-playback-full-direction.wav",
+    "Audio/Director/lab-playback-water-near.wav",
+    "Audio/Director/lab-playback-water-far.wav"
+  ]
+}
